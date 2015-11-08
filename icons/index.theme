@@ -1,7 +1,21 @@
 [Icon Theme]
 Name=Breeze
+Name[ca]=Brisa
+Name[en_GB]=Breeze
+Name[gl]=Breeze
+Name[nl]=Breeze
+Name[pt_BR]=Breeze
+Name[sv]=Breeze
+Name[x-test]=xxBreezexx
 
 Comment=Default Plasma 5 Theme
+Comment[ca]=Tema del Plasma 5 per defecte
+Comment[en_GB]=Default Plasma 5 Theme
+Comment[gl]=Tema predeterminado de Plasma 5
+Comment[nl]=Standaard Plasma 5 thema
+Comment[pt_BR]=Tema padrão do Plasma 5
+Comment[sv]=Plasma 5 standardtema
+Comment[x-test]=xxDefault Plasma 5 Themexx
 
 DisplayDepth=32
 
