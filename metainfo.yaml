@@ -6,6 +6,6 @@ platforms:
     - name: All
 portingAid: false
 deprecated: false
-release: false
+release: true
 libraries:
 cmakename:
