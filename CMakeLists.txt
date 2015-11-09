@@ -12,8 +12,14 @@ set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH} ${ECM_KDE_MODULE_DIR} ${CMAKE_CURRENT_S
 set(KF5_VERSION "5.16.0") # handled by release scripts
 
 include(KDEInstallDirs)
+include(KDECMakeSettings)
+include(KDECompilerSettings)
 include(GtkUpdateIconCache)
 
+# Dependencies
+set(REQUIRED_QT_VERSION "5.3.0")
+
+add_subdirectory(autotests)
 add_subdirectory(icons)
 add_subdirectory(icons-dark)
 
