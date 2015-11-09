@@ -4,8 +4,11 @@ Name[ca]=Brisa fosca
 Name[en_GB]=Breeze Dark
 Name[gl]=Breeze escuro
 Name[nl]=Breeze Dark
+Name[pt]=Brisa Escura
 Name[pt_BR]=Breeze Dark
+Name[sk]=Tmavý vánok
 Name[sv]=Breeze mörk
+Name[uk]=Темна Breeze
 Name[x-test]=xxBreeze Darkxx
 
 Comment=Default Plasma 5 Theme for Dark themes
@@ -13,8 +16,11 @@ Comment[ca]=Tema del Plasma 5 per defecte per temes foscos
 Comment[en_GB]=Default Plasma 5 Theme for Dark themes
 Comment[gl]=Tema predeterminado de Plasma 5 para temas escuros
 Comment[nl]=Standaard Plasma 5 thema voor donkere thema's
+Comment[pt]=Tema Escuro Predefinido do Plasma 5
 Comment[pt_BR]=Tema padrão do Plasma 5 para temas escuros
+Comment[sk]=Predvolená téma Plasma 5 pre tmavé témy
 Comment[sv]=Plasma 5 standardtema för mörka teman
+Comment[uk]=Тема піктограм для Плазми 5 для темних тем
 Comment[x-test]=xxDefault Plasma 5 Theme for Dark themesxx
 
 DisplayDepth=32
