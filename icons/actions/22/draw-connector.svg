@@ -112,6 +112,55 @@
        id="linearGradient3452"
        xlink:href="#linearGradient4300-8"
        inkscape:collect="always" />
+    <linearGradient
+       gradientTransform="matrix(1,0,0,-1,-14,78)"
+       inkscape:collect="always"
+       xlink:href="#linearGradient4410"
+       id="linearGradient4193"
+       x1="54"
+       y1="31"
+       x2="40"
+       y2="17"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4300-8"
+       id="linearGradient4195"
+       x1="32"
+       y1="61"
+       x2="32"
+       y2="3"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       y2="17"
+       x2="40"
+       y1="31"
+       x1="54"
+       gradientTransform="matrix(1,0,0,-1,503.93261,656.69754)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient4197"
+       xlink:href="#linearGradient4410"
+       inkscape:collect="always" />
+    <linearGradient
+       gradientTransform="translate(517.93261,578.69754)"
+       y2="47"
+       x2="47"
+       y1="61"
+       x1="47"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient4199"
+       xlink:href="#linearGradient4351"
+       inkscape:collect="always" />
+    <linearGradient
+       gradientTransform="translate(517.93261,578.69754)"
+       y2="3"
+       x2="32"
+       y1="61"
+       x1="32"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient4201"
+       xlink:href="#linearGradient4300-8"
+       inkscape:collect="always" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -120,9 +169,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="22.627416"
-     inkscape:cx="5.4042324"
-     inkscape:cy="12.032563"
+     inkscape:zoom="31.999999"
+     inkscape:cx="-2.2948398"
+     inkscape:cy="10.281659"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -131,7 +180,7 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="1920"
-     inkscape:window-height="1021"
+     inkscape:window-height="1009"
      inkscape:window-x="-4"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -182,7 +231,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -191,25 +240,29 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-326,-534.3622)">
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#1d99f3;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 329,550.3622 0,3 3,0 0,-3 -3,0 z m 1,1 1,0 0,1 -1,0 0,-1 z"
+       id="rect4143" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#1d99f3;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 342,537.3622 0,3 3,0 0,-3 -3,0 z m 1,1 1,0 0,1 -1,0 0,-1 z"
+       id="rect4143-8" />
     <g
-       transform="translate(326,-496)"
-       id="layer1-5"
+       transform="matrix(-0.75000002,0,0,0.75000016,345.25,-233.65957)"
+       id="layer1-7"
        inkscape:label="Capa 1">
-      <path
-         id="rect3019"
-         d="m 16,1035.6747 -10.6875,10.6875 0.6875,0 0,0.6875 10.6875,-10.6875 -0.6875,0 0,-0.6875 z"
-         style="fill:#4d4d4d;fill-opacity:1;stroke:none"
-         inkscape:connector-curvature="0" />
-      <path
-         id="rect4143"
-         d="m 3,1046.3622 0,3 3,0 0,-3 -3,0 z m 1,1 1,0 0,1 -1,0 0,-1 z"
-         style="opacity:1;fill:#1d99f3;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         inkscape:connector-curvature="0" />
-      <path
-         id="rect4143-8"
-         d="m 16,1033.3622 0,3 3,0 0,-3 -3,0 z m 1,1 1,0 0,1 -1,0 0,-1 z"
-         style="opacity:1;fill:#1d99f3;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         inkscape:connector-curvature="0" />
+      <g
+         inkscape:label="Capa 1"
+         id="layer1-3"
+         transform="translate(-461.71429,504.57143)" />
     </g>
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#4d4d4d;fill-opacity:1;stroke:none"
+       d="m 342,539.6747 -10.6875,10.6875 0.6875,0 0,0.6875 10.6875,-10.6875 -0.6875,0 0,-0.6875 z"
+       id="rect3019" />
   </g>
 </svg>
