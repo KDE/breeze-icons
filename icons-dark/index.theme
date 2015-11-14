@@ -2,6 +2,7 @@
 Name=Breeze Dark
 Name[ca]=Brisa fosca
 Name[en_GB]=Breeze Dark
+Name[es]=Brisa oscura
 Name[gl]=Breeze escuro
 Name[ko]=어두운 Breeze
 Name[nl]=Breeze Dark
@@ -18,6 +19,7 @@ Name[x-test]=xxBreeze Darkxx
 Comment=Default Plasma 5 Theme for Dark themes
 Comment[ca]=Tema del Plasma 5 per defecte per temes foscos
 Comment[en_GB]=Default Plasma 5 Theme for Dark themes
+Comment[es]=Tema por omisión de Plasma 5 para temas oscuros
 Comment[gl]=Tema predeterminado de Plasma 5 para temas escuros
 Comment[ko]=기본 Plasma 5 어두운 테마
 Comment[nl]=Standaard Plasma 5 thema voor donkere thema's
