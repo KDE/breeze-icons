@@ -14,7 +14,7 @@
    id="svg3049"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="im-invisible-user.svg"
+   sodipodi:docname="im-user-online.svg"
    inkscape:export-filename="/home/uri/.kde/share/icons/NITRUX-KDE/16x16/actions/view-right-new.png"
    inkscape:export-xdpi="30"
    inkscape:export-ydpi="30"
@@ -40,9 +40,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="24.411306"
-     inkscape:cx="-2.3603806"
-     inkscape:cy="12.921965"
+     inkscape:zoom="17.2614"
+     inkscape:cx="0.11980783"
+     inkscape:cy="12.098073"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -58,7 +58,8 @@
      inkscape:showpageshadow="false"
      borderlayer="true"
      inkscape:snap-bbox="true"
-     inkscape:snap-global="true">
+     inkscape:snap-global="true"
+     inkscape:object-nodes="true">
     <inkscape:grid
        type="xygrid"
        id="grid4085" />
@@ -87,7 +88,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -97,20 +98,14 @@
      id="layer1"
      transform="translate(-421.71429,-531.79074)">
     <path
-       style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-opacity:1"
+       style="opacity:1;fill:#43be80;fill-opacity:1;stroke:none;stroke-opacity:1"
        d="M 8 9 A 5 4.5 0 0 0 3 13.5 A 5 4.5 0 0 0 3.0332031 14 L 4 14 L 4.0449219 14 L 11.955078 14 L 12 14 L 12.962891 14 A 5 4.5 0 0 0 13 13.5 A 5 4.5 0 0 0 8 9 z M 8 10 A 4 3.5 0 0 1 11.955078 13 L 4.0449219 13 A 4 3.5 0 0 1 8 10 z "
        transform="translate(421.71429,531.79074)"
        id="path16" />
     <path
-       style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:none"
-       d="M 8 2 A 3 3 0 0 0 5 5 A 3 3 0 0 0 8 8 A 3 3 0 0 0 11 5 A 3 3 0 0 0 8 2 z M 9.2929688 3 L 10 3.7070312 L 6.7070312 7 L 6 6.2929688 L 9.2929688 3 z "
+       style="opacity:1;fill:#43be80;fill-opacity:1;stroke:none"
+       d="M 8 2 C 6.3431458 2 5 3.3431458 5 5 C 5 6.6568542 6.3431458 8 8 8 C 9.6568542 8 11 6.6568542 11 5 C 11 3.3431458 9.6568542 2 8 2 z M 9.5917969 3.2324219 L 10.298828 3.9394531 L 7.46875 6.7675781 L 5.7011719 5 L 6.4082031 4.2929688 L 7.46875 5.3535156 L 9.5917969 3.2324219 z "
        transform="translate(421.71429,531.79074)"
        id="path4167" />
-    <path
-       inkscape:connector-curvature="0"
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none"
-       d="m 431.00726,534.79074 0.70703,0.70703 -3.29297,3.29297 -0.70703,-0.70703 z"
-       id="path4167-7"
-       sodipodi:nodetypes="ccccc" />
   </g>
 </svg>

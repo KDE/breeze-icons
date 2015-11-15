@@ -13,7 +13,7 @@
    height="16"
    id="svg3049"
    version="1.1"
-   inkscape:version="0.91+devel r"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="im-kick-user.svg"
    inkscape:export-filename="/home/uri/.kde/share/icons/NITRUX-KDE/16x16/actions/view-right-new.png"
    inkscape:export-xdpi="30"
@@ -41,7 +41,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="48.822612"
-     inkscape:cx="1.2373157"
+     inkscape:cx="5.518119"
      inkscape:cy="8.946937"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -50,10 +50,10 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="2560"
-     inkscape:window-height="964"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
      inkscape:window-x="-4"
-     inkscape:window-y="34"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:showpageshadow="false"
      borderlayer="true"
@@ -99,7 +99,15 @@
     <path
        inkscape:connector-curvature="0"
        style="opacity:1;fill:#da4453;fill-opacity:1;stroke:none;stroke-opacity:1"
-       d="m 429.71431,533.79074 a 3,3 0 0 0 -3,3 3,3 0 0 0 3,3 3,3 0 0 0 3,-3 3,3 0 0 0 -3,-3 z m 0,1 a 2,2 0 0 1 2,2 2,2 0 0 1 -2,2 2,2 0 0 1 -2,-2 2,2 0 0 1 2,-2 z m 0,6 a 5,4.5 0 0 0 -5,4.5 5,4.5 0 0 0 0.0332,0.5 h 0.96679 0.0449 7.91016 0.0449 0.96289 a 5,4.5 0 0 0 0.0371,-0.5 5,4.5 0 0 0 -5,-4.5 z m 0,1 a 4,3.5 0 0 1 3.95508,3 h -7.91016 a 4,3.5 0 0 1 3.95508,-3 z"
-       id="path16" />
+       d="m 429.71431,533.79074 c -1.65685,0 -3,1.34315 -3,3 0,1.65685 1.34315,3 3,3 1.65685,0 3,-1.34315 3,-3 0,-1.65685 -1.34315,-3 -3,-3 z m 0,7 c -2.76142,0 -5,2.01472 -5,4.5 7.4e-4,0.16709 0.0118,0.33402 0.0332,0.5 l 0.96679,0 0.0449,0 7.91016,0 0.0449,0 0.96289,0 c 0.0227,-0.16592 0.0351,-0.33284 0.0371,-0.5 0,-2.48528 -2.23858,-4.5 -5,-4.5 z m 0,1 c 1.98692,0.002 3.67124,1.27928 3.95508,3 l -7.91016,0 c 0.28384,-1.72072 1.96816,-2.99831 3.95508,-3 z"
+       id="path16"
+       sodipodi:nodetypes="sssssccccccccccccccc" />
+    <rect
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect4168"
+       width="4"
+       height="1"
+       x="427.75528"
+       y="536.29071" />
   </g>
 </svg>
