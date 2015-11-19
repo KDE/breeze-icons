@@ -1,6 +1,7 @@
 [Icon Theme]
 Name=Breeze Dark
 Name[ca]=Brisa fosca
+Name[ca@valencia]=Brisa fosca
 Name[en_GB]=Breeze Dark
 Name[es]=Brisa oscura
 Name[fi]=Breeze Dark
@@ -19,6 +20,7 @@ Name[x-test]=xxBreeze Darkxx
 
 Comment=Default Plasma 5 Theme for Dark themes
 Comment[ca]=Tema del Plasma 5 per defecte per temes foscos
+Comment[ca@valencia]=Tema del Plasma 5 per defecte per temes foscos
 Comment[en_GB]=Default Plasma 5 Theme for Dark themes
 Comment[es]=Tema por omisión de Plasma 5 para temas oscuros
 Comment[fi]=Plasma 5:n oletusteema tummille teemoille

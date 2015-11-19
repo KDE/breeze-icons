@@ -2,6 +2,7 @@
 Name=Breeze
 Name[ast]=Breeze
 Name[ca]=Brisa
+Name[ca@valencia]=Brisa
 Name[en_GB]=Breeze
 Name[es]=Brisa
 Name[fi]=Breeze
@@ -20,6 +21,7 @@ Name[x-test]=xxBreezexx
 
 Comment=Default Plasma 5 Theme
 Comment[ca]=Tema del Plasma 5 per defecte
+Comment[ca@valencia]=Tema del Plasma 5 per defecte
 Comment[en_GB]=Default Plasma 5 Theme
 Comment[es]=Tema por omisión de Plasma 5
 Comment[fi]=Plasma 5:n oletusteema
