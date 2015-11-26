@@ -18,6 +18,7 @@ Name[sl]=Sapica (temna)
 Name[sv]=Breeze mörk
 Name[uk]=Темна Breeze
 Name[x-test]=xxBreeze Darkxx
+Name[zh_CN]=暗色微风
 
 Comment=Default Plasma 5 Theme for Dark themes
 Comment[ca]=Tema del Plasma 5 per defecte per temes foscos
@@ -38,6 +39,7 @@ Comment[sl]=Privzeta tema za KDE Plasma 5 za temne teme
 Comment[sv]=Plasma 5 standardtema för mörka teman
 Comment[uk]=Тема піктограм для Плазми 5 для темних тем
 Comment[x-test]=xxDefault Plasma 5 Theme for Dark themesxx
+Comment[zh_CN]=为暗色主题设计的 默认 Plasma 5 主题
 
 DisplayDepth=32
 
