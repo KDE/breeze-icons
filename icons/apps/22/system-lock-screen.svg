@@ -47,9 +47,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="23.678311"
-     inkscape:cx="1.9714222"
-     inkscape:cy="12.881802"
+     inkscape:zoom="45.254834"
+     inkscape:cx="13.486769"
+     inkscape:cy="12.059121"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -57,10 +57,10 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1366"
-     inkscape:window-height="709"
-     inkscape:window-x="-4"
-     inkscape:window-y="0"
+     inkscape:window-width="2560"
+     inkscape:window-height="948"
+     inkscape:window-x="0"
+     inkscape:window-y="35"
      inkscape:window-maximized="1"
      inkscape:showpageshadow="false"
      showguides="true"
@@ -126,7 +126,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -143,9 +143,9 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ssssssssss" />
     <path
-       style="opacity:1;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-linecap:round"
-       d="M 11 6 A 2.0000021 2.0000014 0 0 0 9 8 L 9 10 L 7 10 L 7 15 L 15 15 L 15 10 L 13 10 L 13 8 A 2.0000021 2.0000014 0 0 0 11 6 z M 11 7 A 1 1 0 0 1 12 8 L 12 10 L 10 10 L 10 8 A 1 1 0 0 1 11 7 z M 8 11 L 9 11 L 10 11 L 12 11 L 13 11 L 14 11 L 14 14 L 8 14 L 8 11 z "
-       transform="translate(553.72253,583.11926)"
-       id="rect4190" />
+       style="opacity:1;fill:#4d4d4d;fill-opacity:1;stroke:none"
+       d="M 11 6 C 9.8920012 6 9 6.8920012 9 8 L 9 10 L 8 10 L 8 15 L 14 15 L 14 10 L 13 10 L 13 8 C 13 6.8920012 12.107999 6 11 6 z M 11 7 C 11.554 7 12 7.446 12 8 L 12 10 L 10 10 L 10 8 C 10 7.446 10.446 7 11 7 z M 9 11 L 10 11 L 12 11 L 13 11 L 13 14 L 9 14 L 9 11 z "
+       id="rect4155"
+       transform="translate(553.72253,583.11926)" />
   </g>
 </svg>
