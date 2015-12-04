@@ -1,6 +1,6 @@
 ########### install files ###############
 
-set( breeze_icon_dirs  actions apps categories devices emblems emotes mimetypes places status )
+set( breeze_icon_dirs  actions applets apps categories devices emblems emotes mimetypes places status )
 
 set(BREEZE_INSTALL_DIR ${KDE_INSTALL_FULL_ICONDIR}/breeze)
 install( DIRECTORY ${breeze_icon_dirs} DESTINATION ${BREEZE_INSTALL_DIR} )
