@@ -283,7 +283,7 @@ Type=Fixed
 [places/32]
 Size=32
 Context=Places
-Type=Fixed
+Type=Scalable
 MinSize=32
 MaxSize=48
 
