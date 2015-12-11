@@ -308,7 +308,9 @@ Type=Fixed
 [status/22]
 Size=22
 Context=Status
-Type=Fixed
+Type=Scalable
+MinSize=22
+MaxSize=32
 
 #24x24 - Fixed size - for GTK apps. - WRONG_ICON_USAGE_BY_APP - Monochrome
 [status/24]
