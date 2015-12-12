@@ -15,14 +15,51 @@
    version="1.1"
    inkscape:version="0.91 r13725"
    viewBox="0 0 22 22"
-   sodipodi:docname="format-node-smooth.svg">
+   sodipodi:docname="format-insert-node .svg">
   <defs
      id="defs4">
     <style
        type="text/css"
        id="current-color-scheme">
       .ColorScheme-Text {
-        color:#f2f2f2;
+        color:#4d4d4d;
+      }
+      .ColorScheme-Background {
+        color:#eff0f1;
+      }
+      .ColorScheme-Highlight {
+        color:#3daee9;
+      }
+      .ColorScheme-ViewText {
+        color:#31363b;
+      }
+      .ColorScheme-ViewBackground {
+        color:#fcfcfc;
+      }
+      .ColorScheme-ViewHover {
+        color:#93cee9;
+      }
+      .ColorScheme-ViewFocus{
+        color:#3daee9;
+      }
+      .ColorScheme-ButtonText {
+        color:#31363b;
+      }
+      .ColorScheme-ButtonBackground {
+        color:#eff0f1;
+      }
+      .ColorScheme-ButtonHover {
+        color:#93cee9;
+      }
+      .ColorScheme-ButtonFocus{
+        color:#3daee9;
+      }
+      </style>
+    <style
+       id="current-color-scheme-4"
+       type="text/css">
+      .ColorScheme-Text {
+        color:#4d4d4d;
       }
       .ColorScheme-Background {
         color:#eff0f1;
@@ -63,9 +100,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="32.297102"
-     inkscape:cx="4.3339715"
-     inkscape:cy="12.219104"
+     inkscape:zoom="32.927906"
+     inkscape:cx="14.879521"
+     inkscape:cy="9.7007744"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -130,7 +167,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -140,40 +177,16 @@
      id="layer1"
      transform="translate(0,-1030.3622)">
     <path
-       style="fill:currentColor;fill-opacity:1;stroke:none"
-       d="m 3,1039.3622 0,3 3,0 0,-3 -3,0 z m 1,1 1,0 0,1 -1,0 0,-1 z"
-       id="rect4145"
+       style="opacity:1;fill:currentColor;fill-opacity:1;stroke:none"
+       d="m 9,1039.3622 0,1 -6,0 0,1 6,0 0,2 4,0 0,-2 6,0 0,-1 -6,0 0,-1 z m 1,1 2,0 0,1 0,1 -2,0 z"
+       id="rect4191"
        inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccccccccc"
        class="ColorScheme-Text" />
     <path
-       inkscape:connector-curvature="0"
-       style="fill:currentColor;fill-opacity:1;stroke:none"
-       d="m 16,1039.3622 0,3 3,0 0,-3 -3,0 z m 1,1 1,0 0,1 -1,0 0,-1 z"
-       id="rect4145-3"
-       class="ColorScheme-Text" />
-    <path
-       inkscape:connector-curvature="0"
-       style="fill:#1d99f3;fill-opacity:1;stroke:none"
-       d="m 11,1038.3622 0,4 -4,0 0,-4 z m -1,1 -2,0 0,2 2,0 z"
-       id="rect4145-1"
-       sodipodi:nodetypes="cccccccccc" />
-    <rect
-       style="fill:currentColor;fill-opacity:1;stroke:none"
-       id="rect4171"
-       width="5"
-       height="1"
-       x="-16"
-       y="1040.3622"
-       transform="scale(-1,1)"
-       class="ColorScheme-Text" />
-    <rect
-       style="fill:currentColor;fill-opacity:1;stroke:none"
-       id="rect4173"
-       width="1"
-       height="1"
-       x="-7"
-       y="1040.3622"
-       transform="scale(-1,1)"
-       class="ColorScheme-Text" />
+       style="color:#4d4d4d;fill:#1d99f3;fill-opacity:1;stroke:none"
+       d="M 16 14 L 16 16 L 14 16 L 14 17 L 16 17 L 16 19 L 17 19 L 17 17 L 19 17 L 19 16 L 17 16 L 17 14 L 16 14 z "
+       transform="translate(0,1030.3622)"
+       id="rect4127-8" />
   </g>
 </svg>
