@@ -16,7 +16,45 @@
    inkscape:version="0.91 r13725"
    sodipodi:docname="audio-ready.svg">
   <defs
-     id="defs4185" />
+     id="defs4185">
+    <style
+       type="text/css"
+       id="current-color-scheme">
+      .ColorScheme-Text {
+        color:#4d4d4d;
+      }
+      .ColorScheme-Background {
+        color:#eff0f1;
+      }
+      .ColorScheme-Highlight {
+        color:#3daee9;
+      }
+      .ColorScheme-ViewText {
+        color:#31363b;
+      }
+      .ColorScheme-ViewBackground {
+        color:#fcfcfc;
+      }
+      .ColorScheme-ViewHover {
+        color:#93cee9;
+      }
+      .ColorScheme-ViewFocus{
+        color:#3daee9;
+      }
+      .ColorScheme-ButtonText {
+        color:#31363b;
+      }
+      .ColorScheme-ButtonBackground {
+        color:#eff0f1;
+      }
+      .ColorScheme-ButtonHover {
+        color:#93cee9;
+      }
+      .ColorScheme-ButtonFocus{
+        color:#3daee9;
+      }
+      </style>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -24,14 +62,14 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="9.6553148"
-     inkscape:cy="8.4362661"
+     inkscape:zoom="32"
+     inkscape:cx="10.891188"
+     inkscape:cy="5.3551849"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1006"
+     inkscape:window-width="1024"
+     inkscape:window-height="709"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -104,16 +142,16 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-1036.3622)">
-    <path
-       inkscape:connector-curvature="0"
-       style="fill:#f2f2f2;fill-opacity:1;stroke:none"
-       d="M 7.988281,1036.3622 3,1040.3583 l 0,1.0039 0,7 0,0 4.988281,3.9961 0.011719,0 1,0 0,-0.4707 0,-15.0586 0,-0.4707 -1,0 -0.011719,0 z M 8,1037.6337 l 0,13.457 -4,-3.2051 0,-7.0468 4,-3.2051 z m -8,3.7285 0,6 2,0 0,-6 -2,0 z"
-       id="path4151" />
     <circle
        r="2.0000048"
        cy="1044.3622"
-       cx="12.999995"
+       cx="12.000005"
        id="path4147"
-       style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#f67400;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate" />
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#fdbc4b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate" />
+    <path
+       style="color:#4d4d4d;fill:currentColor;fill-opacity:1;stroke:none"
+       d="M 8 2 L 4 5.1992188 L 4 10.800781 L 8 14 L 9 14 L 9 2 L 8 2 z M 2 6 L 2 10 L 3 10 L 3 6 L 2 6 z "
+       transform="translate(0,1036.3622)"
+       id="path4160" />
   </g>
 </svg>
