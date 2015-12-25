@@ -1,27 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="22"
-   height="22"
-   id="svg3869"
-   version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="love-amarok.svg">
-  <defs
-     id="defs3871">
-    <style
-       type="text/css"
-       id="current-color-scheme">
+<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="22" height="22" id="svg3869" version="1.1" inkscape:version="0.91 r13725" sodipodi:docname="love-amarok.svg">
+  <defs id="defs3871">
+    <style type="text/css" id="current-color-scheme">
       .ColorScheme-Text {
-        color:#4d4d4d;
+        color:#31363b;
       }
       .ColorScheme-Background {
         color:#eff0f1;
@@ -55,86 +38,26 @@
       }
       </style>
   </defs>
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="11.313708"
-     inkscape:cx="32.644115"
-     inkscape:cy="-1.6229749"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     showgrid="true"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0"
-     inkscape:window-width="1920"
-     inkscape:window-height="1021"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
-     inkscape:showpageshadow="false"
-     inkscape:snap-bbox="true"
-     inkscape:object-nodes="true">
-    <inkscape:grid
-       type="xygrid"
-       id="grid4132" />
-    <sodipodi:guide
-       position="2,20.000017"
-       orientation="18,0"
-       id="guide4138" />
-    <sodipodi:guide
-       position="2,2.0000174"
-       orientation="0,18"
-       id="guide4140" />
-    <sodipodi:guide
-       position="20,2.0000174"
-       orientation="-18,0"
-       id="guide4142" />
-    <sodipodi:guide
-       position="20,20.000017"
-       orientation="0,-18"
-       id="guide4144" />
-    <sodipodi:guide
-       position="3,3.0000174"
-       orientation="0,16"
-       id="guide4148" />
-    <sodipodi:guide
-       position="19,3.0000174"
-       orientation="-16,0"
-       id="guide4150" />
-    <sodipodi:guide
-       position="19,19.000017"
-       orientation="0,-16"
-       id="guide4152" />
+  <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="11.313708" inkscape:cx="32.644115" inkscape:cy="-1.6229749" inkscape:document-units="px" inkscape:current-layer="layer1" showgrid="true" fit-margin-top="0" fit-margin-left="0" fit-margin-right="0" fit-margin-bottom="0" inkscape:window-width="1920" inkscape:window-height="1021" inkscape:window-x="0" inkscape:window-y="0" inkscape:window-maximized="1" inkscape:showpageshadow="false" inkscape:snap-bbox="true" inkscape:object-nodes="true">
+    <inkscape:grid type="xygrid" id="grid4132"/>
+    <sodipodi:guide position="2,20.000017" orientation="18,0" id="guide4138"/>
+    <sodipodi:guide position="2,2.0000174" orientation="0,18" id="guide4140"/>
+    <sodipodi:guide position="20,2.0000174" orientation="-18,0" id="guide4142"/>
+    <sodipodi:guide position="20,20.000017" orientation="0,-18" id="guide4144"/>
+    <sodipodi:guide position="3,3.0000174" orientation="0,16" id="guide4148"/>
+    <sodipodi:guide position="19,3.0000174" orientation="-16,0" id="guide4150"/>
+    <sodipodi:guide position="19,19.000017" orientation="0,-16" id="guide4152"/>
   </sodipodi:namedview>
-  <metadata
-     id="metadata3874">
+  <metadata id="metadata3874">
     <rdf:RDF>
-      <cc:Work
-         rdf:about="">
+      <cc:Work rdf:about="">
         <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <dc:title/>
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <g
-     inkscape:label="Capa 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(-326,-534.3622)">
-    <path
-       style="color:#4d4d4d;fill:currentColor"
-       d="m 333,537.3622 c -2.76142,0 -5,2.23858 -5,5 0,5 7,9 9,11 2,-2 9,-6 9,-11 0,-2.76142 -2.23858,-5 -5,-5 -1.63959,0 -3.08819,0.78077 -4,2 -0.91181,-1.21923 -2.3604,-2 -4,-2 z m 0,2 c 3,0 4,2 4,2 0,0 1,-2 4,-2 1.65685,0 3,1.34315 3,3 0,4 -5,7 -7,9 -2,-2 -7,-5 -7,-9 0,-1.65685 1.34315,-3 3,-3 z"
-       id="path3795"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="sscsscsscsscss"
-       class="ColorScheme-Text" />
+  <g inkscape:label="Capa 1" inkscape:groupmode="layer" id="layer1" transform="translate(-326,-534.3622)">
+    <path style="color:#4d4d4d;fill:currentColor" d="m 333,537.3622 c -2.76142,0 -5,2.23858 -5,5 0,5 7,9 9,11 2,-2 9,-6 9,-11 0,-2.76142 -2.23858,-5 -5,-5 -1.63959,0 -3.08819,0.78077 -4,2 -0.91181,-1.21923 -2.3604,-2 -4,-2 z m 0,2 c 3,0 4,2 4,2 0,0 1,-2 4,-2 1.65685,0 3,1.34315 3,3 0,4 -5,7 -7,9 -2,-2 -7,-5 -7,-9 0,-1.65685 1.34315,-3 3,-3 z" id="path3795" inkscape:connector-curvature="0" sodipodi:nodetypes="sscsscsscsscss" class="ColorScheme-Text"/>
   </g>
 </svg>
