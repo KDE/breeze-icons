@@ -13,7 +13,7 @@
    height="22"
    id="svg3760"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.91+devel r"
    sodipodi:docname="draw-ellipse.svg">
   <defs
      id="defs3762" />
@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="24.447652"
-     inkscape:cx="11.050304"
-     inkscape:cy="11.709803"
+     inkscape:zoom="12.223826"
+     inkscape:cx="21.716722"
+     inkscape:cy="15.77918"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -34,10 +34,10 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1024"
-     inkscape:window-height="712"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="670"
+     inkscape:window-x="-4"
+     inkscape:window-y="29"
      inkscape:window-maximized="1"
      inkscape:showpageshadow="false">
     <sodipodi:guide
@@ -102,7 +102,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -112,9 +112,10 @@
      id="layer1"
      transform="translate(-551.28571,-607.64789)">
     <path
-       style="fill:#f2f2f2;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 562.28571,612.64789 a 7.9999928,6 0 0 0 -8,6 7.9999928,6 0 0 0 8,6 7.9999928,6 0 0 0 8,-6 7.9999928,6 0 0 0 -8,-6 z m 0,1 a 7,5 0 0 1 7,5 7,5 0 0 1 -7,5 7,5 0 0 1 -7,-5 7,5 0 0 1 7,-5 z"
-       id="path3347"
+       style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:none"
+       d="M 9.5,6.5 C 6.453,6.5 4,8.953 4,12 c 0,3.047 2.453,5.5 5.5,5.5 l 5,0 C 17.547,17.5 20,15.047 20,12 20,8.953 17.547,6.5 14.5,6.5 l -5,0 z m 0,1 5,0 c 2.493,0 4.5,2.007 4.5,4.5 0,2.493 -2.007,4.5 -4.5,4.5 l -5,0 C 7.007,16.5 5,14.493 5,12 5,9.507 7.007,7.5 9.5,7.5 Z"
+       transform="translate(550.28572,606.6479)"
+       id="rect4112"
        inkscape:connector-curvature="0" />
   </g>
 </svg>

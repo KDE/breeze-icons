@@ -14,7 +14,7 @@
    id="svg3760"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="draw-ellipse.svg">
+   sodipodi:docname="tool_polygon.svg">
   <defs
      id="defs3762" />
   <sodipodi:namedview
@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="24.447652"
-     inkscape:cx="11.050304"
-     inkscape:cy="11.709803"
+     inkscape:zoom="23.069359"
+     inkscape:cx="12.252775"
+     inkscape:cy="8.3644061"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -40,22 +40,6 @@
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:showpageshadow="false">
-    <sodipodi:guide
-       position="-1,23"
-       orientation="24,0"
-       id="guide4115" />
-    <sodipodi:guide
-       position="-1,-1"
-       orientation="0,24"
-       id="guide4117" />
-    <sodipodi:guide
-       position="23,-1"
-       orientation="-24,0"
-       id="guide4119" />
-    <sodipodi:guide
-       position="23,23"
-       orientation="0,-24"
-       id="guide4121" />
     <sodipodi:guide
        position="2,20"
        orientation="18,0"
@@ -93,6 +77,22 @@
        id="grid4139"
        originx="-0.99998557"
        originy="-1.0000118" />
+    <sodipodi:guide
+       position="11.707097,11.300043"
+       orientation="0.70710678,-0.70710678"
+       id="guide4134" />
+    <sodipodi:guide
+       position="10.99999,10.592936"
+       orientation="8.2929677,8.2929677"
+       id="guide4136" />
+    <sodipodi:guide
+       position="19.292958,2.2999687"
+       orientation="-0.70710678,0.70710678"
+       id="guide4138" />
+    <sodipodi:guide
+       position="20.000064,3.0070755"
+       orientation="-8.2929677,-8.2929677"
+       id="guide4140" />
   </sodipodi:namedview>
   <metadata
      id="metadata3765">
@@ -102,7 +102,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -112,9 +112,16 @@
      id="layer1"
      transform="translate(-551.28571,-607.64789)">
     <path
-       style="fill:#f2f2f2;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 562.28571,612.64789 a 7.9999928,6 0 0 0 -8,6 7.9999928,6 0 0 0 8,6 7.9999928,6 0 0 0 8,-6 7.9999928,6 0 0 0 -8,-6 z m 0,1 a 7,5 0 0 1 7,5 7,5 0 0 1 -7,5 7,5 0 0 1 -7,-5 7,5 0 0 1 7,-5 z"
-       id="path3347"
+       style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:none"
+       d="m 4,4 0,1 0,10 0,1 4,0 0,4 1,0 11,0 0.992188,0 L 21,19.992188 12.707031,11.699219 10,8.9921875 10,5 10,4 5,4 Z m 1,1 4,0 0,4 0,0.40625 3,3 L 18.59375,19 9,19 9,15 8,15 5,15 Z"
+       transform="translate(550.28572,606.6479)"
+       id="rect4112"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccc" />
+    <path
+       style="fill:#f2f2f2;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:0.45882353"
+       d="m 559.28572,616.05498 0,-4.40708 -4,0 0,10 4,0 0,4 9.59293,0 0,0 z"
+       id="path4147"
        inkscape:connector-curvature="0" />
   </g>
 </svg>
