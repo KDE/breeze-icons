@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -41,9 +41,9 @@
      id="namedview82"
      showgrid="true"
      inkscape:showpageshadow="false"
-     inkscape:zoom="11.313709"
-     inkscape:cx="25.951927"
-     inkscape:cy="39.086003"
+     inkscape:zoom="22.627418"
+     inkscape:cx="29.461891"
+     inkscape:cy="36.420972"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -250,21 +250,8 @@
      x="-68.327995"
      y="22.320848" />
   <path
-     sodipodi:nodetypes="ccccccc"
-     d="m 21,23 1,0 0,13 6,0 0,1 -7,0 z"
-     style="font-style:normal;font-weight:normal;font-size:medium;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     id="path4183"
-     inkscape:connector-curvature="0" />
-  <path
-     d="m 31.447996,40 c -0.713161,2.110485 -1.185362,2.697181 -2.809335,3.000035 L 27,43 l 0,-1 1.265165,0 c 1.398897,-0.107985 1.775101,-0.954191 2.330527,-2.624809 L 27,29 l 1,0 3,9 3,-9 1,0 z"
-     style="font-style:normal;font-weight:normal;font-size:medium;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     id="path4185"
      inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cccccccccccc" />
-  <path
-     d="m 34,23 1,0 3.5,6 3.5,-6 1,0 -4,7 4,7 -1,0 -3.5,-6 -3.5,6 -1,0 4,-7 z"
-     style="font-style:normal;font-weight:normal;font-size:medium;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     id="path4187"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="ccccccccccccc" />
+     style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none"
+     d="m 21,21 0,1 0,1 0,1 22,0 0,-1 0,-1 0,-1 -22,0 z m 8.46875,5 0.03125,0.875 6,8.125 -6.5,8 0,1 14,0 0,-5 -1,0 c 0,1 0.259312,1.620032 -0.59375,2.21875 C 40.47102,41.87512 39.239383,42 38.15625,42 L 33,42 l 5,-7 -5,-8 2.9375,0 c 2.084094,0 5.050355,-0.192414 5.875,2.3125 C 41.95347,29.740691 41.96451,30.550399 42,31 l 1,0 0,-5 -13.53125,0 z M 21,27 l 0,1 7,0 0,-1 -7,0 z m 0,3 0,1 9,0 0,-1 -9,0 z m 0,3 0,1 11,0 0,-1 -11,0 z m 0,3 0,1 11,0 0,-1 -11,0 z m 0,3 0,1 9,0 0,-1 -9,0 z m 0,3 0,1 6,0 0,-1 -6,0 z"
+     id="rect4274" />
 </svg>
