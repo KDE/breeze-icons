@@ -14,12 +14,50 @@
    id="svg3049"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="draw-text.svg"
+   sodipodi:docname="text-convert-to-regular.svg"
    inkscape:export-filename="/home/uri/.kde/share/icons/NITRUX-KDE/16x16/actions/view-right-new.png"
    inkscape:export-xdpi="30"
    inkscape:export-ydpi="30">
   <defs
-     id="defs3051" />
+     id="defs3051">
+    <style
+       type="text/css"
+       id="current-color-scheme">
+      .ColorScheme-Text {
+        color:#f2f2f2;
+      }
+      .ColorScheme-Background {
+        color:#eff0f1;
+      }
+      .ColorScheme-Highlight {
+        color:#3daee9;
+      }
+      .ColorScheme-ViewText {
+        color:#31363b;
+      }
+      .ColorScheme-ViewBackground {
+        color:#fcfcfc;
+      }
+      .ColorScheme-ViewHover {
+        color:#93cee9;
+      }
+      .ColorScheme-ViewFocus{
+        color:#3daee9;
+      }
+      .ColorScheme-ButtonText {
+        color:#31363b;
+      }
+      .ColorScheme-ButtonBackground {
+        color:#eff0f1;
+      }
+      .ColorScheme-ButtonHover {
+        color:#93cee9;
+      }
+      .ColorScheme-ButtonFocus{
+        color:#3daee9;
+      }
+      </style>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -27,9 +65,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="33.384652"
-     inkscape:cx="4.7752064"
-     inkscape:cy="6.6575584"
+     inkscape:zoom="23.606514"
+     inkscape:cx="6.7198472"
+     inkscape:cy="9.6059417"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -38,8 +76,8 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="1920"
-     inkscape:window-height="957"
-     inkscape:window-x="-4"
+     inkscape:window-height="1017"
+     inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:showpageshadow="false"
@@ -85,9 +123,15 @@
      id="layer1"
      transform="translate(-421.71429,-531.79074)">
     <path
-       style="fill:#f2f2f2;fill-opacity:1;fill-rule:evenodd;stroke:none"
-       d="M 2 2 L 2 14 L 3 14 L 14 14 L 14 13 L 14 2 L 13 2 L 13 13 L 3 13 L 3 2 L 2 2 z M 4 3 L 4 5 L 7 5 L 7 12 L 9 12 L 9 5 L 12 5 L 12 3 L 4 3 z "
+       style="color:#f2f2f2;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.99414539px;line-height:125%;font-family:Oxygen;-inkscape-font-specification:Oxygen;letter-spacing:0px;word-spacing:0px;fill:currentColor;fill-opacity:1;stroke:none"
+       d="m 427.65882,534.79074 -3.94453,10 1.22168,0 1.0705,-2.72727 4.43497,0 1.03711,2.72727 1.23574,0 -3.82676,-10 -1.22871,0 z m 0.61172,1.20739 c 0.10184,0.34189 0.64032,1.89269 1.61718,4.65021 l 0.20215,0.50604 -3.72831,0 1.90898,-5.15625 z"
+       id="path6328-5-5"
+       inkscape:connector-curvature="0"
+       class="ColorScheme-Text" />
+    <path
+       style="fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-linecap:square"
+       d="M 11 2 L 11 3 L 12 3 L 12 13 L 11 13 L 11 14 L 14 14 L 14 13 L 13 13 L 13 3 L 14 3 L 14 2 L 11 2 z "
        transform="translate(421.71429,531.79074)"
-       id="rect4141" />
+       id="rect4159" />
   </g>
 </svg>
