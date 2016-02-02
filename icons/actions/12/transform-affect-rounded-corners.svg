@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" id="svg3049">
+    <defs id="defs3051">
+        <style id="current-color-scheme">
+            .ColorScheme-Text{color:#4d4d4d}.ColorScheme-Background{color:#eff0f1}.ColorScheme-Highlight{color:#3daee9}.ColorScheme-ViewText{color:#31363b}.ColorScheme-ViewBackground{color:#fcfcfc}.ColorScheme-ViewHover{color:#93cee9}.ColorScheme-ViewFocus{color:#3daee9}.ColorScheme-ButtonText{color:#31363b}.ColorScheme-ButtonBackground{color:#eff0f1}.ColorScheme-ButtonHover{color:#93cee9}.ColorScheme-ButtonFocus{color:#3daee9}
+        </style>
+    </defs>
+    <g id="layer1">
+        <path style="color:#4d4d4d;fill:#1d99f3;fill-opacity:1;stroke:none" d="m 424.80239,542.79074 0.36698,0.37891 1.62109,1.62109 -2.07617,0 0,1 2.07617,0 -1.62109,1.62109 -0.38146,0.37891 1.41661,0 1.79297,-1.79297 0.70703,-0.70703 -2.5,-2.5 z m -2.0881,2 0,1 2,0 0,-1 z" id="rect3354-9-4-9-5" transform="translate(-421.714 -535.79)"/>
+        <path style="fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:.1;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" d="M 1 1 L 1 2 L 5 2 A 5 5 0 0 1 10 7 L 10 9 L 11 9 L 11 7 A 6 6 0 0 0 5 1 L 1 1 z" id="rect4164"/>
+        <path style="fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:.1;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" d="M 1 4 L 1 5 L 5 5 A 2 2 0 0 1 7 7 L 7 8 L 8 8 L 8 7 A 3 3 0 0 0 5 4 L 1 4 z" id="rect4166"/>
+    </g>
+</svg>

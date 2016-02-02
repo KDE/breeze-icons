@@ -57,43 +57,6 @@
         color:#3daee9;
       }
       </style>
-    <style
-       id="current-color-scheme-7"
-       type="text/css">
-      .ColorScheme-Text {
-        color:#4d4d4d;
-      }
-      .ColorScheme-Background {
-        color:#eff0f1;
-      }
-      .ColorScheme-Highlight {
-        color:#3daee9;
-      }
-      .ColorScheme-ViewText {
-        color:#31363b;
-      }
-      .ColorScheme-ViewBackground {
-        color:#fcfcfc;
-      }
-      .ColorScheme-ViewHover {
-        color:#93cee9;
-      }
-      .ColorScheme-ViewFocus{
-        color:#3daee9;
-      }
-      .ColorScheme-ButtonText {
-        color:#31363b;
-      }
-      .ColorScheme-ButtonBackground {
-        color:#eff0f1;
-      }
-      .ColorScheme-ButtonHover {
-        color:#93cee9;
-      }
-      .ColorScheme-ButtonFocus{
-        color:#3daee9;
-      }
-      </style>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -103,7 +66,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="18.148491"
-     inkscape:cx="7.9728821"
+     inkscape:cx="10.700382"
      inkscape:cy="10.286969"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -114,7 +77,7 @@
      fit-margin-bottom="0"
      inkscape:window-width="956"
      inkscape:window-height="1013"
-     inkscape:window-x="-4"
+     inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:showpageshadow="false"
@@ -182,15 +145,14 @@
      id="layer1"
      transform="translate(-421.71429,-525.79074)">
     <g
-       transform="translate(421.71429,-504.57146)"
+       transform="matrix(1,0,0,-1,421.71429,1578.1529)"
        id="layer1-7"
        inkscape:label="Capa 1">
       <path
          sodipodi:nodetypes="ccccccccccccccccccccc"
          inkscape:connector-curvature="0"
          id="path4128"
-         transform="translate(-1,1029.3622)"
-         d="M 4,4 4,5 5,5 19,5 20,5 20,4 19,4 5,4 Z m 8,3 -3,4 2,0 0,6 0,2 0,1 2,0 0,-1 0,-3 0,-5 2,0 z"
+         d="m 3,1049.3622 0,-1 1,0 14,0 1,0 0,1 -1,0 -14,0 z m 8,-3 -3,-4 2,0 0,-6 0,-2 0,-1 2,0 0,1 0,3 0,5 2,0 z"
          style="opacity:1;fill:#4d4d4d;fill-opacity:1;stroke:none" />
     </g>
   </g>
