@@ -14,7 +14,7 @@
    id="svg3049"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="send_signal.svg"
+   sodipodi:docname="deep-history.svg"
    inkscape:export-filename="/home/uri/.kde/share/icons/NITRUX-KDE/16x16/actions/view-right-new.png"
    inkscape:export-xdpi="30"
    inkscape:export-ydpi="30">
@@ -24,7 +24,7 @@
        type="text/css"
        id="current-color-scheme">
       .ColorScheme-Text {
-        color:#4d4d4d;
+        color:#f2f2f2;
       }
       .ColorScheme-Background {
         color:#eff0f1;
@@ -65,9 +65,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="34.5228"
-     inkscape:cx="2.9035148"
-     inkscape:cy="7.503329"
+     inkscape:zoom="32"
+     inkscape:cx="1.9644384"
+     inkscape:cy="7.7689118"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -113,7 +113,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -123,10 +123,14 @@
      id="layer1"
      transform="translate(-421.71429,-531.79074)">
     <path
-       style="fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none"
-       d="M 5 2 L 5 3 L 13.292969 3 L 8 8.2929688 L 5 5.2929688 L 5 6.7070312 L 5.9335938 7.640625 L 5 8.7304688 L 5 10.265625 L 6.6425781 8.3496094 L 8 9.7070312 L 9.3574219 8.3496094 L 13.341797 13 L 5 13 L 5 14 L 15 14 L 15 2 L 5 2 z M 14 3.7070312 L 14 12.232422 L 10.066406 7.640625 L 14 3.7070312 z M 1 7 L 1 8 L 4 8 L 4 7 L 1 7 z M 2 9 L 2 10 L 4 10 L 4 9 L 2 9 z "
+       style="fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.75;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="M 8 2 C 4.6862915 2 2 4.6862915 2 8 C 2 11.313708 4.6862915 14 8 14 C 9.7745667 14 11.364393 13.224574 12.462891 12 L 12 12 L 11 12 L 10.962891 12 C 10.13144 12.617956 9.1155766 13 8 13 C 5.2385763 13 3 10.761424 3 8 C 3 5.2385763 5.2385763 3 8 3 C 10.761424 3 13 5.2385763 13 8 C 13 8.3424207 12.965962 8.6769296 12.900391 9 L 13.910156 9 C 13.964985 8.6740174 14 8.3415702 14 8 C 14 4.6862915 11.313708 2 8 2 z M 7 4 L 7 8 L 7 9 L 11 9 L 12 9 L 12 8 L 8 8 L 8 4 L 7 4 z "
        transform="translate(421.71429,531.79074)"
-       id="rect4157"
-       class="ColorScheme-Text" />
+       id="path4876" />
+    <path
+       style="fill:#1d99f3;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 10 10 L 10 11 L 10.271484 11 L 12 11 A 1 1 0 0 1 13 12 A 1 1 0 0 1 12 13 L 12 14 A 2 2 0 0 0 14 12 A 2 2 0 0 0 12 10 L 10 10 z "
+       transform="translate(421.71429,531.79074)"
+       id="path4149" />
   </g>
 </svg>
