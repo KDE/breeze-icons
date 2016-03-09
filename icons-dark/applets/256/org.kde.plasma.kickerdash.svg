@@ -20,43 +20,6 @@
    sodipodi:docname="org.kde.plasma.kickerdash.svg">
   <defs
      id="defs4">
-    <style
-       id="current-color-scheme"
-       type="text/css">
-      .ColorScheme-Text {
-        color:#7B7C7E;
-      }
-      .ColorScheme-Background{
-        color:#EFF0F1;
-      }
-      .ColorScheme-Highlight{
-        color:#3DAEE6;
-      }
-      .ColorScheme-ViewText {
-        color:#7B7C7E;
-      }
-      .ColorScheme-ViewBackground{
-        color:#FCFCFC;
-      }
-      .ColorScheme-ViewHover {
-        color:#3DAEE6;
-      }
-      .ColorScheme-ViewFocus{
-        color:#1E92FF;
-      }
-      .ColorScheme-ButtonText {
-        color:#7B7C7E;
-      }
-      .ColorScheme-ButtonBackground{
-        color:#EFF0F1;
-      }
-      .ColorScheme-ButtonHover {
-        color:#3DAEE6;
-      }
-      .ColorScheme-ButtonFocus{
-        color:#1E92FF;
-      }
-</style>
     <linearGradient
        id="linearGradient4736">
       <stop
@@ -277,16 +240,6 @@
        y1="98"
        x2="316"
        y2="82" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4736"
-       id="linearGradient7160"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(6.4999983,0,0,0.99999999,-300.99994,575.36555)"
-       x1="64.999992"
-       y1="244.99657"
-       x2="64.999992"
-       y2="220.99657" />
     <linearGradient
        gradientUnits="userSpaceOnUse"
        y2="517.79797"
@@ -747,7 +700,7 @@
          offset="0"
          id="stop4460" />
       <stop
-         style="stop-color:#31363b;stop-opacity:1"
+         style="stop-color:#eff0f1;stop-opacity:1"
          offset="1"
          id="stop4462" />
     </linearGradient>
@@ -1100,7 +1053,7 @@
      transform="translate(0,-796.36216)">
     <path
        class="ColorScheme-Background"
-       style="color:#31363b;display:inline;fill:#31363b;fill-opacity:1"
+       style="color:#eff0f1;display:inline;fill:#31363b;fill-opacity:1"
        d="m 12,808.36216 0,232.00004 232,0 0,-232.00004 -232,0 z"
        id="path11378"
        inkscape:connector-curvature="0" />
@@ -3782,7 +3735,7 @@
          height="6"
          width="5"
          id="rect4318"
-         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#4f575f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate" />
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#fcfcfc;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate" />
       <rect
          y="524.79797"
          x="420.57144"
