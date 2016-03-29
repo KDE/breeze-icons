@@ -1,59 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="12"
-   height="12"
-   id="svg3049"
-   version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="object-stroke2.svg">
-  <metadata
-     id="metadata31">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     id="namedview29"
-     showgrid="true"
-     inkscape:zoom="55.625733"
-     inkscape:cx="6.8125761"
-     inkscape:cy="5.4722173"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg3049">
-    <inkscape:grid
-       type="xygrid"
-       id="grid4159" />
-  </sodipodi:namedview>
-  <g
-     id="layer1">
-    <path
-       style="fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:.1;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 1 1 L 1 11 L 11 11 L 11 1 L 1 1 z M 2 2 L 10 2 L 10 10 L 2 10 L 2 2 z"
-       id="rect4165" />
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12">
+  <defs id="defs3051">
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text {
+        color:#f2f2f2;
+      }
+      </style>
+  </defs>
+ <path 
+     style="fill:currentColor;fill-opacity:1;stroke:none" 
+     d="m1 1v10h10v-10zm1 1h8v8h-8z"
+     class="ColorScheme-Text"
+     />
 </svg>
