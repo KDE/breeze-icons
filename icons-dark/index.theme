@@ -120,12 +120,6 @@ Size=32
 Context=Actions
 Type=Fixed
 
-#48x48 - Fixed size - Icon(s) used in Kickoff on KDE 4 tabs section >!!!ONLY!!!< - DO_NOT_USE_ANYWHERE_ELSE - Color
-[actions/48]
-Size=48
-Context=Actions
-Type=Fixed
-
 ########## Apps
 ########## ordered by size
 
@@ -166,27 +160,9 @@ MaxSize=256
 ########## Categories
 ########## ordered by size
 
-#16x16 - Fixed size - Category icon for symlinks - OPTIONAL + DO_NOT_USE_ANYWHERE_ELSE - Monochrome
-[categories/16]
-Size=16
-Context=Categories
-Type=Fixed
-
-#22x22 - Fixed size - Workaround icon(s) for toolbar(s) button(s) e.g. Dolphin Configure toolbar button -  WRONG_ICON_USAGE_BY_APP - Monochrome
-[categories/22]
-Size=22
-Context=Categories
-Type=Fixed
-
 #32x32 - Fixed size - For categories icons >!!!ONLY!!!< - Used in Kickoff (KDE 4.x.x) and Lancelot. Also used in MATE and Cinnamon (just FYI) - DO_NOT_USE_ANYWHERE_ELSE - Monochrome
 [categories/32]
 Size=32
-Context=Categories
-Type=Fixed
-
-#48x48 - Fixed size - Icon(s) used in Kickoff on KDE 4 tabs section >!!!ONLY!!!< - DO_NOT_USE_ANYWHERE_ELSE - Color
-[categories/48]
-Size=48
 Context=Categories
 Type=Fixed
 
@@ -202,12 +178,6 @@ Type=Fixed
 #22x22 - Fixed size - For small device icons >!!!ONLY!!!< - DO_NOT_USE_ANYWHERE_ELSE - Monochrome
 [devices/22]
 Size=22
-Context=Devices
-Type=Fixed
-
-#48x48 - Scalable - For device icons >!!!ONLY!!!< - DO_NOT_USE_ANYWHERE_ELSE - Color
-[devices/48]
-Size=48
 Context=Devices
 Type=Fixed
 
