@@ -1,67 +1,18 @@
-<?xml version="1.0"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="32" height="32" id="svg5453" version="1.1" inkscape:version="0.91 r13725" sodipodi:docname="document-share.svg" viewBox="0 0 32 32">
-  <defs id="defs5455">
-    <style type="text/css" id="current-color-scheme">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs
+     id="defs3051">
+    <style
+       type="text/css"
+       id="current-color-scheme">
       .ColorScheme-Text {
         color:#4d4d4d;
       }
-      .ColorScheme-Background {
-        color:#eff0f1;
-      }
-      .ColorScheme-Highlight {
-        color:#3daee9;
-      }
-      .ColorScheme-ViewText {
-        color:#31363b;
-      }
-      .ColorScheme-ViewBackground {
-        color:#fcfcfc;
-      }
-      .ColorScheme-ViewHover {
-        color:#93cee9;
-      }
-      .ColorScheme-ViewFocus{
-        color:#3daee9;
-      }
-      .ColorScheme-ButtonText {
-        color:#31363b;
-      }
-      .ColorScheme-ButtonBackground {
-        color:#eff0f1;
-      }
-      .ColorScheme-ButtonHover {
-        color:#93cee9;
-      }
-      .ColorScheme-ButtonFocus{
-        color:#3daee9;
-      }
       </style>
   </defs>
-  <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:zoom="16.333329" inkscape:cx="-1.0270059" inkscape:cy="8.6704917" inkscape:document-units="px" inkscape:current-layer="layer1" showgrid="true" fit-margin-top="0" fit-margin-left="0" fit-margin-right="0" fit-margin-bottom="0" inkscape:window-width="1920" inkscape:window-height="957" inkscape:window-x="-4" inkscape:window-y="0" inkscape:window-maximized="1" inkscape:showpageshadow="false" borderlayer="true" showguides="true" inkscape:guide-bbox="true" inkscape:object-nodes="true" inkscape:snap-bbox="true" inkscape:snap-global="true">
-    <inkscape:grid type="xygrid" id="grid4063"/>
-    <sodipodi:guide position="4,24" orientation="28,0" id="guide4280"/>
-    <sodipodi:guide position="13,4" orientation="0,28" id="guide4282"/>
-    <sodipodi:guide position="28,25" orientation="-28,0" id="guide4284"/>
-    <sodipodi:guide position="15,28" orientation="0,-28" id="guide4286"/>
-  </sodipodi:namedview>
-  <metadata id="metadata5458">
-    <rdf:RDF>
-      <cc:Work rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-        <dc:title/>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g inkscape:label="Capa 1" inkscape:groupmode="layer" id="layer1" transform="translate(-384.57143,-515.798)">
-    <path style="fill:currentColor;fill-opacity:1;stroke:none;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none" d="M 6 4 L 6 28 L 15 28 L 15 27 L 7 27 L 7 5 L 18 5 L 18 12 L 25 12 L 25 15 L 26 15 L 26 12 L 26 11 L 19 4 L 18 4 L 6 4 z " transform="translate(384.57143,515.798)" id="rect4140" class="ColorScheme-Text"/>
-    <g transform="translate(-24.14286,-1.9927246)" id="layer1-7" inkscape:label="Capa 1">
-      <g inkscape:label="Capa 1" id="layer1-0" transform="matrix(0.75,0,0,0.74999813,421.46429,-241.22897)">
-        <g inkscape:label="Capa 1" id="layer1-6" transform="translate(6.2937501e-7,-2.041003e-4)">
-          <path transform="matrix(1.3333333,0,0,1.3333367,0.3333327,1030.6957)" id="path3137" d="M 11.5,2 C 10.671573,2 10,2.6715728 10,3.5 10,4.3284272 10.671573,5 11.5,5 12.328427,5 13,4.3284272 13,3.5 13,2.6715728 12.328427,2 11.5,2 Z m -3,3 C 8.2238576,5 8,5.2238576 8,5.5 8,5.7761424 8.2238576,6 8.5,6 8.7761424,6 9,5.7761424 9,5.5 9,5.2238576 8.7761424,5 8.5,5 Z m -2,1 C 6.2238576,6 6,6.2238576 6,6.5 6,6.7761424 6.2238576,7 6.5,7 6.7761424,7 7,6.7761424 7,6.5 7,6.2238576 6.7761424,6 6.5,6 Z m -3,1 C 2.6715729,7 2,7.6715728 2,8.5 2,9.3284272 2.6715729,10 3.5,10 4.3284271,10 5,9.3284272 5,8.5 5,7.6715728 4.3284271,7 3.5,7 Z m 3,3 C 6.2238576,10 6,10.223858 6,10.5 6,10.776142 6.2238576,11 6.5,11 6.7761424,11 7,10.776142 7,10.5 7,10.223858 6.7761424,10 6.5,10 Z m 2,1 C 8.2238576,11 8,11.223858 8,11.5 8,11.776142 8.2238576,12 8.5,12 8.7761424,12 9,11.776142 9,11.5 9,11.223858 8.7761424,11 8.5,11 Z m 3,0 C 10.671573,11 10,11.671573 10,12.5 10,13.328427 10.671573,14 11.5,14 12.328427,14 13,13.328427 13,12.5 13,11.671573 12.328427,11 11.5,11 Z" style="display:inline;overflow:visible;visibility:visible;fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;enable-background:accumulate" inkscape:connector-curvature="0" class="ColorScheme-Text"/>
-        </g>
-      </g>
-    </g>
-  </g>
+  <path
+     style="fill:currentColor;fill-opacity:1;stroke:none" 
+     d="M 6 4 L 6 28 L 15 28 L 15 27 L 7 27 L 7 5 L 18 5 L 18 12 L 25 12 L 25 15 L 26 15 L 26 11 L 19 4 L 18 4 L 6 4 z M 24.5 16 C 23.672 16 23 16.672 23 17.5 C 23 18.328 23.672 19 24.5 19 C 25.328 19 26 18.328 26 17.5 C 26 16.672 25.328 16 24.5 16 z M 21.5 19 C 21.224 19 21 19.224 21 19.5 C 21 19.776 21.224 20 21.5 20 C 21.776 20 22 19.776 22 19.5 C 22 19.224 21.776 19 21.5 19 z M 19.5 20 C 19.224 20 19 20.224 19 20.5 C 19 20.776 19.224 21 19.5 21 C 19.776 21 20 20.776 20 20.5 C 20 20.224 19.776 20 19.5 20 z M 16.5 21 C 15.672 21 15 21.672 15 22.5 C 15 23.328 15.672 24 16.5 24 C 17.328 24 18 23.328 18 22.5 C 18 21.672 17.328 21 16.5 21 z M 19.5 24 C 19.224 24 19 24.224 19 24.5 C 19 24.776 19.224 25 19.5 25 C 19.776 25 20 24.776 20 24.5 C 20 24.224 19.776 24 19.5 24 z M 21.5 25 C 21.224 25 21 25.224 21 25.5 C 21 25.776 21.224 26 21.5 26 C 21.776 26 22 25.776 22 25.5 C 22 25.224 21.776 25 21.5 25 z M 24.5 25 C 23.672 25 23 25.672 23 26.5 C 23 27.328 23.672 28 24.5 28 C 25.328 28 26 27.328 26 26.5 C 26 25.672 25.328 25 24.5 25 z "
+     id="path46" 
+     class="ColorScheme-Text"
+     />
 </svg>
