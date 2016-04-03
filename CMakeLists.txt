@@ -4,7 +4,7 @@ project(BreezeIcons)
 
 # ECM setup
 include(FeatureSummary)
-find_package(ECM 5.20.0  NO_MODULE)
+find_package(ECM 5.21.0  NO_MODULE)
 set_package_properties(ECM PROPERTIES TYPE REQUIRED DESCRIPTION "Extra CMake Modules." URL "https://projects.kde.org/projects/kdesupport/extra-cmake-modules")
 feature_summary(WHAT REQUIRED_PACKAGES_NOT_FOUND FATAL_ON_MISSING_REQUIRED_PACKAGES)
 
@@ -17,7 +17,7 @@ include(KDECompilerSettings NO_POLICY_SCOPE)
 include(GtkUpdateIconCache)
 
 # Dependencies
-set(REQUIRED_QT_VERSION "5.3.0")
+set(REQUIRED_QT_VERSION 5.4.0)
 
 add_subdirectory(autotests)
 add_subdirectory(icons)

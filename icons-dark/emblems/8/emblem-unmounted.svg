@@ -26,16 +26,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="65.053824"
-     inkscape:cx="2.3368521"
-     inkscape:cy="5.0240171"
+     inkscape:cx="0.55371326"
+     inkscape:cy="4.901042"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:showpageshadow="false"
      borderlayer="true"
      units="px"
-     inkscape:window-width="2560"
-     inkscape:window-height="958"
+     inkscape:window-width="1920"
+     inkscape:window-height="1021"
      inkscape:window-x="0"
      inkscape:window-y="30"
      inkscape:window-maximized="1"
@@ -68,29 +68,14 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-7,-1037.3622)">
-    <rect
+    <path
        style="opacity:1;fill:#f47750;fill-opacity:1;stroke:none"
-       id="rect4153-8-8"
-       width="8"
-       height="8"
-       x="7"
-       y="1037.3622"
-       ry="4" />
-    <rect
-       ry="0"
-       y="1039.3622"
-       x="9"
-       height="4"
-       width="1"
-       id="rect4521"
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke-linecap:round" />
-    <rect
-       ry="0"
-       y="1039.3622"
-       x="12"
-       height="4"
-       width="1"
-       id="rect4521-3"
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke-linecap:round" />
+       d="m 11,1037.3622 c 2.216,0 4,1.784 4,4 0,2.216 -1.784,4 -4,4 -2.216,0 -4,-1.784 -4,-4 0,-2.216 1.784,-4 4,-4 z"
+       id="rect4153-8-8" />
+    <path
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke-linecap:round"
+       d="M 2 2 L 2 6 L 3 6 L 3 2 L 2 2 z M 5 2 L 5 6 L 6 6 L 6 2 L 5 2 z "
+       transform="translate(7,1037.3622)"
+       id="rect4521" />
   </g>
 </svg>
