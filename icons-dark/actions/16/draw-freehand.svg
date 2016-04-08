@@ -1,95 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="16"
-   height="16"
-   id="svg3049"
-   version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="sc_freeline_unfilled.svg"
-   inkscape:export-filename="/home/uri/.kde/share/icons/NITRUX-KDE/16x16/actions/view-right-new.png"
-   inkscape:export-xdpi="30"
-   inkscape:export-ydpi="30">
-  <defs
-     id="defs3051" />
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="16"
-     inkscape:cx="-5.7405764"
-     inkscape:cy="10.362449"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     showgrid="true"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0"
-     inkscape:window-width="1920"
-     inkscape:window-height="1021"
-     inkscape:window-x="-4"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
-     inkscape:showpageshadow="false"
-     borderlayer="true"
-     inkscape:snap-bbox="true"
-     inkscape:snap-global="false"
-     inkscape:object-nodes="true">
-    <inkscape:grid
-       type="xygrid"
-       id="grid4085" />
-    <sodipodi:guide
-       position="2.0000044,14.00003"
-       orientation="12,0"
-       id="guide4075" />
-    <sodipodi:guide
-       position="2.0000044,2.0000296"
-       orientation="0,12"
-       id="guide4077" />
-    <sodipodi:guide
-       position="14.000004,2.0000296"
-       orientation="-12,0"
-       id="guide4079" />
-    <sodipodi:guide
-       position="14.000004,14.00003"
-       orientation="0,-12"
-       id="guide4081" />
-  </sodipodi:namedview>
-  <metadata
-     id="metadata3054">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     inkscape:label="Capa 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(-421.71429,-531.79074)">
-    <path
-       style="fill:#f2f2f2;fill-opacity:1;stroke:none"
-       d="M 9.15625,2 2,9.125 2,12 c 1.07486,0.0189 2.84375,0 2.84375,0 L 12,4.84375 Z M 8.4375,4.15625 9.84375,5.5625 7,8.4375 5.5625,7 Z M 4.84375,7.71875 6.28125,9.125 5.5625,9.84375 4.15625,8.4375 Z M 12.125,9 C 11.92876,9.001 11.39351,9.046 10.5625,9.5625 10.30271,9.7241 10.1092,9.907 9.8125,10.125 9.65412,10.2414 9.08632,10.6193 8.875,10.75 8.25574,11.1332 8.03434,11.2299 7.5,11.5 6.98287,11.7615 6.44076,11.9987 6.0625,12.1875 4.47033,12.9823 2,13 2,13 l 0,1 c 0,0 2.49556,0.032 4.3125,-0.875 0.24102,-0.1203 0.66892,-0.3176 1.0625,-0.5 0,0 1.1193037,-0.593297 1.125,-0.59375 0.19571,-0.109 0.36107,-0.1924 0.65625,-0.375 0.22848,-0.1414 0.77528,-0.49105 1,-0.65625 0.33016,-0.2426 0.54254,-0.42175 0.71875,-0.53125 0.38503,-0.3024 0.82037,-0.48235 1.25,-0.46875 -0.0336,2e-4 0.13034,0.0098 0.28125,0.09375 0.15091,0.084 0.31078,0.2336 0.4375,0.375 0.24549,0.3319 0.35627,0.58515 0.40625,1.03125 -0.03629,1.306974 -1.280216,1.504938 -2.25,1.5 l 0,1 c 1.978535,0.08866 3.000004,-0.834272 3,-2.53125 C 13.996,11.18085 13.9499,10.9437 13.84375,10.625 13.73757,10.3064 13.57792,9.9489 13.34375,9.6875 12.98236,9.2643 12.80101,9.0781 12.125,9 Z"
-       transform="translate(421.71429,531.79074)"
-       id="rect4112"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccccccccccccccccccccccccscccccccc" />
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <defs id="defs3051">
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text {
+        color:#f2f2f2;
+      }
+      </style>
+  </defs>
+ <path style="fill:currentColor;fill-opacity:1;stroke:none" 
+     d="M 9.15625 2 L 2 9.125 L 2 12 C 3.075 12.019 4.84375 12 4.84375 12 L 12 4.84375 L 9.15625 2 z M 8.4375 4.15625 L 9.84375 5.5625 L 6.9980469 8.4375 L 5.5605469 6.9980469 L 8.4375 4.15625 z M 4.84375 7.71875 L 6.28125 9.125 L 5.5625 9.84375 L 4.15625 8.4375 L 4.84375 7.71875 z M 12.123047 9 C 11.927047 9.001 11.392547 9.0455 10.560547 9.5625 C 10.300547 9.7245 10.107547 9.9089531 9.8105469 10.126953 C 9.6525469 10.242953 9.0850469 10.620953 8.8730469 10.751953 C 8.2540469 11.134953 8.0320469 11.231953 7.4980469 11.501953 C 6.9810469 11.762953 6.4395469 12.000453 6.0605469 12.189453 C 4.4685469 12.984453 1.9960937 13.001953 1.9960938 13.001953 L 1.9960938 14.001953 C 1.9960938 14.001953 4.4935469 14.033953 6.3105469 13.126953 C 6.5515469 13.006953 6.9790469 12.808953 7.3730469 12.626953 C 7.3730469 12.626953 8.4920469 12.034203 8.4980469 12.033203 C 8.6940469 11.924203 8.8592969 11.841203 9.1542969 11.658203 C 9.3822969 11.517203 9.9292969 11.166953 10.154297 11.001953 C 10.484297 10.758953 10.697047 10.579703 10.873047 10.470703 C 11.258047 10.168703 11.693047 9.9889531 12.123047 10.001953 C 12.089047 10.001953 12.253297 10.011703 12.404297 10.095703 C 12.555297 10.179703 12.714797 10.329703 12.841797 10.470703 C 13.086797 10.802703 13.198047 11.055953 13.248047 11.501953 C 13.212047 12.808953 11.968047 13.006953 10.998047 13.001953 L 10.998047 14.001953 C 12.977047 14.090953 13.998047 13.167703 13.998047 11.470703 C 13.994047 11.182703 13.947797 10.945953 13.841797 10.626953 C 13.735797 10.307953 13.575797 9.9514531 13.341797 9.6894531 C 12.980797 9.2664531 12.799047 9.0809531 12.123047 9.0019531 L 12.123047 9 z "
+     class="ColorScheme-Text"
+     />
 </svg>
