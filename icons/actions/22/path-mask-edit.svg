@@ -37,9 +37,10 @@
   <g
      transform="translate(-553.72253,-583.11926)">
     <path
-       style="opacity:1;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:currentColor;fill-opacity:1;stroke:none" 
        d="M 3 4 L 3 18 L 19 18 L 19 4 L 3 4 z M 10.941406 5 A 6 6 0 0 1 17 10.921875 L 17 11 A 6 6 0 0 1 11.019531 17 A 6 6 0 0 1 5 11.039062 A 6 6 0 0 1 10.941406 5 z "
-       transform="translate(553.72253,583.11926)"/>
+       transform="translate(553.72253,583.11926)"
+       class="ColorScheme-Text" />
     <path
        style="opacity:1;fill:url(#linearGradient4154);fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 570.72253,594.11926 a 6,6 0 0 1 -5.98036,5.99997 6,6 0 0 1 -6.01951,-5.9607 6,6 0 0 1 5.94097,-6.03898 6,6 0 0 1 6.05839,5.92118"/>
