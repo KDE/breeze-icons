@@ -1,70 +1,14 @@
-<?xml version="1.0"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="22" height="22" id="svg2" version="1.1" inkscape:version="0.91 r13725" viewBox="0 0 22 22" sodipodi:docname="kt-start-all.svg">
-  <defs id="defs4">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+  <defs id="defs3051">
     <style type="text/css" id="current-color-scheme">
       .ColorScheme-Text {
         color:#4d4d4d;
       }
-      .ColorScheme-Background {
-        color:#eff0f1;
-      }
-      .ColorScheme-Highlight {
-        color:#3daee9;
-      }
-      .ColorScheme-ViewText {
-        color:#31363b;
-      }
-      .ColorScheme-ViewBackground {
-        color:#fcfcfc;
-      }
-      .ColorScheme-ViewHover {
-        color:#93cee9;
-      }
-      .ColorScheme-ViewFocus{
-        color:#3daee9;
-      }
-      .ColorScheme-ButtonText {
-        color:#31363b;
-      }
-      .ColorScheme-ButtonBackground {
-        color:#eff0f1;
-      }
-      .ColorScheme-ButtonHover {
-        color:#93cee9;
-      }
-      .ColorScheme-ButtonFocus{
-        color:#3daee9;
-      }
       </style>
   </defs>
-  <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:zoom="22.627417" inkscape:cx="11.769069" inkscape:cy="10.576799" inkscape:document-units="px" inkscape:current-layer="layer1" showgrid="true" units="px" borderlayer="true" inkscape:showpageshadow="false" inkscape:window-width="956" inkscape:window-height="1021" inkscape:window-x="960" inkscape:window-y="0" inkscape:window-maximized="0" inkscape:object-nodes="true" inkscape:snap-bbox="true">
-    <sodipodi:guide position="2,20.000017" orientation="18,0" id="guide4066"/>
-    <sodipodi:guide position="2,2.0000174" orientation="0,18" id="guide4068"/>
-    <sodipodi:guide position="20,2.0000174" orientation="-18,0" id="guide4070"/>
-    <sodipodi:guide position="20,20.000017" orientation="0,-18" id="guide4072"/>
-    <sodipodi:guide position="3,19.000017" orientation="16,0" id="guide4074"/>
-    <sodipodi:guide position="3,3.0000174" orientation="0,16" id="guide4076"/>
-    <sodipodi:guide position="19,3.0000174" orientation="-16,0" id="guide4078"/>
-    <sodipodi:guide position="19,19.000017" orientation="0,-16" id="guide4080"/>
-    <inkscape:grid type="xygrid" id="grid4101"/>
-    <sodipodi:guide position="8,19.000017" orientation="0,-5" id="guide4124"/>
-    <sodipodi:guide position="11,3.0000174" orientation="0,4" id="guide4241"/>
-  </sodipodi:namedview>
-  <metadata id="metadata7">
-    <rdf:RDF>
-      <cc:Work rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-        <dc:title/>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g inkscape:label="Capa 1" inkscape:groupmode="layer" id="layer1" transform="translate(0,-1030.3622)">
-    <path style="fill:currentColor;fill-opacity:1;stroke:none" d="m 9,1044.3622 4,-3 -4,-3 z" id="path3357" inkscape:connector-curvature="0" sodipodi:nodetypes="cccc" class="ColorScheme-Text"/>
-    <path inkscape:connector-curvature="0" style="fill:currentColor;fill-opacity:1;stroke:none" d="m 11,1033.3622 c -4.432,0 -8,3.568 -8,8 0,4.432 3.568,8 8,8 0.339398,0 0.672624,-0.024 1,-0.066 l 0,-1.0078 c -0.32646,0.048 -0.659893,0.074 -1,0.074 -3.878,0 -7,-3.122 -7,-7 0,-3.878 3.122,-7 7,-7 3.878,0 7,3.122 7,7 0,0.6962 -0.105435,1.3662 -0.292969,2 l 1.033203,0 c 0.163714,-0.6397 0.259766,-1.3079 0.259766,-2 0,-4.432 -3.568,-8 -8,-8 z" id="rect3356-1" class="ColorScheme-Text"/>
-    <path inkscape:connector-curvature="0" style="fill:currentColor;fill-opacity:1;stroke:none" d="m 13,1048.3622 0,1 1,0 5,0 0,-1 -5,0 -1,0 z" id="rect4169" class="ColorScheme-Text"/>
-    <rect style="fill:currentColor;fill-opacity:1;stroke:none" id="rect4171" width="5" height="1" x="14" y="1046.3622" class="ColorScheme-Text"/>
-    <path inkscape:connector-curvature="0" style="fill:currentColor;fill-opacity:1;stroke:none" d="m 15,1044.3622 0,1 4,0 0,-1 -4,0 z" id="rect4173" class="ColorScheme-Text"/>
-  </g>
+ <path 
+     style="fill:currentColor;fill-opacity:1;stroke:none" 
+     d="M 11 3 C 6.568 3 3 6.568 3 11 C 3 15.432 6.568 19 11 19 C 11.339398 19 11.672624 18.975594 12 18.933594 L 12 17.925781 C 11.67354 17.973781 11.340107 18 11 18 C 7.122 18 4 14.878 4 11 C 4 7.122 7.122 4 11 4 C 14.878 4 18 7.122 18 11 C 18 11.6962 17.894565 12.3662 17.707031 13 L 18.740234 13 C 18.903948 12.3603 19 11.6921 19 11 C 19 6.568 15.432 3 11 3 z M 9 8 L 9 14 L 13 11 L 9 8 z M 15 14 L 15 15 L 19 15 L 19 14 L 15 14 z M 14 16 L 14 17 L 19 17 L 19 16 L 14 16 z M 13 18 L 13 19 L 14 19 L 19 19 L 19 18 L 14 18 L 13 18 z "
+     class="ColorScheme-Text"
+     />
 </svg>
