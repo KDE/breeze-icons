@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4300-8"
+       id="linearGradient4306"
+       y1="61"
+       y2="3"
+       x2="0"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4410"
+       id="linearGradient4427"
+       y1="31"
+       x1="54"
+       y2="17"
+       x2="40"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1 0 0 -1 -14 78)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4410">
+      <stop
+         style="stop-color:#383e51"
+         id="stop4412" />
+      <stop
+         offset="1"
+         style="stop-color:#655c6f;stop-opacity:0"
+         id="stop4414" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4351-7"
+       id="linearGradient4357"
+       y1="61"
+       y2="47"
+       x2="0"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4351-7">
+      <stop
+         style="stop-color:#fb7d80"
+         id="stop4353-9" />
+      <stop
+         offset="1"
+         style="stop-color:#fcbcbe"
+         id="stop4355-6" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4300-8">
+      <stop
+         style="stop-color:#cf000f"
+         id="stop4302-2" />
+      <stop
+         offset="1"
+         style="stop-color:#d91e18"
+         id="stop4304-7" />
+    </linearGradient>
+  </defs>
+  <path
+     style="fill:url(#linearGradient4306)"
+     id="rect3500"
+     d="M 10 3 L 10 61 L 40 61 L 54 47 L 54 17 L 54 3 L 40 3 L 10 3 z " />
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:url(#linearGradient4357);fill-rule:evenodd"
+     id="path4314"
+     d="M 54,47 40,61 40,47 Z" />
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:url(#linearGradient4427);opacity:0.2;fill-rule:evenodd"
+     id="path4320"
+     d="M 26,61 40,47 40,61 Z" />
+  <path
+     style="fill:#fcbcbe;fill-opacity:1;stroke:none"
+     d="M 21 21 L 21 43 L 22 43 L 43 43 L 43 42 L 43 21 L 42 21 L 22 21 L 21 21 z M 22 22 L 42 22 L 42 42 L 22 42 L 22 22 z M 24 25 L 24 26 L 25 26 L 25 25 L 24 25 z M 25 26 L 25 28 L 27 28 L 27 26 L 25 26 z M 27 26 L 28 26 L 28 25 L 27 25 L 27 26 z M 27 28 L 27 29 L 28 29 L 28 28 L 27 28 z M 25 28 L 24 28 L 24 29 L 25 29 L 25 28 z M 36 25 L 36 26 L 37 26 L 37 25 L 36 25 z M 37 26 L 37 28 L 39 28 L 39 26 L 37 26 z M 39 26 L 40 26 L 40 25 L 39 25 L 39 26 z M 39 28 L 39 29 L 40 29 L 40 28 L 39 28 z M 37 28 L 36 28 L 36 29 L 37 29 L 37 28 z M 29 33 L 29 35 L 35 35 L 35 33 L 29 33 z M 35 35 L 35 37 L 37 37 L 37 35 L 35 35 z M 37 37 L 37 39 L 39 39 L 39 37 L 37 37 z M 29 35 L 27 35 L 27 37 L 29 37 L 29 35 z M 27 37 L 25 37 L 25 39 L 27 39 L 27 37 z "
+     id="path6" />
+</svg>
