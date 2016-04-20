@@ -28,10 +28,10 @@
      inkscape:window-width="1024"
      inkscape:window-height="713"
      id="namedview29"
-     showgrid="true"
+     showgrid="false"
      inkscape:zoom="6.9532167"
-     inkscape:cx="34.217742"
-     inkscape:cy="18.301629"
+     inkscape:cx="24.836511"
+     inkscape:cy="18.564767"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -61,6 +61,27 @@
        y2="509.798"
        x2="0"
        gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4410"
+       id="linearGradient4357"
+       y1="17"
+       x1="18"
+       y2="32"
+       x2="33"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(384.57143,504.798)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4410">
+      <stop
+         style="stop-color:#383e51"
+         id="stop4412" />
+      <stop
+         offset="1"
+         style="stop-color:#655c6f;stop-opacity:0"
+         id="stop4414" />
+    </linearGradient>
   </defs>
   <metadata
      id="metadata5458">
@@ -70,7 +91,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -112,6 +133,12 @@
        style="fill:#ffffff;fill-opacity:0.058824;fill-rule:evenodd"
        id="path4465"
        d="m 384.57147,503.798 19.99996,1 11,6 17.00001,-1 -17.00001,0 -6,-6.00003 z" />
+    <path
+       inkscape:connector-curvature="0"
+       style="opacity:0.2;fill:url(#linearGradient4357);fill-rule:evenodd"
+       id="path4343"
+       d="m 416.7287,519.35982 -15.54373,9.18418 -0.0652,0.61355 -1.05172,0.82254 16.62237,13.81791 c -0.11899,0 14.69151,0 15.88099,0 l 0,-5 -0.0248,-3.97982 z"
+       sodipodi:nodetypes="ccccccccc" />
     <path
        inkscape:connector-curvature="0"
        style="color:#000000;fill:#ffffff;fill-rule:evenodd;stroke-width:0.1;fill-opacity:1"
