@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48"
+   version="1.1"
+   height="48"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="knetattach.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1024"
+     inkscape:window-height="713"
+     id="namedview29"
+     showgrid="true"
+     inkscape:zoom="6.9532167"
+     inkscape:cx="34.217742"
+     inkscape:cy="18.301629"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4169" />
+  </sodipodi:namedview>
+  <defs
+     id="defs5455">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4214">
+      <stop
+         style="stop-color:#2f74c8"
+         id="stop4216" />
+      <stop
+         offset="1"
+         style="stop-color:#4699d7"
+         id="stop4218" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4214"
+       id="linearGradient4220"
+       y1="543.79797"
+       y2="509.798"
+       x2="0"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <metadata
+     id="metadata5458">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="matrix(1 0 0 1 -384.57143 -499.798)">
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#084883"
+       id="rect4182"
+       d="m 0,4 0,6 0,4 35,0 13,0 0,-4 -17,0 -6,-6 z"
+       transform="matrix(1 0 0 1 384.57143 499.798)" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:url(#linearGradient4220)"
+       id="rect4180"
+       d="m 384.57144,513.798 47.99999,0 0,29.99997 -47.99999,0 z" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#2f77c2"
+       id="rect4457"
+       d="m 384.57147,513.798 47.99996,0 0,1 -47.99996,0 z" />
+    <rect
+       width="47.999969"
+       x="384.57147"
+       y="542.79797"
+       height="1"
+       style="fill:#2a6bae"
+       id="rect4396" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#5f5f5f;fill-opacity:0.117647;fill-rule:evenodd"
+       id="path4463"
+       d="m 384.57143,503.798 4e-5,10 47.99996,0 10e-6,-4 -23.00001,0 z" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff;fill-opacity:0.058824;fill-rule:evenodd"
+       id="path4465"
+       d="m 384.57147,503.798 19.99996,1 11,6 17.00001,-1 -17.00001,0 -6,-6.00003 z" />
+    <path
+       inkscape:connector-curvature="0"
+       style="color:#000000;fill:#ffffff;fill-rule:evenodd;stroke-width:0.1;fill-opacity:1"
+       id="path3858"
+       d="m 415.57143,518.79798 a 2,2 0 0 0 -2,2 2,2 0 0 0 2,2 2,2 0 0 0 2,-2 2,2 0 0 0 -2,-2 z m -3.5,3 a 0.5,0.5 0 0 0 -0.5,0.5 0.5,0.5 0 0 0 0.5,0.5 0.5,0.5 0 0 0 0.5,-0.5 0.5,0.5 0 0 0 -0.5,-0.5 z m -3,2 a 0.5,0.5 0 0 0 -0.5,0.5 0.5,0.5 0 0 0 0.5,0.5 0.5,0.5 0 0 0 0.5,-0.5 0.5,0.5 0 0 0 -0.5,-0.5 z m -3,2 a 0.5,0.5 0 0 0 -0.5,0.5 0.5,0.5 0 0 0 0.5,0.5 0.5,0.5 0 0 0 0.5,-0.5 0.5,0.5 0 0 0 -0.5,-0.5 z m -4.5,1 a 2,2 0 0 0 -2,2 2,2 0 0 0 2,2 2,2 0 0 0 2,-2 2,2 0 0 0 -2,-2 z m 4.5,4 a 0.5,0.5 0 0 0 -0.5,0.5 0.5,0.5 0 0 0 0.5,0.5 0.5,0.5 0 0 0 0.5,-0.5 0.5,0.5 0 0 0 -0.5,-0.5 z m 3,2 a 0.5,0.5 0 0 0 -0.5,0.5 0.5,0.5 0 0 0 0.5,0.5 0.5,0.5 0 0 0 0.5,-0.5 0.5,0.5 0 0 0 -0.5,-0.5 z m 3,2 a 0.5,0.5 0 0 0 -0.5,0.5 0.5,0.5 0 0 0 0.5,0.5 0.5,0.5 0 0 0 0.5,-0.5 0.5,0.5 0 0 0 -0.5,-0.5 z m 3.5,0 a 2,2 0 0 0 -2,2 2,2 0 0 0 2,2 2,2 0 0 0 2,-2 2,2 0 0 0 -2,-2 z" />
+  </g>
+</svg>
