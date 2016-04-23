@@ -1,193 +1,50 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="24"
-   height="24"
-   id="svg2"
-   version="1.1"
-   inkscape:version="0.91 r13725"
-   viewBox="0 0 24 24"
-   sodipodi:docname="path-mask-edit.svg">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">a
   <defs
-     id="defs4">
+     id="defs3762">
     <style
        type="text/css"
        id="current-color-scheme">
       .ColorScheme-Text {
         color:#4d4d4d;
       }
-      .ColorScheme-Background {
-        color:#eff0f1;
-      }
       .ColorScheme-Highlight {
-        color:#3daee9;
-      }
-      .ColorScheme-ViewText {
-        color:#31363b;
-      }
-      .ColorScheme-ViewBackground {
-        color:#fcfcfc;
-      }
-      .ColorScheme-ViewHover {
-        color:#93cee9;
-      }
-      .ColorScheme-ViewFocus{
-        color:#3daee9;
-      }
-      .ColorScheme-ButtonText {
-        color:#31363b;
-      }
-      .ColorScheme-ButtonBackground {
-        color:#eff0f1;
-      }
-      .ColorScheme-ButtonHover {
-        color:#93cee9;
-      }
-      .ColorScheme-ButtonFocus{
         color:#3daee9;
       }
       </style>
     <linearGradient
-       gradientTransform="matrix(1.5,0,0,1.5,-633.57144,231.67615)"
-       inkscape:collect="always"
-       xlink:href="#linearGradient4172-7"
-       id="linearGradient4154"
-       x1="425.71429"
-       y1="543.79071"
-       x2="433.71429"
+       gradientUnits="userSpaceOnUse"
        y2="535.79071"
-       gradientUnits="userSpaceOnUse" />
+       x2="433.71429"
+       y1="543.79071"
+       x1="425.71429"
+       id="linearGradient4154"
+       xlink:href="#linearGradient4172-7"
+       inkscape:collect="always"
+       gradientTransform="matrix(1.5,0,0,1.5,-79.84891,-215.56677)" />
     <linearGradient
-       id="linearGradient4172-7"
-       inkscape:collect="always">
+       inkscape:collect="always"
+       id="linearGradient4172-7">
       <stop
-         id="stop4174-2"
+         style="stop-color:#1d99f3;stop-opacity:1"
          offset="0"
-         style="stop-color:#1d99f3;stop-opacity:1" />
+         id="stop4174-2" />
       <stop
-         id="stop4176-0"
+         style="stop-color:#cae7fc;stop-opacity:1"
          offset="1"
-         style="stop-color:#cae7fc;stop-opacity:1" />
+         id="stop4176-0" />
     </linearGradient>
   </defs>
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="23.818182"
-     inkscape:cx="3.6720614"
-     inkscape:cy="6.3779326"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     showgrid="true"
-     inkscape:showpageshadow="false"
-     borderlayer="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
-     units="px"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0"
-     inkscape:object-nodes="true"
-     inkscape:snap-bbox="true">
-    <sodipodi:guide
-       position="4,20"
-       orientation="16,0"
-       id="guide4093" />
-    <sodipodi:guide
-       position="4,4"
-       orientation="0,16"
-       id="guide4095" />
-    <sodipodi:guide
-       position="20,4"
-       orientation="-16,0"
-       id="guide4097" />
-    <sodipodi:guide
-       position="20,20"
-       orientation="0,-16"
-       id="guide4099" />
-    <inkscape:grid
-       type="xygrid"
-       id="grid4101"
-       originx="1px"
-       originy="0.99998262px" />
-    <sodipodi:guide
-       position="4,20"
-       orientation="16,0"
-       id="guide4123" />
-    <sodipodi:guide
-       position="4,4"
-       orientation="0,2.000001"
-       id="guide4125" />
-    <sodipodi:guide
-       position="6.000001,20"
-       orientation="0,-2.000001"
-       id="guide4129" />
-    <sodipodi:guide
-       position="18,4"
-       orientation="0,2"
-       id="guide4133" />
-    <sodipodi:guide
-       position="20,4"
-       orientation="-16,0"
-       id="guide4135" />
-    <sodipodi:guide
-       position="20,20"
-       orientation="0,-2"
-       id="guide4137" />
-  </sodipodi:namedview>
-  <metadata
-     id="metadata7">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
+  <a transform="translate(1,1)">
   <g
-     inkscape:label="Capa 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(1,-1029.3622)"
-     sodipodi:insensitive="true">
-    <rect
-       style="opacity:1;fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect4163"
-       width="16"
-       height="13.999966"
-       x="3"
-       y="1034.3622" />
+     transform="translate(-553.72253,-583.11926)">
+    <path
+       style="fill:currentColor;fill-opacity:1;stroke:none" 
+       d="M 3 4 L 3 18 L 19 18 L 19 4 L 3 4 z M 10.941406 5 A 6 6 0 0 1 17 10.921875 L 17 11 A 6 6 0 0 1 11.019531 17 A 6 6 0 0 1 5 11.039062 A 6 6 0 0 1 10.941406 5 z "
+       transform="translate(553.72253,583.11926)"
+       class="ColorScheme-Text" />
     <path
        style="opacity:1;fill:url(#linearGradient4154);fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:square;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="path4146"
-       sodipodi:type="arc"
-       sodipodi:cx="11"
-       sodipodi:cy="1041.3622"
-       sodipodi:rx="6"
-       sodipodi:ry="6"
-       sodipodi:start="0"
-       sodipodi:end="6.2700955"
-       sodipodi:open="true"
-       d="m 17,1041.3622 a 6,6 0 0 1 -5.980365,6 6,6 0 0 1 -6.0195065,-5.9607 6,6 0 0 1 5.9409685,-6.039 6,6 0 0 1 6.058389,5.9211" />
+       d="m 570.72253,594.11926 a 6,6 0 0 1 -5.98036,5.99997 6,6 0 0 1 -6.01951,-5.9607 6,6 0 0 1 5.94097,-6.03898 6,6 0 0 1 6.05839,5.92118"/>
   </g>
+</a>
 </svg>
