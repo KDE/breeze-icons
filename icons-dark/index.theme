@@ -82,6 +82,8 @@ PanelSizes=16,22,32,48,64,128,256
 DialogDefault=32
 DialogSizes=16,22,32,48,64,128,256
 
+KDE-Extensions=.svg
+
 ########## Directories
 ########## ordered by category and alphabetically
 

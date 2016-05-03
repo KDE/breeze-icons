@@ -1,150 +1,16 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="24"
-   height="24"
-   id="svg3869"
-   version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="transform-scale.svg">
-  <defs
-     id="defs3871">
-    <linearGradient
-       id="linearGradient4290-48">
-      <stop
-         id="stop4292-0"
-         offset="0"
-         style="stop-color:#a5a5a5;stop-opacity:1;" />
-      <stop
-         id="stop4294-0"
-         offset="1"
-         style="stop-color:#f5f2f5;stop-opacity:1;" />
-    </linearGradient>
-    <inkscape:perspective
-       id="perspective4146-9"
-       inkscape:persp3d-origin="12 : 8 : 1"
-       inkscape:vp_z="24 : 12 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_x="0 : 12 : 1"
-       sodipodi:type="inkscape:persp3d" />
-    <inkscape:perspective
-       id="perspective4146"
-       inkscape:persp3d-origin="12 : 8 : 1"
-       inkscape:vp_z="24 : 12 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_x="0 : 12 : 1"
-       sodipodi:type="inkscape:persp3d" />
-    <inkscape:perspective
-       sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : 12 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_z="24 : 12 : 1"
-       inkscape:persp3d-origin="12 : 8 : 1"
-       id="perspective4146-9-1" />
-    <inkscape:perspective
-       sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : 12 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_z="24 : 12 : 1"
-       inkscape:persp3d-origin="12 : 8 : 1"
-       id="perspective4146-96" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs id="defs3051">
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text {
+        color:#f2f2f2
+      }
+      </style>
   </defs>
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="22.627416"
-     inkscape:cx="5.4926209"
-     inkscape:cy="10.264796"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     showgrid="true"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0"
-     inkscape:window-width="1366"
-     inkscape:window-height="709"
-     inkscape:window-x="-4"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
-     inkscape:showpageshadow="false"
-     inkscape:snap-bbox="true"
-     inkscape:object-nodes="true">
-    <inkscape:grid
-       type="xygrid"
-       id="grid4132" />
-    <sodipodi:guide
-       position="4,18"
-       orientation="18,0"
-       id="guide4138" />
-    <sodipodi:guide
-       position="5,3"
-       orientation="0,18"
-       id="guide4140" />
-    <sodipodi:guide
-       position="20,2.0000174"
-       orientation="-18,0"
-       id="guide4142" />
-    <sodipodi:guide
-       position="2,21"
-       orientation="0,-18"
-       id="guide4144" />
-    <sodipodi:guide
-       position="3,19.000017"
-       orientation="16,0"
-       id="guide4146" />
-    <sodipodi:guide
-       position="2,4"
-       orientation="0,16"
-       id="guide4148" />
-    <sodipodi:guide
-       position="21,20"
-       orientation="-16,0"
-       id="guide4150" />
-    <sodipodi:guide
-       position="2,20"
-       orientation="0,-16"
-       id="guide4152" />
-  </sodipodi:namedview>
-  <metadata
-     id="metadata3874">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     inkscape:label="Capa 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(-326,-532.3622)">
-    <g
-       transform="translate(-226.72253,-49.75706)"
-       id="layer1-4"
-       inkscape:label="Capa 1">
-      <path
-         id="rect4150"
-         transform="translate(553.72253,583.11926)"
-         d="M 3,3 3,5 3,6 6,6 6,5 6,3 4,3 3,3 Z m 13,0 0,1 0,1 0,1 1,0 1,0 1,0 0,-1 0,-1 0,-1 -3,0 z M 4,4 5,4 5,5 4,5 4,4 Z m 13,0 1,0 0,1 -1,0 0,-1 z M 7,5 7,6 9,6 9,5 7,5 Z m 3,0 0,1 2,0 0,-1 -2,0 z m 3,0 0,1 2,0 0,-1 -2,0 z M 5,7 5,9 6,9 6,7 5,7 Z m 11,0 0,2 1,0 0,-2 -1,0 z m -11,3 0,2 1,0 0,-2 -1,0 z m 5,1 0,6 1,0 4,0 1,0 0,-1 0,-4 0,-1 -1,0 -4,0 -1,0 z m 1,1 4,0 0,4 -4,0 0,-4 z m -6,1 0,2 1,0 0,-2 -1,0 z m 13,2 0,3 -3,0 0,1 4,0 0,-1 0,-3 -1,0 z m -15,1 0,1 0,2 1,0 1,0 1,0 0,-3 -3,0 z m 4,0 0,1 2,0 0,-1 -2,0 z m -3,1 1,0 0,1 -1,0 0,-1 z"
-         style="opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         inkscape:connector-curvature="0" />
-    </g>
-  </g>
+  <a transform="translate(1,1)">
+ <path 
+    style="fill:currentColor;fill-opacity:1;stroke:none" 
+    d="M 3 3 L 3 5 L 3 6 L 6 6 L 6 5 L 6 3 L 4 3 L 3 3 z M 16 3 L 16 4 L 16 5 L 16 6 L 17 6 L 18 6 L 19 6 L 19 5 L 19 4 L 19 3 L 16 3 z M 4 4 L 5 4 L 5 5 L 4 5 L 4 4 z M 17 4 L 18 4 L 18 5 L 17 5 L 17 4 z M 7 5 L 7 6 L 9 6 L 9 5 L 7 5 z M 10 5 L 10 6 L 12 6 L 12 5 L 10 5 z M 13 5 L 13 6 L 15 6 L 15 5 L 13 5 z M 5 7 L 5 9 L 6 9 L 6 7 L 5 7 z M 16 7 L 16 9 L 17 9 L 17 7 L 16 7 z M 5 10 L 5 12 L 6 12 L 6 10 L 5 10 z M 10 11 L 10 17 L 11 17 L 15 17 L 16 17 L 16 16 L 16 12 L 16 11 L 15 11 L 11 11 L 10 11 z M 11 12 L 15 12 L 15 16 L 11 16 L 11 12 z M 5 13 L 5 15 L 6 15 L 6 13 L 5 13 z M 18 15 L 18 18 L 15 18 L 15 19 L 19 19 L 19 18 L 19 15 L 18 15 z M 3 16 L 3 17 L 3 19 L 4 19 L 5 19 L 6 19 L 6 16 L 3 16 z M 7 16 L 7 17 L 9 17 L 9 16 L 7 16 z M 4 17 L 5 17 L 5 18 L 4 18 L 4 17 z "
+	class="ColorScheme-Text"
+    />  
+</a>
 </svg>
