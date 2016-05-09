@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 16 16"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="edit-extend.svg"
+   inkscape:export-filename="edit-extend.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1018"
+     id="namedview8"
+     showgrid="true"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="29.5"
+     inkscape:cx="0.47688504"
+     inkscape:cy="11.5161"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4138" />
+    <sodipodi:guide
+       position="14,15"
+       orientation="1,0"
+       id="guide4140" />
+    <sodipodi:guide
+       position="2,14"
+       orientation="0,1"
+       id="guide4142" />
+    <sodipodi:guide
+       position="2,15"
+       orientation="1,0"
+       id="guide4144" />
+    <sodipodi:guide
+       position="2,2"
+       orientation="0,1"
+       id="guide4146" />
+  </sodipodi:namedview>
+  <defs
+     id="defs3051">
+    <style
+       type="text/css"
+       id="current-color-scheme">
+      .ColorScheme-Text {
+        color:#4d4d4d;
+      }
+      </style>
+  </defs>
+  <path
+     style="color:#4d4d4d;fill:#f2f2f2;fill-opacity:1;stroke:none"
+     d="m 2,13 0,1 11,0 0,-1 z"
+     class="ColorScheme-Text"
+     id="path6"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccccc" />
+  <path
+     sodipodi:nodetypes="ccccc"
+     inkscape:connector-curvature="0"
+     id="path4140"
+     class="ColorScheme-Text"
+     d="M 7,6 8,6 8,2 7,2 Z"
+     style="color:#4d4d4d;fill:#f2f2f2;fill-opacity:1;stroke:none" />
+  <path
+     style="color:#4d4d4d;fill:#1d99f3;fill-opacity:1;stroke:none"
+     d="m 7,12 1,0 0,-2 -1,0 z"
+     class="ColorScheme-Text"
+     id="path4142"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccccc" />
+  <path
+     sodipodi:nodetypes="ccccc"
+     inkscape:connector-curvature="0"
+     id="path4144"
+     class="ColorScheme-Text"
+     d="M 7,9 8,9 8,7 7,7 Z"
+     style="color:#4d4d4d;fill:#1d99f3;fill-opacity:1;stroke:none" />
+</svg>
