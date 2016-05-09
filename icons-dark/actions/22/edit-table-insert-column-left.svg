@@ -4,6 +4,9 @@
       .ColorScheme-Text {
         color:#f2f2f2
       }
+      .ColorScheme-Highlight {
+        color:#3daee9;
+      }
       </style>
   </defs>
  <path 
@@ -12,7 +15,7 @@
     class="ColorScheme-Text"
     />  
   <path
-     style="fill:#1d99f3"
-     d="M 3 3 L 3 4 L 3 12 L 3 13 L 9 13 L 9 12 L 9 9.2929688 L 9 4 L 9 3 L 3 3 z M 4 4 L 8 4 L 8 8.2929688 L 4 4.2929688 L 4 4 z M 4 5.7070312 L 8 9.7070312 L 8 12 L 7.7070312 12 L 4 8.2929688 L 4 5.7070312 z M 4 9.7070312 L 6.2929688 12 L 4 12 L 4 9.7070312 z "
-     id="path6" />
+     style="fill:currentColor;fill-opacity:1;stroke:none" 
+     class="ColorScheme-Highlight"
+     d="M 3 3 L 3 4 L 3 12 L 3 13 L 9 13 L 9 12 L 9 9.2929688 L 9 4 L 9 3 L 3 3 z M 4 4 L 8 4 L 8 8.2929688 L 4 4.2929688 L 4 4 z M 4 5.7070312 L 8 9.7070312 L 8 12 L 7.7070312 12 L 4 8.2929688 L 4 5.7070312 z M 4 9.7070312 L 6.2929688 12 L 4 12 L 4 9.7070312 z " />
 </svg>
