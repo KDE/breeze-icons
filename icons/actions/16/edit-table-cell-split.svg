@@ -7,6 +7,9 @@
       .ColorScheme-Highlight {
         color:#3daee9;
       }
+      .ColorScheme-NegativeText {
+        color:#da4453;
+      }
       </style>
   </defs>
   <g
@@ -19,7 +22,9 @@
         />
   <path
      d="m 426.71429,535.79074 0,7 6,0 0,-7 z m 1,1 4,0 0,1 -1,1.5 1,1.5 0,1 -4,0 0,-1 1,-1.5 -1,-1.5 z"
-       style="fill:#da4453;fill-opacity:1;stroke:none"
+      style="fill:currentColor;fill-opacity:1;stroke:none" 
+     class="ColorScheme-NegativeText"
+     
       />
   </g>
 </svg>

@@ -7,6 +7,9 @@
       .ColorScheme-Highlight {
         color:#3daee9;
       }
+      .ColorScheme-NegativeText {
+        color:#da4453;
+      }
       </style>
   </defs>
   <path 
@@ -15,8 +18,9 @@
         class="ColorScheme-Text"
         />
   <path 
-     style="color:#000000;fill:#da4453"
-        d="m 2,7.0025 5.00025,0 0,2.0025 L 2,9.005 Z"
+     style="fill:currentColor;fill-opacity:1;stroke:none" 
+     class="ColorScheme-NegativeText"
+      d="m 2,7.0025 5.00025,0 0,2.0025 L 2,9.005 Z"
         />
   <path
         style="fill:currentColor;fill-opacity:1;stroke:none"

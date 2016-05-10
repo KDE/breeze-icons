@@ -2,7 +2,10 @@
   <defs id="defs3051">
     <style type="text/css" id="current-color-scheme">
       .ColorScheme-Text {
-        color:#f2f2f2
+        color:#f2f2f2;
+      }
+      .ColorScheme-PositiveText {
+        color:#27ae60;
       }
       </style>
   </defs>
@@ -11,6 +14,7 @@
      class="ColorScheme-Text"
      />
   <path
-     style="fill:#43be80"
-     d="m 10.499991,6.9999781 c 1.939,0 3.5,1.561 3.5,3.4999999 0,1.939 -1.561,3.5 -3.5,3.5 -1.939,0 -3.5,-1.561 -3.5,-3.5 0,-1.9389999 1.561,-3.4999999 3.5,-3.4999999 z"/>
+      style="fill:currentColor;fill-opacity:1;stroke:none" 
+     class="ColorScheme-PositiveText"
+   d="m 10.499991,6.9999781 c 1.939,0 3.5,1.561 3.5,3.4999999 0,1.939 -1.561,3.5 -3.5,3.5 -1.939,0 -3.5,-1.561 -3.5,-3.5 0,-1.9389999 1.561,-3.4999999 3.5,-3.4999999 z"/>
 </svg>

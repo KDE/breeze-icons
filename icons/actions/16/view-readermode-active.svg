@@ -4,6 +4,9 @@
       .ColorScheme-Text {
         color:#4d4d4d;
       }
+      .ColorScheme-PositiveText {
+        color:#27ae60;
+      }
       </style>
   </defs>
   <g
@@ -15,8 +18,9 @@
      class="ColorScheme-Text"
        id="rect6742" />
     <path
-       style="opacity:1;fill:#43be80"
-       d="m 12.500034,1044.3622 c 1.939,0 3.5,1.561 3.5,3.5 0,1.939 -1.561,3.5 -3.5,3.5 -1.939,0 -3.4999997,-1.561 -3.4999997,-3.5 0,-1.939 1.5609997,-3.5 3.4999997,-3.5 z"
+        style="fill:currentColor;fill-opacity:1;stroke:none" 
+     class="ColorScheme-PositiveText"
+    d="m 12.500034,1044.3622 c 1.939,0 3.5,1.561 3.5,3.5 0,1.939 -1.561,3.5 -3.5,3.5 -1.939,0 -3.4999997,-1.561 -3.4999997,-3.5 0,-1.939 1.5609997,-3.5 3.4999997,-3.5 z"
        id="rect4172" />
   </g>
 </svg>

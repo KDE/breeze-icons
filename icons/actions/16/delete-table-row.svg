@@ -4,6 +4,9 @@
       .ColorScheme-Text {
         color:#4d4d4d;
       }
+      .ColorScheme-NegativeText {
+        color:#da4453;
+      }
       </style>
   </defs>
  <path style="fill:currentColor;fill-opacity:1;stroke:none" 
@@ -12,5 +15,7 @@
      /> 
  <path
        d="M 13,5 3,5 3,6.719 6.281,10 3,10 l 0,1 10,0 0,-1 -1.281,0 -4,-4 2.563,0 2.719,2.719 0,-1.438 L 11.72,6 13.001,6 Z m -2.719,5 -2.563,0 -4,-4 2.563,0 z"
-     style="fill:#da4453" />
+     style="fill:currentColor;fill-opacity:1;stroke:none" 
+     class="ColorScheme-NegativeText"
+      />
 </svg>

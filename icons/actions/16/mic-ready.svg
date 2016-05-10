@@ -4,6 +4,9 @@
       .ColorScheme-Text {
         color:#4d4d4d;
       }
+      .ColorScheme-NeutralText {
+        color:#f67400;
+      }
       </style>
   </defs>
   <path style="fill:currentColor;fill-opacity:1;stroke:none" 
@@ -12,6 +15,7 @@
      />
   <path
      transform="matrix(0,-1,1,0,0,0)"
-     style="color:#000000;fill:#f67400"
-     d="M 1.4662743e-5,8 A 2,2 0 0 1 -1.9999853,10 a 2,2 0 0 1 -2,-2 2,2 0 0 1 2,-2 2,2 0 0 1 1.999999962743,2 z"/>
+       style="fill:currentColor;fill-opacity:1;stroke:none" 
+     class="ColorScheme-NeutralText"
+   d="M 1.4662743e-5,8 A 2,2 0 0 1 -1.9999853,10 a 2,2 0 0 1 -2,-2 2,2 0 0 1 2,-2 2,2 0 0 1 1.999999962743,2 z"/>
 </svg>
