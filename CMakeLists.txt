@@ -26,6 +26,8 @@ function(generate_binary_resource target outfile)
     set(RESOURCE_FILE ${RESOURCES_WORKING_DIR}/breeze-${target}.qrc)
     set(BINARY_RESOURCE_FILE ${CMAKE_CURRENT_BINARY_DIR}/breeze-${target}.rcc)
 
+    get_target_property(QT_RCC_EXECUTABLE Qt5::rcc LOCATION)
+
     add_custom_command(OUTPUT ${RESOURCE_FILE}
         COMMAND ${CMAKE_COMMAND} -E make_directory ${RESOURCES_WORKING_DIR}
         COMMAND ${CMAKE_COMMAND} -E copy_directory ${CMAKE_CURRENT_SOURCE_DIR} ${RESOURCES_WORKING_DIR}
@@ -34,11 +36,11 @@ function(generate_binary_resource target outfile)
             ${RESOURCE_FILE}.depends
             ${RESOURCES_WORKING_DIR}/.gitignore
             ${RESOURCES_WORKING_DIR}/CMakeLists.txt
-        COMMAND ${Qt5Core_RCC_EXECUTABLE} --project -o ${RESOURCE_FILE}
+        COMMAND ${QT_RCC_EXECUTABLE} --project -o ${RESOURCE_FILE}
         WORKING_DIRECTORY ${RESOURCES_WORKING_DIR}
     )
     add_custom_command(OUTPUT ${BINARY_RESOURCE_FILE}
-        COMMAND ${Qt5Core_RCC_EXECUTABLE} --binary
+        COMMAND ${QT_RCC_EXECUTABLE} --binary
                     -o ${BINARY_RESOURCE_FILE}
                     ${RESOURCE_FILE}
         DEPENDS ${RESOURCE_FILE}
