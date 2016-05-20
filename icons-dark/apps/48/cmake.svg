@@ -1,34 +1,26 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-<svg width="48" version="1.1" xmlns="http://www.w3.org/2000/svg" height="48" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
- <defs id="defs5455">
-  <linearGradient inkscape:collect="always" xlink:href="#linearGradient4143" id="linearGradient4315" y1="4" x1="24" y2="44" x2="4.00004" gradientUnits="userSpaceOnUse"/>
-  <linearGradient inkscape:collect="always" xlink:href="#linearGradient4435" id="linearGradient4325" y1="43.999973" x1="44" y2="4" x2="24" gradientUnits="userSpaceOnUse"/>
-  <linearGradient inkscape:collect="always" xlink:href="#linearGradient4298" id="linearGradient4333" x1="44" x2="4" gradientUnits="userSpaceOnUse"/>
-  <linearGradient inkscape:collect="always" id="linearGradient4143">
-   <stop style="stop-color:#197cf1" id="stop4145"/>
-   <stop offset="1" style="stop-color:#20bcfa" id="stop4147"/>
+<svg width="48" xmlns="http://www.w3.org/2000/svg" height="48">
+ <defs>
+  <linearGradient id="a" y1="4" x1="24" y2="44" x2="4" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#197cf1"/>
+   <stop offset="1" stop-color="#20bcfa"/>
   </linearGradient>
-  <linearGradient inkscape:collect="always" id="linearGradient4227">
-   <stop style="stop-color:#292c2f" id="stop4229"/>
-   <stop offset="1" style="stop-opacity:0" id="stop4231"/>
+  <linearGradient id="b" y1="44" x1="44" y2="4" x2="24" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#c61423"/>
+   <stop offset="1" stop-color="#dc2b41"/>
   </linearGradient>
-  <linearGradient inkscape:collect="always" id="linearGradient4435">
-   <stop style="stop-color:#c61423" id="stop4437"/>
-   <stop offset="1" style="stop-color:#dc2b41" id="stop4439"/>
+  <linearGradient id="c" x1="44" x2="4" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#42a603"/>
+   <stop offset="1" stop-color="#78da06"/>
   </linearGradient>
-  <linearGradient inkscape:collect="always" id="linearGradient4298">
-   <stop style="stop-color:#42a603" id="stop4300"/>
-   <stop offset="1" style="stop-color:#78da06" id="stop4302"/>
+  <linearGradient id="d" y1="522.8" y2="538.8" x1="400.57" gradientUnits="userSpaceOnUse" x2="416.57">
+   <stop stop-color="#292c2f"/>
+   <stop offset="1" stop-opacity="0"/>
   </linearGradient>
-  <linearGradient inkscape:collect="always" id="linearGradient4232-2-2" xlink:href="#linearGradient4227" y1="522.79773" y2="538.79797" x1="400.57144" gradientUnits="userSpaceOnUse" x2="416.57172" gradientTransform="matrix(1 0 0 1 -0.00001 0.00003)"/>
  </defs>
- <metadata id="metadata5458"/>
- <g inkscape:label="Capa 1" inkscape:groupmode="layer" id="layer1" transform="matrix(1 0 0 1 -384.57143 -499.798)">
-  <path style="fill:url(#linearGradient4325);fill-rule:evenodd" id="path4198" d="M 24 4 L 26.9375 37.296875 L 44 44 L 24 4 z " transform="matrix(1 0 0 1 384.57143 499.798)"/>
-  <path style="fill:url(#linearGradient4315);fill-rule:evenodd" id="path4198-8" d="M 24 4 L 4 44 L 25.794922 24.332031 L 24 4 z " transform="matrix(1 0 0 1 384.57143 499.798)"/>
-  <path style="fill:url(#linearGradient4333);fill-rule:evenodd" id="path4198-84" d="M 16.132812 33.052734 L 4.0039062 43.996094 L 44 44 L 16.132812 33.052734 z M 4.0351562 43.929688 L 3.9628906 43.996094 L 4.0019531 43.996094 L 4.0351562 43.929688 z " transform="matrix(1 0 0 1 384.57143 499.798)"/>
-  <path inkscape:connector-curvature="0" style="fill:url(#linearGradient4232-2-2);opacity:0.2;fill-rule:evenodd" id="path4224-2-5" d="m 410.57143,523.798 -10,9 11,10.99997 17.00001,3e-5 0,-4 z"/>
+ <g fill-rule="evenodd" transform="translate(-384.57-499.8)">
+  <path fill="url(#b)" d="m24 4l2.938 33.3 17.06 6.703z" transform="translate(384.57 499.8)"/>
+  <path fill="url(#a)" d="m24 4l-20 40 21.795-19.668z" transform="translate(384.57 499.8)"/>
+  <path fill="url(#c)" d="m16.13 33.05l-12.13 10.943 39.996.004zm-12.1 10.877l-.072.066h.039z" transform="translate(384.57 499.8)"/>
+  <path opacity=".2" fill="url(#d)" d="m410.57 523.8l-10 9 11 11h17v-4z"/>
  </g>
 </svg>

@@ -1,25 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-<svg width="48" version="1.1" xmlns="http://www.w3.org/2000/svg" height="48" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
- <defs id="defs5455">
-  <linearGradient inkscape:collect="always" xlink:href="#linearGradient4722" id="linearGradient4300" y1="543.79797" y2="503.798" x2="0" gradientUnits="userSpaceOnUse"/>
-  <linearGradient inkscape:collect="always" xlink:href="#linearGradient4722" id="linearGradient4314" y1="537.79797" y2="509.798" x2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 -1047.5959)"/>
-  <linearGradient inkscape:collect="always" id="linearGradient4722">
-   <stop style="stop-color:#a1adb3" id="stop4724"/>
-   <stop offset="1" style="stop-color:#bfc7cb" id="stop4726"/>
+<svg width="48" xmlns="http://www.w3.org/2000/svg" height="48" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="a" y1="543.8" y2="503.8" x2="0" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#a1adb3"/>
+   <stop offset="1" stop-color="#bfc7cb"/>
   </linearGradient>
-  <linearGradient inkscape:collect="always" id="linearGradient4159-5">
-   <stop style="stop-color:#1d1e1e" id="stop4161-5"/>
-   <stop offset="1" style="stop-color:#44484c" id="stop4163-7"/>
+  <linearGradient xlink:href="#a" id="b" y1="537.8" y2="509.8" x2="0" gradientUnits="userSpaceOnUse" gradientTransform="translate(0-1047.6)"/>
+  <linearGradient id="c" y1="31" y2="17" x2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0-1 384.57 547.8)">
+   <stop stop-color="#1d1e1e"/>
+   <stop offset="1" stop-color="#44484c"/>
   </linearGradient>
-  <linearGradient inkscape:collect="always" xlink:href="#linearGradient4159-5" id="linearGradient4459" y1="31" y2="17" x2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 -1 384.57143 547.798)"/>
  </defs>
- <metadata id="metadata5458"/>
- <g inkscape:label="Capa 1" inkscape:groupmode="layer" id="layer1" transform="matrix(1 0 0 1 -384.57143 -499.798)">
-  <ellipse cx="408.57144" cy="523.79797" rx="19.999985" ry="20" style="fill:url(#linearGradient4300)" id="path4193"/>
-  <ellipse cx="408.57144" cy="-523.79797" rx="13.99999" ry="14" style="fill:url(#linearGradient4314)" id="ellipse4213" transform="matrix(1 0 0 -1 0 0)"/>
-  <path inkscape:connector-curvature="0" style="fill:url(#linearGradient4459)" id="path4195" d="m 408.57143,530.798 a 1,1 0 0 1 -1,-1 1,1 0 0 1 1,-1 1,1 0 0 1 1,1 1,1 0 0 1 -1,1 z m -4.22852,-1.75781 a 1,1 0 0 1 -0.7207,-0.29297 1,1 0 0 1 0,-1.41406 1,1 0 0 1 1.41406,0 1,1 0 0 1 0,1.41406 1,1 0 0 1 -0.69336,0.29297 z m 8.45704,0 a 1,1 0 0 1 -0.69336,-0.29297 1,1 0 0 1 0,-1.41406 1,1 0 0 1 1.41406,0 1,1 0 0 1 0,1.41406 1,1 0 0 1 -0.7207,0.29297 z m -4.22852,-3.24219 a 2,2 0 0 1 -2,-2 2,2 0 0 1 2,-2 2,2 0 0 1 2,2 2,2 0 0 1 -2,2 z m -6,-1 a 1,1 0 0 1 -1,-1 1,1 0 0 1 1,-1 1,1 0 0 1 1,1 1,1 0 0 1 -1,1 z m 12,0 a 1,1 0 0 1 -1,-1 1,1 0 0 1 1,-1 1,1 0 0 1 1,1 1,1 0 0 1 -1,1 z m -10.25781,-4.24219 a 1,1 0 0 1 -0.69141,-0.29297 1,1 0 0 1 0,-1.41406 1,1 0 0 1 1.41406,0 1,1 0 0 1 0,1.41406 1,1 0 0 1 -0.72265,0.29297 z m 8.51562,0 a 1,1 0 0 1 -0.72265,-0.29297 1,1 0 0 1 0,-1.41406 1,1 0 0 1 1.41406,0 1,1 0 0 1 0,1.41406 1,1 0 0 1 -0.69141,0.29297 z m -4.25781,-1.75781 a 1,1 0 0 1 -1,-1 1,1 0 0 1 1,-1 1,1 0 0 1 1,1 1,1 0 0 1 -1,1 z"/>
-  <path style="fill:#737b81" id="ellipse4461" d="M 43.978516 23.417969 A 19.999985 20 0 0 1 24 43 A 19.999985 20 0 0 1 4.0214844 23.582031 A 19.999985 20 0 0 0 4 24 A 19.999985 20 0 0 0 24 44 A 19.999985 20 0 0 0 44 24 A 19.999985 20 0 0 0 43.978516 23.417969 z " transform="matrix(1 0 0 1 384.57143 499.798)"/>
+ <g transform="translate(-384.57-499.8)">
+  <ellipse fill="url(#a)" cx="408.57" cy="523.8" rx="20" ry="20"/>
+  <ellipse fill="url(#b)" cx="408.57" cy="-523.8" rx="14" ry="14" transform="scale(1-1)"/>
+  <path fill="url(#c)" d="m408.57143 530.798a1 1 0 0 1 -1 -1 1 1 0 0 1 1 -1 1 1 0 0 1 1 1 1 1 0 0 1 -1 1m-4.22852-1.75781a1 1 0 0 1 -.7207 -.29297 1 1 0 0 1 0 -1.41406 1 1 0 0 1 1.41406 0 1 1 0 0 1 0 1.41406 1 1 0 0 1 -.69336 .29297m8.45704 0a1 1 0 0 1 -.69336 -.29297 1 1 0 0 1 0 -1.41406 1 1 0 0 1 1.41406 0 1 1 0 0 1 0 1.41406 1 1 0 0 1 -.7207 .29297m-4.22852-3.24219a2 2 0 0 1 -2 -2 2 2 0 0 1 2 -2 2 2 0 0 1 2 2 2 2 0 0 1 -2 2m-6-1a1 1 0 0 1 -1 -1 1 1 0 0 1 1 -1 1 1 0 0 1 1 1 1 1 0 0 1 -1 1m12 0a1 1 0 0 1 -1 -1 1 1 0 0 1 1 -1 1 1 0 0 1 1 1 1 1 0 0 1 -1 1m-10.25781-4.24219a1 1 0 0 1 -.69141 -.29297 1 1 0 0 1 0 -1.41406 1 1 0 0 1 1.41406 0 1 1 0 0 1 0 1.41406 1 1 0 0 1 -.72265 .29297m8.51562 0a1 1 0 0 1 -.72265 -.29297 1 1 0 0 1 0 -1.41406 1 1 0 0 1 1.41406 0 1 1 0 0 1 0 1.41406 1 1 0 0 1 -.69141 .29297m-4.25781-1.75781a1 1 0 0 1 -1 -1 1 1 0 0 1 1 -1 1 1 0 0 1 1 1 1 1 0 0 1 -1 1"/>
+  <path fill="#737b81" d="M43.978516 23.417969A19.999985 20 0 0 1 24 43 19.999985 20 0 0 1 4.02148 23.582031 19.999985 20 0 0 0 4 24 19.999985 20 0 0 0 24 44 19.999985 20 0 0 0 44 24 19.999985 20 0 0 0 43.978516 23.417969" transform="translate(384.57 499.8)"/>
  </g>
 </svg>

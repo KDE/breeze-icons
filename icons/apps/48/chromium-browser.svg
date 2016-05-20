@@ -1,47 +1,40 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-<svg width="48" version="1.1" xmlns="http://www.w3.org/2000/svg" height="48" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
- <defs id="defs5455">
-  <linearGradient inkscape:collect="always" id="linearGradient4401">
-   <stop style="stop-color:#8bb3d0" id="stop4403"/>
-   <stop offset="1" style="stop-color:#a9cfe4" id="stop4405"/>
+<svg width="48" xmlns="http://www.w3.org/2000/svg" height="48" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="a" y1="44" x1="44" y2="24" x2="24" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#548eb5"/>
+   <stop offset="1" stop-color="#68a0c4"/>
   </linearGradient>
-  <linearGradient inkscape:collect="always" id="linearGradient4257">
-   <stop style="stop-color:#41759c" id="stop4259"/>
-   <stop offset="1" style="stop-color:#7faac8" id="stop4261"/>
+  <linearGradient id="b" y1="44" x1="4" y2="24" x2="24" gradientUnits="userSpaceOnUse" gradientTransform="translate(384.57 499.86)">
+   <stop stop-color="#79a8ca"/>
+   <stop offset="1" stop-color="#9ecbda"/>
   </linearGradient>
-  <linearGradient inkscape:collect="always" id="linearGradient4249">
-   <stop style="stop-color:#79a8ca" id="stop4251"/>
-   <stop offset="1" style="stop-color:#9ecbda" id="stop4253"/>
+  <linearGradient id="c" y1="4" x1="44" y2="24" x2="24" gradientUnits="userSpaceOnUse" gradientTransform="translate(384.57 499.8)">
+   <stop stop-color="#41759c"/>
+   <stop offset="1" stop-color="#7faac8"/>
   </linearGradient>
-  <linearGradient inkscape:collect="always" id="linearGradient4230">
-   <stop style="stop-color:#548eb5" id="stop4232"/>
-   <stop offset="1" style="stop-color:#68a0c4" id="stop4234"/>
+  <linearGradient id="d" y1="520.8" x1="403.57" y2="537.8" x2="420.57" gradientUnits="userSpaceOnUse" gradientTransform="translate(-384.57-499.8)">
+   <stop stop-color="#292c2f"/>
+   <stop offset="1" stop-opacity="0"/>
   </linearGradient>
-  <linearGradient inkscape:collect="always" xlink:href="#linearGradient4230" id="linearGradient4236" y1="43.999973" x1="44" y2="24" x2="24" gradientUnits="userSpaceOnUse"/>
-  <linearGradient inkscape:collect="always" xlink:href="#linearGradient4249" id="linearGradient4255" y1="44" x1="4.00004" y2="24" x2="24" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 384.57143 499.8605)"/>
-  <linearGradient inkscape:collect="always" xlink:href="#linearGradient4257" id="linearGradient4263" y1="4" x1="44.00001" y2="24" x2="24" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 384.56752 499.798)"/>
-  <linearGradient inkscape:collect="always" xlink:href="#linearGradient4227" id="linearGradient4381" y1="520.79797" x1="403.57147" y2="537.79797" x2="420.57144" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 -384.57143 -499.798)"/>
-  <linearGradient inkscape:collect="always" xlink:href="#linearGradient4227" id="linearGradient4393" y1="517.79797" x1="402.57144" y2="538.79797" x2="423.57144" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 -384.57143 -499.798)"/>
-  <linearGradient inkscape:collect="always" xlink:href="#linearGradient4401" id="linearGradient4407" y1="530.79797" y2="516.79797" x2="0" gradientUnits="userSpaceOnUse"/>
-  <linearGradient inkscape:collect="always" xlink:href="#linearGradient4249" id="linearGradient4161" y1="543.79797" y2="502.798" x2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.95 0 0 0.95 20.428574 26.1899)"/>
-  <linearGradient inkscape:collect="always" id="linearGradient4227">
-   <stop style="stop-color:#292c2f" id="stop4229"/>
-   <stop offset="1" style="stop-opacity:0" id="stop4231"/>
+  <linearGradient xlink:href="#d" id="e" y1="517.8" x1="402.57" y2="538.8" x2="423.57" gradientUnits="userSpaceOnUse" gradientTransform="translate(-384.57-499.8)"/>
+  <linearGradient id="f" y1="530.8" y2="516.8" x2="0" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#8bb3d0"/>
+   <stop offset="1" stop-color="#a9cfe4"/>
   </linearGradient>
+  <linearGradient xlink:href="#b" id="g" y1="542.8" y2="503.85" x2="0" gradientUnits="userSpaceOnUse"/>
  </defs>
- <metadata id="metadata5458"/>
- <g inkscape:label="Capa 1" inkscape:groupmode="layer" id="layer1" transform="matrix(1 0 0 1 -384.57143 -499.798)">
-  <rect width="37.999996" x="389.57144" y="504.79797" rx="18.999994" height="37.999989" style="fill:url(#linearGradient4161)" id="rect4145"/>
-  <path inkscape:connector-curvature="0" style="fill:#649cc1;opacity:0.8" id="rect3345" d="M 24.472656,14.699219 C 24.211041,14.699219 24,14.91026 24,15.171875 c 0,0.261615 0.211041,0.472656 0.472656,0.472656 l 17.054688,0 c 0.03442,0 0.06536,-0.0126 0.09766,-0.01953 L 41.857,15 41,14.699219 Z" transform="matrix(1 0 0 1 384.57143 499.798)"/>
-  <path inkscape:connector-curvature="0" style="fill:url(#linearGradient4255);fill-rule:evenodd" id="path4217" d="m 392.57534,511.798 c -2.50446,3.34009 -4.00391,7.54795 -4.00391,12.0625 0,11.08 8.92001,19.9375 20,19.9375 l 7,-14.3375 -13,-2.6625 z"/>
-  <path inkscape:connector-curvature="0" style="fill:url(#linearGradient4236);fill-rule:evenodd" id="path4209" d="M 25,15 31,29.6 24,44 c 11.079995,0 20,-8.920005 20,-20 0,-3.245276 -0.781986,-6.295183 -2.142578,-9 z" transform="matrix(1 0 0 1 384.57143 499.798)"/>
-  <path inkscape:connector-curvature="0" style="fill:url(#linearGradient4393);opacity:0.2;fill-rule:evenodd" id="path4385" d="M 30.7,18 17.3,30 30.064453,43.064453 c 5.934555,-1.874621 10.636514,-6.435695 12.734375,-12.265625 z" transform="matrix(1 0 0 1 384.57143 499.798)"/>
-  <path inkscape:connector-curvature="0" style="fill:url(#linearGradient4263);fill-rule:evenodd" id="path4219" d="m 408.56752,503.798 c -6.56544,0 -12.3539,3.14646 -15.99609,8.00391 l 9.99609,14.99609 13,2.6 -6,-14.6 16.85743,0 c -3.28473,-6.52995 -10.02271,-11 -17.85743,-11 z"/>
-  <rect width="17.999996" x="399.57144" y="514.79797" rx="8.999994" height="17.99999" style="fill:#ecf0f1" id="rect4211"/>
-  <path inkscape:connector-curvature="0" style="fill:url(#linearGradient4381);opacity:0.2;fill-rule:evenodd" id="path4373" d="m 30.3,21 -11.2,8 13.128516,13.228516 c 3.982862,-1.792939 7.271899,-4.836679 9.347656,-8.652344 z" transform="matrix(1 0 0 1 384.57143 499.798)"/>
-  <rect width="13.999996" x="401.57144" y="516.79797" rx="6.999995" height="13.999992" style="fill:url(#linearGradient4407)" id="rect4213"/>
-  <path style="fill:#005677;fill-opacity:0.237113" id="rect4409" d="M 4.0117188 23.5 C 4.0076623 23.666545 4 23.832443 4 24 C 4 35.079997 12.920003 44 24 44 C 35.079997 44 44 35.079997 44 24 C 44 23.832443 43.992338 23.666545 43.988281 23.5 C 43.72361 34.346134 34.912123 43 24 43 C 13.087877 43 4.2763903 34.346134 4.0117188 23.5 z " transform="matrix(1 0 0 1 384.57143 499.798)"/>
+ <g transform="translate(-384.57-499.8)">
+  <rect width="38" x="389.57" y="504.8" fill="url(#g)" rx="19" height="38"/>
+  <path opacity=".8" fill="#649cc1" d="m24.473 14.699c-.262 0-.473.211-.473.473 0 .262.211.473.473.473h17.05c.034 0 .065-.013.098-.02l.232-.625-.857-.301z" transform="translate(384.57 499.8)"/>
+  <g fill-rule="evenodd">
+   <path fill="url(#b)" d="m392.58 511.8c-2.504 3.34-4 7.548-4 12.06 0 11.08 8.92 19.938 20 19.938l7-14.337-13-2.663z"/>
+   <path fill="url(#a)" d="m25 15l6 14.6-7 14.4c11.08 0 20-8.92 20-20 0-3.245-.782-6.295-2.143-9z" transform="translate(384.57 499.8)"/>
+   <path opacity=".2" fill="url(#e)" d="m30.7 18l-13.4 12 12.764 13.06c5.935-1.875 10.637-6.436 12.734-12.266z" transform="translate(384.57 499.8)"/>
+   <path fill="url(#c)" d="m408.57 503.8c-6.565 0-12.354 3.146-15.996 8l9.996 14.996 13 2.6-6-14.6h16.857c-3.285-6.53-10.02-11-17.857-11"/>
+  </g>
+  <rect width="18" x="399.57" y="514.8" fill="#ecf0f1" rx="9" height="18"/>
+  <path opacity=".2" fill="url(#d)" fill-rule="evenodd" d="m30.3 21l-11.2 8 13.13 13.229c3.983-1.793 7.272-4.837 9.348-8.652z" transform="translate(384.57 499.8)"/>
+  <rect width="14" x="401.57" y="516.8" fill="url(#f)" rx="7" height="14"/>
+  <path fill="#005677" fill-opacity=".237" d="m4.01 23.5c-.004.167-.012.332-.012.5 0 11.08 8.92 20 20 20 11.08 0 20-8.92 20-20 0-.168-.008-.333-.012-.5-.265 10.846-9.08 19.5-19.988 19.5-10.912 0-19.724-8.654-19.988-19.5" transform="translate(384.57 499.8)"/>
  </g>
 </svg>

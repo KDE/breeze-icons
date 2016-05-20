@@ -24,19 +24,19 @@
    <rect width="40" x="388.57" y="508.8" fill="#da4453" rx="0" height="1"/>
   </g>
   <g fill="#ffffff" color-rendering="auto" shape-rendering="auto" color-interpolation-filters="linearRGB" image-rendering="auto" text-rendering="auto" color-interpolation="sRGB" color="#000000">
-   <path d="m389.57 510.8h18v31h-18z"/>
-   <path d="m409.57 510.8h18v31h-18z"/>
+   <path id="e" d="m389.57 510.8h18v31h-18z"/>
+   <use x="20" xlink:href="#e"/>
   </g>
   <g fill-rule="evenodd">
    <path opacity=".2" fill="url(#c)" d="m392.57 511.8l-2 4 17 8.576v-5.576zm0 8l-2 4 17 9v-5.695z"/>
    <path opacity=".2" fill="url(#d)" d="m412.57 511.8l-2 4 17 8.576v-5.576zm0 8l-2 4 17 9v-5.695zm0 8l-2 4 17 9v-5.695z"/>
   </g>
   <g fill="#da4453">
-   <path d="m390.57 511.8h2v1h2v3h-4z"/>
-   <path d="m390.57 519.8h2v1h2v3h-4z"/>
-   <path d="m410.57 511.8h2v1h2v3h-4z"/>
-   <path d="m410.57 519.8h2v1h2v3h-4z"/>
-   <path d="m410.57 527.8h2v1h2v3h-4z"/>
+   <path id="f" d="m390.57 511.8h2v1h2v3h-4z"/>
+   <use y="8" xlink:href="#f"/>
+   <use x="20" xlink:href="#f"/>
+   <use x="20" y="8" xlink:href="#f"/>
+   <use x="20" y="16" xlink:href="#f"/>
   </g>
  </g>
 </svg>
