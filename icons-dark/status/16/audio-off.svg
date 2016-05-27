@@ -1,1 +1,20 @@
-../../actions/16/player-volume-muted.svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <defs id="defs3051">
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text {
+        color:#f2f2f2;
+      }
+      .ColorScheme-NegativeText {
+        color:#da4453;
+      }
+      </style>
+  </defs>
+ <path style="fill:currentColor;fill-opacity:1;stroke:none" 
+     d="M 7.988281,0 3,3.9961 3,5 l 0,7 0,0 4.988281,3.9961 0.011719,0 1,0 0,-0.4707 0,-15.0586 0,-0.4707 -1,0 -0.011719,0 z M 8,1.2715 8,14.7285 4,11.5234 4,4.4766 8,1.2715 Z M 0,5 0,11 2,11 2,5 0,5 Z"
+     class="ColorScheme-Text"
+     />
+  <path
+     style="fill:currentColor;fill-opacity:1;stroke:none" 
+     class="ColorScheme-NegativeText"
+     d="m 10,7 0,2 5,0 0,-2 -5,0 z" />
+</svg>
