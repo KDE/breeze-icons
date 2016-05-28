@@ -2,7 +2,7 @@
  <defs>
   <linearGradient id="a" y1="543.8" y2="503.8" x2="0" gradientUnits="userSpaceOnUse">
    <stop stop-color="#2a2c2f"/>
-   <stop offset="1" stop-color="#424649"/>
+   <stop offset="1" stop-color="#536161"/>
   </linearGradient>
   <linearGradient id="b" y1="34" y2="14" x2="0" gradientUnits="userSpaceOnUse" gradientTransform="translate(379.57 499.8)">
    <stop stop-color="#b40000"/>

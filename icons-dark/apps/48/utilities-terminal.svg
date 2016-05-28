@@ -2,10 +2,10 @@
  <defs>
   <linearGradient id="a" y1="543.8" y2="503.8" x2="0" gradientUnits="userSpaceOnUse">
    <stop stop-color="#2a2c2f"/>
-   <stop offset="1" stop-color="#424649"/>
+   <stop offset="1" stop-color="#536161"/>
   </linearGradient>
   <linearGradient id="b" y1="34" y2="14" x2="0" gradientUnits="userSpaceOnUse">
-   <stop stop-color="#999a9c"/>
+   <stop stop-color="#536161"/>
    <stop offset="1" stop-color="#f4f5f5"/>
   </linearGradient>
   <linearGradient id="c" y1="523.8" x1="403.57" y2="536.8" x2="416.57" gradientUnits="userSpaceOnUse">
@@ -19,7 +19,7 @@
   <path fill="url(#b)" d="m20.414 14l-1.414 1.414 8.586 8.586-8.586 8.586 1.414 1.414 10-10-1.414-1.414z" transform="translate(384.57 499.8)"/>
   <g fill-rule="evenodd">
    <path opacity=".4" fill="url(#c)" d="m404.99 533.8l9.586 9.586h14v-6l-13.586-13.586z"/>
-   <path fill="#ffffff" fill-opacity=".196" d="m414.99 523.8l-.414.414-10-10 .414-.414z"/>
+   <path fill="#4d4d4d" fill-opacity=".196" d="m414.99 523.8l-.414.414-10-10 .414-.414z"/>
   </g>
  </g>
 </svg>
