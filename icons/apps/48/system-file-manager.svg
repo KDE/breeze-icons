@@ -1,35 +1,32 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-<svg width="48" version="1.1" xmlns="http://www.w3.org/2000/svg" height="48" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
- <defs id="defs5455">
-  <linearGradient inkscape:collect="always" id="linearGradient4424">
-   <stop style="stop-color:#60a5e7;stop-opacity:0" id="stop4426"/>
-   <stop offset="1" style="stop-color:#a6f3fb;stop-opacity:0.257732" id="stop4428"/>
+<svg width="48" xmlns="http://www.w3.org/2000/svg" height="48">
+ <defs>
+  <linearGradient id="a" y1="543.8" y2="509.8" x2="0" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#2f74c8"/>
+   <stop offset="1" stop-color="#4699d7"/>
   </linearGradient>
-  <linearGradient inkscape:collect="always" id="linearGradient4410">
-   <stop style="stop-color:#383e51" id="stop4412"/>
-   <stop offset="1" style="stop-color:#655c6f;stop-opacity:0" id="stop4414"/>
+  <linearGradient id="b" y1="517.8" x1="414.57" y2="531.8" x2="428.57" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#383e51"/>
+   <stop offset="1" stop-color="#655c6f" stop-opacity="0"/>
   </linearGradient>
-  <linearGradient inkscape:collect="always" id="linearGradient4214">
-   <stop style="stop-color:#2f74c8" id="stop4216"/>
-   <stop offset="1" style="stop-color:#4699d7" id="stop4218"/>
+  <linearGradient id="c" y1="519.8" y2="508.8" x2="0" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#60a5e7" stop-opacity="0"/>
+   <stop offset="1" stop-color="#a6f3fb" stop-opacity=".258"/>
   </linearGradient>
-  <linearGradient inkscape:collect="always" xlink:href="#linearGradient4214" id="linearGradient4220" y1="543.79797" y2="509.798" x2="0" gradientUnits="userSpaceOnUse"/>
-  <linearGradient inkscape:collect="always" xlink:href="#linearGradient4410" id="linearGradient4408" y1="517.79797" x1="414.57144" y2="531.79797" x2="428.57147" gradientUnits="userSpaceOnUse"/>
-  <linearGradient inkscape:collect="always" xlink:href="#linearGradient4424" id="linearGradient4422" y1="519.79797" y2="508.798" x2="0" gradientUnits="userSpaceOnUse"/>
  </defs>
- <metadata id="metadata5458"/>
- <g inkscape:label="Capa 1" inkscape:groupmode="layer" id="layer1" transform="matrix(1 0 0 1 -384.57143 -499.798)">
-  <path inkscape:connector-curvature="0" style="fill:#084883" id="rect4182" d="m 0,4 0,6 0,4 35,0 13,0 0,-4 -17,0 -6,-6 z" transform="matrix(1 0 0 1 384.57143 499.798)"/>
-  <path inkscape:connector-curvature="0" style="fill:url(#linearGradient4220)" id="rect4180" d="m 384.57144,513.798 47.99999,0 0,29.99997 -47.99999,0 z"/>
-  <path inkscape:connector-curvature="0" style="fill:#2f77c2" id="rect4457" d="m 384.57147,513.798 47.99996,0 0,1 -47.99996,0 z"/>
-  <path inkscape:connector-curvature="0" style="fill:#ffffff;fill-rule:evenodd" id="path4388" d="m 432.57144,513.798 -23.00001,13 -7,-6.86047 -7,-7.13953 37,0 z"/>
-  <path inkscape:connector-curvature="0" style="fill:#b3b3b3;fill-rule:evenodd" id="path4390" d="m 395.57143,512.798 0,1 1,0 z"/>
-  <path inkscape:connector-curvature="0" style="fill:url(#linearGradient4422);fill-rule:evenodd" id="path4392" d="m 397.57143,512.798 12,12 22,-12 z"/>
-  <rect width="47.999969" x="384.57147" y="542.79797" height="1" style="fill:#2a6bae" id="rect4396"/>
-  <path inkscape:connector-curvature="0" style="fill:url(#linearGradient4408);opacity:0.2;fill-rule:evenodd" id="path4400" d="m 409.57143,526.798 17,17 6,0 0,-30 z"/>
-  <path inkscape:connector-curvature="0" style="fill:#5f5f5f;fill-opacity:0.117647;fill-rule:evenodd" id="path4463" d="m 384.57143,503.798 4e-5,10 47.99996,0 10e-6,-4 -23.00001,0 z"/>
-  <path inkscape:connector-curvature="0" style="fill:#ffffff;fill-opacity:0.058824;fill-rule:evenodd" id="path4465" d="m 384.57147,503.798 19.99996,1 11,6 17.00001,-1 -17.00001,0 -6,-6.00003 z"/>
+ <g transform="translate(-384.57-499.8)">
+  <path fill="#084883" d="m0 4v10h48v-4h-17l-6-6z" transform="translate(384.57 499.8)"/>
+  <path fill="url(#a)" d="m384.57 513.8h48v30h-48z"/>
+  <path fill="#2f77c2" d="m384.57 513.8h48v1h-48z"/>
+  <g fill-rule="evenodd">
+   <path fill="#ffffff" d="m432.57 513.8l-23 13-7-6.86-7-7.14h37z"/>
+   <path fill="#b3b3b3" d="m395.57 512.8v1h1z"/>
+   <path fill="url(#c)" d="m397.57 512.8l12 12 22-12z"/>
+  </g>
+  <rect width="48" x="384.57" y="542.8" fill="#2a6bae" height="1"/>
+  <g fill-rule="evenodd">
+   <path opacity=".2" fill="url(#b)" d="m409.57 526.8l17 17h6v-30z"/>
+   <path fill="#5f5f5f" fill-opacity=".118" d="m384.57 503.8v10h48v-4h-23z"/>
+   <path fill="#ffffff" fill-opacity=".059" d="m384.57 503.8l20 1 11 6 17-1h-17l-6-6z"/>
+  </g>
  </g>
 </svg>

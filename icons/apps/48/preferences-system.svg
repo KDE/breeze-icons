@@ -1,31 +1,24 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-<svg width="48" version="1.1" xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 0 48 48" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
- <defs id="defs5455">
-  <linearGradient inkscape:collect="always" id="linearGradient4326">
-   <stop style="stop-color:#9ed3fb" id="stop4328"/>
-   <stop offset="1" style="stop-color:#effaff" id="stop4330"/>
+<svg width="48" xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 0 48 48">
+ <defs>
+  <linearGradient id="a" y1="543.8" y2="503.8" x2="0" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#1d1e1e"/>
+   <stop offset="1" stop-color="#44484c"/>
   </linearGradient>
-  <linearGradient inkscape:collect="always" id="linearGradient4159">
-   <stop style="stop-color:#1d1e1e" id="stop4161"/>
-   <stop offset="1" style="stop-color:#44484c" id="stop4163"/>
+  <linearGradient id="b" y1="530.8" y2="516.8" x2="0" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#9ed3fb"/>
+   <stop offset="1" stop-color="#effaff"/>
   </linearGradient>
-  <linearGradient inkscape:collect="always" xlink:href="#linearGradient4159" id="linearGradient4165" y1="543.79797" y2="503.798" x2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 -0.000017 0)"/>
-  <linearGradient inkscape:collect="always" xlink:href="#linearGradient4326" id="linearGradient4332" y1="530.79797" y2="516.79797" x2="0" gradientUnits="userSpaceOnUse"/>
-  <linearGradient inkscape:collect="always" xlink:href="#linearGradient4227" id="linearGradient4342" y1="517.79797" x1="406.57144" y2="536.79797" x2="425.57144" gradientUnits="userSpaceOnUse"/>
-  <linearGradient inkscape:collect="always" id="linearGradient4227">
-   <stop style="stop-color:#292c2f" id="stop4229"/>
-   <stop offset="1" style="stop-opacity:0" id="stop4231"/>
+  <linearGradient id="c" y1="517.8" x1="406.57" y2="536.8" x2="425.57" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#292c2f"/>
+   <stop offset="1" stop-opacity="0"/>
   </linearGradient>
  </defs>
- <metadata id="metadata5458"/>
- <g inkscape:label="Capa 1" inkscape:groupmode="layer" id="layer1" transform="matrix(1 0 0 1 -384.57143 -499.798)">
-  <rect width="40.00001" x="388.57141" y="503.798" rx="0" height="39.999969" style="fill:url(#linearGradient4165)" id="rect4146"/>
-  <rect width="31.999981" x="392.57144" y="515.79803" rx="7.999987" height="16" style="fill:#1d99f3" id="rect4157"/>
-  <path inkscape:connector-curvature="0" style="fill:url(#linearGradient4342);opacity:0.4;fill-rule:evenodd" id="path4334" d="m 411.57143,528.798 14.99997,14.99997 2.00004,0 0,-17.99997 -8.00001,-8 z"/>
-  <rect width="13.999983" x="409.67133" y="516.79803" rx="6.999989" height="14" style="fill:url(#linearGradient4332)" id="rect4159"/>
-  <path inkscape:connector-curvature="0" style="fill:#1b83ce;fill-opacity:0.118644" id="rect4413" d="M 35.552734,19.091797 C 36.453216,20.140741 37,21.502807 37,23 c 0,3.323994 -2.676006,6 -6,6 -1.288752,0 -2.477382,-0.405477 -3.453125,-1.091797 C 28.6456,29.188074 30.272808,30 32.099609,30 c 3.323995,0 6,-2.676006 6,-6 0,-2.035242 -1.005947,-3.824342 -2.546875,-4.908203 z" transform="matrix(1 0 0 1 384.57143 499.798)"/>
-  <rect width="39.999969" x="388.57147" y="542.79797" height="0.999974" style="fill:#141517" id="rect4167"/>
+ <g transform="translate(-384.57-499.8)">
+  <rect width="40" x="388.57" y="503.8" fill="url(#a)" rx="0" height="40"/>
+  <rect width="32" x="392.57" y="515.8" fill="#1d99f3" rx="8" height="16"/>
+  <path opacity=".4" fill="url(#c)" fill-rule="evenodd" d="m411.57 528.8l15 15h2v-18l-8-8z"/>
+  <rect width="14" x="409.67" y="516.8" fill="url(#b)" rx="7" height="14"/>
+  <path fill="#1b83ce" fill-opacity=".119" d="m35.553 19.09c.9 1.049 1.447 2.411 1.447 3.908 0 3.324-2.676 6-6 6-1.289 0-2.477-.405-3.453-1.092 1.099 1.28 2.726 2.092 4.553 2.092 3.324 0 6-2.676 6-6 0-2.035-1.01-3.824-2.547-4.908" transform="translate(384.57 499.8)"/>
+  <rect width="40" x="388.57" y="542.8" fill="#141517" height="1"/>
  </g>
 </svg>

@@ -1,24 +1,20 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-<svg width="48" version="1.1" xmlns="http://www.w3.org/2000/svg" height="48" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
- <defs id="defs5455">
-  <linearGradient inkscape:collect="always" id="linearGradient4222">
-   <stop style="stop-color:#292c2f" id="stop4224"/>
-   <stop offset="1" style="stop-color:#292c2f;stop-opacity:0" id="stop4226"/>
+<svg width="48" xmlns="http://www.w3.org/2000/svg" height="48">
+ <defs>
+  <linearGradient id="a" y1="543.8" y2="503.8" x2="0" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#197cf1"/>
+   <stop offset="1" stop-color="#20bcfa"/>
   </linearGradient>
-  <linearGradient inkscape:collect="always" xlink:href="#linearGradient4143" id="linearGradient4174" y1="543.79797" y2="503.798" x2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 -0.000006 0.000011)"/>
-  <linearGradient inkscape:collect="always" id="linearGradient4143">
-   <stop style="stop-color:#197cf1" id="stop4145"/>
-   <stop offset="1" style="stop-color:#20bcfa" id="stop4147"/>
+  <linearGradient id="b" y1="18.71" x1="22.285" y2="36.633" x2="39.28" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#292c2f"/>
+   <stop offset="1" stop-color="#292c2f" stop-opacity="0"/>
   </linearGradient>
-  <linearGradient inkscape:collect="always" xlink:href="#linearGradient4222" id="linearGradient4228" y1="18.709532" x1="22.28548" y2="36.632717" x2="39.2775" gradientUnits="userSpaceOnUse"/>
  </defs>
- <metadata id="metadata5458"/>
- <g inkscape:label="Capa 1" inkscape:groupmode="layer" id="layer1" transform="matrix(1 0 0 1 -384.57143 -499.798)">
-  <rect width="39.999989" x="388.57144" y="503.798" rx="19.999985" height="39.999969" style="stroke-opacity:0.550265;fill:url(#linearGradient4174);stroke-width:2.8" id="rect4166"/>
-  <path style="stroke-opacity:0.550265;fill:#0c69cf;stroke-width:2.8" id="rect4775" d="M 4.0117188 23.5 C 4.007647 23.666859 4 23.832126 4 24 C 4 35.079992 12.920008 44 24 44 C 35.079992 44 44 35.079992 44 24 C 44 23.832126 43.992353 23.666859 43.988281 23.5 C 43.724099 34.346571 34.912435 43 24 43 C 13.087565 43 4.2759007 34.346571 4.0117188 23.5 z " transform="matrix(1 0 0 1 384.57143 499.798)"/>
-  <path style="fill:url(#linearGradient4228);opacity:0.2" id="rect4216" d="M 31.767578 16.462891 L 13.181641 23.785156 L 31.794922 42.435547 C 37.720752 39.938967 42.166069 34.671234 43.544922 28.240234 L 31.767578 16.462891 z " transform="matrix(1 0 0 1 384.57143 499.798)"/>
-  <path inkscape:connector-curvature="0" style="fill:#ffffff" id="path4193" d="m 408.82047,534.63206 c -0.5291,-0.32118 -0.86649,-0.87715 -2.336,-3.84935 -0.81331,-1.64502 -1.58749,-3.1061 -1.72039,-3.24686 -0.14921,-0.15804 -1.37557,-0.80955 -3.20691,-1.70368 -3.61848,-1.7667 -3.98574,-2.04752 -3.98574,-3.04754 0,-0.46704 0.22784,-0.91347 0.58512,-1.14651 0.12276,-0.08 3.90589,-1.43359 8.40694,-3.0078 7.90846,-2.76595 8.20253,-2.86107 8.74274,-2.82815 0.46753,0.0285 0.60297,0.076 0.82757,0.29019 0.33674,0.32115 0.48821,0.76633 0.42267,1.24225 -0.0705,0.51156 -5.7484,16.54977 -5.95956,16.83367 -0.45032,0.60542 -1.21445,0.80491 -1.77644,0.46378 z"/>
+ <g transform="translate(-384.57-499.8)">
+  <g stroke-opacity=".55" stroke-width="2.8">
+   <rect width="40" x="388.57" y="503.8" fill="url(#a)" rx="20" height="40"/>
+   <path fill="#0c69cf" d="m4.01 23.5c-.004.167-.012.332-.012.5 0 11.08 8.92 20 20 20 11.08 0 20-8.92 20-20 0-.168-.008-.333-.012-.5-.264 10.847-9.08 19.5-19.988 19.5-10.912 0-19.724-8.653-19.988-19.5" transform="translate(384.57 499.8)"/>
+  </g>
+  <path opacity=".2" fill="url(#b)" d="m31.768 16.463l-18.586 7.322 18.613 18.65c5.926-2.497 10.371-7.764 11.75-14.195z" transform="translate(384.57 499.8)"/>
+  <path fill="#ffffff" d="m408.82 534.63c-.529-.321-.866-.877-2.336-3.849-.813-1.645-1.587-3.106-1.72-3.247-.149-.158-1.376-.81-3.207-1.704-3.618-1.767-3.986-2.048-3.986-3.048 0-.467.228-.913.585-1.147.123-.08 3.906-1.434 8.407-3.01 7.908-2.766 8.203-2.861 8.743-2.828.468.029.603.076.828.29.337.321.488.766.423 1.242-.07.512-5.748 16.55-5.96 16.834-.45.605-1.214.805-1.776.464"/>
  </g>
 </svg>

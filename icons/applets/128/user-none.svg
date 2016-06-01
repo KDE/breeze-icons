@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs
+     id="defs4">
+    <style
+       id="current-color-scheme"
+       type="text/css">
+      .ColorScheme-Text {
+        color:#4d4d4d;
+      }
+      .ColorScheme-Background {
+        color:#eff0f1;
+      }
+      .ColorScheme-Highlight {
+        color:#3daee9;
+      }
+      .ColorScheme-ViewText {
+        color:#31363b;
+      }
+      .ColorScheme-ViewBackground {
+        color:#fcfcfc;
+      }
+      .ColorScheme-ViewHover {
+        color:#93cee9;
+      }
+      .ColorScheme-ViewFocus{
+        color:#3daee9;
+      }
+      .ColorScheme-ButtonText {
+        color:#31363b;
+      }
+      .ColorScheme-ButtonBackground {
+        color:#eff0f1;
+      }
+      .ColorScheme-ButtonHover {
+        color:#93cee9;
+      }
+      .ColorScheme-ButtonFocus{
+        color:#3daee9;
+      }
+      </style>
+    <linearGradient
+       id="linearGradient4213"
+       inkscape:collect="always">
+      <stop
+         id="stop4215"
+         offset="0"
+         style="stop-color:#000000;stop-opacity:1;" />
+      <stop
+         id="stop4217"
+         offset="1"
+         style="stop-color:#000000;stop-opacity:0;" />
+    </linearGradient>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5154">
+      <rect
+         rx="2.0000384"
+         ry="2.0000021"
+         y="952.3623"
+         x="5.1822917e-05"
+         height="100"
+         width="100"
+         id="rect5156"
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1" />
+    </clipPath>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4213"
+       id="linearGradient6632"
+       gradientUnits="userSpaceOnUse"
+       x1="60.000046"
+       y1="982.36224"
+       x2="115"
+       y2="1037.3622"
+       gradientTransform="matrix(1.2800007,0,0,1.28,-7e-5,-1219.0238)" />
+  </defs>
+  <g
+     transform="translate(0,-924.36216)">
+    <path
+       style="fill:currentColor;fill-opacity:1;stroke:none" 
+       d="M 0 0 L 0 128 L 128 128 L 128 0 L 0 0 z "
+       transform="translate(0,924.36216)"
+       class="ColorScheme-Highlight"
+       id="rect5879" />
+    <g
+       style="display:inline"
+       clip-path="url(#clipPath5154)"
+       inkscape:label="Layer 1"
+       id="g6584"
+       transform="matrix(1.2800007,0,0,1.28,-7e-5,-294.66159)">
+      <path
+         style="opacity:0.2;fill:url(#linearGradient6632);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 82.814453 19.794922 L 82.251953 44.957031 L 54.541016 84.882812 L 66.505859 99.039062 L 52.982422 111.07422 L 68.798828 128 L 128 128 L 128 62.480469 L 82.814453 19.794922 z "
+         transform="matrix(0.78124957,0,0,0.78125,5.468747e-5,952.3623)"
+         id="path6588" />
+      <path
+         style="fill:currentColor;fill-opacity:1;stroke:none" 
+         d="M 63.833984 14 C 54.37899 14 45.434032 16.226425 37 20.679688 L 41.195312 30.136719 C 45.412329 28.1085 49.206465 26.653319 52.580078 25.771484 C 55.998081 24.88965 59.483985 24.449219 63.035156 24.449219 C 68.361914 24.449219 72.444219 25.618217 75.285156 27.955078 C 78.126093 30.291939 79.546875 33.642733 79.546875 38.007812 C 79.546875 40.344673 79.236689 42.394535 78.615234 44.158203 C 77.993779 45.921872 76.92917 47.68555 75.419922 49.449219 C 73.910674 51.212887 70.736908 54.12325 65.898438 58.179688 C 61.637032 61.707023 58.661416 65.124762 56.974609 68.431641 C 55.287803 71.694427 54.445313 75.948399 54.445312 81.195312 L 54.445312 84.833984 L 63.966797 84.833984 L 63.966797 82.583984 C 63.966797 78.571639 64.677188 75.352778 66.097656 72.927734 C 67.562514 70.458599 70.492144 67.351311 74.886719 63.603516 C 80.257866 59.150253 83.831836 55.799458 85.607422 53.550781 C 87.427397 51.302104 88.780176 48.921431 89.667969 46.408203 C 90.555762 43.894976 91 41.006927 91 37.744141 C 91 30.24855 88.580658 24.427824 83.742188 20.283203 C 78.903716 16.094491 72.268017 14 63.833984 14 z M 59.771484 95.679688 C 54.134 95.679687 51.316406 98.699674 51.316406 104.74023 C 51.316406 108.00302 52.092847 110.36333 53.646484 111.81836 C 55.244512 113.27339 57.285664 114 59.771484 114 C 62.301694 114 64.322783 113.20644 65.832031 111.61914 C 67.341279 109.98775 68.095703 107.69438 68.095703 104.74023 C 68.095703 101.742 67.341279 99.493259 65.832031 97.994141 C 64.367173 96.450931 62.346084 95.679688 59.771484 95.679688 z "
+         transform="matrix(0.78124957,0,0,0.78125,5.468747e-5,952.3623)"
+         class="ColorScheme-Background"
+         id="text8241" />
+    </g>
+  </g>
+</svg>

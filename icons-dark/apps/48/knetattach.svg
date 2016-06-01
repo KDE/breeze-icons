@@ -1,148 +1,24 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="48"
-   version="1.1"
-   height="48"
-   id="svg2"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="knetattach.svg">
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1024"
-     inkscape:window-height="713"
-     id="namedview29"
-     showgrid="false"
-     inkscape:zoom="6.9532167"
-     inkscape:cx="24.836511"
-     inkscape:cy="18.564767"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="layer1">
-    <inkscape:grid
-       type="xygrid"
-       id="grid4169" />
-  </sodipodi:namedview>
-  <defs
-     id="defs5455">
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient4214">
-      <stop
-         style="stop-color:#2f74c8"
-         id="stop4216" />
-      <stop
-         offset="1"
-         style="stop-color:#4699d7"
-         id="stop4218" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4214"
-       id="linearGradient4220"
-       y1="543.79797"
-       y2="509.798"
-       x2="0"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4410"
-       id="linearGradient4357"
-       y1="17"
-       x1="18"
-       y2="32"
-       x2="33"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(384.57143,504.798)" />
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient4410">
-      <stop
-         style="stop-color:#383e51"
-         id="stop4412" />
-      <stop
-         offset="1"
-         style="stop-color:#655c6f;stop-opacity:0"
-         id="stop4414" />
-    </linearGradient>
-  </defs>
-  <metadata
-     id="metadata5458">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     inkscape:label="Capa 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="matrix(1 0 0 1 -384.57143 -499.798)">
-    <path
-       inkscape:connector-curvature="0"
-       style="fill:#084883"
-       id="rect4182"
-       d="m 0,4 0,6 0,4 35,0 13,0 0,-4 -17,0 -6,-6 z"
-       transform="matrix(1 0 0 1 384.57143 499.798)" />
-    <path
-       inkscape:connector-curvature="0"
-       style="fill:url(#linearGradient4220)"
-       id="rect4180"
-       d="m 384.57144,513.798 47.99999,0 0,29.99997 -47.99999,0 z" />
-    <path
-       inkscape:connector-curvature="0"
-       style="fill:#2f77c2"
-       id="rect4457"
-       d="m 384.57147,513.798 47.99996,0 0,1 -47.99996,0 z" />
-    <rect
-       width="47.999969"
-       x="384.57147"
-       y="542.79797"
-       height="1"
-       style="fill:#2a6bae"
-       id="rect4396" />
-    <path
-       inkscape:connector-curvature="0"
-       style="fill:#5f5f5f;fill-opacity:0.117647;fill-rule:evenodd"
-       id="path4463"
-       d="m 384.57143,503.798 4e-5,10 47.99996,0 10e-6,-4 -23.00001,0 z" />
-    <path
-       inkscape:connector-curvature="0"
-       style="fill:#ffffff;fill-opacity:0.058824;fill-rule:evenodd"
-       id="path4465"
-       d="m 384.57147,503.798 19.99996,1 11,6 17.00001,-1 -17.00001,0 -6,-6.00003 z" />
-    <path
-       inkscape:connector-curvature="0"
-       style="opacity:0.2;fill:url(#linearGradient4357);fill-rule:evenodd"
-       id="path4343"
-       d="m 416.7287,519.35982 -15.54373,9.18418 -0.0652,0.61355 -1.05172,0.82254 16.62237,13.81791 c -0.11899,0 14.69151,0 15.88099,0 l 0,-5 -0.0248,-3.97982 z"
-       sodipodi:nodetypes="ccccccccc" />
-    <path
-       inkscape:connector-curvature="0"
-       style="color:#000000;fill:#ffffff;fill-rule:evenodd;stroke-width:0.1;fill-opacity:1"
-       id="path3858"
-       d="m 415.57143,518.79798 a 2,2 0 0 0 -2,2 2,2 0 0 0 2,2 2,2 0 0 0 2,-2 2,2 0 0 0 -2,-2 z m -3.5,3 a 0.5,0.5 0 0 0 -0.5,0.5 0.5,0.5 0 0 0 0.5,0.5 0.5,0.5 0 0 0 0.5,-0.5 0.5,0.5 0 0 0 -0.5,-0.5 z m -3,2 a 0.5,0.5 0 0 0 -0.5,0.5 0.5,0.5 0 0 0 0.5,0.5 0.5,0.5 0 0 0 0.5,-0.5 0.5,0.5 0 0 0 -0.5,-0.5 z m -3,2 a 0.5,0.5 0 0 0 -0.5,0.5 0.5,0.5 0 0 0 0.5,0.5 0.5,0.5 0 0 0 0.5,-0.5 0.5,0.5 0 0 0 -0.5,-0.5 z m -4.5,1 a 2,2 0 0 0 -2,2 2,2 0 0 0 2,2 2,2 0 0 0 2,-2 2,2 0 0 0 -2,-2 z m 4.5,4 a 0.5,0.5 0 0 0 -0.5,0.5 0.5,0.5 0 0 0 0.5,0.5 0.5,0.5 0 0 0 0.5,-0.5 0.5,0.5 0 0 0 -0.5,-0.5 z m 3,2 a 0.5,0.5 0 0 0 -0.5,0.5 0.5,0.5 0 0 0 0.5,0.5 0.5,0.5 0 0 0 0.5,-0.5 0.5,0.5 0 0 0 -0.5,-0.5 z m 3,2 a 0.5,0.5 0 0 0 -0.5,0.5 0.5,0.5 0 0 0 0.5,0.5 0.5,0.5 0 0 0 0.5,-0.5 0.5,0.5 0 0 0 -0.5,-0.5 z m 3.5,0 a 2,2 0 0 0 -2,2 2,2 0 0 0 2,2 2,2 0 0 0 2,-2 2,2 0 0 0 -2,-2 z" />
+<svg width="48" xmlns="http://www.w3.org/2000/svg" height="48">
+ <defs>
+  <linearGradient id="a" y1="543.8" y2="509.8" x2="0" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#2f74c8"/>
+   <stop offset="1" stop-color="#4699d7"/>
+  </linearGradient>
+  <linearGradient id="b" y1="17" x1="18" y2="32" x2="33" gradientUnits="userSpaceOnUse" gradientTransform="translate(384.57 504.8)">
+   <stop stop-color="#383e51"/>
+   <stop offset="1" stop-color="#655c6f" stop-opacity="0"/>
+  </linearGradient>
+ </defs>
+ <g transform="translate(-384.57-499.8)">
+  <path fill="#084883" d="m0 4v10h48v-4h-17l-6-6z" transform="translate(384.57 499.8)"/>
+  <path fill="url(#a)" d="m384.57 513.8h48v30h-48z"/>
+  <path fill="#2f77c2" d="m384.57 513.8h48v1h-48z"/>
+  <rect width="48" x="384.57" y="542.8" fill="#2a6bae" height="1"/>
+  <g fill-rule="evenodd">
+   <path fill="#5f5f5f" fill-opacity=".118" d="m384.57 503.8v10h48v-4h-23z"/>
+   <path fill="#ffffff" fill-opacity=".059" d="m384.57 503.8l20 1 11 6 17-1h-17l-6-6z"/>
+   <path opacity=".2" fill="url(#b)" d="m416.73 519.36l-15.544 9.184-.065.614-1.052.823 16.622 13.818c-.119 0 14.692 0 15.881 0v-5l-.025-3.98z"/>
+   <path fill="#ffffff" color="#000000" stroke-width=".1" d="m415.57143 518.79798a2 2 0 0 0 -2 2 2 2 0 0 0 2 2 2 2 0 0 0 2 -2 2 2 0 0 0 -2 -2m-3.5 3a.5 .5 0 0 0 -.5 .5 .5 .5 0 0 0 .5 .5 .5 .5 0 0 0 .5 -.5 .5 .5 0 0 0 -.5 -.5m-3 2a.5 .5 0 0 0 -.5 .5 .5 .5 0 0 0 .5 .5 .5 .5 0 0 0 .5 -.5 .5 .5 0 0 0 -.5 -.5m-3 2a.5 .5 0 0 0 -.5 .5 .5 .5 0 0 0 .5 .5 .5 .5 0 0 0 .5 -.5 .5 .5 0 0 0 -.5 -.5m-4.5 1a2 2 0 0 0 -2 2 2 2 0 0 0 2 2 2 2 0 0 0 2 -2 2 2 0 0 0 -2 -2m4.5 4a.5 .5 0 0 0 -.5 .5 .5 .5 0 0 0 .5 .5 .5 .5 0 0 0 .5 -.5 .5 .5 0 0 0 -.5 -.5m3 2a.5 .5 0 0 0 -.5 .5 .5 .5 0 0 0 .5 .5 .5 .5 0 0 0 .5 -.5 .5 .5 0 0 0 -.5 -.5m3 2a.5 .5 0 0 0 -.5 .5 .5 .5 0 0 0 .5 .5 .5 .5 0 0 0 .5 -.5 .5 .5 0 0 0 -.5 -.5m3.5 0a2 2 0 0 0 -2 2 2 2 0 0 0 2 2 2 2 0 0 0 2 -2 2 2 0 0 0 -2 -2"/>
   </g>
+ </g>
 </svg>

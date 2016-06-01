@@ -9,3 +9,8 @@ deprecated: false
 release: true
 libraries:
 cmakename:
+
+
+public_lib: true
+group: Frameworks
+subgroup: Tier 1
