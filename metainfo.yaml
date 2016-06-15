@@ -3,7 +3,9 @@ description: Breeze icon theme
 tier: 1
 type: functional
 platforms:
-    - name: All
+    - name: Linux
+    - name: Windows
+    - name: MacOSX
 portingAid: false
 deprecated: false
 release: true
