@@ -1,68 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
-  <defs
-     id="defs4">
-    <style
-       id="current-color-scheme"
-       type="text/css">
+  <defs id="defs3051">
+    <style type="text/css" id="current-color-scheme">
       .ColorScheme-Text {
         color:#4d4d4d;
-      }
-      .ColorScheme-Background {
-        color:#eff0f1;
       }
       .ColorScheme-Highlight {
         color:#3daee9;
       }
-      .ColorScheme-ViewText {
-        color:#31363b;
-      }
-      .ColorScheme-ViewBackground {
-        color:#fcfcfc;
-      }
-      .ColorScheme-ViewHover {
-        color:#93cee9;
-      }
-      .ColorScheme-ViewFocus{
-        color:#3daee9;
-      }
-      .ColorScheme-ButtonText {
-        color:#31363b;
-      }
-      .ColorScheme-ButtonBackground {
-        color:#eff0f1;
-      }
-      .ColorScheme-ButtonHover {
-        color:#93cee9;
-      }
-      .ColorScheme-ButtonFocus{
-        color:#3daee9;
-      }
       </style>
-    <linearGradient
-       id="linearGradient4213"
-       inkscape:collect="always">
-      <stop
-         id="stop4215"
-         offset="0"
-         style="stop-color:#000000;stop-opacity:1;" />
-      <stop
-         id="stop4217"
-         offset="1"
-         style="stop-color:#000000;stop-opacity:0;" />
-    </linearGradient>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath5154">
-      <rect
-         rx="2.0000384"
-         ry="2.0000021"
-         y="952.3623"
-         x="5.1822917e-05"
-         height="100"
-         width="100"
-         id="rect5156"
-         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1" />
-    </clipPath>
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4213"
@@ -86,14 +31,11 @@
        d="M 89.599979,941.00222 128,979.40217 l 0,72.96003 -51.200028,0 z"
        style="opacity:0.2;fill:url(#linearGradient6624);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     <path
-       sodipodi:nodetypes="ccccc"
-       inkscape:connector-curvature="0"
        id="path6510"
        d="m 89.599979,1052.3622 c -6.400003,-12.8 -3.840002,-30.72 -3.840002,-30.72 l -43.520024,0 c 0,0 2.560001,17.92 -3.840002,30.72 z"
-       style="fill:#eff0f1;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+       style="color:#eff0f1;fill:currentColor;fill-opacity:1;stroke:none" />
     <path
-       style="fill:currentColor;fill-opacity:1;stroke:none" 
-       class="ColorScheme-Background"
+       style="color:#eff0f1;fill:currentColor;fill-opacity:1;stroke:none"
        d="M 64 12.800781 C 48.639992 12.800781 25.599609 19.600471 25.599609 60.400391 C 25.599609 83.200401 38.39937 98.560938 47.359375 104.96094 C 56.31938 111.36094 58.453331 113.43945 64 113.43945 C 69.546669 113.43945 71.68062 111.36094 80.640625 104.96094 C 88.775738 99.150146 100.07413 85.951324 102.08594 66.505859 C 104.70401 65.765418 104.97153 63.947613 105.51172 61.566406 C 106.04233 59.227336 108.06114 57.675551 107.46289 50.300781 C 107.08897 45.691491 105.93777 43.584004 102.00586 43.521484 C 101.62374 43.515715 101.22082 43.536622 100.80859 43.572266 C 95.342085 17.632961 76.944615 12.800781 64 12.800781 z M 24.714844 44.800781 C 20.782929 44.863291 19.631725 46.970788 19.257812 51.580078 C 18.659554 58.954808 20.676417 60.506633 21.207031 62.845703 C 21.759241 65.279883 22.011645 67.132514 24.796875 67.839844 C 24.614914 64.898524 24.603595 61.762591 24.800781 58.394531 C 25.089361 53.465251 25.811514 49.009857 26.880859 44.960938 C 26.119477 44.853187 25.390394 44.790581 24.714844 44.800781 z "
        transform="translate(0,924.36216)"
        id="path6512" />

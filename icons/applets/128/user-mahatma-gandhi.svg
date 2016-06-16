@@ -1,40 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
-  <defs
-     id="defs4">
-    <style
-       id="current-color-scheme"
-       type="text/css">
+  <defs id="defs3051">
+    <style type="text/css" id="current-color-scheme">
       .ColorScheme-Text {
         color:#4d4d4d;
       }
-      .ColorScheme-Background {
-        color:#eff0f1;
-      }
       .ColorScheme-Highlight {
-        color:#3daee9;
-      }
-      .ColorScheme-ViewText {
-        color:#31363b;
-      }
-      .ColorScheme-ViewBackground {
-        color:#fcfcfc;
-      }
-      .ColorScheme-ViewHover {
-        color:#93cee9;
-      }
-      .ColorScheme-ViewFocus{
-        color:#3daee9;
-      }
-      .ColorScheme-ButtonText {
-        color:#31363b;
-      }
-      .ColorScheme-ButtonBackground {
-        color:#eff0f1;
-      }
-      .ColorScheme-ButtonHover {
-        color:#93cee9;
-      }
-      .ColorScheme-ButtonFocus{
         color:#3daee9;
       }
       </style>
@@ -50,19 +20,6 @@
          offset="1"
          style="stop-color:#000000;stop-opacity:0;" />
     </linearGradient>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath5154">
-      <rect
-         rx="2.0000384"
-         ry="2.0000021"
-         y="952.3623"
-         x="5.1822917e-05"
-         height="100"
-         width="100"
-         id="rect5156"
-         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1" />
-    </clipPath>
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4213"
@@ -94,8 +51,7 @@
      d="m 89.6,20.47998 38.4,38.399949 0,69.119991 -51.2,0 z"
      />
   <path
-     style="fill:currentColor;fill-opacity:1;stroke:none" 
-     class="ColorScheme-Background"
+     style="color:#eff0f1;fill:currentColor;fill-opacity:1;stroke:none"
      d="m 64,10.239954 c -7.68,0 -21.38357,6.760032 -26.24,11.06 -4.059276,3.594153 -8.921563,8.911286 -10.4125,22.4625 -2.047875,0.233508 -3.313789,-2.659356 -5.5875,-1.5225 -2.56,1.28 -2.56,2.56 -2.56,6.4 0,7.399002 2.56,12.8 3.84,15.36 1.266712,2.533424 0.0362,8.813188 4.9725,6.4625 0.882022,5.308889 2.421963,10.166211 5.1075,13.887501 6.56,9.090047 7.2,13.569999 11.68,16.769995 0.758463,0.54176 1.625417,1.01996 2.535,1.47001 -0.111919,0.99341 -1.62534,13.13905 -10.215,25.40999 l 53.76,0 c -8.58966,-12.27094 -10.103081,-24.41658 -10.215,-25.40999 0.909583,-0.45005 1.776537,-0.92825 2.535,-1.47001 4.48,-3.199996 5.12,-8.959947 11.68,-16.769995 2.964579,-3.52954 4.515288,-8.407247 5.3325,-13.7925 4.66513,2.044121 3.50105,-4.064594 4.7475,-6.557501 1.28,-2.56 3.84,-7.960998 3.84,-15.36 0,-3.84 0,-5.12 -2.56,-6.4 -2.2846,-1.142301 -3.55223,1.782476 -5.6175,1.517501 C 99.05119,30.257348 93.982912,25.042866 90.24,21.299954 c -4.48,-4.48 -18.56,-11.06 -26.24,-11.06 z"
      />
   <path

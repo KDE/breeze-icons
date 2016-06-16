@@ -1,40 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
-  <defs
-     id="defs4">
-    <style
-       id="current-color-scheme"
-       type="text/css">
+  <defs id="defs3051">
+    <style type="text/css" id="current-color-scheme">
       .ColorScheme-Text {
         color:#4d4d4d;
       }
-      .ColorScheme-Background {
-        color:#eff0f1;
-      }
       .ColorScheme-Highlight {
-        color:#3daee9;
-      }
-      .ColorScheme-ViewText {
-        color:#31363b;
-      }
-      .ColorScheme-ViewBackground {
-        color:#fcfcfc;
-      }
-      .ColorScheme-ViewHover {
-        color:#93cee9;
-      }
-      .ColorScheme-ViewFocus{
-        color:#3daee9;
-      }
-      .ColorScheme-ButtonText {
-        color:#31363b;
-      }
-      .ColorScheme-ButtonBackground {
-        color:#eff0f1;
-      }
-      .ColorScheme-ButtonHover {
-        color:#93cee9;
-      }
-      .ColorScheme-ButtonFocus{
         color:#3daee9;
       }
       </style>
@@ -50,19 +20,6 @@
          offset="1"
          style="stop-color:#000000;stop-opacity:0;" />
     </linearGradient>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath5154">
-      <rect
-         rx="2.0000384"
-         ry="2.0000021"
-         y="952.3623"
-         x="5.1822917e-05"
-         height="100"
-         width="100"
-         id="rect5156"
-         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1" />
-    </clipPath>
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4213"
@@ -104,13 +61,11 @@
      d="M 64,-3.6072446e-5 C 19.2,-3.6072446e-5 16.64,31.999959 19.2,63.999916 21.80239,96.529702 12.8,121.59991 6.4,127.99991 l 115.2,0 c -6.4,-6.4 -15.40239,-31.470208 -12.8,-63.999994 C 111.36,31.999959 108.8,-3.6072446e-5 64,-3.6072446e-5 Z"
      />
   <path
-     style="fill:currentColor;fill-opacity:1;stroke:none" 
-     class="ColorScheme-Background"
+     style="color:#eff0f1;fill:currentColor;fill-opacity:1;stroke:none"
      d="m 89.6,127.99991 c -6.4,-12.8 -3.84,-25.6 -3.84,-25.6 l -43.52,0 c 0,0 2.56,12.8 -3.84,25.6 z"
      />
   <path
-     style="fill:currentColor;fill-opacity:1;stroke:none" 
-     class="ColorScheme-Background"
+     style="color:#eff0f1;fill:currentColor;fill-opacity:1;stroke:none"
      d="m 66.3875,12.752462 c -0.78301,8.4e-4 -1.57833,0.01575 -2.3875,0.0475 -25.89347,1.015885 -35.84,14.079998 -34.56,26.879996 1.15334,11.533361 -7.22807,5.723378 -3.84,25.839996 3.84,22.799996 8.96,31.759995 15.36,38.159996 6.4,6.4 17.49333,5.92 23.04,5.92 5.54667,0 16.64,0.48 23.04,-5.92 6.4,-6.400001 11.52,-15.36 15.36,-38.159996 C 105.78807,45.403323 99.96666,51.213319 101.12,39.679958 102.36,27.27996 90.66089,12.726426 66.3875,12.752462 Z m -47.34,39.449994 c -0.35156,0.02813 -0.7275,0.1175 -1.1275,0.2775 -6.4,2.559999 -0.93133,12.527742 0,14.079998 3.84,6.399999 6.4,-1.28 6.4,-1.28 0,0 9.4e-4,-13.499377 -5.2725,-13.077498 z m 89.905,0 c -5.27344,-0.421879 -5.2725,13.077498 -5.2725,13.077498 0,0 2.56,7.679999 6.4,1.28 0.93133,-1.552256 6.4,-11.519999 0,-14.079998 -0.4,-0.16 -0.77594,-0.249375 -1.1275,-0.2775 z"
      />
   <path
