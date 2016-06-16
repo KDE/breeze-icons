@@ -20,6 +20,12 @@ include(GtkUpdateIconCache)
 set(REQUIRED_QT_VERSION 5.4.0)
 
 option(BINARY_ICONS_RESOURCE "Install a Qt binary resource file, containing breeze icons" OFF)
+option(SKIP_INSTALL_ICONS "Skip installing the icons files" OFF)
+
+if(BINARY_ICONS_RESOURCE)
+    find_package(Qt5 NO_MODULE REQUIRED Core)
+    add_executable(qrcAlias qrcAlias.cpp)
+    target_link_libraries(qrcAlias PUBLIC Qt5::Core)
 
 function(generate_binary_resource target outfile)
     set(RESOURCES_WORKING_DIR ${CMAKE_CURRENT_BINARY_DIR}/res)
@@ -38,7 +44,9 @@ function(generate_binary_resource target outfile)
             ${RESOURCE_FILE}.depends
             ${RESOURCES_WORKING_DIR}/.gitignore
             ${RESOURCES_WORKING_DIR}/CMakeLists.txt
-        COMMAND ${QT_RCC_EXECUTABLE} --project -o ${RESOURCE_FILE}
+        COMMAND ${QT_RCC_EXECUTABLE} --project -o ${CMAKE_CURRENT_BINARY_DIR}/tmp.qrc
+        COMMAND $<TARGET_FILE:qrcAlias> -i ${CMAKE_CURRENT_BINARY_DIR}/tmp.qrc -o ${RESOURCE_FILE}
+
         WORKING_DIRECTORY ${RESOURCES_WORKING_DIR}
         DEPENDS breeze-${target}-mkdir
     )
@@ -54,6 +62,7 @@ function(generate_binary_resource target outfile)
 
     set(${outfile} ${BINARY_RESOURCE_FILE} PARENT_SCOPE)
 endfunction()
+endif()
 
 add_subdirectory(autotests)
 add_subdirectory(icons)
