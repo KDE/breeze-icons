@@ -6,13 +6,8 @@
       }
       </style>
   </defs>
-  <g inkscape:label="Capa 1" inkscape:groupmode="layer" id="layer1" transform="translate(0,-1036.3622)">
-    <g id="g3889" transform="matrix(0.54545455,0,0,0.54545455,-201.22077,760.29056)" style="fill:currentColor;fill-opacity:1" class="ColorScheme-Text">
-      <path 
-          inkscape:connector-curvature="0" 
-          style="fill:currentColor;fill-opacity:1;stroke:none" 
-          d="m 372.57141,509.798 0,22 22,0 0,-22 z m 1.83333,1.83334 7.33334,0 0,1.83333 1.83333,0 0,-1.83333 9.16667,0 0,18.33333 -18.33334,0 z m 9.16667,1.83333 0,1.83333 1.83333,0 0,-1.83333 z m 0,1.83333 -1.83333,0 0,1.83334 1.83333,0 z m 0,1.83334 0,1.83333 1.83333,0 0,-1.83333 z m 0,1.83333 -1.83333,0 0,1.83333 1.83333,0 z m 0,3.66667 -1.83333,0 0,1.83333 3.66666,0 c 0,-2.2 0,-2.37521 0,-3.66667 l -1.83333,0 c 0,0.73333 0,1.10001 0,1.83334 z" 
+    <path 
+        style="fill:currentColor;fill-opacity:1;stroke:none" 
+        d="M 2 2 L 2 14 L 14 14 L 14 2 L 2 2 z M 3 3 L 7 3 L 7 4 L 8 4 L 8 3 L 13 3 L 13 13 L 3 13 L 3 3 z M 8 4 L 8 5 L 9 5 L 9 4 L 8 4 z M 8 5 L 7 5 L 7 6 L 8 6 L 8 5 z M 8 6 L 8 7 L 9 7 L 9 6 L 8 6 z M 8 7 L 7 7 L 7 8 L 8 8 L 8 7 z M 8 8 L 8 9 L 7 9 L 7 10 L 9 10 L 9 8 L 8 8 z "
           class="ColorScheme-Text"/>
-    </g>
-  </g>
 </svg>
