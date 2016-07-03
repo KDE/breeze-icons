@@ -4,6 +4,9 @@
       .ColorScheme-Text {
         color:#4d4d4d;
       }
+      .ColorScheme-NeutralText {
+        color:#f67400;
+      }
       </style>
   </defs>
   <g
@@ -15,7 +18,9 @@
        class="ColorScheme-Text"
        id="path4196" />
     <path
-       style="fill:#f47750"
+       
+     style="fill:currentColor;fill-opacity:1;stroke:none" 
+     class="ColorScheme-NeutralText"
        d="m 437.21429,536.78874 0.004,0 a 0.5,0.5 0 0 1 0.43945,0.2695 l 0.004,0 3.98633,6.9746 -0.002,0 a 0.5,0.5 0 0 1 0.0684,0.252 0.5,0.5 0 0 1 -0.5,0.5 l -8,0 a 0.5,0.5 0 0 1 -0.5,-0.5 0.5,0.5 0 0 1 0.0684,-0.252 l -0.002,0 3.98633,-6.9727 0.002,0 a 0.5,0.5 0 0 1 0.002,0 0.5,0.5 0 0 1 0.44336,-0.2715 l 0,0 z"
        id="path4250" />
     <path

@@ -24,7 +24,7 @@
        type="text/css"
        id="current-color-scheme">
       .ColorScheme-Text {
-        color:#f2f2f2;
+        color:#4d4d4d;
       }
       .ColorScheme-Background {
         color:#eff0f1;

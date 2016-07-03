@@ -4,31 +4,21 @@
       .ColorScheme-Text {
         color:#4d4d4d;
       }
+      .ColorScheme-PositiveText {
+        color:#27ae60;
+      }
       </style>
   </defs>
-  <g
-     transform="translate(-421.71429,-525.79074)">
-    <path
-       style="opacity:1;fill:currentColor;fill-opacity:1;stroke:none"
-       d="M 11 4 A 6 6 0 0 0 5 10 A 6 6 0 0 0 5.0039062 10.128906 A 4 4 0 0 0 2 14 A 4 4 0 0 0 6 18 L 15 18 A 5 5 0 0 0 20 13 A 5 5 0 0 0 16.757812 8.3242188 A 6 6 0 0 0 11 4 z M 11 5 A 5 5 0 0 1 15.919922 9.1113281 A 4.0000019 4.0000019 0 0 1 19 13 A 4.0000019 4.0000019 0 0 1 15 17 L 6 17 A 2.9999979 2.9999979 0 0 1 3 14 A 2.9999979 2.9999979 0 0 1 6 11 A 2.9999979 2.9999979 0 0 1 6.1074219 11.005859 A 5 5 0 0 1 6 10 A 5 5 0 0 1 11 5 z "
-       transform="translate(421.71429,525.79074)"
-       id="path4196"
-       class="ColorScheme-Text" />
-    <path
-       style="fill:#ffffff"
-       d="m 440.21429,540.29076 -2.25,2.25 -0.75,-0.75 -0.75,0.75 0.75,0.75 0.75,0.75 3,-3 -0.75,-0.75 z"
-       id="path4142"/>
-    <g
-       id="layer1-9"
-       transform="translate(426.71429,-500.57146)">
-      <path
-         style="opacity:1;fill:#27ae60;fill-opacity:1;stroke:none"
-         d="m 11,1037.3622 c 2.216,0 4,1.784 4,4 0,2.216 -1.784,4 -4,4 -2.216,0 -4,-1.784 -4,-4 0,-2.216 1.784,-4 4,-4 z"
-         id="rect4153" />
-      <path
-         style="fill:#ffffff"
-         d="m 13,1039.3622 -3,3 -1,-1 -1,1 1,1 1,1 4,-4 -1,-1 z"
-         id="path4142-5"/>
-    </g>
-  </g>
+  <path style="fill:currentColor;fill-opacity:1;stroke:none" 
+     d="M 11 4 A 6 6 0 0 0 5 10 A 6 6 0 0 0 5.0039062 10.128906 A 4 4 0 0 0 2 14 A 4 4 0 0 0 6 18 L 15 18 A 5 5 0 0 0 20 13 A 5 5 0 0 0 16.757812 8.3242188 A 6 6 0 0 0 11 4 z M 11 5 A 5 5 0 0 1 15.919922 9.1113281 A 4.0000019 4.0000019 0 0 1 19 13 A 4.0000019 4.0000019 0 0 1 15 17 L 6 17 A 2.9999979 2.9999979 0 0 1 3 14 A 2.9999979 2.9999979 0 0 1 6 11 A 2.9999979 2.9999979 0 0 1 6.1074219 11.005859 A 5 5 0 0 1 6 10 A 5 5 0 0 1 11 5 z "
+     class="ColorScheme-Text"
+     />
+  <path
+      style="fill:currentColor;fill-opacity:1;stroke:none" 
+     class="ColorScheme-PositiveText"
+    d="M 16 11 C 13.784 11 12 12.784 12 15 C 12 17.216 13.784 19 16 19 C 18.216 19 20 17.216 20 15 C 20 12.784 18.216 11 16 11 z "
+      />
+  <path
+     style="opacity:1;fill:#ffffff"
+     d="M 18 13 L 15 16 L 14 15 L 13 16 L 14 17 L 15 18 L 19 14 L 18 13 z " />
 </svg>

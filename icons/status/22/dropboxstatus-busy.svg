@@ -4,6 +4,9 @@
       .ColorScheme-Text {
         color:#4d4d4d;
       }
+      .ColorScheme-Highlight {
+        color:#3daee9;
+      }
       </style>
   </defs>
   <g
@@ -15,7 +18,8 @@
        id="path4196"
        class="ColorScheme-Text" />
     <path
-       style="opacity:1;fill:#1d99f3;fill-opacity:1;stroke:none"
+       style="fill:currentColor;fill-opacity:1;stroke:none"
+        class="ColorScheme-Highlight"
        d="m 437.71429,536.79071 c 2.216,0 4,1.784 4,4 0,2.216 -1.784,4 -4,4 -2.216,0 -4,-1.784 -4,-4 0,-2.216 1.784,-4 4,-4 z"
        id="rect4153" />
     <path
