@@ -6,12 +6,8 @@
       }
       </style>
   </defs>
-  <a transform="translate(1,1)">
- <path 
-     style="fill:currentColor;fill-opacity:1;stroke:none" 
-     d="m556.72253 592.11926h13v-6h-13v6m1-1v-4h11v4h-11m6 11h6v-6h-6v6m1-1v-4h4v4h-4m7 1h1v-16h-1v16" 
-	 transform="translate(-553.72253-583.11926)"
-	 class="ColorScheme-Text"
+ <path style="fill:currentColor;fill-opacity:1;stroke:none" 
+     d="M 4 4 L 4 10 L 17 10 L 17 4 L 4 4 z M 19 4 L 19 20 L 20 20 L 20 4 L 19 4 z M 5 5 L 16 5 L 16 9 L 5 9 L 5 5 z M 11 14 L 11 20 L 17 20 L 17 14 L 11 14 z M 12 15 L 16 15 L 16 19 L 12 19 L 12 15 z "
+     class="ColorScheme-Text"
      />
- </a>
 </svg>
