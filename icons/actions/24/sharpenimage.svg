@@ -4,16 +4,10 @@
       .ColorScheme-Text {
         color:#4d4d4d;
       }
-      .ColorScheme-Highlight {
-        color:#3daee9;
-      }
       </style>
   </defs>
-  <a transform="translate(1,1)">
- <path 
-     style="fill:currentColor;fill-opacity:1;stroke:none" 
-     d="M 11 3 L 4 19 L 18 19 L 11 3 z M 15.15625 16 L 16 18 L 6 18 C 6 18 15 16.000017 15.15625 16 z "
+ <path style="fill:currentColor;fill-opacity:1;stroke:none" 
+     d="M 12 4 L 5 20 L 19 20 L 12 4 z M 16.15625 17 L 17 19 L 7 19 C 7 19 16 17.000017 16.15625 17 z "
      class="ColorScheme-Text"
      />
-</a>
 </svg>
