@@ -2,19 +2,21 @@
   <defs id="defs3051">
     <style type="text/css" id="current-color-scheme">
       .ColorScheme-Text {
-        color:#f2f2f2
+        color:#f2f2f2;
+      }
+      .ColorScheme-PositiveText {
+        color:#27ae60;
       }
       </style>
   </defs>
-  <a transform="translate(1,1)">
- <path 
+  <path 
      style="fill:currentColor;fill-opacity:1;stroke:none" 
-     d="M 10.146484 3 L 4.9296875 17 L 6.6171875 17 L 8.2871094 12.570312 L 13.847656 12.570312 L 15.382812 17 L 17.070312 17 L 12.140625 3 L 10.146484 3 z M 11.162109 4.6113281 L 13.291016 11.285156 L 8.8046875 11.285156 L 11.162109 4.6113281 z "
+     d="M 11.146484 4 L 5.9296875 18 L 7.6171875 18 L 9.2871094 13.570312 L 14.847656 13.570312 L 16.382812 18 L 18.070312 18 L 13.140625 4 L 11.146484 4 z M 12.162109 5.6113281 L 14.291016 12.285156 L 9.8046875 12.285156 L 12.162109 5.6113281 z "
      class="ColorScheme-Text"
      />
- <path 
-     style="fill:#2ecc71;fill-opacity:1;stroke:none" 
-     d="M 3 18 L 3 19 L 19 19 L 19 18 L 3 18 z "
-     />
-</a>
+  <path
+     style="fill:currentColor;fill-opacity:1;stroke:none" 
+     class="ColorScheme-PositiveText"
+     d="M 4 19 L 4 20 L 20 20 L 20 19 L 4 19 z "
+      />
 </svg>

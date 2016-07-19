@@ -2,15 +2,12 @@
   <defs id="defs3051">
     <style type="text/css" id="current-color-scheme">
       .ColorScheme-Text {
-        color:#f2f2f2
+        color:#f2f2f2;
       }
       </style>
   </defs>
-  <a transform="translate(1,1)">
- <path 
-    style="fill:currentColor;fill-opacity:1;stroke:none" 
-	d="m9.242188 3l-4.242188 4.242188.007813.007813h-.007813v2.75 9h1 3v-1-8.34375l2.65625-2.65625h4.34375 1v-1-2-1h-1-5.00977-1.746093-.001953m.414063 1h1.333984 5.00977v2h-4-.753906-.003906l-3.242188 3.242188v.001953 8.755859h-2v-10.34375l3.65625-3.65625m1.34375 5v1 9h1 3v-1-5h1 1v-1-2-1h-1-1-3-1m1 1h3 1v2h-1-1v1 5h-2v-8"
-	class="ColorScheme-Text"
-    />  
-</a>
+ <path style="fill:currentColor;fill-opacity:1;stroke:none" 
+     d="M 10.242188 4 L 6 8.2421875 L 6.0078125 8.25 L 6 8.25 L 6 11 L 6 20 L 7 20 L 10 20 L 10 19 L 10 10.65625 L 12.65625 8 L 17 8 L 18 8 L 18 7 L 18 5 L 18 4 L 17 4 L 11.990234 4 L 10.244141 4 L 10.242188 4 z M 10.65625 5 L 11.990234 5 L 17 5 L 17 7 L 13 7 L 12.246094 7 L 12.242188 7 L 9 10.242188 L 9 10.244141 L 9 19 L 7 19 L 7 8.65625 L 10.65625 5 z M 12 10 L 12 11 L 12 20 L 13 20 L 16 20 L 16 19 L 16 14 L 17 14 L 18 14 L 18 13 L 18 11 L 18 10 L 17 10 L 16 10 L 13 10 L 12 10 z M 13 11 L 16 11 L 17 11 L 17 13 L 16 13 L 15 13 L 15 14 L 15 19 L 13 19 L 13 11 z "
+     class="ColorScheme-Text"
+     />
 </svg>

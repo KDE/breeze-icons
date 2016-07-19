@@ -2,26 +2,21 @@
   <defs id="defs3051">
     <style type="text/css" id="current-color-scheme">
       .ColorScheme-Text {
-        color:#f2f2f2
+        color:#f2f2f2;
       }
       .ColorScheme-Highlight {
         color:#3daee9;
       }
       </style>
   </defs>
-  <a transform="translate(1,1)">
-  <g transform="translate(-421.71429,-525.79074)">
  <path 
-    style="fill:currentColor;fill-opacity:1;stroke:none" 
-    d="M 4.828125 7 L 0.65429688 19 L 1.6621094 19 L 3.1582031 15 L 8.3652344 15 L 9.8554688 19 L 11 19 L 6.7695312 7 L 4.828125 7 z M 12 7 L 12 19 L 13 19 L 18 19 A 3.5 3.5 0 0 0 21.5 15.5 A 3.5 3.5 0 0 0 19.066406 12.169922 A 3 3 0 0 0 20 10 A 3 3 0 0 0 17 7 L 13 7 L 12 7 z M 13 8 L 17 8 A 2 2 0 0 1 19 10 A 2 2 0 0 1 17 12 L 13 12 L 13 8 z M 5.7675781 8.0292969 L 7.9921875 14 L 3.5332031 14 L 5.7675781 8.0292969 z M 13 13 L 18 13 A 2.5 2.5 0 0 1 20.5 15.5 A 2.5 2.5 0 0 1 18 18 L 13 18 L 13 13 z "
-     transform="translate(421.71429,525.79074)"
-    class="ColorScheme-Text"
-    />  
+     style="fill:currentColor;fill-opacity:1;stroke:none" 
+     d="M 5.828125 8 L 1.6542969 20 L 2.6621094 20 L 4.1582031 16 L 9.3652344 16 L 10.855469 20 L 12 20 L 7.7695312 8 L 5.828125 8 z M 13 8 L 13 20 L 14 20 L 19 20 A 3.5 3.5 0 0 0 22.5 16.5 A 3.5 3.5 0 0 0 20.066406 13.169922 A 3 3 0 0 0 21 11 A 3 3 0 0 0 18 8 L 14 8 L 13 8 z M 14 9 L 18 9 A 2 2 0 0 1 20 11 A 2 2 0 0 1 18 13 L 14 13 L 14 9 z M 6.7675781 9.0292969 L 8.9921875 15 L 4.5332031 15 L 6.7675781 9.0292969 z M 14 14 L 19 14 A 2.5 2.5 0 0 1 21.5 16.5 A 2.5 2.5 0 0 1 19 19 L 14 19 L 14 14 z "
+     class="ColorScheme-Text"
+     />
  <path 
-    style="fill:currentColor;fill-opacity:1;stroke:none" 
-    d="m 434.71429,531.79074 3,-4 3,4 z"
-    class="ColorScheme-Highlight"
-    />  
- </g>
- </a>
+     style="fill:currentColor;fill-opacity:1;stroke:none" 
+     d="M 17 3 L 14 7 L 20 7 L 17 3 z "
+     class="ColorScheme-Highlight"
+     />
 </svg>
