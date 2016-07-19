@@ -6,19 +6,17 @@
       }
       </style>
   </defs>
-  <a transform="translate(1,1)">
  <path 
-     style="fill:currentColor;fill-opacity:1;stroke:none" 
-     d="M 8 4 L 8 5 L 20 5 L 20 4 L 8 4 z M 8 6 L 8 7 L 13 7 L 13 6 L 8 6 z M 8 10 L 8 11 L 20 11 L 20 10 L 8 10 z M 8 12 L 8 13 L 14 13 L 14 12 L 8 12 z M 8 16 L 8 17 L 20 17 L 20 16 L 8 16 z M 8 18 L 8 19 L 17 19 L 17 18 L 8 18 z "
-	 class="ColorScheme-Text"
-     />
-    <path
-       style="opacity:1;fill:#27ae60;fill-opacity:1;stroke:none"
-       d="M 5.5 4 C 4.67158 4 4.00001 4.67157 4 5.5 C 4.00001 6.32843 4.67158 7 5.5 7 C 6.32842 7 6.99999 6.32843 7 5.5 C 6.99999 4.67157 6.32842 4 5.5 4 z M 5.5 10 C 4.67157 10 4 10.67157 4 11.5 C 4 12.32843 4.67157 13 5.5 13 C 6.32843 13 7 12.32843 7 11.5 C 7 10.67157 6.32843 10 5.5 10 z "
-       />
-    <path
-       style="opacity:1;fill:#da4453;fill-opacity:1;stroke:none"
-       d="M 5.5 16 C 4.67157 16 4 16.67157 4 17.5 C 4 18.32843 4.67157 19 5.5 19 C 6.32843 19 7 18.32843 7 17.5 C 7 16.67157 6.32843 16 5.5 16 z M 18 19 L 18 20 L 20 20 L 20 19 L 18 19 z "
-       />
- </a>
+    style="fill:currentColor;fill-opacity:1;stroke:none" 
+	d="M 9 5 L 9 6 L 21 6 L 21 5 L 9 5 z M 9 7 L 9 8 L 14 8 L 14 7 L 9 7 z M 9 11 L 9 12 L 21 12 L 21 11 L 9 11 z M 9 13 L 9 14 L 15 14 L 15 13 L 9 13 z M 9 17 L 9 18 L 21 18 L 21 17 L 9 17 z M 9 19 L 9 20 L 18 20 L 18 19 L 9 19 z "
+    class="ColorScheme-Text"
+    />
+  <path
+     style="opacity:1;fill:#27ae60;fill-opacity:1;stroke:none"
+     d="M 6.5 5 C 5.67158 5 5.00001 5.67157 5 6.5 C 5.00001 7.32843 5.67158 8 6.5 8 C 7.32842 8 7.99999 7.32843 8 6.5 C 7.99999 5.67157 7.32842 5 6.5 5 z M 6.5 11 C 5.67157 11 5 11.67157 5 12.5 C 5 13.32843 5.67157 14 6.5 14 C 7.32843 14 8 13.32843 8 12.5 C 8 11.67157 7.32843 11 6.5 11 z "
+     id="path10" />
+  <path
+     style="opacity:1;fill:#da4453;fill-opacity:1;stroke:none"
+     d="M 6.5 17 C 5.67157 17 5 17.67157 5 18.5 C 5 19.32843 5.67157 20 6.5 20 C 7.32843 20 8 19.32843 8 18.5 C 8 17.67157 7.32843 17 6.5 17 z M 19 20 L 19 21 L 21 21 L 21 20 L 19 20 z "
+     id="path12" />
 </svg>

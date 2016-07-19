@@ -1,60 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   viewBox="0 0 24 24"
-   id="svg2"
-   version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="document-preview-archive.svg">
-  <metadata
-     id="metadata12">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="640"
-     inkscape:window-height="480"
-     id="namedview10"
-     showgrid="false"
-     inkscape:zoom="9.8333333"
-     inkscape:cx="12"
-     inkscape:cy="12"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="svg2" />
-  <defs
-     id="defs3051">
-    <style
-       type="text/css"
-       id="current-color-scheme">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs id="defs3051">
+    <style type="text/css" id="current-color-scheme">
       .ColorScheme-Text {
         color:#4d4d4d;
       }
       </style>
   </defs>
-  <path
-     style="color:#4d4d4d;fill:currentColor;fill-opacity:1;stroke:none"
-     d="M 5 4 L 5 20 L 6 20 L 13 20 L 13 19 L 6 19 L 6 5 L 18 5 L 18 14 L 19 14 L 19 4 L 18 4 L 6 4 L 5 4 z M 14 12 C 12.337997 12 11 13.337997 11 15 C 11 16.662003 12.337997 18 14 18 C 14.649392 18 15.246354 17.791414 15.736328 17.443359 L 18.292969 20 L 19 19.292969 L 16.443359 16.736328 C 16.791414 16.246354 17 15.649392 17 15 C 17 13.337997 15.662003 12 14 12 z M 14 13 C 15.108003 13 16 13.891997 16 15 C 16 16.108003 15.108003 17 14 17 C 12.891997 17 12 16.108003 12 15 C 12 13.891997 12.891997 13 14 13 z "
-     id="path8" />
+ <path 
+    style="fill:currentColor;fill-opacity:1;stroke:none" 
+	d="M 5 4 L 5 20 L 6 20 L 13 20 L 13 19 L 6 19 L 6 5 L 18 5 L 18 14 L 19 14 L 19 4 L 18 4 L 6 4 L 5 4 z M 14 12 C 12.337997 12 11 13.337997 11 15 C 11 16.662003 12.337997 18 14 18 C 14.649392 18 15.246354 17.791414 15.736328 17.443359 L 18.292969 20 L 19 19.292969 L 16.443359 16.736328 C 16.791414 16.246354 17 15.649392 17 15 C 17 13.337997 15.662003 12 14 12 z M 14 13 C 15.108003 13 16 13.891997 16 15 C 16 16.108003 15.108003 17 14 17 C 12.891997 17 12 16.108003 12 15 C 12 13.891997 12.891997 13 14 13 z "
+    class="ColorScheme-Text"
+    />
 </svg>
