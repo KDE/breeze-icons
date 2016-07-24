@@ -17,7 +17,7 @@ include(KDECompilerSettings NO_POLICY_SCOPE)
 include(GtkUpdateIconCache)
 
 # Dependencies
-set(REQUIRED_QT_VERSION 5.4.0)
+set(REQUIRED_QT_VERSION 5.5.0)
 
 option(BINARY_ICONS_RESOURCE "Install a Qt binary resource file, containing breeze icons" OFF)
 option(SKIP_INSTALL_ICONS "Skip installing the icons files" OFF)
