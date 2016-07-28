@@ -15,7 +15,7 @@
    height="32"
    id="svg2"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="application-certificate-32.svg">
+   sodipodi:docname="application-xmind-32.svg">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -30,7 +30,7 @@
      id="namedview30"
      showgrid="false"
      inkscape:zoom="7.375"
-     inkscape:cx="-4.8135595"
+     inkscape:cx="17.355932"
      inkscape:cy="16"
      inkscape:window-x="0"
      inkscape:window-y="0"
@@ -98,27 +98,6 @@
          offset="1"
          style="stop-color:#fcbcbe"
          id="stop4355-3" />
-    </linearGradient>
-    <linearGradient
-       gradientTransform="matrix(0.40489637,0,0,0.40489637,390.92172,521.10873)"
-       y2="8.9998808"
-       x2="29.500002"
-       y1="38.999943"
-       x1="29.500002"
-       gradientUnits="userSpaceOnUse"
-       id="linearGradient3054"
-       xlink:href="#linearGradient4296"
-       inkscape:collect="always" />
-    <linearGradient
-       id="linearGradient4296">
-      <stop
-         style="stop-color:#f5c3c3;stop-opacity:1"
-         offset="0"
-         id="stop4298" />
-      <stop
-         style="stop-color:#fef6f6;stop-opacity:1"
-         offset="1"
-         id="stop4300" />
     </linearGradient>
   </defs>
   <metadata
@@ -204,8 +183,8 @@
        id="rect4035-5" />
     <path
        inkscape:connector-curvature="0"
-       style="fill:url(#linearGradient3054);fill-opacity:1;stroke:none"
-       d="m 400.63923,524.7528 c -2.01881,0 -3.64407,1.62526 -3.64407,3.64407 0,1.17758 0.55562,2.21798 1.41713,2.8833 l 0,5.61952 2.22694,-1.61959 2.22693,1.61959 0,-5.61952 c 0.86152,-0.66532 1.41713,-1.70572 1.41713,-2.8833 0,-2.01881 -1.62525,-3.64407 -3.64406,-3.64407 z"
-       id="rect4222" />
+       id="path4206"
+       d="m 405.99585,526.63614 -3.6911,0.60749 c 0.0533,2.29556 -2.39419,3.89086 -4.69013,-0.434 l -4.34262,0.60802 c 0.67575,2.33847 3.10276,2.6265 4.7212,3.85631 -0.8093,1.15364 -4.48555,0.45865 -4.38715,4.05881 l 3.69109,-0.60801 c -0.0532,-2.29556 4.20633,-4.22853 6.50228,0.0963 l 4.34262,-0.60802 c -0.67736,-2.34402 -3.25605,-2.5673 -4.87451,-3.80452 0.80207,-1.67564 3.45575,-0.16877 2.72832,-3.7724 z"
+       style="fill:#fcbcbe;fill-opacity:1;stroke:none" />
   </g>
 </svg>

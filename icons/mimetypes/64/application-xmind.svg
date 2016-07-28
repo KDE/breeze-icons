@@ -11,8 +11,8 @@
    viewBox="0 0 64 64"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="application-pdf.svg"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="application-xmind.svg"
    width="64"
    height="64">
   <metadata
@@ -36,16 +36,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1301"
-     inkscape:window-height="744"
+     inkscape:window-width="1366"
+     inkscape:window-height="699"
      id="namedview82"
      showgrid="true"
      inkscape:showpageshadow="false"
-     inkscape:zoom="4"
-     inkscape:cx="-17.322811"
-     inkscape:cy="9.4522037"
-     inkscape:window-x="65"
-     inkscape:window-y="24"
+     inkscape:zoom="6.9691256"
+     inkscape:cx="29.799472"
+     inkscape:cy="43.88981"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2"
      showguides="true">
@@ -173,38 +173,8 @@
       <stop
          id="stop4355-3"
          offset="1"
-         style="stop-color:#fb9fa2;stop-opacity:1" />
+         style="stop-color:#fcbcbe;stop-opacity:1" />
     </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4296"
-       id="linearGradient4294"
-       x1="29.500002"
-       y1="38.999943"
-       x2="29.500002"
-       y2="8.9998808"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       id="linearGradient4296">
-      <stop
-         style="stop-color:#f5c3c3;stop-opacity:1"
-         offset="0"
-         id="stop4298" />
-      <stop
-         style="stop-color:#fef6f6;stop-opacity:1"
-         offset="1"
-         id="stop4300" />
-    </linearGradient>
-    <linearGradient
-       gradientTransform="translate(8,8.75)"
-       y2="8.9998808"
-       x2="29.500002"
-       y1="38.999943"
-       x1="29.500002"
-       gradientUnits="userSpaceOnUse"
-       id="linearGradient3054"
-       xlink:href="#linearGradient4296"
-       inkscape:collect="always" />
   </defs>
   <path
      style="fill:url(#linearGradient4306);fill-opacity:1;stroke:none"
@@ -236,7 +206,7 @@
      style="opacity:0.2;fill:url(#linearGradient4427);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
   <path
      inkscape:connector-curvature="0"
-     style="fill:url(#linearGradient3054);fill-opacity:1;stroke:none"
-     d="m 32,17.75 c -4.986001,0 -9,4.013999 -9,9 0,2.90836 1.372249,5.477906 3.5,7.121094 l 0,13.878906 5.5,-4 5.5,4 0,-13.878906 C 39.627751,32.227906 41,29.65836 41,26.75 c 0,-4.986001 -4.013999,-9 -9,-9 z"
-     id="rect4222" />
+     id="path4206"
+     d="m 41.415241,23.64926 -6.61929,1.08943 c 0.0955,4.11666 -4.29353,6.97753 -8.41088,-0.7783 l -7.78768,1.09037 c 1.21183,4.19361 5.56422,4.71014 8.4666,6.91557 -1.45133,2.06883 -8.04401,0.8225 -7.86755,7.27872 l 6.61929,-1.09036 c -0.0955,-4.11666 7.54327,-7.58308 11.66063,0.17274 l 7.78768,-1.09037 c -1.21471,-4.20356 -5.83912,-4.60397 -8.74152,-6.8227 1.43836,-3.00495 6.19723,-0.30265 4.89272,-6.7651 z"
+     style="fill:#fcbcbe;fill-opacity:1;stroke:none" />
 </svg>
