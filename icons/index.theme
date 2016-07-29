@@ -159,7 +159,7 @@ MaxSize=256
 #256x256 - Color for applets
 [applets/48]
 Size=48
-Context=Applications
+Context=Status
 Type=Scalable
 MinSize=32
 MaxSize=256
