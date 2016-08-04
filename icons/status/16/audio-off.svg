@@ -9,12 +9,13 @@
       }
       </style>
   </defs>
- <path style="fill:currentColor;fill-opacity:1;stroke:none" 
-     d="M 7.988281,0 3,3.9961 3,5 l 0,7 0,0 4.988281,3.9961 0.011719,0 1,0 0,-0.4707 0,-15.0586 0,-0.4707 -1,0 -0.011719,0 z M 8,1.2715 8,14.7285 4,11.5234 4,4.4766 8,1.2715 Z M 0,5 0,11 2,11 2,5 0,5 Z"
-     class="ColorScheme-Text"
-     />
+  <path 
+     style="fill:currentColor;fill-opacity:1;stroke:none" 
+     d="m 10,7 0,2 5,0 0,-2 -5,0 z"
+     class="ColorScheme-NegativeText"/>
   <path
      style="fill:currentColor;fill-opacity:1;stroke:none" 
-     class="ColorScheme-NegativeText"
-     d="m 10,7 0,2 5,0 0,-2 -5,0 z" />
+     d="M 8,2 4,6 4,10 8,14 9,14 9,2 8,2 Z M 2,6 2,10 3,10 3,6 2,6 Z"
+     class="ColorScheme-Text"
+     />
 </svg>
