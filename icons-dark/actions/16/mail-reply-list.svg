@@ -2,12 +2,12 @@
   <defs id="defs3051">
     <style type="text/css" id="current-color-scheme">
       .ColorScheme-Text {
-        color:#f2f2f2
+        color:#f2f2f2;
       }
       </style>
   </defs>
  <path style="fill:currentColor;fill-opacity:1;stroke:none" 
-     d="M 1 2 L 1 8 L 2 8 L 2 3.7070312 C 2 3.7070312 8.0131 9.6833316 8 9.7070312 L 9.3574219 8.3496094 C 9.3387411 8.3465427 10.066406 7.640625 10.066406 7.640625 L 14 3.7070312 L 14 8 L 15 8 L 15 2 L 1 2 z M 2.7070312 3 L 13.292969 3 L 8 8.2929688 L 2.7070312 3 z M 4 8 L 1 11 L 4 14 L 4 12 L 7 12 L 7 10 L 4 10 L 4 8 z M 10 9 L 10 10 L 15 10 L 15 9 L 10 9 z M 10 11 L 10 12 L 15 12 L 15 11 L 10 11 z M 10 13 L 10 14 L 15 14 L 15 13 L 10 13 z "
+     d="M 3 2 C 2.4477153 2 2 2.4477153 2 3 C 2 3.5522847 2.4477153 4 3 4 C 3.5522847 4 4 3.5522847 4 3 C 4 2.4477153 3.5522847 2 3 2 z M 5 2 L 5 3 L 7 3 L 13 3 L 13 2 L 7 2 L 5 2 z M 5 4 L 5 5 L 7 5 L 11 5 L 11 4 L 7 4 L 5 4 z M 7 6 L 2 10 L 7 14 L 7 11 L 12 11 L 12 9 L 7 9 L 7 6 z "
      class="ColorScheme-Text"
      />
 </svg>
