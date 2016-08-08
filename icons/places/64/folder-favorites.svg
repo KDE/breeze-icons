@@ -34,6 +34,9 @@
       .ColorScheme-ButtonFocus{
         color:#3daee9;
       }
+      .ColorScheme-HighlightedText {
+        color:#eff0f1;
+      }
       </style>
   </defs>
  <path 
@@ -57,6 +60,6 @@
  <path 
      style="fill:currentColor;fill-opacity:0.6;stroke:none" 
      d="M 32 27 L 29 34 L 22 35 L 27 40 L 26 47 L 32 43 L 38 47 L 37 40 L 42 35 L 35 34 C 33.77083 31.97917 35.00001 33.99999 32 27 z M 32 29.53125 L 34.09375 34.40625 L 34.3125 34.90625 L 34.84375 35 L 39.84375 35.71875 L 36.28125 39.28125 L 35.9375 39.65625 L 36 40.15625 L 36.6875 44.90625 L 32.5625 42.15625 L 32 41.8125 L 31.4375 42.15625 L 27.3125 44.90625 L 28 40.15625 L 28.0625 39.65625 L 27.71875 39.28125 L 24.15625 35.71875 L 29.15625 35 L 29.6875 34.90625 L 29.90625 34.40625 L 32 29.53125 z "
-     class="ColorScheme-Background"
+     class="ColorScheme-HighlightedText"
      />
 </svg>

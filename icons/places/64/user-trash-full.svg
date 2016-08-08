@@ -37,6 +37,9 @@
       .ColorScheme-NegativeText {
         color:#da4453;
       }
+      .ColorScheme-HighlightedText {
+        color:#eff0f1;
+      }
       </style>
   </defs>
  <path 
@@ -60,6 +63,6 @@
  <path 
      style="fill:currentColor;fill-opacity:0.6;stroke:none" 
      d="M 29 27 L 29 29 L 22 29 L 22 30 L 24 30 L 24 47 L 25 47 L 40 47 L 40 45 L 40 30 L 42 30 L 42 29 L 35 29 L 35 27 L 29 27 z M 30 28 L 34 28 L 34 30 L 35 30 L 39 30 L 39 46 L 25 46 L 25 30 L 30 30 L 30 28 z M 29 34 L 29 42 L 30 42 L 30 34 L 29 34 z M 34 34 L 34 42 L 35 42 L 35 34 L 34 34 z "
-     class="ColorScheme-Background"
+     class="ColorScheme-HighlightedText"
      />
 </svg>

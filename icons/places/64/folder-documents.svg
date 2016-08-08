@@ -34,6 +34,9 @@
       .ColorScheme-ButtonFocus{
         color:#3daee9;
       }
+      .ColorScheme-HighlightedText {
+        color:#eff0f1;
+      }
       </style>
   </defs>
  <path 
@@ -57,6 +60,6 @@
  <path 
      style="fill:currentColor;fill-opacity:0.6;stroke:none" 
      d="M 23 27 L 23 28 L 23 46 L 23 47 L 35 47 L 41 41 L 41 27 L 23 27 z M 24 28 L 40 28 L 40 41 L 35 41 L 35 46 L 24 46 L 24 28 z "
-     class="ColorScheme-Background"
+     class="ColorScheme-HighlightedText"
      />
 </svg>
