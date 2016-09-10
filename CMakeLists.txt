@@ -4,12 +4,12 @@ project(BreezeIcons)
 
 # ECM setup
 include(FeatureSummary)
-find_package(ECM 5.25.0  NO_MODULE)
+find_package(ECM 5.26.0  NO_MODULE)
 set_package_properties(ECM PROPERTIES TYPE REQUIRED DESCRIPTION "Extra CMake Modules." URL "https://projects.kde.org/projects/kdesupport/extra-cmake-modules")
 feature_summary(WHAT REQUIRED_PACKAGES_NOT_FOUND FATAL_ON_MISSING_REQUIRED_PACKAGES)
 
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH} ${ECM_KDE_MODULE_DIR} ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
-set(KF5_VERSION "5.25.0") # handled by release scripts
+set(KF5_VERSION "5.27.0") # handled by release scripts
 
 include(KDEInstallDirs)
 include(KDECMakeSettings)
@@ -62,6 +62,16 @@ function(generate_binary_resource target outfile)
 
     set(${outfile} ${BINARY_RESOURCE_FILE} PARENT_SCOPE)
 endfunction()
+endif()
+
+find_program(BASH_EXE bash)
+if (BASH_EXE)
+    file(GLOB_RECURSE SVGS "*.svg")
+    add_custom_target(breeze-validate-svg ALL
+        COMMAND ${BASH_EXE} ${CMAKE_SOURCE_DIR}/validate_svg.sh
+        WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
+        SOURCES ${SVGS}
+    )
 endif()
 
 add_subdirectory(autotests)
