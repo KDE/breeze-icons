@@ -9,7 +9,7 @@ set_package_properties(ECM PROPERTIES TYPE REQUIRED DESCRIPTION "Extra CMake Mod
 feature_summary(WHAT REQUIRED_PACKAGES_NOT_FOUND FATAL_ON_MISSING_REQUIRED_PACKAGES)
 
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH} ${ECM_KDE_MODULE_DIR} ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
-set(KF5_VERSION "5.26.0") # handled by release scripts
+set(KF5_VERSION "5.27.0") # handled by release scripts
 
 include(KDEInstallDirs)
 include(KDECMakeSettings)
