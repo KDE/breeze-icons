@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg3014"
+   height="22"
+   width="26"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="xfpm-ups-080.svg">
+  <defs
+     id="defs11" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="744"
+     id="namedview9"
+     showgrid="true"
+     inkscape:zoom="28.393057"
+     inkscape:cx="19.370768"
+     inkscape:cy="10.985417"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3014">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2995" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata3019">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <rect
+     id="rect3190"
+     style="fill:#f2f2f2;fill-opacity:1;fill-rule:evenodd"
+     transform="matrix(0,1,-1,0,0,0)"
+     rx="0"
+     ry="0"
+     height="11"
+     width="8"
+     y="-14"
+     x="7" />
+  <path
+     style="fill:#f2f2f2;fill-opacity:1;stroke:none"
+     d="m 1,5 22,0 0,3 2,0 0,6 -2,0 0,2.999999 -21.9999998,0 0,-9.999999 1,1 0,7.999999 L 22,15.999999 22,13 24,13 24,9 22,9 22,6 2,6 z"
+     id="path2988"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccccccccccccccccccc" />
+</svg>
