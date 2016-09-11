@@ -24,14 +24,14 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1854"
-     inkscape:window-height="1051"
+     inkscape:window-width="1920"
+     inkscape:window-height="1013"
      id="namedview24"
      showgrid="false"
-     inkscape:zoom="3.6875"
-     inkscape:cx="32"
-     inkscape:cy="-0.54237288"
-     inkscape:window-x="66"
+     inkscape:zoom="10.429825"
+     inkscape:cx="25.794076"
+     inkscape:cy="27.079531"
+     inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2" />
@@ -89,6 +89,11 @@
      height="1"
      style="fill:#ffffff;fill-opacity:0.40983599"
      id="rect4236-6" />
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:#2e3132;fill-opacity:0.29411766"
+     d="m 21,3 0,18 -18,0 0,1 18,0 0,20 -18,0 0,1 18,0 0,18 1,0 0,-18 20,0 0,18 1,0 0,-18 18,0 0,-1 -18,0 0,-20 18,0 0,-1 -18,0 0,-18 -1,0 0,18 -20,0 0,-18 -1,0 z m 1,19 20,0 0,20 -20,0 0,-20 z"
+     id="rect4169-3-2" />
   <path
      style="fill:#e8d9eb"
      id="rect4166"
