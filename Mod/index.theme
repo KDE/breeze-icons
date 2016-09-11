@@ -68,7 +68,7 @@ Comment[zh_CN]=默认 Plasma 5 主题
 
 DisplayDepth=32
 
-Inherits=Emerald-Dark
+Inherits=Emerald
 
 Example=folder
 
