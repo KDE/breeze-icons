@@ -30,7 +30,7 @@
      id="namedview29"
      showgrid="false"
      inkscape:zoom="7.375"
-     inkscape:cx="-28.474576"
+     inkscape:cx="-48.271186"
      inkscape:cy="14.915254"
      inkscape:window-x="0"
      inkscape:window-y="30"
@@ -38,26 +38,6 @@
      inkscape:current-layer="layer1" />
   <defs
      id="defs5455">
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4300"
-       id="linearGradient4306-3"
-       y1="61"
-       y2="3"
-       x2="0"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.49999977,0,0,-0.48275841,384.57144,547.24623)" />
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient4300">
-      <stop
-         style="stop-color:#bdc3c7"
-         id="stop4302" />
-      <stop
-         offset="1"
-         style="stop-color:#dadfe1"
-         id="stop4304" />
-    </linearGradient>
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4351"
@@ -99,6 +79,27 @@
          style="stop-color:#655c6f;stop-opacity:0"
          id="stop4414" />
     </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4300"
+       id="linearGradient4306-3"
+       y1="2.7191029"
+       y2="61.000027"
+       x2="8.2711906"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.49999977,0,0,-0.48275841,384.57144,547.24623)"
+       x1="7.728817" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4300">
+      <stop
+         style="stop-color:#bdc3c7"
+         id="stop4302" />
+      <stop
+         offset="1"
+         style="stop-color:#dadfe1"
+         id="stop4304" />
+    </linearGradient>
   </defs>
   <metadata
      id="metadata5458">
@@ -116,6 +117,11 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="matrix(1 0 0 1 -384.57143 -515.798)">
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:url(#linearGradient4306-3);fill-opacity:1"
+       id="rect3500-2"
+       d="m 389.57144,545.79796 0,-27.99999 14.99999,0 7.00003,7 -3e-5,14.24137 0,6.75862 -7,0 z" />
     <rect
        width="0"
        x="415.89221"
@@ -151,11 +157,6 @@
        height="10.999983"
        style="fill:#fbfbfb"
        id="rect4035-5" />
-    <path
-       inkscape:connector-curvature="0"
-       style="fill:url(#linearGradient4306-3);fill-opacity:1"
-       id="rect3500-2"
-       d="m 389.57144,545.79796 0,-27.99999 14.99999,0 7.00003,7 -3e-5,14.24137 0,6.75862 -7,0 z" />
     <rect
        width="14.999983"
        x="389.57144"

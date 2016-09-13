@@ -25,14 +25,14 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1013"
+     inkscape:window-height="1021"
      id="namedview24"
      showgrid="false"
      inkscape:zoom="7.375"
-     inkscape:cx="34.478137"
+     inkscape:cx="14.681527"
      inkscape:cy="25.642683"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="30"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2" />
   <defs
@@ -202,7 +202,7 @@
      transform="scale(1,-1)" />
   <path
      inkscape:connector-curvature="0"
-     style="color:#000000;color-interpolation:sRGB;color-interpolation-filters:linearRGB;fill:#f7ab89;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto"
+     style="color:#000000;color-interpolation:sRGB;color-interpolation-filters:linearRGB;fill:#fbd2bf;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;fill-opacity:1"
      id="rect4224"
      d="m 19,21 0,1 0,18 1,0 10,0 0,2 -3,0 0,1 3,0 4,0 3,0 0,-1 -3,0 0,-2 11,0 0,-2 0,-17 z m 1,1 24,0 0,16 -24,0 z m 10,4 0,8 5,-4 z" />
 </svg>

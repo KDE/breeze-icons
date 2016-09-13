@@ -30,7 +30,7 @@
      id="namedview32"
      showgrid="false"
      inkscape:zoom="7.375"
-     inkscape:cx="-28.474576"
+     inkscape:cx="-48.271186"
      inkscape:cy="14.915254"
      inkscape:window-x="0"
      inkscape:window-y="30"
@@ -42,11 +42,12 @@
        inkscape:collect="always"
        xlink:href="#linearGradient4300"
        id="linearGradient4306-3"
-       y1="61"
-       y2="3"
-       x2="0"
+       y1="2.5786669"
+       y2="61.140461"
+       x2="6.2372909"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.49999977,0,0,-0.48275841,384.57144,547.24623)" />
+       gradientTransform="matrix(0.49999977,0,0,-0.48275841,384.57144,547.24623)"
+       x1="6.2372909" />
     <linearGradient
        inkscape:collect="always"
        id="linearGradient4300">

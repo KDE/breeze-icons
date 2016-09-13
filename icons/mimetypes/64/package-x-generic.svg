@@ -14,7 +14,7 @@
    height="64"
    id="svg2"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="application-x-archive.svg">
+   sodipodi:docname="application-x-7z-compressed.svg">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -28,9 +28,9 @@
      inkscape:window-height="1013"
      id="namedview24"
      showgrid="false"
-     inkscape:zoom="5.2149125"
-     inkscape:cx="-22.158157"
-     inkscape:cy="33.538739"
+     inkscape:zoom="3.6875"
+     inkscape:cx="32"
+     inkscape:cy="29.830508"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -39,7 +39,18 @@
      id="defs4">
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient4300-7"
+       id="linearGradient4300-7-0">
+      <stop
+         style="stop-color:#5e6b78"
+         id="stop4302-2-4" />
+      <stop
+         offset="1"
+         style="stop-color:#768492"
+         id="stop4304-4-2" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4300-7-0"
        id="linearGradient4306-3"
        y1="61"
        y2="3"
@@ -47,15 +58,14 @@
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(1.3181818,0,0,1,-10.181818,0)" />
     <linearGradient
-       inkscape:collect="always"
-       id="linearGradient4300-7">
+       id="linearGradient4300-2">
       <stop
-         style="stop-color:#5e6b78"
-         id="stop4302-2" />
+         style="stop-color:#3a539b"
+         id="stop4302-4" />
       <stop
          offset="1"
-         style="stop-color:#768492"
-         id="stop4304-4" />
+         style="stop-color:#3f5aa9"
+         id="stop4304-1" />
     </linearGradient>
   </defs>
   <metadata
@@ -71,7 +81,7 @@
   </metadata>
   <path
      style="fill:url(#linearGradient4306-3);fill-opacity:1.0"
-     id="rect3500-7"
+     id="rect3500-6"
      d="M 3,3 3,61 42.545455,61 61,61 61,17 61,3 42.545455,3 Z"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cccccccc" />
@@ -81,17 +91,17 @@
      y="60"
      height="1"
      style="fill:#2e3132;fill-opacity:0.29411801"
-     id="rect4169-5" />
+     id="rect4169-7" />
   <rect
      width="58"
      x="3"
      y="3"
      height="1"
      style="fill:#ffffff;fill-opacity:0.40983599"
-     id="rect4236-3" />
+     id="rect4236-5" />
   <path
      style="fill:#fbfbfb;fill-opacity:1"
      d="m 42,4 0,2 2,0 0,-2 -2,0 z m 2,2 0,2 2,0 0,-2 -2,0 z m 0,2 -2,0 0,2 2,0 0,-2 z m 0,2 0,2 2,0 0,-2 -2,0 z m 0,2 -2,0 0,2 2,0 0,-2 z m 0,2 0,2 2,0 0,-2 -2,0 z m 0,2 -2,0 0,2 2,0 0,-2 z m 0,2 0,2 2,0 0,-2 -2,0 z m 0,2 -2,0 0,2 2,0 0,-2 z m 0,2 0,2 2,0 0,-2 -2,0 z m 0,2 -2,0 0,2 2,0 0,-2 z m 0,2 0,2 2,0 0,-2 -2,0 z m 0,2 -2,0 0,2 0,1 4,0 0,-1 0,-1 -2,0 0,-1 z"
-     id="rect4173-5"
+     id="rect4173-3"
      inkscape:connector-curvature="0" />
 </svg>

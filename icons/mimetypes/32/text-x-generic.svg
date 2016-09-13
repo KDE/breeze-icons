@@ -29,9 +29,9 @@
      inkscape:window-height="1021"
      id="namedview4765"
      showgrid="false"
-     inkscape:zoom="7.375"
-     inkscape:cx="16"
-     inkscape:cy="16"
+     inkscape:zoom="14.75"
+     inkscape:cx="-1.0839191"
+     inkscape:cy="23.024017"
      inkscape:window-x="0"
      inkscape:window-y="30"
      inkscape:window-maximized="1"
@@ -42,11 +42,12 @@
        inkscape:collect="always"
        xlink:href="#linearGradient4300"
        id="linearGradient4306-3"
-       y1="61"
-       y2="3"
-       x2="0"
+       y1="2.7191029"
+       y2="61.000027"
+       x2="8.2711906"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.49999977,0,0,-0.48275841,384.57144,547.24623)" />
+       gradientTransform="matrix(0.49999977,0,0,-0.48275841,384.57144,547.24623)"
+       x1="7.728817" />
     <linearGradient
        inkscape:collect="always"
        id="linearGradient4300">

@@ -30,7 +30,7 @@
      id="namedview32"
      showgrid="false"
      inkscape:zoom="7.375"
-     inkscape:cx="19.792146"
+     inkscape:cx="-0.0044641695"
      inkscape:cy="-3.5765451"
      inkscape:window-x="0"
      inkscape:window-y="30"
@@ -273,5 +273,19 @@
        height="10.999983"
        style="fill:#ffffff"
        id="rect4035-4-5" />
+    <rect
+       width="24.404537"
+       x="386.57144"
+       y="544.79797"
+       height="0.999973"
+       style="fill:#2e3132;fill-opacity:0.29411801"
+       id="rect4169-5" />
+    <rect
+       width="24.404537"
+       x="386.57144"
+       y="517.79797"
+       height="1.00003"
+       style="fill:#ffffff;fill-opacity:0.41176501"
+       id="rect4236-6" />
   </g>
 </svg>
