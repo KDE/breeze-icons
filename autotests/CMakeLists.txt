@@ -9,3 +9,7 @@ ecm_add_test(symlinktest.cpp
     TEST_NAME "symlink"
     LINK_LIBRARIES Qt5::Test
 )
+ecm_add_test(newlinetest.cpp
+    TEST_NAME "newline"
+    LINK_LIBRARIES Qt5::Test
+)
