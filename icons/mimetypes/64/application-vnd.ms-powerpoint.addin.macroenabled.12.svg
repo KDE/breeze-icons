@@ -37,15 +37,15 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1013"
+     inkscape:window-height="1025"
      id="namedview82"
      showgrid="true"
      inkscape:showpageshadow="false"
      inkscape:zoom="6.032505"
-     inkscape:cx="-40.172259"
-     inkscape:cy="26.61612"
+     inkscape:cx="-30.557679"
+     inkscape:cy="25.289971"
      inkscape:window-x="0"
-     inkscape:window-y="38"
+     inkscape:window-y="26"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2"
      showguides="true">
@@ -153,6 +153,26 @@
        x2="0"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(1,0,0,-1,0,64)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4410"
+       id="linearGradient4427-5"
+       y1="17"
+       x1="40"
+       y2="31"
+       x2="54"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4410">
+      <stop
+         style="stop-color:#383e51"
+         id="stop4412" />
+      <stop
+         offset="1"
+         style="stop-color:#655c6f;stop-opacity:0"
+         id="stop4414" />
+    </linearGradient>
   </defs>
   <path
      inkscape:connector-curvature="0"
@@ -209,4 +229,9 @@
        d="m 245,31.83 c 1.97,-0.09 4.41,-0.45 5.74,1.4 1.14,1.96 1.08,4.54 0.13,6.56 -1.14,2.06 -3.72,1.86 -5.71,2.1 -0.21,-3.35 -0.19,-6.7 -0.16,-10.06 z"
        id="path37" />
   </g>
+  <path
+     inkscape:connector-curvature="0"
+     style="opacity:0.2;fill:url(#linearGradient4427-5);fill-rule:evenodd"
+     id="path4320-7"
+     d="M 40,17 54,31 54,17 Z" />
 </svg>

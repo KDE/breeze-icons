@@ -37,15 +37,15 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1013"
+     inkscape:window-height="1025"
      id="namedview82"
      showgrid="true"
      inkscape:showpageshadow="false"
      inkscape:zoom="6.1003206"
-     inkscape:cx="23.898461"
-     inkscape:cy="22.833108"
+     inkscape:cx="-5.9360366"
+     inkscape:cy="21.521702"
      inkscape:window-x="0"
-     inkscape:window-y="38"
+     inkscape:window-y="26"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2"
      showguides="true">
@@ -152,6 +152,26 @@
        x2="0"
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(1,0,0,-1,0,64)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4410"
+       id="linearGradient4427-5"
+       y1="17"
+       x1="40"
+       y2="31"
+       x2="54"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4410">
+      <stop
+         style="stop-color:#383e51"
+         id="stop4412" />
+      <stop
+         offset="1"
+         style="stop-color:#655c6f;stop-opacity:0"
+         id="stop4414" />
+    </linearGradient>
   </defs>
   <path
      inkscape:connector-curvature="0"
@@ -194,4 +214,9 @@
        d="m 28.812342,29.032186 c -0.249509,0.06521 -0.303948,0.227959 -0.879239,2.702652 -0.336557,1.443475 -0.62945,2.648496 -0.662056,2.681101 -0.02154,0.0326 -0.303948,-1.085368 -0.618671,-2.463913 -0.314723,-1.389321 -0.586066,-2.594062 -0.6079,-2.670047 -0.07598,-0.206413 -1.248117,-0.184583 -1.248117,0.03259 0,0.119369 0.814025,3.408371 1.639113,6.59927 l 0.108594,0.412542 0.71649,-0.03259 0.71621,-0.0326 0.955229,-3.527739 c 0.531911,-1.942781 0.955228,-3.59267 0.966003,-3.668655 0,-0.140915 -0.618959,-0.162749 -1.085656,-0.03259 z"
        inkscape:connector-curvature="0" />
   </g>
+  <path
+     inkscape:connector-curvature="0"
+     style="opacity:0.2;fill:url(#linearGradient4427-5);fill-rule:evenodd"
+     id="path4320-7"
+     d="M 40,17 54,31 54,17 Z" />
 </svg>
