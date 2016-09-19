@@ -36,19 +36,20 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1025"
+     inkscape:window-width="1360"
+     inkscape:window-height="708"
      id="namedview82"
      showgrid="true"
      inkscape:showpageshadow="false"
      inkscape:zoom="8"
-     inkscape:cx="-20.371457"
-     inkscape:cy="14.316397"
+     inkscape:cx="22.837622"
+     inkscape:cy="33.262364"
      inkscape:window-x="0"
-     inkscape:window-y="26"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2"
-     showguides="true">
+     showguides="true"
+     inkscape:object-nodes="true">
     <inkscape:grid
        type="xygrid"
        id="grid3413" />
@@ -143,7 +144,7 @@
        y2="3"
        x2="0"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1,0,0,-1,0,64)" />
+       gradientTransform="matrix(1,0,0,-1,0,63.977903)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4351-1"
@@ -176,9 +177,9 @@
   </defs>
   <path
      inkscape:connector-curvature="0"
-     style="fill:url(#linearGradient4306-5);fill-opacity:1.0"
+     style="fill:url(#linearGradient4306-5);fill-opacity:1"
      id="rect3500-9"
-     d="m 10,61 0,-58 30,0 14,14 0,30 0,14 -14,0 -30,0 z" />
+     d="m 10,60.977903 0,-58.0000001 30,0 14,14.0000001 0,30 0,14 -14,0 -30,0 z" />
   <rect
      width="30"
      x="10"
@@ -201,7 +202,7 @@
      id="path4314-9"
      d="M 54,17 40,3 40,17 Z" />
   <g
-     transform="matrix(0.23967182,0,0,0.25581395,-179.37043,22)"
+     transform="matrix(0.23967182,0,0,0.25581395,-119.37043,22)"
      id="infopath">
     <path
        style="fill:#ffffff;fill-opacity:1"
@@ -234,4 +235,8 @@
      style="opacity:0.2;fill:url(#linearGradient4427-5);fill-rule:evenodd"
      id="path4320-7"
      d="M 40,17 54,31 54,17 Z" />
+  <path
+     style="fill:#ffffff;fill-opacity:1"
+     d="M 36 20 L 32 24.5 L 30.740234 26 L 34 26 L 34 27 L 26 27 L 26 28 L 26 38 L 22.761719 38 L 24 39.5 L 28 44 L 32 39.5 L 33.259766 38 L 30 38 L 30 37 L 36 37 L 38 37 L 38 26 L 41.238281 26 L 40 24.5 L 36 20 z M 36 21.503906 L 39.107422 25 L 37 25 L 37 26 L 37 36 L 30 36 L 30 34 L 33 34 L 35 34 L 35 26 L 35 25 L 32.892578 25 L 36 21.503906 z M 27 28 L 34 28 L 34 30 L 30 30 L 29 30 L 29 38 L 29 39 L 31.107422 39 L 28 42.496094 L 24.892578 39 L 27 39 L 27 38 L 27 28 z M 30 31 L 34 31 L 34 33 L 30 33 L 30 31 z "
+     id="rect4176" />
 </svg>
