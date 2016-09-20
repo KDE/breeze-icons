@@ -14,7 +14,7 @@
    height="64"
    id="svg2"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="audio-x-generic.svg">
+   sodipodi:docname="audio-x-flac.svg">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -27,10 +27,10 @@
      inkscape:window-width="1920"
      inkscape:window-height="1021"
      id="namedview24"
-     showgrid="false"
-     inkscape:zoom="1"
-     inkscape:cx="30.269147"
-     inkscape:cy="8.0850753"
+     showgrid="true"
+     inkscape:zoom="5.2149125"
+     inkscape:cx="11.76393"
+     inkscape:cy="17.866972"
      inkscape:window-x="0"
      inkscape:window-y="30"
      inkscape:window-maximized="1"
@@ -39,10 +39,20 @@
      inkscape:bbox-nodes="true">
     <inkscape:grid
        type="xygrid"
-       id="grid4216" />
+       id="grid4229" />
   </sodipodi:namedview>
   <defs
      id="defs4">
+    <linearGradient
+       id="linearGradient4351-4">
+      <stop
+         style="stop-color:#c8e3fe"
+         id="stop4353-8" />
+      <stop
+         offset="1"
+         style="stop-color:#ffffff"
+         id="stop4355-4" />
+    </linearGradient>
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient6251"
@@ -65,16 +75,6 @@
          offset="1"
          id="stop6255" />
     </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient6251"
-       id="linearGradient7157-5"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-58,-335.3622)"
-       x1="58"
-       y1="392.36221"
-       x2="58"
-       y2="336.36221" />
   </defs>
   <metadata
      id="metadata84">
