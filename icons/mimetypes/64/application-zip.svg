@@ -12,9 +12,9 @@
    version="1.1"
    viewBox="0 0 64 64"
    height="64"
-   id="svg74"
+   id="svg2"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="application-zip.svg">
+   sodipodi:docname="application-x-gzip.svg">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -25,34 +25,44 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1013"
-     id="namedview96"
-     showgrid="true"
-     inkscape:zoom="5.2149125"
-     inkscape:cx="20.923165"
-     inkscape:cy="43.476627"
+     inkscape:window-height="1025"
+     id="namedview24"
+     showgrid="false"
+     inkscape:zoom="2.8284271"
+     inkscape:cx="73.61318"
+     inkscape:cy="22.825715"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="26"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg74"
+     inkscape:current-layer="svg2"
      inkscape:snap-bbox="true"
      inkscape:bbox-nodes="true">
     <inkscape:grid
        type="xygrid"
-       id="grid4177" />
+       id="grid4165" />
   </sodipodi:namedview>
   <defs
      id="defs4">
     <linearGradient
        id="linearGradient4300-2">
       <stop
-         style="stop-color:#3a539b"
+         style="stop-color:#f9b425"
          id="stop4302-4" />
       <stop
          offset="1"
-         style="stop-color:#3f5aa9"
+         style="stop-color:#f9bf3b"
          id="stop4304-1" />
     </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6251"
+       id="linearGradient4850"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,0.84587337,-0.9999966,262.62763)"
+       x1="58"
+       y1="393.95328"
+       x2="58"
+       y2="324.65894" />
     <linearGradient
        inkscape:collect="always"
        id="linearGradient6251">
@@ -65,26 +75,6 @@
          offset="1"
          id="stop6255" />
     </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient6251"
-       id="linearGradient7221-3"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-58.000001,-335.36221)"
-       x1="58"
-       y1="392.36221"
-       x2="58"
-       y2="336.36221" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient6251"
-       id="linearGradient4850"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1,0,0,0.84587337,-0.9999966,262.62763)"
-       x1="58"
-       y1="393.95328"
-       x2="58"
-       y2="324.65894" />
   </defs>
   <metadata
      id="metadata84">
