@@ -15,7 +15,7 @@
    height="32"
    id="svg2"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="application-x-kvtml.svg">
+   sodipodi:docname="application-pgp-signature.svg">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -25,12 +25,12 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="699"
+     inkscape:window-width="1360"
+     inkscape:window-height="708"
      id="namedview36"
      showgrid="true"
      inkscape:zoom="14.747603"
-     inkscape:cx="12.857162"
+     inkscape:cx="3.0250557"
      inkscape:cy="17.57778"
      inkscape:window-x="0"
      inkscape:window-y="0"
@@ -232,7 +232,7 @@
     <g
        transform="matrix(0.01242817,-0.00174677,0.00174677,0.01242817,393.48507,527.83114)"
        id="g6-1"
-       style="fill:#fbfbfb;fill-opacity:1">
+       style="fill:#fbfbfb;fill-opacity:1;opacity:0.75">
       <g
          transform="matrix(0.1,0,0,-0.1,0,512)"
          id="g8-9"

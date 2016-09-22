@@ -36,16 +36,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1021"
+     inkscape:window-width="1360"
+     inkscape:window-height="708"
      id="namedview82"
      showgrid="true"
      inkscape:showpageshadow="false"
      inkscape:zoom="8"
-     inkscape:cx="41.436231"
+     inkscape:cx="23.311231"
      inkscape:cy="33.119666"
      inkscape:window-x="0"
-     inkscape:window-y="30"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2"
      showguides="true">
@@ -149,26 +149,6 @@
     </linearGradient>
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient4296"
-       id="linearGradient4294"
-       x1="29.500002"
-       y1="38.999943"
-       x2="29.500002"
-       y2="8.9998808"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       id="linearGradient4296">
-      <stop
-         style="stop-color:#f5c3c3;stop-opacity:1"
-         offset="0"
-         id="stop4298" />
-      <stop
-         style="stop-color:#fef6f6;stop-opacity:1"
-         offset="1"
-         id="stop4300" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient4300"
        id="linearGradient4306-5"
        y1="3"
@@ -198,7 +178,7 @@
   </defs>
   <path
      inkscape:connector-curvature="0"
-     style="fill:url(#linearGradient4306-5);fill-opacity:1.0"
+     style="fill:url(#linearGradient4306-5);fill-opacity:1"
      id="rect3500-9"
      d="m 10,61 0,-58 30,0 14,14 0,30 0,14 -14,0 -30,0 z" />
   <rect

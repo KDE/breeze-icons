@@ -24,15 +24,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1021"
+     inkscape:window-width="1360"
+     inkscape:window-height="708"
      id="namedview25"
      showgrid="false"
      inkscape:zoom="3.6875"
-     inkscape:cx="32"
+     inkscape:cx="-7.3220339"
      inkscape:cy="32"
      inkscape:window-x="0"
-     inkscape:window-y="30"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2" />
   <defs
@@ -135,7 +135,7 @@
      transform="scale(1,-1)" />
   <path
      inkscape:connector-curvature="0"
-     style="fill:url(#linearGradient4357-8);fill-opacity:1;fill-rule:evenodd"
+     style="fill:url(#linearGradient4357-8);fill-opacity:1;fill-rule:evenodd;opacity:0.75"
      id="path4314-9"
      d="M 54,17 40,3 40,17 Z" />
   <path
@@ -144,7 +144,7 @@
      id="path4320-7"
      d="M 40,17 54,31 54,17 Z" />
   <path
-     style="fill:#fbfbfb;fill-rule:evenodd"
+     style="fill:#fbfbfb;fill-rule:evenodd;opacity:0.75"
      d="m 21,22 0,22 22,0 0,-22 -22,0 z m 1,5 20,0 0,16 -20,0 0,-16 z m 10.5,2 c -0.97222,0 -1.880002,0.340939 -2.519531,0.980469 C 29.340939,30.619998 29,31.52778 29,32.5 l 2,0 c 0,-0.527775 0.159067,-0.869999 0.394531,-1.105469 C 31.630001,31.159061 31.972225,31 32.5,31 c 0.52778,0 0.869998,0.159061 1.105469,0.394531 C 33.840939,31.630001 34,31.972225 34,32.5 c 0,0.458335 -0.09035,0.653322 -0.210938,0.826172 -0.521275,0.525906 -1.151711,0.975552 -1.658203,1.40625 C 31.559185,35.161646 31,35.724382 31,36.5 l 0,0.5 2,0 0,-0.5 c 0.71082,-0.727657 1.770257,-1.362163 2.429688,-2.029297 C 35.777848,33.971673 36,33.29167 36,32.5 36,31.52778 35.659067,30.619999 35.019531,29.980469 34.380001,29.340939 33.472225,29 32.5,29 Z m -1.5,10 0,2 2,0 0,-2 -2,0 z"
      id="path4171"
      inkscape:connector-curvature="0" />
