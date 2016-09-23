@@ -33,6 +33,7 @@ Name[sv]=Breeze
 Name[uk]=Breeze
 Name[x-test]=xxBreezexx
 Name[zh_CN]=微风
+Name[zh_TW]=Breeze
 
 Comment=Default Plasma 5 Theme
 Comment[ar]=سمة بلازما 5 الافتراضيّة
@@ -69,6 +70,7 @@ Comment[sv]=Plasma 5 standardtema
 Comment[uk]=Типова тема Плазми 5
 Comment[x-test]=xxDefault Plasma 5 Themexx
 Comment[zh_CN]=默认 Plasma 5 主题
+Comment[zh_TW]=預設的 Plasma 5 主題
 
 DisplayDepth=32
 
