@@ -59,7 +59,7 @@ private Q_SLOTS:
             QFAIL("this test needs the fdupes binary (1.51+) to run");
         }
         for (auto dir : ICON_DIRS) {
-            dupesForDirectory(dir);
+            dupesForDirectory(PROJECT_SOURCE_DIR + QStringLiteral("/") + dir);
         }
     }
 };
