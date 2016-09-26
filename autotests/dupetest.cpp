@@ -55,9 +55,9 @@ private Q_SLOTS:
     void test_duplicates()
     {
         if (QStandardPaths::findExecutable(QStringLiteral("fdupes")).isEmpty()) {
-            // Warn and skip. This is a fairly relevant test, so it not running is a warning really.
-            QWARN("this test needs the fdupes binary (1.51+) to run");
+            // Fail and skip. This is a fairly relevant test, so it not running is a warning really.
             QSKIP("this test needs the fdupes binary (1.51+) to run");
+            QFAIL("this test needs the fdupes binary (1.51+) to run");
         }
         for (auto dir : ICON_DIRS) {
             dupesForDirectory(dir);
