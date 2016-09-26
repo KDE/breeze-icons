@@ -18,36 +18,40 @@
     License along with this library. If not, see <http://www.gnu.org/licenses/>.
 */
 
-#include <QDirIterator>
-#include <QObject>
-#include <QtTest>
+#ifndef TESTHELPERS_H
+#define TESTHELPERS_H
 
-#include "testhelpers.h"
+#include <QFileInfo>
+#include <QList>
+#include <QString>
 
-class NewlineTest : public QObject
+#include "testdata.h"
+
+#define _T_LIST_INDENT QStringLiteral("  ")
+#define _T_LIST_INDENT2 QStringLiteral("    ")
+
+void failListContent(const QList<QString> &list, const QString &header)
 {
-    Q_OBJECT
-
-private Q_SLOTS:
-    // Files that contain a newline in their name
-    void test_whitespace()
-    {
-        QList<QString> brokenFiles;
-        QDirIterator it(PROJECT_SOURCE_DIR,
-                        QDir::Files	| QDir::System,
-                        QDirIterator::Subdirectories);
-        while (it.hasNext()) {
-            it.next();
-            if (it.fileName().simplified() != it.fileName()) {
-                brokenFiles << it.filePath();
-            }
-        }
-        failListContent(brokenFiles,
-                        QStringLiteral("Found file with bad characters (http://doc.qt.io/qt-5/qstring.html#simplified):\n"));
+    if (list.empty()) {
+        return;
     }
+    QString message = ("\n" + _T_LIST_INDENT + header);
+    for (const auto path : list) {
+        message += (_T_LIST_INDENT2 + "- " + path + "\n");
+    }
+    QFAIL(message.toLatin1());
+}
 
-};
+void failSymlinkList(const QList<QFileInfo> &list, const QString &header)
+{
+    if (list.empty()) {
+        return;
+    }
+    QString message = ("\n" + _T_LIST_INDENT + header);
+    for (const auto info : list) {
+        message += (_T_LIST_INDENT2 + info.filePath() + " => " + info.symLinkTarget() + "\n");
+    }
+    QFAIL(message.toLatin1());
+}
 
-QTEST_GUILESS_MAIN(NewlineTest)
-
-#include "newlinetest.moc"
+#endif // TESTHELPERS_H

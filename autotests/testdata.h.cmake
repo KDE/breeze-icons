@@ -1,1 +1,2 @@
 #define PROJECT_SOURCE_DIR "${PROJECT_SOURCE_DIR}"
+#define ICON_DIRS { "${PROJECT_SOURCE_DIR}/icons", "${PROJECT_SOURCE_DIR}/icons-dark" }

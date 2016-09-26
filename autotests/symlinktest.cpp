@@ -22,27 +22,13 @@
 #include <QObject>
 #include <QtTest>
 
-#include "testdata.h"
+#include "testhelpers.h"
 
 class SymlinkTest : public QObject
 {
     Q_OBJECT
 
 private Q_SLOTS:
-    void assertSymLinkListEmpty(const QList<QFileInfo> &list, const QString &header)
-    {
-        if (list.empty()) {
-            return;
-        }
-        QString indent("  ");
-        QString indent2 = indent + indent;
-        QString message = ("\n" + indent + header);
-        Q_FOREACH(const QFileInfo &info, list) {
-            message += (indent2 + info.filePath() + " => " + info.symLinkTarget() + "\n");
-        }
-        QFAIL(message.toLatin1());
-    }
-
     // Invalid symlinks shouldn't happen.
     void test_broken()
     {
@@ -61,8 +47,8 @@ private Q_SLOTS:
             }
             brokenSymLinks << info;
         }
-        assertSymLinkListEmpty(brokenSymLinks,
-                               QStringLiteral("Found broken symlinks:\n"));
+        failSymlinkList(brokenSymLinks,
+                        QStringLiteral("Found broken symlinks:\n"));
     }
 
     // Symlinks should never point to something outside the tree, even if valid!
@@ -81,8 +67,8 @@ private Q_SLOTS:
             }
             OOTSymLinks << info;
         }
-        assertSymLinkListEmpty(OOTSymLinks,
-                               QStringLiteral("Found out-of-tree symlinks:\n"));
+        failSymlinkList(OOTSymLinks,
+                        QStringLiteral("Found out-of-tree symlinks:\n"));
     }
 };
 
