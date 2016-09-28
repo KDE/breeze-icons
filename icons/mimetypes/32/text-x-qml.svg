@@ -15,7 +15,7 @@
    height="32"
    id="svg2"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="text-x-qml-32.svg">
+   sodipodi:docname="text-x-qml.svg">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -25,15 +25,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="699"
+     inkscape:window-width="1920"
+     inkscape:window-height="1025"
      id="namedview27"
      showgrid="true"
      inkscape:zoom="23.964855"
-     inkscape:cx="13.118727"
-     inkscape:cy="17.990153"
+     inkscape:cx="5.5242725"
+     inkscape:cy="17.656331"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="26"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1">
     <inkscape:grid
@@ -52,15 +52,6 @@
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(0.49999977,0,0,-0.48275841,384.57144,547.24623)"
        x1="3.115622" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4351-8"
-       id="linearGradient4357"
-       y1="61"
-       y2="47"
-       x2="0"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.48275841,0,0,-0.48275841,385.26109,547.48761)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4410"
@@ -98,17 +89,6 @@
          stop-color="#239161"
          id="stop25-6" />
     </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient4351-8">
-      <stop
-         style="stop-color:#ade2a1"
-         id="stop4353-3" />
-      <stop
-         offset="1"
-         style="stop-color:#cfeec9"
-         id="stop4355-1" />
-    </linearGradient>
   </defs>
   <metadata
      id="metadata5458">
@@ -136,7 +116,7 @@
        x="389.57144"
        y="-518.79797"
        height="0.999973"
-       style="fill:#ffffff;fill-opacity:0.41176471"
+       style="fill:#ffffff;fill-opacity:1;opacity:0.5"
        id="rect4169"
        transform="scale(1,-1)" />
     <rect
@@ -149,7 +129,7 @@
        transform="scale(1,-1)" />
     <path
        inkscape:connector-curvature="0"
-       style="fill:url(#linearGradient4357);fill-rule:evenodd;fill-opacity:1.0"
+       style="fill:#ffffff;fill-rule:evenodd;fill-opacity:1;opacity:0.5"
        id="path4314"
        d="m 411.57144,524.79797 -7.00001,-7 0,7 z" />
     <path
