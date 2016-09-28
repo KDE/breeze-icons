@@ -36,16 +36,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1360"
-     inkscape:window-height="708"
+     inkscape:window-width="1920"
+     inkscape:window-height="1025"
      id="namedview82"
      showgrid="true"
      inkscape:showpageshadow="false"
      inkscape:zoom="13.936555"
-     inkscape:cx="23.856375"
-     inkscape:cy="28.140024"
+     inkscape:cx="10.797194"
+     inkscape:cy="27.565994"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="26"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2"
      showguides="true"
@@ -221,7 +221,8 @@
      id="path4320-7-5"
      d="M 40,17 54,31 54,17 Z" />
   <path
-     style="color:#000000;color-interpolation:sRGB;color-interpolation-filters:linearRGB;fill:#ffffff;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;opacity:0.75"
-     d="M 21 23 C 20.446 23 20 23.446 20 24 L 20 40 C 20 40.554 20.446 41 21 41 L 43 41 C 43.554 41 44 40.554 44 40 L 44 24 C 44 23.446 43.554 23 43 23 L 21 23 z M 21 24 L 21.046875 24 L 28.572266 31.181641 L 21 38.408203 L 21 24 z M 22.257812 24 L 41.742188 24 L 32 33.296875 L 22.257812 24 z M 42.953125 24 L 43 24 L 43 38.408203 L 35.427734 31.181641 L 42.953125 24 z M 29.177734 31.759766 L 32 34.455078 L 34.822266 31.759766 L 43 39.566406 L 43 40 L 21 40 L 21 39.566406 L 29.177734 31.759766 z "
-     id="rect4167" />
+     style="color:#000000;opacity:0.75;color-interpolation:sRGB;color-interpolation-filters:linearRGB;fill:#ffffff;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto"
+     d="m 21,24 c -0.554,0 -1,0.446 -1,1 l 0,16 c 0,0.554 0.446,1 1,1 l 22,0 c 0.554,0 1,-0.446 1,-1 l 0,-16 c 0,-0.554 -0.446,-1 -1,-1 l -22,0 z m 0,1 0.04687,0 7.525391,7.181641 L 21,39.408203 21,25 Z m 1.257812,0 19.484376,0 L 32,34.296875 22.257812,25 Z M 42.953125,25 43,25 43,39.408203 35.427734,32.181641 42.953125,25 Z M 29.177734,32.759766 32,35.455078 34.822266,32.759766 43,40.566406 43,41 l -22,0 0,-0.433594 8.177734,-7.80664 z"
+     id="rect4167"
+     inkscape:connector-curvature="0" />
 </svg>
