@@ -15,7 +15,7 @@
    viewBox="0 0 16 16"
    id="svg2"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="application-epub+zip-16.svg">
+   sodipodi:docname="application-epub+zip.svg">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -25,15 +25,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="699"
+     inkscape:window-width="1920"
+     inkscape:window-height="1025"
      id="namedview9"
      showgrid="false"
      inkscape:zoom="14.75"
-     inkscape:cx="8.4745763"
-     inkscape:cy="8"
+     inkscape:cx="-3.9322034"
+     inkscape:cy="7.4576271"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="26"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
@@ -46,7 +46,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -65,7 +65,7 @@
        transform="matrix(1 0 0 1 0 1036.3622)" />
     <path
        inkscape:connector-curvature="0"
-       style="fill:#036b53;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="fill:#f9d24c;fill-opacity:1;fill-rule:nonzero;stroke:none"
        d="m 7.9661092,1048.0836 -3.7571202,-3.7571 3.7571202,-3.7539 1.2534401,1.2502 -2.5068949,2.5037 1.2534548,1.2534 3.7571058,-3.7571 -3.2737805,-3.2706 c -0.2658333,-0.2658 -0.7008395,-0.2658 -0.9666578,0 l -5.2908987,5.2909 c -0.2690551,0.2659 -0.2690551,0.7009 0,0.9699 l 5.2908987,5.2909 c 0.2658183,0.2659 0.7008245,0.2659 0.9666578,0 l 5.2908915,-5.2909 c 0.269055,-0.269 0.269055,-0.704 0,-0.9699 l -0.766886,-0.7668 z m 0,0"
        id="path11" />
   </g>
