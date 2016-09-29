@@ -1,27 +1,29 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="64" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" height="64" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
- <defs id="defs4">
-  <linearGradient inkscape:collect="always" xlink:href="#linearGradient4300-9" id="linearGradient4306" y1="61" y2="3" x2="0" gradientUnits="userSpaceOnUse"/>
-  <linearGradient inkscape:collect="always" xlink:href="#linearGradient4410" id="linearGradient4427" y1="31" x1="54" y2="17" x2="40" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 -1 -14 78)"/>
-  <linearGradient inkscape:collect="always" id="linearGradient4410">
-   <stop style="stop-color:#383e51" id="stop4412"/>
-   <stop offset="1" style="stop-color:#655c6f;stop-opacity:0" id="stop4414"/>
+<svg width="64" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" height="64" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="a" y1="17" x1="40" y2="31" gradientUnits="userSpaceOnUse" x2="54" gradientTransform="translate(616 532.36)">
+   <stop stop-color="#060606"/>
+   <stop offset="1" stop-opacity="0"/>
   </linearGradient>
-  <linearGradient inkscape:collect="always" xlink:href="#linearGradient4351" id="linearGradient4357" y1="61" y2="47" x2="0" gradientUnits="userSpaceOnUse"/>
-  <linearGradient id="linearGradient4351">
-   <stop style="stop-color:#036b53" id="stop4353"/>
-   <stop offset="1" style="stop-color:#036b53" id="stop4355"/>
+  <linearGradient id="b" y1="392.36" y2="336.36" gradientUnits="userSpaceOnUse" x2="0" gradientTransform="translate(568 200)">
+   <stop stop-color="#ffffff" stop-opacity="0"/>
+   <stop offset="1" stop-color="#ffffff" stop-opacity=".2"/>
   </linearGradient>
-  <linearGradient inkscape:collect="always" id="linearGradient4300-9">
-   <stop style="stop-color:#26c281" id="stop4302-0"/>
-   <stop offset="1" style="stop-color:#3fc380" id="stop4304-3-9"/>
-  </linearGradient>
+  <path id="c" d="m626 593.36v-58h30l14 14v44h-14z"/>
  </defs>
- <metadata id="metadata84"/>
- <path style="fill:url(#linearGradient4306)" id="rect3500" d="M 10 3 L 10 61 L 40 61 L 54 47 L 54 17 L 54 3 L 40 3 L 10 3 z "/>
- <rect width="30" x="10" y="60" height="1" style="fill:#2e3132;fill-opacity:0.294118" id="rect4169"/>
- <rect width="44" x="10" y="3" height="1" style="fill:#ffffff;fill-opacity:0.409836" id="rect4236"/>
- <path inkscape:connector-curvature="0" style="fill:url(#linearGradient4357);fill-rule:evenodd" id="path4314" d="M 54,47 40,61 40,47 Z"/>
- <path inkscape:connector-curvature="0" style="fill:url(#linearGradient4427);opacity:0.2;fill-rule:evenodd" id="path4320" d="M 26,61 40,47 40,61 Z"/>
- <path style="fill:#036b53;fill-rule:evenodd" id="path4171" d="M 21 21 L 21 43 L 43 43 L 43 21 L 21 21 z M 22 26 L 42 26 L 42 42 L 22 42 L 22 26 z M 28 29 L 28 38 L 28 39 L 36 34 L 28 29 z "/>
+ <g transform="translate(-616-532.36)">
+  <g color-rendering="auto" color-interpolation-filters="linearRGB" shape-rendering="auto" image-rendering="auto" text-rendering="auto" color-interpolation="sRGB" color="#000000">
+   <use fill="#555555" xlink:href="#c"/>
+   <g transform="scale(1-1)">
+    <rect opacity=".4" x="626" y="-536.36" width="30" fill="#ffffff" height="1"/>
+    <rect opacity=".35" x="626" y="-593.36" width="44" height="1"/>
+   </g>
+   <path opacity=".5" fill="#ffffff" fill-rule="evenodd" d="m670 549.36l-14-14v14z"/>
+  </g>
+  <path opacity=".4" fill="url(#a)" fill-rule="evenodd" d="m656 549.36l14 14v-14z"/>
+  <g color-rendering="auto" color-interpolation-filters="linearRGB" shape-rendering="auto" image-rendering="auto" text-rendering="auto" color-interpolation="sRGB" color="#000000">
+   <path fill="#343434" d="m636 556.36v22h26v-22zm18 1c.552 0 1 .448 1 1 0 .552-.448 1-1 1-.552 0-1-.448-1-1 0-.552.448-1 1-1m3 0c.552 0 1 .448 1 1 0 .552-.448 1-1 1-.552 0-1-.448-1-1 0-.552.448-1 1-1m3 0c.552 0 1 .448 1 1 0 .552-.448 1-1 1-.552 0-1-.448-1-1 0-.552.448-1 1-1m-23 3h24v17h-24zm11 2v9h2v-9zm0 11v2h2v-2z"/>
+   <path fill="#e0e0e0" d="m635 555.36v22h26v-22zm18 1c.552 0 1 .448 1 1 0 .552-.448 1-1 1-.552 0-1-.448-1-1 0-.552.448-1 1-1m3 0c.552 0 1 .448 1 1 0 .552-.448 1-1 1-.552 0-1-.448-1-1 0-.552.448-1 1-1m3 0c.552 0 1 .448 1 1 0 .552-.448 1-1 1-.552 0-1-.448-1-1 0-.552.448-1 1-1m-23 3h24v17h-24zm11 2v9h2v-9zm0 11v2h2v-2z"/>
+  </g>
+  <use fill="url(#b)" xlink:href="#c"/>
+ </g>
 </svg>

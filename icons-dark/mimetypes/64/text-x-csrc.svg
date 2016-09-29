@@ -1,27 +1,28 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="64" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" height="64" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
- <defs id="defs4">
-  <linearGradient inkscape:collect="always" xlink:href="#linearGradient4300-1" id="linearGradient4306" y1="61" y2="3" x2="0" gradientUnits="userSpaceOnUse"/>
-  <linearGradient inkscape:collect="always" xlink:href="#linearGradient4410" id="linearGradient4427" y1="31" x1="54" y2="17" x2="40" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 -1 -14 78)"/>
-  <linearGradient inkscape:collect="always" id="linearGradient4410">
-   <stop style="stop-color:#383e51" id="stop4412"/>
-   <stop offset="1" style="stop-color:#655c6f;stop-opacity:0" id="stop4414"/>
+<svg width="64" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" height="64" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="a" y1="17" x1="40" y2="31" gradientUnits="userSpaceOnUse" x2="54" gradientTransform="translate(312 1314.36)">
+   <stop stop-color="#060606"/>
+   <stop offset="1" stop-opacity="0"/>
   </linearGradient>
-  <linearGradient inkscape:collect="always" xlink:href="#linearGradient4351-9" id="linearGradient4357" y1="61" y2="47" x2="0" gradientUnits="userSpaceOnUse"/>
-  <linearGradient inkscape:collect="always" id="linearGradient4351-9">
-   <stop style="stop-color:#127666" id="stop4353-0"/>
-   <stop offset="1" style="stop-color:#16a085" id="stop4355-4"/>
+  <linearGradient id="b" y1="392.36" y2="336.36" gradientUnits="userSpaceOnUse" x2="0" gradientTransform="translate(264 982)">
+   <stop stop-color="#ffffff" stop-opacity="0"/>
+   <stop offset="1" stop-color="#ffffff" stop-opacity=".2"/>
   </linearGradient>
-  <linearGradient inkscape:collect="always" id="linearGradient4300-1">
-   <stop style="stop-color:#03c9a9" id="stop4302-5"/>
-   <stop offset="1" style="stop-color:#36d7b7" id="stop4304-4"/>
-  </linearGradient>
+  <path id="c" d="m322 1375.36v-58h30l14 14v44h-14z"/>
  </defs>
- <metadata id="metadata84"/>
- <path style="fill:url(#linearGradient4306)" id="rect3500" d="M 10 3 L 10 61 L 40 61 L 54 47 L 54 17 L 54 3 L 40 3 L 10 3 z "/>
- <rect width="30" x="10" y="60" height="1" style="fill:#2e3132;fill-opacity:0.294118" id="rect4169"/>
- <rect width="44" x="10" y="3" height="1" style="fill:#ffffff;fill-opacity:0.409836" id="rect4236"/>
- <path inkscape:connector-curvature="0" style="fill:url(#linearGradient4357);fill-rule:evenodd" id="path4314" d="M 54,47 40,61 40,47 Z"/>
- <path inkscape:connector-curvature="0" style="fill:url(#linearGradient4427);opacity:0.2;fill-rule:evenodd" id="path4320" d="M 26,61 40,47 40,61 Z"/>
- <path style="fill:#127666" id="rect4226" d="M 26 21 L 26 23 L 39 23 L 39 21 L 26 21 z M 39 23 L 39 25 L 41 25 L 41 23 L 39 23 z M 41 25 L 41 27 L 43 27 L 43 25 L 41 25 z M 26 23 L 24 23 L 24 25 L 26 25 L 26 23 z M 24 25 L 22 25 L 22 27 L 21 27 L 21 29 L 21 38 L 22 38 L 22 40 L 24 40 L 24 38 L 23 38 L 23 29 L 23 27 L 24 27 L 24 25 z M 24 40 L 24 42 L 26 42 L 26 43 L 39 43 L 39 41 L 26 41 L 26 40 L 24 40 z M 39 41 L 41 41 L 41 39 L 39 39 L 39 41 z M 41 39 L 43 39 L 43 37 L 41 37 L 41 39 z "/>
+ <g transform="translate(-312-1314.36)">
+  <g color-rendering="auto" color-interpolation-filters="linearRGB" shape-rendering="auto" image-rendering="auto" text-rendering="auto" color-interpolation="sRGB" color="#000000">
+   <use fill="#13a4f7" xlink:href="#c"/>
+   <g transform="scale(1-1)">
+    <rect opacity=".5" x="322" y="-1318.36" width="30" fill="#ffffff" height="1"/>
+    <rect opacity=".25" x="322" y="-1375.36" width="44" height="1"/>
+   </g>
+  </g>
+  <g fill-rule="evenodd">
+   <path opacity=".6" d="m366 1331.36l-14-14v14z"/>
+   <path opacity=".2" fill="url(#a)" d="m352 1331.36l14 14v-14z"/>
+  </g>
+  <path opacity=".7" color-interpolation-filters="linearRGB" color="#000000" image-rendering="auto" color-rendering="auto" d="m344.5 1337.36c-5.247 0-9.5 4.253-9.5 9.5 0 5.247 4.253 9.5 9.5 9.5 3.327 0 6.41-1.748 8.127-4.598l-.869-.5c-1.538 2.54-4.289 4.093-7.258 4.098-4.694 0-8.5-3.806-8.5-8.5 0-4.694 3.806-8.5 8.5-8.5 2.476 0 4.826 1.089 6.438 2.969l.873-.504c-1.799-2.187-4.479-3.457-7.311-3.465" color-interpolation="sRGB" text-rendering="auto" shape-rendering="auto"/>
+  <use fill="url(#b)" xlink:href="#c"/>
+ </g>
 </svg>

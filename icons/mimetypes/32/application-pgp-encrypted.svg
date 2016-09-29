@@ -1,808 +1,115 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="32"
-   version="1.1"
-   height="32"
-   id="svg2"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="application-pgp-encrypted.svg">
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1360"
-     inkscape:window-height="708"
-     id="namedview30"
-     showgrid="false"
-     inkscape:zoom="1"
-     inkscape:cx="7.1126393"
-     inkscape:cy="5.5663555"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="layer1">
-    <inkscape:grid
-       type="xygrid"
-       id="grid4174" />
-  </sodipodi:namedview>
-  <defs
-     id="defs5455">
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4410"
-       id="linearGradient4427-3"
-       y1="31"
-       x1="54"
-       y2="16.500048"
-       x2="39.500008"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0,-0.48275841,-0.48275841,0,419.53694,550.86696)" />
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient4410">
-      <stop
-         style="stop-color:#000000;stop-opacity:1"
-         id="stop4412" />
-      <stop
-         offset="1"
-         style="stop-color:#000000;stop-opacity:0"
-         id="stop4414" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient6251">
-      <stop
-         style="stop-color:#ffffff;stop-opacity:0"
-         offset="0"
-         id="stop6253" />
-      <stop
-         style="stop-color:#ffffff;stop-opacity:0.2"
-         offset="1"
-         id="stop6255" />
-    </linearGradient>
-    <style
-       type="text/css"
-       id="current-color-scheme">
-      .ColorScheme-Text {
-        color:#4d4d4d;
-      }
-      </style>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient6251"
-       id="linearGradient5200"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1,0,0,0.48060336,278.35497,356.64394)"
-       x1="58"
-       y1="392.36221"
-       x2="58"
-       y2="336.36221" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient6251"
-       id="linearGradient5200-4"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1,0,0,0.48060336,-58,-161.1762)"
-       x1="58"
-       y1="392.36221"
-       x2="58"
-       y2="336.36221" />
-  </defs>
-  <metadata
-     id="metadata5458">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     inkscape:label="Capa 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="matrix(1 0 0 1 -384.57143 -515.798)">
-    <rect
-       width="0"
-       x="415.89221"
-       y="526.79797"
-       height="10.999983"
-       style="fill:#ffffff"
-       id="rect4035" />
-    <rect
-       width="0"
-       x="415.57144"
-       y="525.79797"
-       height="10.999983"
-       style="fill:#ffffff"
-       id="rect4035-4" />
-    <rect
-       width="0"
-       x="414.03558"
-       y="525.68414"
-       height="11.1139"
-       style="fill:#fbd2bf"
-       id="rect4035-3" />
-    <rect
-       width="0"
-       x="415.57144"
-       y="525.79797"
-       height="10.999983"
-       style="fill:#fbd2bf"
-       id="rect4035-1" />
-    <rect
-       width="0"
-       x="415.89221"
-       y="526.79797"
-       height="10.999983"
-       style="fill:#ffffff"
-       id="rect4035-7" />
-    <rect
-       width="0"
-       x="415.57144"
-       y="525.79797"
-       height="10.999983"
-       style="fill:#ffffff"
-       id="rect4035-4-53" />
-    <rect
-       width="0"
-       x="414.03558"
-       y="525.68414"
-       height="11.1139"
-       style="fill:#fbd2bf"
-       id="rect4035-3-5" />
-    <rect
-       width="0"
-       x="415.57144"
-       y="525.79797"
-       height="10.999983"
-       style="fill:#fbd2bf"
-       id="rect4035-1-6" />
-    <rect
-       width="0"
-       x="415.57144"
-       y="525.79797"
-       height="10.999983"
-       style="fill:#fbfbfb"
-       id="rect4035-5" />
-    <rect
-       width="0"
-       x="415.89221"
-       y="526.79797"
-       height="10.999983"
-       style="fill:#ffffff"
-       id="rect4035-53" />
-    <rect
-       width="0"
-       x="415.57144"
-       y="525.79797"
-       height="10.999983"
-       style="fill:#ffffff"
-       id="rect4035-4-5" />
-    <g
-       id="g5225">
-      <path
-         d="m 389.57144,545.79796 0,-27.99999 14.99999,0 7.00003,7 -3e-5,14.24137 0,6.75862 -7,0 z"
-         id="rect3500-2"
-         style="fill:#282828;fill-opacity:1"
-         inkscape:connector-curvature="0" />
-      <rect
-         y="525.79797"
-         x="407.57144"
-         height="3"
-         width="1"
-         id="rect7191"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.3492823;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-      <rect
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         id="rect7193"
-         width="3"
-         height="3"
-         x="408.57144"
-         y="525.79797" />
-      <rect
-         y="528.79797"
-         x="408.57144"
-         height="3"
-         width="3"
-         id="rect7199"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.53110046;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-      <rect
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.72248804;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         id="rect7201"
-         width="1"
-         height="3"
-         x="407.57144"
-         y="528.79797" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         id="rect6344"
-         width="2"
-         height="3"
-         x="517.79797"
-         y="-398.57144" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-401.57144"
-         x="517.79797"
-         height="3"
-         width="2"
-         id="rect6346"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.53110046;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.21052635;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         id="rect6348"
-         width="2"
-         height="3"
-         x="517.79797"
-         y="-404.57144" />
-      <rect
-         transform="scale(-1,1)"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.53110046;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         id="rect6408"
-         width="3"
-         height="2"
-         x="-392.57144"
-         y="517.79797" />
-      <rect
-         transform="scale(-1,1)"
-         y="517.79797"
-         x="-395.57144"
-         height="2"
-         width="3"
-         id="rect6410"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.72248804;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-      <rect
-         transform="scale(1,-1)"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.3492823;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         id="rect7081"
-         width="3"
-         height="3"
-         x="389.57144"
-         y="-531.79797" />
-      <rect
-         transform="scale(1,-1)"
-         y="-528.79797"
-         x="389.57144"
-         height="3"
-         width="3"
-         id="rect7083"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-      <rect
-         transform="scale(1,-1)"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.3492823;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         id="rect7093"
-         width="3"
-         height="3"
-         x="389.57144"
-         y="-525.79797" />
-      <rect
-         transform="scale(1,-1)"
-         y="-522.79797"
-         x="389.57144"
-         height="3"
-         width="3"
-         id="rect7095"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.21052635;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-      <rect
-         transform="scale(1,-1)"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         id="rect7101"
-         width="3"
-         height="3"
-         x="392.57144"
-         y="-522.79797" />
-      <rect
-         transform="scale(1,-1)"
-         y="-525.79797"
-         x="392.57144"
-         height="3"
-         width="3"
-         id="rect7103"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.53110046;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-      <rect
-         transform="scale(1,-1)"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.21052635;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         id="rect7105"
-         width="3"
-         height="3"
-         x="392.57144"
-         y="-528.79797" />
-      <rect
-         transform="scale(1,-1)"
-         y="-531.79797"
-         x="392.57144"
-         height="3"
-         width="3"
-         id="rect7107"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.72248804;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.3492823;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         id="rect7149"
-         width="3"
-         height="3"
-         x="525.79797"
-         y="-407.57144" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-404.57144"
-         x="525.79797"
-         height="3"
-         width="3"
-         id="rect7151"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.72248804;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         id="rect7153"
-         width="3"
-         height="3"
-         x="522.79797"
-         y="-404.57144" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-404.57144"
-         x="519.79797"
-         height="3"
-         width="3"
-         id="rect7155"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.53110046;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.3492823;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         id="rect7157"
-         width="3"
-         height="3"
-         x="519.79797"
-         y="-401.57144" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-401.57144"
-         x="522.79797"
-         height="3"
-         width="3"
-         id="rect7159"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.3492823;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         id="rect7161"
-         width="3"
-         height="3"
-         x="525.79797"
-         y="-401.57144" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-398.57144"
-         x="525.79797"
-         height="3"
-         width="3"
-         id="rect7163"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.21052635;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.53110046;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         id="rect7165"
-         width="3"
-         height="3"
-         x="522.79797"
-         y="-398.57144" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-398.57144"
-         x="519.79797"
-         height="3"
-         width="3"
-         id="rect7167"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.72248804;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         id="rect7169"
-         width="3"
-         height="3"
-         x="528.79797"
-         y="-398.57144" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-401.57144"
-         x="528.79797"
-         height="3"
-         width="3"
-         id="rect7171"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.53110046;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.21052635;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         id="rect7173"
-         width="3"
-         height="3"
-         x="528.79797"
-         y="-404.57144" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-407.57144"
-         x="528.79797"
-         height="3"
-         width="3"
-         id="rect7175"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.72248804;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-      <rect
-         transform="scale(-1,-1)"
-         y="-543.79797"
-         x="-411.57144"
-         height="3"
-         width="3"
-         id="rect7461"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.3492823;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-      <rect
-         transform="scale(-1,-1)"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         id="rect7463"
-         width="3"
-         height="3"
-         x="-411.57144"
-         y="-540.79797" />
-      <rect
-         transform="scale(-1,-1)"
-         y="-537.79797"
-         x="-411.57144"
-         height="3"
-         width="3"
-         id="rect7473"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.3492823;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-      <rect
-         transform="scale(-1,-1)"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.21052635;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         id="rect7475"
-         width="3"
-         height="3"
-         x="-411.57144"
-         y="-534.79797" />
-      <rect
-         transform="scale(-1,-1)"
-         y="-534.79797"
-         x="-408.57144"
-         height="3"
-         width="1"
-         id="rect7481"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-      <rect
-         transform="scale(-1,-1)"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.53110046;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         id="rect7483"
-         width="1"
-         height="3"
-         x="-408.57144"
-         y="-537.79797" />
-      <rect
-         transform="scale(-1,-1)"
-         y="-540.79797"
-         x="-408.57144"
-         height="3"
-         width="1"
-         id="rect7485"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.21052635;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-      <rect
-         transform="scale(-1,-1)"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.72248804;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         id="rect7487"
-         width="1"
-         height="3"
-         x="-408.57144"
-         y="-543.79797" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         id="rect7491"
-         width="3"
-         height="3"
-         x="531.79797"
-         y="-407.57144" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-407.57144"
-         x="534.79797"
-         height="3"
-         width="3"
-         id="rect7493"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.53110046;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.3492823;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         id="rect7495"
-         width="3"
-         height="3"
-         x="537.79797"
-         y="-407.57144" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-404.57144"
-         x="537.79797"
-         height="3"
-         width="3"
-         id="rect7497"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.72248804;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         id="rect7499"
-         width="3"
-         height="3"
-         x="534.79797"
-         y="-404.57144" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-404.57144"
-         x="531.79797"
-         height="3"
-         width="3"
-         id="rect7501"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.53110046;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.3492823;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         id="rect7503"
-         width="3"
-         height="3"
-         x="531.79797"
-         y="-401.57144" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-401.57144"
-         x="534.79797"
-         height="3"
-         width="3"
-         id="rect7505"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.3492823;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         id="rect7507"
-         width="3"
-         height="3"
-         x="537.79797"
-         y="-401.57144" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-398.57144"
-         x="537.79797"
-         height="3"
-         width="3"
-         id="rect7509"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.21052635;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.53110046;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         id="rect7511"
-         width="3"
-         height="3"
-         x="534.79797"
-         y="-398.57144" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-398.57144"
-         x="531.79797"
-         height="3"
-         width="3"
-         id="rect7513"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.72248804;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         id="rect7515"
-         width="3"
-         height="3"
-         x="540.79797"
-         y="-398.57144" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-401.57144"
-         x="540.79797"
-         height="3"
-         width="3"
-         id="rect7517"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.53110046;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.21052635;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         id="rect7519"
-         width="3"
-         height="3"
-         x="540.79797"
-         y="-404.57144" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         y="-407.57144"
-         x="540.79797"
-         height="3"
-         width="3"
-         id="rect7521"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.72248804;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-      <rect
-         transform="scale(-1,1)"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         id="rect7559"
-         width="3"
-         height="3"
-         x="-395.57144"
-         y="531.79797" />
-      <rect
-         transform="scale(-1,1)"
-         y="531.79797"
-         x="-392.57144"
-         height="3"
-         width="3"
-         id="rect7561"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.53110046;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-      <rect
-         transform="scale(-1,1)"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.72248804;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         id="rect7567"
-         width="3"
-         height="3"
-         x="-392.57144"
-         y="534.79797" />
-      <rect
-         transform="scale(-1,1)"
-         y="534.79797"
-         x="-395.57144"
-         height="3"
-         width="3"
-         id="rect7569"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.53110046;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-      <rect
-         transform="scale(-1,1)"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.3492823;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         id="rect7571"
-         width="3"
-         height="3"
-         x="-395.57144"
-         y="537.79797" />
-      <rect
-         transform="scale(-1,1)"
-         y="537.79797"
-         x="-392.57144"
-         height="3"
-         width="3"
-         id="rect7573"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-      <rect
-         transform="scale(-1,1)"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.53110046;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         id="rect7579"
-         width="3"
-         height="3"
-         x="-392.57144"
-         y="540.79797" />
-      <rect
-         transform="scale(-1,1)"
-         y="540.79797"
-         x="-395.57144"
-         height="3"
-         width="3"
-         id="rect7581"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.72248804;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-      <rect
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.3492823;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         id="rect7841"
-         width="3"
-         height="2"
-         x="389.57144"
-         y="543.79797" />
-      <rect
-         y="543.79797"
-         x="392.57144"
-         height="2"
-         width="3"
-         id="rect7867"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.72248804;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-      <rect
-         transform="matrix(0,-1,-1,0,0,0)"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         id="rect7929"
-         width="2"
-         height="3"
-         x="-545.79797"
-         y="-398.57144" />
-      <rect
-         transform="matrix(0,-1,-1,0,0,0)"
-         y="-401.57144"
-         x="-545.79797"
-         height="3"
-         width="2"
-         id="rect7931"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.53110046;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-      <rect
-         transform="matrix(0,-1,-1,0,0,0)"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.21052635;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         id="rect7933"
-         width="2"
-         height="3"
-         x="-545.79797"
-         y="-404.57144" />
-      <rect
-         transform="matrix(0,-1,-1,0,0,0)"
-         y="-407.57144"
-         x="-545.79797"
-         height="3"
-         width="2"
-         id="rect7935"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.72248804;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-      <rect
-         transform="scale(1,-1)"
-         y="-545.79797"
-         x="408.57144"
-         height="2"
-         width="3"
-         id="rect7959"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.53110046;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
-      <rect
-         transform="scale(1,-1)"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.13999999;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:0.72248804;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         id="rect7961"
-         width="1"
-         height="2"
-         x="407.57144"
-         y="-545.79797" />
-      <rect
-         transform="scale(1,-1)"
-         id="rect4169-9"
-         style="fill:#ffffff;fill-opacity:1;color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.4;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill-rule:nonzero;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter-blend-mode:normal;filter-gaussianBlur-deviation:0;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         height="0.999973"
-         y="-518.79797"
-         x="389.57144"
-         width="14.999983" />
-      <rect
-         transform="scale(1,-1)"
-         id="rect4236-1"
-         style="fill:#000000;fill-opacity:1;color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.35;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill-rule:nonzero;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter-blend-mode:normal;filter-gaussianBlur-deviation:0;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         height="1.00003"
-         y="-545.79797"
-         x="389.57144"
-         width="21.999994" />
-      <path
-         d="m 411.57144,524.79797 -7.00001,-7 0,7 z"
-         id="path4314-2"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.5;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         inkscape:connector-curvature="0" />
-      <path
-         d="m 411.5714,531.798 -6.99997,-7 7,0 z"
-         id="path4320-7"
-         style="opacity:0.5;fill:url(#linearGradient4427-3);fill-rule:evenodd"
-         inkscape:connector-curvature="0" />
-      <path
-         sodipodi:nodetypes="sscccccccssssccss"
-         d="m 400.57143,525.798 c -1.662,0 -3,1.338 -3,3 l 0,3 -2,0 0,0.75 0,5.25 10,0 0,-6 -2,0 0,-3 c 0,-1.662 -1.338,-3 -3,-3 z m 0,1 c 1.2465,0 2,0.5458 2,2 l 0,3 -4,0 0,-3 c 0,-1.4542 0.75351,-2 2,-2 z"
-         id="rect4136"
-         style="fill:#dddddd;fill-opacity:1"
-         inkscape:connector-curvature="0" />
-      <path
-         d="m 389.57144,545.79796 0,-27.99999 14.99999,0 7.00003,7 -3e-5,14.24137 0,6.75862 -7,0 z"
-         id="rect3500-2-5"
-         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient5200);fill-opacity:1;fill-rule:nonzero;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-         inkscape:connector-curvature="0" />
+<svg width="32" xmlns="http://www.w3.org/2000/svg" height="32" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="a" y1="524.8" x1="404.57" y2="531.8" x2="411.57" gradientUnits="userSpaceOnUse">
+   <stop/>
+   <stop offset="1" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="b" y1="392.36" y2="336.36" gradientUnits="userSpaceOnUse" x2="0" gradientTransform="matrix(1 0 0 .4806 278.35 356.64)">
+   <stop stop-color="#ffffff" stop-opacity="0"/>
+   <stop offset="1" stop-color="#ffffff" stop-opacity=".2"/>
+  </linearGradient>
+  <path id="c" d="m389.57 545.8v-28h15l7 7v21h-7z"/>
+ </defs>
+ <g transform="translate(-384.57-515.8)">
+  <use fill="#282828" xlink:href="#c"/>
+  <g color-rendering="auto" color-interpolation-filters="linearRGB" shape-rendering="auto" image-rendering="auto" text-rendering="auto" color-interpolation="sRGB" color="#000000">
+   <g fill="#ffffff">
+    <rect opacity=".14" x="407.57" y="525.8" fill-opacity=".349" width="1" height="3"/>
+    <rect opacity=".14" x="408.57" y="525.8" width="3" height="3"/>
+    <rect opacity=".14" x="408.57" y="528.8" fill-opacity=".531" width="3" height="3"/>
+    <rect opacity=".14" x="407.57" y="528.8" fill-opacity=".722" width="1" height="3"/>
+    <g transform="rotate(90)">
+     <rect opacity=".14" x="517.8" y="-398.57" width="2" height="3"/>
+     <rect opacity=".14" x="517.8" y="-401.57" fill-opacity=".531" width="2" height="3"/>
+     <rect opacity=".14" x="517.8" y="-404.57" fill-opacity=".211" width="2" height="3"/>
     </g>
+    <g transform="scale(-1 1)">
+     <rect opacity=".14" x="-392.57" y="517.8" fill-opacity=".531" width="3" height="2"/>
+     <rect opacity=".14" x="-395.57" y="517.8" fill-opacity=".722" width="3" height="2"/>
+    </g>
+    <g transform="scale(1-1)">
+     <rect opacity=".14" x="389.57" y="-531.8" fill-opacity=".349" width="3" height="3"/>
+     <rect opacity=".14" x="389.57" y="-528.8" width="3" height="3"/>
+     <rect opacity=".14" x="389.57" y="-525.8" fill-opacity=".349" width="3" height="3"/>
+     <rect opacity=".14" x="389.57" y="-522.8" fill-opacity=".211" width="3" height="3"/>
+     <rect opacity=".14" x="392.57" y="-522.8" width="3" height="3"/>
+     <rect opacity=".14" x="392.57" y="-525.8" fill-opacity=".531" width="3" height="3"/>
+     <rect opacity=".14" x="392.57" y="-528.8" fill-opacity=".211" width="3" height="3"/>
+     <rect opacity=".14" x="392.57" y="-531.8" fill-opacity=".722" width="3" height="3"/>
+    </g>
+    <g transform="rotate(90)">
+     <rect opacity=".14" x="525.8" y="-407.57" fill-opacity=".349" width="3" height="3"/>
+     <rect opacity=".14" x="525.8" y="-404.57" width="3" height="3"/>
+     <rect opacity=".14" x="522.8" y="-404.57" fill-opacity=".722" width="3" height="3"/>
+     <rect opacity=".14" x="519.8" y="-404.57" fill-opacity=".531" width="3" height="3"/>
+     <rect opacity=".14" x="519.8" y="-401.57" fill-opacity=".349" width="3" height="3"/>
+     <rect opacity=".14" x="522.8" y="-401.57" width="3" height="3"/>
+     <rect opacity=".14" x="525.8" y="-401.57" fill-opacity=".349" width="3" height="3"/>
+     <rect opacity=".14" x="525.8" y="-398.57" fill-opacity=".211" width="3" height="3"/>
+     <rect opacity=".14" x="522.8" y="-398.57" fill-opacity=".531" width="3" height="3"/>
+     <rect opacity=".14" x="519.8" y="-398.57" fill-opacity=".722" width="3" height="3"/>
+     <rect opacity=".14" x="528.8" y="-398.57" width="3" height="3"/>
+     <rect opacity=".14" x="528.8" y="-401.57" fill-opacity=".531" width="3" height="3"/>
+     <rect opacity=".14" x="528.8" y="-404.57" fill-opacity=".211" width="3" height="3"/>
+     <rect opacity=".14" x="528.8" y="-407.57" fill-opacity=".722" width="3" height="3"/>
+    </g>
+    <g transform="scale(-1)">
+     <rect opacity=".14" x="-411.57" y="-543.8" fill-opacity=".349" width="3" height="3"/>
+     <rect opacity=".14" x="-411.57" y="-540.8" width="3" height="3"/>
+     <rect opacity=".14" x="-411.57" y="-537.8" fill-opacity=".349" width="3" height="3"/>
+     <rect opacity=".14" x="-411.57" y="-534.8" fill-opacity=".211" width="3" height="3"/>
+     <rect opacity=".14" x="-408.57" y="-534.8" width="1" height="3"/>
+     <rect opacity=".14" x="-408.57" y="-537.8" fill-opacity=".531" width="1" height="3"/>
+     <rect opacity=".14" x="-408.57" y="-540.8" fill-opacity=".211" width="1" height="3"/>
+     <rect opacity=".14" x="-408.57" y="-543.8" fill-opacity=".722" width="1" height="3"/>
+    </g>
+    <g transform="rotate(90)">
+     <rect opacity=".14" x="531.8" y="-407.57" width="3" height="3"/>
+     <rect opacity=".14" x="534.8" y="-407.57" fill-opacity=".531" width="3" height="3"/>
+     <rect opacity=".14" x="537.8" y="-407.57" fill-opacity=".349" width="3" height="3"/>
+     <rect opacity=".14" x="537.8" y="-404.57" width="3" height="3"/>
+     <rect opacity=".14" x="534.8" y="-404.57" fill-opacity=".722" width="3" height="3"/>
+     <rect opacity=".14" x="531.8" y="-404.57" fill-opacity=".531" width="3" height="3"/>
+     <rect opacity=".14" x="531.8" y="-401.57" fill-opacity=".349" width="3" height="3"/>
+     <rect opacity=".14" x="534.8" y="-401.57" width="3" height="3"/>
+     <rect opacity=".14" x="537.8" y="-401.57" fill-opacity=".349" width="3" height="3"/>
+     <rect opacity=".14" x="537.8" y="-398.57" fill-opacity=".211" width="3" height="3"/>
+     <rect opacity=".14" x="534.8" y="-398.57" fill-opacity=".531" width="3" height="3"/>
+     <rect opacity=".14" x="531.8" y="-398.57" fill-opacity=".722" width="3" height="3"/>
+     <rect opacity=".14" x="540.8" y="-398.57" width="3" height="3"/>
+     <rect opacity=".14" x="540.8" y="-401.57" fill-opacity=".531" width="3" height="3"/>
+     <rect opacity=".14" x="540.8" y="-404.57" fill-opacity=".211" width="3" height="3"/>
+     <rect opacity=".14" x="540.8" y="-407.57" fill-opacity=".722" width="3" height="3"/>
+    </g>
+    <g transform="scale(-1 1)">
+     <rect opacity=".14" x="-395.57" y="531.8" width="3" height="3"/>
+     <rect opacity=".14" x="-392.57" y="531.8" fill-opacity=".531" width="3" height="3"/>
+     <rect opacity=".14" x="-392.57" y="534.8" fill-opacity=".722" width="3" height="3"/>
+     <rect opacity=".14" x="-395.57" y="534.8" fill-opacity=".531" width="3" height="3"/>
+     <rect opacity=".14" x="-395.57" y="537.8" fill-opacity=".349" width="3" height="3"/>
+     <rect opacity=".14" x="-392.57" y="537.8" width="3" height="3"/>
+     <rect opacity=".14" x="-392.57" y="540.8" fill-opacity=".531" width="3" height="3"/>
+     <rect opacity=".14" x="-395.57" y="540.8" fill-opacity=".722" width="3" height="3"/>
+    </g>
+    <rect opacity=".14" x="389.57" y="543.8" fill-opacity=".349" width="3" height="2"/>
+    <rect opacity=".14" x="392.57" y="543.8" fill-opacity=".722" width="3" height="2"/>
+    <g transform="matrix(0-1-1 0 0 0)">
+     <rect opacity=".14" x="-545.8" y="-398.57" width="2" height="3"/>
+     <rect opacity=".14" x="-545.8" y="-401.57" fill-opacity=".531" width="2" height="3"/>
+     <rect opacity=".14" x="-545.8" y="-404.57" fill-opacity=".211" width="2" height="3"/>
+     <rect opacity=".14" x="-545.8" y="-407.57" fill-opacity=".722" width="2" height="3"/>
+    </g>
+    <g transform="scale(1-1)">
+     <rect opacity=".14" x="408.57" y="-545.8" fill-opacity=".531" width="3" height="2"/>
+     <rect opacity=".14" x="407.57" y="-545.8" fill-opacity=".722" width="1" height="2"/>
+     <rect opacity=".4" x="389.57" y="-518.8" width="15" height="1"/>
+    </g>
+   </g>
+   <rect opacity=".35" x="389.57" y="-545.8" width="22" height="1" transform="scale(1-1)"/>
+   <path opacity=".5" fill="#ffffff" fill-rule="evenodd" d="m411.57 524.8l-7-7v7z"/>
   </g>
+  <path opacity=".5" fill="url(#a)" fill-rule="evenodd" d="m411.57 531.8l-7-7h7z"/>
+  <path fill="#dddddd" d="m400.57 525.8c-1.662 0-3 1.338-3 3v3h-2v6h10v-6h-2v-3c0-1.662-1.338-3-3-3m0 1c1.247 0 2 .546 2 2v3h-4v-3c0-1.454.754-2 2-2"/>
+  <use color-interpolation-filters="linearRGB" color="#000000" image-rendering="auto" color-rendering="auto" xlink:href="#c" color-interpolation="sRGB" text-rendering="auto" fill="url(#b)" shape-rendering="auto"/>
+ </g>
 </svg>

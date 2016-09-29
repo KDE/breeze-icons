@@ -1,24 +1,26 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="32" version="1.1" height="32">
- <defs id="defs5455">
-  <linearGradient inkscape:collect="always" xlink:href="#linearGradient9654" id="linearGradient4427-3" y1="31" x1="54" y2="16.500048" x2="39.500008" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0,-0.48275841,-0.48275841,0,419.53694,550.86696)"/>
-  <linearGradient id="linearGradient9654" inkscape:collect="always">
-   <stop id="stop9656" stop-color="#060606"/>
-   <stop id="stop9658" offset="1" stop-opacity="0"/>
+<svg width="32" xmlns="http://www.w3.org/2000/svg" height="32" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="a" y1="524.8" x1="404.57" y2="531.8" x2="411.57" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#060606"/>
+   <stop offset="1" stop-opacity="0"/>
   </linearGradient>
-  <linearGradient id="linearGradient6251" inkscape:collect="always">
-   <stop id="stop6253" stop-color="#ffffff" stop-opacity="0"/>
-   <stop id="stop6255" offset="1" stop-color="#ffffff" stop-opacity="0.2"/>
+  <linearGradient id="b" y1="546.08" x1="400.12" y2="517.9" x2="399.68" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#ffffff" stop-opacity="0"/>
+   <stop offset="1" stop-color="#ffffff" stop-opacity=".2"/>
   </linearGradient>
-  <linearGradient inkscape:collect="always" xlink:href="#linearGradient6251" id="linearGradient4217" x1="400.11813" y1="546.08392" x2="399.6825" y2="517.89551" gradientUnits="userSpaceOnUse"/>
+  <path id="c" d="m389.57 545.8v-28h15l7 7v21h-7z"/>
  </defs>
- <g inkscape:label="Capa 1" inkscape:groupmode="layer" id="layer1" transform="matrix(1 0 0 1 -384.57143 -515.798)">
-  <path inkscape:connector-curvature="0" id="rect3500-2" d="m 389.57144,545.79796 0,-27.99999 14.99999,0 7.00003,7 -3e-5,14.24137 0,6.75862 -7,0 z" fill="#ff8b23"/>
-  <rect width="14.999983" x="389.57144" y="-518.79797" height="0.999973" id="rect4169-9" transform="scale(1,-1)" opacity="0.5" fill="#ffffff"/>
-  <rect width="21.999994" x="389.57144" y="-545.79797" height="1.00003" id="rect4236-1" transform="scale(1,-1)" opacity="0.25"/>
-  <path inkscape:connector-curvature="0" id="path4314-2" d="m 411.57144,524.79797 -7.00001,-7 0,7 z" opacity="0.4" fill-rule="evenodd"/>
-  <path inkscape:connector-curvature="0" id="path4320-7" d="m 411.5714,531.798 -6.99997,-7 7,0 z" opacity="0.2" fill="url(#linearGradient4427-3)" fill-rule="evenodd"/>
-  <path id="path4177" d="m 399.95229,527.74722 a 0.5,0.5 0 0 0 -0.3457,0.14648 0.5,0.5 0 0 0 0,0.70703 l 3.20507,3.20508 a 4,4 0 0 0 -0.24023,-0.008 l -7.5,0 a 0.5,0.5 0 0 0 -0.5,0.5 0.5,0.5 0 0 0 0.5,0.5 l 4.79297,0 -5.14649,5.14648 a 0.50001151,0.5 0 0 0 0,0.70704 0.50001151,0.5 0 0 0 0.70704,0 l 3.16406,-3.16407 a 4,4 0 0 0 -0.0176,0.31055 4,4 0 0 0 4,4 4,4 0 0 0 4,-4 4,4 0 0 0 -0.96094,-2.5957 l 0.006,-0.006 -0.13476,-0.13477 a 4,4 0 0 0 -0.20313,-0.20312 l -4.96484,-4.96485 a 0.5,0.5 0 0 0 -0.36133,-0.14648 z m 2.61914,5.05078 a 3,3 0 0 1 1.99609,0.76367 l 0.22657,0.22656 a 3,3 0 0 1 0.77734,2.00977 3,3 0 0 1 -3,3 3,3 0 0 1 -3,-3 3,3 0 0 1 3,-3 z m 0,2 a 1,1 0 0 0 -1,1 1,1 0 0 0 1,1 1,1 0 0 0 1,-1 1,1 0 0 0 -1,-1 z" inkscape:connector-curvature="0" opacity="0.4" stroke-linecap="square" stroke-width="2"/>
-  <path inkscape:connector-curvature="0" id="rect3500-2-7" d="m 389.57144,545.79796 0,-27.99999 14.99999,0 7.00003,7 -3e-5,14.24137 0,6.75862 -7,0 z" fill="url(#linearGradient4217)"/>
+ <g transform="translate(-384.57-515.8)">
+  <use fill="#ff8b23" xlink:href="#c"/>
+  <g transform="scale(1-1)">
+   <rect width="15" x="389.57" opacity=".5" y="-518.8" fill="#ffffff" height="1"/>
+   <rect width="22" x="389.57" opacity=".25" y="-545.8" height="1"/>
+  </g>
+  <g fill-rule="evenodd">
+   <path opacity=".4" d="m411.57 524.8l-7-7v7z"/>
+   <path opacity=".2" fill="url(#a)" d="m411.57 531.8l-7-7h7z"/>
+  </g>
+  <path opacity=".4" stroke-width="2" d="m399.95229 527.74722a.5 .5 0 0 0 -.3457 .14648 .5 .5 0 0 0 0 .70703l3.205 3.205a4 4 0 0 0 -.24023 -.008h-7.5a.5 .5 0 0 0 -.5 .5 .5 .5 0 0 0 .5 .5h4.793l-5.146 5.146a.500012 .5 0 0 0 0 .70704 .500012 .5 0 0 0 .70704 0l3.164-3.164a4 4 0 0 0 -.0176 .31055 4 4 0 0 0 4 4 4 4 0 0 0 4 -4 4 4 0 0 0 -.96094 -2.5957l.006-.006-.135-.135a4 4 0 0 0 -.20313 -.20312l-4.965-4.965a.5 .5 0 0 0 -.36133 -.14648m2.61902 5.05111a3 3 0 0 1 1.99609 .76367l.227.227a3 3 0 0 1 .77734 2.00977 3 3 0 0 1 -3 3 3 3 0 0 1 -3 -3 3 3 0 0 1 3 -3m0 2a1 1 0 0 0 -1 1 1 1 0 0 0 1 1 1 1 0 0 0 1 -1 1 1 0 0 0 -1 -1"/>
+  <use fill="url(#b)" xlink:href="#c"/>
  </g>
 </svg>

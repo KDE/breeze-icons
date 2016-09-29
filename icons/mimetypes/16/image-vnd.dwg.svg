@@ -1,8 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-<svg width="16" version="1.1" xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 16 16" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
- <defs id="defs4"/>
- <metadata id="metadata7"/>
- <path inkscape:label="Capa 1" inkscape:groupmode="layer" style="fill:#3a539b;fill-rule:evenodd" id="path4162" d="M 7 2 L 7 4 L 9 4 L 9 2 L 7 2 z M 6.8691406 4.3574219 L 4.8886719 4.8886719 L 5.7070312 5.7070312 L 7 5.359375 L 7 4.3574219 L 6.8691406 4.3574219 z M 9 4.3574219 L 9 5.359375 L 12.056641 6.1796875 L 9 6.9980469 L 9 7 L 9 8 L 9 10.357422 L 9 11.359375 L 9 14 L 9.1308594 14 L 13 12.962891 L 13.992188 12.697266 L 14 12.699219 L 14 12.695312 L 14 6.6992188 L 14 6.6953125 L 14 5.6582031 L 13.992188 5.6601562 L 9.1308594 4.3574219 L 9 4.3574219 z M 3.3105469 5.3105469 L 2 5.6621094 L 2 6 L 2 6.6992188 L 2 13 L 8 14 L 8 7 L 3.609375 6.2675781 L 4.1289062 6.1289062 L 3.3105469 5.3105469 z M 13 6.9628906 L 13 11.394531 L 10 10.589844 L 10 7.7675781 L 13 6.9628906 z M 10 11.626953 L 12.056641 12.177734 L 10 12.730469 L 10 11.626953 z "/>
+<svg width="16" xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 16 16">
+ <path fill="#3a539b" fill-rule="evenodd" d="m7 2v2h2v-2zm-.131 2.357l-1.98.531.818.818 1.293-.348v-1zm2.131 0v1l3.057.82-3.057.818v7h.131l4.861-1.303.008.002v-7.04l-.008.002-4.861-1.303zm-5.689.953l-1.311.352v7.338l6 1v-7l-4.391-.732.52-.139zm9.689 1.652v4.432l-3-.805v-2.822zm-3 4.664l2.057.551-2.057.553z"/>
 </svg>

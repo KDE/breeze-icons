@@ -1,27 +1,28 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="64" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" height="64" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
- <defs id="defs4">
-  <linearGradient inkscape:collect="always" xlink:href="#linearGradient4300-8" id="linearGradient4306" y1="61" y2="3" x2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 -0.088388 0)"/>
-  <linearGradient inkscape:collect="always" xlink:href="#linearGradient4410" id="linearGradient4427" y1="31" x1="54" y2="17" x2="40" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 -1 -14 78)"/>
-  <linearGradient inkscape:collect="always" id="linearGradient4410">
-   <stop style="stop-color:#383e51" id="stop4412"/>
-   <stop offset="1" style="stop-color:#655c6f;stop-opacity:0" id="stop4414"/>
+<svg width="64" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" height="64" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="a" y1="17" y2="31" x1="40" x2="54" gradientUnits="userSpaceOnUse" gradientTransform="translate(302 78.36)">
+   <stop stop-color="#060606"/>
+   <stop offset="1" stop-opacity="0"/>
   </linearGradient>
-  <linearGradient inkscape:collect="always" xlink:href="#linearGradient4351" id="linearGradient4357" y1="61" y2="47" x2="0" gradientUnits="userSpaceOnUse"/>
-  <linearGradient inkscape:collect="always" id="linearGradient4351">
-   <stop style="stop-color:#f7ab89" id="stop4353"/>
-   <stop offset="1" style="stop-color:#fbd2bf" id="stop4355"/>
+  <linearGradient id="b" y1="392.36" y2="336.36" x2="0" gradientUnits="userSpaceOnUse" gradientTransform="translate(254-254)">
+   <stop stop-color="#ffffff" stop-opacity="0"/>
+   <stop offset="1" stop-color="#ffffff" stop-opacity=".2"/>
   </linearGradient>
-  <linearGradient inkscape:collect="always" id="linearGradient4300-8">
-   <stop style="stop-color:#f27935" id="stop4302-5"/>
-   <stop offset="1" style="stop-color:#f2784b" id="stop4304-7"/>
-  </linearGradient>
+  <path id="c" d="m312 139.36v-58h30l14 14v44h-14z"/>
  </defs>
- <metadata id="metadata84"/>
- <path inkscape:connector-curvature="0" style="fill:url(#linearGradient4306)" id="rect3500" d="m 9.9999999,3 0,58 L 40,61 54,47 54,17 54,3 40,3 9.9999999,3 Z"/>
- <rect width="30" x="10" y="60" height="1" style="fill:#2e3132;fill-opacity:0.294118" id="rect4169"/>
- <rect width="44" x="10" y="3" height="1" style="fill:#ffffff;fill-opacity:0.409836" id="rect4236"/>
- <path inkscape:connector-curvature="0" style="fill:url(#linearGradient4357);fill-rule:evenodd" id="path4314" d="M 54,47 40,61 40,47 Z"/>
- <path inkscape:connector-curvature="0" style="fill:url(#linearGradient4427);opacity:0.2;fill-rule:evenodd" id="path4320" d="M 26,61 40,47 40,61 Z"/>
- <path inkscape:connector-curvature="0" style="shape-rendering:auto;color-interpolation-filters:linearRGB;fill:#fbd2bf;image-rendering:auto;text-rendering:auto;color:#000000;color-rendering:auto;color-interpolation:sRGB" id="rect4166" d="m 21.044194,21 0,3 a 18.999996,18.999996 0 0 1 19,19 l 3,0 a 21.999996,21.999996 0 0 0 -22,-22 z m 0,7 0,3 a 11.999996,11.999996 0 0 1 12,12 l 3,0 a 14.999996,14.999996 0 0 0 -15,-15 z m 3.5,8 c -1.939,0 -3.5,1.561 -3.5,3.5 0,1.939 1.561,3.5 3.5,3.5 1.939,0 3.5,-1.561 3.5,-3.5 0,-1.939 -1.561,-3.5 -3.5,-3.5 z"/>
+ <g transform="translate(-302-78.36)">
+  <g color-rendering="auto" color-interpolation-filters="linearRGB" shape-rendering="auto" image-rendering="auto" text-rendering="auto" color-interpolation="sRGB" color="#000000">
+   <use fill="#fc963a" xlink:href="#c"/>
+   <g transform="scale(1-1)">
+    <rect opacity=".5" x="312" y="-82.36" width="30" fill="#ffffff" height="1"/>
+    <rect opacity=".25" x="312" y="-139.36" width="44" height="1"/>
+   </g>
+  </g>
+  <g fill-rule="evenodd">
+   <path opacity=".5" fill="#ffffff" d="m356 95.36l-14-14v14z"/>
+   <path opacity=".1" fill="url(#a)" d="m342 95.36l14 14v-14z"/>
+  </g>
+  <use fill="url(#b)" xlink:href="#c"/>
+  <path opacity=".75" color-interpolation-filters="linearRGB" color="#000000" image-rendering="auto" color-rendering="auto" d="m324.04 100.33v3a18.999996 18.999996 0 0 1 19 19h3a21.999996 21.999996 0 0 0 -22 -22m0 7v3a11.999996 11.999996 0 0 1 12 12h3a14.999996 14.999996 0 0 0 -15 -15m3.5 8c-1.939 0-3.5 1.561-3.5 3.5 0 1.939 1.561 3.5 3.5 3.5 1.939 0 3.5-1.561 3.5-3.5 0-1.939-1.561-3.5-3.5-3.5" color-interpolation="sRGB" text-rendering="auto" fill="#ffffff" shape-rendering="auto"/>
+ </g>
 </svg>

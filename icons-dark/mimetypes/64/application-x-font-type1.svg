@@ -1,27 +1,26 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="64" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" height="64" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
- <defs id="defs4">
-  <linearGradient inkscape:collect="always" xlink:href="#linearGradient4300-8" id="linearGradient4306" y1="61" y2="3" x2="0" gradientUnits="userSpaceOnUse"/>
-  <linearGradient inkscape:collect="always" xlink:href="#linearGradient4410" id="linearGradient4427" y1="31" x1="54" y2="17" x2="40" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 -1 -14 78)"/>
-  <linearGradient inkscape:collect="always" id="linearGradient4410">
-   <stop style="stop-color:#383e51" id="stop4412"/>
-   <stop offset="1" style="stop-color:#655c6f;stop-opacity:0" id="stop4414"/>
+<svg width="64" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" height="64">
+ <defs>
+  <linearGradient id="a" y1="61" y2="3" x2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0-1 0 64)">
+   <stop stop-color="#f27935"/>
+   <stop offset="1" stop-color="#f2784b"/>
   </linearGradient>
-  <linearGradient inkscape:collect="always" id="linearGradient3835" xlink:href="#linearGradient4351" y1="61" y2="47" x2="0" gradientUnits="userSpaceOnUse"/>
-  <linearGradient inkscape:collect="always" id="linearGradient4351">
-   <stop style="stop-color:#f7ab89" id="stop4353"/>
-   <stop offset="1" style="stop-color:#fbd2bf" id="stop4355"/>
+  <linearGradient id="b" y1="61" y2="47" x2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0-1 0 64)">
+   <stop stop-color="#f7ab89"/>
+   <stop offset="1" stop-color="#fbd2bf"/>
   </linearGradient>
-  <linearGradient inkscape:collect="always" id="linearGradient4300-8">
-   <stop style="stop-color:#f27935" id="stop4302-5"/>
-   <stop offset="1" style="stop-color:#f2784b" id="stop4304-7"/>
+  <linearGradient id="c" y1="17" x1="40" y2="31" x2="54" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#383e51"/>
+   <stop offset="1" stop-color="#655c6f" stop-opacity="0"/>
   </linearGradient>
  </defs>
- <metadata id="metadata84"/>
- <path style="fill:url(#linearGradient4306)" id="rect3500" d="M 10 3 L 10 61 L 40 61 L 54 47 L 54 17 L 54 3 L 40 3 L 10 3 z "/>
- <rect width="30" x="10" y="60" height="1" style="fill:#2e3132;fill-opacity:0.294118" id="rect4169"/>
- <rect width="44" x="10" y="3" height="1" style="fill:#ffffff;fill-opacity:0.409836" id="rect4236"/>
- <path inkscape:connector-curvature="0" style="fill:url(#linearGradient3835);fill-rule:evenodd" id="path4314" d="M 54,47 40,61 40,47 z"/>
- <path inkscape:connector-curvature="0" style="fill:url(#linearGradient4427);opacity:0.2;fill-rule:evenodd" id="path4320" d="M 26,61 40,47 40,61 Z"/>
- <path inkscape:connector-curvature="0" style="fill:#fbd2bf" id="path24-7" d="m 29.693805,40.363667 c -1.807667,0 -3.039667,-0.905667 -2.7115,-3.213834 0.410667,-2.883833 2.135833,-3.831666 7.601,-4.6145 0.04033,0 1.725167,-0.287833 1.725167,-0.287833 l -0.6985,5.1095 c -1.4795,1.8535 -4.148834,3.006667 -5.916167,3.006667 m 5.628333,-0.2475 0.0825,2.388833 h 2.341167 L 39.881638,27.0555 C 40.539805,22.3585 37.868638,21 34.130472,21 c -2.671167,0 -5.300167,0.782833 -6.860334,1.6885 l 0.451,2.553833 c 1.684834,-0.823166 3.985667,-1.400666 6.079334,-1.400666 2.588666,0 3.532833,1.277833 3.204666,3.749166 l -0.370333,2.3485 -1.9305,0.2475 C 29.734138,30.969667 24.884972,31.7525 24.105805,37.272667 23.530138,41.227167 25.873138,43 28.995305,43 c 1.972667,0 4.396333,-0.740667 6.326833,-2.883833"/>
+ <path fill="url(#a)" d="m10 61v-58h30l14 14v44h-14z"/>
+ <g transform="scale(1-1)">
+  <rect width="30" x="10" y="-4" fill="#ffffff" height="1" fill-opacity=".412"/>
+  <rect width="44" x="10" y="-61" fill="#2e3132" height="1" fill-opacity=".294"/>
+ </g>
+ <g fill-rule="evenodd">
+  <path fill="url(#b)" d="m54 17l-14-14v14z"/>
+  <path opacity=".2" fill="url(#c)" d="m40 17l14 14v-14z"/>
+ </g>
+ <path fill="#fbd2bf" d="m29.694 41.36c-1.808 0-3.04-.906-2.712-3.214.411-2.884 2.136-3.832 7.601-4.615.04 0 1.725-.288 1.725-.288l-.699 5.109c-1.48 1.853-4.149 3.01-5.916 3.01m5.628-.248l.083 2.389h2.341l2.136-15.45c.658-4.697-2.01-6.06-5.751-6.06-2.671 0-5.3.783-6.86 1.689l.451 2.554c1.685-.823 3.986-1.401 6.079-1.401 2.589 0 3.533 1.278 3.205 3.749l-.37 2.349-1.931.247c-4.97.783-9.819 1.566-10.598 7.086-.576 3.955 1.767 5.727 4.889 5.727 1.973 0 4.396-.741 6.327-2.884"/>
 </svg>

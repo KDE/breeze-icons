@@ -1,8 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-<svg width="16" version="1.1" xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 16 16" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
- <defs id="defs4"/>
- <metadata id="metadata7"/>
- <path inkscape:label="Capa 1" inkscape:groupmode="layer" style="fill:#04896a" id="path3763" d="M 5 2 L 5 3 L 5 10.28125 C 4.7054558 10.110493 4.3649652 10 4 10 C 2.8954305 10 2 10.895435 2 12 C 2 13.104565 2.8954305 14 4 14 C 5.1045695 14 6 13.104565 6 12 L 6 5 L 13 5 L 13 9.28125 C 12.705456 9.1104925 12.364965 9 12 9 C 10.895431 9 10 9.8954353 10 11 C 10 12.104565 10.895431 13 12 13 C 13.104569 13 14 12.104565 14 11 L 14 3 L 14 2 L 5 2 z M 6 3 L 13 3 L 13 4 L 6 4 L 6 3 z "/>
+<svg width="16" xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 16 16">
+ <path fill="#f9d24c" d="m5 2v8.281c-.295-.171-.635-.281-1-.281-1.105 0-2 .895-2 2 0 1.105.895 2 2 2 1.105 0 2-.895 2-2v-7h7v4.281c-.295-.171-.635-.281-1-.281-1.105 0-2 .895-2 2 0 1.105.895 2 2 2 1.105 0 2-.895 2-2v-9zm1 1h7v1h-7z"/>
 </svg>

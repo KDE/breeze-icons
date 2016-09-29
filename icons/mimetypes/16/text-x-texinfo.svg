@@ -1,14 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-<svg width="16" version="1.1" xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 16 16" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
- <defs id="defs4"/>
- <metadata id="metadata7"/>
- <g inkscape:label="Capa 1" inkscape:groupmode="layer" id="layer1" transform="matrix(1 0 0 1 0 -1036.3622)">
-  <path inkscape:connector-curvature="0" style="fill:#22a7f0" id="path3867" d="m 8,1038.3622 c -3.313709,0 -6,2.6863 -6,6 0,3.3137 2.686291,6 6,6 3.313708,0 6,-2.6863 6,-6 0,-3.3137 -2.686292,-6 -6,-6 z m 0,1 c 2.761424,0 5,2.2386 5,5 0,2.7614 -2.238576,5 -5,5 -2.761424,0 -5,-2.2386 -5,-5 0,-2.7614 2.238576,-5 5,-5 z"/>
-  <g style="fill:#22a7f0" id="g3872" transform="matrix(1 0 0 1 0.5 0)">
-   <rect width="1" x="7" y="6" height="6" id="rect3860" transform="matrix(1 0 0 1 0 1036.3622)"/>
-   <rect width="1" x="7" y="4" height="1" id="rect3862" transform="matrix(1 0 0 1 0 1036.3622)"/>
+<svg width="16" xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 16 16">
+ <g fill="#22a7f0" transform="translate(0-1036.36)">
+  <path d="m8 1038.36c-3.314 0-6 2.686-6 6 0 3.314 2.686 6 6 6 3.314 0 6-2.686 6-6 0-3.314-2.686-6-6-6m0 1c2.761 0 5 2.239 5 5 0 2.761-2.239 5-5 5-2.761 0-5-2.239-5-5 0-2.761 2.239-5 5-5"/>
+  <g transform="translate(.5 1036.36)">
+   <rect width="1" x="7" y="6" height="6"/>
+   <rect width="1" x="7" y="4" height="1"/>
   </g>
  </g>
 </svg>

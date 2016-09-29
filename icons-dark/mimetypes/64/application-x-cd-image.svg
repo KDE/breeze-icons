@@ -1,27 +1,24 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="64" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" height="64" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
- <defs id="defs4">
-  <linearGradient inkscape:collect="always" id="linearGradient4351">
-   <stop style="stop-color:#566472" id="stop4353"/>
-   <stop offset="1" style="stop-color:#5e6b78" id="stop4355"/>
+<svg width="64" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" height="64" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="a" y1="17" x1="40" y2="31" gradientUnits="userSpaceOnUse" x2="54">
+   <stop stop-color="#060606"/>
+   <stop offset="1" stop-opacity="0"/>
   </linearGradient>
-  <linearGradient inkscape:collect="always" id="linearGradient4300">
-   <stop style="stop-color:#bdc3c7" id="stop4302"/>
-   <stop offset="1" style="stop-color:#dadfe1" id="stop4304"/>
+  <linearGradient id="b" y1="392.36" y2="336.36" gradientUnits="userSpaceOnUse" x2="0" gradientTransform="translate(-48-332.36)">
+   <stop stop-color="#ffffff" stop-opacity="0"/>
+   <stop offset="1" stop-color="#ffffff" stop-opacity=".2"/>
   </linearGradient>
-  <linearGradient inkscape:collect="always" xlink:href="#linearGradient4300" id="linearGradient4306" y1="61" y2="3" x2="0" gradientUnits="userSpaceOnUse"/>
-  <linearGradient inkscape:collect="always" xlink:href="#linearGradient4410" id="linearGradient4427" y1="31" x1="54" y2="17" x2="40" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 -1 -14 78)"/>
-  <linearGradient inkscape:collect="always" id="linearGradient4410">
-   <stop style="stop-color:#383e51" id="stop4412"/>
-   <stop offset="1" style="stop-color:#655c6f;stop-opacity:0" id="stop4414"/>
-  </linearGradient>
-  <linearGradient inkscape:collect="always" xlink:href="#linearGradient4351" id="linearGradient4357" y1="61" y2="47" x2="0" gradientUnits="userSpaceOnUse"/>
+  <path id="c" d="m10 61v-58h30l14 14v44h-14z"/>
  </defs>
- <metadata id="metadata84"/>
- <path style="fill:url(#linearGradient4306)" id="rect3500" d="M 10 3 L 10 61 L 40 61 L 54 47 L 54 17 L 54 3 L 40 3 L 10 3 z "/>
- <rect width="30" x="10" y="60" height="1" style="fill:#2e3132;fill-opacity:0.294118" id="rect4169"/>
- <rect width="44" x="10" y="3" height="1" style="fill:#ffffff;fill-opacity:0.409836" id="rect4236"/>
- <path inkscape:connector-curvature="0" style="fill:url(#linearGradient4357);fill-rule:evenodd" id="path4314" d="M 54,47 40,61 40,47 Z"/>
- <path inkscape:connector-curvature="0" style="fill:url(#linearGradient4427);opacity:0.2;fill-rule:evenodd" id="path4320" d="M 26,61 40,47 40,61 Z"/>
- <path style="shape-rendering:auto;color-interpolation-filters:linearRGB;fill:#5e6b78;image-rendering:auto;text-rendering:auto;color:#000000;color-rendering:auto;color-interpolation:sRGB" id="path4167" d="M 32 21 A 11 11 0 0 0 21 32 A 11 11 0 0 0 32 43 A 11 11 0 0 0 43 32 A 11 11 0 0 0 32 21 z M 32 22 A 10 10 0 0 1 42 32 A 10 10 0 0 1 32 42 A 10 10 0 0 1 22 32 A 10 10 0 0 1 32 22 z M 32 24 A 8 8 0 0 0 24 32 L 28 32 A 4 4 0 0 1 32 28 L 32 24 z M 32 29 A 3 3 0 0 0 29 32 A 3 3 0 0 0 32 35 A 3 3 0 0 0 35 32 A 3 3 0 0 0 32 29 z M 32 30 A 2 2 0 0 1 34 32 A 2 2 0 0 1 32 34 A 2 2 0 0 1 30 32 A 2 2 0 0 1 32 30 z M 36 32 A 4 4 0 0 1 32 36 L 32 40 A 8 8 0 0 0 40 32 L 36 32 z "/>
+ <use fill="#555555" xlink:href="#c"/>
+ <g color-rendering="auto" color-interpolation-filters="linearRGB" shape-rendering="auto" image-rendering="auto" text-rendering="auto" color-interpolation="sRGB" color="#000000">
+  <g transform="scale(1-1)">
+   <rect opacity=".5" x="10" y="-4" width="30" fill="#ffffff" height="1"/>
+   <rect opacity=".25" x="10" y="-61" width="44" height="1"/>
+  </g>
+  <path opacity=".5" fill="#ffffff" d="m54 17l-14-14v14z"/>
+ </g>
+ <path opacity=".2" fill="url(#a)" fill-rule="evenodd" d="m40 17l14 14v-14z"/>
+ <path opacity=".75" fill="#e0e0e0" color-rendering="auto" color-interpolation-filters="linearRGB" shape-rendering="auto" image-rendering="auto" text-rendering="auto" color-interpolation="sRGB" color="#000000" d="m32 22.99998a11 11 0 0 0 -11 11 11 11 0 0 0 11 11 11 11 0 0 0 11 -11 11 11 0 0 0 -11 -11m0 1a10 10 0 0 1 10 10 10 10 0 0 1 -10 10 10 10 0 0 1 -10 -10 10 10 0 0 1 10 -10m0 2a8 8 0 0 0 -8 8h4a4 4 0 0 1 4 -4zm0 5a3 3 0 0 0 -3 3 3 3 0 0 0 3 3 3 3 0 0 0 3 -3 3 3 0 0 0 -3 -3m0 1a2 2 0 0 1 2 2 2 2 0 0 1 -2 2 2 2 0 0 1 -2 -2 2 2 0 0 1 2 -2m4 2a4 4 0 0 1 -4 4v4a8 8 0 0 0 8 -8z"/>
+ <use fill="url(#b)" xlink:href="#c"/>
 </svg>

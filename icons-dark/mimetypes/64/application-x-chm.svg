@@ -1,29 +1,24 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="64" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" height="64" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
- <defs id="defs4">
-  <linearGradient inkscape:collect="always" id="linearGradient4351">
-   <stop style="stop-color:#ade2a1" id="stop4353"/>
-   <stop offset="1" style="stop-color:#cfeec9" id="stop4355"/>
+<svg width="64" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" height="64" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="a" y1="392.36" y2="336.36" gradientUnits="userSpaceOnUse" x2="0" gradientTransform="translate(-48-332.36)">
+   <stop stop-color="#ffffff" stop-opacity="0"/>
+   <stop offset="1" stop-color="#ffffff" stop-opacity=".2"/>
   </linearGradient>
-  <linearGradient inkscape:collect="always" xlink:href="#linearGradient4300-2" id="linearGradient4306" y1="61" y2="3" x2="0" gradientUnits="userSpaceOnUse"/>
-  <linearGradient inkscape:collect="always" xlink:href="#linearGradient4410" id="linearGradient4427" y1="31" x1="54" y2="17" x2="40" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 -1 -14 78)"/>
-  <linearGradient inkscape:collect="always" id="linearGradient4410">
-   <stop style="stop-color:#383e51" id="stop4412"/>
-   <stop offset="1" style="stop-color:#655c6f;stop-opacity:0" id="stop4414"/>
+  <linearGradient id="b" y1="17" x1="40" y2="31" gradientUnits="userSpaceOnUse" x2="54">
+   <stop stop-color="#060606"/>
+   <stop offset="1" stop-opacity="0"/>
   </linearGradient>
-  <linearGradient inkscape:collect="always" xlink:href="#linearGradient4351" id="linearGradient4357" y1="61" y2="47" x2="0" gradientUnits="userSpaceOnUse"/>
-  <linearGradient id="linearGradient4300-2">
-   <stop style="stop-color:#7fcc74" id="stop4302-4"/>
-   <stop offset="1" style="stop-color:#87d37c" id="stop4304-1"/>
-  </linearGradient>
+  <path id="c" d="m10 61v-58h30l14 14v44h-14z"/>
  </defs>
- <metadata id="metadata84"/>
- <path style="fill:url(#linearGradient4306)" id="rect3500" d="M 10 3 L 10 61 L 40 61 L 54 47 L 54 17 L 54 3 L 40 3 L 10 3 z "/>
- <rect width="30" x="10" y="60" height="1" style="fill:#2e3132;fill-opacity:0.294118" id="rect4169"/>
- <rect width="44" x="10" y="3" height="1" style="fill:#ffffff;fill-opacity:0.409836" id="rect4236"/>
- <path inkscape:connector-curvature="0" style="fill:url(#linearGradient4357);fill-rule:evenodd" id="path4314" d="M 54,47 40,61 40,47 Z"/>
- <path inkscape:connector-curvature="0" style="fill:url(#linearGradient4427);opacity:0.2;fill-rule:evenodd" id="path4320" d="M 26,61 40,47 40,61 Z"/>
- <path style="fill:#e3f5df;stroke-linecap:square;stroke-width:2" id="path4165" d="M 32 21 A 11 11 0 0 0 21 32 A 11 11 0 0 0 32 43 A 11 11 0 0 0 43 32 A 11 11 0 0 0 32 21 z M 32 22 A 10 10 0 0 1 42 32 A 10 10 0 0 1 32 42 A 10 10 0 0 1 22 32 A 10 10 0 0 1 32 22 z "/>
- <rect width="2" x="31" y="28" height="11.999999" style="fill:#e3f5df;stroke-linecap:square;stroke-width:2" id="rect4170"/>
- <rect width="2" x="30.999998" y="24" height="2" style="fill:#e3f5df;stroke-linecap:square;stroke-width:2" id="rect4172"/>
+ <use fill="#51db51" xlink:href="#c"/>
+ <g color-rendering="auto" color-interpolation-filters="linearRGB" shape-rendering="auto" image-rendering="auto" text-rendering="auto" color-interpolation="sRGB" color="#000000" transform="scale(1-1)">
+  <rect opacity=".5" x="10" y="-4" width="30" fill="#ffffff" height="1"/>
+  <rect opacity=".25" x="10" y="-61" width="44" height="1"/>
+ </g>
+ <g fill="#ffffff">
+  <path opacity=".5" fill-rule="evenodd" d="m54 17l-14-14v14z"/>
+  <path opacity=".75" stroke-width="2" d="M32 22A11 11 0 0 0 21 33 11 11 0 0 0 32 44 11 11 0 0 0 43 33 11 11 0 0 0 32 22m0 1A10 10 0 0 1 42 33 10 10 0 0 1 32 43 10 10 0 0 1 22 33 10 10 0 0 1 32 23m-1 2v2h2v-2zm0 4v12h2v-12z"/>
+ </g>
+ <path opacity=".2" fill="url(#b)" fill-rule="evenodd" d="m40 17l14 14v-14z"/>
+ <use fill="url(#a)" xlink:href="#c"/>
 </svg>

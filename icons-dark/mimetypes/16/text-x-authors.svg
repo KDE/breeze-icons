@@ -1,8 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-<svg width="16" version="1.1" xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 16 16" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
- <defs id="defs4"/>
- <metadata id="metadata7"/>
- <path inkscape:label="Capa 1" inkscape:groupmode="layer" style="fill:#6c7a89" id="path4139" d="M 8 2 C 4.6862915 2 2 4.6862915 2 8 C 2 11.313708 4.6862915 14 8 14 C 11.313708 14 14 11.313708 14 8 C 14 4.6862915 11.313708 2 8 2 z M 8 3 C 10.761424 3 13 5.2385763 13 8 C 13 10.761424 10.761424 13 8 13 C 5.2385763 13 3 10.761424 3 8 C 3 5.2385763 5.2385763 3 8 3 z M 8 5 A 3 3 0 0 0 5 8 A 3 3 0 0 0 8 11 A 3 3 0 0 0 10.396484 9.7988281 L 9.5976562 9.1992188 A 2 2 0 0 1 8 10 A 2 2 0 0 1 6 8 A 2 2 0 0 1 8 6 A 2 2 0 0 1 9.5996094 6.8007812 L 10.396484 6.2011719 A 3 3 0 0 0 8 5 z "/>
+<svg width="16" xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 16 16">
+ <path fill="#6c7a89" d="m8 2c-3.314 0-6 2.686-6 6 0 3.314 2.686 6 6 6 3.314 0 6-2.686 6-6 0-3.314-2.686-6-6-6m0 1c2.761 0 5 2.239 5 5 0 2.761-2.239 5-5 5-2.761 0-5-2.239-5-5 0-2.761 2.239-5 5-5m0 2a3 3 0 0 0 -3 3 3 3 0 0 0 3 3 3 3 0 0 0 2.396484 -1.201172l-.799-.6a2 2 0 0 1 -1.597656 .800781 2 2 0 0 1 -2 -2 2 2 0 0 1 2 -2 2 2 0 0 1 1.599609 .800781l.797-.6a3 3 0 0 0 -2.396484 -1.201172"/>
 </svg>

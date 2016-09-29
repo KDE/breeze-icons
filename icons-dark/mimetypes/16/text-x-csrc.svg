@@ -1,8 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-<svg width="16" version="1.1" xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 16 16" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
- <defs id="defs4"/>
- <metadata id="metadata7"/>
- <path inkscape:label="Capa 1" inkscape:groupmode="layer" style="fill:#16907d" id="rect4152" d="M 5 2 L 5 3 L 12 3 L 12 2 L 5 2 z M 12 3 L 12 4 L 13 4 L 13 3 L 12 3 z M 13 4 L 13 5 L 14 5 L 14 4 L 13 4 z M 5 3 L 4 3 L 4 4 L 5 4 L 5 3 z M 4 4 L 3 4 L 3 5 L 4 5 L 4 4 z M 3 5 L 2 5 L 2 8 L 2 11 L 3 11 L 3 8 L 3 5 z M 3 11 L 3 12 L 4 12 L 4 11 L 3 11 z M 4 12 L 4 13 L 5 13 L 5 12 L 4 12 z M 5 13 L 5 14 L 12 14 L 12 13 L 5 13 z M 12 13 L 13 13 L 13 12 L 12 12 L 12 13 z M 13 12 L 14 12 L 14 11 L 13 11 L 13 12 z "/>
+<svg width="16" xmlns="http://www.w3.org/2000/svg" height="16" viewBox="0 0 16 16">
+ <path fill="#13a4f7" d="m5 2v1h7v-1zm7 1v1h1v-1zm1 1v1h1v-1zm-8-1h-1v1h1zm-1 1h-1v1h1zm-1 1h-1v6h1v-3zm0 6v1h1v-1zm1 1v1h1v-1zm1 1v1h7v-1zm7 0h1v-1h-1zm1-1h1v-1h-1z"/>
 </svg>
