@@ -14,7 +14,7 @@
    height="22"
    id="svg2"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="x-office-spreadsheet.svg">
+   sodipodi:docname="application-vnd.ms-excel.addin.macroenabled.12.svg">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -24,17 +24,22 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="699"
+     inkscape:window-width="1360"
+     inkscape:window-height="708"
      id="namedview11"
-     showgrid="false"
-     inkscape:zoom="34.874506"
-     inkscape:cx="11.652542"
-     inkscape:cy="12.14697"
+     showgrid="true"
+     inkscape:zoom="17.437253"
+     inkscape:cx="2.1035423"
+     inkscape:cy="7.8372487"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="excel" />
+     inkscape:current-layer="excel"
+     inkscape:object-nodes="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4151" />
+  </sodipodi:namedview>
   <defs
      id="defs3871" />
   <metadata
@@ -78,45 +83,10 @@
        transform="matrix(0.18182176,0,0,0.18182176,306.98141,537.71654)"
        id="excel">
       <path
-         style="fill:#3cc380;fill-opacity:1"
-         inkscape:connector-curvature="0"
-         d="M 167.06,0 173,0 c 0,2.67 0,5.33 0,8 10.01,0 20.02,0.02 30.03,-0.03 1.69,0.07 3.55,-0.05 5.02,0.96 1.03,1.48 0.91,3.36 0.98,5.06 -0.05,17.36 -0.03,34.71 -0.02,52.06 -0.05,2.91 0.27,5.88 -0.34,8.75 -0.4,2.08 -2.9,2.13 -4.57,2.2 -10.36,0.03 -20.73,-0.02 -31.1,0 0,3 0,6 0,9 l -6.21,0 c -15.24,-2.77 -30.51,-5.33 -45.77,-8 0,-23.33 0,-46.66 0,-69.99 15.35,-2.67 30.7,-5.3 46.04,-8.01 z"
-         id="path12" />
-      <path
-         style="fill:#ffffff;fill-opacity:1"
-         inkscape:connector-curvature="0"
-         d="m 173,11 c 11,0 22,0 33,0 0,21 0,42 0,63 -11,0 -22,0 -33,0 0,-2 0,-4 0,-6 2.67,0 5.33,0 8,0 0,-2.33 0,-4.67 0,-7 -2.67,0 -5.33,0 -8,0 0,-1.33 0,-2.67 0,-4 2.67,0 5.33,0 8,0 0,-2.33 0,-4.67 0,-7 -2.67,0 -5.33,0 -8,0 0,-1.33 0,-2.67 0,-4 2.67,0 5.33,0 8,0 0,-2.33 0,-4.67 0,-7 -2.67,0 -5.33,0 -8,0 0,-1.33 0,-2.67 0,-4 2.67,0 5.33,0 8,0 0,-2.33 0,-4.67 0,-7 -2.67,0 -5.33,0 -8,0 0,-1.33 0,-2.67 0,-4 2.67,0 5.33,0 8,0 0,-2.33 0,-4.67 0,-7 -2.67,0 -5.33,0 -8,0 0,-2 0,-4 0,-6 z"
-         id="path14" />
-      <path
-         style="fill:#3cc380;fill-opacity:1"
-         inkscape:connector-curvature="0"
-         d="m 185,17 c 4.67,0 9.33,0 14,0 0,2.33 0,4.67 0,7 -4.67,0 -9.33,0 -14,0 0,-2.33 0,-4.67 0,-7 z"
-         id="path16" />
-      <path
-         style="fill:#ffffff;fill-opacity:1"
-         inkscape:connector-curvature="0"
-         d="m 150.64,26.37 c 2.26,-0.16 4.53,-0.3 6.8,-0.41 -2.67,5.47 -5.35,10.94 -8.07,16.39 2.75,5.6 5.56,11.16 8.32,16.76 -2.41,-0.14 -4.81,-0.29 -7.22,-0.46 -1.7,-4.17 -3.77,-8.2 -4.99,-12.56 -1.36,4.06 -3.3,7.89 -4.86,11.87 -2.19,-0.03 -4.38,-0.12 -6.57,-0.21 2.57,-5.03 5.05,-10.1 7.7,-15.1 -2.25,-5.15 -4.72,-10.2 -7.04,-15.32 2.2,-0.13 4.4,-0.26 6.6,-0.38 1.49,3.91 3.12,7.77 4.35,11.78 1.32,-4.25 3.29,-8.25 4.98,-12.36 z"
-         id="path18" />
-      <path
-         style="fill:#3cc380;fill-opacity:1"
-         inkscape:connector-curvature="0"
-         d="m 185,28 c 4.67,0 9.33,0 14,0 0,2.33 0,4.67 0,7 -4.67,0 -9.33,0 -14,0 0,-2.33 0,-4.67 0,-7 z"
-         id="path20" />
-      <path
-         style="fill:#3cc380;fill-opacity:1"
-         inkscape:connector-curvature="0"
-         d="m 185,39 c 4.67,0 9.33,0 14,0 0,2.33 0,4.67 0,7 -4.67,0 -9.33,0 -14,0 0,-2.33 0,-4.67 0,-7 z"
-         id="path22" />
-      <path
-         style="fill:#3cc380;fill-opacity:1"
-         inkscape:connector-curvature="0"
-         d="m 185,50 c 4.67,0 9.33,0 14,0 0,2.33 0,4.67 0,7 -4.67,0 -9.33,0 -14,0 0,-2.33 0,-4.67 0,-7 z"
-         id="path24" />
-      <path
-         style="fill:#3cc380;fill-opacity:1"
-         inkscape:connector-curvature="0"
-         d="m 185,61 c 4.67,0 9.33,0 14,0 0,2.33 0,4.67 0,7 -4.67,0 -9.33,0 -14,0 0,-2.33 0,-4.67 0,-7 z"
-         id="path26" />
+         style="color:#000000;color-interpolation:sRGB;color-interpolation-filters:linearRGB;fill:#25bb70;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;fill-opacity:1"
+         d="M 4.3339844 3 C 3.5953171 3 3 3.5953177 3 4.3339844 L 3 17.666016 C 3 18.404682 3.5953171 19 4.3339844 19 L 17.666016 19 C 18.404683 19 19 18.404682 19 17.666016 L 19 4.3339844 C 19 3.5953177 18.404683 3 17.666016 3 L 4.3339844 3 z M 4 4 L 18 4 L 18 18 L 4 18 L 4 4 z M 5 5 L 5 6 L 8 6 L 8 5 L 5 5 z M 9 5 L 9 6 L 13 6 L 13 5 L 9 5 z M 14 5 L 14 6 L 17 6 L 17 5 L 14 5 z M 5 7 L 5 8 L 8 8 L 8 7 L 5 7 z M 9 7 L 9 8 L 13 8 L 13 7 L 9 7 z M 14 7 L 14 8 L 17 8 L 17 7 L 14 7 z M 5 9 L 5 10 L 8 10 L 8 9 L 5 9 z M 9 9 L 9 10 L 13 10 L 13 9 L 9 9 z M 14 9 L 14 10 L 17 10 L 17 9 L 14 9 z M 5 11 L 5 12 L 8 12 L 8 11 L 5 11 z M 9 11 L 9 12 L 13 12 L 13 11 L 9 11 z M 14 11 L 14 12 L 17 12 L 17 11 L 14 11 z M 5 13 L 5 14 L 8 14 L 8 13 L 5 13 z M 9 13 L 9 14 L 13 14 L 13 13 L 9 13 z M 14 13 L 14 14 L 17 14 L 17 13 L 14 13 z M 5 15 L 5 16 L 8 16 L 8 15 L 5 15 z M 9 15 L 9 16 L 13 16 L 13 15 L 9 15 z M 14 15 L 14 16 L 17 16 L 17 15 L 14 15 z "
+         transform="matrix(5.4998918,0,0,5.4998918,104.60019,-18.448507)"
+         id="path4" />
     </g>
   </g>
 </svg>

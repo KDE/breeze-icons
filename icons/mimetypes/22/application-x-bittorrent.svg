@@ -14,7 +14,7 @@
    height="22"
    id="svg2"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="application-x-bittorrent-22.svg">
+   sodipodi:docname="application-x-bittorrent.svg">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -24,12 +24,12 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="699"
+     inkscape:window-width="1360"
+     inkscape:window-height="708"
      id="namedview11"
      showgrid="false"
      inkscape:zoom="21.46"
-     inkscape:cx="11.652542"
+     inkscape:cx="4.8491869"
      inkscape:cy="14.727866"
      inkscape:window-x="0"
      inkscape:window-y="0"
@@ -45,7 +45,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -76,9 +76,10 @@
        style="fill:#8e44ad"
        id="rect4035-0" />
     <path
-       style="fill:#22a7f0;fill-opacity:1;stroke:none;stroke-width:0.60000002;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.8048782"
-       d="m 342.45473,544.73074 c -1.02768,-2.8679 -3.20712,-5.4436 -5.51364,-7.39788 -2.30653,1.95428 -4.48496,4.52998 -5.51365,7.39788 -0.63541,1.77317 -0.69844,3.69843 0.19714,5.40056 1.02968,1.95629 3.10605,3.21212 5.31651,3.21212 2.21045,0 4.28682,-1.25583 5.3165,-3.21212 0.8956,-1.70213 0.83256,-3.6264 0.19714,-5.40056 z"
-       id="path4276-3"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       style="fill:#75d8e1;fill-opacity:1;stroke:none"
+       d="m 337,537.3622 c -0.97291,3.405 -3.35445,6.3323 -4.4043,8.6758 -0.3674,0.6968 -0.5957,1.4788 -0.5957,2.3242 0,2.77 2.23,5 5,5 2.77,0 5,-2.23 5,-5 0,-0.8454 -0.2283,-1.6274 -0.5957,-2.3242 -1.04985,-2.3435 -3.4314,-5.2708 -4.4043,-8.6758 z m 2.2832,7.7168 c 1.0377,0.7212 1.7168,1.9183 1.7168,3.2832 0,2.216 -1.784,4 -4,4 -1.36496,0 -2.562,-0.679 -3.2832,-1.7168 0.64704,0.4497 1.43212,0.7168 2.2832,0.7168 2.216,0 4,-1.784 4,-4 0,-0.8511 -0.26709,-1.6362 -0.7168,-2.2832 z"
+       class="ColorScheme-Text"
+       id="path6" />
   </g>
 </svg>
