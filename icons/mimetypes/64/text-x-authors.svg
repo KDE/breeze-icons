@@ -42,7 +42,7 @@
      inkscape:snap-bbox="true"
      inkscape:bbox-nodes="true"
      inkscape:zoom="1"
-     inkscape:cx="75.349976"
+     inkscape:cx="-101.15002"
      inkscape:cy="19.556334"
      inkscape:current-layer="svg2">
     <inkscape:grid
@@ -99,16 +99,6 @@
     </linearGradient>
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient6251"
-       id="linearGradient14545"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-78,-332.3622)"
-       x1="58"
-       y1="392.36221"
-       x2="58"
-       y2="336.36221" />
-    <linearGradient
-       inkscape:collect="always"
        id="linearGradient6251">
       <stop
          style="stop-color:#ffffff;stop-opacity:0"
@@ -152,13 +142,6 @@
        xlink:href="#linearGradient6251"
        inkscape:collect="always" />
   </defs>
-  <path
-     d="m -20,61 0,-58.0000001 30,0 L 23.999997,17 l 0,30 0,14 L 10,61 -20,61 Z"
-     id="path14541"
-     style="fill:url(#linearGradient14545);fill-opacity:1"
-     inkscape:connector-curvature="0"
-     inkscape:export-xdpi="96"
-     inkscape:export-ydpi="96" />
   <g
      id="g4279"
      transform="translate(-50,0)">

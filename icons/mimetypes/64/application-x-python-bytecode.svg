@@ -42,8 +42,8 @@
      inkscape:snap-bbox="true"
      inkscape:bbox-nodes="true"
      inkscape:zoom="1"
-     inkscape:cx="-22.021173"
-     inkscape:cy="28.147377"
+     inkscape:cx="35.65981"
+     inkscape:cy="17.205784"
      inkscape:current-layer="svg2">
     <inkscape:grid
        type="xygrid"
@@ -163,56 +163,54 @@
        id="c-7"
        d="m312 357.36v-58h30l14 14v44h-14z" />
   </defs>
-  <g
-     id="g4162">
-    <use
-       transform="translate(-302,-296.36)"
-       id="use4186"
-       xlink:href="#c-7"
-       style="color:#000000;color-interpolation:sRGB;color-interpolation-filters:linearRGB;fill:#fbc31f;fill-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto"
-       x="0"
-       y="0"
-       width="100%"
-       height="100%" />
-    <rect
-       transform="scale(1,-1)"
-       style="color:#000000;opacity:0.5;color-interpolation:sRGB;color-interpolation-filters:linearRGB;fill:#ffffff;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto"
-       x="10"
-       y="-3.9999855"
-       width="30"
-       height="1"
-       id="rect4190" />
-    <rect
-       transform="scale(1,-1)"
-       style="color:#000000;opacity:0.25;color-interpolation:sRGB;color-interpolation-filters:linearRGB;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto"
-       x="10"
-       y="-60.999985"
-       width="44"
-       height="1"
-       id="rect4192" />
-    <path
-       id="path4196"
-       d="M 54,17 40,3 40,17 Z"
-       inkscape:connector-curvature="0"
-       style="opacity:0.6;fill:#000000;fill-opacity:1;fill-rule:evenodd" />
-    <path
-       style="opacity:0.1;fill:url(#a-3);fill-rule:evenodd"
-       id="path4198"
-       d="M 40,17 54,31 54,17 Z"
-       inkscape:connector-curvature="0" />
-    <path
-       inkscape:connector-curvature="0"
-       style="color:#4d4d4d;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.7;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
-       id="path35"
-       d="m 30,22 c -1.662,0 -3,1.338 -3,3 l 0,2 5,0 0,1 -7,0 c -2.216,0 -4,1.784 -4,4 l 0,2 c 0,2.216 1.784,4 4,4 l 0,-2 c 0,-1.841 1.238,-3.369 2.926,-3.838 0.147,-0.041 0.297,-0.072 0.449,-0.1 C 28.58,32.03 28.786,32 29,32 l 7.225,0 C 36.702,31.469 37,30.773 37,30 l 0,-5 c 0,-1.662 -1.338,-3 -3,-3 z m -1,2 c 0.554,0 1,0.446 1,1 0,0.554 -0.446,1 -1,1 -0.554,0 -1,-0.446 -1,-1 0,-0.554 0.446,-1 1,-1 m 10,4 0,2 c 0,1.841 -1.238,3.369 -2.926,3.838 -0.147,0.041 -0.297,0.072 -0.449,0.1 C 35.42,33.97 35.214,34 35,34 l -7.225,0 C 27.298,34.531 27,35.227 27,36 l 0,5 c 0,1.662 1.338,3 3,3 l 4,0 c 1.662,0 3,-1.338 3,-3 l 0,-2 -5,0 0,-1 7,0 c 2.216,0 4,-1.784 4,-4 l 0,-2 c 0,-2.216 -1.784,-4 -4,-4 m -4,12 c 0.554,0 1,0.446 1,1 0,0.554 -0.446,1 -1,1 -0.554,0 -1,-0.446 -1,-1 0,-0.554 0.446,-1 1,-1" />
-    <use
-       height="100%"
-       width="100%"
-       y="0"
-       x="0"
-       xlink:href="#c-7"
-       id="use4202"
-       style="fill:url(#b-6)"
-       transform="translate(-302,-296.36)" />
-  </g>
+  <use
+     height="100%"
+     width="100%"
+     y="0"
+     x="0"
+     style="color:#000000;color-interpolation:sRGB;color-interpolation-filters:linearRGB;fill:#fbc31f;fill-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto"
+     xlink:href="#c-7"
+     id="use4186"
+     transform="translate(-302,-296.36)" />
+  <rect
+     id="rect4190"
+     height="1"
+     width="30"
+     y="-3.9999855"
+     x="10"
+     style="color:#000000;opacity:0.5;color-interpolation:sRGB;color-interpolation-filters:linearRGB;fill:#ffffff;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto"
+     transform="scale(1,-1)" />
+  <rect
+     id="rect4192"
+     height="1"
+     width="44"
+     y="-60.999985"
+     x="10"
+     style="color:#000000;opacity:0.25;color-interpolation:sRGB;color-interpolation-filters:linearRGB;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto"
+     transform="scale(1,-1)" />
+  <path
+     style="opacity:0.6;fill:#000000;fill-opacity:1;fill-rule:evenodd"
+     inkscape:connector-curvature="0"
+     d="M 54,17 40,3 40,17 Z"
+     id="path4196" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 40,17 54,31 54,17 Z"
+     id="path4198"
+     style="opacity:0.1;fill:url(#a-3);fill-rule:evenodd" />
+  <path
+     d="m 30,22 c -1.662,0 -3,1.338 -3,3 l 0,2 5,0 0,1 -7,0 c -2.216,0 -4,1.784 -4,4 l 0,2 c 0,2.216 1.784,4 4,4 l 0,-2 c 0,-1.841 1.238,-3.369 2.926,-3.838 0.147,-0.041 0.297,-0.072 0.449,-0.1 C 28.58,32.03 28.786,32 29,32 l 7.225,0 C 36.702,31.469 37,30.773 37,30 l 0,-5 c 0,-1.662 -1.338,-3 -3,-3 z m -1,2 c 0.554,0 1,0.446 1,1 0,0.554 -0.446,1 -1,1 -0.554,0 -1,-0.446 -1,-1 0,-0.554 0.446,-1 1,-1 m 10,4 0,2 c 0,1.841 -1.238,3.369 -2.926,3.838 -0.147,0.041 -0.297,0.072 -0.449,0.1 C 35.42,33.97 35.214,34 35,34 l -7.225,0 C 27.298,34.531 27,35.227 27,36 l 0,5 c 0,1.662 1.338,3 3,3 l 4,0 c 1.662,0 3,-1.338 3,-3 l 0,-2 -5,0 0,-1 7,0 c 2.216,0 4,-1.784 4,-4 l 0,-2 c 0,-2.216 -1.784,-4 -4,-4 m -4,12 c 0.554,0 1,0.446 1,1 0,0.554 -0.446,1 -1,1 -0.554,0 -1,-0.446 -1,-1 0,-0.554 0.446,-1 1,-1"
+     id="path35"
+     style="color:#4d4d4d;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.6;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="sscccssscsccscsssscsssccsccscssssscccsssccsssc" />
+  <use
+     transform="translate(-302,-296.36)"
+     style="fill:url(#b-6)"
+     id="use4202"
+     xlink:href="#c-7"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%" />
 </svg>
