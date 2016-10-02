@@ -35,16 +35,19 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="640"
-     inkscape:window-height="480"
+     inkscape:window-width="1920"
+     inkscape:window-height="1025"
      id="namedview37"
      showgrid="false"
      inkscape:snap-bbox="true"
      inkscape:bbox-nodes="true"
      inkscape:zoom="8"
-     inkscape:cx="36.759296"
-     inkscape:cy="20.617126"
-     inkscape:current-layer="svg2">
+     inkscape:cx="14.009296"
+     inkscape:cy="19.617126"
+     inkscape:current-layer="svg2"
+     inkscape:window-x="0"
+     inkscape:window-y="26"
+     inkscape:window-maximized="1">
     <inkscape:grid
        type="xygrid"
        id="grid4226" />
@@ -133,11 +136,45 @@
     <path
        d="m312 357.36v-58h30l14 14v44h-14z"
        id="c-7" />
+    <linearGradient
+       gradientTransform="translate(254,-36)"
+       x2="0"
+       gradientUnits="userSpaceOnUse"
+       y2="336.36"
+       y1="392.36"
+       id="b-6-3">
+      <stop
+         id="stop4177-6"
+         stop-opacity="0"
+         stop-color="#ffffff" />
+      <stop
+         id="stop4179-7"
+         stop-opacity=".2"
+         stop-color="#ffffff"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       gradientTransform="translate(254,-36)"
+       x2="0"
+       gradientUnits="userSpaceOnUse"
+       y2="336.36"
+       y1="392.36"
+       id="linearGradient4168">
+      <stop
+         id="stop4170"
+         stop-opacity="0"
+         stop-color="#ffffff" />
+      <stop
+         id="stop4172-5"
+         stop-opacity=".2"
+         stop-color="#ffffff"
+         offset="1" />
+    </linearGradient>
   </defs>
   <use
      id="use4186"
      xlink:href="#c-7"
-     style="color:#000000;color-interpolation:sRGB;color-interpolation-filters:linearRGB;fill:#febf10;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto"
+     style="color:#000000;color-interpolation:sRGB;color-interpolation-filters:linearRGB;fill:#f9d24c;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;fill-opacity:1"
      x="0"
      y="0"
      width="100%"
