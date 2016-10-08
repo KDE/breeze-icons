@@ -24,6 +24,7 @@ Name[sk]=Tmavý vánok
 Name[sl]=Sapica (temna)
 Name[sv]=Breeze mörk
 Name[uk]=Темна Breeze
+Name[x-test]=xxBreeze Darkxx
 Name[zh_CN]=暗色微风
 Name[zh_TW]=Breeze Dark
 
@@ -53,6 +54,7 @@ Comment[sk]=Predvolená téma Plasma 5 pre tmavé témy
 Comment[sl]=Privzeta tema za KDE Plasma 5 za temne teme
 Comment[sv]=Plasma 5 standardtema för mörka teman
 Comment[uk]=Тема піктограм для Плазми 5 для темних тем
+Comment[x-test]=xxDefault Plasma 5 Theme for Dark themesxx
 Comment[zh_CN]=为暗色主题设计的 默认 Plasma 5 主题
 Comment[zh_TW]=預設的 Plasma 5 暗色主題
 
