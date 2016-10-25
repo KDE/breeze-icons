@@ -75,7 +75,7 @@ if (BASH_EXE)
 endif()
 
 add_subdirectory(autotests)
-add_subdirectory(icons)
-add_subdirectory(icons-dark)
+add_subdirectory(breeze)
+add_subdirectory(breeze-dark)
 
 feature_summary(WHAT ALL FATAL_ON_MISSING_REQUIRED_PACKAGES)
