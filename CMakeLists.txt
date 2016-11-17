@@ -19,7 +19,7 @@ include(GtkUpdateIconCache)
 # Dependencies
 set(REQUIRED_QT_VERSION 5.5.0)
 
-option(BINARY_ICONS_RESOURCE "Install a Qt binary resource file, containing breeze icons" OFF)
+option(BINARY_ICONS_RESOURCE "Install Qt binary resource files containing breeze icons (breeze-icons.rcc, breeze-icons-dark.rcc)" ON)
 option(SKIP_INSTALL_ICONS "Skip installing the icons files" OFF)
 
 if(BINARY_ICONS_RESOURCE)
