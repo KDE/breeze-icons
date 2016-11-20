@@ -4,6 +4,7 @@ tier: 1
 type: functional
 platforms:
     - name: Linux
+    - name: FreeBSD
     - name: Windows
     - name: MacOSX
 portingAid: false
