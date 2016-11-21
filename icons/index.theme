@@ -107,31 +107,36 @@ Directories=actions/12,actions/16,actions/22,actions/24,actions/32,apps/16,apps/
 [actions/12]
 Size=12
 Context=Actions
-Type=Fixed
+Type=Scalable
+MinSize=16
 
 #16x16 - Fixed size - For use in sidebar(s) smaller toolbar(s) >!!!ONLY!!!<: e.g. Kate movable sidebar/toolbar (search and replace, current project, etc.) or Juk tree view - DO_NOT_USE_ANYWHERE_ELSE - Monochrome
 [actions/16]
 Size=16
 Context=Actions
-Type=Fixed
+Type=Scalable
+MinSize=16
 
 #22x22 - Fixed size - For toolbar icons >!!!ONLY!!!< - DO_NOT_USE_ANYWHERE_ELSE - Monochrome
 [actions/22]
 Size=22
 Context=Actions
-Type=Fixed
+Type=Scalable
+MinSize=16
 
 #24x24 - Fixed size - GTK icons >!!!ONLY!!!< - DO_NOT_USE_ANYWHERE_ELSE - Monochrome
 [actions/24]
 Size=24
 Context=Actions
-Type=Fixed
+Type=Scalable
+MinSize=16
 
 #32x32 - Fixed size - For toolbar icons >!!!ONLY!!!< - DO_NOT_USE_ANYWHERE_ELSE - Monochrome
 [actions/32]
 Size=32
 Context=Actions
-Type=Fixed
+Type=Scalable
+MinSize=16
 
 ########## Apps
 ########## ordered by size
@@ -140,32 +145,36 @@ Type=Fixed
 [apps/16]
 Size=16
 Context=Applications
-Type=Fixed
+Type=Scalable
+MinSize=16
 
 #22x22 - Fixed size - Workaround icon(s) for toolbar(s) button(s) e.g. Dolphin Open Terminal/About Dolphin/About KDE buttons - WRONG_ICON_USAGE_BY_APP - Monochrome
 [apps/22]
 Size=22
 Context=Applications
-Type=Fixed
+Type=Scalable
+MinSize=16
 
 #32x32 - Fixed size - For System Settings icons >!!!ONLY!!!< - Scalable to the following sizes: 32x32 (default), 64x64, 128x128, 256x256 - DO_NOT_USE_ANYWHERE_ELSE - Color
 [apps/32]
 Size=32
 Context=Applications
-Type=Fixed
+Type=Scalable
+MinSize=16
 
 #48x48 - Scalable - For application icons >!!!ONLY!!!< - Scalable to the following sizes: 48x48 (default), 96x96 and 24x24 (not recommended) - DO_NOT_USE_ANYWHERE_ELSE - Color
 [apps/48]
 Size=48
 Context=Applications
-Type=Fixed
+Type=Scalable
+MinSize=16
 
 #64x64
 [apps/64]
 Size=64
 Context=Applications
 Type=Scalable
-MinSize=64
+MinSize=16
 MaxSize=256
 
 #256x256 - Color for applets
@@ -173,7 +182,7 @@ MaxSize=256
 Size=48
 Context=Status
 Type=Scalable
-MinSize=32
+MinSize=16
 MaxSize=256
 
 #256x256 - Animation icons for kwin desktop effects
@@ -181,7 +190,7 @@ MaxSize=256
 Size=64
 Context=Status
 Type=Scalable
-MinSize=32
+MinSize=16
 MaxSize=256
 
 #256x256 - Color
@@ -189,7 +198,7 @@ MaxSize=256
 Size=128
 Context=Applications
 Type=Scalable
-MinSize=32
+MinSize=16
 MaxSize=256
 
 #256x256 - Scalable - For applets / widgets icons >!!!ONLY!!! - DO_NOT_USE_ANYWHERE_ELSE - Color
@@ -197,7 +206,7 @@ MaxSize=256
 Size=256
 Context=Applications
 Type=Scalable
-MinSize=48
+MinSize=16
 MaxSize=256
 
 ########## Categories
@@ -207,7 +216,8 @@ MaxSize=256
 [categories/32]
 Size=32
 Context=Categories
-Type=Fixed
+Type=Scalable
+MinSize=16
 
 ########## Devices
 ########## ordered by size
@@ -216,20 +226,22 @@ Type=Fixed
 [devices/16]
 Size=16
 Context=Devices
-Type=Fixed
+Type=Scalable
+MinSize=16
 
 #22x22 - Fixed size - For small device icons >!!!ONLY!!!< - DO_NOT_USE_ANYWHERE_ELSE - Monochrome
 [devices/22]
 Size=22
 Context=Devices
-Type=Fixed
+Type=Scalable
+MinSize=16
 
 #64x64 - Scalable - For device icons >!!!ONLY!!!< - Scalable to the following sizes: 64x64 (default), 32x32, 128x128, 256x256 - DO_NOT_USE_ANYWHERE_ELSE - Color
 [devices/64]
 Size=64
 Context=Devices
 Type=Scalable
-MinSize=64
+MinSize=16
 MaxSize=256
 
 ########## Emblems
@@ -239,19 +251,22 @@ MaxSize=256
 [emblems/8]
 Size=8
 Context=Emblems
-Type=Fixed
+Type=Scalable
+MinSize=16
 
 #16x16 - Fixed size - File system emblems - DO_NOT_USE_ANYWHERE_ELSE - Monochrome
 [emblems/16]
 Size=16
 Context=Emblems
-Type=Fixed
+Type=Scalable
+MinSize=16
 
 #22x22 - Fixed size - File system emblems - DO_NOT_USE_ANYWHERE_ELSE - Monochrome
 [emblems/22]
 Size=22
 Context=Emblems
-Type=Fixed
+Type=Scalable
+MinSize=16
 
 ########## Emoticons
 ########## ordered by size
@@ -260,7 +275,8 @@ Type=Fixed
 [emotes/22]
 Size=22
 Context=Emotes
-Type=Fixed
+Type=Scalable
+MinSize=16
 
 ########## Mimetypes
 ########## ordered by size
@@ -269,7 +285,7 @@ Type=Fixed
 [mimetypes/16]
 Size=16
 Context=MimeTypes
-Type=Fixed
+Type=Scalable
 MinSize=16
 
 #22x22 - Fixed size - For small file type icons >!!!ONLY!!!< - DO_NOT_USE_ANYWHERE_ELSE - Monochrome
@@ -277,7 +293,7 @@ MinSize=16
 Size=22
 Context=MimeTypes
 Type=Scalable
-MinSize=22
+MinSize=16
 MaxSize=24
 
 #32x32 - Scalable - For file type icons >!!!ONLY!!!< - Scalable to the following sizes: 64x64 (default), 32x32, 128x128, 256x256 - DO_NOT_USE_ANYWHERE_ELSE - Color
@@ -285,7 +301,7 @@ MaxSize=24
 Size=32
 Context=MimeTypes
 Type=Scalable
-MinSize=32
+MinSize=16
 MaxSize=48
 
 #64x64 - Scalable - For file type icons >!!!ONLY!!!< - Scalable to the following sizes: 64x64 (default), 32x32, 128x128, 256x256 - DO_NOT_USE_ANYWHERE_ELSE - Color
@@ -293,7 +309,7 @@ MaxSize=48
 Size=64
 Context=MimeTypes
 Type=Scalable
-MinSize=64
+MinSize=16
 MaxSize=256
 
 ########## Places
@@ -303,21 +319,22 @@ MaxSize=256
 [places/16]
 Size=16
 Context=Places
-Type=Fixed
+Type=Scalable
 MinSize=16
 
 #22x22 - Fixed size - Workaround icon(s) for toolbar(s) button(s) e.g. KMail trash icon - WRONG_ICON_USAGE_BY_APP - Monochrome
 [places/22]
 Size=22
 Context=Places
-Type=Fixed
+Type=Scalable
+MinSize=16
 
 #32x32 - Scalable - For folder icons >!!!ONLY!!!< - Scalable to the following sizes: 64x64 (default), 32x32, 128x128, 256x256 - DO_NOT_USE_ANYWHERE_ELSE - Color
 [places/32]
 Size=32
 Context=Places
 Type=Scalable
-MinSize=32
+MinSize=16
 MaxSize=48
 
 #64x64 - Scalable - For folder icons >!!!ONLY!!!< - Scalable to the following sizes: 64x64 (default), 32x32, 128x128, 256x256 - DO_NOT_USE_ANYWHERE_ELSE - Color
@@ -325,7 +342,7 @@ MaxSize=48
 Size=64
 Context=Places
 Type=Scalable
-MinSize=64
+MinSize=16
 MaxSize=256
 
 ########## Status
@@ -335,27 +352,30 @@ MaxSize=256
 [status/16]
 Size=16
 Context=Status
-Type=Fixed
+Type=Scalable
+MinSize=16
 
 #22x22 - Fixed size - Icon(s) for Plasma theme/System Tray. Not particularly used on Plasma. - DO_NOT_USE_ANYWHERE_ELSE - Monochrome
 [status/22]
 Size=22
 Context=Status
 Type=Scalable
-MinSize=22
+MinSize=16
 MaxSize=32
 
 #24x24 - Fixed size - for GTK apps. - WRONG_ICON_USAGE_BY_APP - Monochrome
 [status/24]
 Size=24
 Context=Status
-Type=Fixed
+Type=Scalable
+MinSize=16
 
 #64x64 - Fixed size - For dialog icons >!!!ONLY!!!< - DO_NOT_USE_ANYWHERE_ELSE - Color
 [status/64]
 Size=64
 Context=Status
-Type=Fixed
+Type=Scalable
+MinSize=16
 
 # Gnome symbolic icons
 
