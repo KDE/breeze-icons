@@ -6,8 +6,8 @@
       }
       </style>
   </defs>
- <path style="fill:currentColor;fill-opacity:1;stroke:none" 
-     d="m 14,5 0,4 5,0 0,-4 -5,0 z M 4,6 4,10 9,10 9,6 4,6 Z m 11,4 0,4 5,0 0,-4 -5,0 z m -6,1 0,4 5,0 0,-4 -5,0 z m -5,5 0,4 5,0 0,-4 -5,0 z m 6,0 0,4 5,0 0,-4 -5,0 z"
-     class="ColorScheme-Text"
-     />
+  <path style="fill:currentColor;fill-opacity:1;stroke:none" 
+    d="m 14,5 0,4 5,0 0,-4 -5,0 z M 4,6 4,10 9,10 9,6 4,6 Z m 11,4 0,4 5,0 0,-4 -5,0 z m -6,1 0,4 5,0 0,-4 -5,0 z m -5,5 0,4 5,0 0,-4 -5,0 z m 6,0 0,4 5,0 0,-4 -5,0 z"
+    class="ColorScheme-Text"
+    />
 </svg>

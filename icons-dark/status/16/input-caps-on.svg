@@ -4,6 +4,9 @@
       .ColorScheme-Text {
         color:#f2f2f2;
       }
+      .ColorScheme-NeutralText {
+        color:#f67400;
+      }
       </style>
   </defs>
  <path style="fill:currentColor;fill-opacity:1;stroke:none" 

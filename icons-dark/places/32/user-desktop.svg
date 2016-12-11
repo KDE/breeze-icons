@@ -39,8 +39,8 @@
   </g>
   <g id="g4783" transform="matrix(1 0 0 1 0 -0.00005)">
    <rect width="31.999952" x="384.57144" y="541.7981" height="3.999968" style="fill:#ffffff;fill-opacity:0.784314" id="rect4267-7"/>
-   <circle cx="414.57144" cy="543.79797" style="fill:#4d4d4d" r="1" id="path4166"/>
-   <path inkscape:connector-curvature="0" style="fill:#4d4d4d" id="rect4183" d="m 2,27 v 1 h 1 v -1 z m 1,1 v 1 h 1 v -1 z" transform="matrix(1 0 0 1 384.57143 515.798)"/>
+   <circle cx="414.57144" cy="543.79797" style="fill:#f2f2f2" r="1" id="path4166"/>
+   <path inkscape:connector-curvature="0" style="fill:#f2f2f2" id="rect4183" d="m 2,27 v 1 h 1 v -1 z m 1,1 v 1 h 1 v -1 z" transform="matrix(1 0 0 1 384.57143 515.798)"/>
   </g>
  </g>
 </svg>
