@@ -1,7 +1,7 @@
 [Icon Theme]
 Name=Breeze Dark
 Name[ar]=نسيم داكن
-Name[ast]=Breeze escuro
+Name[ast]=Breeze Dark
 Name[ca]=Brisa fosca
 Name[ca@valencia]=Brisa fosca
 Name[cs]=Breeze Tmavé
@@ -38,7 +38,6 @@ Name[zh_TW]=Breeze Dark
 
 Comment=Default Plasma 5 Theme for Dark themes
 Comment[ar]=سمة بلازما 5 الافتراضيّة للسّمات الدّاكنة
-Comment[ast]=El tema por defeutu de Plasma 5 pa temes escuros
 Comment[ca]=Tema del Plasma 5 per defecte per temes foscos
 Comment[ca@valencia]=Tema del Plasma 5 per defecte per temes foscos
 Comment[cs]=Výchozí motiv KDE Plasma 5 pro tmavé motivy vzhledu
