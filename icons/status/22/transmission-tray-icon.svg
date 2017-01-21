@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg3738"
+   height="16"
+   width="16"
+   version="1.1"
+   inkscape:version="0.91 r"
+   sodipodi:docname="transmission-tray-icon.svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1317"
+     inkscape:window-height="744"
+     id="namedview6"
+     showgrid="true"
+     inkscape:zoom="16.850971"
+     inkscape:cx="-3.8130202"
+     inkscape:cy="8"
+     inkscape:window-x="49"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3738">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4140" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata13">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="g4136"
+     transform="matrix(0.91797082,0,0,0.86826584,0.62910456,1.5524421)">
+    <path
+       style="color:#ffffff;opacity:0.3;fill:#ffffff;fill-rule:evenodd"
+       d="m 4.0625,1 c -0.554,0 -1,0.446 -1,1 0,0.554 0.446,1 1,1 L 7.0938,3 7.0312,7 2.875,7 1,15 l 0,1 14.062,0 0,-0.9375 L 13.312,7 l -4.25,0 0,3 2,0 L 8.0938,13.062 5.0625,10 l 1.9688,0 0.0625,-3 1.9688,0 0,-4 3,0 c 0.554,0 1,-0.446 1,-1 0,-0.554 -0.446,-1 -1,-1 l -8,0 z"
+       id="path3712-8"
+       inkscape:connector-curvature="0" />
+    <path
+       style="color:#ffffff;fill:#3c3c3c;fill-rule:evenodd"
+       d="m 4.0625,0 c -0.554,0 -1,0.446 -1,1 0,0.554 0.446,1 1,1 L 7.0938,2 7.0312,6 2.875,6 1,14 l 0,1 14.062,0 0,-0.9375 L 13.312,6 l -4.25,0 0,3 2,0 L 8.0938,12.062 5.0625,9 7.0312,9 7.0938,6 l 1.9687,0 0,-4 3,0 c 0.554,0 1,-0.446 1,-1 0,-0.554 -0.446,-1 -1,-1 l -8,0 z"
+       id="path3712"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
