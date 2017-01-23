@@ -100,7 +100,7 @@ KDE-Extensions=.svg
 ########## Directories
 ########## ordered by category and alphabetically
 
-Directories=actions/12,actions/16,actions/22,actions/24,actions/32,apps/16,apps/22,apps/32,apps/48,apps/64,applets/48,applets/64,applets/128,applets/256,categories/32,devices/16,devices/22,devices/64,emblems/8,emblems/16,emblems/22,emotes/22,mimetypes/16,mimetypes/22,mimetypes/32,mimetypes/64,places/16,places/22,places/32,places/64,status/16,status/22,status/24,status/64,actions/symbolic,devices/symbolic,emblems/symbolic,places/symbolic,status/symbolic
+Directories=actions/12,actions/16,actions/22,actions/24,actions/32,apps/16,apps/22,apps/32,apps/48,applets/48,applets/64,applets/128,applets/256,categories/32,devices/16,devices/22,devices/64,emblems/8,emblems/16,emblems/22,emotes/22,mimetypes/16,mimetypes/22,mimetypes/32,mimetypes/64,places/16,places/22,places/32,places/64,status/16,status/22,status/24,status/64,actions/symbolic,devices/symbolic,emblems/symbolic,places/symbolic,status/symbolic
 
 ########## Actions
 ########## ordered by size
@@ -159,12 +159,6 @@ Type=Fixed
 #48x48 - Scalable - For application icons >!!!ONLY!!!< - Scalable to the following sizes: 48x48 (default), 96x96 and 24x24 (not recommended) - DO_NOT_USE_ANYWHERE_ELSE - Color
 [apps/48]
 Size=48
-Context=Applications
-Type=Fixed
-
-#64x64
-[apps/64]
-Size=64
 Context=Applications
 Type=Scalable
 MinSize=64
