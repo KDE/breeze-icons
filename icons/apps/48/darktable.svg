@@ -2,28 +2,28 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" version="1.1">
  <defs>
   <linearGradient id="linearGradient4212">
-   <stop style="stop-color:#ec660a;stop-opacity:1" offset="0"/>
-   <stop style="stop-color:#f79e5f;stop-opacity:1" offset="1"/>
+   <stop style="stop-color:#cd7223;stop-opacity:1" offset="0"/>
+   <stop style="stop-color:#ffc169;stop-opacity:1" offset="1"/>
   </linearGradient>
   <linearGradient id="linearGradient4204">
-   <stop style="stop-color:#ffc831;stop-opacity:1" offset="0"/>
-   <stop style="stop-color:#fff472;stop-opacity:1" offset="1"/>
+   <stop style="stop-color:#ffa92d;stop-opacity:1" offset="0"/>
+   <stop style="stop-color:#edf573;stop-opacity:1" offset="1"/>
   </linearGradient>
   <linearGradient id="linearGradient4196">
-   <stop style="stop-color:#42b021;stop-opacity:1" offset="0"/>
-   <stop style="stop-color:#a8f851;stop-opacity:1" offset="1"/>
+   <stop style="stop-color:#2b4d37;stop-opacity:1" offset="0"/>
+   <stop style="stop-color:#3bb566;stop-opacity:1" offset="1"/>
   </linearGradient>
   <linearGradient id="linearGradient4188">
-   <stop style="stop-color:#1e8ee2;stop-opacity:1" offset="0"/>
-   <stop style="stop-color:#54b2e3;stop-opacity:1" offset="1"/>
+   <stop style="stop-color:#375a7d;stop-opacity:1" offset="0"/>
+   <stop style="stop-color:#54a3d8;stop-opacity:1" offset="1"/>
   </linearGradient>
   <linearGradient id="linearGradient4174">
-   <stop style="stop-color:#8625dd;stop-opacity:1" offset="0"/>
-   <stop style="stop-color:#ae79dd;stop-opacity:1" offset="1"/>
+   <stop style="stop-color:#68377d;stop-opacity:1" offset="0"/>
+   <stop style="stop-color:#cb7cec;stop-opacity:1" offset="1"/>
   </linearGradient>
   <linearGradient id="linearGradient4166">
-   <stop style="stop-color:#f03434;stop-opacity:1" offset="0"/>
-   <stop style="stop-color:#ff5959;stop-opacity:1" offset="1"/>
+   <stop style="stop-color:#bf4231;stop-opacity:1" offset="0"/>
+   <stop style="stop-color:#f58273;stop-opacity:1" offset="1"/>
   </linearGradient>
   <linearGradient id="linearGradient4366">
    <stop style="stop-color:#010609;stop-opacity:1;" offset="0"/>
@@ -35,10 +35,10 @@
   </linearGradient>
   <linearGradient xlink:href="#linearGradient4366" id="linearGradient4372" x1="15.718" y1="6.277" x2="42.144" y2="32.703" gradientUnits="userSpaceOnUse"/>
   <linearGradient xlink:href="#linearGradient4166" id="linearGradient4172" x1="21.523" y1="22.219" x2="13.091" y2="6.458" gradientUnits="userSpaceOnUse"/>
-  <linearGradient xlink:href="#linearGradient4174" id="linearGradient4180" x1="16.92" y1="29.54" x2="6.092" y2="13.344" gradientUnits="userSpaceOnUse" gradientTransform="translate(-0.09345477,0)"/>
-  <linearGradient xlink:href="#linearGradient4188" id="linearGradient4194" x1="20.906" y1="38.193" x2="9.896" y2="24.823" gradientUnits="userSpaceOnUse"/>
-  <linearGradient xlink:href="#linearGradient4196" id="linearGradient4202" x1="35.19" y1="42.52" x2="20.128" y2="26.107" gradientUnits="userSpaceOnUse"/>
-  <linearGradient xlink:href="#linearGradient4204" id="linearGradient4210" x1="43.631" y1="31.602" x2="29.652" y2="18.776" gradientUnits="userSpaceOnUse"/>
+  <linearGradient xlink:href="#linearGradient4174" id="linearGradient4180" x1="16.92" y1="29.54" x2="5.917" y2="11.505" gradientUnits="userSpaceOnUse" gradientTransform="translate(-0.09345477,0)"/>
+  <linearGradient xlink:href="#linearGradient4188" id="linearGradient4194" x1="21.153" y1="41.488" x2="14.308" y2="30.856" gradientUnits="userSpaceOnUse"/>
+  <linearGradient xlink:href="#linearGradient4196" id="linearGradient4202" x1="33.954" y1="41.037" x2="25.384" y2="31.491" gradientUnits="userSpaceOnUse"/>
+  <linearGradient xlink:href="#linearGradient4204" id="linearGradient4210" x1="42.56" y1="31.19" x2="29.652" y2="18.776" gradientUnits="userSpaceOnUse"/>
   <linearGradient xlink:href="#linearGradient4212" id="linearGradient4218" x1="40.262" y1="16.121" x2="24.036" y2="7.317" gradientUnits="userSpaceOnUse"/>
  </defs>
  <circle style="opacity:1;fill:#33393e;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0" cx="24" cy="24" r="19.5"/>
