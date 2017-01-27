@@ -7,15 +7,15 @@
   </linearGradient>
   <linearGradient id="linearGradient4227">
    <stop style="stop-color:#ffdc69;stop-opacity:1" offset="0"/>
-   <stop style="stop-color:#fcfcfc;stop-opacity:1" offset="1"/>
+   <stop style="stop-color:#ffffff;stop-opacity:1" offset="1"/>
   </linearGradient>
   <linearGradient id="linearGradient4202">
    <stop style="stop-color:#f8c04a;stop-opacity:1" offset="0"/>
    <stop style="stop-color:#ffe877;stop-opacity:1" offset="1"/>
   </linearGradient>
   <linearGradient xlink:href="#linearGradient4202" id="linearGradient4208" x1="420.182" y1="542.221" x2="404.176" y2="504.452" gradientUnits="userSpaceOnUse" gradientTransform="translate(-384.57143,-499.798)"/>
-  <linearGradient xlink:href="#linearGradient4227" id="linearGradient4233" x1="32" y1="36" x2="22" y2="10" gradientUnits="userSpaceOnUse" gradientTransform="translate(0,-2.0000604)"/>
-  <linearGradient xlink:href="#linearGradient4295" id="linearGradient4301" x1="17" y1="15" x2="38.79" y2="36.79" gradientUnits="userSpaceOnUse"/>
+  <linearGradient xlink:href="#linearGradient4227" id="linearGradient4233" x1="35.051" y1="44.542" x2="22" y2="10" gradientUnits="userSpaceOnUse" gradientTransform="translate(0,-2.0000604)"/>
+  <linearGradient xlink:href="#linearGradient4295" id="linearGradient4301" x1="17" y1="15" x2="34.519" y2="32.519" gradientUnits="userSpaceOnUse"/>
  </defs>
  <path d="M 24,4 C 12.91981,4 4,12.91936 4,23.99902 4,35.07867 12.91981,44 24,44 35.0802,44 44,35.07867 44,23.99902 44,12.91936 35.0802,4 24,4 Z" style="opacity:1;fill:url(#linearGradient4208);fill-opacity:1;stroke-width:2.79999995;stroke-opacity:0.55026502"/>
  <path d="M 4.0117188,23.498047 C 4.0076471,23.6649 4,23.830178 4,23.998047 4,35.077697 12.91981,44 24,44 35.0802,44 44,35.077697 44,23.998047 44,23.830178 43.9924,23.6649 43.98828,23.498047 43.724105,34.344331 34.91264,43 24,43 13.08737,43 4.2758954,34.344331 4.0117188,23.498047 Z" style="opacity:0.15;fill:#000000;fill-opacity:1;stroke-width:2.79999995;stroke-opacity:0.55026502"/>
