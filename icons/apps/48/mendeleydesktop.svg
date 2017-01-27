@@ -3,7 +3,7 @@
  <defs>
   <linearGradient id="linearGradient4144">
    <stop style="stop-color:#ffffff;stop-opacity:1;" offset="0"/>
-   <stop style="stop-color:#e56969;stop-opacity:1" offset="1"/>
+   <stop style="stop-color:#eea9a9;stop-opacity:1" offset="1"/>
   </linearGradient>
   <linearGradient id="linearGradient4176">
    <stop style="stop-color:#000000;stop-opacity:1;" offset="0"/>
@@ -15,7 +15,7 @@
   </linearGradient>
   <linearGradient xlink:href="#linearGradient4159" id="linearGradient4165" x1="36.771" y1="43.737" x2="22.872" y2="2.652" gradientUnits="userSpaceOnUse"/>
   <linearGradient xlink:href="#linearGradient4176" id="linearGradient4182" x1="15.422" y1="13.478" x2="35.019" y2="33.075" gradientUnits="userSpaceOnUse"/>
-  <linearGradient xlink:href="#linearGradient4144" id="linearGradient4150" x1="13.413" y1="9.349" x2="27.879" y2="34.944" gradientUnits="userSpaceOnUse"/>
+  <linearGradient xlink:href="#linearGradient4144" id="linearGradient4150" x1="14.023" y1="8.129" x2="27.879" y2="34.944" gradientUnits="userSpaceOnUse"/>
  </defs>
  <rect style="fill:url(#linearGradient4165);fill-opacity:1" rx="3" y="4.01" x="4.03" height="40" width="40"/>
  <path style="opacity:0.15" d="m 4.0248,40.00825 0,1 c 0,1.662 1.338,3 3,3 l 34,0 c 1.662,0 3,-1.338 3,-3 l 0,-1 c 0,1.662 -1.338,3 -3,3 l -34,0 c -1.662,0 -3,-1.338 -3,-3 z"/>
