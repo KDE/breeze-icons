@@ -36,10 +36,10 @@
  </g>
  <g stroke-linejoin="bevel" stroke-width="2">
   <g stroke-linecap="round">
-   <rect width="4" x="-4.121" opacity=".2" y="14.849" fill="url(#b)" height="15" transform="rotate(-45)"/>
+   <rect width="4" x="-4.12" opacity=".2" y="14.85" fill="url(#b)" height="15" transform="rotate(-45)"/>
    <circle fill="url(#h)" cx="-12" cy="9" r="2" transform="rotate(-90)"/>
    <circle fill="#ffffff" cx="9" cy="12" r="1"/>
-   <rect width="6" x="-8.657" opacity=".2" y="36.77" fill="url(#d)" height="12" transform="rotate(-45)"/>
+   <rect width="6" x="-8.66" opacity=".2" y="36.77" fill="url(#d)" height="12" transform="rotate(-45)"/>
    <circle fill="url(#j)" cx="-30" cy="22" r="3" transform="rotate(-90)"/>
   </g>
   <path opacity=".2" fill="url(#c)" d="m1.743 31.82h5v14h-5z" transform="rotate(-45)"/>

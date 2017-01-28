@@ -35,7 +35,7 @@
   </g>
   <path fill="url(#a)" d="m8 8v10h10v-10zm11 0v10h10v-10zm11 0v10h10v-10zm-22 11v10h10v-10zm11 0v10h10v-10zm11.266 0c-.147 0-.266.119-.266.266v9.469c0 .147.119.266.266.266h9.469c.147 0 .266-.119.266-.266v-9.469c0-.147-.119-.266-.266-.266zm-11.266 11v10h10v-10zm11 0v10h10v-10zm-13.854.646l-8.484 8.484.707.707 8.484-8.484z" transform="translate(384.57 499.8)"/>
   <path fill="#3daefd" d="m404.94 520.44l-.707.707 8.485 8.485.707-.707z"/>
-  <rect width="7" x="-84.977" opacity=".2" y="651.51" fill="url(#c)" height="9" stroke-linecap="round" transform="rotate(-45)"/>
+  <rect width="7" x="-84.98" opacity=".2" y="651.51" fill="url(#c)" height="9" stroke-linecap="round" transform="rotate(-45)"/>
   <path opacity=".2" fill="url(#d)" d="m414.55 506.8l-2.975 2.975 6 6.03 5-4-5-5z"/>
   <g fill="#3daefd" stroke-linecap="round">
    <rect width="12" x="413.57" y="506.8" height="1"/>
@@ -43,7 +43,7 @@
   </g>
   <path opacity=".2" fill="url(#e)" d="m425.57 506.8l-2.975 2.975 2.975 2.975z"/>
   <g stroke-linecap="round">
-   <rect width="7" x="-84.977" opacity=".2" y="667.06" fill="url(#f)" height="9" transform="rotate(-45)"/>
+   <rect width="7" x="-84.98" opacity=".2" y="667.06" fill="url(#f)" height="9" transform="rotate(-45)"/>
    <rect width="7" x="-92.76" opacity=".2" y="659.28" fill="url(#g)" height="9" transform="rotate(-45)"/>
    <circle fill="url(#h)" cx="425.07" cy="507.3" r="3.5"/>
   </g>

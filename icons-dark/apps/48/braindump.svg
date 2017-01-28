@@ -46,8 +46,8 @@
   <path opacity=".2" fill="url(#f)" d="m21 41l1 1 5-1v-2l-6 1z"/>
  </g>
  <g fill="url(#c)" stroke-linejoin="bevel" stroke-linecap="round" stroke-width="6.2">
-  <rect width="8" x="8.441" y="45.798" rx=".5" height="1" transform="rotate(-15)"/>
-  <rect width="8" x="8.959" y="43.866" rx=".5" height="1" transform="rotate(-15)"/>
+  <rect width="8" x="8.44" y="45.8" rx=".5" height="1" transform="rotate(-15)"/>
+  <rect width="8" x="8.96" y="43.87" rx=".5" height="1" transform="rotate(-15)"/>
  </g>
  <g fill-rule="evenodd">
   <path opacity=".2" fill="url(#e)" d="m25 18l-2 14 5.342 5.342c.398-1.314-.012-3.646 1.658-5.189 1.506-1.391 3.01-3.059 3.66-5.492z"/>
