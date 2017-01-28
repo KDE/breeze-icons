@@ -4,10 +4,6 @@
    <stop stop-color="#2a2c2f"/>
    <stop offset="1" stop-color="#424649"/>
   </linearGradient>
-  <linearGradient y1="543.8" x1="428.57" y2="503.8" gradientUnits="userSpaceOnUse" x2="388.57">
-   <stop stop-color="#faae2a"/>
-   <stop offset="1" stop-color="#ffc35a"/>
-  </linearGradient>
   <linearGradient id="b" y1="42" x1="42" y2="6" x2="6" gradientUnits="userSpaceOnUse">
    <stop stop-color="#989a9b"/>
    <stop offset="1" stop-color="#f6f6f7"/>
@@ -18,10 +14,6 @@
   </linearGradient>
   <linearGradient xlink:href="#c" id="d" y1="520.94" x1="410.88" y2="532.63" x2="422.57" gradientUnits="userSpaceOnUse" gradientTransform="translate(-384.57-499.8)"/>
   <linearGradient xlink:href="#a" id="e" y1="543.8" x1="428.57" y2="503.8" x2="388.57" gradientUnits="userSpaceOnUse"/>
-  <linearGradient y1="506.8" x1="391.57" y2="540.8" x2="425.57" gradientUnits="userSpaceOnUse">
-   <stop stop-color="#f39c12"/>
-   <stop offset="1" stop-color="#ffc35a"/>
-  </linearGradient>
   <linearGradient xlink:href="#a" id="f" x1="391.57" x2="461.2" gradientUnits="userSpaceOnUse" gradientTransform="translate(250.71-442.32)"/>
  </defs>
  <g transform="translate(-384.57-499.8)">
