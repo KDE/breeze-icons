@@ -154,7 +154,9 @@ Type=Fixed
 [apps/32]
 Size=32
 Context=Applications
-Type=Fixed
+Type=Scalable
+MinSize=32
+MaxSize=256
 
 #48x48 - Scalable - For application icons >!!!ONLY!!!< - Scalable to the following sizes: 48x48 (default), 96x96 and 24x24 (not recommended) - DO_NOT_USE_ANYWHERE_ELSE - Color
 [apps/48]
