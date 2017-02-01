@@ -89,6 +89,10 @@ public:
         return v;
     }
 
+    /**
+     * @returns list of all icon's fileinfo (first level only, selected types
+     *          only)
+     */
     QList<QFileInfo> allIcons()
     {
         QList<QFileInfo> icons;
