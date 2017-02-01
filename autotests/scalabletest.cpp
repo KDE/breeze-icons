@@ -41,6 +41,8 @@ public:
         , context(parseContext(contextString))
         , type(parseType(cg.readEntry("Type", QString("Threshold"))))
     {
+        Q_ASSERT_X(context != -1, Q_FUNC_INFO,
+                   QString("Don't know how to handle 'Context=%1' of config group '[%2]'").arg(contextString, cg.name()).toLatin1());
     }
 
     static QMetaEnum findEnum(const char *name)
@@ -77,7 +79,6 @@ public:
             { QStringLiteral("Status"), KIconLoader::StatusIcon },
         };
         auto value = hash.value(string, -1);
-        Q_ASSERT_X(value != -1, Q_FUNC_INFO, QString("unmapped context %1").arg(string).toLatin1());
         return (KIconLoader::Context)value;
     }
 
