@@ -34,15 +34,29 @@ class Dir
 {
 public:
     Dir(const KConfigGroup &cg, const QString &themeDir_)
-        : themeDir(themeDir_)
+        : exists(checkExist(cg))
+        , themeDir(themeDir_)
         , path(cg.name())
         , size(cg.readEntry("Size", 0))
         , contextString(cg.readEntry("Context", QString()))
         , context(parseContext(contextString))
         , type(parseType(cg.readEntry("Type", QString("Threshold"))))
     {
-        Q_ASSERT_X(context != -1, Q_FUNC_INFO,
-                   QString("Don't know how to handle 'Context=%1' of config group '[%2]'").arg(contextString, cg.name()).toLatin1());
+        QVERIFY2(context != -1,
+                 QString("Don't know how to handle 'Context=%1' of config group '[%2]'").arg(contextString, cg.name()).toLatin1());
+    }
+
+    static void verify(const KConfigGroup &cg)
+    {
+        QVERIFY2(cg.exists(),
+                 QString("The theme's 'Directories' specifies '%1' as directory which appears to"
+                         " have no associated group entry '[%1]'").arg(cg.name()).toLatin1());
+    }
+
+    static bool checkExist(const KConfigGroup &cg)
+    {
+        verify(cg); // extra func since QVERIFY2 is a return
+        return cg.isValid();
     }
 
     static QMetaEnum findEnum(const char *name)
@@ -110,6 +124,7 @@ public:
         return icons;
     }
 
+    bool exists;
     QString themeDir;
     QString path;
     uint size;
