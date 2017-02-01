@@ -27,8 +27,9 @@
 
 #include "testhelpers.h"
 
-// https://api.kde.org/frameworks/kiconthemes/html/classKIconLoader.html
-
+/**
+ * Represents icon directory to conduct simple icon lookup within.
+ */
 class Dir
 {
 public:
