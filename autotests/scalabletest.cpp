@@ -235,6 +235,7 @@ private Q_SLOTS:
         if (notScalableIcons.empty()) {
             return;
         }
+        notScalableIcons.removeDuplicates();
         QFAIL(QString("The following icons are not available in a scalable directory:\n  %1")
               .arg(notScalableIcons.join("\n  "))
               .toLatin1());
