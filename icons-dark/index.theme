@@ -211,7 +211,9 @@ MaxSize=256
 [categories/32]
 Size=32
 Context=Categories
-Type=Fixed
+Type=Scalable
+MinSize=32
+MaxSize=256
 
 ########## Devices
 ########## ordered by size
