@@ -5,7 +5,7 @@ project(BreezeIcons VERSION ${KF5_VERSION})
 
 # ECM setup
 include(FeatureSummary)
-find_package(ECM 5.30.0  NO_MODULE)
+find_package(ECM 5.31.0  NO_MODULE)
 set_package_properties(ECM PROPERTIES TYPE REQUIRED DESCRIPTION "Extra CMake Modules." URL "https://projects.kde.org/projects/kdesupport/extra-cmake-modules")
 feature_summary(WHAT REQUIRED_PACKAGES_NOT_FOUND FATAL_ON_MISSING_REQUIRED_PACKAGES)
 
