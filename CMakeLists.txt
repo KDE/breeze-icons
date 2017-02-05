@@ -78,4 +78,4 @@ add_subdirectory(autotests)
 add_subdirectory(icons)
 add_subdirectory(icons-dark)
 
-feature_summary(WHAT ALL FATAL_ON_MISSING_REQUIRED_PACKAGES)
+feature_summary(WHAT ALL FATAL_ON_MISSING_REQUIRED_PACKAGES INCLUDE_QUIET_PACKAGES)
