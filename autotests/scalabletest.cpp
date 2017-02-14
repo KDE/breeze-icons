@@ -1,5 +1,6 @@
 /*
     Copyright 2017 Harald Sitter <sitter@kde.org>
+    Copyright 2017 Sune Vuorela <sune@kde.org>
 
     This library is free software; you can redistribute it and/or
     modify it under the terms of the GNU Lesser General Public
@@ -21,11 +22,38 @@
 #include <QObject>
 #include <QtTest>
 
-#include <KConfig>
-#include <KConfigGroup>
-#include <KIconLoader>
-
+#include <QSettings> // parsing the ini files as desktop files
 #include "testhelpers.h"
+
+// lift a bit of code from KIconLoader to get the unit test running without tier 3 libraries
+class KIconLoaderDummy : public QObject
+{
+Q_OBJECT
+public:
+    enum Context {
+        Any,
+        Action,
+        Application,
+        Device,
+        FileSystem,
+        MimeType,
+        Animation,
+        Category,
+        Emblem,
+        Emote,
+        International,
+        Place,
+        StatusIcon
+    };
+    Q_ENUM(Context)
+    enum Type {
+        Fixed,
+        Scalable,
+        Threshold
+    };
+    Q_ENUM(Type)
+};
+
 
 /**
  * Represents icon directory to conduct simple icon lookup within.
@@ -33,39 +61,26 @@
 class Dir
 {
 public:
-    Dir(const KConfigGroup &cg, const QString &themeDir_)
-        : exists(checkExist(cg))
-        , themeDir(themeDir_)
-        , path(cg.name())
-        , size(cg.readEntry("Size", 0))
-        , contextString(cg.readEntry("Context", QString()))
+    Dir(const QSettings  &cg, const QString &themeDir_)
+        :
+          themeDir(themeDir_)
+        , path(cg.group())
+        , size(cg.value("Size", 0).toInt())
+        , contextString(cg.value("Context", QString()).toString())
         , context(parseContext(contextString))
-        , type(parseType(cg.readEntry("Type", QString("Threshold"))))
+        , type(parseType(cg.value("Type", QString("Threshold")).toString()))
     {
         QVERIFY2(context != -1,
-                 QString("Don't know how to handle 'Context=%1' of config group '[%2]'").arg(contextString, cg.name()).toLatin1());
-    }
-
-    static void verify(const KConfigGroup &cg)
-    {
-        QVERIFY2(cg.exists(),
-                 QString("The theme's 'Directories' specifies '%1' as directory which appears to"
-                         " have no associated group entry '[%1]'").arg(cg.name()).toLatin1());
-    }
-
-    static bool checkExist(const KConfigGroup &cg)
-    {
-        verify(cg); // extra func since QVERIFY2 is a return
-        return cg.isValid();
+                 QString("Don't know how to handle 'Context=%1' of config group '[%2]'").arg(contextString, cg.group()).toLatin1());
     }
 
     static QMetaEnum findEnum(const char *name)
     {
-        auto mo = KIconLoader::staticMetaObject;
+        auto mo = KIconLoaderDummy::staticMetaObject;
         for (int i = 0; i < mo.enumeratorCount(); ++i) {
             auto enumerator = mo.enumerator(i);
             if (strcmp(enumerator.name(), name) == 0) {
-                return KIconLoader::staticMetaObject.enumerator(i);
+                return KIconLoaderDummy::staticMetaObject.enumerator(i);
             }
         }
         Q_ASSERT(false); // failed to resolve enum
@@ -78,28 +93,29 @@ public:
         return e;
     }
 
-    KIconLoader::Context parseContext(const QString &string)
+    static KIconLoaderDummy::Context parseContext(const QString &string)
     {
         // Can't use QMetaEnum as the enum names are singular, the entry values are plural though.
         static QHash<QString, int> hash {
-            { QStringLiteral("Actions"), KIconLoader::Action },
-            { QStringLiteral("Applications"), KIconLoader::Application },
-            { QStringLiteral("Categories"), KIconLoader::Category },
-            { QStringLiteral("Devices"), KIconLoader::Device },
-            { QStringLiteral("Emblems"), KIconLoader::Emblem },
-            { QStringLiteral("Emotes"), KIconLoader::Emote },
-            { QStringLiteral("MimeTypes"), KIconLoader::MimeType },
-            { QStringLiteral("Places"), KIconLoader::Place },
-            { QStringLiteral("Status"), KIconLoader::StatusIcon },
+            { QStringLiteral("Actions"), KIconLoaderDummy::Action },
+            { QStringLiteral("Applications"), KIconLoaderDummy::Application },
+            { QStringLiteral("Categories"), KIconLoaderDummy::Category },
+            { QStringLiteral("Devices"), KIconLoaderDummy::Device },
+            { QStringLiteral("Emblems"), KIconLoaderDummy::Emblem },
+            { QStringLiteral("Emotes"), KIconLoaderDummy::Emote },
+            { QStringLiteral("MimeTypes"), KIconLoaderDummy::MimeType },
+            { QStringLiteral("Places"), KIconLoaderDummy::Place },
+            { QStringLiteral("Status"), KIconLoaderDummy::StatusIcon },
         };
         auto value = hash.value(string, -1);
-        return (KIconLoader::Context)value;
+	Q_ASSERT(value != -1);
+        return (KIconLoaderDummy::Context)value;
     }
 
-    KIconLoader::Type parseType(const QString &string)
+    static KIconLoaderDummy::Type parseType(const QString &string)
     {
         bool ok;
-        auto v = (KIconLoader::Type)typeEnum().keyToValue(string.toLatin1(), &ok);
+        auto v = (KIconLoaderDummy::Type)typeEnum().keyToValue(string.toLatin1(), &ok);
         Q_ASSERT(ok);
         return v;
     }
@@ -124,49 +140,52 @@ public:
         return icons;
     }
 
-    bool exists;
     QString themeDir;
     QString path;
     uint size;
     QString contextString;
-    KIconLoader::Context context;
-    KIconLoader::Type type;
+    KIconLoaderDummy::Context context;
+    KIconLoaderDummy::Type type;
 };
 
 // Declare so we can put them into the QTest data table.
-Q_DECLARE_METATYPE(KIconLoader::Context)
-Q_DECLARE_METATYPE(Dir*)
+Q_DECLARE_METATYPE(KIconLoaderDummy::Context)
+Q_DECLARE_METATYPE(QSharedPointer<Dir>)
 
 class ScalableTest : public QObject
 {
     Q_OBJECT
 
 private Q_SLOTS:
-    // NB: test_scalable_data leaks Dir*. Should this test grow more slots it may be wise to
-    //     introduce a cleanup() to make sure the test doesn't OOM.
-
     void test_scalable_data()
     {
         for (auto dir : ICON_DIRS) {
             auto themeDir = PROJECT_SOURCE_DIR + QStringLiteral("/") + dir;
 
-            QHash<KIconLoader::Context, QList<Dir *>> contextHash;
-            QHash<KIconLoader::Context, QString> contextStringHash;
+            QHash<KIconLoaderDummy::Context, QList<QSharedPointer<Dir>>> contextHash;
+            QHash<KIconLoaderDummy::Context, QString> contextStringHash;
 
-            KConfig config(themeDir + "/index.theme");
-            auto directoryPaths = config.group("Icon Theme").readEntry("Directories", QString()).split(",");
+            QSettings config(themeDir + "/index.theme", QSettings::IniFormat);
+            auto keys = config.allKeys();
+            config.beginGroup("Icon Theme");
+            auto directoryPaths = config.value("Directories", QString()).toStringList();
+            config.endGroup();
             QVERIFY(!directoryPaths.isEmpty());
             for (auto directoryPath : directoryPaths) {
-                auto dir = new Dir(config.group(directoryPath), themeDir);
+                config.beginGroup(directoryPath);
+                QVERIFY2(keys.contains(directoryPath+"/Size"),QString("The theme's 'Directories' specifies '%1' as directory which appears to"
+                                                                                         " have no associated group entry '[%1]'").arg(directoryPath).toLatin1());
+                auto dir = QSharedPointer<Dir>::create(config, themeDir);
+                config.endGroup();
                 contextHash[dir->context].append(dir);
                 contextStringHash[dir->context] = (dir->contextString);
             }
 
-            QTest::addColumn<KIconLoader::Context>("context");
-            QTest::addColumn<QList<Dir *>>("dirs");
+            QTest::addColumn<KIconLoaderDummy::Context>("context");
+            QTest::addColumn<QList<QSharedPointer<Dir>>>("dirs");
 
             for (auto key : contextHash.keys()) {
-                if (key != KIconLoader::Application) {
+                if (key != KIconLoaderDummy::Application) {
                     qDebug() << "Only testing Application context for now.";
                     continue;
                 }
@@ -180,27 +199,27 @@ private Q_SLOTS:
 
     void test_scalable()
     {
-        QFETCH(KIconLoader::Context, context);
-        QFETCH(QList<Dir *>, dirs);
+        QFETCH(KIconLoaderDummy::Context, context);
+        QFETCH(QList<QSharedPointer<Dir>>, dirs);
 
-        QList<Dir *> fixedDirs;
-        QList<Dir *> scalableDirs;
+        QList<QSharedPointer<Dir>> fixedDirs;
+        QList<QSharedPointer<Dir>> scalableDirs;
         for (auto dir : dirs) {
             switch (dir->type) {
-            case KIconLoader::Scalable:
+            case KIconLoaderDummy::Scalable:
                 scalableDirs << dir;
                 break;
-            case KIconLoader::Fixed:
+            case KIconLoaderDummy::Fixed:
                 fixedDirs << dir;
                 break;
-            case KIconLoader::Threshold:
+            case KIconLoaderDummy::Threshold:
                 QVERIFY2(false, "Test does not support threshold icons right now.");
             }
         }
 
         // FIXME: context should be translated through qenum
         switch (context) {
-        case KIconLoader::Application:
+        case KIconLoaderDummy::Application:
             // Treat this as a problem.
             QVERIFY2(!scalableDirs.empty(), "This icon context has no scalable directory at all!");
             break;
@@ -248,18 +267,18 @@ private Q_SLOTS:
 
     void test_scalableDuplicates()
     {
-        QFETCH(QList<Dir *>, dirs);
+        QFETCH(QList<QSharedPointer<Dir>>, dirs);
 
-        QList<Dir *> scalableDirs;
+        QList<QSharedPointer<Dir>> scalableDirs;
         for (auto dir : dirs) {
             switch (dir->type) {
-            case KIconLoader::Scalable:
+            case KIconLoaderDummy::Scalable:
                 scalableDirs << dir;
                 break;
-            case KIconLoader::Fixed:
+            case KIconLoaderDummy::Fixed:
                 // Not of interest in this test.
                 break;
-            case KIconLoader::Threshold:
+            case KIconLoaderDummy::Threshold:
                 QVERIFY2(false, "Test does not support threshold icons right now.");
             }
         }
