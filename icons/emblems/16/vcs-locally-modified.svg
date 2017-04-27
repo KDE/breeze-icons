@@ -4,14 +4,14 @@
       .ColorScheme-Text {
         color:#4d4d4d;
       }
-      .ColorScheme-NeutralText {
-        color:#f67400;
+      .ColorScheme-PositiveText {
+        color:#27ae60;
       }
       </style>
   </defs>
   <path
        style="fill:currentColor;fill-opacity:1;stroke:none" 
-     class="ColorScheme-NeutralText"
+     class="ColorScheme-PositiveText"
    d="M 8 1 A 7 7 0 0 0 1 8 A 7 7 0 0 0 8 15 A 7 7 0 0 0 15 8 A 7 7 0 0 0 8 1 z "
       />
  <path 
