@@ -64,14 +64,16 @@ function(generate_binary_resource target outfile)
 endfunction()
 endif()
 
-find_program(BASH_EXE bash)
-if (BASH_EXE)
-    file(GLOB_RECURSE SVGS "*.svg")
-    add_custom_target(breeze-validate-svg ALL
-        COMMAND ${BASH_EXE} ${CMAKE_SOURCE_DIR}/validate_svg.sh
-        WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
-        SOURCES ${SVGS}
-    )
+if(NOT WIN32)
+  find_program(BASH_EXE bash)
+  if (BASH_EXE)
+      file(GLOB_RECURSE SVGS "*.svg")
+      add_custom_target(breeze-validate-svg ALL
+          COMMAND ${BASH_EXE} ${CMAKE_SOURCE_DIR}/validate_svg.sh
+          WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
+          SOURCES ${SVGS}
+      )
+  endif()
 endif()
 
 add_subdirectory(autotests)
