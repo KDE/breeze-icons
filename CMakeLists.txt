@@ -65,15 +65,16 @@ endfunction()
 endif()
 
 if(NOT WIN32)
-  find_program(BASH_EXE bash)
-  if (BASH_EXE)
-      file(GLOB_RECURSE SVGS "*.svg")
-      add_custom_target(breeze-validate-svg ALL
-          COMMAND ${BASH_EXE} ${CMAKE_SOURCE_DIR}/validate_svg.sh
-          WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
-          SOURCES ${SVGS}
-      )
-  endif()
+    find_program(SH_EXE sh)
+    find_program(XMLLINT_EXE xmllint)
+    if(SH_EXE AND XMLLINT_EXE)
+        file(GLOB_RECURSE SVGS "*.svg")
+        add_custom_target(breeze-validate-svg ALL
+            COMMAND ${SH_EXE} ${CMAKE_SOURCE_DIR}/validate_svg.sh
+            WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
+            SOURCES ${SVGS}
+        )
+    endif()
 endif()
 
 add_subdirectory(autotests)

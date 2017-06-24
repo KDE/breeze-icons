@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 # convert light colors to breeze-dark colors
 
 find -name "*.svg" -o -name "*.SVG" | while read i;

@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/sh
 
 find . -name '*.svg' -exec xmllint --noout {} + 2> xmlerrors
 if [ -s xmlerrors ]; then
