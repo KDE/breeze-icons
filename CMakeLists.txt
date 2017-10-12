@@ -19,7 +19,14 @@ include(GtkUpdateIconCache)
 # Dependencies
 set(REQUIRED_QT_VERSION 5.7.0)
 
-option(BINARY_ICONS_RESOURCE "Install Qt binary resource files containing breeze icons (breeze-icons.rcc, breeze-icons-dark.rcc)" ON)
+# When cross-compiling, we should compile qrcAlias natively (against a native Qt build)
+if (CMAKE_CROSSCOMPILING)
+    set(BINARY_ICONS_RESOURCE_OPTION_DEFAULT OFF)
+else()
+    set(BINARY_ICONS_RESOURCE_OPTION_DEFAULT ON)
+endif()
+
+option(BINARY_ICONS_RESOURCE "Install Qt binary resource files containing breeze icons (breeze-icons.rcc, breeze-icons-dark.rcc)" ${BINARY_ICONS_RESOURCE_OPTION_DEFAULT})
 option(SKIP_INSTALL_ICONS "Skip installing the icons files" OFF)
 
 if(BINARY_ICONS_RESOURCE)
