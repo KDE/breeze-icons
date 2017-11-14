@@ -238,7 +238,7 @@ Type=Fixed
 Size=64
 Context=Devices
 Type=Scalable
-MinSize=64
+MinSize=24
 MaxSize=256
 
 ########## Emblems
@@ -326,7 +326,7 @@ Type=Fixed
 Size=32
 Context=Places
 Type=Scalable
-MinSize=32
+MinSize=24
 MaxSize=48
 
 #64x64 - Scalable - For folder icons >!!!ONLY!!!< - Scalable to the following sizes: 64x64 (default), 32x32, 128x128, 256x256 - DO_NOT_USE_ANYWHERE_ELSE - Color
@@ -334,7 +334,7 @@ MaxSize=48
 Size=64
 Context=Places
 Type=Scalable
-MinSize=64
+MinSize=32
 MaxSize=256
 
 ########## Status
