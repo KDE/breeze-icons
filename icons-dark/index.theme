@@ -363,8 +363,9 @@ Type=Fixed
 #64x64 - Fixed size - For dialog icons >!!!ONLY!!!< - DO_NOT_USE_ANYWHERE_ELSE - Color
 [status/64]
 Size=64
-Context=Status
-Type=Fixed
+Type=Scalable
+MinSize=22
+MaxSize=256
 
 # Gnome symbolic icons
 
