@@ -27,12 +27,33 @@ class DupeTest : public QObject
 {
     Q_OBJECT
 
+    QStringList splitOnUnescapedSpace(const QString &line)
+    {
+        QStringList ret;
+        const int lineLength = line.length();
+        int start = 0;
+        for (int pos = 0; pos < lineLength; ++pos) {
+            const QChar ch = line[pos];
+            if (ch == QLatin1Char('\\')) {
+                ++pos;
+                continue;
+            } else if (ch == QLatin1Char(' ')) {
+                ret.append(line.mid(start, pos - start));
+                start = pos + 1;
+            }
+        }
+        if (start < lineLength) {
+            ret.append(line.mid(start));
+        }
+        return ret;
+    }
+
     void readLines(QProcess &proc)
     {
         QString line;
         while (proc.canReadLine() || proc.waitForReadyRead()) {
             line = proc.readLine();
-            failListContent(line.simplified().split(QChar(' ')),
+            failListContent(splitOnUnescapedSpace(line.simplified()),
                             "The following files are duplicates but not links:\n");
         }
     }
