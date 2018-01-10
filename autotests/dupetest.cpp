@@ -1,5 +1,5 @@
 /*
-    Copyright 2016 Harald Sitter <sitter@kde.org>
+    Copyright 2016-2018 Harald Sitter <sitter@kde.org>
 
     This library is free software; you can redistribute it and/or
     modify it under the terms of the GNU Lesser General Public
@@ -20,6 +20,7 @@
 
 #include <QObject>
 #include <QtTest>
+#include <KShell>
 
 #include "testhelpers.h"
 
@@ -32,7 +33,8 @@ class DupeTest : public QObject
         QString line;
         while (proc.canReadLine() || proc.waitForReadyRead()) {
             line = proc.readLine();
-            failListContent(line.simplified().split(QChar(' ')),
+            // Split through KShell so we don't trip over paths with spaces.
+            failListContent(KShell::splitArgs(line.simplified()),
                             "The following files are duplicates but not links:\n");
         }
     }
