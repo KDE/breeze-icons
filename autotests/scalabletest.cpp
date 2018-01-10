@@ -61,7 +61,7 @@ public:
 class Dir
 {
 public:
-    Dir(const QSettings  &cg, const QString &themeDir_)
+    Dir(const QSettings &cg, const QString &themeDir_)
         :
           themeDir(themeDir_)
         , path(cg.group())
@@ -70,8 +70,10 @@ public:
         , context(parseContext(contextString))
         , type(parseType(cg.value("Type", QString("Threshold")).toString()))
     {
+        QVERIFY2(!contextString.isEmpty(),
+                 QString("Missing 'Context' key in file %1, config group '[%2]'").arg(cg.fileName(), cg.group()).toLatin1());
         QVERIFY2(context != -1,
-                 QString("Don't know how to handle 'Context=%1' of config group '[%2]'").arg(contextString, cg.group()).toLatin1());
+                 QString("Don't know how to handle 'Context=%1' in file %2, config group '[%3]'").arg(cg.fileName(), contextString, cg.group()).toLatin1());
     }
 
     static QMetaEnum findEnum(const char *name)
@@ -107,9 +109,8 @@ public:
             { QStringLiteral("Places"), KIconLoaderDummy::Place },
             { QStringLiteral("Status"), KIconLoaderDummy::StatusIcon },
         };
-        auto value = hash.value(string, -1);
-	Q_ASSERT(value != -1);
-        return (KIconLoaderDummy::Context)value;
+        const auto value = hash.value(string, -1);
+        return static_cast<KIconLoaderDummy::Context>(value); // the caller will check that it wasn't -1
     }
 
     static KIconLoaderDummy::Type parseType(const QString &string)
