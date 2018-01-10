@@ -4,7 +4,6 @@ include(ECMAddTests)
 
 if(BUILD_TESTING)
     find_package(Qt5 ${REQUIRED_QT_VERSION} CONFIG REQUIRED Core Test)
-    find_package(KF5CoreAddons ${KF5_VERSION} REQUIRED)
 
     configure_file(testdata.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/testdata.h)
     ecm_add_test(symlinktest.cpp
@@ -17,7 +16,7 @@ if(BUILD_TESTING)
     )
     ecm_add_test(dupetest.cpp
         TEST_NAME "dupe"
-        LINK_LIBRARIES Qt5::Test KF5::CoreAddons
+        LINK_LIBRARIES Qt5::Test
     )
     ecm_add_test(scalabletest.cpp
         TEST_NAME "scalable"
