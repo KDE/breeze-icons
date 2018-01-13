@@ -147,7 +147,7 @@ Size=16
 Context=Animations
 Type=Fixed
 
-#22x22 - Scalable 
+#22x22 - Scalable
 [animations/22]
 Size=22
 Context=Animations
