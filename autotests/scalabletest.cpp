@@ -73,7 +73,7 @@ public:
         QVERIFY2(!contextString.isEmpty(),
                  QString("Missing 'Context' key in file %1, config group '[%2]'").arg(cg.fileName(), cg.group()).toLatin1());
         QVERIFY2(context != -1,
-                 QString("Don't know how to handle 'Context=%1' in file %2, config group '[%3]'").arg(cg.fileName(), contextString, cg.group()).toLatin1());
+                 QString("Don't know how to handle 'Context=%1' in file %2, config group '[%3]'").arg(contextString, cg.fileName(), cg.group()).toLatin1());
     }
 
     static QMetaEnum findEnum(const char *name)
@@ -100,6 +100,7 @@ public:
         // Can't use QMetaEnum as the enum names are singular, the entry values are plural though.
         static QHash<QString, int> hash {
             { QStringLiteral("Actions"), KIconLoaderDummy::Action },
+            { QStringLiteral("Animations"), KIconLoaderDummy::Animation },
             { QStringLiteral("Applications"), KIconLoaderDummy::Application },
             { QStringLiteral("Categories"), KIconLoaderDummy::Category },
             { QStringLiteral("Devices"), KIconLoaderDummy::Device },
