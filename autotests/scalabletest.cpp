@@ -175,8 +175,8 @@ private Q_SLOTS:
             QVERIFY(!directoryPaths.isEmpty());
             for (auto directoryPath : directoryPaths) {
                 config.beginGroup(directoryPath);
-                QVERIFY2(keys.contains(directoryPath+"/Size"),QString("The theme's 'Directories' specifies '%1' as directory which appears to"
-                                                                                         " have no associated group entry '[%1]'").arg(directoryPath).toLatin1());
+                QVERIFY2(keys.contains(directoryPath+"/Size"),QString("The theme %1 has an entry 'Directories' which specifies '%2' as directory, but there's no"
+                                                                                         " have no associated entry '%2/Size'").arg(themeDir + "/index.theme", directoryPath).toLatin1());
                 auto dir = QSharedPointer<Dir>::create(config, themeDir);
                 config.endGroup();
                 contextHash[dir->context].append(dir);

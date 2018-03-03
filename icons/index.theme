@@ -142,7 +142,7 @@ Type=Scalable
 MinSize=32
 MaxSize=256
 
-#32x32 - Fixed size - For toolbar icons >!!!ONLY!!!< - DO_NOT_USE_ANYWHERE_ELSE - Monochrome
+#64x64 - Fixed size - For toolbar icons >!!!ONLY!!!< - DO_NOT_USE_ANYWHERE_ELSE - Monochrome
 [actions/64]
 Size=64
 Context=Actions
