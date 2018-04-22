@@ -11,7 +11,5 @@
      style="fill:currentColor;fill-opacity:1;stroke:none"
      d="M 3,7 V 9 H 5 V 7 Z M 7,7 V 9 H 9 V 7 Z m 4,0 v 2 h 2 V 7 Z"
      class="ColorScheme-Text"
-     id="path4"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="ccccccccccccccc" />
+     id="path4"/>
 </svg>
