@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.0)
 
-set(KF5_VERSION "5.48.0") # handled by release scripts
+set(KF5_VERSION "5.49.0") # handled by release scripts
 project(BreezeIcons VERSION ${KF5_VERSION})
 
 # ECM setup
