@@ -39,7 +39,7 @@ void failListContent(const QList<QString> &list, const QString &header)
     for (const auto path : list) {
         message += (_T_LIST_INDENT2 + "- " + path + "\n");
     }
-    QFAIL(message.toLatin1().constData());
+    QFAIL(qPrintable(message));
 }
 
 void failSymlinkList(const QList<QFileInfo> &list, const QString &header)
@@ -51,7 +51,7 @@ void failSymlinkList(const QList<QFileInfo> &list, const QString &header)
     for (const auto info : list) {
         message += (_T_LIST_INDENT2 + info.filePath() + " => " + info.symLinkTarget() + "\n");
     }
-    QFAIL(message.toLatin1().constData());
+    QFAIL(qPrintable(message));
 }
 
 #endif // TESTHELPERS_H

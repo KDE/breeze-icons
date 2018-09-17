@@ -312,7 +312,7 @@ private Q_SLOTS:
                     stream << QString("    %1").arg(info.absoluteFilePath()) << endl;
                 }
             }
-            QFAIL(msg.toLatin1().constData());
+            QFAIL(qPrintable(msg));
         }
     }
 };
