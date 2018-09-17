@@ -32,7 +32,7 @@ QString link(const QString &path, const QString &fileName)
         return QString();
     }
 
-    QString firstLine = in.readLine();
+    QString firstLine = QString::fromLocal8Bit(in.readLine());
     if (firstLine.isEmpty()) {
         qDebug() << in.fileName() << "line could not be read...";
         return QString();

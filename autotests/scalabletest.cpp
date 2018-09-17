@@ -71,9 +71,9 @@ public:
         , type(parseType(cg.value("Type", QString("Threshold")).toString()))
     {
         QVERIFY2(!contextString.isEmpty(),
-                 QString("Missing 'Context' key in file %1, config group '[%2]'").arg(cg.fileName(), cg.group()).toLatin1());
+                 QString("Missing 'Context' key in file %1, config group '[%2]'").arg(cg.fileName(), cg.group()).toLatin1().constData());
         QVERIFY2(context != -1,
-                 QString("Don't know how to handle 'Context=%1' in file %2, config group '[%3]'").arg(contextString, cg.fileName(), cg.group()).toLatin1());
+                 QString("Don't know how to handle 'Context=%1' in file %2, config group '[%3]'").arg(contextString, cg.fileName(), cg.group()).toLatin1().constData());
     }
 
     static QMetaEnum findEnum(const char *name)
@@ -117,7 +117,7 @@ public:
     static KIconLoaderDummy::Type parseType(const QString &string)
     {
         bool ok;
-        auto v = (KIconLoaderDummy::Type)typeEnum().keyToValue(string.toLatin1(), &ok);
+        auto v = (KIconLoaderDummy::Type)typeEnum().keyToValue(string.toLatin1().constData(), &ok);
         Q_ASSERT(ok);
         return v;
     }
@@ -176,7 +176,7 @@ private Q_SLOTS:
             for (auto directoryPath : directoryPaths) {
                 config.beginGroup(directoryPath);
                 QVERIFY2(keys.contains(directoryPath+"/Size"),QString("The theme %1 has an entry 'Directories' which specifies '%2' as directory, but there's no"
-                                                                                         " have no associated entry '%2/Size'").arg(themeDir + "/index.theme", directoryPath).toLatin1());
+                                                                                         " have no associated entry '%2/Size'").arg(themeDir + "/index.theme", directoryPath).toLatin1().constData());
                 auto dir = QSharedPointer<Dir>::create(config, themeDir);
                 config.endGroup();
                 contextHash[dir->context].append(dir);
@@ -194,7 +194,7 @@ private Q_SLOTS:
                 // FIXME: go through qenum to stringify the bugger
                 // Gets rid of the stupid second hash
                 auto contextId = QString(QLatin1String(dir) + ":" + contextStringHash[key]).toLatin1();
-                QTest::newRow(contextId) << key << contextHash[key];
+                QTest::newRow(contextId.constData()) << key << contextHash[key];
             }
         }
     }
@@ -259,7 +259,7 @@ private Q_SLOTS:
         notScalableIcons.removeDuplicates();
         QFAIL(QString("The following icons are not available in a scalable directory:\n  %1")
               .arg(notScalableIcons.join("\n  "))
-              .toLatin1());
+              .toLatin1().constData());
     }
 
     void test_scalableDuplicates_data()
@@ -312,7 +312,7 @@ private Q_SLOTS:
                     stream << QString("    %1").arg(info.absoluteFilePath()) << endl;
                 }
             }
-            QFAIL(msg.toLatin1());
+            QFAIL(msg.toLatin1().constData());
         }
     }
 };
