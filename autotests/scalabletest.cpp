@@ -162,7 +162,7 @@ private Q_SLOTS:
     void test_scalable_data()
     {
         for (auto dir : ICON_DIRS) {
-            auto themeDir = PROJECT_SOURCE_DIR + QStringLiteral("/") + dir;
+            QString themeDir = PROJECT_SOURCE_DIR + QStringLiteral("/") + dir;
 
             QHash<KIconLoaderDummy::Context, QList<QSharedPointer<Dir>>> contextHash;
             QHash<KIconLoaderDummy::Context, QString> contextStringHash;
