@@ -1,19 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-  <defs id="defs3051">
-    <style type="text/css" id="current-color-scheme">
-      .ColorScheme-Text {
-        color:#4d4d4d;
-      }
-      .ColorScheme-PositiveText {
-        color:#27ae60;
-      }
-      </style>
-  </defs>
-  <path
-     style="fill:currentColor;fill-opacity:1;stroke:none"
-     class="ColorScheme-PositiveText"
-     d="M 8 1 A 7 7 0 0 0 1 8 A 7 7 0 0 0 8 15 A 7 7 0 0 0 15 8 A 7 7 0 0 0 8 1 z " />
-  <path
-     style="fill:#ffffff;fill-opacity:1;stroke:none"
-     d="M 9 3 L 6 8 L 8 8 L 8 9.0625 C 8 10.039616 7.2291687 11.115011 6.4179688 11.376953 C 5.447769 11.690245 4 10 4 10 C 4 10 4.6601 13 7 13 C 9.2489 13 10 11.567573 10 9.4199219 L 10 8 L 12 8 L 9 3 z " />
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+    <style
+        type="text/css"
+        id="current-color-scheme">
+        .ColorScheme-NeutralText {
+            color:#f67400;
+        }
+        .ColorScheme-Text {
+            color:#f2f2f2;
+        }
+    </style>
+    <circle style="fill:currentColor;fill-opacity:1;stroke:none" class="ColorScheme-NeutralText" cx="8" cy="8" r="8"/>
+    <path style="fill:currentColor;fill-opacity:0.6;stroke:none" class="ColorScheme-Text" d="M8 0a8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8 8 8 0 0 0-8-8zm0 1a7 7 0 0 1 7 7 7 7 0 0 1-7 7 7 7 0 0 1-7-7 7 7 0 0 1 7-7z"/>
+    <path d="M8 2L5 6h2v5a1 1 0 0 1-1 1H2.266a7 7 0 0 0 2.146 2H7a2 2 0 0 0 2-2V6h2z" fill="#fff"/>
 </svg>

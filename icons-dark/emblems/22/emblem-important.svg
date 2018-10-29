@@ -1,18 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
-  <defs id="defs3051">
-    <style type="text/css" id="current-color-scheme">
-      .ColorScheme-NegativeText {
-        color:#da4453;
-      }
-      </style>
-  </defs>
-    <path
-       
-     style="fill:currentColor;fill-opacity:1;stroke:none" 
-     class="ColorScheme-NegativeText"
-       d="m 12,4 -4.5,8 -4.5,8 9,0 9,0 -4.5,-8 z m -1,5 2,0 0,6 -2,0 z m 0,7 2,0 0,2 -2,0 z"
-        />
-    <path
-       style="fill:#ffffff"
-       d="M 11 9 L 11 15 L 13 15 L 13 9 L 11 9 z M 11 16 L 11 18 L 13 18 L 13 16 L 11 16 z " />
+<svg height="22" width="22" xmlns="http://www.w3.org/2000/svg">
+    <style
+        type="text/css"
+        id="current-color-scheme">
+        .ColorScheme-NeutralText {
+            color:#f67400;
+        }
+        .ColorScheme-Text {
+            color:#f2f2f2;
+        }
+    </style>
+    <rect style="fill:currentColor;fill-opacity:1;stroke:none" class="ColorScheme-NeutralText" height="22" rx="2" width="22"/>
+    <path d="M10 19v-2h2v2zm0-4V3h2v12z" fill="#fff"/>
+    <path d="M2 0C.892 0 0 .892 0 2v18c0 1.108.892 2 2 2h18c1.108 0 2-.892 2-2V2c0-1.108-.892-2-2-2zm0 1h18c.554 0 1 .446 1 1v18c0 .554-.446 1-1 1H2c-.554 0-1-.446-1-1V2c0-.554.446-1 1-1z" style="fill:currentColor;fill-opacity:0.6;stroke:none" class="ColorScheme-Text"/>
 </svg>

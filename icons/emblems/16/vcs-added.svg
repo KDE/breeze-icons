@@ -1,21 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-  <defs id="defs3051">
-    <style type="text/css" id="current-color-scheme">
-      .ColorScheme-Text {
-        color:#4d4d4d;
-      }
-      .ColorScheme-PositiveText {
-        color:#27ae60;
-      }
-      </style>
-  </defs>
-  <path
-     style="fill:currentColor;fill-opacity:1;stroke:none" 
-     class="ColorScheme-PositiveText"
-     d="M 8 1 A 7 7 0 0 0 1 8 A 7 7 0 0 0 8 15 A 7 7 0 0 0 15 8 A 7 7 0 0 0 8 1 z "
-     />
- <path 
-     style="fill:#ffffff;fill-opacity:1;stroke:none" 
-     d="M 7 3 L 7 7 L 3 7 L 3 9 L 7 9 L 7 13 L 9 13 L 9 9 L 13 9 L 13 7 L 9 7 L 9 3 L 7 3 z "
-     />
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+    <style
+        type="text/css"
+        id="current-color-scheme">
+        .ColorScheme-Highlight {
+            color:#3daee9;
+        }
+        .ColorScheme-Text {
+            color:#4d4d4d;
+        }
+    </style>
+    <path style="fill:currentColor;fill-opacity:1;stroke:none" class="ColorScheme-Highlight" d="M8 0a8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8 8 8 0 0 0-8-8z"/>
+    <path style="fill:currentColor;fill-opacity:0.6;stroke:none" class="ColorScheme-Text" d="M8 0a8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8 8 8 0 0 0-8-8zm0 1a7 7 0 0 1 7 7 7 7 0 0 1-7 7 7 7 0 0 1-7-7 7 7 0 0 1 7-7z"/>
+    <path d="M7 2v5H2v2h5v5h2V9h5V7H9V2z" fill="#fff"/>
 </svg>

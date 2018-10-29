@@ -1,21 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 8">
-  <defs id="defs3051">
-    <style type="text/css" id="current-color-scheme">
-      .ColorScheme-Highlight {
-        color:#3daee9;
-      }
-      </style>
-  </defs>
-  <g
-     transform="translate(-7,-1037.3622)">
-    <path
-       style="fill:currentColor;fill-opacity:1;stroke:none" 
-       d="m 15,1041.3622 a 4,4 0 0 1 -4,4 4,4 0 0 1 -4,-4 4,4 0 0 1 4,-4 4,4 0 0 1 4,4 z"
-       class="ColorScheme-Highlight" />
-    <path
-       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none"
-       d="M 3.5 1 L 3.5 2 L 4.5 2 L 4.5 1 L 3.5 1 z M 3.5 3 L 3.5 7 L 4.5 7 L 4.5 3 L 3.5 3 z "
-       transform="translate(7,1037.3622)"
-       id="rect4241" />
-  </g>
+<svg viewBox="0 0 8 8" xmlns="http://www.w3.org/2000/svg">
+    <style
+        type="text/css"
+        id="current-color-scheme">
+        .ColorScheme-Highlight {
+            color:#3daee9;
+        }
+    </style>
+    <rect style="fill:currentColor;fill-opacity:1;stroke:none" class="ColorScheme-Highlight" height="8" rx="1" width="8"/>
+    <path d="M3 1h2v2H3zm0 3v4h2V4z" fill="#fff"/>
 </svg>
