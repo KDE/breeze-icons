@@ -1,17 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <defs id="defs3051">
-    <style type="text/css" id="current-color-scheme">
-      .ColorScheme-Text {
-        color:#f2f2f2;
-      }
-      </style>
-  </defs>
- <g transform="translate(-384.57-515.8)">
-  <path style="fill:currentColor;fill-opacity:1;stroke:none" 
-        d="m390.57 519.8v24h10v-1h-9v-22h18v13h1v-14z"
-     class="ColorScheme-Text"
-     />
-  <path fill="#da4453"
-        d="m402.57 536.51l3.293 3.293-3.293 3.293c.013.025.707.707.707.707l3.293-3.293 3.293 3.293.707-.707-3.293-3.293 3.293-3.293-.707-.707-3.293 3.293-3.293-3.293z"/>
- </g>
-</svg>
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><style type="text/css" id="current-color-scheme">.ColorScheme-Text{color:#eff0f1;}.ColorScheme-NegativeText{color:#da4453;}</style><path d="m2 2v28h17v-1h-16v-26h13v2h2v-2h11v16h1v-17zm14 3h-2v2h2zm0 2v2h2v-2zm0 2h-2v2h2zm0 2v2h2v-2zm0 2h-2v2 2h2 2v-2h-2z" style="fill:currentColor;fill-opacity:1;stroke:none" class="ColorScheme-Text"/><path d="m19 24v1h11v-1z" style="fill:currentColor;fill-opacity:1;stroke:none" class="ColorScheme-NegativeText"/></svg>
