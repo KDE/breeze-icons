@@ -6,7 +6,7 @@
             color:#3daee9;
         }
         .ColorScheme-Text {
-            color:#4d4d4d;
+            color:#232629;
         }
     </style>
     <circle style="fill:currentColor;fill-opacity:1;stroke:none" class="ColorScheme-Highlight" cx="8" cy="8" r="8"/>

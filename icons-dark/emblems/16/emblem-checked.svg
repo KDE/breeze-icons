@@ -6,7 +6,7 @@
             color:#27ae60;
         }
         .ColorScheme-Text {
-            color:#f2f2f2;
+            color:#eff0f1;
         }
     </style>
     <rect style="fill:currentColor;fill-opacity:1;stroke:none" class="ColorScheme-PositiveText" height="16" rx="2" width="16"/>

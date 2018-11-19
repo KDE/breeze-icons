@@ -53,7 +53,7 @@
        type="text/css"
        id="current-color-scheme">
       .ColorScheme-Text {
-        color:#4d4d4d;
+        color:#232629;
       }
       .ColorScheme-NegativeText {
         color:#da4453;
@@ -63,13 +63,13 @@
        id="current-color-scheme-6"
        type="text/css">
       .ColorScheme-Text {
-        color:#4d4d4d;
+        color:#232629;
       }
       </style>
   </defs>
   <path
      inkscape:connector-curvature="0"
-     style="color:#4d4d4d;fill:currentColor;fill-opacity:1;stroke:none"
+     style="color:#232629;fill:currentColor;fill-opacity:1;stroke:none"
      d="m 2,7.9999996 0,0.9980469 c 0,0 11,0.00195 11,0 l 0,-0.9980469 z"
      class="ColorScheme-Text"
      id="path6"

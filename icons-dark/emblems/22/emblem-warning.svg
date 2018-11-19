@@ -6,7 +6,7 @@
             color:#f67400;
         }
         .ColorScheme-Text {
-            color:#f2f2f2;
+            color:#eff0f1;
         }
     </style>
     <path d="M11.008 0a1 1 0 0 0-.903.553l-10 20A1 1 0 0 0 1 22h20a1 1 0 0 0 .895-1.447l-10-20A1 1 0 0 0 11.008 0z" style="fill:currentColor;fill-opacity:1;stroke:none" class="ColorScheme-NeutralText"/>

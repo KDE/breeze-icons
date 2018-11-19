@@ -6,7 +6,7 @@
             color:#3daee9;
         }
         .ColorScheme-Text {
-            color:#f2f2f2;
+            color:#eff0f1;
         }
     </style>
     <path d="M11 .008l3.4 6.888L22 8l-5.5 5.361 1.298 7.57L11 17.357l-6.798 3.574 1.298-7.57L0 8l7.6-1.104z" style="fill:currentColor;fill-opacity:1;stroke:none" class="ColorScheme-Highlight"/>
