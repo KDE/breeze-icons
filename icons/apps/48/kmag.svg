@@ -9,12 +9,12 @@
    <stop offset="1" stop-color="#e0e5e7"/>
   </linearGradient>
   <linearGradient id="c" y1="5.342" x1="42.799" y2="31.357" x2="11.999" gradientUnits="userSpaceOnUse">
-   <stop stop-color="#4ce0c6"/>
-   <stop offset="1" stop-color="#3b85b5"/>
+   <stop stop-color="#1abc9c"/>
+   <stop offset="1" stop-color="#2980b9"/>
   </linearGradient>
   <linearGradient id="d" y1="22.346" x1="29.855" y2="28.506" x2="54.32" gradientUnits="userSpaceOnUse">
-   <stop stop-color="#ffc169"/>
-   <stop offset="1" stop-color="#ffa92d"/>
+   <stop stop-color="#cc4a5e"/>
+   <stop offset="1" stop-color="#aa478a"/>
   </linearGradient>
   <linearGradient id="e" y1="41.22" x1="24.392" y2="25.343" x2="20.643" gradientUnits="userSpaceOnUse">
    <stop stop-color="#334545"/>
@@ -41,7 +41,7 @@
     <path fill="url(#h)" d="m53.32 27.787v8.213h.916l6.654-3.842z" transform="matrix(1.09091 0 0 1.09091 349.66 497.25)"/>
     <path fill="url(#i)" d="m25.75 32.16v3.842h6.654z" transform="matrix(1.09091 0 0 1.09091 371.48 497.25)"/>
     <path fill="url(#j)" d="m40.891 32.16l-6.656 3.844h6.656z" transform="matrix(1.09091 0 0 1.09091 371.48 497.25)"/>
-    <path fill="#ffa92d" d="m399.54 522.87l33.03-19.07v9.317z"/>
+    <path fill="#aa478a" d="m399.54 522.87l33.03-19.07v9.317z"/>
    </g>
   </g>
   <rect width="22" x="397.57" y="541.8" stroke-opacity=".55" fill="#99a1a7" height="2" stroke-width="2.8"/>
