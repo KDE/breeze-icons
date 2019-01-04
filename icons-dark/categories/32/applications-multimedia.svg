@@ -71,28 +71,9 @@
        inkscape:collect="always"
        id="linearGradient4391">
       <stop
-         style="stop-color:#131011"
-         id="stop4393" />
+         stop-color="#21c9fb" />
       <stop
-         offset="0.108333"
-         style="stop-color:#8d9e74"
-         id="stop4171" />
-      <stop
-         offset="0.216667"
-         style="stop-color:#d5c6ae"
-         id="stop4172" />
-      <stop
-         offset="0.433333"
-         style="stop-color:#a2bdc9"
-         id="stop4170" />
-      <stop
-         offset="0.866667"
-         style="stop-color:#0058e2"
-         id="stop4168" />
-      <stop
-         offset="1"
-         style="stop-color:#0030a0"
-         id="stop4395" />
+         offset="1" stop-color="#197cf1" />
     </linearGradient>
     <linearGradient
        inkscape:collect="always"

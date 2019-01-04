@@ -64,10 +64,10 @@
        inkscape:collect="always">
       <stop
          id="stop6546"
-         stop-color="#4ce0c6" />
+         stop-color="#1abc9c" />
       <stop
          id="stop6548"
-         stop-color="#3b85b5"
+         stop-color="#2980b9"
          offset="1" />
     </linearGradient>
     <linearGradient
@@ -85,10 +85,10 @@
        inkscape:collect="always">
       <stop
          id="stop6552"
-         stop-color="#ffc169" />
+         stop-color="#cc4a5e" />
       <stop
          id="stop6554"
-         stop-color="#ffa92d"
+         stop-color="#aa478a"
          offset="1" />
     </linearGradient>
     <linearGradient
@@ -197,10 +197,10 @@
        id="linearGradient4219">
       <stop
          id="stop6533"
-         stop-color="#c3ced7" />
+         stop-color="#eff0f1" />
       <stop
          id="stop6535"
-         stop-color="#e2f4f4"
+         stop-color="#fcfcfc"
          offset="1" />
     </linearGradient>
   </defs>
@@ -304,7 +304,7 @@
            inkscape:connector-curvature="0"
            d="m 746.83445,204.25087 22.02271,-16.31733 -10e-6,7.97131 z"
            inkscape:transform-center-x="5.5056789"
-           style="fill:#ffa92d;stroke-width:2;stroke-linecap:round" />
+           style="fill:#aa478a;stroke-width:2;stroke-linecap:round" />
       </g>
       <path
          sodipodi:nodetypes="ccccccccccccccccccccc"

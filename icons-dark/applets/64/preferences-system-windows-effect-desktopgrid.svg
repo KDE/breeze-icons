@@ -34,10 +34,10 @@
        inkscape:collect="always">
       <stop
          id="stop6546"
-         stop-color="#4ce0c6" />
+         stop-color="#1abc9c" />
       <stop
          id="stop6548"
-         stop-color="#3b85b5"
+         stop-color="#2980b9"
          offset="1" />
     </linearGradient>
     <linearGradient
@@ -55,10 +55,10 @@
        inkscape:collect="always">
       <stop
          id="stop6552"
-         stop-color="#ffc169" />
+         stop-color="#cc4a5e" />
       <stop
          id="stop6554"
-         stop-color="#ffa92d"
+         stop-color="#aa478a"
          offset="1" />
     </linearGradient>
     <linearGradient
@@ -330,7 +330,7 @@
            style="fill:url(#linearGradient13596);stroke-width:2;stroke-linecap:round" />
         <path
            inkscape:connector-curvature="0"
-           style="fill:#ffa92d;stroke-width:2;stroke-linecap:round"
+           style="fill:#aa478a;stroke-width:2;stroke-linecap:round"
            d="M 31,15.789062 19.955078,19.734375 31,17.716797 31,15.789062 Z"
            transform="translate(736.85718,157.93361)"
            id="path6589-5-6-0-2-7-0" />
@@ -390,7 +390,7 @@
            d="m 756.85714,185.47599 0,3.45762 9.67899,0 -9.67899,-3.45762 z"
            style="fill:url(#linearGradient13606);stroke-width:2;stroke-linecap:round" />
         <path
-           style="fill:#ffa92d;stroke-width:2;stroke-linecap:round"
+           style="fill:#aa478a;stroke-width:2;stroke-linecap:round"
            d="M 31,15.789062 19.955078,19.734375 31,17.716797 31,15.789062 Z"
            transform="translate(736.85718,157.93361)"
            id="path6589-5-6-0-2-7-6-5"
@@ -451,7 +451,7 @@
            d="m 756.85714,185.47599 0,3.45762 9.67899,0 -9.67899,-3.45762 z"
            style="fill:url(#linearGradient13614);stroke-width:2;stroke-linecap:round" />
         <path
-           style="fill:#ffa92d;stroke-width:2;stroke-linecap:round"
+           style="fill:#aa478a;stroke-width:2;stroke-linecap:round"
            d="M 31,15.789062 19.955078,19.734375 31,17.716797 31,15.789062 Z"
            transform="translate(736.85718,157.93361)"
            id="path6589-5-6-0-2-7-1-4"
@@ -512,7 +512,7 @@
            d="m 756.85714,185.47599 0,3.45762 9.67899,0 -9.67899,-3.45762 z"
            style="fill:url(#linearGradient22241);stroke-width:2;stroke-linecap:round" />
         <path
-           style="fill:#ffa92d;stroke-width:2;stroke-linecap:round"
+           style="fill:#aa478a;stroke-width:2;stroke-linecap:round"
            d="M 31,15.789062 19.955078,19.734375 31,17.716797 31,15.789062 Z"
            transform="translate(736.85718,157.93361)"
            id="path6589-5-6-0-2-7-6-2-4"

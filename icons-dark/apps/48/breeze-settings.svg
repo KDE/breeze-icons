@@ -27,8 +27,8 @@
   <linearGradient xlink:href="#e" id="j" y1="581.87" x1="406.54" y2="572.68" x2="423.32" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-1 0 0 1 454.57-539.8)"/>
   <linearGradient xlink:href="#e" id="k" y1="568.8" x1="431.57" y2="562.8" x2="439.57" gradientUnits="userSpaceOnUse" gradientTransform="matrix(-1 0 0 1 839.14-40)"/>
   <linearGradient id="l" y1="521.63" x1="404.05" y2="528.35" x2="430.74" gradientUnits="userSpaceOnUse">
-   <stop stop-color="#ffc169"/>
-   <stop offset="1" stop-color="#ffa92d"/>
+   <stop stop-color="#cc4a5e"/>
+   <stop offset="1" stop-color="#aa478a"/>
   </linearGradient>
   <linearGradient id="m" y1="503.08" x1="418.17" y2="531.46" x2="384.57" gradientUnits="userSpaceOnUse">
    <stop stop-color="#4ce0c6"/>
@@ -38,7 +38,7 @@
    <stop stop-color="#884d2c"/>
    <stop offset=".125" stop-color="#334545"/>
    <stop offset=".729" stop-color="#334545"/>
-   <stop offset="1" stop-color="#ffa92d"/>
+   <stop offset="1" stop-color="#aa478a"/>
   </linearGradient>
   <path id="o" d="m384.57 538.8v5h48v-5z"/>
  </defs>
@@ -55,8 +55,8 @@
    <path fill="url(#f)" d="m15 41.928v2.072h3.59z" transform="translate(384.57 499.8)"/>
    <path fill="#334545" d="m432.57 541.8l-3.465 2h3.465z"/>
   </g>
-  <path fill="#ffc169" fill-rule="evenodd" d="m384.57 541.92v1.883h2.285z"/>
-  <path fill="#ffa92d" stroke-width="2" d="m399.54 522.87l33.03-19.07v9.317z"/>
+  <path fill="#cc4a5e" fill-rule="evenodd" d="m384.57 541.92v1.883h2.285z"/>
+  <path fill="#aa478a" stroke-width="2" d="m399.54 522.87l33.03-19.07v9.317z"/>
   <g transform="translate(50)">
    <g transform="translate(-50)">
     <rect width="32" x="392.57" y="507.8" fill="url(#c)" rx="0" height="28"/>
