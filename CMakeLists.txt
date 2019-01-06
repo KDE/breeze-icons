@@ -17,7 +17,7 @@ include(KDEFrameworkCompilerSettings NO_POLICY_SCOPE)
 include(GtkUpdateIconCache)
 
 # Dependencies
-set(REQUIRED_QT_VERSION 5.9.0)
+set(REQUIRED_QT_VERSION 5.10.0)
 
 # When cross-compiling, we should compile qrcAlias natively (against a native Qt build)
 if (CMAKE_CROSSCOMPILING)
