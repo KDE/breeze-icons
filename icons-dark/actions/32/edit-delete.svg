@@ -1,8 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><defs id="defs3051">
-        <style type="text/css" id="current-color-scheme">
-            .ColorScheme-NegativeText {
-                color:#da4453;
-            }
-        </style>
-    </defs>
-    <g style="fill:currentColor;fill-opacity:1;stroke:none" class="ColorScheme-NegativeText"><path d="M8 10v18h16V10h-1v17H9V10zM4 8h24v1H4zM12 4v3h1V5h6v2h1V4z"/></g></svg>
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><style type="text/css" id="current-color-scheme">.ColorScheme-NegativeText{color:#da4453;}</style><path d="m26 9v21h-20v-21h1v20h18v-20zm4-2h-28v1h28zm-8-5v4h-1v-3h-10v3h-1v-4z" style="fill:currentColor;fill-opacity:1;stroke:none" class="ColorScheme-NegativeText"/></svg>
