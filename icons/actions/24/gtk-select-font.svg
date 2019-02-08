@@ -4,9 +4,6 @@
       .ColorScheme-Text {
         color:#232629;
       }
-      .ColorScheme-NeutralText {
-        color:#f67400;
-      }
       </style>
   </defs>
   <path style="fill:currentColor;fill-opacity:1;stroke:none" 
@@ -15,7 +12,7 @@
      />
   <path
      style="fill:currentColor;fill-opacity:1;stroke:none" 
-     class="ColorScheme-NeutralText"
      d="M 19 4 C 18.44771 4 18 4.4477 18 5 C 18 5.5523 18.44771 6 19 6 C 19.55228 6 20 5.5523 20 5 C 20 4.4477 19.55228 4 19 4 z M 19 8 C 18.44771 8 18 8.4477 18 9 C 18 9.5523 18.44771 10 19 10 C 19.55228 10 20 9.5523 20 9 C 20 8.4477 19.55228 8 19 8 z M 19 12 C 18.44771 12 18 12.4477 18 13 C 18 13.5523 18.44771 14 19 14 C 19.55228 14 20 13.5523 20 13 C 20 12.4477 19.55228 12 19 12 z "
-      />
+     class="ColorScheme-Text"
+     />
 </svg>
