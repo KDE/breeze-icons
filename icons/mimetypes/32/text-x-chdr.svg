@@ -11,6 +11,6 @@
     <path d="M5 30h22v-1H5z" opacity=".25"/>
     <path d="M27 9l-7-7v7z" fill="#fff" opacity=".5"/>
     <use fill="none" height="100%" transform="translate(-384.57 -515.8)" width="100%" xlink:href="#a"/>
-    <path d="M13 10v12h1v-5h3v-1h-3v-6zm4 7v1h1v-1zm1 1v4h1v-4z" fill="#fff"/>
     <path d="M20 9l7 7V9z" fill="url(#b)" opacity=".2"/>
+    <path d="M13 10v12h1v-3.5c0-1.385 1.115-2.5 2.5-2.5s2.5 1.115 2.5 2.5V22h1v-3.5c0-1.939-1.561-3.5-3.5-3.5-.983 0-1.865.404-2.5 1.053v-6.05z" fill="#fff"/>
 </svg>
