@@ -5,7 +5,7 @@ Name[ca]=Brisa fosca
 Name[ca@valencia]=Brisa fosca
 Name[cs]=Breeze Tmavé
 Name[da]=Breeze Dark
-Name[de]=Breeze Dunkel
+Name[de]=Breeze-Dunkel
 Name[el]=Σκοτεινό Breeze
 Name[en_GB]=Breeze Dark
 Name[es]=Brisa oscura
@@ -40,6 +40,7 @@ Name[zh_TW]=Breeze Dark
 
 Comment=Breeze Dark by the KDE VDG
 Comment[ca]=Brisa fosca pel VDG del KDE
+Comment[de]=Breeze-Dunkel von der KDE VDG
 Comment[es]=Brisa oscura por KDE VDG
 Comment[fi]=Breeze Dark KDE VDG:ltä
 Comment[gl]=Breeze escuro de KDE VDG
