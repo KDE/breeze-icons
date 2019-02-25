@@ -12,7 +12,7 @@
      class="ColorScheme-Text"
      />
  <path 
-     style="fill:currentColor;fill-opacity:0.5;stroke:none" 
+     style="fill:currentColor;fill-opacity:0.25;stroke:none" 
      d="M 14.865234 4.5371094 L 14.621094 5.5136719 A 7 7 0 0 1 19 12 A 7 7 0 0 1 14.619141 18.478516 L 14.863281 19.453125 A 8 8 0 0 0 20 12 A 8 8 0 0 0 14.865234 4.5371094 z "
      class="ColorScheme-Text"
      />
