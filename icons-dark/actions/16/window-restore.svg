@@ -6,5 +6,5 @@
             color:#eff0f1;
         }
     </style>
-    <path d="M11 2L5.854 7.146l-1.5-1.5-.708.708L6.293 9l-3.647 3.646.708.708L7 9.707l2.646 2.647.708-.708-1.5-1.5L14 5z" class="ColorScheme-Text" fill="currentColor"/>
+    <path d="M8 2.293l-.354.353L2.293 8 8 13.707 13.707 8zm0 1.414L12.293 8 8 12.293 3.707 8z" class="ColorScheme-Text" fill="currentColor"/>
 </svg>

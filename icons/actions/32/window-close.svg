@@ -1,8 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><defs id="defs3051">
-        <style type="text/css" id="current-color-scheme">
-            .ColorScheme-NegativeText {
-                color:#da4453;
-            }
-        </style>
-    </defs>
-    <g style="fill:currentColor;fill-opacity:1;stroke:none" class="ColorScheme-NegativeText" transform="translate(-384.57 -515.8)"><circle fill="#fff" cx="400.57" cy="531.8" r="11"/><path d="M400.57 519.8a12 12 0 0 0-12 12 12 12 0 0 0 12 12 12 12 0 0 0 12-12 12 12 0 0 0-12-12m-5.293 6l5.293 5.293 5.293-5.293s.727.716.707.707l-5.293 5.293 5.293 5.293s-.701.706-.707.707l-5.293-5.293-5.293 5.293c.001-.005-.707-.707-.707-.707l5.293-5.293-5.293-5.293c.02.001.707-.707.707-.707"/></g></svg>
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+    <style
+        type="text/css"
+        id="current-color-scheme">
+        .ColorScheme-NegativeText {
+            color:#da4453;
+        }
+    </style>
+    <path d="M16 4A12 12 0 0 0 4 16a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 16 4m-5.293 6L16 15.293 21.293 10s.727.716.707.707L16.707 16 22 21.293s-.701.706-.707.707L16 16.707 10.707 22c.001-.005-.707-.707-.707-.707L15.293 16 10 10.707c.02.001.707-.707.707-.707" class="ColorScheme-NegativeText" fill="currentColor"/>
+</svg>
