@@ -1,8 +1,12 @@
-<svg height="22" width="22" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
     <style type="text/css" id="current-color-scheme">
         .ColorScheme-Text {
             color:#232629;
         }
     </style>
-    <path d="M10 3a5 5 0 0 0-5 5v6a5 5 0 0 0 5 5h2a5 5 0 0 0 5-5V8a5 5 0 0 0-5-5zm0 1h2a4 4 0 0 1 4 4v6a4 4 0 0 1-4 4h-2a4 4 0 0 1-4-4V8a4 4 0 0 1 4-4zm0 1v5h2V5z" fill="currentColor" class="ColorScheme-Text"/>
+    <g class="ColorScheme-Text" fill="currentColor">
+        <path d="M5 3v5h15v8h-2v-5h-1v5H9v1h8v1h1v-1h3V3zm1 1h14v3H6V5zm1 1v1h2V5zm10 0v1h2V5z"/>
+        <path d="M4.5 9A3.5 3.5 0 0 0 1 12.5v3a3.5 3.5 0 1 0 7 0v-3A3.5 3.5 0 0 0 4.5 9zm0 1A2.5 2.5 0 0 1 7 12.5v3a2.5 2.5 0 1 1-5 0v-3A2.5 2.5 0 0 1 4.5 10z"/>
+        <path d="M4 11h1v2H4z"/>
+    </g>
 </svg>
