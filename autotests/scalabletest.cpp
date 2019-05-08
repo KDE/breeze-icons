@@ -169,9 +169,12 @@ private Q_SLOTS:
 
             QSettings config(themeDir + "/index.theme", QSettings::IniFormat);
             auto keys = config.allKeys();
+
             config.beginGroup("Icon Theme");
             auto directoryPaths = config.value("Directories", QString()).toStringList();
+            directoryPaths += config.value("ScaledDirectories", QString()).toStringList();
             config.endGroup();
+
             QVERIFY(!directoryPaths.isEmpty());
             for (auto directoryPath : directoryPaths) {
                 config.beginGroup(directoryPath);
