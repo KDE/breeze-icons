@@ -4,7 +4,7 @@
       .ColorScheme-Text {
         color:#eff0f1;
       }
-      .ColorScheme-Highlight {
+      .olorScheme-ButtonFocus {
         color:#3daee9;
       }
       </style>
@@ -17,6 +17,6 @@
  <path 
      style="fill:currentColor;fill-opacity:1;stroke:none" 
      d="M 6 11 L 6 12 L 8 12 L 8 11 L 6 11 z M 11 11 L 11 12 L 13 12 L 13 11 L 11 11 z M 16 11 L 16 12 L 18 12 L 18 11 L 16 11 z "
-     class="ColorScheme-Highlight"
+     class="olorScheme-ButtonFocus"
      />
 </svg>

@@ -7,7 +7,7 @@
       .ColorScheme-Text {
         color:#4d4d4d;
       }
-      .ColorScheme-Highlight {
+      .olorScheme-ButtonFocus {
         color:#3daee9;
       }
       .ColorScheme-NegativeText {
@@ -23,7 +23,7 @@
   <path
      style="fill:currentColor;fill-opacity:1;stroke:none" 
      d="M 12 30 L 12 45 L 34 45 L 34 30 L 12 30 z M 14 34 L 32 34 L 32 43 L 14 43 L 14 34 z "
-     class="ColorScheme-Highlight"
+     class="olorScheme-ButtonFocus"
      />
   <path
      style="fill:currentColor;fill-opacity:1;stroke:none" 
