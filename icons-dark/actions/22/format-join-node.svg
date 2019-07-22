@@ -4,7 +4,7 @@
       .ColorScheme-Text {
         color:#eff0f1;
       }
-      .olorScheme-ButtonFocus {
+      .CCColorScheme-ButtonFocus {
         color:#3daee9;
       }
       </style>
@@ -17,6 +17,6 @@
  <path 
      style="fill:currentColor;fill-opacity:1;stroke:none" 
      d="M 9 9.5 L 11 12.5 L 13 9.5 L 9 9.5 z "
-     class="olorScheme-ButtonFocus"
+     class="CCColorScheme-ButtonFocus"
      />
 </svg>

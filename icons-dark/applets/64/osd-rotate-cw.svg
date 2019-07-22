@@ -7,7 +7,7 @@
       .ColorScheme-Text {
         color:#f2f2f2;
       }
-      .olorScheme-ButtonFocus {
+      .ColorScheme-ButtonFocus {
         color:#3daee9;
       }
       </style>
@@ -20,6 +20,6 @@
   <path
      style="fill:currentColor;fill-opacity:1;stroke:none" 
      d="M 31.308594 19 A 13.311049 13.330146 0 0 0 18 32.330078 A 13.311049 13.330146 0 0 0 24.054688 43.5 L 25.435547 41.839844 A 11.181282 11.197323 0 0 1 20.126953 32.330078 A 11.181282 11.197323 0 0 1 31.308594 21.132812 A 11.181282 11.197323 0 0 1 42.083984 29.400391 L 40.119141 30.236328 L 44.308594 31.929688 L 46 27.736328 L 44.050781 28.566406 A 13.311049 13.330146 0 0 0 31.308594 19 z "
-     class="olorScheme-ButtonFocus"
+     class="ColorScheme-ButtonFocus"
      />
 </svg>

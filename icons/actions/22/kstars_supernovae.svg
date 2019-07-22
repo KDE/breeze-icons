@@ -55,7 +55,7 @@
       .ColorScheme-Text {
         color:#232629;
       }
-      .olorScheme-ButtonFocus {
+      .ColorScheme-ButtonFocus {
         color:#3daee9;
       }
       </style>
