@@ -51,7 +51,7 @@
       .ColorScheme-Text {
         color:#bebebe;
       }
-      .ColorScheme-ButtonFocus {
+      .ColorScheme-Highlight {
         color:#3daee9;
       }
       </style>
@@ -68,7 +68,7 @@
     <path
        style="color:#3daee9;fill:currentColor;fill-opacity:1;stroke:none"
        d="m 426.71,535.79 6,0 0,2 -6,0 z"
-       class="ColorScheme-ButtonFocus"
+       class="ColorScheme-Highlight"
        id="path10"
        inkscape:connector-curvature="0" />
   </g>

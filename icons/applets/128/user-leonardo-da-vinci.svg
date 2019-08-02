@@ -4,7 +4,7 @@
       .ColorScheme-Text {
         color:#4d4d4d;
       }
-      .ColorScheme-ButtonFocus {
+      .ColorScheme-Highlight {
         color:#3daee9;
       }
       </style>
@@ -45,7 +45,7 @@
      inkscape:connector-curvature="0"
      id="rect5879"
      d="M 0,0 0,128 128,128 128,0 0,0 Z"
-     class="ColorScheme-ButtonFocus"
+     class="ColorScheme-Highlight"
      style="color:#3daee9;fill:currentColor;fill-opacity:1;stroke:none" />
   <path
      sodipodi:nodetypes="ccccc"

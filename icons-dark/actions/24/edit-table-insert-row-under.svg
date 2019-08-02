@@ -4,7 +4,7 @@
       .ColorScheme-Text {
         color:#eff0f1;
       }
-      .ColorScheme-ButtonFocus {
+      .ColorScheme-Highlight {
         color:#3daee9;
       }
       </style>
@@ -17,6 +17,6 @@
  <path 
      style="fill:currentColor;fill-opacity:1;stroke:none" 
      d="M 4 9 L 4 10 L 5 10 L 8.28125 10 L 5 13.28125 L 5 13.292969 L 4.2929688 14 L 4 14 L 4 15 L 5 15 L 12 15 L 14 15 L 14 14 L 13.71875 14 L 14 13.71875 L 14 12.28125 L 12.28125 14 L 12 14 L 9.71875 14 L 12 11.71875 L 13.71875 10 L 14 10 L 14 9 L 12 9 L 9.2929688 9 L 5 9 L 4 9 z M 9.71875 10 L 12 10 L 12.28125 10 L 12 10.28125 L 8.28125 14 L 5.71875 14 L 9.71875 10 z "
-     class="ColorScheme-ButtonFocus"
+     class="ColorScheme-Highlight"
      />
 </svg>

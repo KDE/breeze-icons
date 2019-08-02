@@ -51,13 +51,13 @@
   <style
      type="text/css"
      id="current-color-scheme">
-        .ColorScheme-ButtonFocus {
+        .ColorScheme-Highlight {
             color:#3daee9;
         }
     </style>
   <circle
      style="fill:currentColor;fill-opacity:1;stroke:none"
-     class="ColorScheme-ButtonFocus"
+     class="ColorScheme-Highlight"
      cx="4"
      cy="4"
      r="4"
