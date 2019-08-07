@@ -1,6 +1,7 @@
 [Icon Theme]
 Name=Breeze
 Name[ar]=نسيم
+Name[ast]=Breeze
 Name[ca]=Brisa
 Name[ca@valencia]=Brisa
 Name[cs]=Breeze
@@ -40,6 +41,7 @@ Name[zh_CN]=微风
 Name[zh_TW]=Breeze
 
 Comment=Breeze by the KDE VDG
+Comment[ast]=Breeze pol VDG de KDE
 Comment[ca]=Brisa pel VDG del KDE
 Comment[ca@valencia]=Brisa pel VDG del KDE
 Comment[cs]=Breeze od KDE VDG
