@@ -1,0 +1,9 @@
+To create a webfront from all breeze action icons run
+  > yarn install
+  > ./node_modules/grunt-cli/bin/grunt
+
+The generated fonts will be placed in ./dist/
+
+Requirements
+- yarn
+- fontforge

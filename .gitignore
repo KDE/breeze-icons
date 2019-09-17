@@ -3,3 +3,5 @@
 *.directory
 *.bak
 *thumbs.db
+dist
+node_modules
