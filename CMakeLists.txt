@@ -52,7 +52,9 @@ function(generate_binary_resource target outfile)
             ${RESOURCES_WORKING_DIR}/.gitignore
             ${RESOURCES_WORKING_DIR}/CMakeLists.txt
         COMMAND ${QT_RCC_EXECUTABLE} --project -o ${CMAKE_CURRENT_BINARY_DIR}/tmp.qrc
-        COMMAND $<TARGET_FILE:qrcAlias> -i ${CMAKE_CURRENT_BINARY_DIR}/tmp.qrc -o ${RESOURCE_FILE}
+        COMMAND ${CMAKE_COMMAND} -E env
+            $<IF:$<BOOL:${MSVC}>,PATH,LD_LIBRARY_PATH>=$<TARGET_FILE_DIR:Qt5::Core>
+            $<TARGET_FILE:qrcAlias> -i ${CMAKE_CURRENT_BINARY_DIR}/tmp.qrc -o ${RESOURCE_FILE}
 
         WORKING_DIRECTORY ${RESOURCES_WORKING_DIR}
         DEPENDS breeze-${target}-mkdir
