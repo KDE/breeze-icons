@@ -8,7 +8,7 @@ module.exports = function(grunt) {
                         src: '../icons/actions/22@2x/*.svg',
                         dest: './dist',
                         options: {
-                            stylesheet: 'scss',
+                            stylesheet: 'css',
                             types:  'eot,woff2,ttf,svg',
                             optimize: false
                         }
