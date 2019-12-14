@@ -6,3 +6,4 @@ if [ -s xmlerrors ]; then
     rm xmlerrors
     exit 1
 fi
+rm xmlerrors
