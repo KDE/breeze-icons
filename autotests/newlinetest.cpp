@@ -20,7 +20,7 @@
 
 #include <QDirIterator>
 #include <QObject>
-#include <QtTest>
+#include <QTest>
 
 #include "testhelpers.h"
 

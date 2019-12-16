@@ -20,7 +20,8 @@
 */
 
 #include <QObject>
-#include <QtTest>
+#include <QTest>
+#include <QDirIterator>
 
 #include <QSettings> // parsing the ini files as desktop files
 #include "testhelpers.h"
