@@ -309,13 +309,14 @@ private Q_SLOTS:
         if (!duplicatedScalableIcons.empty()) {
             QString msg;
             QTextStream stream(&msg);
-            stream << "Duplicated scalable icons:" << endl;
-            for (auto icon : duplicatedScalableIcons.keys()) {
-                stream << QString("  %1:").arg(icon) << endl;
-                for (auto info : duplicatedScalableIcons[icon]) {
-                    stream << QString("    %1").arg(info.absoluteFilePath()) << endl;
+            stream << "Duplicated scalable icons:\n";
+            for (const auto &icon : duplicatedScalableIcons.keys()) {
+                stream << QStringLiteral("  %1:").arg(icon) << '\n';
+                for (const auto &info : duplicatedScalableIcons[icon]) {
+                    stream << QStringLiteral("    %1").arg(info.absoluteFilePath()) << '\n';
                 }
             }
+            stream.flush();
             QFAIL(qPrintable(msg));
         }
     }
