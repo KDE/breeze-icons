@@ -15,6 +15,15 @@ if (NOT SKIP_INSTALL_ICONS)
     install( FILES index.theme DESTINATION ${BREEZE_INSTALL_DIR})
 endif()
 
+# Auto-generate 24px monochrome icons from 22px versions
+if(NOT WIN32)
+    find_program(SH_EXE sh)
+    add_custom_target(breeze-generate-24px-versions-dark ALL
+        COMMAND ${SH_EXE} ${CMAKE_SOURCE_DIR}/generate-24px-versions.sh ${BREEZE_INSTALL_DIR}
+        WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
+    )
+endif()
+
 gtk_update_icon_cache(${BREEZE_INSTALL_DIR})
 
 if(BINARY_ICONS_RESOURCE)
