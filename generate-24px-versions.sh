@@ -43,3 +43,9 @@ for INPUT_FILE in {devices,actions,places,status}/22/*.svg; do
         sed -i 's|</svg>|</g></svg>|g' $OUTPUT_FILE
     fi
 done
+
+
+# Make the @2x hidpi compatibility dirs
+for ICON_DIR in  devices actions places status; do
+    ln -fsn 24 $OUTPUT_DIR/$ICON_DIR/24@2x
+done
