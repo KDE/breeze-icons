@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e
+
 OUTPUT_DIR=$1
 
 for INPUT_FILE in {devices,actions,places,status}/22/*.svg; do
