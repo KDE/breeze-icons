@@ -12,7 +12,6 @@ set(BREEZE_INSTALL_DIR ${KDE_INSTALL_FULL_ICONDIR}/breeze)
 
 # Auto-generate 24px monochrome icons from 22px versions
 if(NOT WIN32)
-    find_program(BASH_EXE bash)
     add_custom_target(breeze-generate-24px-versions ALL
         COMMAND ${BASH_EXE} ${CMAKE_SOURCE_DIR}/generate-24px-versions.sh ${CMAKE_CURRENT_BINARY_DIR}/generated/
         WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
