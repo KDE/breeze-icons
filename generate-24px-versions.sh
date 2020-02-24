@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e
+set -ex
 
 OUTPUT_DIR=$1
 
