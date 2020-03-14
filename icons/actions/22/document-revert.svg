@@ -1,14 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
-  <defs id="defs3051">
+<svg viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
     <style type="text/css" id="current-color-scheme">
-      .ColorScheme-Text {
-        color:#232629;
-      }
-      </style>
-  </defs>
- <path 
-    style="fill:currentColor;fill-opacity:1;stroke:none" 
-	d="m0 2.998047v.001953 16h1 8 1v-.009766l.007812.009766 3.992188-3.992188v-.009765-1.40625-10.59375h-1-12-1m1 1.00195h12v10h-4v1 3h-8v-14m21 5l-3 3 3 3v-6"
-    class="ColorScheme-Text"
-    />
+        .ColorScheme-Text {
+            color:#232629;
+        }
+    </style>
+    <path d="m4 3v16h11c1.662 0 3-1.338 3-3s-1.338-3-3-3h-1.292969l1.5-1.5-.707031-.707031-2.707031 2.707031 2.707031 2.707031.707031-.707031-1.5-1.5h1.292969c1.108 0 2 .892 2 2s-.892 2-2 2h-10v-14h8v4h4v4h1v-5l-4-4z" class="ColorScheme-Text" fill="currentColor"/>
 </svg>
