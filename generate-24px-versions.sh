@@ -6,7 +6,7 @@ OUTPUT_DIR=$1
 
 # Compat between freebsd and gnu.
 case $(sed --help 2>&1) in
-    *GNU*)
+    *GNU*|*BusyBox*)
         echo "Using GNU-style sed arguments"
         sed_i () {
             sed -i "$@"
