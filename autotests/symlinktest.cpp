@@ -29,6 +29,11 @@ class SymlinkTest : public QObject
     Q_OBJECT
 
 private Q_SLOTS:
+    void initTestCase()
+    {
+        // Go up one level from the bin dir
+        m_buildDir = QDir(QCoreApplication::applicationDirPath() + "/..").canonicalPath();
+    }
     // Invalid symlinks shouldn't happen.
     void test_broken()
     {
@@ -43,6 +48,11 @@ private Q_SLOTS:
             it.next();
             auto info = it.fileInfo();
             if (!info.isSymLink() || info.exists()) {
+                continue;
+            }
+            if (info.canonicalPath().startsWith(m_buildDir)) {
+                // ignore any symlink in the builddir, they might point to a relative path that doesn't exist in the builddir
+                // and everything will still be fine after make install, when reunited with the source dir
                 continue;
             }
             brokenSymLinks << info;
@@ -70,6 +80,8 @@ private Q_SLOTS:
         failSymlinkList(OOTSymLinks,
                         QStringLiteral("Found out-of-tree symlinks:\n"));
     }
+private:
+    QString m_buildDir;
 };
 
 QTEST_GUILESS_MAIN(SymlinkTest)
