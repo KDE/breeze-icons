@@ -50,7 +50,7 @@ private Q_SLOTS:
             if (!info.isSymLink() || info.exists()) {
                 continue;
             }
-            if (info.canonicalPath().startsWith(m_buildDir)) {
+            if (QFileInfo(info.absolutePath()).canonicalPath().startsWith(m_buildDir)) {
                 // ignore any symlink in the builddir, they might point to a relative path that doesn't exist in the builddir
                 // and everything will still be fine after make install, when reunited with the source dir
                 continue;
