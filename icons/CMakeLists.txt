@@ -17,7 +17,9 @@ if(NOT WIN32)
         COMMAND ${BASH_EXE} ${CMAKE_SOURCE_DIR}/generate-24px-versions.sh ${CMAKE_CURRENT_BINARY_DIR}/generated/
         WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
     )
-    add_dependencies(breeze-validate-svg breeze-generate-24px-versions)
+    if (TARGET breeze-validate-svg)
+        add_dependencies(breeze-validate-svg breeze-generate-24px-versions)
+    endif()
     if(NOT SKIP_INSTALL_ICONS)
         install(DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/generated/ DESTINATION ${BREEZE_INSTALL_DIR})
     endif()
