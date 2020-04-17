@@ -6,17 +6,18 @@ Breeze-icons is a freedesktop.org compatible icon theme. It's developed by the K
 
 ## Guidelines
 
-The Breeze icons guidelines are described in the [HIG section][1] of the KDE Community Wiki.
+The Breeze icons guidelines are described at [hig.kde.org](https://hig.kde.org).
 
 ## Issues
 
-To report actual bugs and requests for new icons fill a bug in [KDE Bugtracker][2].
+To report a bug or request new icons, use the [KDE Bugtracker](https://bugs.kde.org/enter_bug.cgi?product=Breeze&component=Icons).
 
 ## Contribute
 
-You can contact the team through [visual-design@kde.org][3] mailing list or Breeze icons' [Telegram group][4].
+You can contact the KDE Visual Design Group at the following places:
 
-[1]: https://community.kde.org/KDE_Visual_Design_Group/HIG/IconDesign
-[2]: https://bugs.kde.org/enter_bug.cgi?product=Breeze
-[3]: https://mail.kde.org/mailman/listinfo/visual-design
-[4]: https://telegram.me/breezeicons
+- `#kde-vdg:kde.org` on Matrix: <https://webchat.kde.org/#/room/#kde-vdg:kde.org>
+- `#kde-vdg` on Freenode IRC
+- The VDG Telegram room: <https://telegram.me/vdgmainroom>
+- The Breeze Icons Telegram room: <https://telegram.me/breezeicons>
+- The visual-design@kde.org mailing list: <https://mail.kde.org/mailman/listinfo/visual-design>
