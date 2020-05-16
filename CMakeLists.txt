@@ -3,6 +3,11 @@ cmake_minimum_required(VERSION 3.5)
 set(KF5_VERSION "5.71.0") # handled by release scripts
 project(BreezeIcons VERSION ${KF5_VERSION})
 
+# Disallow in-source build
+if("${CMAKE_SOURCE_DIR}" STREQUAL "${CMAKE_BINARY_DIR}")
+   message(FATAL_ERROR "Breeze Icons requires an out-of-source build. Please create a separate build directory and run 'cmake path_to_breeze_icons [options]' there.")
+endif()
+
 # ECM setup
 include(FeatureSummary)
 find_package(ECM 5.70.0  NO_MODULE)
