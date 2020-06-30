@@ -1,1 +1,8 @@
-../16/window-close.svg
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+    <style type="text/css" id="current-color-scheme">
+        .ColorScheme-NegativeText {
+            color:#da4453;
+        }
+    </style>
+    <path d="m8 0a7.9999998 7.9999998 0 0 0 -8 8 7.9999998 7.9999998 0 0 0 8 8 7.9999998 7.9999998 0 0 0 8-8 7.9999998 7.9999998 0 0 0 -8-8zm-3.5 3.7929688 3.5 3.5 3.5-3.5.707031.7070312-3.4999998 3.5 3.4999998 3.5-.707031.707031-3.5-3.4999998-3.5 3.4999998-.7070312-.707031 3.5-3.5-3.5-3.5z" class="ColorScheme-NegativeText" fill="currentColor"/>
+</svg>
