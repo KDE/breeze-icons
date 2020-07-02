@@ -1,12 +1,17 @@
-<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <defs id="defs3051">
     <style type="text/css" id="current-color-scheme">
-        .ColorScheme-Background {
-            color:#31363b;
-        }
-        .ColorScheme-NegativeText {
-            color:#da4453;
-        }
-    </style>
-    <path d="m7.9999997-.0000001a7.9999998 7.9999998 0 0 0 -7.9999998 7.9999998 7.9999998 7.9999998 0 0 0 7.9999998 8.0000003 7.9999998 7.9999998 0 0 0 8.0000003-8.0000003 7.9999998 7.9999998 0 0 0 -8.0000003-7.9999998z" class="ColorScheme-NegativeText" fill="currentColor"/>
-    <path d="m4.5 3.7929688-.7070312.7070312.3535156.3535156 3.1464844 3.1464844-3.1464844 3.146484-.3535156.353516.7070312.707031.3535156-.353515 3.1464844-3.1464848 3.146484 3.1464848.353516.353515.707031-.707031-.353515-.353516-3.1464848-3.146484 3.1464848-3.1464844.353515-.3535156-.707031-.7070312-.353516.3535156-3.146484 3.1464844-3.1464844-3.1464844z" class="ColorScheme-Background" fill="currentColor" stroke-linecap="square" stroke-miterlimit="0"/>
+      .ColorScheme-Text {
+        color:#eff0f1;
+      }
+      .ColorScheme-NegativeText {
+        color:#da4453;
+      }
+      </style>
+  </defs>
+  <path
+     style="fill:currentColor;fill-opacity:1;stroke:none" 
+     class="ColorScheme-NegativeText"
+    d="M 8,2 A 6,6 0 0 0 2,8 6,6 0 0 0 8,14 6,6 0 0 0 14,8 6,6 0 0 0 8,2 Z M 5.70703,5 8,7.29297 10.29297,5 11,5.70703 8.70703,8 11,10.29297 10.29297,11 8,8.70703 5.70703,11 5,10.29297 7.29297,8 5,5.70703 5.70703,5 Z"
+        />
 </svg>
