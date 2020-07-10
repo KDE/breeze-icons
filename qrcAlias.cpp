@@ -37,7 +37,7 @@ QString link(const QString &path, const QString &fileName)
         qDebug() << in.fileName() << "line could not be read...";
         return QString();
     }
-    QRegularExpression fNameReg(QStringLiteral("(.*\\.(?:svg|png|gif|ico))"));
+    QRegularExpression fNameReg(QStringLiteral("(.*\\.(?:svg|png|gif|ico))$"));
     QRegularExpressionMatch match = fNameReg.match(firstLine);
     if (!match.hasMatch()) {
         return QString();
