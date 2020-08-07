@@ -27,5 +27,4 @@ You can contact the KDE Visual Design Group at the following places:
 - `#kde-vdg:kde.org` on Matrix: <https://webchat.kde.org/#/room/#kde-vdg:kde.org>
 - `#kde-vdg` on Freenode IRC
 - The VDG Telegram room: <https://telegram.me/vdgmainroom>
-- The Breeze Icons Telegram room: <https://telegram.me/breezeicons>
 - The visual-design@kde.org mailing list: <https://mail.kde.org/mailman/listinfo/visual-design>
