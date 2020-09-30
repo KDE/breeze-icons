@@ -24,6 +24,31 @@ include(GtkUpdateIconCache)
 # Dependencies
 set(REQUIRED_QT_VERSION 5.12.0)
 
+# Find Python 3
+find_package (Python 3 COMPONENTS Interpreter)
+
+if(Python_FOUND)
+    # Find lxml Python 3 module
+    exec_program(${Python_EXECUTABLE}
+        ARGS "-c \"import lxml; print(lxml.get_include())\""
+        RETURN_VALUE LXML_NOT_FOUND # Returns 0 or false if successful
+    )
+
+    # Generating icons is not required, but strongly recommended in most cases
+    if(LXML_NOT_FOUND)
+        message(WARNING "lxml not found; icon generation disabled")
+        set(WITH_ICON_GENERATION OFF)
+    else()
+        option(WITH_ICON_GENERATION "Icon generation" ON)
+    endif()
+else()
+    set(WITH_ICON_GENERATION OFF)
+endif()
+
+add_feature_info("Icon generation" ${WITH_ICON_GENERATION} "for 24x24 icons.
+   This feature requires Python 3 and the lxml Python 3 module."
+) # The exact amount of indentation used in the line(s) above is intentional
+
 # When cross-compiling, we should compile qrcAlias natively (against a native Qt build)
 if (CMAKE_CROSSCOMPILING)
     set(BINARY_ICONS_RESOURCE_OPTION_DEFAULT OFF)
@@ -86,10 +111,6 @@ endfunction()
 endif()
 
 if(NOT WIN32)
-    # generate-24px in subdirs.
-    find_program(BASH_EXE bash)
-    add_feature_info("24x24 generation" BASH_EXE "'bash' is required to generate 24x24 variants")
-
     # validate
     find_program(SH_EXE sh)
     find_program(XMLLINT_EXE xmllint)

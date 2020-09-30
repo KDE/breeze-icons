@@ -22,4 +22,7 @@ if(BUILD_TESTING)
         TEST_NAME "scalable"
         LINK_LIBRARIES Qt5::Test
     )
+    add_test(NAME "test24x24icons" COMMAND ${Python_EXECUTABLE} ${CMAKE_SOURCE_DIR}/autotests/test24x24icons.py
+        WORKING_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}
+    )
 endif()
