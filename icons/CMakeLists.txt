@@ -20,7 +20,7 @@ if(WITH_ICON_GENERATION)
 endif()
 
 if(NOT WIN32)
-    if (TARGET breeze-validate-svg)
+    if (TARGET breeze-validate-svg AND WITH_ICON_GENERATION)
         add_dependencies(breeze-validate-svg breeze-generate-24px-versions)
     endif()
 endif()
