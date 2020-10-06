@@ -27,7 +27,9 @@ set(REQUIRED_QT_VERSION 5.12.0)
 # Find Python 3
 find_package (Python 3 COMPONENTS Interpreter)
 
-if(Python_FOUND)
+# FIXME: This is a temporary solution to unbreak KDE's Windows CI.
+# Remove "NOT WIN32" when icon generation works on Windows.
+if(Python_FOUND AND NOT WIN32)
     # Find lxml Python 3 module
     exec_program(${Python_EXECUTABLE}
         ARGS "-c \"import lxml; print(lxml.get_include())\""
