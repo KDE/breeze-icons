@@ -6,3 +6,6 @@
 dist
 node_modules
 .cmake/
+compile_commands.json
+build/
+xmlerrors
