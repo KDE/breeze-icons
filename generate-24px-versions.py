@@ -97,7 +97,8 @@ def main():
             # Regenerate symlinks or edit SVGs
             if os.path.islink(filepath):
                 symlink_source = os.readlink(filepath).replace('/22', '/24')
-                os.remove(file_destination)
+                if os.path.exists(file_destination):
+                    os.remove(file_destination)
                 os.symlink(symlink_source, file_destination)
                 # print(file_destination + " -> " + os.readlink(file_destination))
             else:
