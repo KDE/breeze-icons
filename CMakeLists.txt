@@ -130,6 +130,8 @@ if(NOT WIN32)
     endif()
 endif()
 
+add_definitions(-DQT_NO_FOREACH)
+
 add_subdirectory(autotests)
 add_subdirectory(icons)
 add_subdirectory(icons-dark)
