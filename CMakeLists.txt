@@ -53,7 +53,7 @@ add_feature_info("Icon generation" ${WITH_ICON_GENERATION} "for 24x24 icons.
 ) # The exact amount of indentation used in the line(s) above is intentional
 
 # When cross-compiling, we should compile qrcAlias natively (against a native Qt build)
-if (CMAKE_CROSSCOMPILING)
+if (CMAKE_CROSSCOMPILING OR QT_MAJOR_VERSION GREATER 5)
     set(BINARY_ICONS_RESOURCE_OPTION_DEFAULT OFF)
 else()
     set(BINARY_ICONS_RESOURCE_OPTION_DEFAULT ON)
