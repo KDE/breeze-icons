@@ -40,10 +40,10 @@ set_target_properties(KF5BreezeIcons PROPERTIES VERSION  ${BREEZEICONS_VERSION_S
 
 ecm_generate_headers(KF5BreezeIcons_CamelCase_HEADERS
     HEADER_NAMES
-    BreezeIcons
+        BreezeIcons
 
-    PREFIX breezeicons
-    REQUIRED_HEADERS KF5BreezeIcons_HEADERS
+    REQUIRED_HEADERS
+        KF5BreezeIcons_HEADERS
 )
 
 install(TARGETS KF5BreezeIcons EXPORT KF5BreezeIconsTargets ${KF5_INSTALL_TARGETS_DEFAULT_ARGS})
@@ -51,12 +51,12 @@ install(TARGETS KF5BreezeIcons EXPORT KF5BreezeIconsTargets ${KF5_INSTALL_TARGET
 install(FILES
     ${CMAKE_CURRENT_BINARY_DIR}/breezeicons_export.h
     ${KF5BreezeIcons_HEADERS}
-    DESTINATION ${KF5_INCLUDE_INSTALL_DIR}/BreezeIcons/breezeicons COMPONENT Devel
+    DESTINATION ${KF5_INCLUDE_INSTALL_DIR}/BreezeIcons COMPONENT Devel
 )
 
 install(FILES
     ${KF5BreezeIcons_CamelCase_HEADERS}
-    DESTINATION ${KF5_INCLUDE_INSTALL_DIR}/BreezeIcons/BreezeIcons COMPONENT Devel
+    DESTINATION ${KF5_INCLUDE_INSTALL_DIR}/BreezeIcons COMPONENT Devel
 )
 
 include(ECMGeneratePriFile)
