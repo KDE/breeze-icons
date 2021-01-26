@@ -1,12 +1,9 @@
 /*
     This file is part of the KDE libraries
 
-    SPDX-FileCopyrightText: 1999 Ian Zepp <icszepp@islc.net>
-    SPDX-FileCopyrightText: 2000 Rik Hemsley (rikkus) <rik@kde.org>
-    SPDX-FileCopyrightText: 2006 Dominic Battre <dominic@battre.de>
-    SPDX-FileCopyrightText: 2006 Martin Pool <mbp@canonical.com>
+    SPDX-FileCopyrightText: 2021 Christoph Cullmann <cullmann@kde.org>
 
-    SPDX-License-Identifier: LGPL-2.0-only
+    SPDX-License-Identifier: LGPL-2.0-or-later
 */
 
 #ifndef BREEZEICONS_H
