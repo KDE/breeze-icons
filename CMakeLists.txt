@@ -63,6 +63,7 @@ endif()
 
 option(BINARY_ICONS_RESOURCE "Install Qt binary resource files containing breeze icons (breeze-icons.rcc, breeze-icons-dark.rcc)" ${BINARY_ICONS_RESOURCE_OPTION_DEFAULT})
 option(SKIP_INSTALL_ICONS "Skip installing the icons files" OFF)
+option(ICONS_LIBRARY "Install a library including the breeze & breeze dark icons as resources & functions to use them." OFF)
 
 ecm_setup_version(PROJECT
                   VARIABLE_PREFIX BREEZEICONS
@@ -70,8 +71,7 @@ ecm_setup_version(PROJECT
                   PACKAGE_VERSION_FILE "${CMAKE_CURRENT_BINARY_DIR}/KF5BreezeIconsConfigVersion.cmake"
                   SOVERSION 5)
 
-if(BINARY_ICONS_RESOURCE)
-    find_package(Qt5Gui ${REQUIRED_QT_VERSION} REQUIRED NO_MODULE)
+if(BINARY_ICONS_RESOURCE OR ICONS_LIBRARY)
     find_package(Qt5 NO_MODULE REQUIRED Core)
     add_executable(qrcAlias qrcAlias.cpp)
     target_link_libraries(qrcAlias PUBLIC Qt5::Core)
@@ -146,30 +146,33 @@ add_subdirectory(autotests)
 add_subdirectory(icons)
 add_subdirectory(icons-dark)
 
-if(BINARY_ICONS_RESOURCE)
+# shall we create a library with the icons?
+if(ICONS_LIBRARY)
+    find_package(Qt5Gui ${REQUIRED_QT_VERSION} REQUIRED NO_MODULE)
+
     # create a Config.cmake and a ConfigVersion.cmake file and install them
     set(CMAKECONFIG_INSTALL_DIR "${KDE_INSTALL_CMAKEPACKAGEDIR}/KF5BreezeIcons")
 
     include(CMakePackageConfigHelpers)
 
     configure_package_config_file(
-    "${CMAKE_CURRENT_SOURCE_DIR}/KF5BreezeIconsConfig.cmake.in"
-    "${CMAKE_CURRENT_BINARY_DIR}/KF5BreezeIconsConfig.cmake"
-    INSTALL_DESTINATION  ${CMAKECONFIG_INSTALL_DIR}
+        "${CMAKE_CURRENT_SOURCE_DIR}/KF5BreezeIconsConfig.cmake.in"
+        "${CMAKE_CURRENT_BINARY_DIR}/KF5BreezeIconsConfig.cmake"
+        INSTALL_DESTINATION  ${CMAKECONFIG_INSTALL_DIR}
     )
 
     install(FILES
-    "${CMAKE_CURRENT_BINARY_DIR}/KF5BreezeIconsConfig.cmake"
-    "${CMAKE_CURRENT_BINARY_DIR}/KF5BreezeIconsConfigVersion.cmake"
-    DESTINATION "${CMAKECONFIG_INSTALL_DIR}"
-    COMPONENT Devel
+        "${CMAKE_CURRENT_BINARY_DIR}/KF5BreezeIconsConfig.cmake"
+        "${CMAKE_CURRENT_BINARY_DIR}/KF5BreezeIconsConfigVersion.cmake"
+        DESTINATION "${CMAKECONFIG_INSTALL_DIR}"
+        COMPONENT Devel
     )
 
     install(EXPORT KF5BreezeIconsTargets DESTINATION "${CMAKECONFIG_INSTALL_DIR}" FILE KF5BreezeIconsTargets.cmake NAMESPACE KF5:: )
 
     install(FILES
-    ${CMAKE_CURRENT_BINARY_DIR}/breezeicons_version.h
-    DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF5} COMPONENT Devel
+        ${CMAKE_CURRENT_BINARY_DIR}/breezeicons_version.h
+        DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF5} COMPONENT Devel
     )
 
     add_subdirectory(src)
