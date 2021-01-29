@@ -171,7 +171,8 @@ if(ICONS_LIBRARY)
     install(EXPORT KF5BreezeIconsTargets
         DESTINATION "${CMAKECONFIG_INSTALL_DIR}"
         FILE KF5BreezeIconsTargets.cmake
-        NAMESPACE KF5::)
+        NAMESPACE KF5::
+    )
 
     install(FILES
         ${CMAKE_CURRENT_BINARY_DIR}/breezeicons_version.h
