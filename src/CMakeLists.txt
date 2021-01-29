@@ -1,6 +1,6 @@
 # helper functions to ensure we load the icon theme
 set(kbreezeicons_SRCS
-  breezeicons.cpp
+    breezeicons.cpp
 )
 
 # add our icons for normal mode
@@ -21,21 +21,23 @@ ecm_generate_export_header(KF5BreezeIcons
     BASE_NAME BreezeIcons
     GROUP_BASE_NAME KF
     VERSION ${KF5_VERSION}
-    DEPRECATED_BASE_VERSION 0
-    DEPRECATION_VERSIONS 4.8 5.0 5.63 5.64
-    EXCLUDE_DEPRECATED_BEFORE_AND_AT ${EXCLUDE_DEPRECATED_BEFORE_AND_AT}
 )
 
-target_include_directories(KF5BreezeIcons INTERFACE "$<INSTALL_INTERFACE:${KDE_INSTALL_INCLUDEDIR_KF5}/BreezeIcons>")
+target_include_directories(KF5BreezeIcons
+    INTERFACE
+        "$<INSTALL_INTERFACE:${KDE_INSTALL_INCLUDEDIR_KF5}/BreezeIcons>"
+)
 
 target_link_libraries(KF5BreezeIcons
-  PUBLIC
-    Qt5::Gui
+    PUBLIC
+        Qt5::Gui
 )
 
-set_target_properties(KF5BreezeIcons PROPERTIES VERSION  ${BREEZEICONS_VERSION_STRING}
-                                               SOVERSION ${BREEZEICONS_SOVERSION}
-                                               EXPORT_NAME BreezeIcons
+set_target_properties(KF5BreezeIcons
+    PROPERTIES
+        VERSION ${BREEZEICONS_VERSION_STRING}
+        SOVERSION ${BREEZEICONS_SOVERSION}
+        EXPORT_NAME BreezeIcons
 )
 
 ecm_generate_headers(KF5BreezeIcons_CamelCase_HEADERS
@@ -51,14 +53,24 @@ install(TARGETS KF5BreezeIcons EXPORT KF5BreezeIconsTargets ${KF5_INSTALL_TARGET
 install(FILES
     ${CMAKE_CURRENT_BINARY_DIR}/breezeicons_export.h
     ${KF5BreezeIcons_HEADERS}
-    DESTINATION ${KF5_INCLUDE_INSTALL_DIR}/BreezeIcons COMPONENT Devel
+    DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF5}/BreezeIcons
+    COMPONENT Devel
 )
 
 install(FILES
     ${KF5BreezeIcons_CamelCase_HEADERS}
-    DESTINATION ${KF5_INCLUDE_INSTALL_DIR}/BreezeIcons COMPONENT Devel
+    DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF5}/BreezeIcons
+    COMPONENT Devel
 )
 
 include(ECMGeneratePriFile)
-ecm_generate_pri_file(BASE_NAME BreezeIcons LIB_NAME KF5BreezeIcons DEPS "gui" FILENAME_VAR PRI_FILENAME INCLUDE_INSTALL_DIR ${KDE_INSTALL_INCLUDEDIR_KF5}/BreezeIcons)
+
+ecm_generate_pri_file(
+    BASE_NAME BreezeIcons
+    LIB_NAME KF5BreezeIcons
+    DEPS "gui"
+    FILENAME_VAR PRI_FILENAME
+    INCLUDE_INSTALL_DIR ${KDE_INSTALL_INCLUDEDIR_KF5}/BreezeIcons
+)
+
 install(FILES ${PRI_FILENAME} DESTINATION ${ECM_MKSPECS_INSTALL_DIR})

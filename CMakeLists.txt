@@ -158,7 +158,7 @@ if(ICONS_LIBRARY)
     configure_package_config_file(
         "${CMAKE_CURRENT_SOURCE_DIR}/KF5BreezeIconsConfig.cmake.in"
         "${CMAKE_CURRENT_BINARY_DIR}/KF5BreezeIconsConfig.cmake"
-        INSTALL_DESTINATION  ${CMAKECONFIG_INSTALL_DIR}
+        INSTALL_DESTINATION ${CMAKECONFIG_INSTALL_DIR}
     )
 
     install(FILES
@@ -168,11 +168,15 @@ if(ICONS_LIBRARY)
         COMPONENT Devel
     )
 
-    install(EXPORT KF5BreezeIconsTargets DESTINATION "${CMAKECONFIG_INSTALL_DIR}" FILE KF5BreezeIconsTargets.cmake NAMESPACE KF5:: )
+    install(EXPORT KF5BreezeIconsTargets
+        DESTINATION "${CMAKECONFIG_INSTALL_DIR}"
+        FILE KF5BreezeIconsTargets.cmake
+        NAMESPACE KF5::)
 
     install(FILES
         ${CMAKE_CURRENT_BINARY_DIR}/breezeicons_version.h
-        DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF5} COMPONENT Devel
+        DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF5}
+        COMPONENT Devel
     )
 
     add_subdirectory(src)
