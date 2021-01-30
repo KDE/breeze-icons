@@ -9,3 +9,4 @@ node_modules
 compile_commands.json
 build/
 xmlerrors
+/.clang-format
