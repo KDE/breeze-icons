@@ -19,14 +19,19 @@ namespace BreezeIcons
 {
 
 /**
- * Ensure the Breeze icons as bundled as resources inside this
- * library are used by the application.
+ * Sets up the Breeze icons and sets the icon theme used by Qt
+ * to the Breeze icons.
  *
- * Call this function after your QGuiApplication is constructed.
+ * This automatically switches between Breeze light and Breeze dark
+ * based on the base color of your application's palette, and listens
+ * to changes to the application's palette and switches between the
+ * icon themes accordingly.
  *
- * It will both set the right icon theme for Qt and ensure
- * that palette changes are handled to switch between light
- * and dark icons.
+ * Call this function after having constructed your QGuiApplication or
+ * QApplication.
+ *
+ * @warning Calling this function before a QGuiApplication has been constructed
+ * will likely cause a crash.
  */
 BREEZEICONS_EXPORT void initIcons();
 
