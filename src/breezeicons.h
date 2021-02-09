@@ -35,6 +35,12 @@ namespace BreezeIcons
  */
 BREEZEICONS_EXPORT void initIcons();
 
+/**
+ * Deactivates the automatic switching between Breeze light and Breeze dark
+ * as activated with initIcons again.
+ */
+BREEZEICONS_EXPORT void deinitIcons();
+
 }
 
 #endif

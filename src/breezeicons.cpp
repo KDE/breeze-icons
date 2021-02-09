@@ -22,10 +22,13 @@ static void updateThemeForPalette(const QPalette &palette)
     const auto darkTheme = palette.color(QPalette::Base).lightness() < 128;
     const auto themeName = darkTheme ? QStringLiteral("breeze-dark") : QStringLiteral("breeze");
 
-    // just enforce theme + fallback theme, allowing the users to overwrite this
+    // enforce theme + fallback theme
     QIcon::setFallbackThemeName(themeName);
     QIcon::setThemeName(themeName);
 }
+
+// stored connection for later un-connect in deinitIcons
+static QMetaObject::Connection updateConnection;
 
 namespace BreezeIcons
 {
@@ -39,7 +42,18 @@ void initIcons()
     updateThemeForPalette(qGuiApp->palette());
 
     // register for later changes
-    QObject::connect(qGuiApp, &QGuiApplication::paletteChanged, &updateThemeForPalette);
+    updateConnection = QObject::connect(qGuiApp, &QGuiApplication::paletteChanged, &updateThemeForPalette);
+}
+
+void deinitIcons()
+{
+    // if we have no gui application or no connection setup => nop
+    if (!qGuiApp || !updateConnection) {
+        return;
+    }
+
+    // unregister theme update function to allow again other themes to be used without interference
+    QObject::disconnect(updateConnection);
 }
 
 }
