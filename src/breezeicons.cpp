@@ -27,7 +27,7 @@ static void updateThemeForPalette(const QPalette &palette)
     QIcon::setThemeName(themeName);
 }
 
-// stored connection for later un-connect in deinitIcons
+// stored connection for later disconnect in deinitIcons
 static QMetaObject::Connection updateConnection;
 
 namespace BreezeIcons

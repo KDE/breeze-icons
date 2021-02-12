@@ -32,12 +32,16 @@ namespace BreezeIcons
  *
  * @warning Calling this function before a QGuiApplication has been constructed
  * will likely cause a crash.
+ *
+ * @since 5.80
  */
 BREEZEICONS_EXPORT void initIcons();
 
 /**
  * Deactivates the automatic switching between Breeze light and Breeze dark
  * as activated with initIcons again.
+ *
+ * @since 5.80
  */
 BREEZEICONS_EXPORT void deinitIcons();
 
