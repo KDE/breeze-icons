@@ -6,11 +6,11 @@ Breeze-icons is a freedesktop.org compatible icon theme. It's developed by the K
 
 ## Guidelines
 
-The Breeze icons guidelines are described at [hig.kde.org](https://hig.kde.org).
+The Breeze icons guidelines are described at [develop.kde.org/hig](https://develop.kde.org/hig).
 
 ### Web Usage 
 
-Breeze Icons can be used as a webfont from here: [https://cdn.kde.org/breeze-icons/icons.html](https://cdn.kde.org/breeze-icons/icons.html).
+Breeze Icons can be used as a webfont from [cdn.kde.org/breeze-icons/icons.html](https://cdn.kde.org/breeze-icons/icons.html).
 
 ```html
 <i class="icon icon_icon-name"></i>
@@ -24,7 +24,7 @@ To report a bug or request new icons, use the [KDE Bugtracker](https://bugs.kde.
 
 You can contact the KDE Visual Design Group at the following places:
 
-- `#kde-vdg:kde.org` on Matrix: <https://webchat.kde.org/#/room/#kde-vdg:kde.org>
+- `#visualdesigngroup:kde.org` on Matrix: <https://webchat.kde.org/#/room/#kde-vdg:kde.org>
 - `#kde-vdg` on Freenode IRC
 - The VDG Telegram room: <https://telegram.me/vdgmainroom>
 - The visual-design@kde.org mailing list: <https://mail.kde.org/mailman/listinfo/visual-design>
