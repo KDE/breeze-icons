@@ -28,7 +28,7 @@ static void updateThemeForPalette(const QPalette &palette)
 }
 
 // stored connection for later disconnect in deinitIcons
-static QMetaObject::Connection updateConnection;
+Q_GLOBAL_STATIC(QMetaObject::Connection, updateConnection)
 
 namespace BreezeIcons
 {
@@ -42,18 +42,18 @@ void initIcons()
     updateThemeForPalette(qGuiApp->palette());
 
     // register for later changes
-    updateConnection = QObject::connect(qGuiApp, &QGuiApplication::paletteChanged, &updateThemeForPalette);
+    *updateConnection() = QObject::connect(qGuiApp, &QGuiApplication::paletteChanged, &updateThemeForPalette);
 }
 
 void deinitIcons()
 {
     // if we have no gui application or no connection setup => nop
-    if (!qGuiApp || !updateConnection) {
+    if (!qGuiApp || !(*updateConnection())) {
         return;
     }
 
     // unregister theme update function to allow again other themes to be used without interference
-    QObject::disconnect(updateConnection);
+    QObject::disconnect(*updateConnection());
 }
 
 }
