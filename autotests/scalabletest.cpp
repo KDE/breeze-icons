@@ -44,13 +44,13 @@ public:
         Emote,
         International,
         Place,
-        StatusIcon
+        StatusIcon,
     };
     Q_ENUM(Context)
     enum Type {
         Fixed,
         Scalable,
-        Threshold
+        Threshold,
     };
     Q_ENUM(Type)
 };
