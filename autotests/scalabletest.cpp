@@ -19,17 +19,17 @@
     License along with this library. If not, see <http://www.gnu.org/licenses/>.
 */
 
+#include <QDirIterator>
 #include <QObject>
 #include <QTest>
-#include <QDirIterator>
 
-#include <QSettings> // parsing the ini files as desktop files
 #include "testhelpers.h"
+#include <QSettings> // parsing the ini files as desktop files
 
 // lift a bit of code from KIconLoader to get the unit test running without tier 3 libraries
 class KIconLoaderDummy : public QObject
 {
-Q_OBJECT
+    Q_OBJECT
 public:
     enum Context {
         Any,
@@ -55,7 +55,6 @@ public:
     Q_ENUM(Type)
 };
 
-
 /**
  * Represents icon directory to conduct simple icon lookup within.
  */
@@ -63,8 +62,7 @@ class Dir
 {
 public:
     Dir(const QSettings &cg, const QString &themeDir_)
-        :
-          themeDir(themeDir_)
+        : themeDir(themeDir_)
         , path(cg.group())
         , size(cg.value("Size", 0).toInt())
         , contextString(cg.value("Context", QString()).toString())
@@ -74,7 +72,10 @@ public:
         QVERIFY2(!contextString.isEmpty(),
                  QString("Missing 'Context' key in file %1, config group '[%2]'").arg(cg.fileName(), cg.group()).toLatin1().constData());
         QVERIFY2(context != -1,
-                 QString("Don't know how to handle 'Context=%1' in file %2, config group '[%3]'").arg(contextString, cg.fileName(), cg.group()).toLatin1().constData());
+                 QString("Don't know how to handle 'Context=%1' in file %2, config group '[%3]'")
+                     .arg(contextString, cg.fileName(), cg.group())
+                     .toLatin1()
+                     .constData());
     }
 
     static QMetaEnum findEnum(const char *name)
@@ -99,17 +100,17 @@ public:
     static KIconLoaderDummy::Context parseContext(const QString &string)
     {
         // Can't use QMetaEnum as the enum names are singular, the entry values are plural though.
-        static QHash<QString, int> hash {
-            { QStringLiteral("Actions"), KIconLoaderDummy::Action },
-            { QStringLiteral("Animations"), KIconLoaderDummy::Animation },
-            { QStringLiteral("Applications"), KIconLoaderDummy::Application },
-            { QStringLiteral("Categories"), KIconLoaderDummy::Category },
-            { QStringLiteral("Devices"), KIconLoaderDummy::Device },
-            { QStringLiteral("Emblems"), KIconLoaderDummy::Emblem },
-            { QStringLiteral("Emotes"), KIconLoaderDummy::Emote },
-            { QStringLiteral("MimeTypes"), KIconLoaderDummy::MimeType },
-            { QStringLiteral("Places"), KIconLoaderDummy::Place },
-            { QStringLiteral("Status"), KIconLoaderDummy::StatusIcon },
+        static QHash<QString, int> hash{
+            {QStringLiteral("Actions"), KIconLoaderDummy::Action},
+            {QStringLiteral("Animations"), KIconLoaderDummy::Animation},
+            {QStringLiteral("Applications"), KIconLoaderDummy::Application},
+            {QStringLiteral("Categories"), KIconLoaderDummy::Category},
+            {QStringLiteral("Devices"), KIconLoaderDummy::Device},
+            {QStringLiteral("Emblems"), KIconLoaderDummy::Emblem},
+            {QStringLiteral("Emotes"), KIconLoaderDummy::Emote},
+            {QStringLiteral("MimeTypes"), KIconLoaderDummy::MimeType},
+            {QStringLiteral("Places"), KIconLoaderDummy::Place},
+            {QStringLiteral("Status"), KIconLoaderDummy::StatusIcon},
         };
         const auto value = hash.value(string, -1);
         return static_cast<KIconLoaderDummy::Context>(value); // the caller will check that it wasn't -1
@@ -179,8 +180,12 @@ private Q_SLOTS:
             QVERIFY(!directoryPaths.isEmpty());
             for (auto directoryPath : directoryPaths) {
                 config.beginGroup(directoryPath);
-                QVERIFY2(keys.contains(directoryPath+"/Size"),QString("The theme %1 has an entry 'Directories' which specifies '%2' as directory, but there's no"
-                                                                                         " have no associated entry '%2/Size'").arg(themeDir + "/index.theme", directoryPath).toLatin1().constData());
+                QVERIFY2(keys.contains(directoryPath + "/Size"),
+                         QString("The theme %1 has an entry 'Directories' which specifies '%2' as directory, but there's no"
+                                 " have no associated entry '%2/Size'")
+                             .arg(themeDir + "/index.theme", directoryPath)
+                             .toLatin1()
+                             .constData());
                 auto dir = QSharedPointer<Dir>::create(config, themeDir);
                 config.endGroup();
                 contextHash[dir->context].append(dir);
@@ -261,9 +266,7 @@ private Q_SLOTS:
             return;
         }
         notScalableIcons.removeDuplicates();
-        QFAIL(QString("The following icons are not available in a scalable directory:\n  %1")
-              .arg(notScalableIcons.join("\n  "))
-              .toLatin1().constData());
+        QFAIL(QString("The following icons are not available in a scalable directory:\n  %1").arg(notScalableIcons.join("\n  ")).toLatin1().constData());
     }
 
     void test_scalableDuplicates_data()
@@ -297,7 +300,7 @@ private Q_SLOTS:
         }
 
         QHash<QString, QList<QFileInfo>> duplicatedScalableIcons;
-        for (auto icon: scalableIcons.keys()) {
+        for (auto icon : scalableIcons.keys()) {
             auto list = scalableIcons[icon];
             if (list.size() > 1) {
                 duplicatedScalableIcons[icon] = list;

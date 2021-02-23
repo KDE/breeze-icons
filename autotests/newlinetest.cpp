@@ -33,19 +33,15 @@ private Q_SLOTS:
     void test_whitespace()
     {
         QList<QString> brokenFiles;
-        QDirIterator it(PROJECT_SOURCE_DIR,
-                        QDir::Files	| QDir::System,
-                        QDirIterator::Subdirectories);
+        QDirIterator it(PROJECT_SOURCE_DIR, QDir::Files | QDir::System, QDirIterator::Subdirectories);
         while (it.hasNext()) {
             it.next();
             if (it.fileName().simplified() != it.fileName()) {
                 brokenFiles << it.filePath();
             }
         }
-        failListContent(brokenFiles,
-                        QStringLiteral("Found file with bad characters (http://doc.qt.io/qt-5/qstring.html#simplified):\n"));
+        failListContent(brokenFiles, QStringLiteral("Found file with bad characters (http://doc.qt.io/qt-5/qstring.html#simplified):\n"));
     }
-
 };
 
 QTEST_GUILESS_MAIN(NewlineTest)

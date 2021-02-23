@@ -40,9 +40,7 @@ private Q_SLOTS:
         // By default broken symlinks are not listed unless the System filter
         // is used. System may however also include pipes and the like, so we
         // still manually need to filter for symlinks afterwards.
-        QDirIterator it(PROJECT_SOURCE_DIR,
-                        QDir::System,
-                        QDirIterator::Subdirectories);
+        QDirIterator it(PROJECT_SOURCE_DIR, QDir::System, QDirIterator::Subdirectories);
         QList<QFileInfo> brokenSymLinks;
         while (it.hasNext()) {
             it.next();
@@ -57,29 +55,25 @@ private Q_SLOTS:
             }
             brokenSymLinks << info;
         }
-        failSymlinkList(brokenSymLinks,
-                        QStringLiteral("Found broken symlinks:\n"));
+        failSymlinkList(brokenSymLinks, QStringLiteral("Found broken symlinks:\n"));
     }
 
     // Symlinks should never point to something outside the tree, even if valid!
     void test_outOfTree()
     {
-        QDirIterator it(PROJECT_SOURCE_DIR,
-                        QDir::AllEntries,
-                        QDirIterator::Subdirectories);
+        QDirIterator it(PROJECT_SOURCE_DIR, QDir::AllEntries, QDirIterator::Subdirectories);
         QList<QFileInfo> OOTSymLinks;
         while (it.hasNext()) {
             it.next();
             auto info = it.fileInfo();
-            if (!info.isSymLink() ||
-                    info.symLinkTarget().startsWith(PROJECT_SOURCE_DIR)) {
+            if (!info.isSymLink() || info.symLinkTarget().startsWith(PROJECT_SOURCE_DIR)) {
                 continue;
             }
             OOTSymLinks << info;
         }
-        failSymlinkList(OOTSymLinks,
-                        QStringLiteral("Found out-of-tree symlinks:\n"));
+        failSymlinkList(OOTSymLinks, QStringLiteral("Found out-of-tree symlinks:\n"));
     }
+
 private:
     QString m_buildDir;
 };

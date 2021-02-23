@@ -143,4 +143,4 @@ kde_configure_git_pre_commit_hook(CHECKS CLANG_FORMAT)
 # Remove these 3 lines when the ECM version is bumped to 5.80
 include(KDEClangFormat)
 file(GLOB_RECURSE ALL_CLANG_FORMAT_SOURCE_FILES *.cpp *.h)
-kde_clang_format()
+kde_clang_format(${ALL_CLANG_FORMAT_SOURCE_FILES})

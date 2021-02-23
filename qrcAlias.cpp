@@ -16,13 +16,13 @@
  *    the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
  *    Boston, MA 02110-1301, USA.
  */
+#include <QCommandLineParser>
 #include <QCoreApplication>
+#include <QDebug>
 #include <QFile>
 #include <QFileInfo>
-#include <QString>
 #include <QRegularExpression>
-#include <QDebug>
-#include <QCommandLineParser>
+#include <QString>
 
 QString link(const QString &path, const QString &fileName)
 {
@@ -46,11 +46,11 @@ QString link(const QString &path, const QString &fileName)
     QFileInfo linkInfo(path + QLatin1Char('/') + match.captured(1));
     QString aliasLink = link(linkInfo.path(), linkInfo.fileName());
     if (!aliasLink.isEmpty()) {
-        //qDebug() <<  fileName << "=" << match.captured(1) << "=" << aliasLink;
+        // qDebug() <<  fileName << "=" << match.captured(1) << "=" << aliasLink;
         return aliasLink;
     }
 
-    return  path + QLatin1Char('/') + match.captured(1);
+    return path + QLatin1Char('/') + match.captured(1);
 }
 
 int parseFile(const QString &infile, const QString &outfile)
@@ -72,7 +72,7 @@ int parseFile(const QString &infile, const QString &outfile)
         QString line = QString::fromLocal8Bit(in.readLine());
         QRegularExpressionMatch match = imageReg.match(line);
         if (!match.hasMatch()) {
-            //qDebug() << "No Match: " << line;
+            // qDebug() << "No Match: " << line;
             out.write(qPrintable(line));
             continue;
         }
@@ -81,13 +81,13 @@ int parseFile(const QString &infile, const QString &outfile)
 
         QString aliasLink = link(info.path(), info.fileName());
         if (aliasLink.isEmpty()) {
-            //qDebug() << "No alias: " << line;
+            // qDebug() << "No alias: " << line;
             out.write(qPrintable(line));
             continue;
         }
 
         QString newLine = QStringLiteral("<file alias=\"%1\">%2</file>\n").arg(match.captured(1), aliasLink);
-        //qDebug() << newLine;
+        // qDebug() << newLine;
         out.write(qPrintable(newLine));
     }
     return 0;
@@ -103,9 +103,9 @@ int main(int argc, char *argv[])
     QCommandLineOption outOption(QStringList() << QLatin1String("o") << QLatin1String("outfile"), QStringLiteral("Output qrc file"), QStringLiteral("outfile"));
     parser.setApplicationDescription(
         QLatin1String("On Windows git handles symbolic links by converting them "
-        "to text files containing the links to the actual file. This application "
-        "takes a .qrc file as input and outputs a .qrc file with the symbolic "
-        "links converted to qrc-aliases."));
+                      "to text files containing the links to the actual file. This application "
+                      "takes a .qrc file as input and outputs a .qrc file with the symbolic "
+                      "links converted to qrc-aliases."));
     parser.addHelpOption();
     parser.addVersionOption();
     parser.addOption(inOption);

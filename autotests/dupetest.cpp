@@ -19,9 +19,9 @@
 */
 
 #include <QObject>
-#include <QTest>
-#include <QStandardPaths>
 #include <QProcess>
+#include <QStandardPaths>
+#include <QTest>
 
 #include "testhelpers.h"
 
@@ -55,8 +55,7 @@ class DupeTest : public QObject
         QString line;
         while (proc.canReadLine() || proc.waitForReadyRead()) {
             line = proc.readLine();
-            failListContent(splitOnUnescapedSpace(line.simplified()),
-                            "The following files are duplicates but not links:\n");
+            failListContent(splitOnUnescapedSpace(line.simplified()), "The following files are duplicates but not links:\n");
         }
     }
 
@@ -64,11 +63,7 @@ class DupeTest : public QObject
     {
         QProcess proc;
         proc.setProgram(QStringLiteral("fdupes"));
-        proc.setArguments(QStringList()
-                          << QStringLiteral("--recurse")
-                          << QStringLiteral("--sameline")
-                          << QStringLiteral("--nohidden")
-                          << path);
+        proc.setArguments(QStringList() << QStringLiteral("--recurse") << QStringLiteral("--sameline") << QStringLiteral("--nohidden") << path);
         proc.start();
         proc.waitForStarted();
         readLines(proc);
