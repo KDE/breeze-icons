@@ -4,15 +4,5 @@
         color:#eff0f1;
       }</style>
     </defs>
-    <g transform="matrix(4.4043 0 0 4.4043 -413.69 -41.824)" fill="currentColor">
-        <g transform="translate(-3.116 -3.5729)" fill="currentColor">
-            <path class="ColorScheme-Text" d="m97.724 14.205v2.7251h3.6368v-2.7251zm0.23016 0.22842h3.1786v2.271h-3.1786z" color="#eff0f1" fill="currentColor"/>
-            <g transform="matrix(.36207 0 0 .39001 96.655 11.675)">
-                <g transform="matrix(1.0029 0 0 1.5833 -.034482 -7.0306)" fill="currentColor">
-                    <path class="ColorScheme-Text" d="m4.2341 10.747v0.36937h7.5009v-0.36937zm0 0.73262v0.36736h3.7546v-0.36736z" color="#eff0f1" stroke-width=".99947"/>
-                    <path class="ColorScheme-Text" d="m9.2288 11.48v0.36736h2.5072v-0.36736z" color="#eff0f1" stroke-width="1.0583"/>
-                </g>
-            </g>
-        </g>
-    </g>
+    <path class="ColorScheme-Text" d="m12.988351 13.005255v0.999097h4.009739v-0.999097zm-7.9879705-1.993516v1.004563h11.99611v-1.004563zm0 1.992483v0.999097h6.0046925v-0.999097zm-2.0083673-8.0012635v12.002158h16.017557v-12.002158zm1.0136936 1.0060301h13.999508v10.002165h-13.999508z" fill="currentColor"/>
 </svg>
