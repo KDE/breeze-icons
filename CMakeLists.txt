@@ -33,13 +33,13 @@ find_package (Python 3 COMPONENTS Interpreter)
 if(Python_FOUND AND NOT WIN32)
     # Find lxml Python 3 module
     exec_program(${Python_EXECUTABLE}
-        ARGS "-c \"import lxml; print(lxml.get_include())\""
+        ARGS "-c \"import lxml; from lxml import etree; print(lxml.get_include())\""
         RETURN_VALUE LXML_NOT_FOUND # Returns 0 or false if successful
     )
 
     # Generating icons is not required, but strongly recommended in most cases
     if(LXML_NOT_FOUND)
-        message(WARNING "lxml not found; icon generation disabled")
+        message(WARNING "lxml or lxml.etree not found; icon generation disabled")
         set(WITH_ICON_GENERATION OFF)
     else()
         option(WITH_ICON_GENERATION "Icon generation" ON)
