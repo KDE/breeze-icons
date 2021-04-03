@@ -113,7 +113,7 @@ function(generate_binary_resource target outfile)
 endfunction()
 endif()
 
-if(NOT WIN32)
+if(NOT WIN32 AND NOT CMAKE_CROSSCOMPILING)
     # validate
     find_program(SH_EXE sh)
     find_program(XMLLINT_EXE xmllint)
