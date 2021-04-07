@@ -10,3 +10,6 @@ compile_commands.json
 build/
 xmlerrors
 /.clang-format
+.clangd
+.idea
+/cmake-build*
