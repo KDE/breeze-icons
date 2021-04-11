@@ -14,3 +14,4 @@ xmlerrors
 .idea
 /cmake-build*
 .cache
+*.kdev4
