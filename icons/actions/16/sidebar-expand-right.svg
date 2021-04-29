@@ -5,7 +5,12 @@
         }
     </style>
     <g class="ColorScheme-Text" fill="currentColor">
+<<<<<<< HEAD
         <path d="m14 3v11h-12v-11zm-5 1h-6v9h6z" stroke-linecap="square" stroke-linejoin="round"/>
         <path d="m7.5000002 5.7929688.707031.7070312-.353516.3535156-1.646484 1.6464844 2 2-.707031.708984-.353516-.355468-2.3554682-2.353516 2.3554682-2.3535156z"/>
+=======
+        <path d="m14 2v12h-12v-12zm-4 1h-7v10h7z"/>
+        <path d="m7.6469688 4.6464844.7070312.7070312-2.646484 2.6464844 2.646484 2.646484-.7070312.707032-3.3535158-3.353516z"/>
+>>>>>>> 81f01f91 (Updated the icons and added symlinks)
     </g>
 </svg>
