@@ -13,3 +13,4 @@ xmlerrors
 .clangd
 .idea
 /cmake-build*
+.cache
