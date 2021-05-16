@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.16)
 
 set(KF_VERSION "5.83.0") # handled by release scripts
 project(BreezeIcons VERSION ${KF_VERSION})
