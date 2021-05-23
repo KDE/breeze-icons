@@ -131,7 +131,6 @@ if(NOT WIN32 AND NOT CMAKE_CROSSCOMPILING)
     endif()
 endif()
 
-add_definitions(-DQT_NO_FOREACH)
 
 add_subdirectory(autotests)
 add_subdirectory(icons)
