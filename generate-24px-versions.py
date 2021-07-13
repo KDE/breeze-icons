@@ -53,7 +53,7 @@ def get_renderable_elements(root: etree.Element):
     """
     Get renderable elements that are children of the root of the SVG.
 
-    See the Renderable Elements section of the SVG documentaion on MDN web docs:
+    See the Renderable Elements section of the SVG documentation on MDN web docs:
     https://developer.mozilla.org/en-US/docs/Web/SVG/Element#SVG_elements_by_category
     """
     return root.xpath(
