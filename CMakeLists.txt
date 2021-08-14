@@ -23,7 +23,7 @@ include(KDEFrameworkCompilerSettings NO_POLICY_SCOPE)
 include(GtkUpdateIconCache)
 
 # Dependencies
-set(REQUIRED_QT_VERSION 5.15.2)
+set(REQUIRED_QT_VERSION 5.15.0)
 
 # Find Python 3
 find_package (Python 3 COMPONENTS Interpreter)
