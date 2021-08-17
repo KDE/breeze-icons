@@ -11,7 +11,7 @@
    viewBox="0 0 64 64"
    version="1.1"
    id="svg35"
-   sodipodi:docname="application-x-godot-project.svg"
+   sodipodi:docname="application-x-godot-resource.svg"
    inkscape:version="1.0.2 (e86c870879, 2021-01-15)">
   <metadata
      id="metadata39">
@@ -37,9 +37,9 @@
      inkscape:window-height="712"
      id="namedview37"
      showgrid="false"
-     inkscape:zoom="2.1445312"
-     inkscape:cx="-14.686897"
-     inkscape:cy="63.762002"
+     inkscape:zoom="4.2890624"
+     inkscape:cx="41.193548"
+     inkscape:cy="59.092924"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -84,59 +84,6 @@
     <path
        id="c"
        d="m248 139.36v-58h30l14 14v44h-14z" />
-    <linearGradient
-       id="a-3"
-       y1="61"
-       y2="3"
-       x2="0"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1,0,0,-1,-91.850347,61.97689)">
-      <stop
-         stop-color="#3a539b"
-         id="stop850" />
-      <stop
-         offset="1"
-         stop-color="#3f5aa9"
-         id="stop852" />
-    </linearGradient>
-    <linearGradient
-       id="b-6"
-       y1="61"
-       y2="47"
-       x2="0"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1,0,0,-1,-91.850347,61.97689)">
-      <stop
-         stop-color="#97aad8"
-         id="stop855" />
-      <stop
-         offset="1"
-         stop-color="#c1cae7"
-         id="stop857" />
-    </linearGradient>
-    <linearGradient
-       id="c-7"
-       y1="17"
-       x1="40"
-       y2="31"
-       x2="54"
-       gradientUnits="userSpaceOnUse">
-      <stop
-         stop-color="#383e51"
-         id="stop860" />
-      <stop
-         offset="1"
-         stop-color="#655c6f"
-         stop-opacity="0"
-         id="stop862" />
-    </linearGradient>
-    <path
-       opacity=".2"
-       fill="url(#c)"
-       fill-rule="evenodd"
-       id="d"
-       d="m40 17l14 14v-14z"
-       style="fill:url(#c-7)" />
   </defs>
   <use
      fill="#209ae7"
@@ -145,7 +92,7 @@
      width="100%"
      xlink:href="#c"
      id="use15"
-     style="fill:#3b549e;fill-opacity:1" />
+     style="fill:#eeb652;fill-opacity:1" />
   <g
      transform="matrix(1 0 0 -1 -238 -78.36)"
      id="g21">
@@ -183,7 +130,7 @@
        inkscape:connector-curvature="0" />
   </g>
   <g
-     transform="translate(-238,-78.36)"
+     transform="translate(-238,-78.359999)"
      id="g33">
     <use
        fill="url(#b)"

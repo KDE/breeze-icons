@@ -34,12 +34,12 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1366"
-     inkscape:window-height="712"
+     inkscape:window-height="707"
      id="namedview37"
      showgrid="false"
-     inkscape:zoom="2.1445312"
-     inkscape:cx="-14.686897"
-     inkscape:cy="63.762002"
+     inkscape:zoom="0.75820629"
+     inkscape:cx="138.97745"
+     inkscape:cy="106.08505"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -65,7 +65,7 @@
     </linearGradient>
     <linearGradient
        id="b"
-       gradientTransform="translate(190,-254)"
+       gradientTransform="translate(190 -254)"
        gradientUnits="userSpaceOnUse"
        x2="0"
        y1="392.36"
@@ -84,59 +84,6 @@
     <path
        id="c"
        d="m248 139.36v-58h30l14 14v44h-14z" />
-    <linearGradient
-       id="a-3"
-       y1="61"
-       y2="3"
-       x2="0"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1,0,0,-1,-91.850347,61.97689)">
-      <stop
-         stop-color="#3a539b"
-         id="stop850" />
-      <stop
-         offset="1"
-         stop-color="#3f5aa9"
-         id="stop852" />
-    </linearGradient>
-    <linearGradient
-       id="b-6"
-       y1="61"
-       y2="47"
-       x2="0"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1,0,0,-1,-91.850347,61.97689)">
-      <stop
-         stop-color="#97aad8"
-         id="stop855" />
-      <stop
-         offset="1"
-         stop-color="#c1cae7"
-         id="stop857" />
-    </linearGradient>
-    <linearGradient
-       id="c-7"
-       y1="17"
-       x1="40"
-       y2="31"
-       x2="54"
-       gradientUnits="userSpaceOnUse">
-      <stop
-         stop-color="#383e51"
-         id="stop860" />
-      <stop
-         offset="1"
-         stop-color="#655c6f"
-         stop-opacity="0"
-         id="stop862" />
-    </linearGradient>
-    <path
-       opacity=".2"
-       fill="url(#c)"
-       fill-rule="evenodd"
-       id="d"
-       d="m40 17l14 14v-14z"
-       style="fill:url(#c-7)" />
   </defs>
   <use
      fill="#209ae7"
@@ -144,8 +91,7 @@
      transform="translate(-238 -78.36)"
      width="100%"
      xlink:href="#c"
-     id="use15"
-     style="fill:#3b549e;fill-opacity:1" />
+     id="use15" />
   <g
      transform="matrix(1 0 0 -1 -238 -78.36)"
      id="g21">
@@ -183,31 +129,27 @@
        inkscape:connector-curvature="0" />
   </g>
   <g
-     transform="translate(-238,-78.36)"
+     transform="translate(-238 -78.36)"
      id="g33">
     <use
        fill="url(#b)"
        height="100%"
        width="100%"
        xlink:href="#c"
-       id="use25"
-       style="fill:url(#b)"
-       x="0"
-       y="0" />
+       id="use25" />
     <g
        fill-rule="evenodd"
        id="g31">
       <path
-         d="m 292,95.36 -14,-14 v 14 z"
-         fill="#ffffff"
-         opacity="0.5"
+         d="m292 95.36-14-14v14z"
+         fill="#fff"
+         opacity=".5"
          id="path27" />
       <path
-         d="m 278,95.36 14,14 v -14 z"
+         d="m278 95.36 14 14v-14z"
          fill="url(#a)"
-         opacity="0.2"
-         id="path29"
-         style="fill:url(#a)" />
+         opacity=".2"
+         id="path29" />
     </g>
   </g>
 </svg>
