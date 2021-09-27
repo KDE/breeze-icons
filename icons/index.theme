@@ -326,9 +326,7 @@ MaxSize=256
 [preferences/22]
 Size=22
 Context=Applications
-Type=Scalable
-MinSize=22
-MaxSize=22
+Type=Fixed
 
 #16x16 - Only used for car.svg, symlinked for KMyMoney
 [applets/16]
