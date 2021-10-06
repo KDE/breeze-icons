@@ -161,7 +161,7 @@ class ScalableTest : public QObject
     Q_OBJECT
 
 private Q_SLOTS:
-    void test_scalable_data()
+    void test_scalable_data(bool checkInherits=true)
     {
         for (auto dir : ICON_DIRS) {
             QString themeDir = PROJECT_SOURCE_DIR + QStringLiteral("/") + dir;
@@ -191,6 +191,36 @@ private Q_SLOTS:
                 contextHash[dir->context].append(dir);
                 contextStringHash[dir->context] = (dir->contextString);
             }
+
+            // Also check in the normal theme if it's listed in Inherits
+            config.beginGroup("Icon Theme");
+            auto inherits = config.value("Inherits", QString()).toStringList();
+            if (checkInherits && inherits.contains(QStringLiteral("breeze"))) {
+                QString inheritedDir = PROJECT_SOURCE_DIR + QStringLiteral("/icons");
+
+                QSettings inheritedConfig(inheritedDir + "/index.theme", QSettings::IniFormat);
+                auto inheritedKeys = inheritedConfig.allKeys();
+
+                inheritedConfig.beginGroup("Icon Theme");
+                auto inheritedPaths = config.value("Directories", QString()).toStringList();
+                inheritedPaths += config.value("ScaledDirectories", QString()).toStringList();
+                inheritedConfig.endGroup();
+
+                QVERIFY(!inheritedPaths.empty());
+                for (const auto& path : inheritedPaths) {
+                    inheritedConfig.beginGroup(path);
+                    QVERIFY2(inheritedKeys.contains(path + "/Size"),
+                             QString("The theme %1 has an entry 'Directories' which specifies '%2' as directory, but has no associated entry '%2/Size'")
+                                 .arg(inheritedDir + "/index.theme", path)
+                                 .toLatin1()
+                                 .constData());
+                    auto dir = QSharedPointer<Dir>::create(inheritedConfig, inheritedDir);
+                    inheritedConfig.endGroup();
+                    contextHash[dir->context].append(dir);
+                    contextStringHash[dir->context] = (dir->contextString);
+                }
+            }
+            config.endGroup();
 
             QTest::addColumn<KIconLoaderDummy::Context>("context");
             QTest::addColumn<QList<QSharedPointer<Dir>>>("dirs");
@@ -271,7 +301,7 @@ private Q_SLOTS:
 
     void test_scalableDuplicates_data()
     {
-        test_scalable_data();
+        test_scalable_data(false);
     }
 
     void test_scalableDuplicates()
