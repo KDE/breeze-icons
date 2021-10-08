@@ -5,7 +5,7 @@ endif()
 ########### install files ###############
 
 set(breeze_icon_dark_dirs
-    actions animations applets apps preferences devices emblems
+    actions animations applets apps devices emblems
     mimetypes places status)
 
 set(BREEZE_INSTALL_DIR ${KDE_INSTALL_FULL_ICONDIR}/breeze-dark)
