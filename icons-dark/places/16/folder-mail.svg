@@ -7,8 +7,7 @@
       </style>
   </defs>
     <path 
-        style="fill:currentColor;fill-opacity:1;stroke:none" 
-        d="M 0 2 L 0 14 L 16 14 L 16 2 L 0 2 z M 1.4140625 3 L 14.585938 3 L 8 9.5859375 L 1.4140625 3 z M 1 4 L 5 8 L 1 12 L 1 4 z M 15 4 L 15 12 L 11 8 L 15 4 z M 5.7070312 8.7070312 L 8 11 L 10.292969 8.7070312 L 14.585938 13 L 1.4140625 13 L 5.7070312 8.7070312 z " 
-        id="rect4144" 
+        style="fill:currentColor"
+        d="M 0 2 L 0 14 L 16 14 L 16 2 L 0 2 z M 1.4 3 L 14.6 3 L 8 9.6 L 1.4 3 z M 1 4 L 5 8 L 1 12 L 1 4 z M 15 4 L 15 12 L 11 8 L 15 4 z M 5.7 8.7 L 8 11 L 10.3 8.7 L 14.6 13 L 1.4 13 L 5.7 8.7 z " 
         class="ColorScheme-Text"/>
 </svg>

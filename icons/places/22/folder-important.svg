@@ -1,7 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
-  <g 
-      transform="translate(-421.71429,-525.79074)">
-    <path style="fill:#da4453"
-          d="m 431.71429,529.79074 0,10.0001 2,0 0,-10.0001 z m 0,12 0,2 2,0 0,-2 z" />
-  </g>
+  <defs id="defs3051">
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text {
+        color:#232629
+      }
+      </style>
+  </defs>
+    <path
+       style="fill:#da4453"
+       d="M 10 4 L 10 14 L 12 14 L 12 4 L 10 4 z M 10 16 L 10 18 L 12 18 L 12 16 L 10 16 z "
+       />
 </svg>
