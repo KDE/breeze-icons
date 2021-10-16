@@ -1,19 +1,35 @@
-<svg id="svg15" version="1.1" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <defs id="defs5455">
-        <linearGradient id="linearGradient4178" x2="0" y1="541.79797" y2="499.78421" gradientTransform="matrix(1.4999996,0,0,1.4995115,-576.85701,-725.43213)" gradientUnits="userSpaceOnUse">
-            <stop id="stop4174-6-7" stop-color="#3daee9" offset="0"/>
-            <stop id="stop4176-6-5" stop-color="#6cc1ef" offset="1"/>
-        </linearGradient>
-    </defs>
-    <g id="layer1" transform="translate(-384.57144,-483.798)">
-        <path id="rect4180" transform="translate(384.57144,483.798)" d="m6 9-1.17e-5 20.999996h84l1.2e-5 -14.999996h-42l-6-6z" fill="#147eb8" stroke-width="1.5"/>
-        <path id="rect4113" transform="translate(384.57144,483.798)" d="M 38.999988,23.999996 33,30 H 5 V 87 H 91 V 24 Z" fill="url(#linearGradient4178)" stroke-width="1.5"/>
-        <g fill-opacity=".235294" stroke-width="1.5">
-            <path id="path4224-1" d="m389.57143 513.798v1h29l4.99999-6.99983-6.00001 6z" fill="#fff" fill-rule="evenodd"/>
-            <path id="path4228-0" d="m390.57143 512.798v1.00017h26.99998l6.00002-6.00017-7 5z" fill-rule="evenodd"/>
-            <path id="path4151-2" transform="translate(384.57144,483.798)" d="m4.9999883 85.999996v1l86-0.01628v-0.983722z"/>
-            <path id="path4196" transform="translate(384.57144,483.798)" d="M 42,9 46.999988,15.999996 90,16 V 15 H 48 Z" fill="#fff" fill-rule="evenodd"/>
-        </g>
-        <path id="path866" transform="translate(384.57144,483.798)" d="m47.90625 41c-3.829332 0.05129-6.906593 3.170324-6.90625 7 0 3.865993 3.134007 7 7 7s7-3.134007 7-7-3.134007-7-7-7c-0.03125-2.09e-4 -0.0625-2.09e-4 -0.09375 0zm0.09375 1c3.313708 0 6 2.686292 6 6s-2.686292 6-6 6-6-2.686292-6-6 2.686292-6 6-6zm-0.113281 16c-7.467861 0.05684-13.756426 5.598575-14.751953 13h29.730468c-1.001465-7.443925-7.354245-12.999582-14.865234-13-0.03776-1.43e-4 -0.07552-1.43e-4 -0.113281 0zm-0.04883 1c0.05404-3.13e-4 0.108072-3.13e-4 0.162109 0 6.575624 4.54e-4 12.264766 4.577121 13.673828 11h-27.347654c1.395677-6.363984 6.996934-10.924012 13.511719-11z" fill="#1272a5" stroke-width=".555"/>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <defs id="defs3051">
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text {
+        color:#232629;
+      }
+      .ColorScheme-Highlight {
+        color:#3daee9;
+      }
+      </style>
+  </defs>
+ <path 
+     style="fill:currentColor" 
+     d="M 6 9 L 6 30 L 5 30 L 5 87 L 91 87 L 91 24 L 90 24 L 90 15 L 48 15 L 42 9 L 6 9 z "
+     class="ColorScheme-Highlight"
+     />
+ <path 
+     style="fill-opacity:0.33"
+     d="M 6 9 L 6 30 L 33 30 L 39 24 L 90 24 L 90 15 L 48 15 L 42 9 L 6 9 z "
+     />
+ <path 
+     style="fill:#ffffff;fill-opacity:0.2"
+     d="M 42 9 L 47 16 L 90 16 L 90 15 L 48 15 L 42 9 z M 39 24 L 33 30 L 5 30 L 5 31 L 34 31 L 39 24 z "
+     />
+ <path 
+     style="fill-opacity:0.2;fill-rule:evenodd"
+     d="M 39 24 L 32 29 L 6 29 L 6 30 L 33 30 L 39 24 z M 5 86 L 5 87 L 91 87 L 91 86 L 5 86 z "
+     class="ColorScheme-Text"
+     />
+ <path 
+     style="fill:currentColor;fill-opacity:0.6;stroke:none"  
+     d="M 47.9 41 C 44 41 41 44.2 41 48 C 41 51.9 44.1 55 48 55 C 51.9 55 55 51.9 55 48 C 55 44.1 51.9 41 48 41 C 48 41 47.9375 41 47.9 41 z M 48 42 C 51.3 42 54 44.7 54 48 C 54 51.3 51.3 54 48 54 C 44.7 54 42 51.3 42 48 C 42 44.7 44.7 42 48 42 z M 47.9 58 C 40.4 58 34.1 63.6 33.1 71 L 62.9 71 C 61.9 63.5 55.5 58 48 58 C 48 58 48 58 48 58 z M 48 59 C 47.9 59 48 59 48 59 C 54.6 59 60.3 63.6 61.7 70 L 34.3 70 C 35.7 63.6 41.3 59.1 47.8 59 z "
+     class="ColorScheme-Text"
+     />
 </svg>

@@ -1,17 +1,35 @@
-<svg height="32" width="32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <linearGradient id="a" gradientUnits="userSpaceOnUse" x2="0" y1="29" y2="8">
-        <stop offset="0" stop-color="#3daee9"/>
-        <stop offset="1" stop-color="#6cc1ef"/>
-    </linearGradient>
-    <path d="m2 3v8h28v-6h-14l-2-2z" fill="#147eb8" fill-rule="evenodd"/>
-    <path d="m13 8-2 1h-9v1h10z" fill-opacity=".235" fill-rule="evenodd"/>
-    <path d="m13 8-2 2h-10v19h30v-21z" fill="url(#a)"/>
-    <g fill-opacity=".235">
-        <path d="m13 8-2 2h-10v1h11zm1-5 1 3h15v-1h-14z" fill="#fff" fill-rule="evenodd"/>
-        <path d="m1 28h30v1h-30z"/>
-    </g>
-    <g fill="#1272a5">
-        <path d="m13 17v1h-1v1h1v1h1v-1h1v-1h-1v-1zm5.5-.1a.6.6 0 0 0 -.6.6.6.6 0 0 0 .6.6.6.6 0 0 0 .6-.6.6.6 0 0 0 -.6-.6zm-1 1a.6.6 0 0 0 -.6.6.6.6 0 0 0 .6.6.6.6 0 0 0 .6-.6.6.6 0 0 0 -.6-.6zm2 0a.6.6 0 0 0 -.6.6.6.6 0 0 0 .6.6.6.6 0 0 0 .6-.6.6.6 0 0 0 -.6-.6zm-1 1a.6.6 0 0 0 -.6.6.6.6 0 0 0 .6.6.6.6 0 0 0 .6-.6.6.6 0 0 0 -.6-.6z"/>
-        <path d="m12 15a2 4 0 0 0 -2 4v2.5a1.5 1.5 0 0 0 2.56 1.06l.944-.943a1.5 1.5 0 0 0 .996.383 1.5 1.5 0 0 0 1.5-1.5 1.5 1.5 0 0 0 2.498 1.12l.941.94a1.5 1.5 0 0 0 2.561-1.06v-2.5a2 4 0 0 0 -2-4zm0 1h8a1 3 0 0 1 1 3v2.5a.5.5 0 0 1 -.854.354l-1.853-1.854h-.293v.5a.5.5 0 0 1 -1 0v-.5h-2v.5a.5.5 0 0 1 -1 0v-.5h-.293l-1.853 1.854a.5.5 0 0 1 -.854-.354v-2.5a1 3 0 0 1 1-3z"/>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs id="defs3051">
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text {
+        color:#31363b;
+      }
+      .ColorScheme-Highlight {
+        color:#3daee9;
+      }
+      </style>
+  </defs>
+ <path 
+     style="fill:currentColor;fill-opacity:1;stroke:none" 
+     d="M 2 3 L 2 10 L 1 10 L 1 29 L 12 29 L 13 29 L 31 29 L 31 8 L 30 8 L 30 5 L 16 5 L 14 3 L 2 3 z "
+     class="ColorScheme-Highlight"
+     />
+ <path 
+     style="fill-opacity:0.33;fill-rule:evenodd"
+     d="m 2,3 0,7 9,0 L 13,8 30,8 30,5 16,5 14,3 2,3 Z"
+     />
+ <path 
+     style="fill:#ffffff;fill-opacity:0.2;fill-rule:evenodd"
+     d="M 14 3 L 15 6 L 30 6 L 30 5 L 16 5 L 14 3 z M 13 8 L 11 10 L 1 10 L 1 11 L 12 11 L 13 8 z "
+     />
+ <path 
+     style="fill-opacity:0.2;fill-rule:evenodd"
+     d="M 13 8 L 11 9 L 2 9 L 2 10 L 11 10 L 13 8 z M 1 28 L 1 29 L 31 29 L 31 28 L 1 28 z "
+     class="ColorScheme-Text"
+     />
+ <path 
+     style="fill:currentColor;fill-opacity:0.6;stroke:none" 
+     d="M 12 15 A 2 4 0 0 0 10 19 L 10 21.5 A 1.5 1.5 0 0 0 12.6 22.6 L 13.5 21.6 A 1.5 1.5 0 0 0 14.5 22 A 1.5 1.5 0 0 0 16 20.5 A 1.5 1.5 0 0 0 18.5 21.6 L 19.4 22.6 A 1.5 1.5 0 0 0 22 21.5 L 22 19 A 2 4 0 0 0 20 15 L 12 15 z M 12 16 L 20 16 A 1 3 0 0 1 21 19 L 21 21.5 A 0.5 0.5 0 0 1 20.1 21.8 L 18.4 20.1 A 0.6 0.6 0 0 0 18.5 20.1 A 0.6 0.6 0 0 0 19.1 19.5 A 0.6 0.6 0 0 0 18.5 18.9 A 0.6 0.6 0 0 0 17.9 19.5 A 0.6 0.6 0 0 0 18.2 20 L 18 20 L 18 20.5 A 0.5 0.5 0 0 1 17 20.5 L 17 20 L 15 20 L 15 20.5 A 0.5 0.5 0 0 1 14 20.5 L 14 20 L 14 19 L 15 19 L 15 18 L 14 18 L 14 17 L 13 17 L 13 18 L 12 18 L 12 19 L 13 19 L 13 20 L 13.7 20 L 11.8 21.8 A 0.5 0.5 0 0 1 11 21.5 L 11 19 A 1 3 0 0 1 12 16 z M 18.5 16.9 A 0.6 0.6 0 0 0 17.9 17.5 A 0.6 0.6 0 0 0 18.5 18.1 A 0.6 0.6 0 0 0 19.1 17.5 A 0.6 0.6 0 0 0 18.5 16.9 z M 17.5 17.9 A 0.6 0.6 0 0 0 16.9 18.5 A 0.6 0.6 0 0 0 17.5 19.1 A 0.6 0.6 0 0 0 18.1 18.5 A 0.6 0.6 0 0 0 17.5 17.9 z M 19.5 17.9 A 0.6 0.6 0 0 0 18.9 18.5 A 0.6 0.6 0 0 0 19.5 19.1 A 0.6 0.6 0 0 0 20.1 18.5 A 0.6 0.6 0 0 0 19.5 17.9 z "
+     class="ColorScheme-Text"
+     />
 </svg>

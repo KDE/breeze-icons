@@ -1,26 +1,30 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-<svg width="64" version="1.1" xmlns="http://www.w3.org/2000/svg" height="64" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
- <defs id="defs5455">
-  <linearGradient inkscape:collect="always" id="linearGradient4326">
-   <stop id="stop4328"/>
-   <stop offset="1" style="stop-opacity:0" id="stop4330"/>
-  </linearGradient>
-  <linearGradient inkscape:collect="always" xlink:href="#linearGradient4326" id="linearGradient4434" y1="502.798" x1="439.57144" y2="512.79803" x2="429.57144" gradientUnits="userSpaceOnUse"/>
- </defs>
- <metadata id="metadata5458"/>
- <g inkscape:label="Capa 1" inkscape:groupmode="layer" id="layer1" transform="matrix(1 0 0 1 -384.57143 -483.798)">
-  <path style="fill:#3b3f42;fill-rule:evenodd" id="path4422" d="M 41 5 L 35 11 L 46 22 L 35 33 L 41 39 L 58 22 L 41 5 z " transform="matrix(1 0 0 1 384.57143 483.798)"/>
-  <rect width="6.250019" x="400.32141" y="489.79797" rx="3.12501" height="6.250019" style="fill:#fa8865" id="rect4119"/>
-  <flowRoot line-height="125%" style="font-size:32.500004;font-family:sans-serif" id="flowRoot4170">
-   <flowRegion id="flowRegion4172">
-    <rect width="87.75001" x="452.32144" y="489.79807" height="48.750004" id="rect4174"/>
-   </flowRegion>
-   <flowPara id="flowPara4176">Plasm</flowPara>
-  </flowRoot>
-  <rect width="9.00002" x="390.57141" y="509.2988" rx="4.499995" height="8.999991" style="fill:#63c605" id="rect4308"/>
-  <rect width="12.999995" x="403.57144" y="528.79803" rx="6.499998" height="12.999995" style="fill:#1b89f3" id="rect4312"/>
-  <path inkscape:connector-curvature="0" style="fill:url(#linearGradient4434);opacity:0.9;fill-rule:evenodd" id="path4426" d="m 423.57143,512.798 6,6 7,-7 -6,-6 z"/>
- </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs id="defs3051">
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text {
+        color:#232629;
+      }
+      .ColorScheme-Highlight {
+        color:#3daee9;
+      }
+      </style>
+  </defs>
+  <path
+     style="fill-rule:evenodd"
+     d="M 41 5 L 35 11 L 46 22 L 35 33 L 41 39 L 58 22 L 41 5 z "
+     class="ColorScheme-Text"
+     />
+  <path
+     style="fill:#fa8865"
+     d="M 18.9 6 C 17.1 6 15.75 7.4 15.75 9.125 C 15.75 10.8 17.1 12.25 18.9 12.25 C 20.6 12.25 22 10.8 22 9.125 C 22 7.4 20.6 6 18.9 6 z "
+     />
+  <path
+     style="fill:#63c605"
+     d="M 10.5 25.5 C 8 25.5 6 27.5 6 30 C 6 32.5 8 34.5 10.5 34.5 C 13 34.5 15 32.5 15 30 C 15 27.5 13 25.5 10.5 25.5 z "
+     />
+  <path
+     style="fill:currentColor" 
+     d="M 25.5 45 C 21.9 45 19 47.9 19 51.5 C 19 55.1 21.9 58 25.5 58 C 29.1 58 32 55.1 32 51.5 C 32 47.9 29.1 45 25.5 45 z "
+     class="ColorScheme-Highlight"
+     />
 </svg>
