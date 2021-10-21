@@ -31,6 +31,12 @@ if(NOT SKIP_INSTALL_ICONS)
     if(WITH_ICON_GENERATION)
         install(DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/generated/ DESTINATION ${BREEZE_INSTALL_DIR})
     endif()
+
+    # Install the colored icon sizes into breeze-dark theme as well, to ensure
+    # that icons are available on alternate environments which do not support
+    # colorized symbolic icons which are not named as "-symbolic"
+    # NOTE: icons-dark will install /some/ files over top of these
+    install(DIRECTORY ${breeze_dark_dir} DESTINATION ${BREEZE_DARK_INSTALL_DIR}-dark)
 endif()
 
 gtk_update_icon_cache(${BREEZE_INSTALL_DIR})
