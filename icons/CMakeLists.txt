@@ -36,7 +36,7 @@ if(NOT SKIP_INSTALL_ICONS)
     # that icons are available on alternate environments which do not support
     # colorized symbolic icons which are not named as "-symbolic"
     # NOTE: icons-dark will install /some/ files over top of these
-    install(DIRECTORY ${breeze_dark_dir} DESTINATION ${BREEZE_DARK_INSTALL_DIR}-dark)
+    install(DIRECTORY ${breeze_icon_dirs} DESTINATION ${BREEZE_INSTALL_DIR}-dark)
 endif()
 
 gtk_update_icon_cache(${BREEZE_INSTALL_DIR})
