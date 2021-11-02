@@ -10,8 +10,9 @@
       </style>
   </defs>
  <path 
-     style="fill:#eb0a42" 
+     style="fill:currentColor" 
      d="M 4 6 L 4 11 L 4 20 L 3 20 L 3 21 L 3 21 C 3 21 3 21 3 21 L 3 57 L 3 58 L 4 58 L 60 58 L 61 58 L 61 57 L 61 21 L 61 21 L 61 16 L 60 16 L 60 11 C 60 11 60 11 60 11 L 60 11 L 60 10 L 32 10 L 28 6 L 4 6 z "
+     class="ColorScheme-Highlight"
      />
  <path 
      style="fill-opacity:0.33"
@@ -28,7 +29,7 @@
      />
  <path 
      style="fill:currentColor;fill-opacity:0.6;stroke:none"  
-     d="M 32 27 C 30.9 27 30 28 30 29 C 30 30.2 30.9 41 32 41 C 33.1 41 34 30.2 34 29 C 34 28 33.1 27 32 27 z M 32 42.9 A 2 2 0 0 0 30 45 A 2 2 0 0 0 32 47 A 2 2 0 0 0 34.1 45 A 2 2 0 0 0 32 42.9 z "
+     d="M 32,26.9 31.74,27.1 23,31 v 12 l 9,4 9,-4 V 31 Z m 0,1.17 v 5.3 L 31.5,33.7 24,31.56 Z m 8,4 V 42.4 l -8,3.4 V 34.6 Z"
      class="ColorScheme-Text"
      />
 </svg>

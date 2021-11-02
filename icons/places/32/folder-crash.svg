@@ -28,7 +28,7 @@
      />
  <path 
      style="fill:currentColor;fill-opacity:0.6;stroke:none" 
-     d="M 16 13 C 15.4 13 15 13.4 15 14 C 15 14.5 15.4 20 16 20 C 16.5 20 17 14.5 17 14 C 17 13.4 16.5 13 16 13 z M 16 21 A 1 1 0 0 0 15 22 A 1 1 0 0 0 16 23 A 1 1 0 0 0 17 22 A 1 1 0 0 0 16 21 z "
+     d="M 10,13 V 25 H 22 V 13 Z m 1,1 H 21 V 24 H 11 Z m 1,2 v 2 h 2 v -2 z m 6,0 v 2 h 2 v -2 z m -4,4 v 1 h 4 v -1 z m 4,1 v 1 h 1 v -1 z m 1,1 v 1 h 1 v -1 z m -5,-1 h -1 v 1 h 1 z m -1,1 h -1 v 1 h 1 z"
      class="ColorScheme-Text"
      />
 </svg>
