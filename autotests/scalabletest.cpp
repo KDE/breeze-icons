@@ -32,6 +32,7 @@ class KIconLoaderDummy : public QObject
     Q_OBJECT
 public:
     enum Context {
+        Invalid = -1,
         Any,
         Action,
         Application,
@@ -112,8 +113,8 @@ public:
             {QStringLiteral("Places"), KIconLoaderDummy::Place},
             {QStringLiteral("Status"), KIconLoaderDummy::StatusIcon},
         };
-        const auto value = hash.value(string, -1);
-        return static_cast<KIconLoaderDummy::Context>(value); // the caller will check that it wasn't -1
+        const auto value = hash.value(string, KIconLoaderDummy::Invalid);
+        return static_cast<KIconLoaderDummy::Context>(value); // the caller will check that it wasn't "Invalid"
     }
 
     static KIconLoaderDummy::Type parseType(const QString &string)
