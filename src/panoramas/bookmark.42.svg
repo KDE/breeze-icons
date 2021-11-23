@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="30" version="1.1" viewBox="0 0 42 30" width="42" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <namedview bordercolor="#666666" borderopacity="1.0" id="namedview-conformist" pagecolor="#ffffff" pageopacity="0.0" pageshadow="0" showgrid="true">
+  <grid class="ColorScheme-Background" empspacing="4" fill="currentColor" opacity="0.6" type="xygrid"/>
+ </namedview>
+ <defs id="primary-definitions">
+  <style class="ColorScheme-Background" fill="currentColor" opacity="0.6" type="text/css">
+   .ColorScheme-Text           { color:#eff0f1; }
+      .ColorScheme-Background     { color:#31363b; }
+      .ColorScheme-Highlight      { color:#3daefd; }
+      .ColorScheme-ViewBackground { color:#fcfcfc; }
+      .ColorScheme-PositiveText   { color:#27ae60; }
+      .ColorScheme-NeutralText    { color:#f67400; }
+      .ColorScheme-NegativeText   { color:#da4453; }
+  </style>
+ </defs>
+ <path class="ColorScheme-Background" d="m 27,0 v 21 c 4.81e-4,0.383622 0.414927,0.62385 0.748047,0.433594 L 32,19.576172 36.251953,21.433594 C 36.585073,21.62385 36.999519,21.383622 37,21 V 0 Z" fill="currentColor" font-variation-settings="normal" opacity="0.6" paint-order="stroke fill markers" stop-color="#000000" stroke-dasharray="none" stroke-dashoffset="0" stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="4" stroke-opacity="1" vector-effect="none"/>
+ <path class="ColorScheme-Background" d="M 27 0 L 27 21 C 27.000481 21.383622 27.414927 21.62385 27.748047 21.433594 L 32 19.576172 L 36.251953 21.433594 C 36.585073 21.62385 36.999519 21.383622 37 21 L 37 0 L 27 0 z M 27.5 0.5 L 36.5 0.5 L 36.5 21 L 36.476562 20.986328 L 32 19.03125 L 27.523438 20.986328 L 27.5 21 L 27.5 0.5 z " fill="currentColor" opacity="0.6" paint-order="stroke fill markers" stroke-linecap="square"/>
+</svg>

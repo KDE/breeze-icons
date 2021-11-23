@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="64" version="1.1" viewBox="0 0 64 64" width="64" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <namedview bordercolor="#666666" borderopacity="1.0" id="namedview-conformist" pagecolor="#ffffff" pageopacity="0.0" pageshadow="0" showgrid="true">
+  <grid class="ColorScheme-Background" empspacing="4" fill="currentColor" opacity="0.6" type="xygrid"/>
+ </namedview>
+ <defs id="primary-definitions">
+  <style class="ColorScheme-Background" fill="currentColor" opacity="0.6" type="text/css">
+   .ColorScheme-Text           { color:#eff0f1; }
+      .ColorScheme-Background     { color:#31363b; }
+      .ColorScheme-Highlight      { color:#3daefd; }
+      .ColorScheme-ViewBackground { color:#fcfcfc; }
+      .ColorScheme-PositiveText   { color:#27ae60; }
+      .ColorScheme-NeutralText    { color:#f67400; }
+      .ColorScheme-NegativeText   { color:#da4453; }
+  </style>
+ </defs>
+ <path class="ColorScheme-Background" d="M 14 24 A 8 8 0 0 0 6 32 A 8 8 0 0 0 14 40 A 8 8 0 0 0 22 32 A 8 8 0 0 0 14 24 z M 32 24 A 8 8 0 0 0 24 32 A 8 8 0 0 0 32 40 A 8 8 0 0 0 40 32 A 8 8 0 0 0 32 24 z M 50 24 A 8 8 0 0 0 42 32 A 8 8 0 0 0 50 40 A 8 8 0 0 0 58 32 A 8 8 0 0 0 50 24 z " fill="currentColor" opacity="0.6" paint-order="stroke fill markers" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+ <path class="ColorScheme-Background" d="M 14 24 A 8 8 0 0 0 6 32 A 8 8 0 0 0 14 40 A 8 8 0 0 0 22 32 A 8 8 0 0 0 14 24 z M 32 24 A 8 8 0 0 0 24 32 A 8 8 0 0 0 32 40 A 8 8 0 0 0 40 32 A 8 8 0 0 0 32 24 z M 50 24 A 8 8 0 0 0 42 32 A 8 8 0 0 0 50 40 A 8 8 0 0 0 58 32 A 8 8 0 0 0 50 24 z M 14 24.5 C 18.148054 24.5 21.5 27.851946 21.5 32 C 21.5 36.148054 18.148054 39.5 14 39.5 C 9.8519462 39.5 6.5 36.148054 6.5 32 C 6.5 27.851946 9.8519462 24.5 14 24.5 z M 32 24.5 C 36.148054 24.5 39.5 27.851946 39.5 32 C 39.5 36.148054 36.148054 39.5 32 39.5 C 27.851946 39.5 24.5 36.148054 24.5 32 C 24.5 27.851946 27.851946 24.5 32 24.5 z M 50 24.5 C 54.148054 24.5 57.5 27.851946 57.5 32 C 57.5 36.148054 54.148054 39.5 50 39.5 C 45.851946 39.5 42.5 36.148054 42.5 32 C 42.5 27.851946 45.851946 24.5 50 24.5 z " fill="currentColor" opacity="0.6" paint-order="stroke fill markers" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

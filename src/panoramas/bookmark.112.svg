@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="80" version="1.1" viewBox="0 0 112 80" width="112" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <namedview bordercolor="#666666" borderopacity="1.0" id="namedview-conformist" pagecolor="#ffffff" pageopacity="0.0" pageshadow="0" showgrid="true">
+  <grid class="ColorScheme-Background" empspacing="4" fill="currentColor" opacity="0.6" type="xygrid"/>
+ </namedview>
+ <defs id="primary-definitions">
+  <style class="ColorScheme-Background" fill="currentColor" opacity="0.6" type="text/css">
+   .ColorScheme-Text           { color:#eff0f1; }
+      .ColorScheme-Background     { color:#31363b; }
+      .ColorScheme-Highlight      { color:#3daefd; }
+      .ColorScheme-ViewBackground { color:#fcfcfc; }
+      .ColorScheme-PositiveText   { color:#27ae60; }
+      .ColorScheme-NeutralText    { color:#f67400; }
+      .ColorScheme-NegativeText   { color:#da4453; }
+  </style>
+ </defs>
+ <path class="ColorScheme-Background" d="m 74,0 v 57 c 4.66e-4,0.393819 0.43486,0.63257 0.767578,0.421875 L 86,51.591797 97.232422,57.421875 C 97.56514,57.63257 97.999534,57.393819 98,57 V 0 Z" fill="currentColor" opacity="0.6" paint-order="stroke fill markers" stroke-linecap="round" stroke-linejoin="round"/>
+ <path class="ColorScheme-Background" d="M 74 0 L 74 57 C 74.000466 57.393819 74.43486 57.63257 74.767578 57.421875 L 86 51.591797 L 97.232422 57.421875 C 97.56514 57.63257 97.999534 57.393819 98 57 L 98 0 L 74 0 z M 74.5 0.5 L 97.5 0.5 L 97.5 57 A 0.50005 0.50005 0 0 0 97.462891 56.978516 L 86.230469 51.148438 A 0.50005 0.50005 0 0 0 85.769531 51.148438 L 74.537109 56.978516 A 0.50005 0.50005 0 0 0 74.5 57 L 74.5 0.5 z " fill="currentColor" opacity="0.6" paint-order="stroke fill markers" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

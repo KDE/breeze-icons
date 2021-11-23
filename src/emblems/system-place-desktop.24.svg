@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="24" version="1.1" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <namedview bordercolor="#666666" borderopacity="1.0" id="namedview-conformist" pagecolor="#ffffff" pageopacity="0.0" pageshadow="0" showgrid="true">
+  <grid class="ColorScheme-Background" empspacing="4" fill="currentColor" opacity="0.6" type="xygrid"/>
+ </namedview>
+ <defs id="primary-definitions">
+  <style class="ColorScheme-Background" fill="currentColor" opacity="0.6" type="text/css">
+   .ColorScheme-Text           { color:#eff0f1; }
+      .ColorScheme-Background     { color:#31363b; }
+      .ColorScheme-Highlight      { color:#3daefd; }
+      .ColorScheme-ViewBackground { color:#fcfcfc; }
+      .ColorScheme-PositiveText   { color:#27ae60; }
+      .ColorScheme-NeutralText    { color:#f67400; }
+      .ColorScheme-NegativeText   { color:#da4453; }
+  </style>
+ </defs>
+ <path class="ColorScheme-Background" d="M 3,4 C 2.446,4 2,4.446 2,5 v 14 c 0,0.554 0.446,1 1,1 h 18 c 0.554,0 1,-0.446 1,-1 V 5 C 22,4.446 21.554,4 21,4 Z M 4,5 C 4.5522847,5 5,5.4477153 5,6 5,6.5522847 4.5522847,7 4,7 3.4477153,7 3,6.5522847 3,6 3,5.4477153 3.4477153,5 4,5 Z M 4,8 C 4.5522847,8 5,8.4477153 5,9 5,9.5522847 4.5522847,10 4,10 3.4477153,10 3,9.5522847 3,9 3,8.4477153 3.4477153,8 4,8 Z m -1,9 h 18 v 2 H 3 Z" fill="currentColor" opacity="0.6" paint-order="stroke fill markers" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+ <path class="ColorScheme-Background" d="M 3 4 C 2.446 4 2 4.446 2 5 L 2 19 C 2 19.554 2.446 20 3 20 L 21 20 C 21.554 20 22 19.554 22 19 L 22 5 C 22 4.446 21.554 4 21 4 L 3 4 z M 3 4.5 L 4 4.5 L 21 4.5 C 21.285648 4.5 21.5 4.7143517 21.5 5 L 21.5 17 A 0.50005 0.50005 0 0 0 21 16.5 L 3 16.5 A 0.50005 0.50005 0 0 0 2.5 17 L 2.5 9 L 2.5 6 L 2.5 5 C 2.5 4.7143517 2.7143517 4.5 3 4.5 z M 2.5 6 C 2.5 6.822504 3.177496 7.5 4 7.5 C 4.822504 7.5 5.5 6.822504 5.5 6 C 5.5 5.177496 4.822504 4.5 4 4.5 C 3.177496 4.5 2.5 5.177496 2.5 6 z M 4 7.5 C 3.177496 7.5 2.5 8.177496 2.5 9 C 2.5 9.822504 3.177496 10.5 4 10.5 C 4.822504 10.5 5.5 9.822504 5.5 9 C 5.5 8.177496 4.822504 7.5 4 7.5 z M 4 5 C 4.5522847 5 5 5.4477153 5 6 C 5 6.5522847 4.5522847 7 4 7 C 3.4477153 7 3 6.5522847 3 6 C 3 5.4477153 3.4477153 5 4 5 z M 4 8 C 4.5522847 8 5 8.4477153 5 9 C 5 9.5522847 4.5522847 10 4 10 C 3.4477153 10 3 9.5522847 3 9 C 3 8.4477153 3.4477153 8 4 8 z M 3 17 L 21 17 L 21 19 L 3 19 L 3 17 z " fill="currentColor" opacity="0.6" paint-order="stroke fill markers" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

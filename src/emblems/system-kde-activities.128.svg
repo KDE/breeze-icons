@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="128" version="1.1" viewBox="0 0 128 128" width="128" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <namedview bordercolor="#666666" borderopacity="1.0" id="namedview-conformist" pagecolor="#ffffff" pageopacity="0.0" pageshadow="0" showgrid="true">
+  <grid class="ColorScheme-Background" empspacing="4" fill="currentColor" opacity="0.6" type="xygrid"/>
+ </namedview>
+ <defs id="primary-definitions">
+  <style class="ColorScheme-Background" fill="currentColor" opacity="0.6" type="text/css">
+   .ColorScheme-Text           { color:#eff0f1; }
+      .ColorScheme-Background     { color:#31363b; }
+      .ColorScheme-Highlight      { color:#3daefd; }
+      .ColorScheme-ViewBackground { color:#fcfcfc; }
+      .ColorScheme-PositiveText   { color:#27ae60; }
+      .ColorScheme-NeutralText    { color:#f67400; }
+      .ColorScheme-NegativeText   { color:#da4453; }
+  </style>
+ </defs>
+ <path class="ColorScheme-Background" d="M 28 48 A 16 16 0 0 0 12 64 A 16 16 0 0 0 28 80 A 16 16 0 0 0 44 64 A 16 16 0 0 0 28 48 z M 64 48 A 16 16 0 0 0 48 64 A 16 16 0 0 0 64 80 A 16 16 0 0 0 80 64 A 16 16 0 0 0 64 48 z M 100 48 A 16 16 0 0 0 84 64 A 16 16 0 0 0 100 80 A 16 16 0 0 0 116 64 A 16 16 0 0 0 100 48 z " fill="currentColor" opacity="0.6" paint-order="stroke fill markers" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+ <path class="ColorScheme-Background" d="M 28 48 A 16 16 0 0 0 12 64 A 16 16 0 0 0 28 80 A 16 16 0 0 0 44 64 A 16 16 0 0 0 28 48 z M 64 48 A 16 16 0 0 0 48 64 A 16 16 0 0 0 64 80 A 16 16 0 0 0 80 64 A 16 16 0 0 0 64 48 z M 100 48 A 16 16 0 0 0 84 64 A 16 16 0 0 0 100 80 A 16 16 0 0 0 116 64 A 16 16 0 0 0 100 48 z M 28 48.5 C 36.566327 48.5 43.5 55.433673 43.5 64 C 43.5 72.566327 36.566327 79.5 28 79.5 C 19.433673 79.5 12.5 72.566327 12.5 64 C 12.5 55.433673 19.433673 48.5 28 48.5 z M 64 48.5 C 72.566327 48.5 79.5 55.433673 79.5 64 C 79.5 72.566327 72.566327 79.5 64 79.5 C 55.433673 79.5 48.5 72.566327 48.5 64 C 48.5 55.433673 55.433673 48.5 64 48.5 z M 100 48.5 C 108.56633 48.5 115.5 55.433673 115.5 64 C 115.5 72.566327 108.56633 79.5 100 79.5 C 91.433673 79.5 84.5 72.566327 84.5 64 C 84.5 55.433673 91.433673 48.5 100 48.5 z " fill="currentColor" opacity="0.6" paint-order="stroke fill markers" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

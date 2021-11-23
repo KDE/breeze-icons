@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="12" version="1.1" viewBox="0 0 12 12" width="12" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <namedview bordercolor="#666666" borderopacity="1.0" id="namedview-conformist" pagecolor="#ffffff" pageopacity="0.0" pageshadow="0" showgrid="true">
+  <grid class="ColorScheme-Background" empspacing="4" fill="currentColor" opacity="0.6" type="xygrid"/>
+ </namedview>
+ <defs id="primary-definitions">
+  <style class="ColorScheme-Background" fill="currentColor" opacity="0.6" type="text/css">
+   .ColorScheme-Text           { color:#eff0f1; }
+      .ColorScheme-Background     { color:#31363b; }
+      .ColorScheme-Highlight      { color:#3daefd; }
+      .ColorScheme-ViewBackground { color:#fcfcfc; }
+      .ColorScheme-PositiveText   { color:#27ae60; }
+      .ColorScheme-NeutralText    { color:#f67400; }
+      .ColorScheme-NegativeText   { color:#da4453; }
+  </style>
+ </defs>
+ <path class="ColorScheme-Background" d="M 4.5 0 C 2.007 0 0 2.007 0 4.5 L 0 7.5 C 0 9.993 2.007 12 4.5 12 C 6.993 12 9 9.993 9 7.5 L 9 4.5 C 9 2.007 6.993 0 4.5 0 z M 11.5 0 C 11.223 0 11 0.223 11 0.5 L 11 11.5 C 11 11.777 11.223 12 11.5 12 C 11.777 12 12 11.777 12 11.5 L 12 0.5 C 12 0.223 11.777 0 11.5 0 z M 4.5 1 C 6.0860867 1 7.4188123 2.0448519 7.8515625 3.4863281 L 1 7.4433594 L 1 4.5 C 1 2.561 2.561 1 4.5 1 z M 8 4.5566406 L 8 7.5 C 8 9.439 6.439 11 4.5 11 C 2.9139133 11 1.5811877 9.9551481 1.1484375 8.5136719 L 8 4.5566406 z " fill="currentColor" opacity="0.6" paint-order="stroke fill markers" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

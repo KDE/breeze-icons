@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="48" version="1.1" viewBox="0 0 48 48" width="48" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <namedview bordercolor="#666666" borderopacity="1.0" id="namedview-conformist" pagecolor="#ffffff" pageopacity="0.0" pageshadow="0" showgrid="true">
+  <grid class="ColorScheme-Background" empspacing="4" fill="currentColor" opacity="0.6" type="xygrid"/>
+ </namedview>
+ <defs id="primary-definitions">
+  <style class="ColorScheme-Background" fill="currentColor" opacity="0.6" type="text/css">
+   .ColorScheme-Text           { color:#eff0f1; }
+      .ColorScheme-Background     { color:#31363b; }
+      .ColorScheme-Highlight      { color:#3daefd; }
+      .ColorScheme-ViewBackground { color:#fcfcfc; }
+      .ColorScheme-PositiveText   { color:#27ae60; }
+      .ColorScheme-NeutralText    { color:#f67400; }
+      .ColorScheme-NegativeText   { color:#da4453; }
+  </style>
+ </defs>
+ <path class="ColorScheme-Background" d="M 24 8 A 8 8 0 0 0 16 16 A 8 8 0 0 0 24 24 A 8 8 0 0 0 32 16 A 8 8 0 0 0 24 8 z M 24 25 C 16.798 25 11 30.798 11 38 C 11 39.108 11.892 40 13 40 L 35 40 C 36.108 40 37 39.108 37 38 C 37 30.798 31.202 25 24 25 z " fill="currentColor" opacity="0.6" paint-order="stroke markers fill" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+ <path class="ColorScheme-Background" d="M 24 8 A 8 8 0 0 0 16 16 A 8 8 0 0 0 24 24 A 8 8 0 0 0 32 16 A 8 8 0 0 0 24 8 z M 24 8.5 C 28.148054 8.5 31.5 11.851946 31.5 16 C 31.5 20.148054 28.148054 23.5 24 23.5 C 19.851946 23.5 16.5 20.148054 16.5 16 C 16.5 11.851946 19.851946 8.5 24 8.5 z M 24 25 C 16.798 25 11 30.798 11 38 C 11 39.108 11.892 40 13 40 L 35 40 C 36.108 40 37 39.108 37 38 C 37 30.798 31.202 25 24 25 z M 24 25.5 C 30.933642 25.5 36.5 31.066358 36.5 38 C 36.5 38.839648 35.839648 39.5 35 39.5 L 13 39.5 C 12.160352 39.5 11.5 38.839648 11.5 38 C 11.5 31.066358 17.066358 25.5 24 25.5 z " fill="currentColor" opacity="0.6" paint-order="stroke markers fill" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

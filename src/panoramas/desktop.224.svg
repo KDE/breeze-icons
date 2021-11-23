@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="160" version="1.1" viewBox="0 0 224 160" width="224" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <namedview bordercolor="#666666" borderopacity="1.0" id="namedview-conformist" pagecolor="#ffffff" pageopacity="0.0" pageshadow="0" showgrid="true">
+  <grid class="ColorScheme-Background" empspacing="4" fill="currentColor" opacity="0.6" type="xygrid"/>
+ </namedview>
+ <defs id="primary-definitions">
+  <style class="ColorScheme-Background" fill="currentColor" opacity="0.6" type="text/css">
+   .ColorScheme-Text           { color:#eff0f1; }
+      .ColorScheme-Background     { color:#31363b; }
+      .ColorScheme-Highlight      { color:#3daefd; }
+      .ColorScheme-ViewBackground { color:#fcfcfc; }
+      .ColorScheme-PositiveText   { color:#27ae60; }
+      .ColorScheme-NeutralText    { color:#f67400; }
+      .ColorScheme-NegativeText   { color:#da4453; }
+  </style>
+ </defs>
+ <path class="ColorScheme-Background" d="M 21 28 C 20.446 28 20 28.446 20 29 L 20 139 C 20 139.554 20.446 140 21 140 L 203 140 C 203.554 140 204 139.554 204 139 L 204 29 C 204 28.446 203.554 28 203 28 L 21 28 z M 30 36 L 36 36 C 38 36 38.686466 38 40 38 L 50 38 C 51.108 38 52 38.892 52 40 L 52 54 C 52 55.108 51.108 56 50 56 L 30 56 C 28.892 56 28 55.108 28 54 L 28 38 C 28 36.892 29.035237 36 30 36 z M 30 64 L 36 64 C 38 64 38.686466 66 40 66 L 50 66 C 51.108 66 52 66.892 52 68 L 52 82 C 52 83.108 51.108 84 50 84 L 30 84 C 28.892 84 28 83.108 28 82 L 28 66 C 28 64.892 29.035237 64 30 64 z M 21 131 L 203 131 L 203 139 L 21 139 L 21 131 z M 25 133 C 23.892 133 23 133.892 23 135 C 23 136.108 23.892 137 25 137 C 26.108 137 27 136.108 27 135 C 27 133.892 26.108 133 25 133 z M 187 134 C 186.446 134 186 134.446 186 135 C 186 135.554 186.446 136 187 136 C 187.554 136 188 135.554 188 135 C 188 134.446 187.554 134 187 134 z M 190.97852 134 C 190.43679 134 190 134.43679 190 134.97852 L 190 135.02148 C 190 135.56321 190.43679 136 190.97852 136 L 198.02148 136 C 198.56321 136 199 135.56321 199 135.02148 L 199 134.97852 C 199 134.43679 198.56321 134 198.02148 134 L 190.97852 134 z " fill="currentColor" opacity="0.6" paint-order="stroke fill markers" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

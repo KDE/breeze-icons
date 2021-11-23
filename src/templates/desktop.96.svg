@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96" height="96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <style id="current-color-scheme" type="text/css">.ColorScheme-Text           { color:#fff; }
+        .ColorScheme-Background     { color:#222; }
+        .ColorScheme-Highlight      { color:#3daefd; }
+        .ColorScheme-ViewBackground { color:#000; }
+        .ColorScheme-PositiveText   { color:#27ae60; }
+        .ColorScheme-NeutralText    { color:#f67400; }
+        .ColorScheme-NegativeText   { color:#da4453; }</style>
+    <style id="extended-color-scheme" type="text/css">.ExScheme-Black     { color:#172525; }
+        .ExScheme-White     { color:#fcfcfc; }
+        .ExScheme-Grey-1    { color:#cfd5d5; }
+        .ExScheme-Grey-2    { color:#909c9c; }
+        .ExScheme-Grey-3    { color:#536161; }
+        .ExScheme-Red-1     { color:#ffafa5; }
+        .ExScheme-Red-2     { color:#bf4231; }
+        .ExScheme-Red-3     { color:#4d2f2b; }
+        .ExScheme-Green-1   { color:#abf9c7; }
+        .ExScheme-Green-2   { color:#3bb566; }
+        .ExScheme-Green-3   { color:#377d50; }
+        .ExScheme-Blue-1    { color:#abdaf9; }
+        .ExScheme-Blue-2    { color:#3daefd; }
+        .ExScheme-Blue-3    { color:#2b3c4d; }
+        .ExScheme-Yellow-1  { color:#faffa5; }
+        .ExScheme-Yellow-2  { color:#cac726; }
+        .ExScheme-Yellow-3  { color:#4b4d2b; }
+        .ExScheme-Orange-1  { color:#ffdaa5; }
+        .ExScheme-Orange-2  { color:#ff9701; }
+        .ExScheme-Orange-3  { color:#4d372b; }
+        .ExScheme-Brown-1   { color:#e9d6bb; }
+        .ExScheme-Brown-2   { color:#997657; }
+        .ExScheme-Brown-3   { color:#433a35; }
+        .ExScheme-Purple-1  { color:#e2abf9; }
+        .ExScheme-Purple-2  { color:#b401ff; }
+        .ExScheme-Purple-3  { color:#432b4d; }
+        .ExScheme-Cyan-1    { color:#b2f2e6; }
+        .ExScheme-Cyan-2    { color:#31bfa6; }
+        .ExScheme-Cyan-3    { color:#2b4d47; }
+        .ExScheme-Magenta-1 { color:#f8a6d8; }
+        .ExScheme-Magenta-2 { color:#f00091; }
+        .ExScheme-Magenta-3 { color:#770048; }</style>
+    <linearGradient id="gradientDark">
+      <stop offset="0"/>
+      <stop stop-opacity="0" offset="1"/>
+    </linearGradient>
+    <linearGradient id="gradientPanel">
+      <stop stop-color="#172525" offset="0"/>
+      <stop stop-color="#172525" stop-opacity="0" offset="1"/>
+    </linearGradient>
+    <radialGradient id="gd1" cx="19.742" cy="-20.3427" r="15" gradientTransform="matrix(-.978794 .247963 -.0792324 -.312757 94.8969 11.8058)" gradientUnits="userSpaceOnUse" spreadMethod="reflect" xlink:href="#gradientDark"/>
+    <linearGradient id="gd2" x1="-12" x2="-12" y1="33" y2="31" gradientTransform="matrix(2.75461 -1.04839 1.04839 2.75461 -77.7185 12.7347)" gradientUnits="userSpaceOnUse" xlink:href="#gradientDark"/>
+    <linearGradient id="gd3" x1="9" x2="9" y1="14" y2="20" gradientTransform="matrix(2.28444 .475158 -.395965 1.9037 39.2545 4.32528)" gradientUnits="userSpaceOnUse" xlink:href="#gradientDark"/>
+    <linearGradient id="gd4" x1="0" x2="0" y1="1" y2="0" xlink:href="#gradientDark"/>
+    <linearGradient id="gp1" x1="21.0684" x2="24.6359" y1="24.9573" y2="19.9222" gradientTransform="matrix(-2.93333 0 0 2.93333 94.9333 6.5875)" gradientUnits="userSpaceOnUse" xlink:href="#gradientPanel"/>
+    <linearGradient id="gp2" x1="23.3163" x2="22.0538" y1="19.112" y2="14.4714" gradientTransform="matrix(3.00041 0 0 3.00041 -1.01284 3.36856)" gradientUnits="userSpaceOnUse" xlink:href="#gradientPanel"/>
+  </defs>
+  <path d="m45.0664 71.1211-41.0664 6.87891v4c0 1.108.892 2 2 2h84c1.108 0 2-.892 2-2v-4z" class="ColorScheme-Highlight" fill="currentColor" stroke-width="5.86666" style="paint-order:stroke fill markers"/>
+  <path d="m45.0664 71.1211-41.0664 6.87891v4c0 1.108.892 2 2 2h84c1.108 0 2-.892 2-2v-4z" fill="url(#gp1)" stroke-width="5.86666" style="paint-order:stroke fill markers"/>
+  <path d="m5 20-1 22.4199-1e-5 35.5801h18l68-29z" class="ColorScheme-Highlight" fill="currentColor"/>
+  <path d="m5 20-1 22.4199-1e-5 35.5801h18l68-29z" fill="url(#gd1)" opacity=".075"/>
+  <path d="m5 20-1 22.4199-1e-5 35.5801h18l68-29z" fill="#000" opacity=".5"/>
+  <path d="m4.27734 12.998c-.171922.295514-.277344.634074-.277344 1.00195v22.709l88 18.3066v-21.9023z" fill="url(#gd3)" opacity=".4"/>
+  <path d="m6 12c-1.108 0-2 .892-2 2v28.4199l3.12305-1.58594 17.9707-4.26562 2.25195.087891 64.6543 13.4434v-36.0996c0-1.108-.892-2-2-2z"/>
+  <path d="M 92,45.9004 7.6641,78 H 39.17 L 92.0001,57.8926 Z" fill="url(#gd2)" opacity=".4"/>
+  <path d="M 92,47.248 17.0586,78 H 92 Z" fill="#334545"/>
+  <g style="opacity: .4">
+    <path d="M 92,75.726562 86.464844,78 H 92 Z" opacity=".6" />
+    <path d="m57.8438 75.5016-1.42188 2.49836h12.3766z" opacity=".3" />
+    <path d="m85.4523 71.2936-16.3429 6.70642h12.5206z" opacity=".6" />
+    <path d="m74.2961 68.7549-16.4523 6.74671 10.9548 2.49836h.230278z" opacity=".5" />
+    <path d="m74.2961 68.7549-5.26727 9.24507h.08058l16.3429-6.70642z" opacity=".7" />
+    <path d="m57.8438 75.5016-6.0847 2.49836h4.66283z" opacity=".4" />
+    <path d="m35.5312 70.4186-4.31743 7.58142h3.20066l12.273-5.03701z" opacity=".6" />
+    <path d="m46.6889 72.962 16.4531-6.752-5.29726 9.29428z" opacity=".3" />
+    <path d="m46.6875 72.963-12.273 5.03701h9.40049z" opacity=".4" />
+    <path d="m46.6875 72.963-2.87253 5.03701h7.94408l6.0847-2.49836z" opacity=".5" />
+    <path d="m35.533 70.4198 16.4531-6.752-5.29727 9.29428z" opacity=".5" />
+    <path d="m63.142 66.21-16.4531 6.752 5.29727-9.29428z" opacity=".4" />
+    <path d="m74.2979 68.7523-16.4531 6.752 5.29726-9.29428z" opacity=".75" />
+    <path d="m35.5312 70.4186-16.4523 6.75247 3.6324.828948h8.50247z" opacity=".4" />
+    <path d="m19.0789 77.1711-.47204.828948h4.10444z" opacity=".6" />
+    <path d="m74.2979 68.7523 16.4531-6.752-5.29727 9.29428z" opacity=".6" />
+    <path d="m92 54.3691-12.4023 5.08984 11.1504 2.54297 1.25195-2.19141z" opacity=".6" />
+    <path d="m63.142 66.21 16.4531-6.752-5.29727 9.29428z" opacity=".3" />
+    <path d="m90.751 62.0003-16.4531 6.752 5.29727-9.29428z" opacity=".4" />
+    <path d="m92 61.4902-1.25195.511719 1.25195.285156z" opacity=".6" />
+    <path d="m90.748 62.002-5.29492 9.29102 6.54688-2.6875v-6.31836z" opacity=".4" />
+    <path d="m51.9861 63.6678 16.4531-6.752-5.29727 9.29428z" opacity=".5" />
+    <path d="m85.4531 71.293-3.82227 6.70703h4.83398l5.53516-2.27344v-2.93945z" opacity=".5" />
+    <path d="M 92,68.6055 85.45312,71.293 92,72.78714 Z" opacity=".75" />
+    <path d="m68.4393 56.9158 16.4531-6.752-5.29726 9.29428z" opacity=".4" />
+    <path d="m79.5951 59.458-16.4531 6.752 5.29727-9.29428z" opacity=".6" />
+    <path d="m84.8945 50.1621-5.29688 9.29688 12.4023-5.08984v-2.58789z" opacity=".75" />
+    <path d="M 92,47.248 84.89453,50.16206 92,51.7812 Z" opacity=".5" />
+    <path d="m92 59.8105-1.25195 2.19141 1.25195-.511719z" opacity=".6" />
+    <path d="m92 47.248-74.9414 30.752h3.59766l71.3438-29.2793z" opacity=".4"/>
+  </g>
+  <path d="m6 12c-1.108 0-2 .892-2 2v28.4199l3.12305-1.58594 17.9707-4.26562 2.25195.087891 64.6543 13.4434v-36.0996c0-1.108-.892-2-2-2z" class="ColorScheme-Highlight" fill="currentColor" opacity=".6"/>
+  <path d="m6 12c-1.108 0-2 .892-2 2v28.4199l3.12305-1.58594 17.9707-4.26562 2.25195.087891 64.6543 13.4434v-36.0996c0-1.108-.892-2-2-2z" class="ColorScheme-NeutralText" fill="currentColor" opacity=".15"/>
+  <path d="m6 12c-1.108 0-2 .892-2 2v28.4199l3.12305-1.58594 17.9707-4.26562 2.25195.087891 64.6543 2.44922v-25.1055c0-1.108-.892-2-2-2z" class="ColorScheme-NeutralText" fill="currentColor" opacity=".15"/>
+  <path d="m6 12c-1.108 0-2 .892-2 2v28.4199l3.12305-1.58594 84.8496-27.1074c-.13363-.97649-.958314-1.72656-1.97266-1.72656z" class="ColorScheme-NeutralText" fill="currentColor" opacity=".15"/>
+  <path d="m6 12c-1.108 0-2 .892-2 2v28.4199l46.0547-30.4199z" class="ColorScheme-NeutralText" fill="currentColor" opacity=".15"/>
+  <path d="m47.0898 12-43.0898 28.9121v1.50781l3.11719-1.58594 17.9707-4.26562 2.26367.087891 64.6484 13.4434v-1.36914l-56.5957-11.7695 56.5957 2.14453v-1.3418l-67.3157-2.51764 67.2884-21.5214c-.07099-.515064-.334563-.962201-.71875-1.27344l-82.6173 26.9278 41.4181-27.379z" fill="#fffefc" opacity=".15"/>
+  <path d="m35.4043 36.9609-8.05274-.304688 64.6484 13.418v-10.9688z" fill="url(#gp2)" opacity=".6"/>
+  
+  <!-- panel -->
+  <path d="m4 78v4c0 1.108.892 2 2 2h84c1.108 0 2-.892 2-2v-4z" class="ColorScheme-Background" fill="currentColor" opacity=".8" />
+  <rect class="ColorScheme-Background" fill="currentColor" x="4" y="78" width="88" height=".5" opacity=".2" />
+  <rect fill="url(#gd4)" x="4" y="76" width="88" height="2" opacity=".2" />
+  
+  <!-- panel buttons -->
+  <rect class="ColorScheme-Text" fill="currentColor" x="84" y="80" width="6" height="2" ry="1" />
+  <rect class="ColorScheme-Text" fill="currentColor" x="80" y="80" width="2" height="2" ry="1" />
+  <rect class="ColorScheme-Text" fill="currentColor" x="6" y="79" width="4" height="4" ry="2" />
+  
+  <!-- top highlight -->
+  <path d="m4 15v-1c0-1.108.892-2 2-2h84c1.108 0 2 .89201 2 2v1c0-1.10799-.892-2-2-2h-84c-1.108 0-2 .892-2 2z" fill="#fff" opacity=".1" />
+  <path d="m4 14.5v-.5c0-1.108.892-2 2-2h84c1.108 0 2 .89201 2 2v.5c0-1.10799-.892-2-2-2h-84c-1.108 0-2 .892-2 2z" fill="#fff" opacity=".1" />
+  
+  <!-- bottom shadow/highlight -->
+  <path class="ColorScheme-Text" fill="currentColor" d="m4 81v1c0 1.108.892 2 2 2h84c1.108 0 2-.89201 2-2v-1c0 1.10799-.892 2-2 2h-84c-1.108 0-2-.892-2-2z" opacity=".1" />
+  <path class="ColorScheme-Text" fill="currentColor" d="m4 81.5v.5c0 1.108.892 2 2 2h84c1.108 0 2-.89201 2-2v-.5c0 1.10799-.892 2-2 2h-84c-1.108 0-2-.892-2-2z" opacity=".1" />
+</svg>

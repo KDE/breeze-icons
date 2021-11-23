@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="128" version="1.1" viewBox="0 0 128 128" width="128" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <namedview bordercolor="#666666" borderopacity="1.0" id="namedview-conformist" pagecolor="#ffffff" pageopacity="0.0" pageshadow="0" showgrid="true">
+  <grid class="ColorScheme-Background" empspacing="4" fill="currentColor" opacity="0.6" type="xygrid"/>
+ </namedview>
+ <defs id="primary-definitions">
+  <style class="ColorScheme-Background" fill="currentColor" opacity="0.6" type="text/css">
+   .ColorScheme-Text           { color:#eff0f1; }
+      .ColorScheme-Background     { color:#31363b; }
+      .ColorScheme-Highlight      { color:#3daefd; }
+      .ColorScheme-ViewBackground { color:#fcfcfc; }
+      .ColorScheme-PositiveText   { color:#27ae60; }
+      .ColorScheme-NeutralText    { color:#f67400; }
+      .ColorScheme-NegativeText   { color:#da4453; }
+  </style>
+ </defs>
+ <path class="ColorScheme-Background" d="M 24 16 C 19.568 16 16 19.568 16 24 L 16 62 L 62 62 L 62 16 L 24 16 z M 66 16 L 66 62 L 112 62 L 112 24 C 112 19.568 108.432 16 104 16 L 66 16 z M 16 66 L 16 104 C 16 108.432 19.568 112 24 112 L 62 112 L 62 66 L 16 66 z M 66 66 L 66 112 L 104 112 C 108.432 112 112 108.432 112 104 L 112 66 L 66 66 z " fill="currentColor" opacity="0.6" paint-order="stroke fill markers" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+ <path class="ColorScheme-Background" d="M 24 16 C 19.568 16 16 19.568 16 24 L 16 62 L 62 62 L 62 16 L 24 16 z M 66 16 L 66 62 L 112 62 L 112 24 C 112 19.568 108.432 16 104 16 L 66 16 z M 24 16.5 L 61.5 16.5 L 61.5 61.5 L 16.5 61.5 L 16.5 24 C 16.5 19.836356 19.836356 16.5 24 16.5 z M 66.5 16.5 L 104 16.5 C 108.16364 16.5 111.5 19.836356 111.5 24 L 111.5 61.5 L 66.5 61.5 L 66.5 16.5 z M 16 66 L 16 104 C 16 108.432 19.568 112 24 112 L 62 112 L 62 66 L 16 66 z M 66 66 L 66 112 L 104 112 C 108.432 112 112 108.432 112 104 L 112 66 L 66 66 z M 16.5 66.5 L 61.5 66.5 L 61.5 111.5 L 24 111.5 C 19.836356 111.5 16.5 108.16364 16.5 104 L 16.5 66.5 z M 66.5 66.5 L 111.5 66.5 L 111.5 104 C 111.5 108.16364 108.16364 111.5 104 111.5 L 66.5 111.5 L 66.5 66.5 z " fill="currentColor" opacity="0.6" paint-order="stroke fill markers" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="64" version="1.1" viewBox="0 0 64 64" width="64" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <namedview bordercolor="#666666" borderopacity="1.0" id="namedview-conformist" pagecolor="#ffffff" pageopacity="0.0" pageshadow="0" showgrid="true">
+  <grid class="ColorScheme-Background" empspacing="4" fill="currentColor" opacity="0.6" type="xygrid"/>
+ </namedview>
+ <defs id="primary-definitions">
+  <style class="ColorScheme-Background" fill="currentColor" opacity="0.6" type="text/css">
+   .ColorScheme-Text           { color:#eff0f1; }
+      .ColorScheme-Background     { color:#31363b; }
+      .ColorScheme-Highlight      { color:#3daefd; }
+      .ColorScheme-ViewBackground { color:#fcfcfc; }
+      .ColorScheme-PositiveText   { color:#27ae60; }
+      .ColorScheme-NeutralText    { color:#f67400; }
+      .ColorScheme-NegativeText   { color:#da4453; }
+  </style>
+ </defs>
+ <path class="ColorScheme-Background" d="M 6,4 C 4.892,4 4,4.892 4,6 v 52 c 0,1.108 0.892,2 2,2 H 34.5 C 34.777,60 35,59.777 35,59.5 35,59.223 34.777,59 34.5,59 H 6 C 5.446,59 5,58.554 5,58 V 6 C 5,5.446 5.446,5 6,5 h 52 c 0.554,0 1,0.446 1,1 v 28.5 c 0,0.277 0.223,0.5 0.5,0.5 0.277,0 0.5,-0.223 0.5,-0.5 V 6 C 60,4.892 59.108,4 58,4 Z" fill="currentColor" opacity="0.6"/>
+ <path class="ColorScheme-Background" d="M 6,6 V 16 H 22 V 6 Z M 23,6 V 16 H 41 V 6 Z M 42,6 V 16 H 58 V 6 Z M 6,17 v 9 h 16 v -9 z m 17,0 v 9 h 18 v -9 z m 19,0 v 9 H 58 V 17 Z M 6,27 V 37 H 22 V 27 Z m 17,0 v 10 h 12 v -2 h 6 v -8 z m 19,0 v 8 H 58 V 27 Z M 6,38 v 9 h 16 v -9 z m 17,0 v 9 H 35 V 38 Z M 6,48 V 58 H 22 V 48 Z m 17,0 V 58 H 35 V 48 Z" fill="currentColor" opacity="0.6"/>
+ <path class="ColorScheme-Background" d="M 6,4 C 4.892,4 4,4.892 4,6 v 52 c 0,1.108 0.892,2 2,2 H 34.5 C 34.777,60 35,59.777 35,59.5 35,59.223 34.777,59 34.5,59 H 6 C 5.446,59 5,58.554 5,58 V 6 C 5,5.446 5.446,5 6,5 h 52 c 0.554,0 1,0.446 1,1 v 28.5 c 0,0.277 0.223,0.5 0.5,0.5 0.277,0 0.5,-0.223 0.5,-0.5 V 6 C 60,4.892 59.108,4 58,4 Z" fill="currentColor" opacity="0.6"/>
+ <rect fill="#FFCC00" height="24" id="badge" paint-order="stroke fill markers" ry="0" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" width="24" x="36" y="36"/>
+</svg>

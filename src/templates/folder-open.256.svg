@@ -1,0 +1,141 @@
+<svg width="256" height="256" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+        .ColorScheme-Text           { color:#fff; }
+        .ColorScheme-Background     { color:#111; }
+        .ColorScheme-Highlight      { color:#3daefd; }
+        .ColorScheme-ViewBackground { color:#000; }
+        .ColorScheme-PositiveText   { color:#27ae60; }
+        .ColorScheme-NeutralText    { color:#f67400; }
+        .ColorScheme-NegativeText   { color:#da4453; }
+    </style>
+    <style type="text/css" id="extended-color-scheme">
+        .ExScheme-Black     { color:#172525; }
+        .ExScheme-White     { color:#fcfcfc; }
+        .ExScheme-Grey-1    { color:#cfd5d5; }
+        .ExScheme-Grey-2    { color:#909c9c; }
+        .ExScheme-Grey-3    { color:#536161; }
+        .ExScheme-Red-1     { color:#ffafa5; }
+        .ExScheme-Red-2     { color:#bf4231; }
+        .ExScheme-Red-3     { color:#4d2f2b; }
+        .ExScheme-Green-1   { color:#abf9c7; }
+        .ExScheme-Green-2   { color:#3bb566; }
+        .ExScheme-Green-3   { color:#377d50; }
+        .ExScheme-Blue-1    { color:#abdaf9; }
+        .ExScheme-Blue-2    { color:#3daefd; }
+        .ExScheme-Blue-3    { color:#2b3c4d; }
+        .ExScheme-Yellow-1  { color:#faffa5; }
+        .ExScheme-Yellow-2  { color:#cac726; }
+        .ExScheme-Yellow-3  { color:#4b4d2b; }
+        .ExScheme-Orange-1  { color:#ffdaa5; }
+        .ExScheme-Orange-2  { color:#ff9701; }
+        .ExScheme-Orange-3  { color:#4d372b; }
+        .ExScheme-Brown-1   { color:#e9d6bb; }
+        .ExScheme-Brown-2   { color:#997657; }
+        .ExScheme-Brown-3   { color:#433a35; }
+        .ExScheme-Purple-1  { color:#e2abf9; }
+        .ExScheme-Purple-2  { color:#b401ff; }
+        .ExScheme-Purple-3  { color:#432b4d; }
+        .ExScheme-Cyan-1    { color:#b2f2e6; }
+        .ExScheme-Cyan-2    { color:#31bfa6; }
+        .ExScheme-Cyan-3    { color:#2b4d47; }
+        .ExScheme-Magenta-1 { color:#f8a6d8; }
+        .ExScheme-Magenta-2 { color:#f00091; }
+        .ExScheme-Magenta-3 { color:#770048; }
+    </style>
+    <linearGradient id="gradientDark">
+      <stop stop-opacity="1" offset="0" stop-color="#000" />
+      <stop stop-opacity="0" offset="1" stop-color="#000" />
+    </linearGradient>
+    <linearGradient id="gradientLight">
+      <stop stop-opacity="1" offset="0" stop-color="#fff" />
+      <stop stop-opacity="0" offset="1" stop-color="#fff" />
+    </linearGradient>
+    <style type="text/css" class="toggle-enable-crease">
+        .folder-crease { display: none; }
+    </style>
+    <style type="text/css" class="toggle-manilla-folders">
+        .folder-manilla { display: none; }
+    </style>
+    <radialGradient
+       xlink:href="#gradientLight"
+       id="gl1"
+       cx="0.5"
+       cy="0"
+       r="1" />
+    <linearGradient
+       xlink:href="#gradientDark"
+       id="gd1"
+       x1="0"
+       y1="1"
+       x2="0"
+       y2="0.5" />
+  </defs>
+  <path
+     class="folder-manilla-placeholder ExScheme-Brown-1"
+     fill="currentColor"
+     d="M 26 32 C 24.892 32 24.029148 32.892383 24 34 L 24 104 L 10 104 C 8.89 104 8 105 8 106 L 8 107 L 16 180 L 16 222 C 16 223.108 16.892 224 18 224 L 238 224 C 239.108 224 240 223.108 240 222 L 240 180 L 248 99 L 248 98 C 248 97 247.108 96 246 96 L 232 96 L 232 42 C 232 40.892 231.108 40 230 40 L 104 40 C 96 40 88 32 80 32 L 26 32 z" />
+  <path
+     id="primary-color"
+     class="toggle-manilla-folders ColorScheme-Highlight"
+     fill="currentColor"
+     d="M 26 32 C 24.892 32 24.029148 32.892383 24 34 L 24 104 L 10 104 C 8.89 104 8 105 8 106 L 8 107 L 16 180 L 16 222 C 16 223.108 16.892 224 18 224 L 238 224 C 239.108 224 240 223.108 240 222 L 240 180 L 248 99 L 248 98 C 248 97 247.108 96 246 96 L 232 96 L 232 42 C 232 40.892 231.108 40 230 40 L 104 40 C 96 40 88 32 80 32 L 26 32 z" />
+  <path
+     fill="#000"
+     opacity="0.05"
+     d="M 26 32 C 24.892 32 24.029148 32.892383 24 34 L 24 104 L 10 104 C 8.89 104 8 105 8 106 L 8 107 L 16 180 L 16 222 C 16 223.108 16.892 224 18 224 L 238 224 C 239.108 224 240 223.108 240 222 L 240 180 L 248 99 L 248 98 C 248 97 247.108 96 246 96 L 232 96 L 232 42 C 232 40.892 231.108 40 230 40 L 104 40 C 96 40 88 32 80 32 L 26 32 z" />
+  <path
+     class="ColorScheme-ViewBackground"
+     fill="currentColor"
+     opacity="0.05"
+     d="M 26 32 C 24.892 32 24.029148 32.892383 24 34 L 24 104 L 10 104 C 8.89 104 8 105 8 106 L 8 107 L 16 180 L 16 222 C 16 223.108 16.892 224 18 224 L 238 224 C 239.108 224 240 223.108 240 222 L 240 180 L 248 99 L 248 98 C 248 97 247.108 96 246 96 L 232 96 L 232 42 C 232 40.892 231.108 40 230 40 L 104 40 C 96 40 88 32 80 32 L 26 32 z" />
+  <path
+     class="toggle-flat-design"
+     fill="url(#gl1)"
+     opacity="0.2"
+     d="m 104,96 c -8,0 -16,8 -24,8 H 10 c -1.11,0 -2,1 -2,2 v 2 l 8,72 v 42 c 0,1.108 0.892,2 2,2 h 220 c 1.108,0 2,-0.892 2,-2 v -42 l 8,-80 v -2 c 0,-1 -0.892,-2 -2,-2 z" />
+  <path
+     class="toggle-flat-design"
+     fill="url(#gd1)"
+     opacity="0.2"
+     d="m 26,32 c -1.108,0 -1.970852,0.892383 -2,2 v 70 h 56 c 8,0 16.000244,-7.937502 24,-8 H 232 V 42 c 0,-1.108 -0.892,-2 -2,-2 H 104 C 96,40 88,32 80,32 Z" />
+  <path
+     class="folder-crease-placeholder"
+     fill="#000"
+     opacity="0.4"
+     d="M 15.554688 176 L 16 180 L 16 184 L 240 184 L 240 180 L 240.40039 176 L 15.554688 176 z " />
+  <path
+     fill="#000"
+     opacity="0.4"
+     d="m 26,32 c -1.108,0 -1.970852,0.892383 -2,2 v 70 h 56 c 8,0 16.000244,-7.937502 24,-8 H 232 V 42 c 0,-1.108 -0.892,-2 -2,-2 H 104 C 96,40 88,32 80,32 Z" />
+  <path
+     class="ColorScheme-Text"
+     fill="currentColor"
+     opacity="0.1"
+     d="m 16,221 v 1 c 0,1.108 0.892,2 2,2 h 220 c 1.108,0 2,-0.892 2,-2 v -1 c 0,1.108 -0.892,2 -2,2 H 18 c -1.108,0 -2,-0.892 -2,-2 z" />
+  <path
+     class="ColorScheme-Text"
+     fill="currentColor"
+     opacity="0.1"
+     d="m 16,221.5 v 0.5 c 0,1.108 0.892,2 2,2 h 220 c 1.108,0 2,-0.892 2,-2 v -0.5 c 0,1.108 -0.892,2 -2,2 H 18 c -1.108,0 -2,-0.892 -2,-2 z" />
+  <path
+     fill="#fff"
+     opacity="0.1"
+     d="m 104,96 c -8,0 -16,8 -24,8 H 10 c -1.11,0 -2,1 -2,2 v 2 l 0.072266,0.65625 C 8.2480123,107.78529 9.0198265,107 10,107 h 70 c 8,0 16,-8 24,-8 h 142 c 0.98716,0 1.76546,0.799341 1.93164,1.67969 L 248,100 v -2 c 0,-1 -0.892,-2 -2,-2 z" />
+  <path
+     fill="#fff"
+     opacity="0.1"
+     d="m 104,96 c -8,0 -16,8 -24,8 H 10 c -1.11,0 -2,1 -2,2 v 2 l 0.037109,0.33008 C 8.132106,107.39115 8.9542823,106.5 10,106.5 h 70 c 8,0 16,-8 24,-8 h 142 c 1.04766,0 1.87683,0.897109 1.9668,1.83984 L 248,100 v -2 c 0,-1 -0.892,-2 -2,-2 z" />
+  <path
+     fill="#fff"
+     opacity="0.2"
+     d="M 104 96 C 96 96 88 104 80 104 L 10 104 C 8.89 104 8 105 8 106 L 8 108 C 8 107 8.89 106 10 106 L 80 106 C 88 106 96 98 104 98 L 246 98 C 247.108 98 248 99 248 100 L 248 98 C 248 97 247.108 96 246 96 L 104 96 z" />
+  <path
+     fill="#000"
+     opacity="0.1"
+     d="m 104,95 c -8,0 -16,8 -24,8 H 24 v 1 h 56 c 8,0 16,-8 24,-8 h 128 v -1 z" />
+  <path
+     fill="#000"
+     opacity="0.1"
+     d="m 104,95.5 c -8,0 -16,8 -24,8 H 24 v 0.5 h 56 c 8,0 16,-8 24,-8 h 128 v -0.5 z" />
+</svg>

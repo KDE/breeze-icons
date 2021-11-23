@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 84 60"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="overlay-digital-top.84.svg"
+   inkscape:version="1.1.1 (1:1.1+202109281949+c3084ef5ed)"
+   width="84"
+   height="60"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <path
+     fill="#fff"
+     opacity=".2"
+     d="M 33 0 C 32 0 31 0.34461806 30 0.7890625 L 30 6 L 36 6 L 36 0 L 33 0 z M 42 0 L 42 6 L 48 6 L 48 0 L 42 0 z M 54 0 L 54 6 L 60 6 L 60 0 L 54 0 z M 60 6 L 60 12 L 66 12 L 66 6 L 60 6 z M 66 6 L 72 6 L 72 0 L 66 0 L 66 6 z M 72 6 L 72 12 L 78 12 L 78 6 L 72 6 z M 78 6 L 84 6 L 84 2 C 84 0.892 83.108 0 82 0 L 78 0 L 78 6 z M 78 12 L 78 18 L 84 18 L 84 12 L 78 12 z M 78 18 L 72 18 L 72 21 L 78 21 L 78 18 z M 78 21 L 78 27 L 81 27 L 81 21 L 78 21 z M 72 18 L 72 12 L 66 12 L 66 18 L 72 18 z M 6 3 L 6 6 L 12 6 L 12 3 L 6 3 z M 12 6 L 12 12 L 18 12 L 18 6 L 12 6 z M 18 6 L 24 6 L 24 3 L 18 3 L 18 6 z M 12 12 L 6 12 L 6 18 L 12 18 L 12 12 z M 6 18 L 3 18 L 3 21 L 6 21 L 6 18 z M 6 12 L 6 6 L 0 6 L 0 12 L 6 12 z " />
+  <rect
+     fill="#ffcc00"
+     id="emblem"
+     width="48"
+     height="48"
+     x="18"
+     y="6" />
+</svg>

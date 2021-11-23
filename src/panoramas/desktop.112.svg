@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="80" version="1.1" viewBox="0 0 112 80" width="112" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <namedview bordercolor="#666666" borderopacity="1.0" id="namedview-conformist" pagecolor="#ffffff" pageopacity="0.0" pageshadow="0" showgrid="true">
+  <grid class="ColorScheme-Background" empspacing="4" fill="currentColor" opacity="0.6" type="xygrid"/>
+ </namedview>
+ <defs id="primary-definitions">
+  <style class="ColorScheme-Background" fill="currentColor" opacity="0.6" type="text/css">
+   .ColorScheme-Text           { color:#eff0f1; }
+      .ColorScheme-Background     { color:#31363b; }
+      .ColorScheme-Highlight      { color:#3daefd; }
+      .ColorScheme-ViewBackground { color:#fcfcfc; }
+      .ColorScheme-PositiveText   { color:#27ae60; }
+      .ColorScheme-NeutralText    { color:#f67400; }
+      .ColorScheme-NegativeText   { color:#da4453; }
+  </style>
+ </defs>
+ <path class="ColorScheme-Background" d="M 11 14 C 10.446 14 10 14.446 10 15 L 10 69 C 10 69.554 10.446 70 11 70 L 101 70 C 101.554 70 102 69.554 102 69 L 102 15 C 102 14.446 101.554 14 101 14 L 11 14 z M 16 18 L 18 18 C 20 18 20.686466 20 22 20 L 24 20 C 25.108 20 26 20.892 26 22 L 26 26 C 26 27.108 25.108 28 24 28 L 16 28 C 14.892 28 14 27.108 14 26 L 14 20 C 14 18.892 15.035237 18 16 18 z M 16 32 L 18 32 C 20 32 20.686466 34 22 34 L 24 34 C 25.108 34 26 34.892 26 36 L 26 40 C 26 41.108 25.108 42 24 42 L 16 42 C 14.892 42 14 41.108 14 40 L 14 34 C 14 32.892 15.035237 32 16 32 z M 11 63 L 101 63 L 101 69 L 11 69 L 11 63 z M 14 64 A 2 2 0 0 0 12 66 A 2 2 0 0 0 14 68 A 2 2 0 0 0 16 66 A 2 2 0 0 0 14 64 z M 91 65 C 90.446 65 90 65.446 90 66 C 90 66.554 90.446 67 91 67 C 91.554 67 92 66.554 92 66 C 92 65.446 91.554 65 91 65 z M 95 65 C 94.446 65 94 65.446 94 66 C 94 66.554 94.446 67 95 67 L 99 67 C 99.554 67 100 66.554 100 66 C 100 65.446 99.554 65 99 65 L 95 65 z " fill="currentColor" opacity="0.6" paint-order="stroke fill markers" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

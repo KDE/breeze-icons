@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="30" version="1.1" viewBox="0 0 42 30" width="42" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <namedview bordercolor="#666666" borderopacity="1.0" id="namedview-conformist" pagecolor="#ffffff" pageopacity="0.0" pageshadow="0" showgrid="true">
+  <grid class="ColorScheme-Background" empspacing="4" fill="currentColor" opacity="0.6" type="xygrid"/>
+ </namedview>
+ <defs id="primary-definitions">
+  <style class="ColorScheme-Background" fill="currentColor" opacity="0.6" type="text/css">
+   .ColorScheme-Text           { color:#eff0f1; }
+      .ColorScheme-Background     { color:#31363b; }
+      .ColorScheme-Highlight      { color:#3daefd; }
+      .ColorScheme-ViewBackground { color:#fcfcfc; }
+      .ColorScheme-PositiveText   { color:#27ae60; }
+      .ColorScheme-NeutralText    { color:#f67400; }
+      .ColorScheme-NegativeText   { color:#da4453; }
+  </style>
+ </defs>
+ <path class="ColorScheme-Background" d="M 38.492188,7.015625 5.984375,26.138672 C 5.1079335,26.656068 5.4744212,27.999387 6.4921875,28 H 39 c 0.552262,-5.5e-5 0.999945,-0.447738 1,-1 V 7.8769531 C 40,6.9185495 39.37898,6.4939609 38.492188,7.015625 Z M 35,14.871094 V 23 H 21.179688 Z" fill="currentColor" opacity="0.6" stroke-linejoin="round"/>
+ <path class="ColorScheme-Background" d="M 39.101562 6.7949219 C 38.918637 6.8135007 38.713886 6.885209 38.492188 7.015625 L 5.984375 26.138672 C 5.1079335 26.656068 5.4744212 27.999387 6.4921875 28 L 39 28 C 39.552262 27.999945 39.999945 27.552262 40 27 L 40 7.8769531 C 40 7.1581504 39.65034 6.7391855 39.101562 6.7949219 z M 39.138672 7.2910156 C 39.230164 7.279256 39.28623 7.2977719 39.320312 7.3183594 C 39.388478 7.3595342 39.5 7.5057473 39.5 7.8769531 L 39.5 27 C 39.499972 27.282077 39.282077 27.499972 39 27.5 L 6.4921875 27.5 C 6.2032467 27.499826 6.0671949 27.34136 6.0097656 27.130859 C 5.9525075 26.920986 5.9914625 26.717106 6.2382812 26.570312 L 38.746094 7.4472656 C 38.92026 7.3448107 39.047179 7.3027753 39.138672 7.2910156 z M 34.996094 14.371094 A 0.50005 0.50005 0 0 0 34.746094 14.439453 L 20.925781 22.568359 A 0.50005 0.50005 0 0 0 21.179688 23.5 L 35 23.5 A 0.50005 0.50005 0 0 0 35.5 23 L 35.5 14.871094 A 0.50005 0.50005 0 0 0 35.248047 14.4375 A 0.50005 0.50005 0 0 0 34.996094 14.371094 z M 35 14.871094 L 35 23 L 21.179688 23 L 35 14.871094 z " fill="currentColor" opacity="0.6" stroke-linejoin="round"/>
+</svg>

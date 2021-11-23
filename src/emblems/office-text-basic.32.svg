@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="32" version="1.1" width="32" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <namedview bordercolor="#666666" borderopacity="1.0" id="namedview-conformist" pagecolor="#ffffff" pageopacity="0.0" pageshadow="0" showgrid="true">
+  <grid class="ColorScheme-Background" empspacing="4" fill="currentColor" opacity="0.6" type="xygrid"/>
+ </namedview>
+ <defs id="primary-definitions">
+  <style class="ColorScheme-Background" fill="currentColor" opacity="0.6" type="text/css">
+   .ColorScheme-Text           { color:#eff0f1; }
+      .ColorScheme-Background     { color:#31363b; }
+      .ColorScheme-Highlight      { color:#3daefd; }
+      .ColorScheme-ViewBackground { color:#fcfcfc; }
+      .ColorScheme-PositiveText   { color:#27ae60; }
+      .ColorScheme-NeutralText    { color:#f67400; }
+      .ColorScheme-NegativeText   { color:#da4453; }
+  </style>
+ </defs>
+ <path class="ColorScheme-Background" d="M 2.5 3 C 2.223 3 2 3.223 2 3.5 C 2 3.777 2.223 4 2.5 4 L 27.5 4 C 27.777 4 28 3.777 28 3.5 C 28 3.223 27.777 3 27.5 3 L 2.5 3 z M 2.4433594 8 C 2.1973716 8 2 8.1973716 2 8.4433594 L 2 8.5566406 C 2 8.8026284 2.1973716 9 2.4433594 9 L 24.556641 9 C 24.802628 9 25 8.8026284 25 8.5566406 L 25 8.4433594 C 25 8.1973716 24.802628 8 24.556641 8 L 2.4433594 8 z M 2.5 13 C 2.223 13 2 13.223 2 13.5 C 2 13.777 2.223 14 2.5 14 L 29.5 14 C 29.777 14 30 13.777 30 13.5 C 30 13.223 29.777 13 29.5 13 L 2.5 13 z M 2.5 18 C 2.223 18 2 18.223 2 18.5 C 2 18.777 2.223 19 2.5 19 L 19.5 19 C 19.777 19 20 18.777 20 18.5 C 20 18.223 19.777 18 19.5 18 L 2.5 18 z M 2.5 23 C 2.223 23 2 23.223 2 23.5 C 2 23.777 2.223 24 2.5 24 L 25.5 24 C 25.777 24 26 23.777 26 23.5 C 26 23.223 25.777 23 25.5 23 L 2.5 23 z M 2.5 28 C 2.223 28 2 28.223 2 28.5 C 2 28.777 2.223 29 2.5 29 L 29.5 29 C 29.777 29 30 28.777 30 28.5 C 30 28.223 29.777 28 29.5 28 L 2.5 28 z " fill="currentColor" opacity="0.6"/>
+ <path class="ColorScheme-Background" d="M 2.5,3 C 2.223,3 2,3.223 2,3.5 2,3.777 2.223,4 2.5,4 h 25 C 27.777,4 28,3.777 28,3.5 28,3.223 27.777,3 27.5,3 Z M 2.4433594,8 C 2.1973716,8 2,8.1973716 2,8.4433594 V 8.5566406 C 2,8.8026284 2.1973716,9 2.4433594,9 H 24.556641 C 24.802628,9 25,8.8026284 25,8.5566406 V 8.4433594 C 25,8.1973716 24.802628,8 24.556641,8 Z M 2.5,13 C 2.223,13 2,13.223 2,13.5 2,13.777 2.223,14 2.5,14 h 27 C 29.777,14 30,13.777 30,13.5 30,13.223 29.777,13 29.5,13 Z m 0,5 C 2.223,18 2,18.223 2,18.5 2,18.777 2.223,19 2.5,19 h 17 C 19.777,19 20,18.777 20,18.5 20,18.223 19.777,18 19.5,18 Z m 0,5 C 2.223,23 2,23.223 2,23.5 2,23.777 2.223,24 2.5,24 h 23 C 25.777,24 26,23.777 26,23.5 26,23.223 25.777,23 25.5,23 Z m 0,5 C 2.223,28 2,28.223 2,28.5 2,28.777 2.223,29 2.5,29 h 27 C 29.777,29 30,28.777 30,28.5 30,28.223 29.777,28 29.5,28 Z" fill="currentColor" opacity="0.6"/>
+</svg>

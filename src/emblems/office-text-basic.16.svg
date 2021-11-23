@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="16" version="1.1" viewBox="0 0 4 4" width="16" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <namedview bordercolor="#666666" borderopacity="1.0" id="namedview-conformist" pagecolor="#ffffff" pageopacity="0.0" pageshadow="0" showgrid="true">
+  <grid class="ColorScheme-Background" empspacing="4" fill="currentColor" opacity="0.6" type="xygrid"/>
+ </namedview>
+ <defs id="primary-definitions">
+  <style class="ColorScheme-Background" fill="currentColor" opacity="0.6" type="text/css">
+   .ColorScheme-Text           { color:#eff0f1; }
+      .ColorScheme-Background     { color:#31363b; }
+      .ColorScheme-Highlight      { color:#3daefd; }
+      .ColorScheme-ViewBackground { color:#fcfcfc; }
+      .ColorScheme-PositiveText   { color:#27ae60; }
+      .ColorScheme-NeutralText    { color:#f67400; }
+      .ColorScheme-NegativeText   { color:#da4453; }
+  </style>
+ </defs>
+ <path class="ColorScheme-Background" d="M 1.5 2 C 1.223 2 1 2.223 1 2.5 C 1 2.777 1.223 3 1.5 3 L 13.5 3 C 13.777 3 14 2.777 14 2.5 C 14 2.223 13.777 2 13.5 2 L 1.5 2 z M 1.5 4 C 1.223 4 1 4.223 1 4.5 C 1 4.777 1.223 5 1.5 5 L 11.5 5 C 11.777 5 12 4.777 12 4.5 C 12 4.223 11.777 4 11.5 4 L 1.5 4 z M 1.5 6 C 1.223 6 1 6.223 1 6.5 C 1 6.777 1.223 7 1.5 7 L 14.5 7 C 14.777 7 15 6.777 15 6.5 C 15 6.223 14.777 6 14.5 6 L 1.5 6 z M 1.4746094 8 C 1.209695 8.0133421 1 8.2316563 1 8.5 C 1 8.777 1.223 9 1.5 9 L 8.5 9 C 8.777 9 9 8.777 9 8.5 C 9 8.223 8.777 8 8.5 8 L 1.5 8 C 1.4913437 8 1.483155 7.9995696 1.4746094 8 z M 1.5 10 C 1.223 10 1 10.223 1 10.5 C 1 10.777 1.223 11 1.5 11 L 11.5 11 C 11.777 11 12 10.777 12 10.5 C 12 10.223 11.777 10 11.5 10 L 1.5 10 z M 1.5 12 C 1.223 12 1 12.223 1 12.5 C 1 12.777 1.223 13 1.5 13 L 13.5 13 C 13.777 13 14 12.777 14 12.5 C 14 12.223 13.777 12 13.5 12 L 1.5 12 z " fill="currentColor" opacity="0.6" transform="scale(0.25)"/>
+ <path class="ColorScheme-Background" d="M 0.375,0.5 C 0.30575,0.5 0.25,0.55575 0.25,0.625 0.25,0.69425 0.30575,0.75 0.375,0.75 h 3 C 3.44425,0.75 3.5,0.69425 3.5,0.625 3.5,0.55575 3.44425,0.5 3.375,0.5 Z m 0,0.5 C 0.30575,1 0.25,1.05575 0.25,1.125 0.25,1.19425 0.30575,1.25 0.375,1.25 h 2.5 C 2.94425,1.25 3,1.19425 3,1.125 3,1.05575 2.94425,1 2.875,1 Z m 0,0.5 C 0.30575,1.5 0.25,1.55575 0.25,1.625 0.25,1.69425 0.30575,1.75 0.375,1.75 h 3.25 C 3.69425,1.75 3.75,1.69425 3.75,1.625 3.75,1.55575 3.69425,1.5 3.625,1.5 Z M 0.36865235,2 C 0.30242375,2.0033355 0.25,2.0579141 0.25,2.125 0.25,2.19425 0.30575,2.25 0.375,2.25 h 1.75 C 2.19425,2.25 2.25,2.19425 2.25,2.125 2.25,2.05575 2.19425,2 2.125,2 H 0.375 C 0.372836,2 0.370789,1.9998924 0.36865235,2 Z M 0.375,2.5 C 0.30575,2.5 0.25,2.55575 0.25,2.625 0.25,2.69425 0.30575,2.75 0.375,2.75 h 2.5 C 2.94425,2.75 3,2.69425 3,2.625 3,2.55575 2.94425,2.5 2.875,2.5 Z m 0,0.5 C 0.30575,3 0.25,3.05575 0.25,3.125 0.25,3.19425 0.30575,3.25 0.375,3.25 h 3 C 3.44425,3.25 3.5,3.19425 3.5,3.125 3.5,3.05575 3.44425,3 3.375,3 Z" fill="currentColor" opacity="0.6"/>
+</svg>

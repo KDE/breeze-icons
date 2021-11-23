@@ -1,0 +1,136 @@
+<svg width="32" height="32" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+        .ColorScheme-Text           { color:#fff; }
+        .ColorScheme-Background     { color:#111; }
+        .ColorScheme-Highlight      { color:#3daefd; }
+        .ColorScheme-ViewBackground { color:#000; }
+        .ColorScheme-PositiveText   { color:#27ae60; }
+        .ColorScheme-NeutralText    { color:#f67400; }
+        .ColorScheme-NegativeText   { color:#da4453; }
+    </style>
+    <style type="text/css" id="extended-color-scheme">
+        .ExScheme-Black     { color:#172525; }
+        .ExScheme-White     { color:#fcfcfc; }
+        .ExScheme-Grey-1    { color:#cfd5d5; }
+        .ExScheme-Grey-2    { color:#909c9c; }
+        .ExScheme-Grey-3    { color:#536161; }
+        .ExScheme-Red-1     { color:#ffafa5; }
+        .ExScheme-Red-2     { color:#bf4231; }
+        .ExScheme-Red-3     { color:#4d2f2b; }
+        .ExScheme-Green-1   { color:#abf9c7; }
+        .ExScheme-Green-2   { color:#3bb566; }
+        .ExScheme-Green-3   { color:#377d50; }
+        .ExScheme-Blue-1    { color:#abdaf9; }
+        .ExScheme-Blue-2    { color:#3daefd; }
+        .ExScheme-Blue-3    { color:#2b3c4d; }
+        .ExScheme-Yellow-1  { color:#faffa5; }
+        .ExScheme-Yellow-2  { color:#cac726; }
+        .ExScheme-Yellow-3  { color:#4b4d2b; }
+        .ExScheme-Orange-1  { color:#ffdaa5; }
+        .ExScheme-Orange-2  { color:#ff9701; }
+        .ExScheme-Orange-3  { color:#4d372b; }
+        .ExScheme-Brown-1   { color:#e9d6bb; }
+        .ExScheme-Brown-2   { color:#997657; }
+        .ExScheme-Brown-3   { color:#433a35; }
+        .ExScheme-Purple-1  { color:#e2abf9; }
+        .ExScheme-Purple-2  { color:#b401ff; }
+        .ExScheme-Purple-3  { color:#432b4d; }
+        .ExScheme-Cyan-1    { color:#b2f2e6; }
+        .ExScheme-Cyan-2    { color:#31bfa6; }
+        .ExScheme-Cyan-3    { color:#2b4d47; }
+        .ExScheme-Magenta-1 { color:#f8a6d8; }
+        .ExScheme-Magenta-2 { color:#f00091; }
+        .ExScheme-Magenta-3 { color:#770048; }
+    </style>
+    <linearGradient id="gradientDark">
+      <stop stop-opacity="1" offset="0" stop-color="#000" />
+      <stop stop-opacity="0" offset="1" stop-color="#000" />
+    </linearGradient>
+    <linearGradient id="gradientLight">
+      <stop stop-opacity="1" offset="0" stop-color="#fff" />
+      <stop stop-opacity="0" offset="1" stop-color="#fff" />
+    </linearGradient>
+    <style type="text/css" class="toggle-enable-crease">
+        .folder-crease { display: none; }
+    </style>
+    <style type="text/css" class="toggle-manilla-folders">
+        .folder-manilla { display: none; }
+    </style>
+    <radialGradient
+       xlink:href="#gradientLight"
+       id="gl1"
+       cx="0.5"
+       cy="0"
+       r="1" />
+    <linearGradient
+       xlink:href="#gradientDark"
+       id="gd1"
+       x1="0"
+       y1="1"
+       x2="0"
+       y2="0.5" />
+  </defs>
+  <path
+     class="folder-manilla-placeholder ExScheme-Brown-1"
+     fill="currentColor"
+     d="M 5,4 C 3.892,4 3,4.892 3,6 V 9.26758 C 2.40174,9.61251 2,10.25709 2,11 v 15 c 0,1.108 0.892,2 2,2 h 24 c 1.108,0 2,-0.892 2,-2 V 11 10 C 30,9.25709 29.59825,8.61251 29,8.26758 V 7 C 29,5.892 28.108,5 27,5 H 14 C 12,5 12,4 10,4 Z" />
+  <path
+     id="primary-color"
+     class="toggle-manilla-folders ColorScheme-Highlight"
+     fill="currentColor"
+     d="M 5,4 C 3.892,4 3,4.892 3,6 V 9.26758 C 2.40174,9.61251 2,10.25709 2,11 v 15 c 0,1.108 0.892,2 2,2 h 24 c 1.108,0 2,-0.892 2,-2 V 11 10 C 30,9.25709 29.59825,8.61251 29,8.26758 V 7 C 29,5.892 28.108,5 27,5 H 14 C 12,5 12,4 10,4 Z" />
+  <path
+     class="ColorScheme-Text"
+     fill="currentColor"
+     opacity="0.1"
+     d="M 5,4 C 3.892,4 3,4.892 3,6 V 9.26758 C 2.40174,9.61251 2,10.25709 2,11 v 15 c 0,1.108 0.892,2 2,2 h 24 c 1.108,0 2,-0.892 2,-2 V 11 10 C 30,9.25709 29.59825,8.61251 29,8.26758 V 7 C 29,5.892 28.108,5 27,5 H 14 C 12,5 12,4 10,4 Z" />
+  <path
+     fill="#000"
+     opacity="0.4"
+     d="M 5,4 C 3.892,4 3,4.892 3,6 V 9.26758 C 3.294,9.098065 3.6349,9 4,9 h 6 c 2,0 2,-1 4,-1 h 14 c 0.36509,0 0.706,0.09806 1,0.26758 V 7 C 29,5.892 28.108,5 27,5 H 14 C 12,5 12,4 10,4 Z" />
+  <path
+     class="toggle-flat-design"
+     fill="url(#gd1)"
+     opacity="0.1"
+     d="M 5,4 C 3.892,4 3,4.892 3,6 V 9.26758 C 3.294,9.098065 3.6349,9 4,9 h 6 c 2,0 2,-1 4,-1 h 14 c 0.36509,0 0.706,0.09806 1,0.26758 V 7 C 29,5.892 28.108,5 27,5 H 14 C 12,5 12,4 10,4 Z" />
+  <path
+     class="toggle-flat-design"
+     fill="url(#gl1)"
+     opacity="0.2"
+     d="M 14,8 C 12,8 12,9 10,9 H 4 C 2.892,9 2,9.892 2,11 v 15 c 0,1.108 0.892,2 2,2 h 24 c 1.108,0 2,-0.892 2,-2 V 11 10 C 30,8.892 29.108,8 28,8 Z" />
+  <rect
+     class="folder-crease-placeholder"
+     fill="#000"
+     opacity="0.4"
+     x="2"
+     y="22"
+     width="28"
+     height="1" />
+  <path
+     class="ColorScheme-Text"
+     fill="currentColor"
+     opacity="0.1"
+     d="m 2,25 v 1 c 0,1.108 0.892,2 2,2 h 24 c 1.108,0 2,-0.892 2,-2 v -1 c 0,1.108 -0.892,2 -2,2 H 4 C 2.892,27 2,26.108 2,25 Z" />
+  <path
+     class="ColorScheme-Text"
+     fill="currentColor"
+     opacity="0.2"
+     d="M 2,25.5 V 26 c 0,1.108 0.892,2 2,2 h 24 c 1.108,0 2,-0.892 2,-2 v -0.5 c 0,1.108 -0.892,2 -2,2 H 4 c -1.108,0 -2,-0.892 -2,-2 z" />
+  <path
+     fill="#fff"
+     opacity="0.2"
+     d="M 14,8 C 12,8 12,9 10,9 H 4 C 2.892,9 2,9.892 2,11 v 0.5 c 0,-1.108 0.892,-2 2,-2 h 6 c 2,0 2,-1 4,-1 h 14 c 1.108,0 2,0.892 2,2 V 10 C 30,8.892 29.108,8 28,8 Z" />
+  <path
+     fill="#fff"
+     opacity="0.1"
+     d="M 14,8 C 12,8 12,9 10,9 H 4 C 2.892,9 2,9.892 2,11 v 1 c 0,-1.108 0.892,-2 2,-2 h 6 c 2,0 2,-1 4,-1 h 14 c 1.108,0 2,0.892 2,2 V 10 C 30,8.892 29.108,8 28,8 Z" />
+  <path
+     fill="#000"
+     opacity="0.2"
+     d="m 14,7.5 c -2,0 -2,1 -4,1 H 4 C 3.63478,8.5 3.29408,8.59795 3,8.767578 v 0.5 C 3.29408,9.097953 3.63478,9 4,9 h 6 c 2,0 2,-1 4,-1 h 14 c 0.36522,0 0.70592,0.09795 1,0.267578 v -0.5 C 28.70592,7.597953 28.36522,7.5 28,7.5 Z" />
+  <path
+     fill="#000"
+     opacity="0.1"
+     d="M 14,7 C 12,7 12,8 10,8 H 4 C 3.63478,8 3.29408,8.09795 3,8.267578 v 1 C 3.29408,9.097953 3.63478,9 4,9 h 6 c 2,0 2,-1 4,-1 h 14 c 0.36522,0 0.70592,0.09795 1,0.267578 v -1 C 28.70592,7.097953 28.36522,7 28,7 Z" />
+</svg>

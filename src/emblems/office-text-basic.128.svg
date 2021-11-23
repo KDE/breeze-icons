@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="128" version="1.1" viewBox="0 0 128 128" width="128" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <namedview bordercolor="#666666" borderopacity="1.0" id="namedview-conformist" pagecolor="#ffffff" pageopacity="0.0" pageshadow="0" showgrid="true">
+  <grid class="ColorScheme-Background" empspacing="4" fill="currentColor" opacity="0.6" type="xygrid"/>
+ </namedview>
+ <defs id="primary-definitions">
+  <style class="ColorScheme-Background" fill="currentColor" opacity="0.6" type="text/css">
+   .ColorScheme-Text           { color:#eff0f1; }
+      .ColorScheme-Background     { color:#31363b; }
+      .ColorScheme-Highlight      { color:#3daefd; }
+      .ColorScheme-ViewBackground { color:#fcfcfc; }
+      .ColorScheme-PositiveText   { color:#27ae60; }
+      .ColorScheme-NeutralText    { color:#f67400; }
+      .ColorScheme-NegativeText   { color:#da4453; }
+  </style>
+ </defs>
+ <path class="ColorScheme-Background" d="M 8.5 21 C 8.223 21 8 21.223 8 21.5 C 8 21.777 8.223 22 8.5 22 L 111.5 22 C 111.777 22 112 21.777 112 21.5 C 112 21.223 111.777 21 111.5 21 L 8.5 21 z M 8.5 38 C 8.223 38 8 38.223 8 38.5 C 8 38.777 8.223 39 8.5 39 L 99.5 39 C 99.777 39 100 38.777 100 38.5 C 100 38.223 99.777 38 99.5 38 L 8.5 38 z M 8.5 55 C 8.223 55 8 55.223 8 55.5 C 8 55.777 8.223 56 8.5 56 L 119.5 56 C 119.777 56 120 55.777 120 55.5 C 120 55.223 119.777 55 119.5 55 L 8.5 55 z M 8.5 72 C 8.223 72 8 72.223 8 72.5 C 8 72.777 8.223 73 8.5 73 L 79.5 73 C 79.777 73 80 72.777 80 72.5 C 80 72.223 79.777 72 79.5 72 L 8.5 72 z M 8.5 89 C 8.223 89 8 89.223 8 89.5 C 8 89.777 8.223 90 8.5 90 L 103.5 90 C 103.777 90 104 89.777 104 89.5 C 104 89.223 103.777 89 103.5 89 L 8.5 89 z M 8.5 106 C 8.223 106 8 106.223 8 106.5 C 8 106.777 8.223 107 8.5 107 L 119.5 107 C 119.777 107 120 106.777 120 106.5 C 120 106.223 119.777 106 119.5 106 L 8.5 106 z " fill="currentColor" opacity="0.6"/>
+ <path class="ColorScheme-Background" d="M 8.5,21 C 8.223,21 8,21.223 8,21.5 8,21.777 8.223,22 8.5,22 h 103 c 0.277,0 0.5,-0.223 0.5,-0.5 0,-0.277 -0.223,-0.5 -0.5,-0.5 z m 0,17 C 8.223,38 8,38.223 8,38.5 8,38.777 8.223,39 8.5,39 h 91 c 0.277,0 0.5,-0.223 0.5,-0.5 0,-0.277 -0.223,-0.5 -0.5,-0.5 z m 0,17 C 8.223,55 8,55.223 8,55.5 8,55.777 8.223,56 8.5,56 h 111 c 0.277,0 0.5,-0.223 0.5,-0.5 0,-0.277 -0.223,-0.5 -0.5,-0.5 z m 0,17 C 8.223,72 8,72.223 8,72.5 8,72.777 8.223,73 8.5,73 h 71 C 79.777,73 80,72.777 80,72.5 80,72.223 79.777,72 79.5,72 Z m 0,17 C 8.223,89 8,89.223 8,89.5 8,89.777 8.223,90 8.5,90 h 95 c 0.277,0 0.5,-0.223 0.5,-0.5 0,-0.277 -0.223,-0.5 -0.5,-0.5 z m 0,17 c -0.277,0 -0.5,0.223 -0.5,0.5 0,0.277 0.223,0.5 0.5,0.5 h 111 c 0.277,0 0.5,-0.223 0.5,-0.5 0,-0.277 -0.223,-0.5 -0.5,-0.5 z" fill="currentColor" opacity="0.6"/>
+</svg>

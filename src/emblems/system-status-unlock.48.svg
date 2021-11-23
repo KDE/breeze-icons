@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="48" version="1.1" viewBox="0 0 48 48" width="48" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <namedview bordercolor="#666666" borderopacity="1.0" id="namedview-conformist" pagecolor="#ffffff" pageopacity="0.0" pageshadow="0" showgrid="true">
+  <grid class="ColorScheme-Background" empspacing="4" fill="currentColor" opacity="0.6" type="xygrid"/>
+ </namedview>
+ <defs id="primary-definitions">
+  <style class="ColorScheme-Background" fill="currentColor" opacity="0.6" type="text/css">
+   .ColorScheme-Text           { color:#eff0f1; }
+      .ColorScheme-Background     { color:#31363b; }
+      .ColorScheme-Highlight      { color:#3daefd; }
+      .ColorScheme-ViewBackground { color:#fcfcfc; }
+      .ColorScheme-PositiveText   { color:#27ae60; }
+      .ColorScheme-NeutralText    { color:#f67400; }
+      .ColorScheme-NegativeText   { color:#da4453; }
+  </style>
+ </defs>
+ <path class="ColorScheme-Background" d="M 24 3 C 17.372583 3 12 8.372583 12 15 L 12 16.5 A 1.5 1.5 0 0 0 13.5 18 A 1.5 1.5 0 0 0 15 16.5 L 15 15 C 15 10.029437 19.029437 6 24 6 C 28.970563 6 33 10.029437 33 15 L 33 24 L 11 24 C 9.892 24 9 24.892 9 26 L 9 43 C 9 44.108 9.892 45 11 45 L 37 45 C 38.108 45 39 44.108 39 43 L 39 26 C 39 24.892 38.108 24 37 24 L 36 24 L 36 15 C 36 8.372583 30.627417 3 24 3 z M 24 4 A 11 11 0 0 1 35 15 L 35 24 L 34 24 L 34 15 A 10 10 0 0 0 24 5 A 10 10 0 0 0 14 15 L 14 15.474609 C 14.00043 15.483155 14 15.491344 14 15.5 L 14 16.5 C 14 16.777 13.777 17 13.5 17 C 13.223 17 13 16.777 13 16.5 L 13 16 L 13 15.5 C 13 15.491344 12.99957 15.483155 13 15.474609 L 13 15 A 11 11 0 0 1 24 4 z M 11 25 L 37 25 C 37.554 25 38 25.446 38 26 L 38 43 C 38 43.554 37.554 44 37 44 L 11 44 C 10.446 44 10 43.554 10 43 L 10 26 C 10 25.446 10.446 25 11 25 z " fill="currentColor" opacity="0.6" paint-order="fill markers stroke" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+ <path class="ColorScheme-Background" d="M 24,3 C 17.372583,3 12,8.372583 12,15 v 1.5 A 1.5,1.5 0 0 0 13.5,18 1.5,1.5 0 0 0 15,16.5 V 15 c 0,-4.970563 4.029437,-9 9,-9 4.970563,0 9,4.029437 9,9 v 9 H 11 c -1.108,0 -2,0.892 -2,2 v 17 c 0,1.108 0.892,2 2,2 h 26 c 1.108,0 2,-0.892 2,-2 V 26 c 0,-1.108 -0.892,-2 -2,-2 H 36 V 15 C 36,8.372583 30.627417,3 24,3 Z m 0,1 a 11,11 0 0 1 11,11 v 9 H 34 V 15 A 10,10 0 0 0 24,5 10,10 0 0 0 14,15 v 0.474609 c 4.3e-4,0.0085 0,0.01674 0,0.02539 v 1 C 14,16.777 13.777,17 13.5,17 13.223,17 13,16.777 13,16.5 V 16 15.5 c 0,-0.0087 -4.3e-4,-0.01685 0,-0.02539 V 15 A 11,11 0 0 1 24,4 Z M 11,25 h 26 c 0.554,0 1,0.446 1,1 v 17 c 0,0.554 -0.446,1 -1,1 H 11 c -0.554,0 -1,-0.446 -1,-1 V 26 c 0,-0.554 0.446,-1 1,-1 z" fill="currentColor" opacity="0.6" paint-order="fill markers stroke" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

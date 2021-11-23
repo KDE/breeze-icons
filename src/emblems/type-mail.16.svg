@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="16" version="1.1" viewBox="0 0 16 16" width="16" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <namedview bordercolor="#666666" borderopacity="1.0" id="namedview-conformist" pagecolor="#ffffff" pageopacity="0.0" pageshadow="0" showgrid="true">
+  <grid class="ColorScheme-Background" empspacing="4" fill="currentColor" opacity="0.6" type="xygrid"/>
+ </namedview>
+ <defs id="primary-definitions">
+  <style class="ColorScheme-Background" fill="currentColor" opacity="0.6" type="text/css">
+   .ColorScheme-Text           { color:#eff0f1; }
+      .ColorScheme-Background     { color:#31363b; }
+      .ColorScheme-Highlight      { color:#3daefd; }
+      .ColorScheme-ViewBackground { color:#fcfcfc; }
+      .ColorScheme-PositiveText   { color:#27ae60; }
+      .ColorScheme-NeutralText    { color:#f67400; }
+      .ColorScheme-NegativeText   { color:#da4453; }
+  </style>
+ </defs>
+ <path class="ColorScheme-Background" d="M 3,3 C 2.0743644,3 1.3003128,3.6236724 1.0703124,4.4746092 L 8,7.9375 14.929688,4.4746092 C 14.699687,3.6236724 13.925635,3 13,3 Z M 1,5.5585936 V 10.792969 L 5.0703124,7.59375 Z m 14,0 -4.056641,2.027344 L 15,10.628906 Z M 9.9492188,8.0839844 8.2265624,8.9453124 a 0.50005,0.50005 0 0 1 -0.4531248,0 L 6.0605468,8.0878908 1.2109376,11.898438 C 1.538822,12.553144 2.2152716,13 3,13 h 10 c 0.838549,0 1.553479,-0.511449 1.851562,-1.240234 z" fill="currentColor" opacity="0.6" paint-order="stroke markers fill" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+ <path class="ColorScheme-Background" d="M 3,3 C 2.0743644,3 1.3003128,3.6236724 1.0703124,4.4746092 L 8,7.9375 14.929688,4.4746092 C 14.699687,3.6236724 13.925635,3 13,3 Z m 0,0.5 h 10 c 0.531061,0 0.827982,0.4286816 1.09375,0.8359376 L 8,7.375 1.90625,4.3359376 C 2.172018,3.9286816 2.4689384,3.5 3,3.5 Z M 1,5.5585936 V 10.792969 L 5.0703124,7.59375 Z m 14,0 -4.056641,2.027344 L 15,10.628906 Z M 1.5,6.3671876 4.1406248,7.6875 1.5,9.7578124 Z m 13,0 V 9.6328124 L 11.890625,7.6718748 Z M 9.9492188,8.0839844 8.2265624,8.9453124 a 0.50005,0.50005 0 0 1 -0.4531248,0 L 6.0605468,8.0878908 1.2109376,11.898438 C 1.538822,12.553143 2.2152716,13 3,13 h 10 c 0.838549,0 1.553479,-0.51145 1.851562,-1.240234 z M 9.8984376,8.6718752 14.0625,11.789062 C 13.789859,12.138296 13.485483,12.5 13,12.5 H 3 c -0.4322968,0 -0.705288,-0.31672 -0.9765624,-0.601562 l 4.09375,-3.2187504 1.4296876,0.7109376 c 0.284316,0.1445 0.6219336,0.1445 0.90625,0 z" fill="currentColor" opacity="0.6" paint-order="stroke markers fill" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

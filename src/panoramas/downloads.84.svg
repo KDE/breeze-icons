@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="60" version="1.1" viewBox="0 0 84 60" width="84" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <namedview bordercolor="#666666" borderopacity="1.0" id="namedview-conformist" pagecolor="#ffffff" pageopacity="0.0" pageshadow="0" showgrid="true">
+  <grid class="ColorScheme-Background" empspacing="4" fill="currentColor" opacity="0.6" type="xygrid"/>
+ </namedview>
+ <defs id="primary-definitions">
+  <style class="ColorScheme-Background" fill="currentColor" opacity="0.6" type="text/css">
+   .ColorScheme-Text           { color:#eff0f1; }
+      .ColorScheme-Background     { color:#31363b; }
+      .ColorScheme-Highlight      { color:#3daefd; }
+      .ColorScheme-ViewBackground { color:#fcfcfc; }
+      .ColorScheme-PositiveText   { color:#27ae60; }
+      .ColorScheme-NeutralText    { color:#f67400; }
+      .ColorScheme-NegativeText   { color:#da4453; }
+  </style>
+ </defs>
+ <path class="ColorScheme-Background" d="M 32.028146,0 V 32 H 27 c 0,0 -2.971854,0 -0.971854,2 l 16,16 16,-16 C 60,32.028146 57,32 57,32 H 52.028146 V 0 Z" fill="currentColor" opacity="0.6" paint-order="stroke fill markers" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+ <path class="ColorScheme-Background" d="M 25.5 50.5 A 1.5 1.5 0 0 0 24 52 L 24 56 L 60 56 L 60 52 A 1.5 1.5 0 0 0 58.5 50.5 A 1.5 1.5 0 0 0 57 52 L 57 53 L 27 53 L 27 52 A 1.5 1.5 0 0 0 25.5 50.5 z M 25.5 51.5 A 0.5 0.5 0 0 1 26 52 L 26 54 L 58 54 L 58 52 A 0.5 0.5 0 0 1 58.5 51.5 A 0.5 0.5 0 0 1 59 52 L 59 55 L 25 55 L 25 52 A 0.5 0.5 0 0 1 25.5 51.5 z " fill="currentColor" opacity="0.6"/>
+ <path class="ColorScheme-Background" d="M 32.027344 0 L 32.027344 32 L 27 32 C 27 32 24.027344 32 26.027344 34 L 42.027344 50 L 58.027344 34 C 59.999198 32.028146 57 32 57 32 L 52.027344 32 L 52.027344 0 L 32.027344 0 z M 32.527344 0.5 L 51.527344 0.5 L 51.527344 32 A 0.50005 0.50005 0 0 0 52.027344 32.5 L 57 32.5 C 57.0051 32.500303 57.701781 32.54213 58.029297 32.707031 C 58.193652 32.789781 58.198416 32.806521 58.199219 32.863281 C 58.200021 32.920041 58.121549 33.198767 57.673828 33.646484 L 42.027344 49.292969 L 26.380859 33.646484 C 25.924639 33.190264 25.836512 32.900985 25.835938 32.839844 C 25.835365 32.778704 25.834137 32.774484 25.990234 32.695312 C 26.302457 32.536974 27 32.5 27 32.5 L 32.027344 32.5 A 0.50005 0.50005 0 0 0 32.527344 32 L 32.527344 0.5 z " fill="currentColor" opacity="0.6" paint-order="stroke fill markers" stroke-linecap="round" stroke-linejoin="round"/>
+ <path class="ColorScheme-Background" d="M 25.5,50.5 A 1.5,1.5 0 0 0 24,52 v 4 H 60 V 52 A 1.5,1.5 0 0 0 58.5,50.5 1.5,1.5 0 0 0 57,52 v 1 H 27 v -1 a 1.5,1.5 0 0 0 -1.5,-1.5 z m 0,1 A 0.5,0.5 0 0 1 26,52 v 2 H 58 V 52 A 0.5,0.5 0 0 1 58.5,51.5 0.5,0.5 0 0 1 59,52 v 3 H 25 v -3 a 0.5,0.5 0 0 1 0.5,-0.5 z" fill="currentColor" opacity="0.6"/>
+</svg>

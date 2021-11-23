@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="24" version="1.1" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <namedview bordercolor="#666666" borderopacity="1.0" id="namedview-conformist" pagecolor="#ffffff" pageopacity="0.0" pageshadow="0" showgrid="true">
+  <grid class="ColorScheme-Background" empspacing="4" fill="currentColor" opacity="0.6" type="xygrid"/>
+ </namedview>
+ <defs id="primary-definitions">
+  <style class="ColorScheme-Background" fill="currentColor" opacity="0.6" type="text/css">
+   .ColorScheme-Text           { color:#eff0f1; }
+      .ColorScheme-Background     { color:#31363b; }
+      .ColorScheme-Highlight      { color:#3daefd; }
+      .ColorScheme-ViewBackground { color:#fcfcfc; }
+      .ColorScheme-PositiveText   { color:#27ae60; }
+      .ColorScheme-NeutralText    { color:#f67400; }
+      .ColorScheme-NegativeText   { color:#da4453; }
+  </style>
+ </defs>
+ <path class="ColorScheme-Background" d="M 4 3 C 3.446 3 3 3.446 3 4 L 3 11 L 11 11 L 11 3 L 4 3 z M 13 3 L 13 11 L 21 11 L 21 4 C 21 3.446 20.554 3 20 3 L 13 3 z M 3 13 L 3 20 C 3 20.554 3.446 21 4 21 L 11 21 L 11 13 L 3 13 z M 13 13 L 13 21 L 20 21 C 20.554 21 21 20.554 21 20 L 21 13 L 13 13 z " fill="currentColor" opacity="0.6" paint-order="stroke fill markers" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+ <path class="ColorScheme-Background" d="M 4 3 C 3.446 3 3 3.446 3 4 L 3 11 L 11 11 L 11 3 L 4 3 z M 13 3 L 13 11 L 21 11 L 21 4 C 21 3.446 20.554 3 20 3 L 13 3 z M 4 3.5 L 10.5 3.5 L 10.5 10.5 L 3.5 10.5 L 3.5 4 C 3.5 3.7143517 3.7143517 3.5 4 3.5 z M 13.5 3.5 L 20 3.5 C 20.285648 3.5 20.5 3.7143517 20.5 4 L 20.5 10.5 L 13.5 10.5 L 13.5 3.5 z M 3 13 L 3 20 C 3 20.554 3.446 21 4 21 L 11 21 L 11 13 L 3 13 z M 13 13 L 13 21 L 20 21 C 20.554 21 21 20.554 21 20 L 21 13 L 13 13 z M 3.5 13.5 L 10.5 13.5 L 10.5 20.5 L 4 20.5 C 3.7143517 20.5 3.5 20.285648 3.5 20 L 3.5 13.5 z M 13.5 13.5 L 20.5 13.5 L 20.5 20 C 20.5 20.285648 20.285648 20.5 20 20.5 L 13.5 20.5 L 13.5 13.5 z " fill="currentColor" opacity="0.6" paint-order="stroke fill markers" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

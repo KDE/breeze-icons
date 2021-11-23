@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="32" version="1.1" viewBox="0 0 32 32" width="32" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <namedview bordercolor="#666666" borderopacity="1.0" id="namedview-conformist" pagecolor="#ffffff" pageopacity="0.0" pageshadow="0" showgrid="true">
+  <grid class="ColorScheme-Background" empspacing="4" fill="currentColor" opacity="0.6" type="xygrid"/>
+ </namedview>
+ <defs id="primary-definitions">
+  <style class="ColorScheme-Background" fill="currentColor" opacity="0.6" type="text/css">
+   .ColorScheme-Text           { color:#eff0f1; }
+      .ColorScheme-Background     { color:#31363b; }
+      .ColorScheme-Highlight      { color:#3daefd; }
+      .ColorScheme-ViewBackground { color:#fcfcfc; }
+      .ColorScheme-PositiveText   { color:#27ae60; }
+      .ColorScheme-NeutralText    { color:#f67400; }
+      .ColorScheme-NegativeText   { color:#da4453; }
+  </style>
+ </defs>
+ <path class="ColorScheme-Background" d="M 16,4 C 11.581722,4 8,7.581722 8,12 v 2 c -1.108,0 -2,0.892 -2,2 v 10 c 0,1.108 0.892,2 2,2 h 16 c 1.108,0 2,-0.892 2,-2 V 16 c 0,-1.108 -0.892,-2 -2,-2 V 12 C 24,7.581722 20.418278,4 16,4 Z m 0,1 c 3.865993,0 7,3.1340068 7,7 v 2 h -1 v -2 a 6,6 0 0 0 -6,-6 6,6 0 0 0 -6,6 v 2 H 9 V 12 C 9,8.1340068 12.134007,5 16,5 Z m 0,2 a 5,5 0 0 1 5,5 v 2 H 11 v -2 a 5,5 0 0 1 5,-5 z" fill="currentColor" opacity="0.6" paint-order="fill markers stroke" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+ <path class="ColorScheme-Background" d="M 16,4 C 11.581722,4 8,7.581722 8,12 v 2 c -1.108,0 -2,0.892 -2,2 v 10 c 0,1.108 0.892,2 2,2 h 16 c 1.108,0 2,-0.892 2,-2 V 16 c 0,-1.108 -0.892,-2 -2,-2 V 12 C 24,7.581722 20.418278,4 16,4 Z m 0,1 c 3.865993,0 7,3.1340068 7,7 v 2 H 22 V 12 C 22,8.6862915 19.313708,6 16,6 12.686292,6 10,8.6862915 10,12 v 2 H 9 V 12 C 9,8.1340068 12.134007,5 16,5 Z m 0,2 c 2.761424,0 5,2.2385763 5,5 v 2 H 11 v -2 c 0,-2.7614237 2.238576,-5 5,-5 z m 8,7.5 c 0.839648,0 1.5,0.660352 1.5,1.5 v 10 c 0,0.839648 -0.660352,1.5 -1.5,1.5 H 8 C 7.1603522,27.5 6.5,26.839648 6.5,26 V 16 c 0,-0.839648 0.6603522,-1.5 1.5,-1.5 0.2761309,-2.8e-5 15.723869,-2.8e-5 16,0 z" fill="currentColor" opacity="0.6" paint-order="fill markers stroke" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

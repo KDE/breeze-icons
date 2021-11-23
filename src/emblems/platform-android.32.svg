@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="32" version="1.1" viewBox="0 0 32 32" width="32" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <namedview bordercolor="#666666" borderopacity="1.0" id="namedview-conformist" pagecolor="#ffffff" pageopacity="0.0" pageshadow="0" showgrid="true">
+  <grid class="ColorScheme-Background" empspacing="4" fill="currentColor" opacity="0.6" type="xygrid"/>
+ </namedview>
+ <defs id="primary-definitions">
+  <style class="ColorScheme-Background" fill="currentColor" opacity="0.6" type="text/css">
+   .ColorScheme-Text           { color:#eff0f1; }
+      .ColorScheme-Background     { color:#31363b; }
+      .ColorScheme-Highlight      { color:#3daefd; }
+      .ColorScheme-ViewBackground { color:#fcfcfc; }
+      .ColorScheme-PositiveText   { color:#27ae60; }
+      .ColorScheme-NeutralText    { color:#f67400; }
+      .ColorScheme-NegativeText   { color:#da4453; }
+  </style>
+ </defs>
+ <path class="ColorScheme-Background" d="M 16 7 A 14 14 0 0 0 5.4960938 11.789062 L 2.3535156 8.6464844 A 0.5 0.5 0 0 0 2 8.5 A 0.5 0.5 0 0 0 1.6464844 8.6464844 A 0.5 0.5 0 0 0 1.6464844 9.3535156 L 4.84375 12.550781 A 14 14 0 0 0 2 21 L 2 23 C 2 24.108 2.892 25 4 25 L 28 25 C 29.108 25 30 24.108 30 23 L 30 21 A 14 14 0 0 0 27.158203 12.548828 L 30.353516 9.3535156 A 0.5 0.5 0 0 0 30.353516 8.6464844 A 0.5 0.5 0 0 0 29.646484 8.6464844 L 26.523438 11.769531 A 14 14 0 0 0 16 7 z M 10 15 A 2 2 0 0 1 12 17 A 2 2 0 0 1 10 19 A 2 2 0 0 1 8 17 A 2 2 0 0 1 10 15 z M 22 15 A 2 2 0 0 1 24 17 A 2 2 0 0 1 22 19 A 2 2 0 0 1 20 17 A 2 2 0 0 1 22 15 z " fill="currentColor" opacity="0.6" paint-order="stroke fill markers" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+ <path class="ColorScheme-Background" d="M 16 7 A 14 14 0 0 0 5.4960938 11.789062 L 2.3535156 8.6464844 A 0.5 0.5 0 0 0 2 8.5 A 0.5 0.5 0 0 0 1.6464844 8.6464844 A 0.5 0.5 0 0 0 1.6464844 9.3535156 L 4.84375 12.550781 A 14 14 0 0 0 2 21 L 2 23 C 2 24.108 2.892 25 4 25 L 28 25 C 29.108 25 30 24.108 30 23 L 30 21 A 14 14 0 0 0 27.158203 12.548828 L 30.353516 9.3535156 A 0.5 0.5 0 0 0 30.353516 8.6464844 A 0.5 0.5 0 0 0 29.646484 8.6464844 L 26.523438 11.769531 A 14 14 0 0 0 16 7 z M 16 7.5 L 16.001953 7.5 C 19.88842 7.5013 23.585973 9.1774704 26.148438 12.099609 A 0.50005 0.50005 0 0 0 26.876953 12.123047 L 26.804688 12.195312 A 0.50005 0.50005 0 0 0 26.759766 12.851562 C 28.536917 15.196826 29.499102 18.057431 29.5 21 L 29.5 23 C 29.5 23.839648 28.839648 24.5 28 24.5 L 4 24.5 C 3.1603522 24.5 2.5 23.839648 2.5 23 L 2.5 21 C 2.50185 18.057859 3.4647088 15.198034 5.2421875 12.853516 A 0.50005 0.50005 0 0 0 5.1972656 12.197266 L 5.1425781 12.142578 A 0.50005 0.50005 0 0 0 5.8730469 12.117188 C 8.4277166 9.1929886 12.117132 7.5114694 16 7.5 z M 10 14.5 C 8.6252118 14.5 7.5 15.625212 7.5 17 C 7.5 18.374788 8.6252118 19.5 10 19.5 C 11.374788 19.5 12.5 18.374788 12.5 17 C 12.5 15.625212 11.374788 14.5 10 14.5 z M 22 14.5 C 20.625212 14.5 19.5 15.625212 19.5 17 C 19.5 18.374788 20.625212 19.5 22 19.5 C 23.374788 19.5 24.5 18.374788 24.5 17 C 24.5 15.625212 23.374788 14.5 22 14.5 z M 10 15 A 2 2 0 0 1 12 17 A 2 2 0 0 1 10 19 A 2 2 0 0 1 8 17 A 2 2 0 0 1 10 15 z M 22 15 A 2 2 0 0 1 24 17 A 2 2 0 0 1 22 19 A 2 2 0 0 1 20 17 A 2 2 0 0 1 22 15 z " fill="currentColor" opacity="0.6" paint-order="stroke fill markers" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

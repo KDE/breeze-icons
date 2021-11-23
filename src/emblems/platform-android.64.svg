@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="64" version="1.1" viewBox="0 0 64 64" width="64" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <namedview bordercolor="#666666" borderopacity="1.0" id="namedview-conformist" pagecolor="#ffffff" pageopacity="0.0" pageshadow="0" showgrid="true">
+  <grid class="ColorScheme-Background" empspacing="4" fill="currentColor" opacity="0.6" type="xygrid"/>
+ </namedview>
+ <defs id="primary-definitions">
+  <style class="ColorScheme-Background" fill="currentColor" opacity="0.6" type="text/css">
+   .ColorScheme-Text           { color:#eff0f1; }
+      .ColorScheme-Background     { color:#31363b; }
+      .ColorScheme-Highlight      { color:#3daefd; }
+      .ColorScheme-ViewBackground { color:#fcfcfc; }
+      .ColorScheme-PositiveText   { color:#27ae60; }
+      .ColorScheme-NeutralText    { color:#f67400; }
+      .ColorScheme-NegativeText   { color:#da4453; }
+  </style>
+ </defs>
+ <path class="ColorScheme-Background" d="M 32 14 A 28 28 0 0 0 10.992188 23.578125 L 4.7070312 17.292969 A 1 1 0 0 0 4 17 A 1 1 0 0 0 3.2929688 17.292969 A 1 1 0 0 0 3.2929688 18.707031 L 9.6875 25.101562 A 28 28 0 0 0 4 42 L 4 46 C 4 48.216 5.784 50 8 50 L 56 50 C 58.216 50 60 48.216 60 46 L 60 42 A 28 28 0 0 0 54.314453 25.099609 L 60.707031 18.707031 A 1 1 0 0 0 60.707031 17.292969 A 1 1 0 0 0 59.292969 17.292969 L 53.048828 23.537109 A 28 28 0 0 0 32 14 z M 20 30 A 4 4 0 0 1 24 34 A 4 4 0 0 1 20 38 A 4 4 0 0 1 16 34 A 4 4 0 0 1 20 30 z M 44 30 A 4 4 0 0 1 48 34 A 4 4 0 0 1 44 38 A 4 4 0 0 1 40 34 A 4 4 0 0 1 44 30 z " fill="currentColor" opacity="0.6" paint-order="stroke fill markers" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+ <path class="ColorScheme-Background" d="M 32 14 A 28 28 0 0 0 10.992188 23.578125 L 4.7070312 17.292969 A 1 1 0 0 0 4 17 A 1 1 0 0 0 3.2929688 17.292969 A 1 1 0 0 0 3.2929688 18.707031 L 9.6875 25.101562 A 28 28 0 0 0 4 42 L 4 46 C 4 48.216 5.784 50 8 50 L 56 50 C 58.216 50 60 48.216 60 46 L 60 42 A 28 28 0 0 0 54.314453 25.099609 L 60.707031 18.707031 A 1 1 0 0 0 60.707031 17.292969 A 1 1 0 0 0 59.292969 17.292969 L 53.048828 23.537109 A 28 28 0 0 0 32 14 z M 32 14.5 L 32.001953 14.5 C 39.919645 14.501 47.452947 17.914604 52.673828 23.867188 A 0.50005 0.50005 0 0 0 53.402344 23.890625 L 59.646484 17.646484 C 59.845923 17.447088 60.154077 17.447088 60.353516 17.646484 C 60.552912 17.845923 60.552912 18.154077 60.353516 18.353516 L 53.960938 24.746094 A 0.50005 0.50005 0 0 0 53.916016 25.402344 C 57.536375 30.178918 59.497201 36.00639 59.5 42 L 59.5 46 C 59.5 47.947647 57.947647 49.5 56 49.5 L 8 49.5 C 6.0523533 49.5 4.5 47.947647 4.5 46 L 4.5 42 C 4.50377 36.006826 6.4651933 30.180107 10.085938 25.404297 A 0.50005 0.50005 0 0 0 10.041016 24.748047 L 3.6464844 18.353516 C 3.4470885 18.154077 3.4470885 17.845923 3.6464844 17.646484 C 3.7403728 17.552576 3.8672075 17.50002 4 17.5 C 4.1327925 17.50002 4.2596272 17.55258 4.3535156 17.646484 L 10.638672 23.931641 A 0.50005 0.50005 0 0 0 11.369141 23.90625 C 16.573351 17.949255 24.090003 14.52278 32 14.5 z M 20 29.5 C 17.520643 29.5 15.5 31.520643 15.5 34 C 15.5 36.479357 17.520643 38.5 20 38.5 C 22.479357 38.5 24.5 36.479357 24.5 34 C 24.5 31.520643 22.479357 29.5 20 29.5 z M 44 29.5 C 41.520643 29.5 39.5 31.520643 39.5 34 C 39.5 36.479357 41.520643 38.5 44 38.5 C 46.479357 38.5 48.5 36.479357 48.5 34 C 48.5 31.520643 46.479357 29.5 44 29.5 z M 20 30 A 4 4 0 0 1 24 34 A 4 4 0 0 1 20 38 A 4 4 0 0 1 16 34 A 4 4 0 0 1 20 30 z M 44 30 A 4 4 0 0 1 48 34 A 4 4 0 0 1 44 38 A 4 4 0 0 1 40 34 A 4 4 0 0 1 44 30 z " fill="currentColor" opacity="0.6" paint-order="stroke fill markers" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

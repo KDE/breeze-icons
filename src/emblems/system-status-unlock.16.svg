@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="64" version="1.1" viewBox="0 0 16 16" width="64" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <namedview bordercolor="#666666" borderopacity="1.0" id="namedview-conformist" pagecolor="#ffffff" pageopacity="0.0" pageshadow="0" showgrid="true">
+  <grid class="ColorScheme-Background" empspacing="4" fill="currentColor" opacity="0.6" type="xygrid"/>
+ </namedview>
+ <defs id="primary-definitions">
+  <style class="ColorScheme-Background" fill="currentColor" opacity="0.6" type="text/css">
+   .ColorScheme-Text           { color:#eff0f1; }
+      .ColorScheme-Background     { color:#31363b; }
+      .ColorScheme-Highlight      { color:#3daefd; }
+      .ColorScheme-ViewBackground { color:#fcfcfc; }
+      .ColorScheme-PositiveText   { color:#27ae60; }
+      .ColorScheme-NeutralText    { color:#f67400; }
+      .ColorScheme-NegativeText   { color:#da4453; }
+  </style>
+ </defs>
+ <path class="ColorScheme-Background" d="M 8 1 C 5.790861 1 4 2.790861 4 5 L 4 5.5 A 0.5 0.5 0 0 0 4.5 6 A 0.5 0.5 0 0 0 5 5.5 A 0.5 0.5 0 0 0 5 5.4980469 A 0.5 0.5 0 0 0 5 5.4960938 A 0.5 0.5 0 0 0 5 5.4941406 A 0.5 0.5 0 0 0 5 5.4921875 A 0.5 0.5 0 0 0 5 5.4902344 A 0.5 0.5 0 0 0 5 5.4882812 A 0.5 0.5 0 0 0 5 5.4863281 A 0.5 0.5 0 0 0 5 5.484375 A 0.5 0.5 0 0 0 5 5.4824219 A 0.5 0.5 0 0 0 5 5.4804688 A 0.5 0.5 0 0 0 5 5.4785156 A 0.5 0.5 0 0 0 5 5.4765625 A 0.5 0.5 0 0 0 5 5.4746094 L 5 5 C 5 3.3431458 6.3431458 2 8 2 C 9.6568542 2 11 3.3431458 11 5 L 11 8 L 5 8 C 3.892 8 3 8.892 3 10 L 3 13 C 3 14.108 3.892 15 5 15 L 11 15 C 12.108 15 13 14.108 13 13 L 13 10 C 13 9.2572244 12.598077 8.6125543 12 8.2675781 L 12 5 C 12 2.790861 10.209139 1 8 1 z M 5 9 L 11 9 C 11.554 9 12 9.446 12 10 L 12 13 C 12 13.554 11.554 14 11 14 L 5 14 C 4.446 14 4 13.554 4 13 L 4 10 C 4 9.446 4.446 9 5 9 z " fill="currentColor" opacity="0.6" paint-order="fill markers stroke" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+ <path class="ColorScheme-Background" d="M 8,1 C 5.790861,1 4,2.790861 4,5 V 5.5 A 0.5,0.5 0 0 0 4.5,6 0.5,0.5 0 0 0 5,5.5 0.5,0.5 0 0 0 5,5.49805 0.5,0.5 0 0 0 5,5.4961 0.5,0.5 0 0 0 5,5.49415 0.5,0.5 0 0 0 5,5.4922 0.5,0.5 0 0 0 5,5.49025 0.5,0.5 0 0 0 5,5.4883 0.5,0.5 0 0 0 5,5.48635 0.5,0.5 0 0 0 5,5.4844 0.5,0.5 0 0 0 5,5.48245 0.5,0.5 0 0 0 5,5.4805 0.5,0.5 0 0 0 5,5.47855 0.5,0.5 0 0 0 5,5.4766 0.5,0.5 0 0 0 5,5.47465 V 5 C 5,3.3431458 6.3431458,2 8,2 9.6568542,2 11,3.3431458 11,5 V 8 H 5 C 3.892,8 3,8.892 3,10 v 3 c 0,1.108 0.892,2 2,2 h 6 c 1.108,0 2,-0.892 2,-2 V 10 C 13,9.2572244 12.598077,8.6125543 12,8.2675781 V 5 C 12,2.790861 10.209139,1 8,1 Z M 5,9 h 6 c 0.554,0 1,0.446 1,1 v 3 c 0,0.554 -0.446,1 -1,1 H 5 C 4.446,14 4,13.554 4,13 V 10 C 4,9.446 4.446,9 5,9 Z" fill="currentColor" opacity="0.6" paint-order="fill markers stroke" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

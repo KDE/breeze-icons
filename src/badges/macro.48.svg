@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="48" version="1.1" viewBox="0 0 48 48" width="48" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <namedview bordercolor="#666666" borderopacity="1.0" id="namedview-conformist" pagecolor="#ffffff" pageopacity="0.0" pageshadow="0" showgrid="true">
+  <grid class="ColorScheme-Background" empspacing="4" fill="currentColor" opacity="0.6" type="xygrid"/>
+ </namedview>
+ <defs id="primary-definitions">
+  <style class="ColorScheme-Background" fill="currentColor" opacity="0.6" type="text/css">
+   .ColorScheme-Text           { color:#eff0f1; }
+      .ColorScheme-Background     { color:#31363b; }
+      .ColorScheme-Highlight      { color:#3daefd; }
+      .ColorScheme-ViewBackground { color:#fcfcfc; }
+      .ColorScheme-PositiveText   { color:#27ae60; }
+      .ColorScheme-NeutralText    { color:#f67400; }
+      .ColorScheme-NegativeText   { color:#da4453; }
+  </style>
+ </defs>
+ <path class="ColorScheme-Background" d="M 8,0 C 3.581722,0 0,3.581722 0,8 0,24 8,23 8,35 H 0 v 5 c 0,4.418276 3.581722,8 8,8 h 32 c 4.418276,0 8,-3.581724 8,-8 C 48,24 40,23 40,15 H 17 c -1,0 -1,-1 -1,-1 V 8 C 16,3.581722 12.418278,0 8,0 Z m 3.945312,0 C 15.50285,0.8277855 17.000286,5.0484076 17,8 v 6 H 48 V 8 C 48,3.581722 44.418276,0 40,0 Z" fill="currentColor" opacity="0.6" paint-order="stroke fill markers" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+ <path class="ColorScheme-Background" d="M 8 0 C 3.581722 0 0 3.581722 0 8 C 0 24 8 23 8 35 L 0 35 L 0 40 C 0 44.418276 3.581722 48 8 48 L 40 48 C 44.418276 48 48 44.418276 48 40 C 48 24 40 23 40 15 L 17 15 C 16 15 16 14 16 14 L 16 8 C 16 3.581722 12.418278 0 8 0 z M 11.945312 0 C 15.502851 0.8277855 17.000286 5.0484076 17 8 L 17 14 L 48 14 L 48 8 C 48 3.581722 44.418276 0 40 0 L 11.945312 0 z M 8 0.5 C 12.148054 0.5 15.5 3.8519462 15.5 8 L 15.5 14 C 15.5 14 15.4931 14.3534 15.677734 14.722656 C 15.862363 15.091913 16.333334 15.5 17 15.5 L 39.5625 15.5 C 39.735369 19.337299 41.68541 21.692404 43.574219 24.761719 C 45.550224 27.972727 47.5 32.083341 47.5 40 C 47.5 44.148052 44.148052 47.5 40 47.5 L 8 47.5 C 3.8519464 47.5 0.5 44.148052 0.5 40 L 0.5 35.5 L 8 35.5 A 0.50005 0.50005 0 0 0 8.5 35 C 8.5 28.888895 6.4137829 25.968784 4.4257812 22.738281 C 2.4377797 19.507779 0.5 15.916659 0.5 8 C 0.5 3.8519462 3.8519462 0.5 8 0.5 z M 13.96875 0.5 L 40 0.5 C 44.148052 0.5 47.5 3.8519464 47.5 8 L 47.5 13.5 L 17.5 13.5 L 17.5 8 C 17.500151 6.439627 17.114078 4.582065 16.248047 2.9667969 C 15.712861 1.9686 14.907835 1.1570175 13.96875 0.5 z " fill="currentColor" opacity="0.6" paint-order="stroke fill markers" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

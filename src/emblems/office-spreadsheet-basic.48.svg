@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="48" version="1.1" viewBox="0 0 48 48" width="48" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <namedview bordercolor="#666666" borderopacity="1.0" id="namedview-conformist" pagecolor="#ffffff" pageopacity="0.0" pageshadow="0" showgrid="true">
+  <grid class="ColorScheme-Background" empspacing="4" fill="currentColor" opacity="0.6" type="xygrid"/>
+ </namedview>
+ <defs id="primary-definitions">
+  <style class="ColorScheme-Background" fill="currentColor" opacity="0.6" type="text/css">
+   .ColorScheme-Text           { color:#eff0f1; }
+      .ColorScheme-Background     { color:#31363b; }
+      .ColorScheme-Highlight      { color:#3daefd; }
+      .ColorScheme-ViewBackground { color:#fcfcfc; }
+      .ColorScheme-PositiveText   { color:#27ae60; }
+      .ColorScheme-NeutralText    { color:#f67400; }
+      .ColorScheme-NegativeText   { color:#da4453; }
+  </style>
+ </defs>
+ <path class="ColorScheme-Background" d="M 6 4 C 4.892 4 4 4.892 4 6 L 4 42 C 4 43.108 4.892 44 6 44 L 42 44 C 43.108 44 44 43.108 44 42 L 44 6 C 44 4.892 43.108 4 42 4 L 6 4 z M 6 5 L 42 5 C 42.554 5 43 5.446 43 6 L 43 42 C 43 42.554 42.554 43 42 43 L 6 43 C 5.446 43 5 42.554 5 42 L 5 6 C 5 5.446 5.446 5 6 5 z " fill="currentColor" opacity="0.6" paint-order="stroke fill markers" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+ <path class="ColorScheme-Background" d="m 6,6 v 6 H 17 V 6 Z m 12,0 v 6 H 30 V 6 Z m 13,0 v 6 H 42 V 6 Z M 6,13 v 7 h 11 v -7 z m 12,0 v 7 h 12 v -7 z m 13,0 v 7 H 42 V 13 Z M 6,21 v 6 h 11 v -6 z m 12,0 v 6 h 12 v -6 z m 13,0 v 6 H 42 V 21 Z M 6,28 v 7 h 11 v -7 z m 12,0 v 7 h 12 v -7 z m 13,0 v 7 H 42 V 28 Z M 6,36 v 6 h 11 v -6 z m 12,0 v 6 h 12 v -6 z m 13,0 v 6 h 11 v -6 z" fill="currentColor" opacity="0.6" paint-order="stroke fill markers" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+ <path class="ColorScheme-Background" d="M 6,4 C 4.892,4 4,4.892 4,6 v 36 c 0,1.108 0.892,2 2,2 h 36 c 1.108,0 2,-0.892 2,-2 V 6 C 44,4.892 43.108,4 42,4 Z m 0,1 h 36 c 0.554,0 1,0.446 1,1 v 36 c 0,0.554 -0.446,1 -1,1 H 6 C 5.446,43 5,42.554 5,42 V 6 C 5,5.446 5.446,5 6,5 Z" fill="currentColor" opacity="0.6" paint-order="stroke fill markers" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+ <path class="ColorScheme-Background" d="m 6,6 v 6 H 17 V 6 Z m 12,0 v 6 H 30 V 6 Z m 13,0 v 6 H 42 V 6 Z M 6.5,6.5 h 10 v 5 h -10 z m 12,0 h 11 v 5 h -11 z m 13,0 h 10 v 5 h -10 z M 6,13 v 7 h 11 v -7 z m 12,0 v 7 h 12 v -7 z m 13,0 v 7 H 42 V 13 Z M 6.5,13.5 h 10 v 6 h -10 z m 12,0 h 11 v 6 h -11 z m 13,0 h 10 v 6 h -10 z M 6,21 v 6 h 11 v -6 z m 12,0 v 6 h 12 v -6 z m 13,0 v 6 H 42 V 21 Z M 6.5,21.5 h 10 v 5 h -10 z m 12,0 h 11 v 5 h -11 z m 13,0 h 10 v 5 h -10 z M 6,28 v 7 h 11 v -7 z m 12,0 v 7 h 12 v -7 z m 13,0 v 7 H 42 V 28 Z M 6.5,28.5 h 10 v 6 h -10 z m 12,0 h 11 v 6 h -11 z m 13,0 h 10 v 6 h -10 z M 6,36 v 6 h 11 v -6 z m 12,0 v 6 h 12 v -6 z m 13,0 v 6 H 42 V 36 Z M 6.5,36.5 h 10 v 5 h -10 z m 12,0 h 11 v 5 h -11 z m 13,0 h 10 v 5 h -10 z" fill="currentColor" opacity="0.6" paint-order="stroke fill markers" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

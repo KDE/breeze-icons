@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="64" version="1.1" viewBox="0 0 64 64" width="64" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <namedview bordercolor="#666666" borderopacity="1.0" id="namedview-conformist" pagecolor="#ffffff" pageopacity="0.0" pageshadow="0" showgrid="true">
+  <grid class="ColorScheme-Background" empspacing="4" fill="currentColor" opacity="0.6" type="xygrid"/>
+ </namedview>
+ <defs id="primary-definitions">
+  <style class="ColorScheme-Background" fill="currentColor" opacity="0.6" type="text/css">
+   .ColorScheme-Text           { color:#eff0f1; }
+      .ColorScheme-Background     { color:#31363b; }
+      .ColorScheme-Highlight      { color:#3daefd; }
+      .ColorScheme-ViewBackground { color:#fcfcfc; }
+      .ColorScheme-PositiveText   { color:#27ae60; }
+      .ColorScheme-NeutralText    { color:#f67400; }
+      .ColorScheme-NegativeText   { color:#da4453; }
+  </style>
+ </defs>
+ <path class="ColorScheme-Background" d="M 6 4 C 4.892 4 4 4.892 4 6 L 4 58 C 4 59.108 4.892 60 6 60 L 58 60 C 59.108 60 60 59.108 60 58 L 60 6 C 60 4.892 59.108 4 58 4 L 6 4 z M 6 5 L 58 5 C 58.554 5 59 5.446 59 6 L 59 58 C 59 58.554 58.554 59 58 59 L 6 59 C 5.446 59 5 58.554 5 58 L 5 6 C 5 5.446 5.446 5 6 5 z " fill="currentColor" opacity="0.6" paint-order="stroke fill markers" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+ <path class="ColorScheme-Background" d="M 6 6 L 6 16 L 22 16 L 22 6 L 6 6 z M 23 6 L 23 16 L 41 16 L 41 6 L 23 6 z M 42 6 L 42 16 L 58 16 L 58 6 L 42 6 z M 6 17 L 6 26 L 22 26 L 22 17 L 6 17 z M 23 17 L 23 26 L 41 26 L 41 17 L 23 17 z M 42 17 L 42 26 L 58 26 L 58 17 L 42 17 z M 6 27 L 6 37 L 22 37 L 22 27 L 6 27 z M 23 27 L 23 37 L 41 37 L 41 27 L 23 27 z M 42 27 L 42 37 L 58 37 L 58 27 L 42 27 z M 6 38 L 6 47 L 22 47 L 22 38 L 6 38 z M 23 38 L 23 47 L 41 47 L 41 38 L 23 38 z M 42 38 L 42 47 L 58 47 L 58 38 L 42 38 z M 6 48 L 6 58 L 22 58 L 22 48 L 6 48 z M 23 48 L 23 58 L 41 58 L 41 48 L 23 48 z M 42 48 L 42 58 L 58 58 L 58 48 L 42 48 z " fill="currentColor" opacity="0.6" paint-order="stroke fill markers" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+ <path class="ColorScheme-Background" d="M 6,4 C 4.892,4 4,4.892 4,6 v 52 c 0,1.108 0.892,2 2,2 h 52 c 1.108,0 2,-0.892 2,-2 V 6 C 60,4.892 59.108,4 58,4 Z m 0,1 h 52 c 0.554,0 1,0.446 1,1 v 52 c 0,0.554 -0.446,1 -1,1 H 6 C 5.446,59 5,58.554 5,58 V 6 C 5,5.446 5.446,5 6,5 Z" fill="currentColor" opacity="0.6" paint-order="stroke fill markers" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+ <path class="ColorScheme-Background" d="M 6 6 L 6 16 L 22 16 L 22 6 L 6 6 z M 23 6 L 23 16 L 41 16 L 41 6 L 23 6 z M 42 6 L 42 16 L 58 16 L 58 6 L 42 6 z M 6.5 6.5 L 21.5 6.5 L 21.5 15.5 L 6.5 15.5 L 6.5 6.5 z M 23.5 6.5 L 40.5 6.5 L 40.5 15.5 L 23.5 15.5 L 23.5 6.5 z M 42.5 6.5 L 57.5 6.5 L 57.5 15.5 L 42.5 15.5 L 42.5 6.5 z M 6 17 L 6 26 L 22 26 L 22 17 L 6 17 z M 23 17 L 23 26 L 41 26 L 41 17 L 23 17 z M 42 17 L 42 26 L 58 26 L 58 17 L 42 17 z M 6.5 17.5 L 21.5 17.5 L 21.5 25.5 L 6.5 25.5 L 6.5 17.5 z M 23.5 17.5 L 40.5 17.5 L 40.5 25.5 L 23.5 25.5 L 23.5 17.5 z M 42.5 17.5 L 57.5 17.5 L 57.5 25.5 L 42.5 25.5 L 42.5 17.5 z M 6 27 L 6 37 L 22 37 L 22 27 L 6 27 z M 23 27 L 23 37 L 41 37 L 41 27 L 23 27 z M 42 27 L 42 37 L 58 37 L 58 27 L 42 27 z M 6.5 27.5 L 21.5 27.5 L 21.5 36.5 L 6.5 36.5 L 6.5 27.5 z M 23.5 27.5 L 40.5 27.5 L 40.5 36.5 L 23.5 36.5 L 23.5 27.5 z M 42.5 27.5 L 57.5 27.5 L 57.5 36.5 L 42.5 36.5 L 42.5 27.5 z M 6 38 L 6 47 L 22 47 L 22 38 L 6 38 z M 23 38 L 23 47 L 41 47 L 41 38 L 23 38 z M 42 38 L 42 47 L 58 47 L 58 38 L 42 38 z M 6.5 38.5 L 21.5 38.5 L 21.5 46.5 L 6.5 46.5 L 6.5 38.5 z M 23.5 38.5 L 40.5 38.5 L 40.5 46.5 L 23.5 46.5 L 23.5 38.5 z M 42.5 38.5 L 57.5 38.5 L 57.5 46.5 L 42.5 46.5 L 42.5 38.5 z M 6 48 L 6 58 L 22 58 L 22 48 L 6 48 z M 23 48 L 23 58 L 41 58 L 41 48 L 23 48 z M 42 48 L 42 58 L 58 58 L 58 48 L 42 48 z M 6.5 48.5 L 21.5 48.5 L 21.5 57.5 L 6.5 57.5 L 6.5 48.5 z M 23.5 48.5 L 40.5 48.5 L 40.5 57.5 L 23.5 57.5 L 23.5 48.5 z M 42.5 48.5 L 57.5 48.5 L 57.5 57.5 L 42.5 57.5 L 42.5 48.5 z " fill="currentColor" opacity="0.6" paint-order="stroke fill markers" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

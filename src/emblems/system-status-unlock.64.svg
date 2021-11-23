@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="64" version="1.1" viewBox="0 0 64 64" width="64" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <namedview bordercolor="#666666" borderopacity="1.0" id="namedview-conformist" pagecolor="#ffffff" pageopacity="0.0" pageshadow="0" showgrid="true">
+  <grid class="ColorScheme-Background" empspacing="4" fill="currentColor" opacity="0.6" type="xygrid"/>
+ </namedview>
+ <defs id="primary-definitions">
+  <style class="ColorScheme-Background" fill="currentColor" opacity="0.6" type="text/css">
+   .ColorScheme-Text           { color:#eff0f1; }
+      .ColorScheme-Background     { color:#31363b; }
+      .ColorScheme-Highlight      { color:#3daefd; }
+      .ColorScheme-ViewBackground { color:#fcfcfc; }
+      .ColorScheme-PositiveText   { color:#27ae60; }
+      .ColorScheme-NeutralText    { color:#f67400; }
+      .ColorScheme-NegativeText   { color:#da4453; }
+  </style>
+ </defs>
+ <path class="ColorScheme-Background" d="M 32 4 C 23.163444 4 16 11.163444 16 20 L 16 22 C 16 23.104569 16.895431 24 18 24 C 19.104569 24 20 23.104569 20 22 L 20 20 C 20 13.372583 25.372584 8 32 8 C 38.627416 8 44 13.372583 44 20 L 44 32 L 14 32 C 12.892 32 12 32.892 12 34 L 12 58 C 12 59.108 12.892 60 14 60 L 50 60 C 51.108 60 52 59.108 52 58 L 52 34 C 52 32.892 51.108 32 50 32 L 48 32 L 48 20 C 48 11.163444 40.836556 4 32 4 z M 32 5 C 40.033325 5 47 11.458342 47 20 L 47 32 L 45 32 L 45 20 C 45 12.541674 38.96666 7 32 7 C 25.03334 7 19 12.541674 19 20 L 19 22 C 19 22.552285 18.552285 23 18 23 C 17.447715 23 17 22.552285 17 22 L 17 20 C 17 11.458342 23.966675 5 32 5 z M 14 33 L 50 33 C 50.554 33 51 33.446 51 34 L 51 58 C 51 58.554 50.554 59 50 59 L 14 59 C 13.446 59 13 58.554 13 58 L 13 34 C 13 33.446 13.446 33 14 33 z " fill="currentColor" opacity="0.6"/>
+ <path class="ColorScheme-Background" d="M 32,4 C 23.163444,4 16,11.163444 16,20 v 2 c 0,1.104569 0.895431,2 2,2 1.104569,0 2,-0.895431 2,-2 V 20 C 20,13.372583 25.372584,8 32,8 38.627416,8 44,13.372583 44,20 V 32 H 14 c -1.108,0 -2,0.892 -2,2 v 24 c 0,1.108 0.892,2 2,2 h 36 c 1.108,0 2,-0.892 2,-2 V 34 c 0,-1.108 -0.892,-2 -2,-2 H 48 V 20 C 48,11.163444 40.836556,4 32,4 Z m 0,1 c 8.033325,0 15,6.458342 15,15 V 32 H 45 V 20 C 45,12.541674 38.96666,7 32,7 25.03334,7 19,12.541674 19,20 v 2 c 0,0.552285 -0.447715,1 -1,1 -0.552285,0 -1,-0.447715 -1,-1 V 20 C 17,11.458342 23.966675,5 32,5 Z M 14,33 h 36 c 0.554,0 1,0.446 1,1 v 24 c 0,0.554 -0.446,1 -1,1 H 14 c -0.554,0 -1,-0.446 -1,-1 V 34 c 0,-0.554 0.446,-1 1,-1 z" fill="currentColor" opacity="0.6"/>
+</svg>

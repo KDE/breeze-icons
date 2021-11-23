@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="20" version="1.1" viewBox="0 0 28 20" width="28" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <namedview bordercolor="#666666" borderopacity="1.0" id="namedview-conformist" pagecolor="#ffffff" pageopacity="0.0" pageshadow="0" showgrid="true">
+  <grid class="ColorScheme-Background" empspacing="4" fill="currentColor" opacity="0.6" type="xygrid"/>
+ </namedview>
+ <defs id="primary-definitions">
+  <style class="ColorScheme-Background" fill="currentColor" opacity="0.6" type="text/css">
+   .ColorScheme-Text           { color:#eff0f1; }
+      .ColorScheme-Background     { color:#31363b; }
+      .ColorScheme-Highlight      { color:#3daefd; }
+      .ColorScheme-ViewBackground { color:#fcfcfc; }
+      .ColorScheme-PositiveText   { color:#27ae60; }
+      .ColorScheme-NeutralText    { color:#f67400; }
+      .ColorScheme-NegativeText   { color:#da4453; }
+  </style>
+ </defs>
+ <path class="ColorScheme-Background" d="M 4 3 C 3.446 3 3 3.446 3 4 L 3 17 C 3 17.554 3.446 18 4 18 L 24 18 C 24.554 18 25 17.554 25 17 L 25 4 C 25 3.446 24.554 3 24 3 L 4 3 z M 5 4 C 5.5522847 4 6 4.4477153 6 5 C 6 5.5522847 5.5522847 6 5 6 C 4.4477153 6 4 5.5522847 4 5 C 4 4.4477153 4.4477153 4 5 4 z M 5 7 C 5.5522847 7 6 7.4477153 6 8 C 6 8.5522847 5.5522847 9 5 9 C 4.4477153 9 4 8.5522847 4 8 C 4 7.4477153 4.4477153 7 5 7 z M 4 14 L 24 14 L 24 17 L 4 17 L 4 14 z M 5.4746094 15 C 5.209695 15.013342 5 15.231656 5 15.5 C 5 15.777 5.223 16 5.5 16 C 5.777 16 6 15.777 6 15.5 C 6 15.223 5.777 15 5.5 15 C 5.4913438 15 5.483155 14.99957 5.4746094 15 z M 19.474609 15 C 19.209695 15.013342 19 15.231656 19 15.5 C 19 15.777 19.223 16 19.5 16 C 19.777 16 20 15.777 20 15.5 C 20 15.223 19.777 15 19.5 15 C 19.491344 15 19.483155 14.99957 19.474609 15 z M 21.474609 15 C 21.209695 15.013342 21 15.231656 21 15.5 C 21 15.777 21.223 16 21.5 16 L 22.5 16 C 22.777 16 23 15.777 23 15.5 C 23 15.223 22.777 15 22.5 15 L 21.5 15 C 21.491344 15 21.483155 14.99957 21.474609 15 z " fill="currentColor" opacity="0.6" paint-order="stroke fill markers" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="24" version="1.1" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <namedview bordercolor="#666666" borderopacity="1.0" id="namedview-conformist" pagecolor="#ffffff" pageopacity="0.0" pageshadow="0" showgrid="true">
+  <grid class="ColorScheme-Background" empspacing="4" fill="currentColor" opacity="0.6" type="xygrid"/>
+ </namedview>
+ <defs id="primary-definitions">
+  <style class="ColorScheme-Background" fill="currentColor" opacity="0.6" type="text/css">
+   .ColorScheme-Text           { color:#eff0f1; }
+      .ColorScheme-Background     { color:#31363b; }
+      .ColorScheme-Highlight      { color:#3daefd; }
+      .ColorScheme-ViewBackground { color:#fcfcfc; }
+      .ColorScheme-PositiveText   { color:#27ae60; }
+      .ColorScheme-NeutralText    { color:#f67400; }
+      .ColorScheme-NegativeText   { color:#da4453; }
+  </style>
+ </defs>
+ <path class="ColorScheme-Background" d="m 10,16 v -4 l 3,2 z" fill="currentColor" opacity="0.6" stroke-linecap="butt" stroke-linejoin="miter" stroke-opacity="1"/>
+ <path class="ColorScheme-Background" d="M 7,3 C 6.446,3 6,3.446 6,4 V 5 H 5 C 4.446,5 4,5.446 4,6 V 7 H 3 C 2.446,7 2,7.446 2,8 v 12 c 0,0.554 0.446,1 1,1 h 9.5 C 12.777,21 13,20.777 13,20.5 13,20.223 12.777,20 12.5,20 H 3 V 8 h 18 v 3.5 c 0,0.277 0.223,0.5 0.5,0.5 0.277,0 0.5,-0.223 0.5,-0.5 V 8 C 22,7.446 21.554,7 21,7 H 20 V 6 C 20,5.446 19.554,5 19,5 H 18 V 4 C 18,3.446 17.554,3 17,3 Z M 7,4 H 17 V 5 H 7 Z M 5,6 H 19 V 7 H 5 Z" fill="currentColor" opacity="0.6"/>
+ <rect fill="#FFCC00" height="8" id="badge" opacity="1" paint-order="stroke fill markers" ry="0" stop-color="#000000" stroke="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="8" x="14" y="13"/>
+ <path class="ColorScheme-Background" d="M 10 12 L 10 16 L 13 14 L 10 12 z M 10.5 12.933594 L 12.097656 14 L 10.5 15.066406 L 10.5 12.933594 z " fill="currentColor" opacity="0.6"/>
+ <path class="ColorScheme-Background" d="M 7,3 C 6.446,3 6,3.446 6,4 V 5 H 5 C 4.446,5 4,5.446 4,6 V 7 H 3 C 2.446,7 2,7.446 2,8 v 12 c 0,0.554 0.446,1 1,1 h 9.5 C 12.777,21 13,20.777 13,20.5 13,20.223 12.777,20 12.5,20 H 3 V 8 h 18 v 3.5 c 0,0.277 0.223,0.5 0.5,0.5 0.277,0 0.5,-0.223 0.5,-0.5 V 8 C 22,7.446 21.554,7 21,7 H 20 V 6 C 20,5.446 19.554,5 19,5 H 18 V 4 C 18,3.446 17.554,3 17,3 Z M 7,4 H 17 V 5 H 7 Z M 5,6 H 19 V 7 H 5 Z" fill="currentColor" opacity="0.6"/>
+</svg>

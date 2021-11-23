@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32" height="32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <style id="current-color-scheme" type="text/css">.ColorScheme-Text           { color:#fff; }
+        .ColorScheme-Background     { color:#222; }
+        .ColorScheme-Highlight      { color:#3daefd; }
+        .ColorScheme-ViewBackground { color:#000; }
+        .ColorScheme-PositiveText   { color:#27ae60; }
+        .ColorScheme-NeutralText    { color:#f67400; }
+        .ColorScheme-NegativeText   { color:#da4453; }</style>
+    <style id="extended-color-scheme" type="text/css">.ExScheme-Black     { color:#172525; }
+        .ExScheme-White     { color:#fcfcfc; }
+        .ExScheme-Grey-1    { color:#cfd5d5; }
+        .ExScheme-Grey-2    { color:#909c9c; }
+        .ExScheme-Grey-3    { color:#536161; }
+        .ExScheme-Red-1     { color:#ffafa5; }
+        .ExScheme-Red-2     { color:#bf4231; }
+        .ExScheme-Red-3     { color:#4d2f2b; }
+        .ExScheme-Green-1   { color:#abf9c7; }
+        .ExScheme-Green-2   { color:#3bb566; }
+        .ExScheme-Green-3   { color:#377d50; }
+        .ExScheme-Blue-1    { color:#abdaf9; }
+        .ExScheme-Blue-2    { color:#3daefd; }
+        .ExScheme-Blue-3    { color:#2b3c4d; }
+        .ExScheme-Yellow-1  { color:#faffa5; }
+        .ExScheme-Yellow-2  { color:#cac726; }
+        .ExScheme-Yellow-3  { color:#4b4d2b; }
+        .ExScheme-Orange-1  { color:#ffdaa5; }
+        .ExScheme-Orange-2  { color:#ff9701; }
+        .ExScheme-Orange-3  { color:#4d372b; }
+        .ExScheme-Brown-1   { color:#e9d6bb; }
+        .ExScheme-Brown-2   { color:#997657; }
+        .ExScheme-Brown-3   { color:#433a35; }
+        .ExScheme-Purple-1  { color:#e2abf9; }
+        .ExScheme-Purple-2  { color:#b401ff; }
+        .ExScheme-Purple-3  { color:#432b4d; }
+        .ExScheme-Cyan-1    { color:#b2f2e6; }
+        .ExScheme-Cyan-2    { color:#31bfa6; }
+        .ExScheme-Cyan-3    { color:#2b4d47; }
+        .ExScheme-Magenta-1 { color:#f8a6d8; }
+        .ExScheme-Magenta-2 { color:#f00091; }
+        .ExScheme-Magenta-3 { color:#770048; }</style>
+    <linearGradient id="gradientDark">
+      <stop offset="0"/>
+      <stop stop-opacity="0" offset="1"/>
+    </linearGradient>
+    <linearGradient id="gradientPanel">
+      <stop stop-color="#172525" offset="0"/>
+      <stop stop-color="#172525" stop-opacity="0" offset="1"/>
+    </linearGradient>
+    <linearGradient id="gd1" x1="-12" x2="-12" y1="33" y2="31" gradientTransform="rotate(-20.8365 -5.55947 73.9127)" gradientUnits="userSpaceOnUse" xlink:href="#gradientDark"/>
+    <radialGradient id="gd2" cx="19.742" cy="-20.3427" r="15" gradientTransform="matrix(-.332091 .0841304 -.0268824 -.106114 31.9114 3.93413)" gradientUnits="userSpaceOnUse" spreadMethod="reflect" xlink:href="#gradientDark"/>
+    <linearGradient id="gd3" x1="9" x2="9" y1="14" y2="20" gradientTransform="matrix(.775078 .161214 -.134345 .645898 13.0328 1.39608)" gradientUnits="userSpaceOnUse" xlink:href="#gradientDark"/>
+    <linearGradient id="gd4" x1="0" x2="0" y1="1" y2="0" xlink:href="#gradientDark"/>
+    <linearGradient id="gp1" x1="21.0684" x2="24.7427" y1="24.9573" y2="18.8882" gradientTransform="matrix(-1,0,0,1,32,1)" gradientUnits="userSpaceOnUse" xlink:href="#gradientPanel"/>
+    <linearGradient id="gp2" x1="23.5953" x2="22.0538" y1="19.2929" y2="14.4714" gradientUnits="userSpaceOnUse" xlink:href="#gradientPanel"/>
+  </defs>
+  <path d="m15 21-14 4v1c0 1.108.892 2 2 2h26c1.108 0 2-.892 2-2v-1z" class="ColorScheme-Highlight" fill="currentColor" />
+  <path d="m15 23-14 2v1c0 1.108.892 2 2 2h26c1.108 0 2-.892 2-2v-1z" fill="url(#gp1)" />
+  <path d="M 2,6 1,12.982424 V 25.00002 h 6 l 23,-10 z" class="ColorScheme-Highlight" fill="currentColor"/>
+  <path d="M 2,6 1,12.982424 V 25.00002 h 6 l 23,-10 z" fill="url(#gd2)" opacity=".075"/>
+  <path d="M 2,6 1,12.982424 V 25.00002 h 6 l 23,-10 z" fill="#000" opacity=".5"/>
+  <path d="m31 14.082-28.6855 10.918h10.6895l17.9961-6.84961z" fill="url(#gd1)" opacity=".4" />
+  <path d="m1.72656 4.4668c-.440773.366288-.726562.912701-.726562 1.5332v6.36914l30 6.24023v-7.42969z" fill="url(#gd3)" opacity=".4"/>
+  <path d="m31 14.5371-25.498 10.4629h25.498z" fill="#334545"/>
+  <g style="opacity: .4">
+    <path d="M 31,24.199219 29.050781,25 H 31 Z" opacity=".6" />
+    <path d="m19.3398 24.1523-.482422.847656h4.19922z" opacity=".3" />
+    <path d="m28.707 22.7246-5.54492 2.27539h4.24805z" opacity=".6" />
+    <path d="m24.9219 21.8633-5.58203 2.28906 3.7168.847656h.07813z" opacity=".5" />
+    <path d="m24.9219 21.8633-1.78711 3.13672h.02734l5.54492-2.27539z" opacity=".7" />
+    <path d="m19.3398 24.1523-2.06445.847656h1.58203z" opacity=".4" />
+    <path d="m11.7695 22.4277-1.46484 2.57227h1.08594l4.16406-1.70898z" opacity=".6" />
+    <path d="m15.5552 23.2907 5.58232-2.29086-1.79729 3.15342z" opacity=".3" />
+    <path d="m15.5547 23.291-4.16406 1.70898h3.18945z" opacity=".4" />
+    <path d="m15.5547 23.291-.97461 1.70898h2.69531l2.06445-.847656z" opacity=".5" />
+    <path d="m11.7701 22.4281 5.58232-2.29086-1.79729 3.15342z" opacity=".5" />
+    <path d="m21.1375 20.9998-5.58232 2.29086 1.79729-3.15342z" opacity=".4" />
+    <path d="m24.9225 21.8624-5.58231 2.29086 1.79729-3.15342z" opacity=".75" />
+    <path d="m11.7695 22.4277-5.58203 2.29102 1.23242.28125h2.88477z" opacity=".4" />
+    <path d="m6.1875 24.7188-.160156.28125h1.39258z" opacity=".6" />
+    <path d="m24.9225 21.8624 5.58232-2.29086-1.79729 3.15342z" opacity=".6" />
+    <path d="m31 16.9531-4.2793 1.75586 3.7832.863282.496094-.869141z" opacity=".6" />
+    <path d="m21.1375 20.9998 5.58231-2.29086-1.79729 3.15342z" opacity=".3" />
+    <path d="m30.5048 19.5715-5.58232 2.29086 1.79729-3.15342z" opacity=".4" />
+    <path d="m31 19.3691-.496094.203125.496094.113281z" opacity=".6" />
+    <path d="m30.5039 19.5723-1.79688 3.15234 2.29297-.941406v-2.09766z" opacity=".4" />
+    <path d="m17.3524 20.1373 5.58232-2.29086-1.79729 3.15342z" opacity=".5" />
+    <path d="m28.707 22.7246-1.29688 2.27539h1.64062l1.94922-.800781v-.951172z" opacity=".5" />
+    <path d="m31 21.7832-2.29297.941406 2.29297.523438z" opacity=".75" />
+    <path d="m22.9348 17.8464 5.58231-2.29086-1.79729 3.15342z" opacity=".4" />
+    <path d="m26.7198 18.709-5.58231 2.29086 1.79729-3.15342z" opacity=".6" />
+    <path d="m28.5176 15.5547-1.79688 3.1543 4.2793-1.75586v-.832031z" opacity=".75" />
+    <path d="m31 14.5371-2.48242 1.01758 2.48242.566406z" opacity=".5" />
+    <path d="m31 18.7031-.496094.869141.496094-.203125z" opacity=".6" />
+    <path d="m31 14.5371-25.498 10.4629h1.2207l24.2773-9.96289z" opacity=".4"/>
+  </g>
+  <path d="m3 4c-1.108 0-2 .892-2 2v6.98242l1.13086-.574219 6.09766-1.44726.763672.0293 22.0078 4.57617v-9.56641c0-1.108-.892-2-2-2z"/>
+  <path d="m3 4c-1.108 0-2 .892-2 2v6.98242l1.13086-.574219 6.09766-1.44726.763671.0293 22.0078 4.57617v-9.56641c0-1.108-.892-2-2-2z" class="ColorScheme-Highlight" fill="currentColor" opacity=".6"/>
+  <path d="m3 4c-1.108 0-2 .892-2 2v6.98242l1.13086-.574219 6.09766-1.44726.763671.0293 22.0078 4.57617v-9.56641c0-1.108-.892-2-2-2z" class="ColorScheme-NeutralText" fill="currentColor" opacity=".15"/>
+  <path d="m3 4c-1.108 0-2 .892-2 2v6.98242l1.13086-.574219 6.09766-1.44726.763672.0293 22.0078.833981v-5.82422c0-1.108-.892-2-2-2z" class="ColorScheme-NeutralText" fill="currentColor" opacity=".15"/>
+  <path d="m3 4c-1.108 0-2 .892-2 2v6.98242l1.13086-.574219 28.3691-7.72266c-.366034-.417592-.898513-.685547-1.5-.685547z" class="ColorScheme-NeutralText" fill="currentColor" opacity=".15"/>
+  <path d="m3 4c-1.108 0-2 .892-2 2v6.98242l15.6973-8.98242z" class="ColorScheme-NeutralText" fill="currentColor" opacity=".15"/>
+  <path d="m11.7266 11.0938-2.73438-.103512 22.0078 4.57617v-3.74219z" fill="url(#gp2)" opacity=".6"/>
+  <path d="m15.6738 4-14.6738 8.46159v.520834l1.02409-.548827 6.20443-1.47266.78125.02995 21.9902 4.57552v-.472659l-19.2103-3.99739 19.2103.727864v-.463542l-22.2605-.742164 21.7605-5.93297c-.076625-.154818-.2623-.257022-.420971-.368386l-27.0729 7.51546 13.6911-7.83262z" fill="#fffefc" opacity=".15"/>
+  
+  <!-- panel -->
+  <path d="m1 25v1c0 1.108.892 2 2 2h26c1.108 0 2-.892 2-2v-1z" class="ColorScheme-Background" fill="currentColor" opacity=".8" />
+  <rect class="ColorScheme-Background" fill="currentColor" x="1" y="25" width="30" height=".5" opacity=".2" />
+  <rect fill="url(#gd4)" x="1" y="24" width="30" height="1" opacity=".2" />
+  
+  <!-- panel buttons -->
+  <rect class="ColorScheme-Text" fill="currentColor" x="25" y="26" width="1" height="1" ry=".5" />
+  <rect class="ColorScheme-Text" fill="currentColor" x="3" y="26" width="1" height="1" ry=".5" />
+  <rect class="ColorScheme-Text" fill="currentColor" x="27" y="26" width="2" height="1" ry=".5" />
+  
+  <!-- top highlight -->
+  <path d="m1 7v-1c0-1.108.892-2 2-2h26c1.108 0 2 .89201 2 2v1c0-1.10799-.892-2-2-2h-26c-1.108 0-2 .892-2 2z" fill="#fff" opacity=".1" />
+  <path d="m1 6.5v-.5c0-1.108.892-2 2-2h26c1.108 0 2 .89201 2 2v.5c0-1.10799-.892-2-2-2h-26c-1.108 0-2 .892-2 2z" fill="#fff" opacity=".1" />
+  
+  <!-- bottom shadow/highlight -->
+  <path class="ColorScheme-Text" fill="currentColor" d="m1 25v1c0 1.108.892 2 2 2h26c1.108 0 2-.89201 2-2v-1c0 1.10799-.892 2-2 2h-26c-1.108 0-2-.892-2-2z" opacity=".1" />
+  <path class="ColorScheme-Text" fill="currentColor" d="m1 25.5v.5c0 1.108.892 2 2 2h26c1.108 0 2-.89201 2-2v-.5c0 1.10799-.892 2-2 2h-26c-1.108 0-2-.892-2-2z" opacity=".1" />
+</svg>

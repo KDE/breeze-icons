@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="32" version="1.1" viewBox="0 0 32 32" width="32" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <namedview bordercolor="#666666" borderopacity="1.0" id="namedview-conformist" pagecolor="#ffffff" pageopacity="0.0" pageshadow="0" showgrid="true">
+  <grid class="ColorScheme-Background" empspacing="4" fill="currentColor" opacity="0.6" type="xygrid"/>
+ </namedview>
+ <defs id="primary-definitions">
+  <style class="ColorScheme-Background" fill="currentColor" opacity="0.6" type="text/css">
+   .ColorScheme-Text           { color:#eff0f1; }
+      .ColorScheme-Background     { color:#31363b; }
+      .ColorScheme-Highlight      { color:#3daefd; }
+      .ColorScheme-ViewBackground { color:#fcfcfc; }
+      .ColorScheme-PositiveText   { color:#27ae60; }
+      .ColorScheme-NeutralText    { color:#f67400; }
+      .ColorScheme-NegativeText   { color:#da4453; }
+  </style>
+ </defs>
+ <path class="ColorScheme-Background" d="M 4 2 C 2.892 2 2 2.892 2 4 L 2 28 C 2 29.108 2.892 30 4 30 L 28 30 C 29.108 30 30 29.108 30 28 L 30 4 C 30 2.892 29.108 2 28 2 L 4 2 z M 4 3 L 28 3 C 28.554 3 29 3.446 29 4 L 29 28 C 29 28.554 28.554 29 28 29 L 4 29 C 3.446 29 3 28.554 3 28 L 3 4 C 3 3.446 3.446 3 4 3 z " fill="currentColor" opacity="0.6" paint-order="stroke fill markers" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+ <path class="ColorScheme-Background" d="M 4 4 L 4 8 L 11 8 L 11 4 L 4 4 z M 12 4 L 12 8 L 20 8 L 20 4 L 12 4 z M 21 4 L 21 8 L 28 8 L 28 4 L 21 4 z M 4 9 L 4 13 L 11 13 L 11 9 L 4 9 z M 12 9 L 12 13 L 20 13 L 20 9 L 12 9 z M 21 9 L 21 13 L 28 13 L 28 9 L 21 9 z M 4 14 L 4 18 L 11 18 L 11 14 L 4 14 z M 12 14 L 12 18 L 20 18 L 20 14 L 12 14 z M 21 14 L 21 18 L 28 18 L 28 14 L 21 14 z M 4 19 L 4 23 L 11 23 L 11 19 L 4 19 z M 12 19 L 12 23 L 20 23 L 20 19 L 12 19 z M 21 19 L 21 23 L 28 23 L 28 19 L 21 19 z M 4 24 L 4 28 L 11 28 L 11 24 L 4 24 z M 12 24 L 12 28 L 20 28 L 20 24 L 12 24 z M 21 24 L 21 28 L 28 28 L 28 24 L 21 24 z " fill="currentColor" opacity="0.6" paint-order="stroke fill markers" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+ <path class="ColorScheme-Background" d="M 4,2 C 2.892,2 2,2.892 2,4 v 24 c 0,1.108 0.892,2 2,2 h 24 c 1.108,0 2,-0.892 2,-2 V 4 C 30,2.892 29.108,2 28,2 Z m 0,1 h 24 c 0.554,0 1,0.446 1,1 v 24 c 0,0.554 -0.446,1 -1,1 H 4 C 3.446,29 3,28.554 3,28 V 4 C 3,3.446 3.446,3 4,3 Z" fill="currentColor" opacity="0.6" paint-order="stroke fill markers" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+ <path class="ColorScheme-Background" d="M 4 4 L 4 8 L 11 8 L 11 4 L 4 4 z M 12 4 L 12 8 L 20 8 L 20 4 L 12 4 z M 21 4 L 21 8 L 28 8 L 28 4 L 21 4 z M 4.5 4.5 L 10.5 4.5 L 10.5 7.5 L 4.5 7.5 L 4.5 4.5 z M 12.5 4.5 L 19.5 4.5 L 19.5 7.5 L 12.5 7.5 L 12.5 4.5 z M 21.5 4.5 L 27.5 4.5 L 27.5 7.5 L 21.5 7.5 L 21.5 4.5 z M 4 9 L 4 13 L 11 13 L 11 9 L 4 9 z M 12 9 L 12 13 L 20 13 L 20 9 L 12 9 z M 21 9 L 21 13 L 28 13 L 28 9 L 21 9 z M 4.5 9.5 L 10.5 9.5 L 10.5 12.5 L 4.5 12.5 L 4.5 9.5 z M 12.5 9.5 L 19.5 9.5 L 19.5 12.5 L 12.5 12.5 L 12.5 9.5 z M 21.5 9.5 L 27.5 9.5 L 27.5 12.5 L 21.5 12.5 L 21.5 9.5 z M 4 14 L 4 18 L 11 18 L 11 14 L 4 14 z M 12 14 L 12 18 L 20 18 L 20 14 L 12 14 z M 21 14 L 21 18 L 28 18 L 28 14 L 21 14 z M 4.5 14.5 L 10.5 14.5 L 10.5 17.5 L 4.5 17.5 L 4.5 14.5 z M 12.5 14.5 L 19.5 14.5 L 19.5 17.5 L 12.5 17.5 L 12.5 14.5 z M 21.5 14.5 L 27.5 14.5 L 27.5 17.5 L 21.5 17.5 L 21.5 14.5 z M 4 19 L 4 23 L 11 23 L 11 19 L 4 19 z M 12 19 L 12 23 L 20 23 L 20 19 L 12 19 z M 21 19 L 21 23 L 28 23 L 28 19 L 21 19 z M 4.5 19.5 L 10.5 19.5 L 10.5 22.5 L 4.5 22.5 L 4.5 19.5 z M 12.5 19.5 L 19.5 19.5 L 19.5 22.5 L 12.5 22.5 L 12.5 19.5 z M 21.5 19.5 L 27.5 19.5 L 27.5 22.5 L 21.5 22.5 L 21.5 19.5 z M 4 24 L 4 28 L 11 28 L 11 24 L 4 24 z M 12 24 L 12 28 L 20 28 L 20 24 L 12 24 z M 21 24 L 21 28 L 28 28 L 28 24 L 21 24 z M 4.5 24.5 L 10.5 24.5 L 10.5 27.5 L 4.5 27.5 L 4.5 24.5 z M 12.5 24.5 L 19.5 24.5 L 19.5 27.5 L 12.5 27.5 L 12.5 24.5 z M 21.5 24.5 L 27.5 24.5 L 27.5 27.5 L 21.5 27.5 L 21.5 24.5 z " fill="currentColor" opacity="0.6" paint-order="stroke fill markers" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

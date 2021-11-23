@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="128" version="1.1" viewBox="0 0 128 128" width="128" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <namedview bordercolor="#666666" borderopacity="1.0" id="namedview-conformist" pagecolor="#ffffff" pageopacity="0.0" pageshadow="0" showgrid="true">
+  <grid class="ColorScheme-Background" empspacing="4" fill="currentColor" opacity="0.6" type="xygrid"/>
+ </namedview>
+ <defs id="primary-definitions">
+  <style class="ColorScheme-Background" fill="currentColor" opacity="0.6" type="text/css">
+   .ColorScheme-Text           { color:#eff0f1; }
+      .ColorScheme-Background     { color:#31363b; }
+      .ColorScheme-Highlight      { color:#3daefd; }
+      .ColorScheme-ViewBackground { color:#fcfcfc; }
+      .ColorScheme-PositiveText   { color:#27ae60; }
+      .ColorScheme-NeutralText    { color:#f67400; }
+      .ColorScheme-NegativeText   { color:#da4453; }
+  </style>
+ </defs>
+ <path class="ColorScheme-Background" d="M 64 18 A 24 24 0 0 0 40 42 A 24 24 0 0 0 64 66 A 24 24 0 0 0 88 42 A 24 24 0 0 0 64 18 z M 64 68 C 41.84 68 24 85.84 24 108 C 24 109.108 24.892 110 26 110 L 102 110 C 103.108 110 104 109.108 104 108 C 104 85.84 86.16 68 64 68 z " fill="currentColor" opacity="0.6" paint-order="stroke markers fill" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+ <path class="ColorScheme-Background" d="M 64 18 A 24 24 0 0 0 40 42 A 24 24 0 0 0 64 66 A 24 24 0 0 0 88 42 A 24 24 0 0 0 64 18 z M 64 18.5 C 76.984601 18.5 87.5 29.015399 87.5 42 C 87.5 54.984601 76.984601 65.5 64 65.5 C 51.015399 65.5 40.5 54.984601 40.5 42 C 40.5 29.015399 51.015399 18.5 64 18.5 z M 64 68 C 41.84 68 24 85.84 24 108 C 24 109.108 24.892 110 26 110 L 102 110 C 103.108 110 104 109.108 104 108 C 104 85.84 86.16 68 64 68 z M 64 68.5 C 85.891627 68.5 103.5 86.108373 103.5 108 C 103.5 108.83965 102.83965 109.5 102 109.5 L 26 109.5 C 25.160352 109.5 24.5 108.83965 24.5 108 C 24.5 86.108373 42.108373 68.5 64 68.5 z " fill="currentColor" opacity="0.6" paint-order="stroke markers fill" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

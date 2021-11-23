@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="64"
+   height="64"
+   version="1.1"
+   id="svg47"
+   sodipodi:docname="document-template.64.svg"
+   inkscape:version="1.1.1 (1:1.1+202109281949+c3084ef5ed)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview49"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="11.313708"
+     inkscape:cx="32.880467"
+     inkscape:cy="23.953243"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg47">
+    <inkscape:grid
+       type="xygrid"
+       id="grid1071" />
+  </sodipodi:namedview>
+  <defs
+     id="defs20">
+    <style
+       type="text/css"
+       id="current-color-scheme">
+        .ColorScheme-Text           { color:#fff; }
+        .ColorScheme-Background     { color:#111; }
+        .ColorScheme-Highlight      { color:#3daefd; }
+        .ColorScheme-ViewBackground { color:#000; }
+        .ColorScheme-PositiveText   { color:#27ae60; }
+        .ColorScheme-NeutralText    { color:#f67400; }
+        .ColorScheme-NegativeText   { color:#da4453; }
+    </style>
+    <linearGradient
+       id="gradientDark">
+      <stop
+         stop-opacity="1"
+         offset="0"
+         stop-color="#000"
+         id="stop4" />
+      <stop
+         stop-opacity="0"
+         offset="1"
+         stop-color="#000"
+         id="stop6" />
+    </linearGradient>
+    <linearGradient
+       id="gradientLight">
+      <stop
+         stop-opacity="1"
+         offset="0"
+         stop-color="#fff"
+         id="stop9" />
+      <stop
+         stop-opacity="0"
+         offset="1"
+         stop-color="#fff"
+         id="stop11" />
+    </linearGradient>
+    <style
+       type="text/css"
+       class="toggle-enable-crease"
+       id="style14">
+        .folder-crease { display: none; }
+    </style>
+    <style
+       type="text/css"
+       class="toggle-manilla-folders"
+       id="style16">
+        .folder-manilla { display: none; }
+    </style>
+    <radialGradient
+       xlink:href="#gradientLight"
+       id="gl1"
+       cx="0.5"
+       cy="0"
+       r="1" />
+    <linearGradient
+       xlink:href="#gradientDark"
+       id="gd1"
+       x1="0"
+       y1="1"
+       x2="0"
+       y2="0.5" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#gradientLight"
+       id="radialGradient1943"
+       cx="3.999999"
+       cy="32"
+       fx="3.999999"
+       fy="32"
+       r="22"
+       gradientTransform="matrix(0,2.5454545,-2.4090909,0,109.09091,-6.1818158)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <path
+     id="icon-color-primary"
+     fill="currentColor"
+     style="opacity:1;fill:fill:currentColor;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;stop-color:#000000"
+     d="M 13 4 C 11.338 4 10 5.338 10 7 L 10 57 C 10 58.662 11.338 60 13 60 L 51 60 C 52.662 60 54 58.662 54 57 L 54 18 L 45 13 L 40 4 L 13 4 z " />
+  <path
+     id="template-grid"
+     style="color:#000000;opacity:0.1;color-interpolation:sRGB;color-interpolation-filters:linearRGB;fill:#ffffff;fill-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto"
+     d="m 13,4 c -0.352917,0 -0.68601,0.070688 -1,0.1816406 v 1.8164063 h -1.816406 c -0.111261,0.3140453 -0.183367,0.6469423 -0.183594,1 h 2 v 2 h -2 v 1 h 2 v 2.0000001 h -2 v 1 h 2 v 2 h -2 v 1 h 2 v 2 h -2 v 1 h 2 v 2 h -2 v 1 h 2 v 2 h -2 v 1 h 2 v 2 h -2 v 1 h 2 v 2 h -2 v 1 h 2 v 2 h -2 v 1 h 2 v 2 h -2 v 1 h 2 v 2 h -2 v 1 h 2 v 2 h -2 v 1 h 2 v 2 h -2 v 1 h 2 v 2 h -2 v 1 h 2 v 2 h -2 v 1 h 2 v 2 h -2 v 1 h 2 v 2 H 10 V 57 c 0,0.352261 0.07108,0.684551 0.181641,0.998047 H 12 v 1.820312 c 0.308028,0.108847 0.634801,0.177444 0.980469,0.179688 H 13 v -2 h 2 v 2 h 1 v -2 h 2 v 2 h 1 v -2 h 2 v 2 h 1 v -2 h 2 v 2 h 1 v -2 h 2 v 2 h 1 v -2 h 2 v 2 h 1 v -2 h 2 v 2 h 1 v -2 h 2 v 2 h 1 v -2 h 2 v 2 h 1 v -2 h 2 v 2 h 1 v -2 h 2 v 2 h 1 v -2 h 2 v 2 h 1 v -2 h 2 v 2 h 0.01953 c 0.345669,-0.0022 0.672442,-0.07084 0.98047,-0.179688 v -1.820312 h 1.818359 C 53.928918,57.684551 54,57.352261 54,57 v -0.002 h -2 v -2 h 2 v -1 h -2 v -2 h 2 v -1 h -2 v -2 h 2 v -1 h -2 v -2 h 2 v -1 h -2 v -2 h 2 v -1 h -2 v -2 h 2 v -1 h -2 v -2 h 2 v -1 h -2 v -2 h 2 v -1 h -2 v -2 h 2 v -1 h -2 v -2 h 2 v -1 h -2 v -2 h 2 v -1 h -2 v -2 h 2 v -1 h -2 v -2 h 2 V 18 L 53.9961,17.998 H 52 V 16.888625 L 51,16.333937 V 17.998 h -2 v -2 h 1.396484 L 42,7.5996094 v 1.3984375 h -2 v -2 h 1.666016 l -0.556641,-1 H 40 V 4 H 39 V 5.9980469 H 37 V 4 H 36 V 5.9980469 H 34 V 4 H 33 V 5.9980469 H 31 V 4 H 30 V 5.9980469 H 28 V 4 H 27 V 5.9980469 H 25 V 4 H 24 V 5.9980469 H 22 V 4 H 21 V 5.9980469 H 19 V 4 H 18 V 5.9980469 H 16 V 4 h -1 v 1.9980469 h -2 z m 0,2.9980469 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m -24,3 h 2 v 2.0000001 h -2 z m 3,0 h 2 v 2.0000001 h -2 z m 3,0 h 2 v 2.0000001 h -2 z m 3,0 h 2 v 2.0000001 h -2 z m 3,0 h 2 v 2.0000001 h -2 z m 3,0 h 2 v 2.0000001 h -2 z m 3,0 h 2 v 2.0000001 h -2 z m 3,0 h 2 v 2.0000001 h -2 z m 3,0 h 2 v 2.0000001 h -2 z m 3,0 h 2 V 11.998047 H 40 Z M 13,12.998047 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m -27,3 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m -33,3 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m -36,3 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m -36,3 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m -36,3 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m -36,3 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m -36,3 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m -36,3 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 v -1 z m 3,0 h 2 v 2 h -2 v -1 z m 3,0 h 2 v 2 h -2 v -1 z m 3,0 h 2 v 2 h -2 v -1 z m 3,0 h 2 v 2 h -2 v -1 z m 3,0 h 2 v 2 h -2 v -1 z m 3,0 h 2 v 2 h -2 v -1 z m 3,0 h 2 v 2 h -2 v -1 z m 3,0 h 2 v 2 h -2 v -1 z m 3,0 h 2 v 2 h -2 v -1 z m 3,0 h 2 v 2 h -2 z m -36,3 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 v -1 z m 3,0 h 2 v 2 h -2 v -1 z m 3,0 h 2 v 2 h -2 v -1 z m 3,0 h 2 v 2 h -2 v -1 z m 3,0 h 2 v 2 h -2 v -1 z m 3,0 h 2 v 2 h -2 v -1 z m 3,0 h 2 v 2 h -2 v -1 z m 3,0 h 2 v 2 h -2 v -1 z m 3,0 h 2 v 2 h -2 v -1 z m 3,0 h 2 v 2 h -2 v -1 z m -36,3 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m -36,3 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m -36,3 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 v -1 z m 3,0 h 2 v 2 h -2 v -1 z m 3,0 h 2 v 2 h -2 v -1 z m -36,3 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m -36,3 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z m 3,0 h 2 v 2 h -2 z"
+     sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccsccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccscccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
+  <path
+     id="primary-color-6-5"
+     style="opacity:0.1;fill:#eef8ff;fill-opacity:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;stop-color:#000000"
+     d="m 13,4 c -1.662,0 -3,1.338 -3,3 v 50 c 0,1.662 1.338,3 3,3 h 38 c 1.662,0 3,-1.338 3,-3 V 18 L 45,13 40,4 Z" />
+  <rect
+     style="opacity:0.615007;fill:#ffcc00;fill-opacity:1;stroke:none;stroke-width:2.28572;stroke-linecap:round;stroke-opacity:0;-inkscape-stroke:none;paint-order:stroke fill markers;stop-color:#000000"
+     id="emblem"
+     width="32"
+     height="32"
+     x="16"
+     y="22" />
+  <path
+     id="primary-color-6"
+     style="opacity:0.2;fill:url(#radialGradient1943);fill-opacity:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;stop-color:#000000"
+     d="m 13,4 c -1.662,0 -3,1.338 -3,3 v 50 c 0,1.662 1.338,3 3,3 h 38 c 1.662,0 3,-1.338 3,-3 V 18 L 45,13 40,4 Z" />
+  <path
+     id="icon-color-secondary"
+     fill="currentColor"
+     style="opacity:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;stop-color:#000000"
+     d="m 40,4 v 11 c 0,1.662 1.338,3 3,3 h 11 z" />
+  <path
+     id="primary-color-6-1"
+     style="opacity:0.2;fill:#000406;fill-opacity:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;stop-color:#000000"
+     d="M 10 56 L 10 57 C 10 58.662 11.338 60 13 60 L 51 60 C 52.662 60 54 58.662 54 57 L 54 56 C 54 57.662 52.662 59 51 59 L 13 59 C 11.338 59 10 57.662 10 56 z " />
+  <path
+     id="primary-color-6-1-3"
+     style="opacity:0.2;fill:#000406;fill-opacity:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;stop-color:#000000"
+     d="M 10 56.5 L 10 57 C 10 58.662 11.338 60 13 60 L 51 60 C 52.662 60 54 58.662 54 57 L 54 56.5 C 54 58.162 52.662 59.5 51 59.5 L 13 59.5 C 11.338 59.5 10 58.162 10 56.5 z " />
+  <path
+     id="primary-color-6-1-0"
+     style="opacity:0.2;fill:#ffffff;fill-opacity:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;stop-color:#000000"
+     d="M 13 4 C 11.338 4 10 5.338 10 7 L 10 8 C 10 6.338 11.338 5 13 5 L 40 5 L 40 4 L 13 4 z " />
+  <path
+     id="primary-color-6-1-3-6"
+     style="opacity:0.2;fill:#ffffff;fill-opacity:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;stop-color:#000000"
+     d="m 13,4 c -1.662,0 -3,1.338 -3,3 v 0.5 c 0,-1.662 1.338,-3 3,-3 H 40 V 4 Z" />
+  <path
+     id="path3152-6"
+     style="color:#000000;fill:#000000;-inkscape-stroke:none;fill-opacity:0.99741685;opacity:0.1"
+     d="M 40 4 L 40 5.4140625 L 52.585938 18 L 54 18 L 40 4 z " />
+  <path
+     id="path3152"
+     style="color:#000000;fill:#000000;-inkscape-stroke:none;fill-opacity:0.99741685;opacity:0.1"
+     d="M 40 4 L 40 4.7070312 L 53.292969 18 L 54 18 L 40 4 z " />
+  <path
+     id="document-flap"
+     style="opacity:0.4;fill:#fefeff;fill-opacity:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;stop-color:#000000"
+     d="m 40,4 v 11 c 0,1.662 1.338,3 3,3 h 11 z" />
+  <path
+     id="secondary-color-3-7"
+     style="opacity:0.2;fill:#000307;fill-opacity:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;stop-color:#000000"
+     d="M 40 15 L 40 16 C 40 17.662 41.338 19 43 19 L 54 19 L 54 18 L 43 18 C 41.338 18 40 16.662 40 15 z " />
+  <path
+     id="secondary-color-3-7-2"
+     style="opacity:0.2;fill:#000307;fill-opacity:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;stop-color:#000000"
+     d="M 40 15 L 40 15.5 C 40 17.162 41.338 18.5 43 18.5 L 54 18.5 L 54 18 L 43 18 C 41.338 18 40 16.662 40 15 z " />
+</svg>

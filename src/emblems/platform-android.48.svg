@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg height="48" version="1.1" viewBox="0 0 48 48" width="48" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <namedview bordercolor="#666666" borderopacity="1.0" id="namedview-conformist" pagecolor="#ffffff" pageopacity="0.0" pageshadow="0" showgrid="true">
+  <grid class="ColorScheme-Background" empspacing="4" fill="currentColor" opacity="0.6" type="xygrid"/>
+ </namedview>
+ <defs id="primary-definitions">
+  <style class="ColorScheme-Background" fill="currentColor" opacity="0.6" type="text/css">
+   .ColorScheme-Text           { color:#eff0f1; }
+      .ColorScheme-Background     { color:#31363b; }
+      .ColorScheme-Highlight      { color:#3daefd; }
+      .ColorScheme-ViewBackground { color:#fcfcfc; }
+      .ColorScheme-PositiveText   { color:#27ae60; }
+      .ColorScheme-NeutralText    { color:#f67400; }
+      .ColorScheme-NegativeText   { color:#da4453; }
+  </style>
+ </defs>
+ <path class="ColorScheme-Background" d="M 24.5,11 A 21,21 0 0 0 8.9101562,17.996094 L 4.2070312,13.292969 A 1,1 0 0 0 3.5,13 a 1,1 0 0 0 -0.7070312,0.292969 1,1 0 0 0 0,1.414062 L 7.625,19.539062 A 21,21 0 0 0 3.5,32 v 3 c 0,1.662 1.338,3 3,3 h 36 c 1.662,0 3,-1.338 3,-3 V 32 A 21,21 0 0 0 41.388672,19.525391 l 4.818359,-4.81836 a 1,1 0 0 0 0,-1.414062 1,1 0 0 0 -1.414062,0 L 40.117188,17.96875 A 21,21 0 0 0 24.5,11 Z M 15,23 a 3,3 0 0 1 3,3 3,3 0 0 1 -3,3 3,3 0 0 1 -3,-3 3,3 0 0 1 3,-3 z m 18,0 a 3,3 0 0 1 3,3 3,3 0 0 1 -3,3 3,3 0 0 1 -3,-3 3,3 0 0 1 3,-3 z" fill="currentColor" opacity="0.6" paint-order="stroke fill markers" stop-color="#000000" stroke-linecap="round" stroke-linejoin="round"/>
+ <path class="ColorScheme-Background" d="M 24.5,11 A 21,21 0 0 0 8.9101562,17.996094 L 4.2070312,13.292969 A 1,1 0 0 0 3.5,13 a 1,1 0 0 0 -0.7070312,0.292969 1,1 0 0 0 0,1.414062 L 7.625,19.539062 A 21,21 0 0 0 3.5,32 v 3 c 0,1.662 1.338,3 3,3 h 36 c 1.662,0 3,-1.338 3,-3 V 32 A 21,21 0 0 0 41.388672,19.525391 l 4.818359,-4.81836 a 1,1 0 0 0 0,-1.414062 1,1 0 0 0 -1.414062,0 L 40.117188,17.96875 A 21,21 0 0 0 24.5,11 Z m 0,0.5 h 0.002 c 5.81632,0.0026 11.357898,2.475216 15.244141,6.802734 a 0.50005,0.50005 0 0 0 0.724609,0.01953 l 4.675781,-4.675782 c 0.199439,-0.199396 0.507593,-0.199396 0.707032,0 0.199396,0.199439 0.199396,0.507593 0,0.707032 l -4.81836,4.818359 a 0.50005,0.50005 0 0 0 -0.04883,0.650391 C 43.591759,23.347961 44.998687,27.616022 45,32 v 3 c 0,1.393647 -1.106353,2.5 -2.5,2.5 H 6.5 C 5.1063528,37.5 4,36.393647 4,35 V 32 C 4.00803,27.619084 5.4197715,23.356315 8.0273438,19.835938 A 0.50005,0.50005 0 0 0 7.9785156,19.185547 L 3.1464844,14.353516 c -0.1993959,-0.199439 -0.1993959,-0.507593 0,-0.707032 C 3.2403728,13.552576 3.3672075,13.50002 3.5,13.5 c 0.1327925,2e-5 0.2596272,0.05258 0.3535156,0.146484 l 4.703125,4.703125 a 0.50005,0.50005 0 0 0 0.7265625,-0.01953 C 13.158425,13.999576 18.68884,11.516941 24.5,11.5 Z m -9.5,11 c -1.927072,0 -3.5,1.572928 -3.5,3.5 0,1.927072 1.572928,3.5 3.5,3.5 1.927072,0 3.5,-1.572928 3.5,-3.5 0,-1.927072 -1.572928,-3.5 -3.5,-3.5 z m 18,0 c -1.927072,0 -3.5,1.572928 -3.5,3.5 0,1.927072 1.572928,3.5 3.5,3.5 1.927072,0 3.5,-1.572928 3.5,-3.5 0,-1.927072 -1.572928,-3.5 -3.5,-3.5 z M 15,23 a 3,3 0 0 1 3,3 3,3 0 0 1 -3,3 3,3 0 0 1 -3,-3 3,3 0 0 1 3,-3 z m 18,0 a 3,3 0 0 1 3,3 3,3 0 0 1 -3,3 3,3 0 0 1 -3,-3 3,3 0 0 1 3,-3 z" fill="currentColor" opacity="0.6" paint-order="stroke fill markers" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
