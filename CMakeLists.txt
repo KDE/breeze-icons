@@ -22,6 +22,8 @@ include(KDEGitCommitHooks)
 include(KDEFrameworkCompilerSettings NO_POLICY_SCOPE)
 include(GtkUpdateIconCache)
 
+include(BundleResources)
+
 # Dependencies
 set(REQUIRED_QT_VERSION 5.15.2)
 
@@ -53,52 +55,29 @@ add_feature_info("Icon generation" ${WITH_ICON_GENERATION} "for 24x24 icons.
 ) # The exact amount of indentation used in the line(s) above is intentional
 
 # When cross-compiling, we should compile qrcAlias natively (against a native Qt build)
-if (CMAKE_CROSSCOMPILING)
-    set(BINARY_ICONS_RESOURCE_OPTION_DEFAULT OFF)
-else()
-    set(BINARY_ICONS_RESOURCE_OPTION_DEFAULT ON)
-endif()
+set(BINARY_ICONS_RESOURCE_OPTION_DEFAULT ON)
 
 option(BINARY_ICONS_RESOURCE "Install Qt binary resource files containing breeze icons (breeze-icons.rcc, breeze-icons-dark.rcc)" ${BINARY_ICONS_RESOURCE_OPTION_DEFAULT})
 option(SKIP_INSTALL_ICONS "Skip installing the icons files" OFF)
 
 if(BINARY_ICONS_RESOURCE)
-    find_package(Qt5 NO_MODULE REQUIRED Core)
-    add_executable(qrcAlias qrcAlias.cpp)
-    target_link_libraries(qrcAlias PUBLIC Qt5::Core)
 
 function(generate_binary_resource target outfile)
     set(RESOURCES_WORKING_DIR ${CMAKE_CURRENT_BINARY_DIR}/res)
-    set(RESOURCE_FILE ${RESOURCES_WORKING_DIR}/breeze-${target}.qrc)
+    set(RESOURCE_FILE ${CMAKE_CURRENT_BINARY_DIR}/breeze-${target}.qrc)
     set(BINARY_RESOURCE_FILE ${CMAKE_CURRENT_BINARY_DIR}/breeze-${target}.rcc)
-
-    # Use $<IF:$<BOOL:${MSVC}>,PATH,LD_LIBRARY_PATH> instead of ${pathVarName} once CMake 3.8 is minimum
-    if(MSVC)
-        set(pathVarName PATH)
-    else()
-        set(pathVarName LD_LIBRARY_PATH)
-    endif()
 
     get_target_property(QT_RCC_EXECUTABLE Qt5::rcc LOCATION)
 
-    add_custom_target(breeze-${target}-mkdir
-        COMMAND ${CMAKE_COMMAND} -E make_directory ${RESOURCES_WORKING_DIR}
-    )
-    add_custom_command(OUTPUT ${RESOURCE_FILE}
-        COMMAND ${CMAKE_COMMAND} -E copy_directory ${CMAKE_CURRENT_SOURCE_DIR} ${RESOURCES_WORKING_DIR}
-        COMMAND ${CMAKE_COMMAND} -E remove
-            ${RESOURCE_FILE}
-            ${RESOURCE_FILE}.depends
-            ${RESOURCES_WORKING_DIR}/.gitignore
-            ${RESOURCES_WORKING_DIR}/CMakeLists.txt
-        COMMAND ${QT_RCC_EXECUTABLE} --project -o ${CMAKE_CURRENT_BINARY_DIR}/tmp.qrc
-        COMMAND ${CMAKE_COMMAND} -E env
-            ${pathVarName}=$<TARGET_FILE_DIR:Qt5::Core>
-            $<TARGET_FILE:qrcAlias> -i ${CMAKE_CURRENT_BINARY_DIR}/tmp.qrc -o ${RESOURCE_FILE}
 
-        WORKING_DIRECTORY ${RESOURCES_WORKING_DIR}
-        DEPENDS breeze-${target}-mkdir
+    file(GLOB_RECURSE SVGS FOLLOW_SYMLINKS "${PROJECT_SOURCE_DIR}/icons/*.svg")
+    add_resources_to_target(
+        TARGET breeze-${target}
+        PREFIX "."
+        FILES "${SVGS}"
+        ROOT "${PROJECT_SOURCE_DIR}/icons"
     )
+
     add_custom_command(OUTPUT ${BINARY_RESOURCE_FILE}
         COMMAND ${QT_RCC_EXECUTABLE} --binary
                     -o ${BINARY_RESOURCE_FILE}
@@ -134,7 +113,7 @@ endif()
 
 add_subdirectory(autotests)
 add_subdirectory(icons)
-add_subdirectory(icons-dark)
+#add_subdirectory(icons-dark)
 
 feature_summary(WHAT ALL FATAL_ON_MISSING_REQUIRED_PACKAGES INCLUDE_QUIET_PACKAGES)
 

@@ -27,4 +27,10 @@ if(BUILD_TESTING)
             WORKING_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}
         )
     endif()
+    if (BINARY_ICONS_RESOURCE)
+        ecm_add_test(testrcc.cpp
+            TEST_NAME "testrcc"
+            LINK_LIBRARIES Qt5::Test
+        )
+    endif()
 endif()
