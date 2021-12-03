@@ -1,30 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="64" height="64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <sodipodi:namedview
-     id="namedview-conformist"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageshadow="0"
-     inkscape:pageopacity="0.0"
-     showgrid="true">
-    <inkscape:grid
-       id="grid-conformist"
-       type="xygrid"
-       empspacing="4" />
-  </sodipodi:namedview>
-  <defs id="primary-definitions">
-    <style type="text/css" id="current-color-scheme">
-      .ColorScheme-Text           { color:#fff; }
+<?xml version="1.0" encoding="utf-8"?><svg height="64" width="64" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><namedview bordercolor="#666666" borderopacity="1.0" pagecolor="#ffffff" pageopacity="0.0" pageshadow="0" showgrid="true"><grid empspacing="4" type="xygrid"/></namedview><defs id="primary-definitions"><style id="current-color-scheme" type="text/css">.ColorScheme-Text           { color:#fff; }
       .ColorScheme-Background     { color:#111; }
       .ColorScheme-Highlight      { color:#3daefd; }
       .ColorScheme-ViewBackground { color:#000; }
       .ColorScheme-PositiveText   { color:#27ae60; }
       .ColorScheme-NeutralText    { color:#f67400; }
       .ColorScheme-NegativeText   { color:#da4453; }
-    </style>
-    <style type="text/css" id="extended-color-scheme">
-      .ExScheme-Black     { color:#172525; }
+    </style><style id="extended-color-scheme" type="text/css">.ExScheme-Black     { color:#172525; }
       .ExScheme-White     { color:#fcfcfc; }
       .ExScheme-Grey-1    { color:#cfd5d5; }
       .ExScheme-Grey-2    { color:#909c9c; }
@@ -56,14 +37,4 @@
       .ExScheme-Magenta-1 { color:#f8a6d8; }
       .ExScheme-Magenta-2 { color:#f00091; }
       .ExScheme-Magenta-3 { color:#770048; }
-    </style>
-    <linearGradient id="gradientDark">
-      <stop stop-opacity="1" offset="0" stop-color="#000" />
-      <stop stop-opacity="0" offset="1" stop-color="#000" />
-    </linearGradient>
-    <linearGradient id="gradientLight">
-      <stop stop-opacity="1" offset="0" stop-color="#fff" />
-      <stop stop-opacity="0" offset="1" stop-color="#fff" />
-    </linearGradient>
-  </defs>
-</svg>
+    </style><linearGradient id="gradientDark"><stop offset="0"/><stop offset="1" stop-opacity="0"/></linearGradient><linearGradient id="gradientLight"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient></defs></svg>
