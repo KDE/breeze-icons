@@ -1,1 +1,90 @@
-user-desktop.svg
+<svg height="32" version="1.1" width="32" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs id="primary-definitions">
+<style id="current-color-scheme" type="text/css">
+      .ColorScheme-Text           { color:#fff; }
+      .ColorScheme-Background     { color:#111; }
+      .ColorScheme-Highlight      { color:#3daefd; }
+      .ColorScheme-ViewBackground { color:#000; }
+      .ColorScheme-PositiveText   { color:#27ae60; }
+      .ColorScheme-NeutralText    { color:#f67400; }
+      .ColorScheme-NegativeText   { color:#da4453; }
+    </style>
+<style id="extended-color-scheme" type="text/css">
+      .ExScheme-Black     { color:#3e3e3e; }
+      .ExScheme-White     { color:#fcfcfc; }
+      .ExScheme-Grey-1    { color:#cfd5d5; }
+      .ExScheme-Grey-2    { color:#909c9c; }
+      .ExScheme-Grey-3    { color:#536161; }
+      .ExScheme-Red-1     { color:#ffafa5; }
+      .ExScheme-Red-2     { color:#bf4231; }
+      .ExScheme-Red-3     { color:#4d2f2b; }
+      .ExScheme-Green-1   { color:#abf9c7; }
+      .ExScheme-Green-2   { color:#3bb566; }
+      .ExScheme-Green-3   { color:#377d50; }
+      .ExScheme-Blue-1    { color:#abdaf9; }
+      .ExScheme-Blue-2    { color:#3daefd; }
+      .ExScheme-Blue-3    { color:#2b3c4d; }
+      .ExScheme-Yellow-1  { color:#faffa5; }
+      .ExScheme-Yellow-2  { color:#cac726; }
+      .ExScheme-Yellow-3  { color:#4b4d2b; }
+      .ExScheme-Orange-1  { color:#ffdaa5; }
+      .ExScheme-Orange-2  { color:#ff9701; }
+      .ExScheme-Orange-3  { color:#4d372b; }
+      .ExScheme-Brown-1   { color:#e9d6bb; }
+      .ExScheme-Brown-2   { color:#997657; }
+      .ExScheme-Brown-3   { color:#433a35; }
+      .ExScheme-Purple-1  { color:#e2abf9; }
+      .ExScheme-Purple-2  { color:#b401ff; }
+      .ExScheme-Purple-3  { color:#432b4d; }
+      .ExScheme-Cyan-1    { color:#b2f2e6; }
+      .ExScheme-Cyan-2    { color:#31bfa6; }
+      .ExScheme-Cyan-3    { color:#2b4d47; }
+      .ExScheme-Magenta-1 { color:#f8a6d8; }
+      .ExScheme-Magenta-2 { color:#f00091; }
+      .ExScheme-Magenta-3 { color:#770048; }
+    </style>
+<linearGradient id="u4M">
+<stop offset="0"/>
+<stop offset="1" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="u4N">
+<stop offset="0" stop-color="#fff"/>
+<stop offset="1" stop-color="#fff" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="u4O">
+<stop offset="0" stop-color="#172525"/>
+<stop offset="1" stop-color="#172525" stop-opacity="0"/>
+</linearGradient><linearGradient gradientTransform="rotate(-20.84 -5.56 73.9)" gradientUnits="userSpaceOnUse" id="u4P" x1="-12" x2="-12" xlink:href="#u4M" y1="33" y2="31"/><radialGradient cx="19.74" cy="-20.34" gradientTransform="matrix(-.33 .1 -.03 -.1 31.9 3.93)" gradientUnits="userSpaceOnUse" id="u4Q" r="15" spreadMethod="reflect" xlink:href="#u4M"/><linearGradient gradientTransform="matrix(.8 .16 -.13 .65 13.03 1.4)" gradientUnits="userSpaceOnUse" id="u4R" x1="9" x2="9" xlink:href="#u4M" y1="14" y2="20"/><linearGradient id="u4S" xlink:href="#u4M" y1="1" y2="0"/><linearGradient gradientTransform="matrix(-1,0,0,1,32,1)" gradientUnits="userSpaceOnUse" id="u4T" x1="21.07" x2="24.74" xlink:href="#u4O" y1="24.96" y2="18.89"/><linearGradient gradientUnits="userSpaceOnUse" id="u4U" x1="23.6" x2="22.05" xlink:href="#u4O" y1="19.29" y2="14.47"/><path d="M 2,6 1,13 V 25 h 6 l 23,-10 z" id="u4V"></path><path d="m3 4c-1.1 0-2 .9-2 2v7l1.13-.57 6.1-1.45.76.03 22 4.6v-9.57c0-1.1-.9-2-2-2z" id="u4W"></path></defs>
+<g id="content" transform="translate(0,0)"><path class="ColorScheme-Highlight" d="m15 21-14 4v1c0 1.1.9 2 2 2h26c1.1 0 2-.9 2-2v-1z" fill="currentColor"/><path d="m15 23-14 2v1c0 1.1.9 2 2 2h26c1.1 0 2-.9 2-2v-1z" fill="url(#u4T)"/><use class="ColorScheme-Highlight" fill="currentColor" href="#u4V"></use><use fill="url(#u4Q)" href="#u4V" opacity=".075"></use><use href="#u4V" opacity=".5"></use><path d="m31 14.1-28.7 10.9h10.7l18-6.85z" fill="url(#u4P)" opacity=".4"/><path d="m1.73 4.47c-.44.37-.73.9-.73 1.53v6.37l30 6.24v-7.43z" fill="url(#u4R)" opacity=".4"/><path d="m31 14.54-25.5 10.46h25.5z" fill="#334545"/><g opacity=".4">
+<path d="M 31,24.2 29.05,25 H 31 Z" opacity=".6"/>
+<path d="m19.34 24.15-.5.85h4.2z" opacity=".3"/>
+<path d="m28.7 22.7-5.54 2.3h4.25z" opacity=".6"/>
+<path d="m24.9 21.86-5.6 2.3 3.7.85h.1z" opacity=".5"/>
+<path d="m24.9 21.86-1.8 3.14h.03l5.54-2.3z" opacity=".7"/>
+<path d="m19.34 24.15-2.06.85h1.6z"/>
+<path d="m11.77 22.43-1.46 2.57h1.1l4.16-1.7z" opacity=".6"/>
+<path d="m15.56 23.3 5.6-2.3-1.8 3.15z" opacity=".3"/>
+<path d="m15.55 23.3-4.16 1.7h3.2z"/>
+<path d="m15.55 23.3-.97 1.7h2.7l2.06-.85z" opacity=".5"/>
+<path d="m11.77 22.43 5.6-2.3-1.8 3.15z" opacity=".5"/>
+<path d="m21.14 21-5.6 2.3 1.8-3.15z"/>
+<path d="m24.9 21.86-5.6 2.3 1.8-3.15z" opacity=".75"/>
+<path d="m11.77 22.43-5.6 2.3 1.23.3h2.9z"/>
+<path d="m6.2 24.7-.16.3h1.4z" opacity=".6"/>
+<path d="m24.9 21.86 5.6-2.3-1.8 3.15z" opacity=".6"/>
+<path d="m31 16.95-4.3 1.76 3.8.86.5-.87z" opacity=".6"/>
+<path d="m21.14 21 5.6-2.3-1.8 3.15z" opacity=".3"/>
+<path d="m30.5 19.57-5.6 2.3 1.8-3.15z"/>
+<path d="m31 19.37-.5.2.5.1z" opacity=".6"/>
+<path d="m30.5 19.57-1.8 3.15 2.3-.94v-2.1z"/>
+<path d="m17.35 20.14 5.6-2.3-1.8 3.15z" opacity=".5"/>
+<path d="m28.7 22.7-1.3 2.3h1.64l1.95-.8v-.95z" opacity=".5"/>
+<path d="m31 21.8-2.3.94 2.3.5z" opacity=".75"/>
+<path d="m22.93 17.85 5.6-2.3-1.8 3.15z"/>
+<path d="m26.7 18.7-5.6 2.3 1.8-3.15z" opacity=".6"/>
+<path d="m28.5 15.55-1.8 3.15 4.3-1.76v-.83z" opacity=".75"/>
+<path d="m31 14.54-2.5 1 2.5.57z" opacity=".5"/>
+<path d="m31 18.7-.5.87.5-.2z" opacity=".6"/>
+<path d="m31 14.54-25.5 10.46h1.2l24.3-9.96z"/>
+</g><path d="m3 4c-1.1 0-2 .9-2 2v7l1.13-.57 6.1-1.45.76.03 22 4.6v-9.57c0-1.1-.9-2-2-2z"/><use class="ColorScheme-Highlight" fill="currentColor" href="#u4W" opacity=".6"></use><use class="ColorScheme-NeutralText" fill="currentColor" href="#u4W" opacity=".15"></use><path class="ColorScheme-NeutralText" d="m3 4c-1.1 0-2 .9-2 2v7l1.13-.57 6.1-1.45.76.03 22.83v-5.8c0-1.1-.9-2-2-2z" fill="currentColor" opacity=".15"/><path class="ColorScheme-NeutralText" d="m3 4c-1.1 0-2 .9-2 2v7l1.13-.57 28.37-7.7c-.37-.4-.9-.7-1.5-.7z" fill="currentColor" opacity=".15"/><path class="ColorScheme-NeutralText" d="m3 4c-1.1 0-2 .9-2 2v7l15.7-9z" fill="currentColor" opacity=".15"/><path d="m11.73 11.1-2.73-.1 22 4.6v-3.74z" fill="url(#u4U)" opacity=".6"/><path d="m15.67 4-14.67 8.46v.5l1-.55 6.2-1.47.8.03 22 4.6v-.47l-19.2-4 19.2.73v-.46l-22.26-.74 21.76-5.93c-.1-.15-.26-.26-.4-.37l-27.07 7.5 13.7-7.83z" fill="#fffefc" opacity=".15"/><path class="ColorScheme-Background" d="m1 25v1c0 1.1.9 2 2 2h26c1.1 0 2-.9 2-2v-1z" fill="currentColor" opacity=".8"/><rect class="ColorScheme-Background" fill="currentColor" height=".5" opacity=".2" width="30" x="1" y="25"/><rect fill="url(#u4S)" height="1" opacity=".2" width="30" x="1" y="24"/><rect class="ColorScheme-Text" fill="currentColor" height="1" ry=".5" width="1" x="25" y="26"/><rect class="ColorScheme-Text" fill="currentColor" height="1" ry=".5" width="1" x="3" y="26"/><rect class="ColorScheme-Text" fill="currentColor" height="1" ry=".5" width="2" x="27" y="26"/><path d="m1 7v-1c0-1.1.9-2 2-2h26c1.1 0 2 .9 2 2v1c0-1.1-.9-2-2-2h-26c-1.1 0-2 .9-2 2z" fill="#fff" opacity=".1"/><path d="m1 6.5v-.5c0-1.1.9-2 2-2h26c1.1 0 2 .9 2 2v.5c0-1.1-.9-2-2-2h-26c-1.1 0-2 .9-2 2z" fill="#fff" opacity=".1"/><path class="ColorScheme-Text" d="m1 25v1c0 1.1.9 2 2 2h26c1.1 0 2-.9 2-2v-1c0 1.1-.9 2-2 2h-26c-1.1 0-2-.9-2-2z" fill="currentColor" opacity=".1"/><path class="ColorScheme-Text" d="m1 25.5v.5c0 1.1.9 2 2 2h26c1.1 0 2-.9 2-2v-.5c0 1.1-.9 2-2 2h-26c-1.1 0-2-.9-2-2z" fill="currentColor" opacity=".1"/></g>
+</svg>

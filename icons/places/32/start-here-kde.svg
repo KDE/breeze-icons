@@ -1,0 +1,56 @@
+<svg height="32" version="1.1" width="32" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs id="primary-definitions">
+<style id="current-color-scheme" type="text/css">
+      .ColorScheme-Text           { color:#fff; }
+      .ColorScheme-Background     { color:#111; }
+      .ColorScheme-Highlight      { color:#3daefd; }
+      .ColorScheme-ViewBackground { color:#000; }
+      .ColorScheme-PositiveText   { color:#27ae60; }
+      .ColorScheme-NeutralText    { color:#f67400; }
+      .ColorScheme-NegativeText   { color:#da4453; }
+    </style>
+<style id="extended-color-scheme" type="text/css">
+      .ExScheme-Black     { color:#3e3e3e; }
+      .ExScheme-White     { color:#fcfcfc; }
+      .ExScheme-Grey-1    { color:#cfd5d5; }
+      .ExScheme-Grey-2    { color:#909c9c; }
+      .ExScheme-Grey-3    { color:#536161; }
+      .ExScheme-Red-1     { color:#ffafa5; }
+      .ExScheme-Red-2     { color:#bf4231; }
+      .ExScheme-Red-3     { color:#4d2f2b; }
+      .ExScheme-Green-1   { color:#abf9c7; }
+      .ExScheme-Green-2   { color:#3bb566; }
+      .ExScheme-Green-3   { color:#377d50; }
+      .ExScheme-Blue-1    { color:#abdaf9; }
+      .ExScheme-Blue-2    { color:#3daefd; }
+      .ExScheme-Blue-3    { color:#2b3c4d; }
+      .ExScheme-Yellow-1  { color:#faffa5; }
+      .ExScheme-Yellow-2  { color:#cac726; }
+      .ExScheme-Yellow-3  { color:#4b4d2b; }
+      .ExScheme-Orange-1  { color:#ffdaa5; }
+      .ExScheme-Orange-2  { color:#ff9701; }
+      .ExScheme-Orange-3  { color:#4d372b; }
+      .ExScheme-Brown-1   { color:#e9d6bb; }
+      .ExScheme-Brown-2   { color:#997657; }
+      .ExScheme-Brown-3   { color:#433a35; }
+      .ExScheme-Purple-1  { color:#e2abf9; }
+      .ExScheme-Purple-2  { color:#b401ff; }
+      .ExScheme-Purple-3  { color:#432b4d; }
+      .ExScheme-Cyan-1    { color:#b2f2e6; }
+      .ExScheme-Cyan-2    { color:#31bfa6; }
+      .ExScheme-Cyan-3    { color:#2b4d47; }
+      .ExScheme-Magenta-1 { color:#f8a6d8; }
+      .ExScheme-Magenta-2 { color:#f00091; }
+      .ExScheme-Magenta-3 { color:#770048; }
+    </style>
+<linearGradient id="uHx">
+<stop offset="0"/>
+<stop offset="1" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="uHy">
+<stop offset="0" stop-color="#fff"/>
+<stop offset="1" stop-color="#fff" stop-opacity="0"/>
+</linearGradient>
+</defs>
+<g id="content" transform="translate(0,0)"><path class="ColorScheme-Text" d="m 20,4 -3,3 5,5 -5,5 3,3 8,-8 z" fill="currentColor"/><path class="ColorScheme-NeutralText" d="M 10,4 A 2,2 0 0 0 8,6 2,2 0 0 0 10,8 2,2 0 0 0 12,6 2,2 0 0 0 10,4 Z" fill="currentColor"/><path class="ColorScheme-PositiveText" d="M 6.5,13 A 2.5,2.5 0 0 0 4,15.5 2.5,2.5 0 0 0 6.5,18 2.5,2.5 0 0 0 9,15.5 2.5,2.5 0 0 0 6.5,13 Z" fill="currentColor"/><path class="ColorScheme-Highlight" d="m 13,22 a 3,3 0 0 0 -3,3 3,3 0 0 0 3,3 3,3 0 0 0 3,-3 3,3 0 0 0 -3,-3 z" fill="currentColor"/><path class="ColorScheme-Text" d="M 10,4 A 2,2 0 0 0 8,6 2,2 0 0 0 10,8 2,2 0 0 0 12,6 2,2 0 0 0 10,4 Z m 0,0.5 a 1,1 0 0 1 1,1 1,1 0 0 1 -1,1 1,1 0 0 1 -1,-1 1,1 0 0 1 1,-1 z M 6.5,13 A 2.5,2.5 0 0 0 4,15.5 2.5,2.5 0 0 0 6.5,18 2.5,2.5 0 0 0 9,15.5 2.5,2.5 0 0 0 6.5,13 Z m 0,0.5 A 1.5,1.5 0 0 1 8,15 1.5,1.5 0 0 1 6.5,16.5 1.5,1.5 0 0 1 5,15 1.5,1.5 0 0 1 6.5,13.5 Z M 13,22 a 3,3 0 0 0 -3,3 3,3 0 0 0 3,3 3,3 0 0 0 3,-3 3,3 0 0 0 -3,-3 z m 0,0.5 a 2,2 0 0 1 2,2 2,2 0 0 1 -2,2 2,2 0 0 1 -2,-2 2,2 0 0 1 2,-2 z" fill="currentColor" opacity=".1"/><path class="ColorScheme-Text" d="M 10 4 A 2 2 0 0 0 8 6 A 2 2 0 0 0 10 8 A 2 2 0 0 0 12 6 A 2 2 0 0 0 10 4 z M 10 4.25 A 1.5 1.5 0 0 1 11.5 5.75 A 1.5 1.5 0 0 1 10 7.25 A 1.5 1.5 0 0 1 8.5 5.75 A 1.5 1.5 0 0 1 10 4.25 z M 6.5 13 A 2.5 2.5 0 0 0 4 15.5 A 2.5 2.5 0 0 0 6.5 18 A 2.5 2.5 0 0 0 9 15.5 A 2.5 2.5 0 0 0 6.5 13 z M 6.5 13.25 A 2 2 0 0 1 8.5 15.25 A 2 2 0 0 1 6.5 17.25 A 2 2 0 0 1 4.5 15.25 A 2 2 0 0 1 6.5 13.25 z M 13 22 A 3 3 0 0 0 10 25 A 3 3 0 0 0 13 28 A 3 3 0 0 0 16 25 A 3 3 0 0 0 13 22 z M 13 22.25 A 2.5 2.5 0 0 1 15.5 24.75 A 2.5 2.5 0 0 1 13 27.25 A 2.5 2.5 0 0 1 10.5 24.75 A 2.5 2.5 0 0 1 13 22.25 z " fill="currentColor" opacity=".2"/></g>
+</svg>
