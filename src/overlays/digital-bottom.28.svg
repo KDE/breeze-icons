@@ -3,18 +3,63 @@
    viewBox="0 0 28 20"
    version="1.1"
    id="svg6"
-   sodipodi:docname="overlay-digital-bottom.28.svg"
+   sodipodi:docname="digital-bottom.28.svg"
    inkscape:version="1.1.1 (1:1.1+202109281949+c3084ef5ed)"
    width="28"
    height="20"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
-  <path
-     fill="#fff"
-     opacity=".2"
-     d="m 18,20 v -2 h -2 v 2 z m -4,0 v -2 h -2 v 2 z m -4,0 V 18 H 8 v 2 z M 8,18 V 16 H 6 v 2 z M 6,18 H 4 v 2 H 6 Z M 4,18 V 16 H 2 v 2 z M 2,18 H 0 c 0,1.108 0.892,2 2,2 z M 2,16 V 14 H 0 v 2 z M 2,14 H 4 V 13 H 2 Z M 2,13 V 11 H 1 v 2 z m 2,1 v 2 h 2 v -2 z m 22,6 v -2 h -2 v 2 z m -2,-2 v -2 h -2 v 2 z m -2,0 h -2 v 2 h 2 z m 2,-2 h 2 v -2 h -2 z m 2,-2 h 1 v -1 h -1 z m 0,2 v 2 h 2 v -2 z" />
+  <defs
+     id="defs8">
+    <radialGradient
+       xlink:href="#gradientLight"
+       id="gl1"
+       cx="13.522468"
+       cy="9.4657277"
+       r="23.664319"
+       gradientTransform="scale(1.183216,0.84515425)"
+       fx="13.522468"
+       fy="9.4657277"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="gradientLight">
+      <stop
+         stop-opacity="1"
+         offset="0"
+         stop-color="#fff"
+         id="stop9" />
+      <stop
+         stop-opacity="0"
+         offset="1"
+         stop-color="#fff"
+         id="stop11" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="true"
+     inkscape:zoom="31.8"
+     inkscape:cx="0.72327044"
+     inkscape:cy="14.465409"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6">
+    <inkscape:grid
+       type="xygrid"
+       id="grid1168" />
+  </sodipodi:namedview>
   <rect
      fill="#ffcc00"
      id="emblem"
@@ -22,4 +67,8 @@
      height="16"
      x="6"
      y="2" />
+  <path
+     id="rect1192"
+     style="opacity:0.2;fill:#ffffff;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;stop-color:#000000;fill-opacity:1"
+     d="M 1 18 L 1 19 L 2 19 L 2 18 L 1 18 z M 2 19 L 2 20 L 3 20 L 3 19 L 2 19 z M 3 19 L 4 19 L 4 18 L 3 18 L 3 19 z M 4 19 L 4 20 L 5 20 L 5 19 L 4 19 z M 5 19 L 6 19 L 6 18 L 5 18 L 5 19 z M 6 19 L 6 20 L 7 20 L 7 19 L 6 19 z M 7 19 L 8 19 L 8 18 L 7 18 L 7 19 z M 8 19 L 8 20 L 9 20 L 9 19 L 8 19 z M 9 19 L 10 19 L 10 18 L 9 18 L 9 19 z M 10 19 L 10 20 L 11 20 L 11 19 L 10 19 z M 11 19 L 12 19 L 12 18 L 11 18 L 11 19 z M 12 19 L 12 20 L 13 20 L 13 19 L 12 19 z M 13 19 L 14 19 L 14 18 L 13 18 L 13 19 z M 14 19 L 14 20 L 15 20 L 15 19 L 14 19 z M 15 19 L 16 19 L 16 18 L 15 18 L 15 19 z M 16 19 L 16 20 L 17 20 L 17 19 L 16 19 z M 17 19 L 18 19 L 18 18 L 17 18 L 17 19 z M 18 19 L 18 20 L 19 20 L 19 19 L 18 19 z M 19 19 L 20 19 L 20 18 L 19 18 L 19 19 z M 20 19 L 20 20 L 21 20 L 21 19 L 20 19 z M 21 19 L 22 19 L 22 18 L 21 18 L 21 19 z M 22 19 L 22 20 L 23 20 L 23 19 L 22 19 z M 23 19 L 24 19 L 24 18 L 23 18 L 23 19 z M 24 19 L 24 20 L 25 20 L 25 19 L 24 19 z M 25 19 L 26 19 L 26 18 L 25 18 L 25 19 z M 26 19 L 26 20 C 26.365224 20 26.705924 19.902047 27 19.732422 L 27 19 L 26 19 z M 27 19 L 27.732422 19 C 27.902047 18.705924 28 18.365224 28 18 L 27 18 L 27 19 z M 1 19 L 0.26757812 19 C 0.44292876 19.304001 0.69599869 19.557071 1 19.732422 L 1 19 z " />
 </svg>

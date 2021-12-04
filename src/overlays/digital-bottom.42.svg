@@ -3,7 +3,7 @@
    viewBox="0 0 42 30"
    version="1.1"
    id="svg6"
-   sodipodi:docname="overlay-digital-bottom.42.svg"
+   sodipodi:docname="digital-bottom.42.svg"
    inkscape:version="1.1.1 (1:1.1+202109281949+c3084ef5ed)"
    width="42"
    height="30"
@@ -12,10 +12,56 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
-  <path
-     fill="#fff"
-     opacity=".2"
-     d="m 24,30 h 3 v -3 h -3 z m -3,0 v -3 h -3 v 3 z m -6,0 v -3 h -3 v 3 z M 12,27 V 24 H 9 v 3 z M 9,27 H 6 v 3 H 9 Z M 6,27 V 24 H 3 v 3 z M 3,27 H 0 v 1 c 0,1.108 0.892,2 2,2 H 3 Z M 3,24 V 21 H 0 v 3 z M 3,21 H 6 V 19 H 3 Z M 3,19 V 17 H 2 v 2 z m 3,2 v 3 h 3 v -3 z m 33,9 v -3 h -3 v 3 z m -3,-3 v -3 h -3 v 3 z m -3,0 h -3 v 3 h 3 z m 3,-3 h 3 v -3 h -3 z m 3,-3 h 2 v -2 h -2 z m 0,3 v 3 h 3 v -3 z" />
+  <defs
+     id="defs831">
+    <radialGradient
+       xlink:href="#gradientLight"
+       id="gl1"
+       cx="20.283702"
+       cy="14.198591"
+       r="35.496479"
+       gradientTransform="scale(1.183216,0.84515425)"
+       fx="20.283702"
+       fy="14.198591"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="gradientLight">
+      <stop
+         stop-opacity="1"
+         offset="0"
+         stop-color="#fff"
+         id="stop9" />
+      <stop
+         stop-opacity="0"
+         offset="1"
+         stop-color="#fff"
+         id="stop11" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="namedview829"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="true"
+     inkscape:zoom="21.2"
+     inkscape:cx="9.1509434"
+     inkscape:cy="19.95283"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-nodes="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2065" />
+  </sodipodi:namedview>
   <rect
      id="emblem"
      fill="#ffcc00"
@@ -23,4 +69,8 @@
      height="24"
      x="9"
      y="3" />
+  <path
+     id="rect2089"
+     style="opacity:0.2;fill:#fffdf9;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;stop-color:#000000;fill-opacity:1"
+     d="M 0 27 L 0 28 L 1 28 L 1 27 L 0 27 z M 1 28 L 1 29 L 2 29 L 2 28 L 1 28 z M 2 28 L 3 28 L 3 27 L 2 27 L 2 28 z M 3 28 L 3 29 L 4 29 L 4 28 L 3 28 z M 4 28 L 5 28 L 5 27 L 4 27 L 4 28 z M 5 28 L 5 29 L 6 29 L 6 28 L 5 28 z M 6 28 L 7 28 L 7 27 L 6 27 L 6 28 z M 7 28 L 7 29 L 8 29 L 8 28 L 7 28 z M 8 28 L 9 28 L 9 27 L 8 27 L 8 28 z M 9 28 L 9 29 L 10 29 L 10 28 L 9 28 z M 10 28 L 11 28 L 11 27 L 10 27 L 10 28 z M 11 28 L 11 29 L 12 29 L 12 28 L 11 28 z M 12 28 L 13 28 L 13 27 L 12 27 L 12 28 z M 13 28 L 13 29 L 14 29 L 14 28 L 13 28 z M 14 28 L 15 28 L 15 27 L 14 27 L 14 28 z M 15 28 L 15 29 L 16 29 L 16 28 L 15 28 z M 16 28 L 17 28 L 17 27 L 16 27 L 16 28 z M 17 28 L 17 29 L 18 29 L 18 28 L 17 28 z M 18 28 L 19 28 L 19 27 L 18 27 L 18 28 z M 19 28 L 19 29 L 20 29 L 20 28 L 19 28 z M 20 28 L 21 28 L 21 27 L 20 27 L 20 28 z M 21 28 L 21 29 L 22 29 L 22 28 L 21 28 z M 22 28 L 23 28 L 23 27 L 22 27 L 22 28 z M 23 28 L 23 29 L 24 29 L 24 28 L 23 28 z M 24 28 L 25 28 L 25 27 L 24 27 L 24 28 z M 25 28 L 25 29 L 26 29 L 26 28 L 25 28 z M 26 28 L 27 28 L 27 27 L 26 27 L 26 28 z M 27 28 L 27 29 L 28 29 L 28 28 L 27 28 z M 28 28 L 29 28 L 29 27 L 28 27 L 28 28 z M 29 28 L 29 29 L 30 29 L 30 28 L 29 28 z M 30 28 L 31 28 L 31 27 L 30 27 L 30 28 z M 31 28 L 31 29 L 32 29 L 32 28 L 31 28 z M 32 28 L 33 28 L 33 27 L 32 27 L 32 28 z M 33 28 L 33 29 L 34 29 L 34 28 L 33 28 z M 34 28 L 35 28 L 35 27 L 34 27 L 34 28 z M 35 28 L 35 29 L 36 29 L 36 28 L 35 28 z M 36 28 L 37 28 L 37 27 L 36 27 L 36 28 z M 37 28 L 37 29 L 38 29 L 38 28 L 37 28 z M 38 28 L 39 28 L 39 27 L 38 27 L 38 28 z M 39 28 L 39 29 L 40 29 L 40 28 L 39 28 z M 40 28 L 41 28 L 41 27 L 40 27 L 40 28 z M 41 28 L 41 29 L 41.724609 29 C 41.895709 28.704999 42 28.36693 42 28 L 41 28 z M 41 29 L 40 29 L 40 30 C 40.36693 30 40.704999 29.895709 41 29.724609 L 41 29 z M 39 29 L 38 29 L 38 30 L 39 30 L 39 29 z M 37 29 L 36 29 L 36 30 L 37 30 L 37 29 z M 35 29 L 34 29 L 34 30 L 35 30 L 35 29 z M 33 29 L 32 29 L 32 30 L 33 30 L 33 29 z M 31 29 L 30 29 L 30 30 L 31 30 L 31 29 z M 29 29 L 28 29 L 28 30 L 29 30 L 29 29 z M 27 29 L 26 29 L 26 30 L 27 30 L 27 29 z M 25 29 L 24 29 L 24 30 L 25 30 L 25 29 z M 23 29 L 22 29 L 22 30 L 23 30 L 23 29 z M 21 29 L 20 29 L 20 30 L 21 30 L 21 29 z M 19 29 L 18 29 L 18 30 L 19 30 L 19 29 z M 17 29 L 16 29 L 16 30 L 17 30 L 17 29 z M 15 29 L 14 29 L 14 30 L 15 30 L 15 29 z M 13 29 L 12 29 L 12 30 L 13 30 L 13 29 z M 11 29 L 10 29 L 10 30 L 11 30 L 11 29 z M 9 29 L 8 29 L 8 30 L 9 30 L 9 29 z M 7 29 L 6 29 L 6 30 L 7 30 L 7 29 z M 5 29 L 4 29 L 4 30 L 5 30 L 5 29 z M 3 29 L 2 29 L 2 30 L 3 30 L 3 29 z M 1 29 L 0.27539062 29 C 0.44985201 29.300798 0.69920234 29.550148 1 29.724609 L 1 29 z " />
 </svg>

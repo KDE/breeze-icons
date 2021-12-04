@@ -3,18 +3,65 @@
    viewBox="0 0 84 60"
    version="1.1"
    id="svg6"
-   sodipodi:docname="overlay-digital-bottom.84.svg"
+   sodipodi:docname="digital-bottom.84.svg"
    inkscape:version="1.1.1 (1:1.1+202109281949+c3084ef5ed)"
    width="84"
    height="60"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
-  <path
-     fill="#fff"
-     opacity=".2"
-     d="m 54,60 v -6 h -6 v 6 z m -12,0 v -6 h -6 v 6 z m -12,0 v -6 h -6 v 6 z m -6,-6 v -6 h -6 v 6 z m -6,0 h -6 v 6 h 6 z m -6,0 V 48 H 6 v 6 z M 6,54 H 0 v 4 c 0,1.108 0.892,2 2,2 H 6 Z M 6,48 V 42 H 0 v 6 z m 0,-6 h 6 V 39 H 6 Z M 6,39 V 33 H 3 v 6 z m 6,3 v 6 h 6 v -6 z m 66,18 v -6 h -6 v 6 z m -6,-6 v -6 h -6 v 6 z m -6,0 h -6 v 6 h 6 z m 6,-6 h 6 v -6 h -6 z m 6,-6 h 3 v -3 h -3 z m 0,6 v 6 h 6 v -6 z" />
+  <defs
+     id="defs961">
+    <radialGradient
+       xlink:href="#gradientLight"
+       id="gl1"
+       cx="40.567404"
+       cy="28.397183"
+       r="70.992957"
+       gradientTransform="scale(1.183216,0.84515425)"
+       fx="40.567404"
+       fy="28.397183"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="gradientLight">
+      <stop
+         stop-opacity="1"
+         offset="0"
+         stop-color="#fff"
+         id="stop9" />
+      <stop
+         stop-opacity="0"
+         offset="1"
+         stop-color="#fff"
+         id="stop11" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     id="namedview959"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="true"
+     inkscape:zoom="16"
+     inkscape:cx="10.0625"
+     inkscape:cy="46.6875"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-nodes="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3875" />
+  </sodipodi:namedview>
   <rect
      fill="#ffcc00"
      id="emblem"
@@ -22,4 +69,8 @@
      height="48"
      x="18"
      y="6" />
+  <path
+     id="rect3899"
+     style="opacity:0.2;fill:#fffefe;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;stop-color:#000000;fill-opacity:1"
+     d="M 0 54 L 0 56 L 2 56 L 2 54 L 0 54 z M 2 56 L 2 58 L 4 58 L 4 56 L 2 56 z M 4 56 L 6 56 L 6 54 L 4 54 L 4 56 z M 6 56 L 6 58 L 8 58 L 8 56 L 6 56 z M 8 56 L 10 56 L 10 54 L 8 54 L 8 56 z M 10 56 L 10 58 L 12 58 L 12 56 L 10 56 z M 12 56 L 14 56 L 14 54 L 12 54 L 12 56 z M 14 56 L 14 58 L 16 58 L 16 56 L 14 56 z M 16 56 L 18 56 L 18 54 L 16 54 L 16 56 z M 18 56 L 18 58 L 20 58 L 20 56 L 18 56 z M 20 56 L 22 56 L 22 54 L 20 54 L 20 56 z M 22 56 L 22 58 L 24 58 L 24 56 L 22 56 z M 24 56 L 26 56 L 26 54 L 24 54 L 24 56 z M 26 56 L 26 58 L 28 58 L 28 56 L 26 56 z M 28 56 L 30 56 L 30 54 L 28 54 L 28 56 z M 30 56 L 30 58 L 32 58 L 32 56 L 30 56 z M 32 56 L 34 56 L 34 54 L 32 54 L 32 56 z M 34 56 L 34 58 L 36 58 L 36 56 L 34 56 z M 36 56 L 38 56 L 38 54 L 36 54 L 36 56 z M 38 56 L 38 58 L 40 58 L 40 56 L 38 56 z M 40 56 L 42 56 L 42 54 L 40 54 L 40 56 z M 42 56 L 42 58 L 44 58 L 44 56 L 42 56 z M 44 56 L 46 56 L 46 54 L 44 54 L 44 56 z M 46 56 L 46 58 L 48 58 L 48 56 L 46 56 z M 48 56 L 50 56 L 50 54 L 48 54 L 48 56 z M 50 56 L 50 58 L 52 58 L 52 56 L 50 56 z M 52 56 L 54 56 L 54 54 L 52 54 L 52 56 z M 54 56 L 54 58 L 56 58 L 56 56 L 54 56 z M 56 56 L 58 56 L 58 54 L 56 54 L 56 56 z M 58 56 L 58 58 L 60 58 L 60 56 L 58 56 z M 60 56 L 62 56 L 62 54 L 60 54 L 60 56 z M 62 56 L 62 58 L 64 58 L 64 56 L 62 56 z M 64 56 L 66 56 L 66 54 L 64 54 L 64 56 z M 66 56 L 66 58 L 68 58 L 68 56 L 66 56 z M 68 56 L 70 56 L 70 54 L 68 54 L 68 56 z M 70 56 L 70 58 L 72 58 L 72 56 L 70 56 z M 72 56 L 74 56 L 74 54 L 72 54 L 72 56 z M 74 56 L 74 58 L 76 58 L 76 56 L 74 56 z M 76 56 L 78 56 L 78 54 L 76 54 L 76 56 z M 78 56 L 78 58 L 80 58 L 80 56 L 78 56 z M 80 56 L 82 56 L 82 54 L 80 54 L 80 56 z M 82 56 L 82 58 L 83.449219 58 C 83.790698 57.410448 84 56.733029 84 56 L 82 56 z M 82 58 L 80 58 L 80 60 C 80.733029 60 81.410448 59.790698 82 59.449219 L 82 58 z M 78 58 L 76 58 L 76 60 L 78 60 L 78 58 z M 74 58 L 72 58 L 72 60 L 74 60 L 74 58 z M 70 58 L 68 58 L 68 60 L 70 60 L 70 58 z M 66 58 L 64 58 L 64 60 L 66 60 L 66 58 z M 62 58 L 60 58 L 60 60 L 62 60 L 62 58 z M 58 58 L 56 58 L 56 60 L 58 60 L 58 58 z M 54 58 L 52 58 L 52 60 L 54 60 L 54 58 z M 50 58 L 48 58 L 48 60 L 50 60 L 50 58 z M 46 58 L 44 58 L 44 60 L 46 60 L 46 58 z M 42 58 L 40 58 L 40 60 L 42 60 L 42 58 z M 38 58 L 36 58 L 36 60 L 38 60 L 38 58 z M 34 58 L 32 58 L 32 60 L 34 60 L 34 58 z M 30 58 L 28 58 L 28 60 L 30 60 L 30 58 z M 26 58 L 24 58 L 24 60 L 26 60 L 26 58 z M 22 58 L 20 58 L 20 60 L 22 60 L 22 58 z M 18 58 L 16 58 L 16 60 L 18 60 L 18 58 z M 14 58 L 12 58 L 12 60 L 14 60 L 14 58 z M 10 58 L 8 58 L 8 60 L 10 60 L 10 58 z M 6 58 L 4 58 L 4 60 L 6 60 L 6 58 z M 2 58 L 0.55078125 58 C 0.90014008 58.603156 1.3968442 59.09986 2 59.449219 L 2 58 z " />
 </svg>

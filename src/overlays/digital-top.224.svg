@@ -3,19 +3,34 @@
    viewBox="0 0 224 160"
    version="1.1"
    id="svg6"
-   sodipodi:docname="overlay-digital-top.224.svg"
+   sodipodi:docname="digital-top.224.svg"
    inkscape:version="1.1.1 (1:1.1+202109281949+c3084ef5ed)"
    width="224"
    height="160"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
-  <path
-     fill="#fff"
-     opacity=".2"
-     d="M 88 0 C 85.333412 0 82.666588 0.91838272 80 2.1035156 L 80 16 L 96 16 L 96 0 L 88 0 z M 112 0 L 112 16 L 128 16 L 128 0 L 112 0 z M 144 0 L 144 16 L 160 16 L 160 0 L 144 0 z M 160 16 L 160 32 L 176 32 L 176 16 L 160 16 z M 176 16 L 192 16 L 192 0 L 176 0 L 176 16 z M 192 16 L 192 32 L 208 32 L 208 16 L 192 16 z M 208 16 L 224 16 L 224 2 C 224 0.892 223.108 0 222 0 L 208 0 L 208 16 z M 208 32 L 208 48 L 224 48 L 224 32 L 208 32 z M 208 48 L 192 48 L 192 56 L 208 56 L 208 48 z M 208 56 L 208 72 L 216 72 L 216 56 L 208 56 z M 192 48 L 192 32 L 176 32 L 176 48 L 192 48 z M 16 8 L 16 16 L 32 16 L 32 8 L 16 8 z M 32 16 L 32 32 L 48 32 L 48 16 L 32 16 z M 48 16 L 64 16 L 64 8 L 48 8 L 48 16 z M 32 32 L 16 32 L 16 48 L 32 48 L 32 32 z M 16 48 L 8 48 L 8 56 L 16 56 L 16 48 z M 16 32 L 16 16 L 0 16 L 0 32 L 16 32 z " />
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="3.975"
+     inkscape:cx="111.94969"
+     inkscape:cy="80"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6" />
   <rect
      id="emblem"
      fill="#ffcc00"
@@ -23,4 +38,8 @@
      height="128"
      x="48"
      y="16" />
+  <path
+     id="rect3899"
+     style="opacity:0.2;fill:#fff9f3;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;stop-color:#000000;fill-opacity:1"
+     d="M 92 0 C 90.496492 0 89.181824 0.12600222 88 0.34570312 L 88 4 L 92 4 L 92 0 z M 92 4 L 92 8 L 96 8 L 96 4 L 92 4 z M 96 4 L 100 4 L 100 0 L 96 0 L 96 4 z M 100 4 L 100 8 L 104 8 L 104 4 L 100 4 z M 104 4 L 108 4 L 108 0 L 104 0 L 104 4 z M 108 4 L 108 8 L 112 8 L 112 4 L 108 4 z M 112 4 L 116 4 L 116 0 L 112 0 L 112 4 z M 116 4 L 116 8 L 120 8 L 120 4 L 116 4 z M 120 4 L 124 4 L 124 0 L 120 0 L 120 4 z M 124 4 L 124 8 L 128 8 L 128 4 L 124 4 z M 128 4 L 132 4 L 132 0 L 128 0 L 128 4 z M 132 4 L 132 8 L 136 8 L 136 4 L 132 4 z M 136 4 L 140 4 L 140 0 L 136 0 L 136 4 z M 140 4 L 140 8 L 144 8 L 144 4 L 140 4 z M 144 4 L 148 4 L 148 0 L 144 0 L 144 4 z M 148 4 L 148 8 L 152 8 L 152 4 L 148 4 z M 152 4 L 156 4 L 156 0 L 152 0 L 152 4 z M 156 4 L 156 8 L 160 8 L 160 4 L 156 4 z M 160 4 L 164 4 L 164 0 L 160 0 L 160 4 z M 164 4 L 164 8 L 168 8 L 168 4 L 164 4 z M 168 4 L 172 4 L 172 0 L 168 0 L 168 4 z M 172 4 L 172 8 L 176 8 L 176 4 L 172 4 z M 176 4 L 180 4 L 180 0 L 176 0 L 176 4 z M 180 4 L 180 8 L 184 8 L 184 4 L 180 4 z M 184 4 L 188 4 L 188 0 L 184 0 L 184 4 z M 188 4 L 188 8 L 192 8 L 192 4 L 188 4 z M 192 4 L 196 4 L 196 0 L 192 0 L 192 4 z M 196 4 L 196 8 L 200 8 L 200 4 L 196 4 z M 200 4 L 204 4 L 204 0 L 200 0 L 200 4 z M 204 4 L 204 8 L 208 8 L 208 4 L 204 4 z M 208 4 L 212 4 L 212 0 L 208 0 L 208 4 z M 212 4 L 212 8 L 216 8 L 216 4 L 212 4 z M 216 4 L 220 4 L 220 3.1015625 C 218.84547 2.0637489 217.4963 1.257201 216 0.72851562 L 216 4 z M 220 4 L 220 8 L 223.27148 8 C 222.7428 6.5037 221.93625 5.15453 220.89844 4 L 220 4 z M 220 8 L 216 8 L 216 12 L 220 12 L 220 8 z M 212 8 L 208 8 L 208 12 L 212 12 L 212 8 z M 204 8 L 200 8 L 200 12 L 204 12 L 204 8 z M 196 8 L 192 8 L 192 12 L 196 12 L 196 8 z M 188 8 L 184 8 L 184 12 L 188 12 L 188 8 z M 180 8 L 176 8 L 176 12 L 180 12 L 180 8 z M 172 8 L 168 8 L 168 12 L 172 12 L 172 8 z M 164 8 L 160 8 L 160 12 L 164 12 L 164 8 z M 156 8 L 152 8 L 152 12 L 156 12 L 156 8 z M 148 8 L 144 8 L 144 12 L 148 12 L 148 8 z M 140 8 L 136 8 L 136 12 L 140 12 L 140 8 z M 132 8 L 128 8 L 128 12 L 132 12 L 132 8 z M 124 8 L 120 8 L 120 12 L 124 12 L 124 8 z M 116 8 L 112 8 L 112 12 L 116 12 L 116 8 z M 108 8 L 104 8 L 104 12 L 108 12 L 108 8 z M 100 8 L 96 8 L 96 12 L 100 12 L 100 8 z M 92 8 L 88 8 L 88 12 L 92 12 L 92 8 z M 88 8 L 88 4 L 84 4 L 84 8 L 88 8 z M 84 8 L 80 8 L 80 12 L 84 12 L 84 8 z M 80 8 L 80 4 L 79.5 4 C 78.421111 4.6165078 77.276426 5.2252762 76 5.7832031 L 76 8 L 80 8 z M 76 8 L 72 8 L 72 12 L 76 12 L 76 8 z M 72 8 L 72 7.1289062 C 70.812849 7.4184181 69.482208 7.6397158 68 7.7890625 L 68 8 L 72 8 z M 68 8 L 64 8 L 64 12 L 68 12 L 68 8 z M 80 4 L 84 4 L 84 1.6308594 C 82.601142 2.2487003 81.30516 2.9640993 80 3.7167969 L 80 4 z M 12 8 C 10.588468 8 9.2558569 8.2847856 8 8.7285156 L 8 12 L 12 12 L 12 8 z M 16 8 L 16 12 L 20 12 L 20 8 L 16 8 z M 24 8 L 24 12 L 28 12 L 28 8 L 24 8 z M 32 8 L 32 12 L 36 12 L 36 8 L 32 8 z M 40 8 L 40 12 L 44 12 L 44 8 L 40 8 z M 48 8 L 48 12 L 52 12 L 52 8 L 48 8 z M 56 8 L 56 12 L 60 12 L 60 8 L 56 8 z M 4 11.101562 C 3.6832696 11.386273 3.3862732 11.68327 3.1015625 12 L 4 12 L 4 11.101562 z " />
 </svg>

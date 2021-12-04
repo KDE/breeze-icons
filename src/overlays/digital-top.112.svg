@@ -3,19 +3,34 @@
    viewBox="0 0 112 80"
    version="1.1"
    id="svg6"
-   sodipodi:docname="overlay-digital-top.112.svg"
+   sodipodi:docname="digital-top.112.svg"
    inkscape:version="1.1.1 (1:1.1+202109281949+c3084ef5ed)"
    width="112"
    height="80"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
-  <path
-     fill="#fff"
-     opacity=".2"
-     d="M 44,0 C 42.666706,0 41.333294,0.45919136 40,1.0517578 V 8 h 8 V 0 Z m 12,0 v 8 h 8 V 0 Z m 16,0 v 8 h 8 V 0 Z m 8,8 v 8 h 8 V 8 Z m 8,0 h 8 V 0 h -8 z m 8,0 v 8 h 8 V 8 Z m 8,0 h 8 V 1 c 0,-0.554 -0.446,-1 -1,-1 h -7 z m 0,8 v 8 h 8 v -8 z m 0,8 h -8 v 4 h 8 z m 0,4 v 8 h 4 v -8 z m -8,-4 v -8 h -8 v 8 z M 8,4 v 4 h 8 V 4 Z m 8,4 v 8 h 8 V 8 Z m 8,0 h 8 V 4 h -8 z m -8,8 H 8 v 8 h 8 z M 8,24 H 4 v 4 H 8 Z M 8,16 V 8 H 0 v 8 z" />
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="7.95"
+     inkscape:cx="34.716981"
+     inkscape:cy="40"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6" />
   <rect
      id="emblem"
      fill="#ffcc00"
@@ -23,4 +38,8 @@
      height="64"
      x="24"
      y="8" />
+  <path
+     id="rect3899"
+     style="opacity:0.2;fill:#fffefc;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;stop-color:#000000;fill-opacity:1"
+     d="M 46 0 C 45.248344 0 44.590853 0.062051 44 0.171875 L 44 2 L 46 2 L 46 0 z M 46 2 L 46 4 L 48 4 L 48 2 L 46 2 z M 48 2 L 50 2 L 50 0 L 48 0 L 48 2 z M 50 2 L 50 4 L 52 4 L 52 2 L 50 2 z M 52 2 L 54 2 L 54 0 L 52 0 L 52 2 z M 54 2 L 54 4 L 56 4 L 56 2 L 54 2 z M 56 2 L 58 2 L 58 0 L 56 0 L 56 2 z M 58 2 L 58 4 L 60 4 L 60 2 L 58 2 z M 60 2 L 62 2 L 62 0 L 60 0 L 60 2 z M 62 2 L 62 4 L 64 4 L 64 2 L 62 2 z M 64 2 L 66 2 L 66 0 L 64 0 L 64 2 z M 66 2 L 66 4 L 68 4 L 68 2 L 66 2 z M 68 2 L 70 2 L 70 0 L 68 0 L 68 2 z M 70 2 L 70 4 L 72 4 L 72 2 L 70 2 z M 72 2 L 74 2 L 74 0 L 72 0 L 72 2 z M 74 2 L 74 4 L 76 4 L 76 2 L 74 2 z M 76 2 L 78 2 L 78 0 L 76 0 L 76 2 z M 78 2 L 78 4 L 80 4 L 80 2 L 78 2 z M 80 2 L 82 2 L 82 0 L 80 0 L 80 2 z M 82 2 L 82 4 L 84 4 L 84 2 L 82 2 z M 84 2 L 86 2 L 86 0 L 84 0 L 84 2 z M 86 2 L 86 4 L 88 4 L 88 2 L 86 2 z M 88 2 L 90 2 L 90 0 L 88 0 L 88 2 z M 90 2 L 90 4 L 92 4 L 92 2 L 90 2 z M 92 2 L 94 2 L 94 0 L 92 0 L 92 2 z M 94 2 L 94 4 L 96 4 L 96 2 L 94 2 z M 96 2 L 98 2 L 98 0 L 96 0 L 96 2 z M 98 2 L 98 4 L 100 4 L 100 2 L 98 2 z M 100 2 L 102 2 L 102 0 L 100 0 L 100 2 z M 102 2 L 102 4 L 104 4 L 104 2 L 102 2 z M 104 2 L 106 2 L 106 0 L 104 0 L 104 2 z M 106 2 L 106 4 L 108 4 L 108 2 L 106 2 z M 108 2 L 110 2 L 110 1.5507812 C 109.42266 1.0317773 108.74828 0.62959477 108 0.36523438 L 108 2 z M 110 2 L 110 4 L 111.63477 4 C 111.37041 3.2517224 110.96822 2.5773397 110.44922 2 L 110 2 z M 110 4 L 108 4 L 108 6 L 110 6 L 110 4 z M 106 4 L 104 4 L 104 6 L 106 6 L 106 4 z M 102 4 L 100 4 L 100 6 L 102 6 L 102 4 z M 98 4 L 96 4 L 96 6 L 98 6 L 98 4 z M 94 4 L 92 4 L 92 6 L 94 6 L 94 4 z M 90 4 L 88 4 L 88 6 L 90 6 L 90 4 z M 86 4 L 84 4 L 84 6 L 86 6 L 86 4 z M 82 4 L 80 4 L 80 6 L 82 6 L 82 4 z M 78 4 L 76 4 L 76 6 L 78 6 L 78 4 z M 74 4 L 72 4 L 72 6 L 74 6 L 74 4 z M 70 4 L 68 4 L 68 6 L 70 6 L 70 4 z M 66 4 L 64 4 L 64 6 L 66 6 L 66 4 z M 62 4 L 60 4 L 60 6 L 62 6 L 62 4 z M 58 4 L 56 4 L 56 6 L 58 6 L 58 4 z M 54 4 L 52 4 L 52 6 L 54 6 L 54 4 z M 50 4 L 48 4 L 48 6 L 50 6 L 50 4 z M 46 4 L 44 4 L 44 6 L 46 6 L 46 4 z M 44 4 L 44 2 L 42 2 L 42 4 L 44 4 z M 42 4 L 40 4 L 40 6 L 42 6 L 42 4 z M 40 4 L 40 2 L 39.75 2 C 39.210456 2.3083111 38.638359 2.6135738 38 2.8925781 L 38 4 L 40 4 z M 38 4 L 36 4 L 36 6 L 38 6 L 38 4 z M 36 4 L 36 3.5644531 C 35.406425 3.7092091 34.741104 3.8198579 34 3.8945312 L 34 4 L 36 4 z M 34 4 L 32 4 L 32 6 L 34 6 L 34 4 z M 40 2 L 42 2 L 42 0.81640625 C 41.300875 1.125226 40.65231 1.4812257 40 1.8574219 L 40 2 z M 6 4 C 5.2943023 4 4.627877 4.1434105 4 4.3652344 L 4 6 L 6 6 L 6 4 z M 8 4 L 8 6 L 10 6 L 10 4 L 8 4 z M 12 4 L 12 6 L 14 6 L 14 4 L 12 4 z M 16 4 L 16 6 L 18 6 L 18 4 L 16 4 z M 20 4 L 20 6 L 22 6 L 22 4 L 20 4 z M 24 4 L 24 6 L 26 6 L 26 4 L 24 4 z M 28 4 L 28 6 L 30 6 L 30 4 L 28 4 z M 2 5.5507812 C 1.8417246 5.6930642 1.6930642 5.8417246 1.5507812 6 L 2 6 L 2 5.5507812 z " />
 </svg>

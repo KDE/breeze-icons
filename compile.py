@@ -50,12 +50,8 @@ def main():
         cookbook = unpack_cookbook(os.path.join(COOKBOOKS_PATH, f))
         
         for icon in cookbook["recipes"]:
-            
-            # Test single icons
-            #if icon != "folder-mac":
-            #    continue
-            
             recipe = cookbook["recipes"][icon]
+            
             for size in recipe["sizes"]:
                 try:
                     icon_start_time = time.perf_counter()
@@ -68,8 +64,8 @@ def main():
                     
                     optimize_svg(soup, cookbook)
                     write_minified_svg(soup, path)
-                    #create_aliases(path, recipe["aliases"])
-                    
+                    make_relative_symlinks(path, recipe["aliases"])
+
                     book_built_count += 1
                     main_built_count += 1
                     icon_end_time = time.perf_counter()
@@ -210,6 +206,25 @@ def write_minified_svg(soup, path):
         file_handle.write(file_contents)
 
 
+## Makes a series of symlinks, paths relative to the origin file
+def make_relative_symlinks (target, aliases):
+    target_dir =  os.path.dirname(target)
+    target_name = os.path.basename(target)
+    
+    for alias in aliases:
+        alias_path = os.path.join(target_dir, alias + ".svg")
+        
+        if os.path.isfile(alias_path):
+            if os.path.islink(alias_path) and os.readlink(alias_path) != target_name:
+                os.remove(alias_path)
+            elif os.path.islink(alias_path):
+                continue
+        
+        if not os.path.isfile(alias_path):
+            os.symlink(target_name, alias_path)
+
+
+##
 def string_alias (string, palette):
 	string = string.strip("\"' \t\n\r")
 	if string.startswith("@") and string[1:] in palette:
