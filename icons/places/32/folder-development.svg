@@ -1,35 +1,60 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <defs id="defs3051">
-    <style type="text/css" id="current-color-scheme">
-      .ColorScheme-Text {
-        color:#31363b;
-      }
-      .ColorScheme-Highlight {
-        color:#3daee9;
-      }
-      </style>
-  </defs>
- <path 
-     style="fill:currentColor;fill-opacity:1;stroke:none" 
-     d="M 2 3 L 2 10 L 1 10 L 1 29 L 12 29 L 13 29 L 31 29 L 31 8 L 30 8 L 30 5 L 16 5 L 14 3 L 2 3 z "
-     class="ColorScheme-Highlight"
-     />
- <path 
-     style="fill-opacity:0.33;fill-rule:evenodd"
-     d="m 2,3 0,7 9,0 L 13,8 30,8 30,5 16,5 14,3 2,3 Z"
-     />
- <path 
-     style="fill:#ffffff;fill-opacity:0.2;fill-rule:evenodd"
-     d="M 14 3 L 15 6 L 30 6 L 30 5 L 16 5 L 14 3 z M 13 8 L 11 10 L 1 10 L 1 11 L 12 11 L 13 8 z "
-     />
- <path 
-     style="fill-opacity:0.2;fill-rule:evenodd"
-     d="M 13 8 L 11 9 L 2 9 L 2 10 L 11 10 L 13 8 z M 1 28 L 1 29 L 31 29 L 31 28 L 1 28 z "
-     class="ColorScheme-Text"
-     />
- <path 
-     style="fill:currentColor;fill-opacity:0.6;stroke:none" 
-     d="M 11 13 L 11 23 L 21 23 L 21 13 L 11 13 z M 12 15 L 20 15 L 20 22 L 12 22 L 12 15 z M 15 17 L 15 20 L 17.5 18.5 L 15 17 z "
-     class="ColorScheme-Text"
-     />
+<svg height="32" version="1.1" width="32" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs id="primary-definitions">
+<style id="current-color-scheme" type="text/css">
+      .ColorScheme-Text           { color:#fff; }
+      .ColorScheme-Background     { color:#111; }
+      .ColorScheme-Highlight      { color:#3daefd; }
+      .ColorScheme-ViewBackground { color:#000; }
+      .ColorScheme-PositiveText   { color:#27ae60; }
+      .ColorScheme-NeutralText    { color:#f67400; }
+      .ColorScheme-NegativeText   { color:#da4453; }
+    </style>
+<style id="extended-color-scheme" type="text/css">
+      .ExScheme-Black     { color:#3e3e3e; }
+      .ExScheme-White     { color:#fcfcfc; }
+      .ExScheme-Grey-1    { color:#cfd5d5; }
+      .ExScheme-Grey-2    { color:#909c9c; }
+      .ExScheme-Grey-3    { color:#536161; }
+      .ExScheme-Red-1     { color:#ffafa5; }
+      .ExScheme-Red-2     { color:#bf4231; }
+      .ExScheme-Red-3     { color:#4d2f2b; }
+      .ExScheme-Green-1   { color:#abf9c7; }
+      .ExScheme-Green-2   { color:#3bb566; }
+      .ExScheme-Green-3   { color:#377d50; }
+      .ExScheme-Blue-1    { color:#abdaf9; }
+      .ExScheme-Blue-2    { color:#3daefd; }
+      .ExScheme-Blue-3    { color:#2b3c4d; }
+      .ExScheme-Yellow-1  { color:#faffa5; }
+      .ExScheme-Yellow-2  { color:#cac726; }
+      .ExScheme-Yellow-3  { color:#4b4d2b; }
+      .ExScheme-Orange-1  { color:#ffdaa5; }
+      .ExScheme-Orange-2  { color:#ff9701; }
+      .ExScheme-Orange-3  { color:#4d372b; }
+      .ExScheme-Brown-1   { color:#e9d6bb; }
+      .ExScheme-Brown-2   { color:#997657; }
+      .ExScheme-Brown-3   { color:#433a35; }
+      .ExScheme-Purple-1  { color:#e2abf9; }
+      .ExScheme-Purple-2  { color:#b401ff; }
+      .ExScheme-Purple-3  { color:#432b4d; }
+      .ExScheme-Cyan-1    { color:#b2f2e6; }
+      .ExScheme-Cyan-2    { color:#31bfa6; }
+      .ExScheme-Cyan-3    { color:#2b4d47; }
+      .ExScheme-Magenta-1 { color:#f8a6d8; }
+      .ExScheme-Magenta-2 { color:#f00091; }
+      .ExScheme-Magenta-3 { color:#770048; }
+    </style>
+<linearGradient id="ujp">
+<stop offset="0"/>
+<stop offset="1" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="ujq">
+<stop offset="0" stop-color="#fff"/>
+<stop offset="1" stop-color="#fff" stop-opacity="0"/>
+</linearGradient>
+<style class="toggle-enable-crease" type="text/css">
+        .folder-crease { display: none; }
+    </style><style class="toggle-manilla-folders" type="text/css">
+        .folder-manilla { display: none; }
+    </style><radialGradient cx=".5" cy="0" id="ujr" r="1" xlink:href="#ujq"/><linearGradient id="ujs" xlink:href="#ujp" y1="1" y2=".5"/><path d="M 5,4 C 3.9,4 3,4.9 3,6 V 9.27 C 2.4,9.6 2,10.26 2,11 v 15 c 0,1.1 .9,2 2,2 h 24 c 1.1,0 2,-.9 2,-2 V 11 10 C 30,9.26 29.6,8.6 29,8.27 V 7 C 29,5.9 28.1,5 27,5 H 14 C 12,5 12,4 10,4 Z" id="ujt"></path><path d="M 5,4 C 3.9,4 3,4.9 3,6 V 9.27 C 3.3,9.1 3.63,9 4,9 h 6 c 2,0 2,-1 4,-1 h 14 c .37,0 .7,.1 1,.27 V 7 C 29,5.9 28.1,5 27,5 H 14 C 12,5 12,4 10,4 Z" id="uju"></path></defs>
+<g id="content" transform="translate(0,0)"><use class="folder-manilla ExScheme-Brown-1" fill="currentColor" href="#ujt"></use><use class="toggle-manilla-folders ColorScheme-Highlight" fill="currentColor" href="#ujt" id="primary-color"></use><use class="ColorScheme-Text" fill="currentColor" href="#ujt" opacity=".1"></use><g id="emblem" transform="translate(8,10)"><path class="ColorScheme-Background" d="M 11.83 3.14 L 11.04 3.4 C 11.04 3.4 10.94 3.7 10.74 4.06 L 7.5 7.3 L 7.3 7.1 L 6.8 7.3 C 6.44 7.65 6.26 8.2 5.9 8.53 C 5.55 8.9 5.03 9.06 4.3 9.77 L 2.55 11.54 C 2.35 11.73 2.35 12.05 2.55 12.24 L 3.26 12.95 C 3.45 13.15 3.77 13.15 3.96 12.95 C 3.97 12.94 4 12.94 4 12.93 L 5.73 11.2 C 6.44 10.47 6.6 9.95 6.97 9.6 C 7.3 9.24 7.85 9.06 8.2 8.7 L 8.4 8.2 L 8.2 8 L 11.44 4.76 C 11.8 4.56 12.1 4.46 12.1 4.46 L 12.36 3.67 L 11.83 3.14 z M 4.86 3.2 C 4.5 3.23 4.1 3.4 3.8 3.65 L 5.37 4.07 L 5 5.5 L 3.33 5.07 C 3.4 5.43 3.6 5.77 3.95 6 C 4.7 6.43 5.6 6.3 6.15 6.53 C 6.25 6.45 6.36 6.4 6.5 6.34 L 7 6.17 C 7.1 6.14 7.16 6.1 7.2 6.1 L 6.95 5.8 C 6.3 5.17 6.93 4.66 5.9 3.63 C 5.6 3.34 5.24 3.2 4.86 3.2 z M 9.4 8.24 L 9.4 8.24 C 9.37 8.33 9.36 8.4 9.33 8.5 L 9.16 9 C 9.1 9.1 9.1 9.2 9 9.3 L 9.5 9.77 C 10.14 10.4 10.14 11.8 10.84 12.53 C 11.43 13.1 12.4 13.1 12.96 12.53 C 13.55 11.94 13.55 11 12.96 10.4 C 12.26 9.8 10.84 9.8 10.3 9.05 L 9.4 8.24 z M 11.9 10.97 A 0.5 0.5 0 0 1 12.26 11.1 A 0.5 0.5 0 0 1 12.26 11.8 A 0.5 0.5 0 0 1 11.55 11.8 A 0.5 0.5 0 0 1 11.55 11.1 A 0.5 0.5 0 0 1 11.9 10.97 z " fill="currentColor" opacity=".6" stop-color="#000000"/><path class="ColorScheme-Background" d="m 11.83,3.14 -.8,.27 c 0,0 -.1,.3 -.3,.65 L 7.5,7.3 7.3,7.1 6.8,7.3 C 6.44,7.65 6.26,8.2 5.9,8.53 5.55,8.9 5.03,9.06 4.3,9.77 L 2.55,11.54 c -.2,.2 -.2,.5 0,.7 l .7,.7 c .2,.2 .5,.2 .7,0 0,-0 0,-0 0,-0 l 1.75,-1.75 C 6.44,10.47 6.6,9.95 6.97,9.6 7.3,9.24 7.85,9.06 8.2,8.7 L 8.4,8.2 8.2,8 11.44,4.76 c .35,-.2 .65,-.3 .65,-.3 l .27,-.8 z M 4.86,3.2 C 4.5,3.23 4.1,3.4 3.8,3.65 L 5.37,4.07 5,5.5 3.33,5.07 c .06,.36 .25,.7 .6,.9 .74,.44 1.66,.33 2.2,.54 C 6.25,6.45 6.36,6.4 6.5,6.34 l .53,-.2 c .1,-.03 .15,-.06 .2,-.1 L 6.95,5.8 C 6.3,5.17 6.93,4.66 5.9,3.63 5.6,3.34 5.24,3.2 4.86,3.2 Z m 6.84,.5 .1,.1 -.1,.3 c -.13,.05 -.23,.1 -.5,.2 -.04,0 -.1,.05 -.1,.1 .03,-.03 .06,-.07 .1,-.1 .15,-.26 .17,-.36 .2,-.5 z M 5.8,4.43 c .1,.16 .26,.36 .3,.5 .03,.2 .2,.56 .4,.9 0,0 -.3,.14 -.4,.2 -.3,-.07 -.6,-.1 -.9,-.16 -0,-0 -.03,-0 -.05,-0 .13,-0 .24,-.1 .3,-.2 z m 2.06,3.2 C 7.66,7.84 7.8,8.3 7.8,8.3 L 7.8,8.4 C 7.53,8.6 7.06,8.8 6.6,9.24 6.14,9.7 6.03,10.2 5.4,10.83 l -1.75,1.75 c -0,0 -0,0 -0,0 L 2.9,11.9 4.67,10.1 C 5.3,9.47 5.8,9.35 6.26,8.9 6.7,8.44 6.9,7.97 7.1,7.7 L 7.2,7.7 c 0,0 .47,.15 .67,-.04 z m 1.53,.6 -0,0 c -0,.1 -0,.17 -.05,0.25 L 9.16,9 C 9.1,9.1 9.1,9.2 9,9.3 L 9.5,9.77 c .64,.64 .64,2.06 1.35,2.76 .6,.6 1.54,.6 2.1,0 .6,-.6 .6,-1.54 0,-2.1 C 12.26,9.8 10.84,9.8 10.3,9.05 Z M 9.84,9.4 c .45,.45 1.04,.6 1.56,.8 .4,.13 .8,.27 1.03,.44 -.16,-.1 -.34,-.15 -.53,-.15 -.27,4e-5 -.5,.1 -.7,.3 -.34,.34 -.4,.86 -.13,1.25 C 10.9,11.76 10.75,11.4 10.6,10.97 10.45,10.45 10.3,9.86 9.85,9.4 Z m 2.06,1.56 c .13,2e-5 .26,.05 .35,.15 .2,.2 .2,.5 0,.7 -.2,.2 -.5,.2 -.7,0 -.2,-.2 -.2,-.5 0,-.7 .1,-.1 .2,-.15 .35,-.15 z" fill="currentColor" opacity=".6"/></g><use href="#uju" opacity=".4"></use><use class="toggle-flat-design" fill="url(#ujs)" href="#uju" opacity=".1"></use><path class="toggle-flat-design" d="M 14,8 C 12,8 12,9 10,9 H 4 C 2.9,9 2,9.9 2,11 v 15 c 0,1.1 .9,2 2,2 h 24 c 1.1,0 2,-.9 2,-2 V 11 10 C 30,8.9 29.1,8 28,8 Z" fill="url(#ujr)" opacity=".2"/><path class="folder-crease " d="m 2,22 v 1 H 6.5 C 6.8,23 7,22.8 7,22.5 7,22.2 6.8,22 6.5,22 Z m 23.5,0 c -.3,0 -0.5,.2 -0.5,0.5 0,.3 .2,0.5 0.5,0.5 H 30 v -1 z" opacity=".4"/><path class="ColorScheme-Text" d="m 2,25 v 1 c 0,1.1 .9,2 2,2 h 24 c 1.1,0 2,-.9 2,-2 v -1 c 0,1.1 -.9,2 -2,2 H 4 C 2.9,27 2,26.1 2,25 Z" fill="currentColor" opacity=".1"/><path class="ColorScheme-Text" d="M 2,25.5 V 26 c 0,1.1 .9,2 2,2 h 24 c 1.1,0 2,-.9 2,-2 v -0.5 c 0,1.1 -.9,2 -2,2 H 4 c -1.1,0 -2,-.9 -2,-2 z" fill="currentColor" opacity=".2"/><path d="M 14,8 C 12,8 12,9 10,9 H 4 C 2.9,9 2,9.9 2,11 v 0.5 c 0,-1.1 .9,-2 2,-2 h 6 c 2,0 2,-1 4,-1 h 14 c 1.1,0 2,.9 2,2 V 10 C 30,8.9 29.1,8 28,8 Z" fill="#fff" opacity=".2"/><path d="M 14,8 C 12,8 12,9 10,9 H 4 C 2.9,9 2,9.9 2,11 v 1 c 0,-1.1 .9,-2 2,-2 h 6 c 2,0 2,-1 4,-1 h 14 c 1.1,0 2,.9 2,2 V 10 C 30,8.9 29.1,8 28,8 Z" fill="#fff" opacity=".1"/><path d="m 14,7.5 c -2,0 -2,1 -4,1 H 4 C 3.63,8.5 3.3,8.6 3,8.77 v 0.5 C 3.3,9.1 3.63,9 4,9 h 6 c 2,0 2,-1 4,-1 h 14 c .37,0 .7,.1 1,.27 v -0.5 C 28.7,7.6 28.37,7.5 28,7.5 Z" opacity=".2"/><path d="M 14,7 C 12,7 12,8 10,8 H 4 C 3.63,8 3.3,8.1 3,8.27 v 1 C 3.3,9.1 3.63,9 4,9 h 6 c 2,0 2,-1 4,-1 h 14 c .37,0 .7,.1 1,.27 v -1 C 28.7,7.1 28.37,7 28,7 Z" opacity=".1"/></g>
 </svg>
