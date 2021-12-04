@@ -1,0 +1,60 @@
+<svg height="48" version="1.1" width="48" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs id="primary-definitions">
+<style id="current-color-scheme" type="text/css">
+      .ColorScheme-Text           { color:#fff; }
+      .ColorScheme-Background     { color:#111; }
+      .ColorScheme-Highlight      { color:#3daefd; }
+      .ColorScheme-ViewBackground { color:#000; }
+      .ColorScheme-PositiveText   { color:#27ae60; }
+      .ColorScheme-NeutralText    { color:#f67400; }
+      .ColorScheme-NegativeText   { color:#da4453; }
+    </style>
+<style id="extended-color-scheme" type="text/css">
+      .ExScheme-Black     { color:#3e3e3e; }
+      .ExScheme-White     { color:#fcfcfc; }
+      .ExScheme-Grey-1    { color:#cfd5d5; }
+      .ExScheme-Grey-2    { color:#909c9c; }
+      .ExScheme-Grey-3    { color:#536161; }
+      .ExScheme-Red-1     { color:#ffafa5; }
+      .ExScheme-Red-2     { color:#bf4231; }
+      .ExScheme-Red-3     { color:#4d2f2b; }
+      .ExScheme-Green-1   { color:#abf9c7; }
+      .ExScheme-Green-2   { color:#3bb566; }
+      .ExScheme-Green-3   { color:#377d50; }
+      .ExScheme-Blue-1    { color:#abdaf9; }
+      .ExScheme-Blue-2    { color:#3daefd; }
+      .ExScheme-Blue-3    { color:#2b3c4d; }
+      .ExScheme-Yellow-1  { color:#faffa5; }
+      .ExScheme-Yellow-2  { color:#cac726; }
+      .ExScheme-Yellow-3  { color:#4b4d2b; }
+      .ExScheme-Orange-1  { color:#ffdaa5; }
+      .ExScheme-Orange-2  { color:#ff9701; }
+      .ExScheme-Orange-3  { color:#4d372b; }
+      .ExScheme-Brown-1   { color:#e9d6bb; }
+      .ExScheme-Brown-2   { color:#997657; }
+      .ExScheme-Brown-3   { color:#433a35; }
+      .ExScheme-Purple-1  { color:#e2abf9; }
+      .ExScheme-Purple-2  { color:#b401ff; }
+      .ExScheme-Purple-3  { color:#432b4d; }
+      .ExScheme-Cyan-1    { color:#b2f2e6; }
+      .ExScheme-Cyan-2    { color:#31bfa6; }
+      .ExScheme-Cyan-3    { color:#2b4d47; }
+      .ExScheme-Magenta-1 { color:#f8a6d8; }
+      .ExScheme-Magenta-2 { color:#f00091; }
+      .ExScheme-Magenta-3 { color:#770048; }
+    </style>
+<linearGradient id="ubm">
+<stop offset="0"/>
+<stop offset="1" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="ubn">
+<stop offset="0" stop-color="#fff"/>
+<stop offset="1" stop-color="#fff" stop-opacity="0"/>
+</linearGradient>
+<style class="toggle-enable-crease" type="text/css">
+        .folder-crease { display: none; }
+    </style><style class="toggle-manilla-folders" type="text/css">
+        .folder-manilla { display: none; }
+    </style><radialGradient cx=".5" cy="0" id="ubo" r="1" xlink:href="#ubn"/><linearGradient id="ubp" xlink:href="#ubm" y1="1" y2=".5"/><path d="M 7,6 C 5.9,6 5,6.9 5,8 v 2 4 c -1.1,0 -2,.9 -2,2 v 24 c 0,1.1 .9,2 2,2 h 38 c 1.1,0 2,-.9 2,-2 V 25 16 14 c 0,-1.1 -.9,-2 -2,-2 V 10 C 43,8.9 42.1,8 41,8 H 21 C 18,8 18,6 15,6 Z" id="ubq"></path><path d="M 7,6 C 5.9,6 5,6.9 5,8 v 2 4 h 10 c 3,0 3,-2 6,-2 H 43 V 10 C 43,8.9 42.1,8 41,8 H 21 C 18,8 18,6 15,6 Z" id="ubr"></path></defs>
+<g id="content" transform="translate(0,0)"><use class="folder-manilla ExScheme-Brown-1" fill="currentColor" href="#ubq"></use><use class="toggle-manilla-folders ColorScheme-Highlight" fill="currentColor" href="#ubq" id="primary-color"></use><use class="ColorScheme-Text" fill="currentColor" href="#ubq" opacity=".1"></use><g id="emblem" transform="translate(12,15)"><path class="ColorScheme-Background" d="M 12 1 C 10.8 1 11.1 1.83 9.95 2.2 C 8.8 2.56 8.55 1.73 7.6 2.43 C 6.63 3.13 7.33 3.64 6.63 4.7 C 5.94 5.56 5.23 5.05 4.87 6.2 C 4.5 7.3 5.37 7.3 5.37 8.5 C 5.37 9.7 4.5 9.7 4.87 10.8 C 5.23 11.95 5.94 11.44 6.63 12.4 C 7.33 13.36 6.63 13.87 7.6 14.57 C 8.55 15.27 8.8 14.44 9.95 14.8 C 11.1 15.17 10.8 16 12 16 C 13.2 16 12.9 15.17 14.05 14.8 C 15.2 14.44 15.45 15.27 16.4 14.57 C 17.37 13.87 16.67 13.36 17.37 12.4 C 18.06 11.44 18.77 11.95 19.13 10.8 C 19.5 9.7 18.63 9.7 18.63 8.5 C 18.63 7.3 19.5 7.3 19.13 6.2 C 18.77 5.05 18.06 5.56 17.37 4.7 C 16.67 3.64 17.37 3.13 16.4 2.43 C 15.45 1.73 15.2 2.56 14.05 2.2 C 12.9 1.83 13.2 1 12 1 z M 12 3 A 5.5 5.5 0 0 1 17.5 8.5 A 5.5 5.5 0 0 1 12 14 A 5.5 5.5 0 0 1 6.5 8.5 A 5.5 5.5 0 0 1 12 3 z M 12 4 A 4.5 4.5 0 0 0 7.5 8.5 A 4.5 4.5 0 0 0 12 13 A 4.5 4.5 0 0 0 16.5 8.5 A 4.5 4.5 0 0 0 12 4 z M 9.37 15.7 C 9.35 15.7 9.33 15.7 9.3 15.7 C 9.23 15.7 9.14 15.74 9 15.77 L 9 23 L 12 21.5 L 15 23 L 15 15.77 C 14.7 15.7 14.66 15.66 14.36 15.76 C 14.03 15.87 14.07 15.9 13.8 16.2 C 13.5 16.5 12.8 17 12 17 C 11.2 17 10.5 16.5 10.2 16.2 C 9.93 15.9 9.97 15.87 9.64 15.76 C 9.5 15.7 9.44 15.7 9.37 15.7 z " fill="currentColor" opacity=".6"/><path class="ColorScheme-Background" d="M 12 1 C 10.8 1 11.1 1.83 9.95 2.2 C 8.8 2.56 8.55 1.73 7.6 2.43 C 6.63 3.13 7.33 3.64 6.63 4.7 C 5.94 5.56 5.23 5.05 4.87 6.2 C 4.5 7.3 5.37 7.3 5.37 8.5 C 5.37 9.7 4.5 9.7 4.87 10.8 C 5.23 11.95 5.94 11.44 6.63 12.4 C 7.33 13.36 6.63 13.87 7.6 14.57 C 8.55 15.27 8.8 14.44 9.95 14.8 C 11.1 15.17 10.8 16 12 16 C 13.2 16 12.9 15.17 14.05 14.8 C 15.2 14.44 15.45 15.27 16.4 14.57 C 17.37 13.87 16.67 13.36 17.37 12.4 C 18.06 11.44 18.77 11.95 19.13 10.8 C 19.5 9.7 18.63 9.7 18.63 8.5 C 18.63 7.3 19.5 7.3 19.13 6.2 C 18.77 5.05 18.06 5.56 17.37 4.7 C 16.67 3.64 17.37 3.13 16.4 2.43 C 15.45 1.73 15.2 2.56 14.05 2.2 C 12.9 1.83 13.2 1 12 1 z M 12 1.5 C 12.5 1.5 12.47 1.57 12.67 1.8 C 12.87 2 13.2 2.45 13.9 2.67 C 14.6 2.9 15.1 2.74 15.4 2.7 C 15.7 2.6 15.73 2.56 16.1 2.84 C 16.5 3.1 16.46 3.17 16.5 3.47 C 16.5 3.77 16.54 4.3 16.96 4.9 C 17.4 5.47 18 5.67 18.17 5.8 C 18.45 5.9 18.5 5.9 18.66 6.34 C 18.8 6.8 18.74 6.8 18.6 7.07 C 18.44 7.33 18.13 7.8 18.13 8.5 C 18.13 9.2 18.44 9.67 18.6 9.93 C 18.74 10.2 18.8 10.2 18.66 10.66 C 18.5 11.1 18.45 11.1 18.17 11.2 C 18 11.33 17.4 11.53 16.96 12.1 C 16.54 12.7 16.5 13.23 16.5 13.53 C 16.46 13.83 16.5 13.9 16.1 14.16 C 15.73 14.44 15.7 14.4 15.4 14.3 C 15.1 14.26 14.6 14.1 13.9 14.33 C 13.2 14.55 12.87 15 12.67 15.2 C 12.47 15.43 12.5 15.5 12 15.5 C 11.5 15.5 11.53 15.43 11.33 15.2 C 11.13 15 10.8 14.55 10.1 14.33 C 9.4 14.1 8.9 14.26 8.6 14.3 C 8.3 14.4 8.27 14.44 7.9 14.16 C 7.5 13.9 7.54 13.83 7.5 13.53 C 7.5 13.23 7.46 12.7 7.04 12.1 C 6.6 11.53 6.1 11.33 5.83 11.2 C 5.55 11.1 5.5 11.1 5.34 10.66 C 5.2 10.2 5.26 10.2 5.4 9.93 C 5.56 9.67 5.87 9.2 5.87 8.5 C 5.87 7.8 5.56 7.33 5.4 7.07 C 5.26 6.8 5.2 6.8 5.34 6.34 C 5.5 5.9 5.55 5.9 5.83 5.8 C 6.1 5.67 6.6 5.47 7.04 4.9 C 7.46 4.3 7.5 3.77 7.5 3.47 C 7.54 3.17 7.5 3.1 7.9 2.84 C 8.27 2.56 8.3 2.6 8.6 2.7 C 8.9 2.74 9.4 2.9 10.1 2.67 C 10.8 2.45 11.13 2 11.33 1.8 C 11.53 1.57 11.5 1.5 12 1.5 z M 12 2.5 C 8.7 2.5 6 5.2 6 8.5 C 6 11.8 8.7 14.5 12 14.5 C 15.3 14.5 18 11.8 18 8.5 C 18 5.2 15.3 2.5 12 2.5 z M 12 3 A 5.5 5.5 0 0 1 17.5 8.5 A 5.5 5.5 0 0 1 12 14 A 5.5 5.5 0 0 1 6.5 8.5 A 5.5 5.5 0 0 1 12 3 z M 12 4 A 4.5 4.5 0 0 0 7.5 8.5 A 4.5 4.5 0 0 0 12 13 A 4.5 4.5 0 0 0 16.5 8.5 A 4.5 4.5 0 0 0 12 4 z M 12 4.5 C 14.2 4.5 16 6.3 16 8.5 C 16 10.7 14.2 12.5 12 12.5 C 9.8 12.5 8 10.7 8 8.5 C 8 6.3 9.8 4.5 12 4.5 z M 9.37 15.7 C 9.35 15.7 9.33 15.7 9.3 15.7 C 9.23 15.7 9.14 15.74 9 15.77 L 9 23 L 12 21.5 L 15 23 L 15 15.77 C 14.7 15.7 14.66 15.66 14.36 15.76 C 14.03 15.87 14.07 15.9 13.8 16.2 C 13.5 16.5 12.8 17 12 17 C 11.2 17 10.5 16.5 10.2 16.2 C 9.93 15.9 9.97 15.87 9.64 15.76 C 9.5 15.7 9.44 15.7 9.37 15.7 z M 9.5 16.24 C 9.6 16.27 9.6 16.3 9.6 16.3 C 9.6 16.3 9.7 16.37 9.83 16.54 C 10.2 16.96 11 17.5 12 17.5 C 13 17.5 13.8 16.96 14.17 16.54 C 14.3 16.37 14.4 16.3 14.4 16.3 C 14.4 16.3 14.43 16.26 14.5 16.25 L 14.5 22.2 L 12 20.94 L 9.5 22.2 L 9.5 16.24 z " fill="currentColor" opacity=".6"/></g><use href="#ubr" opacity=".4"></use><use class="toggle-flat-design" fill="url(#ubp)" href="#ubr" opacity=".1"></use><path class="toggle-flat-design" d="m 21,12 c -3,0 -3,2 -6,2 H 5 c -1.1,0 -2,.9 -2,2 v 24 c 0,1.1 .9,2 2,2 h 38 c 1.1,0 2,-.9 2,-2 V 25 16 14 c 0,-1.1 -.9,-2 -2,-2 z" fill="url(#ubo)" opacity=".2"/><path class="folder-crease " d="m 3,33 v 1 H 9.5 C 9.8,34 10,33.8 10,33.5 10,33.2 9.8,33 9.5,33 Z m 35.5,0 c -.3,0 -0.5,.2 -0.5,0.5 0,.3 .2,0.5 0.5,0.5 H 45 v -1 z" opacity=".4"/><path class="ColorScheme-Text" d="m 3,39 v 1 c 0,1.1 .9,2 2,2 h 38 c 1.1,0 2,-.9 2,-2 v -1 c 0,1.1 -.9,2 -2,2 H 5 C 3.9,41 3,40.1 3,39 Z" fill="currentColor" opacity=".1"/><path class="ColorScheme-Text" d="M 3,39.5 V 40 c 0,1.1 .9,2 2,2 h 38 c 1.1,0 2,-.9 2,-2 v -0.5 c 0,1.1 -.9,2 -2,2 H 5 c -1.1,0 -2,-.9 -2,-2 z" fill="currentColor" opacity=".2"/><path d="m 21,12 c -3,0 -3,2 -6,2 H 5 c -1.1,0 -2,.9 -2,2 v 1 c 0,-1.1 .9,-2 2,-2 h 10 c 3,0 3,-2 6,-2 h 22 c 1.1,0 2,.9 2,2 v -1 c 0,-1.1 -.9,-2 -2,-2 z" fill="#fff" opacity=".1"/><path d="m 21,12 c -3,0 -3,2 -6,2 H 5 c -1.1,0 -2,.9 -2,2 v 0.5 c 0,-1.1 .9,-2 2,-2 h 10 c 3,0 3,-2 6,-2 h 22 c 1.1,0 2,.9 2,2 V 14 c 0,-1.1 -.9,-2 -2,-2 z" fill="#fff" opacity=".2"/><path d="m 21,11 c -3,0 -3,2 -6,2 H 5 v 1 h 10 c 3,0 3,-2 6,-2 h 22 v -1 z" opacity=".1"/><path d="m 21,11.5 c -3,0 -3,2 -6,2 H 5 V 14 h 10 c 3,0 3,-2 6,-2 h 22 v -0.5 z" opacity=".2"/></g>
+</svg>
