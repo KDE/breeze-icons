@@ -22,7 +22,7 @@ if(NOT WIN32)
 endif()
 
 if(NOT SKIP_INSTALL_ICONS)
-    file(GLOB_RECURSE icon_files RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} "${CMAKE_CURRENT_SOURCE_DIR}/*.svg")
+    file(GLOB_RECURSE icon_files RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} "${CMAKE_CURRENT_SOURCE_DIR}/*.svg" "${CMAKE_CURRENT_SOURCE_DIR}/*@*")
     foreach (icon_file ${icon_files})
         install(FILES ${icon_file} DESTINATION ${BREEZE_INSTALL_DIR} RENAME ${icon_file})
     endforeach()
