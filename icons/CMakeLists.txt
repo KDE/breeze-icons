@@ -4,10 +4,6 @@ endif()
 
 ########### install files ###############
 
-set(breeze_icon_dirs
-    actions animations applets apps categories preferences devices emblems
-    emotes mimetypes places status)
-
 set(BREEZE_INSTALL_DIR ${KDE_INSTALL_FULL_ICONDIR}/breeze)
 
 if(WITH_ICON_GENERATION)
@@ -26,17 +22,17 @@ if(NOT WIN32)
 endif()
 
 if(NOT SKIP_INSTALL_ICONS)
-    install(DIRECTORY ${breeze_icon_dirs} DESTINATION ${BREEZE_INSTALL_DIR})
+    # collect all our icons we need to install, will be used by dark icon set as fallback icons if not there, too
+    file(GLOB_RECURSE icon_files RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} "${CMAKE_CURRENT_SOURCE_DIR}/*.svg")
+    set(BREEZE_LIGHT_ICONS ${icon_files} PARENT_SCOPE)
+    foreach (icon_file ${icon_files})
+        install(FILES ${icon_file} DESTINATION ${BREEZE_INSTALL_DIR} RENAME ${icon_file})
+    endforeach()
+
     install(FILES index.theme DESTINATION ${BREEZE_INSTALL_DIR})
     if(WITH_ICON_GENERATION)
         install(DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/generated/ DESTINATION ${BREEZE_INSTALL_DIR})
     endif()
-
-    # Install the colored icon sizes into breeze-dark theme as well, to ensure
-    # that icons are available on alternate environments which do not support
-    # colorized symbolic icons which are not named as "-symbolic"
-    # NOTE: icons-dark will install /some/ files over top of these
-    install(DIRECTORY ${breeze_icon_dirs} DESTINATION ${BREEZE_INSTALL_DIR}-dark)
 endif()
 
 gtk_update_icon_cache(${BREEZE_INSTALL_DIR})
