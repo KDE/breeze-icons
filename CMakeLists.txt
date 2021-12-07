@@ -63,9 +63,9 @@ option(BINARY_ICONS_RESOURCE "Install Qt binary resource files containing breeze
 option(SKIP_INSTALL_ICONS "Skip installing the icons files" OFF)
 
 if(BINARY_ICONS_RESOURCE)
-    find_package(Qt5 NO_MODULE REQUIRED Core)
+    find_package(Qt${QT_MAJOR_VERSION} NO_MODULE REQUIRED Core)
     add_executable(qrcAlias qrcAlias.cpp)
-    target_link_libraries(qrcAlias PUBLIC Qt5::Core)
+    target_link_libraries(qrcAlias PUBLIC Qt${QT_MAJOR_VERSION}::Core)
 
 function(generate_binary_resource target outfile)
     set(RESOURCES_WORKING_DIR ${CMAKE_CURRENT_BINARY_DIR}/res)
@@ -79,7 +79,7 @@ function(generate_binary_resource target outfile)
         set(pathVarName LD_LIBRARY_PATH)
     endif()
 
-    get_target_property(QT_RCC_EXECUTABLE Qt5::rcc LOCATION)
+    get_target_property(QT_RCC_EXECUTABLE Qt${QT_MAJOR_VERSION}::rcc LOCATION)
 
     add_custom_target(breeze-${target}-mkdir
         COMMAND ${CMAKE_COMMAND} -E make_directory ${RESOURCES_WORKING_DIR}
@@ -93,7 +93,7 @@ function(generate_binary_resource target outfile)
             ${RESOURCES_WORKING_DIR}/CMakeLists.txt
         COMMAND ${QT_RCC_EXECUTABLE} --project -o ${CMAKE_CURRENT_BINARY_DIR}/tmp.qrc
         COMMAND ${CMAKE_COMMAND} -E env
-            ${pathVarName}=$<TARGET_FILE_DIR:Qt5::Core>
+            ${pathVarName}=$<TARGET_FILE_DIR:Qt${QT_MAJOR_VERSION}::Core>
             $<TARGET_FILE:qrcAlias> -i ${CMAKE_CURRENT_BINARY_DIR}/tmp.qrc -o ${RESOURCE_FILE}
 
         WORKING_DIRECTORY ${RESOURCES_WORKING_DIR}
