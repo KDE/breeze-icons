@@ -4,6 +4,14 @@ endif()
 
 ########### install files ###############
 
+FILE(GLOB possible_icon_dirs RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} ${CMAKE_CURRENT_SOURCE_DIR}/*)
+SET(breeze_icon_dirs "")
+FOREACH(possible_icon_dir ${possible_icon_dirs})
+    IF(IS_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/${possible_icon_dir})
+        LIST(APPEND breeze_icon_dirs ${possible_icon_dir})
+    ENDIF()
+ENDFOREACH()
+
 set(BREEZE_INSTALL_DIR ${KDE_INSTALL_FULL_ICONDIR}/breeze)
 
 if(WITH_ICON_GENERATION)
@@ -22,12 +30,10 @@ if(NOT WIN32)
 endif()
 
 if(NOT SKIP_INSTALL_ICONS)
+    install(DIRECTORY ${breeze_icon_dirs} DESTINATION ${BREEZE_INSTALL_DIR})
     # collect all our icons we need to install, will be used by dark icon set as fallback icons if not there, too
-    file(GLOB_RECURSE icon_files RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} "${CMAKE_CURRENT_SOURCE_DIR}/*.svg" "${CMAKE_CURRENT_SOURCE_DIR}/*@*")
+    file(GLOB_RECURSE icon_files RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} "${CMAKE_CURRENT_SOURCE_DIR}/*.svg")
     set(BREEZE_LIGHT_ICONS ${icon_files} PARENT_SCOPE)
-    foreach (icon_file ${icon_files})
-        install(FILES ${icon_file} DESTINATION ${BREEZE_INSTALL_DIR} RENAME ${icon_file})
-    endforeach()
 
     install(FILES index.theme DESTINATION ${BREEZE_INSTALL_DIR})
     if(WITH_ICON_GENERATION)

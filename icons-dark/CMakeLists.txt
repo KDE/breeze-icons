@@ -4,6 +4,14 @@ endif()
 
 ########### install files ###############
 
+FILE(GLOB possible_icon_dirs RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} ${CMAKE_CURRENT_SOURCE_DIR}/*)
+SET(breeze_icon_dark_dirs "")
+FOREACH(possible_icon_dir ${possible_icon_dirs})
+    IF(IS_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/${possible_icon_dir})
+        LIST(APPEND breeze_icon_dark_dirs ${possible_icon_dir})
+    ENDIF()
+ENDFOREACH()
+
 set(BREEZE_INSTALL_DIR ${KDE_INSTALL_FULL_ICONDIR}/breeze-dark)
 
 if(WITH_ICON_GENERATION)
@@ -22,11 +30,8 @@ if(NOT WIN32)
 endif()
 
 if(NOT SKIP_INSTALL_ICONS)
-    file(GLOB_RECURSE icon_files RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} "${CMAKE_CURRENT_SOURCE_DIR}/*.svg" "${CMAKE_CURRENT_SOURCE_DIR}/*@*")
-    foreach (icon_file ${icon_files})
-        install(FILES ${icon_file} DESTINATION ${BREEZE_INSTALL_DIR} RENAME ${icon_file})
-    endforeach()
-
+    install(DIRECTORY ${breeze_icon_dark_dirs} DESTINATION ${BREEZE_INSTALL_DIR})
+    file(GLOB_RECURSE icon_files RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} "${CMAKE_CURRENT_SOURCE_DIR}/*.svg")
     # install for all missing icons the light icons as fallback
     foreach (icon_file ${BREEZE_LIGHT_ICONS})
         if (NOT ${icon_file} IN_LIST icon_files)
