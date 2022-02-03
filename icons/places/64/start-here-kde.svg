@@ -2,15 +2,12 @@
   <defs id="defs3051">
     <style type="text/css" id="current-color-scheme">
       .ColorScheme-Text {
-        color:#232629;
+        color:#3b3f42;
       }
-      .ColorScheme-Highlight {
-        color:#3daee9;
-      }
-      </style>
+    </style>
   </defs>
   <path
-     style="fill-rule:evenodd"
+     style="fill:currentColor; fill-rule:evenodd"
      d="M 41 5 L 35 11 L 46 22 L 35 33 L 41 39 L 58 22 L 41 5 z "
      class="ColorScheme-Text"
      />
@@ -23,8 +20,7 @@
      d="M 10.5 25.5 C 8 25.5 6 27.5 6 30 C 6 32.5 8 34.5 10.5 34.5 C 13 34.5 15 32.5 15 30 C 15 27.5 13 25.5 10.5 25.5 z "
      />
   <path
-     style="fill:currentColor" 
+     style="fill:#1b89f3"
      d="M 25.5 45 C 21.9 45 19 47.9 19 51.5 C 19 55.1 21.9 58 25.5 58 C 29.1 58 32 55.1 32 51.5 C 32 47.9 29.1 45 25.5 45 z "
-     class="ColorScheme-Highlight"
      />
 </svg>
