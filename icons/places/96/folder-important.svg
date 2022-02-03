@@ -10,16 +10,15 @@
       </style>
   </defs>
  <path 
-     style="fill:currentColor" 
+     style="fill:#eb0a42"
      d="M 6 9 L 6 30 L 5 30 L 5 87 L 91 87 L 91 24 L 90 24 L 90 15 L 48 15 L 42 9 L 6 9 z "
-     class="ColorScheme-Highlight"
      />
  <path 
-     style="fill-opacity:0.33"
+     style="fill-opacity:0.33;fill-rule:evenodd"
      d="M 6 9 L 6 30 L 33 30 L 39 24 L 90 24 L 90 15 L 48 15 L 42 9 L 6 9 z "
      />
  <path 
-     style="fill:#ffffff;fill-opacity:0.2"
+     style="fill:#ffffff;fill-opacity:0.2;fill-rule:evenodd"
      d="M 42 9 L 47 16 L 90 16 L 90 15 L 48 15 L 42 9 z M 39 24 L 33 30 L 5 30 L 5 31 L 34 31 L 39 24 z "
      />
  <path 
