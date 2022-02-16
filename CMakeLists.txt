@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
 
-set(KF_VERSION "5.91.0") # handled by release scripts
+set(KF_VERSION "5.92.0") # handled by release scripts
 project(BreezeIcons VERSION ${KF_VERSION})
 
 # Disallow in-source build
