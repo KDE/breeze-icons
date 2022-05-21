@@ -155,7 +155,7 @@ public:
 
 // Declare so we can put them into the QTest data table.
 Q_DECLARE_METATYPE(KIconLoaderDummy::Context)
-Q_DECLARE_METATYPE(QSharedPointer<Dir>)
+Q_DECLARE_METATYPE(std::shared_ptr<Dir>)
 
 class ScalableTest : public QObject
 {
@@ -167,7 +167,7 @@ private Q_SLOTS:
         for (auto dir : ICON_DIRS) {
             QString themeDir = PROJECT_SOURCE_DIR + QStringLiteral("/") + dir;
 
-            QHash<KIconLoaderDummy::Context, QList<QSharedPointer<Dir>>> contextHash;
+            QHash<KIconLoaderDummy::Context, QList<std::shared_ptr<Dir>>> contextHash;
             QHash<KIconLoaderDummy::Context, QString> contextStringHash;
 
             QSettings config(themeDir + "/index.theme", QSettings::IniFormat);
@@ -187,7 +187,7 @@ private Q_SLOTS:
                              .arg(themeDir + "/index.theme", directoryPath)
                              .toLatin1()
                              .constData());
-                auto dir = QSharedPointer<Dir>::create(config, themeDir);
+                auto dir = std::make_shared<Dir>(config, themeDir);
                 config.endGroup();
                 contextHash[dir->context].append(dir);
                 contextStringHash[dir->context] = (dir->contextString);
@@ -215,7 +215,7 @@ private Q_SLOTS:
                                  .arg(inheritedDir + "/index.theme", path)
                                  .toLatin1()
                                  .constData());
-                    auto dir = QSharedPointer<Dir>::create(inheritedConfig, inheritedDir);
+                    auto dir = std::make_shared<Dir>(inheritedConfig, inheritedDir);
                     inheritedConfig.endGroup();
                     contextHash[dir->context].append(dir);
                     contextStringHash[dir->context] = (dir->contextString);
@@ -224,7 +224,7 @@ private Q_SLOTS:
             config.endGroup();
 
             QTest::addColumn<KIconLoaderDummy::Context>("context");
-            QTest::addColumn<QList<QSharedPointer<Dir>>>("dirs");
+            QTest::addColumn<QList<std::shared_ptr<Dir>>>("dirs");
 
             for (auto key : contextHash.keys()) {
                 if (key != KIconLoaderDummy::Application) {
@@ -242,10 +242,10 @@ private Q_SLOTS:
     void test_scalable()
     {
         QFETCH(KIconLoaderDummy::Context, context);
-        QFETCH(QList<QSharedPointer<Dir>>, dirs);
+        QFETCH(QList<std::shared_ptr<Dir>>, dirs);
 
-        QList<QSharedPointer<Dir>> fixedDirs;
-        QList<QSharedPointer<Dir>> scalableDirs;
+        QList<std::shared_ptr<Dir>> fixedDirs;
+        QList<std::shared_ptr<Dir>> scalableDirs;
         for (auto dir : dirs) {
             switch (dir->type) {
             case KIconLoaderDummy::Scalable:
@@ -307,9 +307,9 @@ private Q_SLOTS:
 
     void test_scalableDuplicates()
     {
-        QFETCH(QList<QSharedPointer<Dir>>, dirs);
+        QFETCH(QList<std::shared_ptr<Dir>>, dirs);
 
-        QList<QSharedPointer<Dir>> scalableDirs;
+        QList<std::shared_ptr<Dir>> scalableDirs;
         for (auto dir : dirs) {
             switch (dir->type) {
             case KIconLoaderDummy::Scalable:
