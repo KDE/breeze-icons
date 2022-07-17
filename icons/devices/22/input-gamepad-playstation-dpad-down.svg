@@ -1,0 +1,16 @@
+<svg viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text {
+        color:#232629;
+      }
+    </style>
+    <g
+        style="fill:currentColor;fill-opacity:1;stroke:none"
+        class="ColorScheme-Text"
+        clip-rule="evenodd"
+        fill-rule="evenodd" >
+
+        <path d="m18 7.46837v10.53163h-14v-10.53163l5.36205-4.46837h3.27585zm1-.46837v12h-16v-12l6-5h4z"/>
+        <path d="m11 15.7071 4.3536-4.3535-.7072-.7072-3.1464 3.1465v-6.7929h-1v6.7929l-3.14645-3.1465-.7071.7072z"/>
+    </g>
+</svg>
