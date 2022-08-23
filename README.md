@@ -24,7 +24,7 @@ To report a bug or request new icons, use the [KDE Bugtracker](https://bugs.kde.
 
 You can contact the KDE Visual Design Group at the following places:
 
-- `#visualdesigngroup:kde.org` on Matrix: <https://webchat.kde.org/#/room/#kde-vdg:kde.org>
-- `#kde-vdg` on Libera Chat IRC
+- `#visualdesigngroup:kde.org` on Matrix: <https://webchat.kde.org/#/room/#visualdesigngroup:kde.org>
+- `#visualdesigngroup` on Libera Chat IRC
 - The VDG Telegram room: <https://telegram.me/vdgmainroom>
 - The visual-design@kde.org mailing list: <https://mail.kde.org/mailman/listinfo/visual-design>
