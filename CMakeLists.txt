@@ -52,20 +52,13 @@ add_feature_info("Icon generation" ${WITH_ICON_GENERATION} "for 24x24 icons.
    This feature requires Python 3 and the lxml Python 3 module."
 ) # The exact amount of indentation used in the line(s) above is intentional
 
-# When cross-compiling, we should compile qrcAlias natively (against a native Qt build)
-if (CMAKE_CROSSCOMPILING OR QT_MAJOR_VERSION GREATER 5)
-    set(BINARY_ICONS_RESOURCE_OPTION_DEFAULT OFF)
-else()
-    set(BINARY_ICONS_RESOURCE_OPTION_DEFAULT ON)
-endif()
-
-option(BINARY_ICONS_RESOURCE "Install Qt binary resource files containing breeze icons (breeze-icons.rcc, breeze-icons-dark.rcc)" ${BINARY_ICONS_RESOURCE_OPTION_DEFAULT})
+option(BINARY_ICONS_RESOURCE "Install Qt binary resource files containing breeze icons (breeze-icons.rcc, breeze-icons-dark.rcc)" OFF)
 option(SKIP_INSTALL_ICONS "Skip installing the icons files" OFF)
 
 if(BINARY_ICONS_RESOURCE)
-    find_package(Qt${QT_MAJOR_VERSION} NO_MODULE REQUIRED Core)
+    find_package(Qt6 NO_MODULE REQUIRED Core)
     add_executable(qrcAlias qrcAlias.cpp)
-    target_link_libraries(qrcAlias PUBLIC Qt${QT_MAJOR_VERSION}::Core)
+    target_link_libraries(qrcAlias PUBLIC Qt6::Core)
 
 function(generate_binary_resource target outfile)
     set(RESOURCES_WORKING_DIR ${CMAKE_CURRENT_BINARY_DIR}/res)
@@ -79,7 +72,7 @@ function(generate_binary_resource target outfile)
         set(pathVarName LD_LIBRARY_PATH)
     endif()
 
-    get_target_property(QT_RCC_EXECUTABLE Qt${QT_MAJOR_VERSION}::rcc LOCATION)
+    get_target_property(QT_RCC_EXECUTABLE Qt6::rcc LOCATION)
 
     add_custom_target(breeze-${target}-mkdir
         COMMAND ${CMAKE_COMMAND} -E make_directory ${RESOURCES_WORKING_DIR}
@@ -93,7 +86,7 @@ function(generate_binary_resource target outfile)
             ${RESOURCES_WORKING_DIR}/CMakeLists.txt
         COMMAND ${QT_RCC_EXECUTABLE} --project -o ${CMAKE_CURRENT_BINARY_DIR}/tmp.qrc
         COMMAND ${CMAKE_COMMAND} -E env
-            ${pathVarName}=$<TARGET_FILE_DIR:Qt${QT_MAJOR_VERSION}::Core>
+            ${pathVarName}=$<TARGET_FILE_DIR:Qt6::Core>
             $<TARGET_FILE:qrcAlias> -i ${CMAKE_CURRENT_BINARY_DIR}/tmp.qrc -o ${RESOURCE_FILE}
 
         WORKING_DIRECTORY ${RESOURCES_WORKING_DIR}
