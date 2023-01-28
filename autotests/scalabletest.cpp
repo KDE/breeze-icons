@@ -286,7 +286,7 @@ private Q_SLOTS:
 
         QStringList notScalableIcons;
         for (auto fixed : fixedIcons) {
-            if (scalableIcons.keys().contains(fixed)) {
+            if (scalableIcons.contains(fixed)) {
                 continue;
             }
             notScalableIcons << fixed;
