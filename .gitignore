@@ -1,17 +1,17 @@
-# Compiled source #
-###################
+# Ignore the following files
+*.kdev4
 *.directory
 *.bak
 *thumbs.db
 dist
 node_modules
+CMakeLists.txt.user*
 .cmake/
-compile_commands.json
+/.clang-format
+/compile_commands.json
 build/
 xmlerrors
-/.clang-format
 .clangd
 .idea
 /cmake-build*
 .cache
-*.kdev4
