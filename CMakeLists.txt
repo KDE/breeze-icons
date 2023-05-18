@@ -16,6 +16,7 @@ feature_summary(WHAT REQUIRED_PACKAGES_NOT_FOUND FATAL_ON_MISSING_REQUIRED_PACKA
 
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 
+include(ECMSetupVersion)
 include(KDEInstallDirs)
 include(KDECMakeSettings)
 include(KDEGitCommitHooks)
@@ -135,6 +136,27 @@ endif()
 add_subdirectory(autotests)
 add_subdirectory(icons)
 add_subdirectory(icons-dark)
+
+set(CMAKECONFIG_INSTALL_DIR "${KDE_INSTALL_CMAKEPACKAGEDIR}/KF5BreezeIcons")
+
+configure_package_config_file(
+  "${CMAKE_CURRENT_SOURCE_DIR}/KF5BreezeIconsConfig.cmake.in"
+  "${CMAKE_CURRENT_BINARY_DIR}/KF5BreezeIconsConfig.cmake"
+  INSTALL_DESTINATION  ${CMAKECONFIG_INSTALL_DIR}
+  PATH_VARS  CMAKE_INSTALL_PREFIX
+)
+
+install(FILES
+  "${CMAKE_CURRENT_BINARY_DIR}/KF5BreezeIconsConfig.cmake"
+  "${CMAKE_CURRENT_BINARY_DIR}/KF5BreezeIconsConfigVersion.cmake"
+  DESTINATION "${CMAKECONFIG_INSTALL_DIR}"
+  COMPONENT Devel
+)
+
+ecm_setup_version(PROJECT
+    VARIABLE_PREFIX BREEZEICONS
+    PACKAGE_VERSION_FILE "${CMAKE_CURRENT_BINARY_DIR}/KF5BreezeIconsConfigVersion.cmake"
+    SOVERSION 5)
 
 feature_summary(WHAT ALL FATAL_ON_MISSING_REQUIRED_PACKAGES INCLUDE_QUIET_PACKAGES)
 
