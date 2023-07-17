@@ -1,21 +1,12 @@
 # helper functions to ensure we load the icon theme
-set(kbreezeicons_SRCS
-    breezeicons.cpp
-)
+set(kbreezeicons_SRCS breezeicons.cpp)
 
-# add our icons for normal mode
-qt_add_big_resources(kbreezeicons_SRCS
+qt_add_big_resources(kbreezeicons_resource_SRCS
     ${CMAKE_BINARY_DIR}/icons/res/breeze-icons.qrc
     OPTIONS --root /icons/breeze
 )
 
-# add our icons for dark mode
-qt_add_big_resources(kbreezeicons_SRCS
-    ${CMAKE_BINARY_DIR}/icons-dark/res/breeze-icons-dark.qrc
-    OPTIONS --root /icons/breeze-dark
-)
-
-add_library(KF6BreezeIcons ${kbreezeicons_SRCS})
+add_library(KF6BreezeIcons ${kbreezeicons_resource_SRCS} ${kbreezeicons_SRCS})
 add_library(KF6::BreezeIcons ALIAS KF6BreezeIcons)
 
 set_target_properties(KF6BreezeIcons
@@ -24,7 +15,6 @@ set_target_properties(KF6BreezeIcons
         SOVERSION ${BREEZEICONS_SOVERSION}
         EXPORT_NAME BreezeIcons
 )
-
 
 generate_export_header(KF6BreezeIcons BASE_NAME BreezeIcons)
 
