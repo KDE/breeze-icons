@@ -14,6 +14,13 @@ ENDFOREACH()
 
 set(BREEZE_INSTALL_DIR ${KDE_INSTALL_FULL_ICONDIR}/breeze)
 
+if(NOT WIN32)
+    add_custom_target(create-app-symlinks ALL
+        COMMENT "Creating icon symlinks for app aliases"
+        COMMAND ${Python_EXECUTABLE} ${CMAKE_SOURCE_DIR}/create-app-symlinks.py ${CMAKE_CURRENT_SOURCE_DIR} ${CMAKE_CURRENT_BINARY_DIR}/aliases/
+    )
+endif()
+
 if(WITH_ICON_GENERATION)
     # Auto-generate 24px monochrome icons from 22px versions
     add_custom_target(breeze-generate-24px-versions ALL
@@ -36,6 +43,9 @@ if(NOT SKIP_INSTALL_ICONS)
     set(BREEZE_LIGHT_ICONS ${icon_files} PARENT_SCOPE)
 
     install(FILES index.theme DESTINATION ${BREEZE_INSTALL_DIR})
+    if(NOT WIN32)
+        install(DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/aliases/ DESTINATION ${BREEZE_INSTALL_DIR})
+    endif()
     if(WITH_ICON_GENERATION)
         install(DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/generated/ DESTINATION ${BREEZE_INSTALL_DIR})
     endif()

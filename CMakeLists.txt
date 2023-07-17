@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
 
-set(KF_VERSION "5.100.0") # handled by release scripts
+set(KF_VERSION "5.240.0") # handled by release scripts
 project(BreezeIcons VERSION ${KF_VERSION})
 
 # Disallow in-source build
@@ -10,12 +10,13 @@ endif()
 
 # ECM setup
 include(FeatureSummary)
-find_package(ECM 5.99.0  NO_MODULE)
+find_package(ECM 5.240.0  NO_MODULE)
 set_package_properties(ECM PROPERTIES TYPE REQUIRED DESCRIPTION "Extra CMake Modules." URL "https://commits.kde.org/extra-cmake-modules")
 feature_summary(WHAT REQUIRED_PACKAGES_NOT_FOUND FATAL_ON_MISSING_REQUIRED_PACKAGES)
 
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH} ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 
+include(ECMSetupVersion)
 include(KDEInstallDirs)
 include(KDECMakeSettings)
 include(KDEGitCommitHooks)
@@ -26,7 +27,7 @@ include(ECMGenerateHeaders)
 include(ECMSetupVersion)
 
 # Dependencies
-set(REQUIRED_QT_VERSION 5.15.2)
+set(REQUIRED_QT_VERSION 6.4.0)
 
 # Find Python 3
 find_package (Python 3 COMPONENTS Interpreter)
@@ -55,27 +56,14 @@ add_feature_info("Icon generation" ${WITH_ICON_GENERATION} "for 24x24 icons.
    This feature requires Python 3 and the lxml Python 3 module."
 ) # The exact amount of indentation used in the line(s) above is intentional
 
-# When cross-compiling, we should compile qrcAlias natively (against a native Qt build)
-if (CMAKE_CROSSCOMPILING)
-    set(BINARY_ICONS_RESOURCE_OPTION_DEFAULT OFF)
-else()
-    set(BINARY_ICONS_RESOURCE_OPTION_DEFAULT ON)
-endif()
-
-option(BINARY_ICONS_RESOURCE "Install Qt binary resource files containing breeze icons (breeze-icons.rcc, breeze-icons-dark.rcc)" ${BINARY_ICONS_RESOURCE_OPTION_DEFAULT})
+option(BINARY_ICONS_RESOURCE "Install Qt binary resource files containing breeze icons (breeze-icons.rcc, breeze-icons-dark.rcc)" OFF)
 option(SKIP_INSTALL_ICONS "Skip installing the icons files" OFF)
 option(ICONS_LIBRARY "Install a library including the breeze & breeze dark icons as resources & functions to use them." OFF)
 
-ecm_setup_version(PROJECT
-                  VARIABLE_PREFIX BREEZEICONS
-                  VERSION_HEADER "${CMAKE_CURRENT_BINARY_DIR}/breezeicons_version.h"
-                  PACKAGE_VERSION_FILE "${CMAKE_CURRENT_BINARY_DIR}/KF5BreezeIconsConfigVersion.cmake"
-                  SOVERSION 5)
-
 if(BINARY_ICONS_RESOURCE OR ICONS_LIBRARY)
-     find_package(Qt${QT_MAJOR_VERSION} NO_MODULE REQUIRED Core)
+    find_package(Qt6 NO_MODULE REQUIRED Core)
     add_executable(qrcAlias qrcAlias.cpp)
-    target_link_libraries(qrcAlias PUBLIC Qt${QT_MAJOR_VERSION}::Core)
+    target_link_libraries(qrcAlias PUBLIC Qt6::Core)
 
 function(generate_binary_resource target outfile)
     set(RESOURCES_WORKING_DIR ${CMAKE_CURRENT_BINARY_DIR}/res)
@@ -89,7 +77,7 @@ function(generate_binary_resource target outfile)
         set(pathVarName LD_LIBRARY_PATH)
     endif()
 
-    get_target_property(QT_RCC_EXECUTABLE Qt${QT_MAJOR_VERSION}::rcc LOCATION)
+    get_target_property(QT_RCC_EXECUTABLE Qt6::rcc LOCATION)
 
     add_custom_target(breeze-${target}-mkdir
         COMMAND ${CMAKE_COMMAND} -E make_directory ${RESOURCES_WORKING_DIR}
@@ -103,7 +91,7 @@ function(generate_binary_resource target outfile)
             ${RESOURCES_WORKING_DIR}/CMakeLists.txt
         COMMAND ${QT_RCC_EXECUTABLE} --project -o ${CMAKE_CURRENT_BINARY_DIR}/tmp.qrc
         COMMAND ${CMAKE_COMMAND} -E env
-            ${pathVarName}=$<TARGET_FILE_DIR:Qt${QT_MAJOR_VERSION}::Core>
+            ${pathVarName}=$<TARGET_FILE_DIR:Qt6::Core>
             $<TARGET_FILE:qrcAlias> -i ${CMAKE_CURRENT_BINARY_DIR}/tmp.qrc -o ${RESOURCE_FILE}
 
         WORKING_DIRECTORY ${RESOURCES_WORKING_DIR}
@@ -146,32 +134,35 @@ add_subdirectory(autotests)
 add_subdirectory(icons)
 add_subdirectory(icons-dark)
 
+set(CMAKECONFIG_INSTALL_DIR "${KDE_INSTALL_CMAKEPACKAGEDIR}/KF6BreezeIcons")
+
+configure_package_config_file(
+  "${CMAKE_CURRENT_SOURCE_DIR}/KF6BreezeIconsConfig.cmake.in"
+  "${CMAKE_CURRENT_BINARY_DIR}/KF6BreezeIconsConfig.cmake"
+  INSTALL_DESTINATION  ${CMAKECONFIG_INSTALL_DIR}
+  PATH_VARS  CMAKE_INSTALL_PREFIX
+)
+
+install(FILES
+  "${CMAKE_CURRENT_BINARY_DIR}/KF6BreezeIconsConfig.cmake"
+  "${CMAKE_CURRENT_BINARY_DIR}/KF6BreezeIconsConfigVersion.cmake"
+  DESTINATION "${CMAKECONFIG_INSTALL_DIR}"
+  COMPONENT Devel
+)
+
+ecm_setup_version(PROJECT
+    VARIABLE_PREFIX BREEZEICONS
+    PACKAGE_VERSION_FILE "${CMAKE_CURRENT_BINARY_DIR}/KF6BreezeIconsConfigVersion.cmake"
+    SOVERSION 6)
+
 # shall we create a library with the icons?
 if(ICONS_LIBRARY)
-    find_package(Qt${QT_MAJOR_VERSION}Gui ${REQUIRED_QT_VERSION} REQUIRED NO_MODULE)
+    find_package(Qt6Core ${REQUIRED_QT_VERSION} REQUIRED NO_MODULE)
 
-    # create a Config.cmake and a ConfigVersion.cmake file and install them
-    set(CMAKECONFIG_INSTALL_DIR "${KDE_INSTALL_CMAKEPACKAGEDIR}/KF5BreezeIcons")
-
-    include(CMakePackageConfigHelpers)
-
-    configure_package_config_file(
-        "${CMAKE_CURRENT_SOURCE_DIR}/KF5BreezeIconsConfig.cmake.in"
-        "${CMAKE_CURRENT_BINARY_DIR}/KF5BreezeIconsConfig.cmake"
-        INSTALL_DESTINATION ${CMAKECONFIG_INSTALL_DIR}
-    )
-
-    install(FILES
-        "${CMAKE_CURRENT_BINARY_DIR}/KF5BreezeIconsConfig.cmake"
-        "${CMAKE_CURRENT_BINARY_DIR}/KF5BreezeIconsConfigVersion.cmake"
+    install(EXPORT KF6BreezeIconsTargets
         DESTINATION "${CMAKECONFIG_INSTALL_DIR}"
-        COMPONENT Devel
-    )
-
-    install(EXPORT KF5BreezeIconsTargets
-        DESTINATION "${CMAKECONFIG_INSTALL_DIR}"
-        FILE KF5BreezeIconsTargets.cmake
-        NAMESPACE KF5::
+        FILE KF6BreezeIconsTargets.cmake
+        NAMESPACE KF6::
     )
 
     install(FILES ${CMAKE_CURRENT_BINARY_DIR}/breezeicons_version.h

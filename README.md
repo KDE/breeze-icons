@@ -8,7 +8,7 @@ Breeze-icons is a freedesktop.org compatible icon theme. It's developed by the K
 
 The Breeze icons guidelines are described at [develop.kde.org/hig](https://develop.kde.org/hig).
 
-### Web Usage 
+## Web Usage
 
 Breeze Icons can be used as a webfont from [cdn.kde.org/breeze-icons/icons.html](https://cdn.kde.org/breeze-icons/icons.html).
 

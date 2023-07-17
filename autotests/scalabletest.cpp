@@ -68,12 +68,12 @@ public:
         , size(cg.value("Size", 0).toInt())
         , contextString(cg.value("Context", QString()).toString())
         , context(parseContext(contextString))
-        , type(parseType(cg.value("Type", QString("Threshold")).toString()))
+        , type(parseType(cg.value("Type", QStringLiteral("Threshold")).toString()))
     {
         QVERIFY2(!contextString.isEmpty(),
-                 QString("Missing 'Context' key in file %1, config group '[%2]'").arg(cg.fileName(), cg.group()).toLatin1().constData());
+                 QStringLiteral("Missing 'Context' key in file %1, config group '[%2]'").arg(cg.fileName(), cg.group()).toLatin1().constData());
         QVERIFY2(context != -1,
-                 QString("Don't know how to handle 'Context=%1' in file %2, config group '[%3]'")
+                 QStringLiteral("Don't know how to handle 'Context=%1' in file %2, config group '[%3]'")
                      .arg(contextString, cg.fileName(), cg.group())
                      .toLatin1()
                      .constData());
@@ -132,7 +132,7 @@ public:
     QList<QFileInfo> allIcons()
     {
         QList<QFileInfo> icons;
-        auto iconDir = QString("%1/%2").arg(themeDir).arg(path);
+        auto iconDir = QStringLiteral("%1/%2").arg(themeDir).arg(path);
         QDirIterator it(iconDir);
         while (it.hasNext()) {
             it.next();
@@ -182,8 +182,7 @@ private Q_SLOTS:
             for (auto directoryPath : directoryPaths) {
                 config.beginGroup(directoryPath);
                 QVERIFY2(keys.contains(directoryPath + "/Size"),
-                         QString("The theme %1 has an entry 'Directories' which specifies '%2' as directory, but there's no"
-                                 " have no associated entry '%2/Size'")
+                         QStringLiteral("The theme %1 has an entry 'Directories' which specifies '%2' as directory, but it has no associated entry '%2/Size'")
                              .arg(themeDir + "/index.theme", directoryPath)
                              .toLatin1()
                              .constData());
@@ -210,11 +209,12 @@ private Q_SLOTS:
                 QVERIFY(!inheritedPaths.empty());
                 for (const auto& path : inheritedPaths) {
                     inheritedConfig.beginGroup(path);
-                    QVERIFY2(inheritedKeys.contains(path + "/Size"),
-                             QString("The theme %1 has an entry 'Directories' which specifies '%2' as directory, but has no associated entry '%2/Size'")
-                                 .arg(inheritedDir + "/index.theme", path)
-                                 .toLatin1()
-                                 .constData());
+                    QVERIFY2(
+                        inheritedKeys.contains(path + "/Size"),
+                        QStringLiteral("The theme %1 has an entry 'Directories' which specifies '%2' as directory, but it has no associated entry '%2/Size'")
+                            .arg(inheritedDir + "/index.theme", path)
+                            .toLatin1()
+                            .constData());
                     auto dir = std::make_shared<Dir>(inheritedConfig, inheritedDir);
                     inheritedConfig.endGroup();
                     contextHash[dir->context].append(dir);
@@ -286,7 +286,7 @@ private Q_SLOTS:
 
         QStringList notScalableIcons;
         for (auto fixed : fixedIcons) {
-            if (scalableIcons.keys().contains(fixed)) {
+            if (scalableIcons.contains(fixed)) {
                 continue;
             }
             notScalableIcons << fixed;
@@ -297,7 +297,7 @@ private Q_SLOTS:
             return;
         }
         notScalableIcons.removeDuplicates();
-        QFAIL(QString("The following icons are not available in a scalable directory:\n  %1").arg(notScalableIcons.join("\n  ")).toLatin1().constData());
+        QFAIL(QStringLiteral("The following icons are not available in a scalable directory:\n  %1").arg(notScalableIcons.join("\n  ")).toLatin1().constData());
     }
 
     void test_scalableDuplicates_data()
