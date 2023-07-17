@@ -152,6 +152,7 @@ install(FILES
 
 ecm_setup_version(PROJECT
     VARIABLE_PREFIX BREEZEICONS
+    VERSION_HEADER ${CMAKE_CURRENT_BINARY_DIR}/breezeicons_version.h
     PACKAGE_VERSION_FILE "${CMAKE_CURRENT_BINARY_DIR}/KF6BreezeIconsConfigVersion.cmake"
     SOVERSION 6)
 
