@@ -3,20 +3,22 @@ set(kbreezeicons_SRCS
     breezeicons.cpp
 )
 
+add_library(KF6BreezeIcons ${kbreezeicons_SRCS})
+add_library(KF6::BreezeIcons ALIAS KF6BreezeIcons)
+
 # add our icons for normal mode
-qt_add_resources(kbreezeicons_SRCS
+qt_add_resources(KF6BreezeIcons
     ${CMAKE_BINARY_DIR}/icons/res/breeze-icons.qrc
+    BIG_RESOURCES
     OPTIONS --root /icons/breeze
 )
 
 # add our icons for dark mode
-qt_add_resources(kbreezeicons_SRCS
+qt_add_resources(KF6BreezeIcons
     ${CMAKE_BINARY_DIR}/icons-dark/res/breeze-icons-dark.qrc
+    BIG_RESOURCES
     OPTIONS --root /icons/breeze-dark
 )
-
-add_library(KF6BreezeIcons ${kbreezeicons_SRCS})
-add_library(KF6::BreezeIcons ALIAS KF6BreezeIcons)
 
 set_target_properties(KF6BreezeIcons
     PROPERTIES
