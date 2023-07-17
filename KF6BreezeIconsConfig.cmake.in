@@ -1,9 +1,6 @@
 @PACKAGE_INIT@
 
-# Any changes in this ".cmake" file will be overwritten by CMake, the source is the ".cmake.in" file.
+include(CMakeFindDependencyMacro)
+find_dependency(Qt6Gui "@REQUIRED_QT_VERSION@")
 
-#include("${CMAKE_CURRENT_LIST_DIR}/KF5BreezeIconsTargets.cmake")
-
-set(BreezeIcons_INSTALL_PREFIX "@PACKAGE_CMAKE_INSTALL_PREFIX@")
-
-
+include("${CMAKE_CURRENT_LIST_DIR}/KF6BreezeIconsTargets.cmake")

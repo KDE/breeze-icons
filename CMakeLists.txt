@@ -157,7 +157,7 @@ ecm_setup_version(PROJECT
 
 # shall we create a library with the icons?
 if(ICONS_LIBRARY)
-    find_package(Qt6Core ${REQUIRED_QT_VERSION} REQUIRED NO_MODULE)
+    find_package(Qt6Gui ${REQUIRED_QT_VERSION} REQUIRED NO_MODULE)
 
     install(EXPORT KF6BreezeIconsTargets
         DESTINATION "${CMAKECONFIG_INSTALL_DIR}"
