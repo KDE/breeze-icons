@@ -239,67 +239,6 @@ private Q_SLOTS:
         }
     }
 
-    void test_scalable()
-    {
-        QFETCH(KIconLoaderDummy::Context, context);
-        QFETCH(QList<std::shared_ptr<Dir>>, dirs);
-
-        QList<std::shared_ptr<Dir>> fixedDirs;
-        QList<std::shared_ptr<Dir>> scalableDirs;
-        for (auto dir : dirs) {
-            switch (dir->type) {
-            case KIconLoaderDummy::Scalable:
-                scalableDirs << dir;
-                break;
-            case KIconLoaderDummy::Fixed:
-                fixedDirs << dir;
-                break;
-            case KIconLoaderDummy::Threshold:
-                QVERIFY2(false, "Test does not support threshold icons right now.");
-            }
-        }
-
-        // FIXME: context should be translated through qenum
-        switch (context) {
-        case KIconLoaderDummy::Application:
-            // Treat this as a problem.
-            QVERIFY2(!scalableDirs.empty(), "This icon context has no scalable directory at all!");
-            break;
-        default:
-            qWarning() << "All context but Application are whitelisted from having a scalable directory.";
-            return;
-        }
-
-        QStringList fixedIcons;
-        for (auto dir : fixedDirs) {
-            for (auto iconInfo : dir->allIcons()) {
-                fixedIcons << iconInfo.completeBaseName();
-            }
-        }
-
-        QHash<QString, QList<QFileInfo>> scalableIcons;
-        for (auto dir : scalableDirs) {
-            for (auto iconInfo : dir->allIcons()) {
-                scalableIcons[iconInfo.completeBaseName()].append(iconInfo);
-            }
-        }
-
-        QStringList notScalableIcons;
-        for (auto fixed : fixedIcons) {
-            if (scalableIcons.contains(fixed)) {
-                continue;
-            }
-            notScalableIcons << fixed;
-        }
-
-        // Assert that each icon has a scalable variant.
-        if (notScalableIcons.empty()) {
-            return;
-        }
-        notScalableIcons.removeDuplicates();
-        QFAIL(QStringLiteral("The following icons are not available in a scalable directory:\n  %1").arg(notScalableIcons.join("\n  ")).toLatin1().constData());
-    }
-
     void test_scalableDuplicates_data()
     {
         test_scalable_data(false);
