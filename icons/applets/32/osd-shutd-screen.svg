@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" width="32" height="32">
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text {
+        color:#7B7C7E;
+      }
+      .ColorScheme-Background{
+        color:#EFF0F1;
+      }
+      .ColorScheme-Highlight{
+        color:#3DAEE6;
+      }
+      .ColorScheme-ViewText {
+        color:#7B7C7E;
+      }
+      .ColorScheme-ViewBackground{
+        color:#FCFCFC;
+      }
+      .ColorScheme-ViewHover {
+        color:#3DAEE6;
+      }
+      .ColorScheme-ViewFocus{
+        color:#1E92FF;
+      }
+      .ColorScheme-ButtonText {
+        color:#7B7C7E;
+      }
+      .ColorScheme-ButtonBackground{
+        color:#EFF0F1;
+      }
+      .ColorScheme-ButtonHover {
+        color:#3DAEE6;
+      }
+      .ColorScheme-ButtonFocus{
+        color:#1E92FF;
+      }
+</style>
+    <g style="fill:none" id="32-32-osd-shutd-screen">
+      <rect id="rect4200-9" height="32" width="32" x="0" y="0" style="fill:none"/>
+      <path style="color:#7b7c7e;fill:currentColor;fill-opacity:1;stroke:none" d="m 125,36 0,9 1,0 0,-8 15,0 0,12 -9,0 0,1 10,0 0,-14 -17,0 z m -11,10 0,14 17,0 0,-14 -17,0 z m 1,1 15,0 0,12 -15,0 0,-12 z" transform="translate(-112,-32.00004)" id="path4204-73" inkscape:connector-curvature="0" class="ColorScheme-Text"/>
+      <path id="path4210-6" d="m 5,17 0,8 11,0 0,-8 -11,0 z m 7,1 1,0 0,1 -1,0 0,-1 z m 2,0 1,0 0,1 -1,0 0,-1 z m -8,2 9,0 0,4 -9,0 0,-4 z" inkscape:connector-curvature="0" style="color:#3daee6;fill:currentColor;fill-opacity:1;stroke:none" class="ColorScheme-ButtonFocus"/>
+      <path id="path4214" d="M 18.6712,6.75717 17.2572,8.17123 20.0853,10.9994 18.0847,13 20,13 l 0,0.9128 1.4994,-1.4994 2.8281,2.8281 1.414,-1.414 -2.8281,-2.8281 2.8281,-2.82817 -1.414,-1.41406 -2.8281,2.82813 -2.8282,-2.82813 z" inkscape:connector-curvature="0" style="clip-rule:evenodd;fill:#da4453;fill-rule:evenodd"/>
+    </g>
+</svg>

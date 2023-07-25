@@ -1,13 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
-  <defs id="defs3051">
-    <style type="text/css" id="current-color-scheme">
-      .ColorScheme-Text {
-        color:#232629;
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" width="22" height="22">
+    <style type="text/css" id="current-color-scheme">.ColorScheme-Text {
+        color:#31363b;
       }
-      </style>
-  </defs>
-    <path
-       style="opacity:1;fill:currentColor;fill-opacity:1;stroke:none"
-       d="M 11 3 L 3 11 L 7 11 L 7 19 L 15 19 L 15 11 L 19 11 L 11 3 z M 11 4.4140625 L 16.585938 10 L 14 10 L 14 10.626953 L 14 11 L 14 18 L 8 18 L 8 11 L 8 10.626953 L 8 10 L 5.4140625 10 L 11 4.4140625 z "
-       class="ColorScheme-Text"/>
+      .ColorScheme-Background {
+        color:#eff0f1;
+      }
+      .ColorScheme-Highlight {
+        color:#3daee9;
+      }
+      .ColorScheme-ViewText {
+        color:#31363b;
+      }
+      .ColorScheme-ViewBackground {
+        color:#fcfcfc;
+      }
+      .ColorScheme-ViewHover {
+        color:#93cee9;
+      }
+      .ColorScheme-ViewFocus{
+        color:#3daee9;
+      }
+      .ColorScheme-ButtonText {
+        color:#31363b;
+      }
+      .ColorScheme-ButtonBackground {
+        color:#eff0f1;
+      }
+      .ColorScheme-ButtonHover {
+        color:#93cee9;
+      }
+      .ColorScheme-ButtonFocus{
+        color:#3daee9;
+      }</style>
+    <g id="22-22-input-caps-on" transform="translate(59.241379,23.258607) translate(-16,-170)">
+        <rect x="-43.241379" y="146.74138" width="22" height="22" opacity=".00100002"/>
+        <path class="ColorScheme-Text" d="m-39.241379 149.74138v14l7 2 7-2v-14zm1 1h12v10h-12zm5.4375 2-2.4375 6h1.07422l0.40625-1h3.03906l0.40625 1h1.07422l-2.43945-6h-0.53711l-0.0234 0.01-0.0234-0.01zm0.5625 1.25781 1.11328 2.74219h-2.22656zm-6 7.74219h12v1h-12z" fill="currentColor"/>
+    </g>
 </svg>

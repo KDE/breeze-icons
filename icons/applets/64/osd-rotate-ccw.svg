@@ -1,25 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <defs
-     id="defs3051">
-    <style
-       type="text/css"
-       id="current-color-scheme">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" width="64" height="64">
+    <style type="text/css" id="current-color-scheme">
       .ColorScheme-Text {
-        color:#232629;
+        color:#7B7C7E;
       }
-      .ColorScheme-Highlight {
-        color:#3daee9;
+      .ColorScheme-Background{
+        color:#EFF0F1;
       }
-      </style>
-  </defs>
-  <path
-     style="fill:currentColor;fill-opacity:1;stroke:none" 
-     d="M 5 11 L 5 50 L 58 50 L 58 11 L 5 11 z M 8 14 L 55 14 L 55 48 L 8 48 L 8 14 z M 2 52 L 1.9335938 54.400391 C 1.8822262 56.243621 3.3550959 58 5.1992188 58 L 58.533203 58 C 60.377326 58 62 56.244337 62 54.400391 L 62 52 L 2 52 z "
-     class="ColorScheme-Text"
-     />
-  <path
-     style="fill:currentColor;fill-opacity:1;stroke:none" 
-     d="M 32.691406 19 A 13.311049 13.330146 0 0 0 19.949219 28.566406 L 18 27.736328 L 19.691406 31.929688 L 23.880859 30.236328 L 21.916016 29.400391 A 11.181282 11.197323 0 0 1 32.691406 21.132812 A 11.181282 11.197323 0 0 1 43.873047 32.330078 A 11.181282 11.197323 0 0 1 38.564453 41.839844 L 39.945312 43.5 A 13.311049 13.330146 0 0 0 46 32.330078 A 13.311049 13.330146 0 0 0 32.691406 19 z "
-     class="ColorScheme-Highlight"
-     />
+      .ColorScheme-Highlight{
+        color:#3DAEE6;
+      }
+      .ColorScheme-ViewText {
+        color:#7B7C7E;
+      }
+      .ColorScheme-ViewBackground{
+        color:#FCFCFC;
+      }
+      .ColorScheme-ViewHover {
+        color:#3DAEE6;
+      }
+      .ColorScheme-ViewFocus{
+        color:#1E92FF;
+      }
+      .ColorScheme-ButtonText {
+        color:#7B7C7E;
+      }
+      .ColorScheme-ButtonBackground{
+        color:#EFF0F1;
+      }
+      .ColorScheme-ButtonHover {
+        color:#3DAEE6;
+      }
+      .ColorScheme-ButtonFocus{
+        color:#1E92FF;
+      }
+</style>
+    <g style="fill:none" id="64-64-osd-rotate-ccw">
+      <rect id="rect4252" height="64" width="64" x="0" y="0" style="fill:none"/>
+      <path id="path4256" d="m 59,11 -54,0 0,34 54,0 0,-34 z m -54,-1 -1,0 0,1 0,34 0,1 1,0 23,0 0,7 -7,0 0,1 7,0 1,0 6,0 1,0 7,0 0,-1 -7,0 0,-7 23,0 1,0 0,-1 0,-34 0,-1 -1,0 -54,0 z m 24,43 0,-7 6,0 0,7 -6,0 z M 7,13 57,13 57,42 7,42 7,13 Z m -1,-1 1,0 50,0 1,0 0,1 0,29 0,1 -1,0 -50,0 -1,0 0,-1 0,-29 0,-1 z" inkscape:connector-curvature="0" style="color:#7b7c7e;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none" class="ColorScheme-Text"/>
+      <path style="color:#3daee6;fill:currentColor;fill-opacity:1;stroke:none" d="m 22.345703,19 c -2.14906,2.309183 -3.345589,5.345513 -3.349609,8.5 0.005,1.315418 0.216886,2.621859 0.628906,3.871094 L 15.996094,35 c 0,0 6.152562,1 9.351562,1 L 23.498047,34.273438 C 21.889537,32.382402 21.003104,29.982594 20.996094,27.5 c 0.005,-3.368228 1.625682,-6.529563 4.357422,-8.5 l -3.007813,0 z m 15.298828,0 1.84961,1.726562 c 1.60851,1.891036 2.494943,4.290844 2.501953,6.773438 -0.005,3.368228 -1.625692,6.529563 -4.357422,8.5 l 3.007812,0 c 2.14907,-2.309183 3.3456,-5.345513 3.34961,-8.5 -0.005,-1.315418 -0.216897,-2.621859 -0.628906,-3.871094 L 46.996094,20 c 0,0 -6.152573,-1 -9.351563,-1 z m -7.917969,1.431641 -3.941406,10.269531 7.46875,2.867187 3.941406,-10.269531 -7.46875,-2.867187 z m 0.574219,1.292968 0.933594,0.357422 -0.357422,0.933594 -0.931641,-0.359375 0.355469,-0.931641 z m 1.869141,0.714844 3.734375,1.435547 -3.224609,8.400391 -3.736329,-1.431641 3.226563,-8.404297 z m -2.583984,1.152344 0.93164,0.357422 -0.357422,0.933593 -0.933594,-0.357421 0.359376,-0.933594 z" id="path4264" class="ColorScheme-ButtonFocus" inkscape:connector-curvature="0"/>
+    </g>
 </svg>

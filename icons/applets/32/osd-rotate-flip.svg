@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" width="32" height="32">
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text {
+        color:#7B7C7E;
+      }
+      .ColorScheme-Background{
+        color:#EFF0F1;
+      }
+      .ColorScheme-Highlight{
+        color:#3DAEE6;
+      }
+      .ColorScheme-ViewText {
+        color:#7B7C7E;
+      }
+      .ColorScheme-ViewBackground{
+        color:#FCFCFC;
+      }
+      .ColorScheme-ViewHover {
+        color:#3DAEE6;
+      }
+      .ColorScheme-ViewFocus{
+        color:#1E92FF;
+      }
+      .ColorScheme-ButtonText {
+        color:#7B7C7E;
+      }
+      .ColorScheme-ButtonBackground{
+        color:#EFF0F1;
+      }
+      .ColorScheme-ButtonHover {
+        color:#3DAEE6;
+      }
+      .ColorScheme-ButtonFocus{
+        color:#1E92FF;
+      }
+</style>
+    <g style="fill:none" id="32-32-osd-rotate-flip">
+      <rect id="rect4196-1" height="32" width="32" x="0" y="0" style="fill:none"/>
+      <path id="path4200-2" d="M 2,21.9999 2,4 30,4.00003 30,22 19,21.9999 19,27 l 4,0 0,1 -14,0 0,-1 4,0 0,-5.0001 -11,0 z m 16,0 -4,0 0,5.0001 4,0 0,-5.0001 z M 29,4.99997 2.99998,4.99997 2.99998,21 29,21 29,4.99997 Z" inkscape:connector-curvature="0" style="color:#7b7c7e;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none" class="ColorScheme-Text"/>
+      <path id="path4204-70" d="m 16,7 -4,4.0001 3,0 0,3.9999 -3,0 4,4 4,-4 -3,0 0,-3.9999 3,0 L 16,7 Z" inkscape:connector-curvature="0" style="color:#3daee6;fill:currentColor;fill-opacity:1;stroke:none" class="ColorScheme-ButtonFocus"/>
+    </g>
+</svg>

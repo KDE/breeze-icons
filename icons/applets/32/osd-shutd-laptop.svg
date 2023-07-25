@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" width="32" height="32">
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text {
+        color:#7B7C7E;
+      }
+      .ColorScheme-Background{
+        color:#EFF0F1;
+      }
+      .ColorScheme-Highlight{
+        color:#3DAEE6;
+      }
+      .ColorScheme-ViewText {
+        color:#7B7C7E;
+      }
+      .ColorScheme-ViewBackground{
+        color:#FCFCFC;
+      }
+      .ColorScheme-ViewHover {
+        color:#3DAEE6;
+      }
+      .ColorScheme-ViewFocus{
+        color:#1E92FF;
+      }
+      .ColorScheme-ButtonText {
+        color:#7B7C7E;
+      }
+      .ColorScheme-ButtonBackground{
+        color:#EFF0F1;
+      }
+      .ColorScheme-ButtonHover {
+        color:#3DAEE6;
+      }
+      .ColorScheme-ButtonFocus{
+        color:#1E92FF;
+      }
+</style>
+    <g style="fill:none" id="32-32-osd-shutd-laptop">
+      <rect id="rect4198-3" height="32" width="32" x="0" y="0" style="fill:none"/>
+      <path style="color:#7b7c7e;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none" d="m 125,36 0,9 1,0 0,-8 15,0 0,12 -9,0 0,1 10,0 0,-14 z m -11,10 0,14 17,0 0,-14 z m 1,1 15,0 0,12 -15,0 z" transform="translate(-112,-32.00004)" id="path4200-7" inkscape:connector-curvature="0" sodipodi:nodetypes="ccccccccccccccccccccc" class="ColorScheme-Text"/>
+      <path id="path4208-5" d="m 6.25717,18.1712 1.41406,-1.414 2.82817,2.8281 2.8281,-2.8281 1.414,1.414 -2.8281,2.8282 2.8281,2.8281 -1.414,1.414 -2.8281,-2.8281 -2.82817,2.8281 -1.41406,-1.414 2.82813,-2.8281 -2.82813,-2.8282 z" inkscape:connector-curvature="0" style="fill:#da4453"/>
+      <path id="path4210" d="m 16,13 0,-6 11,0 0,8 -7,-4e-5 0,-1 6,4e-5 0,-4 -9,0 0,3 z m 8,-5 -1,0 0,1 1,0 z m 2,0 -1,0 0,1 1,0 z" inkscape:connector-curvature="0" style="color:#3daee6;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none" sodipodi:nodetypes="ccccccccccccccccccccc" class="ColorScheme-ButtonFocus"/>
+    </g>
+</svg>

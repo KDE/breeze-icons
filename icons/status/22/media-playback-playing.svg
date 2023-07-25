@@ -1,13 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
-  <defs id="defs3051">
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" width="22" height="22">
     <style type="text/css" id="current-color-scheme">
-      .ColorScheme-Text {
-        color:#232629;
-      }
-      </style>
-  </defs>
- <path style="fill:currentColor;fill-opacity:1;stroke:none"
-       d="m 2 2 0 18 18 0 L 20 2 2 2 Z m 1.5 1.5 15 0 0 15 -15 0 0 -15 z m 4.5 3 0 9 6 -4.5 -6 -4.5 z"
-     class="ColorScheme-Text"
-     />
+        .ColorScheme-Text {
+            color:#232629;
+        }
+    </style>
+    <g id="media-playback-playing">
+        <path d="m0 0h22v22h-22z" fill="none"/>
+        <g class="ColorScheme-Text" fill="currentColor" fill-rule="evenodd">
+            <path d="m11 3a8 8 0 0 0 -8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8 8 8 0 0 0 -8-8zm0 1a7 7 0 0 1 7 7 7 7 0 0 1 -7 7 7 7 0 0 1 -7-7 7 7 0 0 1 7-7z"/>
+            <path d="m9 14 6-3-6-3z"/>
+        </g>
+    </g>
 </svg>
