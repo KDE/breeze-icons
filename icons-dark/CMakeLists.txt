@@ -15,11 +15,16 @@ ENDFOREACH()
 set(BREEZE_INSTALL_DIR ${KDE_INSTALL_FULL_ICONDIR}/breeze-dark)
 
 if(WITH_ICON_GENERATION)
+    # No trainling slashes on dirs. It will break scripts.
+    add_custom_target(breeze-generate-symbolic-dark ALL
+        COMMENT "Generating symbolic dark icons"
+        COMMAND $<TARGET_FILE:generate-symbolic-dark> ${CMAKE_SOURCE_DIR}/icons ${CMAKE_CURRENT_BINARY_DIR}/generated
+    )
     # Auto-generate 24px monochrome icons from 22px versions
     add_custom_target(breeze-generate-24px-versions-dark ALL
         COMMENT "Generating 24px icons-dark"
         COMMAND ${Python_EXECUTABLE} ${CMAKE_SOURCE_DIR}/generate-24px-versions.py
-                ${CMAKE_CURRENT_SOURCE_DIR}
+                ${CMAKE_CURRENT_SOURCE_DIR} ${CMAKE_CURRENT_BINARY_DIR}/generated
                 ${CMAKE_CURRENT_BINARY_DIR}/generated
     )
 endif()

@@ -49,7 +49,13 @@ else()
     set(WITH_ICON_GENERATION OFF)
 endif()
 
-add_feature_info("Icon generation" ${WITH_ICON_GENERATION} "for 24x24 icons.
+if(WITH_ICON_GENERATION)
+    find_package(Qt6 NO_MODULE REQUIRED Core Gui)
+    add_executable(generate-symbolic-dark generate-symbolic-dark.cpp)
+    target_link_libraries(generate-symbolic-dark PUBLIC Qt6::Core)
+endif()
+
+add_feature_info("Icon generation" ${WITH_ICON_GENERATION} "for 24x24 and symbolic dark icons.
    This feature requires Python 3 and the lxml Python 3 module."
 ) # The exact amount of indentation used in the line(s) above is intentional
 
