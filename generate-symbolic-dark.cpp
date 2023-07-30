@@ -106,7 +106,7 @@ int main(int argc, char **argv)
             ignoredArgs << positionalArguments[i];
             continue;
         }
-        inputDirs << inputDirInfo.absoluteDir();
+        inputDirs << inputDirInfo.absoluteFilePath();
     }
 
     if (inputDirs.isEmpty()) {
@@ -153,7 +153,7 @@ int main(int argc, char **argv)
                 continue;
             }
 
-            QDir outputDir = outputDirInfo.absoluteDir();
+            QDir outputDir = outputDirInfo.absoluteFilePath();
             const auto outputFilePath = outputDir.absoluteFilePath(QString{inputFilePath}.remove(QRE(u".*/icons/"_s)));
             QFileInfo outputFileInfo(outputFilePath);
             outputDir = outputFileInfo.dir();
