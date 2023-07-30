@@ -90,9 +90,10 @@ def make_file(input_dir, output_dir, path):
     # Regenerate symlinks or edit SVGs
     if os.path.islink(path):
         symlink_source = os.readlink(path).replace('/22/', '/24/')
-        if os.path.exists(file_destination):
+        if os.path.islink(file_destination):
             os.remove(file_destination)
-        os.symlink(symlink_source, file_destination)
+        if not os.path.exists(file_destination):
+            os.symlink(symlink_source, file_destination)
     else:
         etree.set_default_parser(etree.XMLParser(remove_blank_text=True))
         tree = etree.parse(path)
