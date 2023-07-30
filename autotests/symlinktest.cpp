@@ -66,7 +66,8 @@ private Q_SLOTS:
         while (it.hasNext()) {
             it.next();
             auto info = it.fileInfo();
-            if (!info.isSymLink() || info.symLinkTarget().startsWith(PROJECT_SOURCE_DIR)) {
+            if (!info.isSymLink() || info.fileName() == QStringLiteral("compile_commands.json")
+                || info.symLinkTarget().startsWith(PROJECT_SOURCE_DIR)) {
                 continue;
             }
             OOTSymLinks << info;
