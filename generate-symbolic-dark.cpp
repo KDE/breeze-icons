@@ -17,21 +17,6 @@
 using namespace Qt::StringLiterals;
 using QRE = QRegularExpression;
 
-// Copied from kiconthemes/src/kiconcolors.cpp
-// without ".ColorScheme-" to simplify parsing.
-static const QStringList s_allClasses = {
-    u"Text"_s,
-    u"Background"_s,
-    u"Highlight"_s,
-    u"HighlightedText"_s,
-    u"PositiveText"_s,
-    u"NeutralText"_s,
-    u"NegativeText"_s,
-    u"ActiveText"_s,
-    u"Complement"_s,
-    u"Contrast"_s
-};
-
 // Prevent massive build log files
 QString elideString(const QString &string)
 {
@@ -51,7 +36,7 @@ QString convertStylesheet(QString stylesheet)
     // class, color
     QMap<QString, QString> classColorMap;
     // TODO: Support color values other than hexadecimal, maybe properties other than "color"
-    QRE regex(u".ColorScheme-(%1){color:(#[0-9a-fA-F]+);}"_s.arg(s_allClasses.join("|"_L1)),
+    QRE regex(u"\\.ColorScheme-(\\S+){color:(#[0-9a-fA-F]+);}"_s,
               patternOptions);
     auto matchIt = regex.globalMatch(stylesheet);
     while (matchIt.hasNext()) {
