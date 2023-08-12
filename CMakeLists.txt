@@ -22,6 +22,9 @@ include(KDECMakeSettings)
 include(KDEGitCommitHooks)
 include(KDEFrameworkCompilerSettings NO_POLICY_SCOPE)
 include(GtkUpdateIconCache)
+include(ECMGenerateExportHeader)
+include(ECMGenerateHeaders)
+include(ECMSetupVersion)
 
 # Dependencies
 set(REQUIRED_QT_VERSION 6.4.0)
@@ -61,8 +64,9 @@ add_feature_info("Icon generation" ${WITH_ICON_GENERATION} "for 24x24 and symbol
 
 option(BINARY_ICONS_RESOURCE "Install Qt binary resource files containing breeze icons (breeze-icons.rcc, breeze-icons-dark.rcc)" OFF)
 option(SKIP_INSTALL_ICONS "Skip installing the icons files" OFF)
+option(ICONS_LIBRARY "Install a library including the breeze & breeze dark icons as resources & functions to use them." OFF)
 
-if(BINARY_ICONS_RESOURCE)
+if(BINARY_ICONS_RESOURCE OR ICONS_LIBRARY)
     find_package(Qt6 NO_MODULE REQUIRED Core)
     add_executable(qrcAlias qrcAlias.cpp)
     target_link_libraries(qrcAlias PUBLIC Qt6::Core)
@@ -154,8 +158,25 @@ install(FILES
 
 ecm_setup_version(PROJECT
     VARIABLE_PREFIX BREEZEICONS
+    VERSION_HEADER ${CMAKE_CURRENT_BINARY_DIR}/breezeicons_version.h
     PACKAGE_VERSION_FILE "${CMAKE_CURRENT_BINARY_DIR}/KF6BreezeIconsConfigVersion.cmake"
     SOVERSION 6)
+
+# shall we create a library with the icons?
+if(ICONS_LIBRARY)
+    find_package(Qt6Gui ${REQUIRED_QT_VERSION} REQUIRED NO_MODULE)
+
+    install(EXPORT KF6BreezeIconsTargets
+        DESTINATION "${CMAKECONFIG_INSTALL_DIR}"
+        FILE KF6BreezeIconsTargets.cmake
+        NAMESPACE KF6::
+    )
+
+    install(FILES ${CMAKE_CURRENT_BINARY_DIR}/breezeicons_version.h
+        DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF}/BreezeIcons COMPONENT Devel)
+
+    add_subdirectory(src)
+endif()
 
 feature_summary(WHAT ALL FATAL_ON_MISSING_REQUIRED_PACKAGES INCLUDE_QUIET_PACKAGES)
 

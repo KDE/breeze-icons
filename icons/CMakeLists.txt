@@ -1,4 +1,4 @@
-if(BINARY_ICONS_RESOURCE)
+if(BINARY_ICONS_RESOURCE OR ICONS_LIBRARY)
     generate_binary_resource(icons binary_resource)
 endif()
 

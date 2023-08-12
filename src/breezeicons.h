@@ -1,0 +1,31 @@
+/*
+    This file is part of the KDE libraries
+
+    SPDX-FileCopyrightText: 2021 Christoph Cullmann <cullmann@kde.org>
+
+    SPDX-License-Identifier: LGPL-2.0-or-later
+*/
+
+#ifndef BREEZEICONS_H
+#define BREEZEICONS_H
+
+#include <breezeicons_export.h>
+
+/**
+ * This namespace contains utility functions to integrate the
+ * Breeze icons into your application.
+ */
+namespace BreezeIcons
+{
+
+/**
+ * Sets up the Breeze icons and sets the fallback icon theme used by Qt
+ * to the Breeze icons.
+ *
+ * @since 6.0
+ */
+BREEZEICONS_EXPORT void initIcons();
+
+}
+
+#endif
