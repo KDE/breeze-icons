@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-<style type="text/css" id="current-color-scheme">
-    .ColorScheme-Text {
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg1" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+ <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
       color:#555555;
-    }
-</style>
-<path
-    d="M2 2v12h12V2zm1 2h10v9H3zm1.5 1v3h3V5zm4 0v3h3V5zm-4 4v3h3V9zm4 0v3h3V9z"
-    style="fill:currentColor;fill-opacity:1;stroke:none"
-    class="ColorScheme-Text" />
+    }</style>
+ <path id="path1" class="ColorScheme-Text" d="m2 2v12h13v-12zm1 2h11v9h-11z" fill="currentColor"/>
+ <rect id="rect1" x="5" y="5" width="3" height="3" fill="#555" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+ <rect id="rect2" x="9" y="5" width="3" height="3" fill="#555" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+ <rect id="rect3" x="5" y="9" width="3" height="3" fill="#555" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+ <rect id="rect4" x="9" y="9" width="3" height="3" fill="#555" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
 </svg>
