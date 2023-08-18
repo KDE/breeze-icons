@@ -62,11 +62,14 @@ endif()
 
 option(BINARY_ICONS_RESOURCE "Install Qt binary resource files containing breeze icons (breeze-icons.rcc, breeze-icons-dark.rcc)" ${BINARY_ICONS_RESOURCE_OPTION_DEFAULT})
 option(SKIP_INSTALL_ICONS "Skip installing the icons files" OFF)
+set(ICON_SUBSET_INCLUDE_FILE "" CACHE FILEPATH "Only include icons with completeBaseName as specified in the file mentioned here (absolute path)")
 
 if(BINARY_ICONS_RESOURCE)
     find_package(Qt${QT_MAJOR_VERSION} NO_MODULE REQUIRED Core)
     add_executable(qrcAlias qrcAlias.cpp)
     target_link_libraries(qrcAlias PUBLIC Qt${QT_MAJOR_VERSION}::Core)
+    add_executable(iconSubset subsetBinaryIcons.cpp)
+    target_link_libraries(iconSubset PUBLIC Qt${QT_MAJOR_VERSION}::Core)
 
 function(generate_binary_resource target outfile)
     set(RESOURCES_WORKING_DIR ${CMAKE_CURRENT_BINARY_DIR}/res)
@@ -85,6 +88,9 @@ function(generate_binary_resource target outfile)
     add_custom_target(breeze-${target}-mkdir
         COMMAND ${CMAKE_COMMAND} -E make_directory ${RESOURCES_WORKING_DIR}
     )
+    if (ICON_SUBSET_INCLUDE_FILE)
+       set (_icon_subset_include_list -I "${ICON_SUBSET_INCLUDE_FILE}")
+    endif()
     add_custom_command(OUTPUT ${RESOURCE_FILE}
         COMMAND ${CMAKE_COMMAND} -E copy_directory ${CMAKE_CURRENT_SOURCE_DIR} ${RESOURCES_WORKING_DIR}
         COMMAND ${CMAKE_COMMAND} -E remove
@@ -93,9 +99,12 @@ function(generate_binary_resource target outfile)
             ${RESOURCES_WORKING_DIR}/.gitignore
             ${RESOURCES_WORKING_DIR}/CMakeLists.txt
         COMMAND ${QT_RCC_EXECUTABLE} --project -o ${CMAKE_CURRENT_BINARY_DIR}/tmp.qrc
+	COMMAND ${CMAKE_COMMAND} -E env
+            ${pathVarName}=$<TARGET_FILE_DIR:Qt${QT_MAJOR_VERSION}::Core>
+            $<TARGET_FILE:iconSubset> -i ${CMAKE_CURRENT_BINARY_DIR}/tmp.qrc -o ${CMAKE_CURRENT_BINARY_DIR}/tmp2.qrc ${_icon_subset_include_list}
         COMMAND ${CMAKE_COMMAND} -E env
             ${pathVarName}=$<TARGET_FILE_DIR:Qt${QT_MAJOR_VERSION}::Core>
-            $<TARGET_FILE:qrcAlias> -i ${CMAKE_CURRENT_BINARY_DIR}/tmp.qrc -o ${RESOURCE_FILE}
+            $<TARGET_FILE:qrcAlias> -i ${CMAKE_CURRENT_BINARY_DIR}/tmp2.qrc -o ${RESOURCE_FILE}
 
         WORKING_DIRECTORY ${RESOURCES_WORKING_DIR}
         DEPENDS breeze-${target}-mkdir
