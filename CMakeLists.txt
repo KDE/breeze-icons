@@ -27,7 +27,7 @@ include(ECMGenerateHeaders)
 include(ECMSetupVersion)
 
 # Dependencies
-set(REQUIRED_QT_VERSION 6.4.0)
+set(REQUIRED_QT_VERSION 6.5.0)
 
 # Find Python 3
 find_package (Python 3 COMPONENTS Interpreter)
