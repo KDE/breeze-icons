@@ -32,6 +32,8 @@ set(REQUIRED_QT_VERSION 6.5.0)
 # Find Python 3
 find_package (Python 3 COMPONENTS Interpreter)
 
+set(CMAKE_POSITION_INDEPENDENT_CODE ON)
+
 # FIXME: This is a temporary solution to unbreak KDE's Windows CI.
 # Remove "NOT WIN32" when icon generation works on Windows.
 if(Python_FOUND AND NOT WIN32)
