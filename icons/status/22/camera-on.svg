@@ -4,8 +4,8 @@
       .ColorScheme-Text {
         color:#232629;
       }
-      .ColorScheme-PositiveText {
-        color:#27ae60;
+      .ColorScheme-NegativeText {
+        color:#da4453;
       }
       </style>
   </defs>
@@ -15,7 +15,7 @@
      />
   <path
       style="fill:currentColor;fill-opacity:1;stroke:none" 
-     class="ColorScheme-PositiveText"
+     class="ColorScheme-NegativeText"
     d="M 11 7 A 2.9999826 2.9999826 0 0 0 8 10 A 2.9999826 2.9999826 0 0 0 11 13 A 2.9999826 2.9999826 0 0 0 14 10 A 2.9999826 2.9999826 0 0 0 11 7 z "
       />
 </svg>
