@@ -1,13 +1,66 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-  <defs id="defs3051">
-    <style type="text/css" id="current-color-scheme">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg2548"
+   sodipodi:docname="smartphone.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview2550"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="35.222757"
+     inkscape:cx="8.9572774"
+     inkscape:cy="10.547159"
+     inkscape:window-width="1521"
+     inkscape:window-height="980"
+     inkscape:window-x="2012"
+     inkscape:window-y="115"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2548" />
+  <defs
+     id="defs3051">
+    <style
+       type="text/css"
+       id="current-color-scheme">
       .ColorScheme-Text {
         color:#232629;
       }
       </style>
   </defs>
-    <path 
-        style="fill:currentColor;fill-opacity:1;stroke:none" 
-        d="M 4 2 L 4 14 L 12 14 L 12 2 L 4 2 z M 7 3 L 9 3 L 9 4 L 7 4 L 7 3 z M 5 5 L 11 5 L 11 12 L 5 12 L 5 5 z "
-        class="ColorScheme-Text"/>
+  <path
+     style="fill:currentColor;fill-opacity:1;stroke:none;stroke-width:1.04593;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+     id="path4929-9-3"
+     sodipodi:type="arc"
+     sodipodi:cx="6.5087266"
+     sodipodi:cy="4.0669651"
+     sodipodi:rx="0.48979786"
+     sodipodi:ry="0.48979786"
+     sodipodi:start="0"
+     sodipodi:end="6.2698771"
+     sodipodi:open="true"
+     sodipodi:arc-type="arc"
+     d="M 6.9985245,4.0669651 A 0.48979786,0.48979786 0 0 1 6.5103562,4.5567603 0.48979786,0.48979786 0 0 1 6.0189396,4.0702242 0.48979786,0.48979786 0 0 1 6.5038379,3.5771916 0.48979786,0.48979786 0 0 1 6.9984811,4.060447" />
+  <rect
+     style="fill:none;fill-opacity:0.256338;stroke:currentColor;stroke-width:0.757349;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+     id="rect1106"
+     width="6.3429952"
+     height="11.148358"
+     x="4.8285027"
+     y="2.4729669"
+     ry="1.3814324" />
+  <path
+     style="fill:none;stroke:currentColor;stroke-width:0.733837;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+     d="m 6.6168953,11.847924 c 2.7697311,0 2.7697311,0 2.7697311,0"
+     id="path1734" />
 </svg>
