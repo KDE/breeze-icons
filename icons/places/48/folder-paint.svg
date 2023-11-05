@@ -1,0 +1,72 @@
+<svg height="48" version="1.1" width="48" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs id="primary-definitions">
+<style id="current-color-scheme" type="text/css">
+      .ColorScheme-Text         { color: #232629; }
+      .ColorScheme-Background   { color: #eff0f1; }
+      .ColorScheme-Highlight    { color: #7ec9f0; }
+      .ColorScheme-PositiveText { color: #27ae60; }
+      .ColorScheme-NeutralText  { color: #f67400; }
+      .ColorScheme-NegativeText { color: #da4453; }
+      .ColorScheme-ActiveText   { color: #3daee9; }
+      .ColorScheme-Complement   { color: #ffffff; }
+      .ColorScheme-Contrast     { color: #000000; }
+    </style>
+<style id="extended-color-scheme" type="text/css">
+      .ExScheme-Black     { color:#3e3e3e; }
+      .ExScheme-White     { color:#fcfcfc; }
+      .ExScheme-Grey-1    { color:#cfd5d5; }
+      .ExScheme-Grey-2    { color:#909c9c; }
+      .ExScheme-Grey-3    { color:#536161; }
+      .ExScheme-Red-1     { color:#ffafa5; }
+      .ExScheme-Red-2     { color:#bf4231; }
+      .ExScheme-Red-3     { color:#4d2f2b; }
+      .ExScheme-Green-1   { color:#abf9c7; }
+      .ExScheme-Green-2   { color:#3bb566; }
+      .ExScheme-Green-3   { color:#377d50; }
+      .ExScheme-Blue-1    { color:#abdaf9; }
+      .ExScheme-Blue-2    { color:#3daefd; }
+      .ExScheme-Blue-3    { color:#2b3c4d; }
+      .ExScheme-Yellow-1  { color:#faffa5; }
+      .ExScheme-Yellow-2  { color:#cac726; }
+      .ExScheme-Yellow-3  { color:#4b4d2b; }
+      .ExScheme-Orange-1  { color:#ffdaa5; }
+      .ExScheme-Orange-2  { color:#ff9701; }
+      .ExScheme-Orange-3  { color:#4d372b; }
+      .ExScheme-Brown-1   { color:#e9d6bb; }
+      .ExScheme-Brown-2   { color:#997657; }
+      .ExScheme-Brown-3   { color:#433a35; }
+      .ExScheme-Purple-1  { color:#e2abf9; }
+      .ExScheme-Purple-2  { color:#b401ff; }
+      .ExScheme-Purple-3  { color:#432b4d; }
+      .ExScheme-Cyan-1    { color:#b2f2e6; }
+      .ExScheme-Cyan-2    { color:#31bfa6; }
+      .ExScheme-Cyan-3    { color:#2b4d47; }
+      .ExScheme-Magenta-1 { color:#f8a6d8; }
+      .ExScheme-Magenta-2 { color:#f00091; }
+      .ExScheme-Magenta-3 { color:#770048; }
+    </style>
+<linearGradient id="uDf">
+<stop offset="0"/>
+<stop offset="1" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="uDg">
+<stop offset="0" stop-color="#fff"/>
+<stop offset="1" stop-color="#fff" stop-opacity="0"/>
+</linearGradient>
+<style id="uDh" type="text/css">
+        .force-display-for-editing { display: inline !important; }
+    </style><style class="remove-if__show-crease" type="text/css">
+        .enable-if__show-crease { display: none; }
+    </style><style class="remove-if__color-sync-mimes-places" type="text/css">
+        .enable-if__color-sync-mimes-places { display: none; }
+    </style><radialGradient cx=".5" cy="0" id="uDi" r="1" xlink:href="#uDg"/><linearGradient id="uDj" xlink:href="#uDf" y1="1" y2=".5"/><style class="ColorScheme-Background" fill="currentColor" opacity=".6" type="text/css">
+   .ColorScheme-Text           { color:#eff0f1; }
+      .ColorScheme-Background     { color:#31363b; }
+      .ColorScheme-Highlight      { color:#3daefd; }
+      .ColorScheme-ViewBackground { color:#fcfcfc; }
+      .ColorScheme-PositiveText   { color:#27ae60; }
+      .ColorScheme-NeutralText    { color:#f67400; }
+      .ColorScheme-NegativeText   { color:#da4453; }
+  </style><path d="M 7,6 C 5.9,6 5,6.9 5,8 v 2 4 c -1.1,0 -2,.9 -2,2 v 24 c 0,1.1 .9,2 2,2 h 38 c 1.1,0 2,-.9 2,-2 V 25 16 14 c 0,-1.1 -.9,-2 -2,-2 V 10 C 43,8.9 42.1,8 41,8 H 21 C 18,8 18,6 15,6 Z" id="uDk"></path><path d="M 7,6 C 5.9,6 5,6.9 5,8 v 2 4 h 10 c 3,0 3,-2 6,-2 H 43 V 10 C 43,8.9 42.1,8 41,8 H 21 C 18,8 18,6 15,6 Z" id="uDl"></path></defs>
+<g id="content" transform="translate(0,0)"><use class="sync-color enable-if__color-sync-mimes-places force-display-for-editing ColorScheme-ActiveText" fill="currentColor" href="#uDk"></use><use class="primary-color remove-if__color-sync-mimes-places ColorScheme-ActiveText" fill="currentColor" href="#uDk"></use><use class="ColorScheme-Contrast" fill="currentColor" href="#uDk" opacity=".1"></use><g id="decal" transform="translate(12,15)"><path class="ColorScheme-Background" d="M 21.1,2 C 20.16,2.03 12.1,9.67 10.67,11.1 l -.5,.5 c -.1,.1 -0,.2 -.15,.34 -.1,.1 -.2,.03 -.34,.15 -.1,.1 -0,.2 -.15,.34 -.1,.1 -.2,0 -.34,.15 -.86,.86 -2.1,2.8 -2.1,2.8 l .73,.74 c 0,0 1.95,-1.23 2.8,-2.1 .1,-.1 0,-.2 .15,-.34 .1,-.1 .2,-0 .34,-.15 .1,-.1 0,-.2 .15,-.34 .1,-.1 .2,-0 .34,-.15 l .5,-.5 c 1.47,-1.47 9.53,-10.05 9.04,-10.54 -0,-0 -.04,-0 -.07,-0 z m -.47,6.93 c -.4,.03 -.9,.9 -1.2,2.5 -.7,3.47 -7.2,7.34 -8.3,6.24 -.7,-.7 .1,-1.9 -1.4,-1.4 -.7,.23 -1.14,.4 -1.5,.46 .04,.1 .06,.23 .1,.34 .05,.3 .05,.6 0,.9 -.06,.6 -.2,1.23 -.74,1.8 -.8,.8 -1.56,1.2 -2.04,1.5 a 1.04,1.04 0 0 1 .2,.3 c .97,-.2 .97,.25 6.07,.25 6.2,0 9.67,-5.55 9.67,-9.7 0,-2.2 -.4,-3.25 -.86,-3.2 z M 12.55,15.25 c -.2,0 -.4,.06 -.57,.2 -.37,.27 -.8,.7 -.6,.93 .2,.25 .9,.24 1.3,-.04 .37,-.27 .7,-.6 .5,-.86 -.1,-.14 -.34,-.2 -.6,-.2 z m -7.2,.6 C 4.76,15.85 4,16.06 3.46,16.6 2,18.1 2,22 4.93,22 2.97,21 5.4,20.53 6.9,19.06 7.37,18.57 7.5,17.2 7.13,16.85 L 6.4,16.1 C 6.24,15.95 5.84,15.84 5.37,15.85 Z" fill="currentColor" opacity=".6"/><path class="ColorScheme-Background" d="m 21.1,2 c -.95,.03 -9,7.67 -10.44,9.1 l -.5,.5 c -.1,.1 -0,.2 -.14,.34 -.1,.1 -.2,0 -.34,.15 -.1,.1 -0,.2 -.15,.34 -.1,.1 -.2,0 -.34,.15 -.86,.86 -2.1,2.8 -2.1,2.8 l .73,.73 c 0,0 1.95,-1.23 2.8,-2.1 .1,-.1 0,-.2 .15,-.34 .1,-.1 .2,-0 .34,-.15 .1,-.1 0,-.2 .15,-.34 .1,-.1 .2,-0 .34,-.15 L 12.14,12.56 C 13.6,11.1 21.66,2.5 21.2,2 21.16,2 21.14,2 21.1,2 Z m -1.64,1.73 c -.7,.83 -1.5,1.8 -2.45,2.86 -2.13,2.4 -4.5,4.9 -5.23,5.6 l -.47,.47 c -.1,0 -.24,.05 -.36,.17 -.1,.1 -.13,.23 -.15,.34 -.1,.03 -.2,.04 -.33,.15 -.1,.1 -.14,.25 -.16,.35 -.67,.67 -2.03,1.53 -2.4,1.77 L 7.8,15.33 c .23,-.36 1.1,-1.7 1.76,-2.4 .1,-.03 .24,-.04 .35,-.16 .1,-.1 .13,-.23 .15,-.34 .1,-.03 .2,-.05 .33,-.16 .1,-.1 .14,-.26 .17,-.37 l .47,-.47 h 0 c .7,-.7 3.07,-2.97 5.4,-5.05 1.1,-1 2.2,-1.94 3.06,-2.66 z m 1.2,5.2 c -.4,.03 -.9,.9 -1.2,2.5 -.7,3.47 -7.2,7.34 -8.3,6.24 -.7,-.7 .1,-1.9 -1.4,-1.4 -.7,.23 -1.14,.4 -1.5,.46 .04,.1 .06,.23 .1,.34 .05,.3 .06,.6 0,.9 -.06,.6 -.2,1.23 -.74,1.8 -.8,.8 -1.56,1.2 -2.04,1.5 .1,.1 .14,.2 .2,.3 .97,-.2 .96,.25 6.06,.25 6.2,0 9.67,-5.55 9.67,-9.7 0,-2.2 -.4,-3.25 -.86,-3.2 z m -0,.6 c .04,.07 .1,.14 .13,.3 C 20.9,10.3 21,11.07 21,12.15 c 0,1.94 -.8,4.27 -2.4,6.1 -1.56,1.8 -3.83,3.1 -6.8,3.1 -2.53,0 -3.8,-.1 -4.5,-.2 -.3,-.04 -.46,0 -.67,-0 .43,-.3 .8,-.46 1.33,-1 .65,-.66 .8,-1.44 .9,-2.1 .03,-.3 0,-.63 -.03,-.96 .3,-.1 .6,-.16 1.1,-.33 .3,-.1 .34,-.07 .35,-.1 .04,.2 0,.84 .5,1.35 .3,.3 .65,.35 1,.34 .36,-0 .75,-.1 1.17,-.24 .84,-.3 1.8,-.8 2.76,-1.45 1.9,-1.3 3.8,-3.15 4.2,-5.15 .16,-.8 .35,-1.37 .53,-1.73 .07,-.14 .13,-.2 .2,-.3 z m -8.1,5.7 c -.2,0 -.4,.06 -.57,.2 -.37,.27 -.8,.7 -.6,.93 .2,.25 .9,.24 1.3,-.04 .37,-.27 .7,-.6 .5,-.86 -.1,-.14 -.34,-.2 -.6,-.2 z M 5.37,15.85 C 4.75,15.85 4,16.06 3.46,16.6 2,18.1 2,22 4.93,22 3,21 5.4,20.53 6.9,19.06 7.37,18.57 7.5,17.2 7.13,16.85 L 6.4,16.1 C 6.24,15.95 5.84,15.84 5.37,15.85 Z m 0,0.5 c .4,-0 .7,.17 .67,.1 l .73,.73 c -.03,-.03 0,.04 .05,.16 0,.13 .03,.3 0,.5 -.04,.37 -.2,.75 -.3,.85 -.65,.66 -1.6,1.1 -2.2,1.6 -.16,.1 -.3,.25 -.4,.4 -.06,.1 -.06,.23 -.1,.35 -.05,-.04 -.14,-.03 -.2,-.07 -.3,-.3 -.5,-.73 -.57,-1.23 -.16,-1 .2,-2.24 .8,-2.8 .43,-.44 1.05,-.6 1.55,-.6 z" fill="currentColor" opacity=".6"/></g><use href="#uDl" opacity=".4"></use><use fill="url(#uDj)" href="#uDl" opacity=".1"></use><path d="m 21,12 c -3,0 -3,2 -6,2 H 5 c -1.1,0 -2,.9 -2,2 v 24 c 0,1.1 .9,2 2,2 h 38 c 1.1,0 2,-.9 2,-2 V 25 16 14 c 0,-1.1 -.9,-2 -2,-2 z" fill="url(#uDi)" opacity=".2"/><path class="ColorScheme-Contrast" d="m 3,39 v 1 c 0,1.1 .9,2 2,2 h 38 c 1.1,0 2,-.9 2,-2 v -1 c 0,1.1 -.9,2 -2,2 H 5 C 3.9,41 3,40.1 3,39 Z" fill="currentColor" opacity=".1"/><path class="ColorScheme-Contrast" d="M 3,39.5 V 40 c 0,1.1 .9,2 2,2 h 38 c 1.1,0 2,-.9 2,-2 v -0.5 c 0,1.1 -.9,2 -2,2 H 5 c -1.1,0 -2,-.9 -2,-2 z" fill="currentColor" opacity=".2"/><path d="m 21,12 c -3,0 -3,2 -6,2 H 5 c -1.1,0 -2,.9 -2,2 v 1 c 0,-1.1 .9,-2 2,-2 h 10 c 3,0 3,-2 6,-2 h 22 c 1.1,0 2,.9 2,2 v -1 c 0,-1.1 -.9,-2 -2,-2 z" fill="#fff" opacity=".1"/><path d="m 21,12 c -3,0 -3,2 -6,2 H 5 c -1.1,0 -2,.9 -2,2 v 0.5 c 0,-1.1 .9,-2 2,-2 h 10 c 3,0 3,-2 6,-2 h 22 c 1.1,0 2,.9 2,2 V 14 c 0,-1.1 -.9,-2 -2,-2 z" fill="#fff" opacity=".2"/><path d="m 21,11 c -3,0 -3,2 -6,2 H 5 v 1 h 10 c 3,0 3,-2 6,-2 h 22 v -1 z" opacity=".1"/><path d="m 21,11.5 c -3,0 -3,2 -6,2 H 5 V 14 h 10 c 3,0 3,-2 6,-2 h 22 v -0.5 z" opacity=".2"/></g>
+</svg>

@@ -1,29 +1,94 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <defs id="defs3051">
-    <style type="text/css" id="current-color-scheme">
-      .ColorScheme-Text {
-        color:#232629;
-      }
-      .ColorScheme-Highlight {
-        color:#3daee9;
-      }
-      </style>
-  </defs>
- <path 
-     style="fill:#eb0a42" 
-     d="M 4 6 L 4 11 L 4 20 L 3 20 L 3 21 L 3 21 C 3 21 3 21 3 21 L 3 57 L 3 58 L 4 58 L 60 58 L 61 58 L 61 57 L 61 21 L 61 21 L 61 16 L 60 16 L 60 11 C 60 11 60 11 60 11 L 60 11 L 60 10 L 32 10 L 28 6 L 4 6 z "
-     />
- <path 
-     style="fill-opacity:0.33"
-     d="M 4 6 L 4 11 L 4 20 L 22 20 L 26 16 L 60 16 L 60 11 C 60 11 60 11 60 11 L 60 11 L 60 10 L 32 10 L 28 6 L 4 6 z "
-     />
- <path 
-     style="fill:#ffffff;fill-opacity:0.2"
-     d="M 28 6 L 31 11 L 33 11 L 60 11 L 60 10 L 33 10 L 32 10 L 28 6 z M 26 16 L 22 20 L 3 20 L 3 21 L 23 21 L 26 16 z "
-     />
- <path 
-     style="fill-opacity:0.2;fill-rule:evenodd"
-     d="M 26 16 L 20 19 L 4 19 L 4 20 L 22 20 L 26 16 z M 3 57 L 3 58 L 4 58 L 60 58 L 61 58 L 61 57 L 60 57 L 4 57 L 3 57 z "
-     class="ColorScheme-Text"
-     />
+<svg height="64" version="1.1" width="64" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs id="primary-definitions">
+<style id="current-color-scheme" type="text/css">
+      .ColorScheme-Text         { color: #232629; }
+      .ColorScheme-Background   { color: #eff0f1; }
+      .ColorScheme-Highlight    { color: #7ec9f0; }
+      .ColorScheme-PositiveText { color: #27ae60; }
+      .ColorScheme-NeutralText  { color: #f67400; }
+      .ColorScheme-NegativeText { color: #da4453; }
+      .ColorScheme-ActiveText   { color: #3daee9; }
+      .ColorScheme-Complement   { color: #ffffff; }
+      .ColorScheme-Contrast     { color: #000000; }
+    </style>
+<style id="extended-color-scheme" type="text/css">
+      .ExScheme-Black     { color:#3e3e3e; }
+      .ExScheme-White     { color:#fcfcfc; }
+      .ExScheme-Grey-1    { color:#cfd5d5; }
+      .ExScheme-Grey-2    { color:#909c9c; }
+      .ExScheme-Grey-3    { color:#536161; }
+      .ExScheme-Red-1     { color:#ffafa5; }
+      .ExScheme-Red-2     { color:#bf4231; }
+      .ExScheme-Red-3     { color:#4d2f2b; }
+      .ExScheme-Green-1   { color:#abf9c7; }
+      .ExScheme-Green-2   { color:#3bb566; }
+      .ExScheme-Green-3   { color:#377d50; }
+      .ExScheme-Blue-1    { color:#abdaf9; }
+      .ExScheme-Blue-2    { color:#3daefd; }
+      .ExScheme-Blue-3    { color:#2b3c4d; }
+      .ExScheme-Yellow-1  { color:#faffa5; }
+      .ExScheme-Yellow-2  { color:#cac726; }
+      .ExScheme-Yellow-3  { color:#4b4d2b; }
+      .ExScheme-Orange-1  { color:#ffdaa5; }
+      .ExScheme-Orange-2  { color:#ff9701; }
+      .ExScheme-Orange-3  { color:#4d372b; }
+      .ExScheme-Brown-1   { color:#e9d6bb; }
+      .ExScheme-Brown-2   { color:#997657; }
+      .ExScheme-Brown-3   { color:#433a35; }
+      .ExScheme-Purple-1  { color:#e2abf9; }
+      .ExScheme-Purple-2  { color:#b401ff; }
+      .ExScheme-Purple-3  { color:#432b4d; }
+      .ExScheme-Cyan-1    { color:#b2f2e6; }
+      .ExScheme-Cyan-2    { color:#31bfa6; }
+      .ExScheme-Cyan-3    { color:#2b4d47; }
+      .ExScheme-Magenta-1 { color:#f8a6d8; }
+      .ExScheme-Magenta-2 { color:#f00091; }
+      .ExScheme-Magenta-3 { color:#770048; }
+    </style>
+<linearGradient id="u1cF">
+<stop offset="0"/>
+<stop offset="1" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="u1cG">
+<stop offset="0" stop-color="#fff"/>
+<stop offset="1" stop-color="#fff" stop-opacity="0"/>
+</linearGradient>
+<style class="toggle-enable-crease" type="text/css">
+        .folder-crease { display: none; }
+    </style><style class="toggle-manilla-folders" type="text/css">
+        .folder-manilla { display: none; }
+    </style><radialGradient cx=".5" cy="0" id="u1cH" r="1" xlink:href="#u1cG"/><linearGradient id="u1cI" xlink:href="#u1cF" y1="1" y2=".5"/><linearGradient gradientTransform="matrix(2.24,0,0,.45,0,2)" gradientUnits="userSpaceOnUse" id="u1cJ" x1="3.13" x2="3.13" xlink:href="#u1cF" y1="40.25" y2="29.07"/><radialGradient cx="27.04" cy="18.93" fx="27.04" fy="18.93" gradientTransform="matrix(1.2,0,0,.85,0,-2)" gradientUnits="userSpaceOnUse" id="u1cK" r="47.33" xlink:href="#u1cG"/><radialGradient cx="13" cy="34" fx="13" fy="34" gradientTransform="matrix(0,1,-2.07,0,102.3,2)" gradientUnits="userSpaceOnUse" id="u1cL" r="28.05" xlink:href="#u1cG"/><path color="#44aaff" d="M 10,8 C 8.34,8 7,9.34 7,11 v 7 c -1.66,0 -3,1.34 -3,3 v 30 c 0,1.66 1.34,3 3,3 h 50 c 1.66,0 3,-1.34 3,-3 V 19 c 0,-1.66 -1.34,-3 -3,-3 v -3 c 0,-1.66 -1.34,-3 -3,-3 H 28 C 24,10 24,8 21,8 Z" id="u1cM"></path><path d="M 10,8 C 8.34,8 7,9.34 7,11 v 7 h 13 c 4,0 4,-2.1 7,-2 h 30 v -3 c 0,-1.66 -1.34,-3 -3,-3 H 28 C 24,10 24,8 21,8 Z" id="u1cN"></path></defs>
+<g id="content" transform="translate(0,0)"><g id="layer2">
+<use class="sync-color enable-if__color-sync-mimes-places force-display-for-editing ColorScheme-ActiveText" display="inline" fill="currentColor" href="#u1cM"></use>
+<use class="primary-color remove-if__color-sync-mimes-places ColorScheme-ActiveText ExScheme-Red-2" fill="currentColor" href="#u1cM"></use>
+<path class="ColorScheme-Contrast" color="#000000" d="M 10,8 C 8.34,8 7,9.34 7,11 v 7 c -1.66,0 -3,1.34 -3,3 v 30 c 0,1.66 1.34,3 3,3 h 50 c 1.66,0 3,-1.34 3,-3 V 19 c 0,-1.66 -1.34,-3 -3,-3 v -3 c 0,-1.7 -1.34,-3 -3,-3 H 28 C 24,10 24,8 21,8 Z" fill="currentColor" opacity=".1"/>
+<use href="#u1cN" opacity=".4"></use>
+<use fill="url(#u1cJ)" href="#u1cN" opacity=".1"></use>
+<rect class="enable-if__show-crease force-display-for-editing" display="inline" height="2" opacity=".4" width="56" x="4" y="42"/>
+<path class="ColorScheme-Contrast" color="#000000" d="m 4,50 v 1 c 0,1.66 1.34,3 3,3 h 50 c 1.66,0 3,-1.34 3,-3 v -1 c 0,1.66 -1.34,3 -3,3 H 7 C 5.34,53 4,51.66 4,50 Z" fill="currentColor" opacity=".1"/>
+<path class="ColorScheme-Contrast" color="#000000" d="M 4,50.5 V 51 c 0,1.66 1.34,3 3,3 h 50 c 1.66,0 3,-1.34 3,-3 v -0.5 c 0,1.66 -1.34,3 -3,3 H 7 c -1.66,0 -3,-1.34 -3,-3 z" fill="currentColor" opacity=".2"/>
+<path d="m 27,16 c -3,0 -3,2 -7,2 H 7 c -1.66,0 -3,1.34 -3,3 v 1 c 0,-1.66 1.34,-3 3,-3 h 13 c 4,0 4,-2 7,-2 h 30 c 1.66,0 3,1.34 3,3 v -1 c 0,-1.66 -1.34,-3 -3,-3 z" fill="#ffffff" opacity=".1"/>
+<path d="m 27,16 c -3,0 -3,2 -7,2 H 7 c -1.66,0 -3,1.34 -3,3 v 0.5 c 0,-1.66 1.34,-3 3,-3 h 13 c 4,0 4,-2 7,-2 h 30 c 1.66,0 3,1.34 3,3 V 19 c 0,-1.66 -1.34,-3 -3,-3 z" fill="#ffffff" opacity=".2"/>
+<path d="m 27,15 c -3,0 -3,2 -7,2 H 7 v 1 h 13 c 4,0 4,-2 7,-2 h 30 v -1 z" opacity=".1"/>
+<path d="m 27,15.5 c -3,0 -3,2 -7,2 H 7 V 18 h 13 c 4,0 4,-2 7,-2 h 30 v -0.5 z" opacity=".2"/>
+<path d="M 7,18 H 19.94 C 24,18 24,16 27,16 H 57 c 1.66,0 3,1.34 3,3 v 32 c 0,1.66 -1.34,3 -3,3 H 7 C 5.34,54 4,52.66 4,51 V 21 c 0,-1.66 1.34,-3 3,-3 z" fill="url(#u1cL)" id="rect1655" opacity=".2" paint-order="stroke fill markers" stop-color="#000000" stroke="#913bb5" stroke-dasharray="0.2, 0.2" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.1"/>
+</g><g display="none" id="layer1">
+<g opacity=".5">
+<path d="M 0,58 H 9" fill="none" stroke="#54d883" stroke-dasharray="0.2, 0.2" stroke-dashoffset="0" stroke-linejoin="miter" stroke-width="0.1"/>
+<path d="M 0,6 H 9" fill="none" stroke="#54d883" stroke-dasharray="0.2, 0.2" stroke-dashoffset="0" stroke-linejoin="miter" stroke-width="0.1"/>
+<path d="M 58,0 V 9" fill="none" stroke="#54d883" stroke-dasharray="0.2, 0.2" stroke-dashoffset="0" stroke-linejoin="miter" stroke-width="0.1"/>
+<path d="M 6,9 V 0" fill="none" stroke="#54d883" stroke-dasharray="0.2, 0.2" stroke-dashoffset="0" stroke-linejoin="miter" stroke-width="0.1"/>
+<path d="m 58,55 v 9" fill="none" stroke="#54d883" stroke-dasharray="0.2, 0.2" stroke-dashoffset="0" stroke-linejoin="miter" stroke-width="0.1"/>
+<path d="M 6,64 V 55" fill="none" stroke="#54d883" stroke-dasharray="0.2, 0.2" stroke-dashoffset="0" stroke-linejoin="miter" stroke-width="0.1"/>
+<path d="m 55,58 h 9" fill="none" stroke="#54d883" stroke-dasharray="0.2, 0.2" stroke-dashoffset="0" stroke-linejoin="miter" stroke-width="0.1"/>
+<path d="m 55,6 h 9" fill="none" stroke="#54d883" stroke-dasharray="0.2, 0.2" stroke-dashoffset="0" stroke-linejoin="miter" stroke-width="0.1"/>
+</g>
+<circle cx="32" cy="32" fill="none" id="path876" paint-order="stroke fill markers" r="30" stop-color="#000000" stroke="#bf4231" stroke-dasharray="0.2, 0.2" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.1"/>
+<path d="M 1,1 63,63" fill="none" opacity=".5" stroke="#ffa92d" stroke-dasharray="0.2, 0.2" stroke-dashoffset="0" stroke-linejoin="miter" stroke-width="0.1"/>
+<path d="M 1,63 63,1" fill="none" opacity=".5" stroke="#ffa92d" stroke-dasharray="0.2, 0.2" stroke-dashoffset="0" stroke-linejoin="miter" stroke-width="0.1"/>
+<rect fill="none" height="56" opacity=".5" paint-order="stroke fill markers" ry="3" stop-color="#000000" stroke="#913bb5" stroke-dasharray="0.2, 0.2" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.1" width="44" x="10" y="4"/>
+<rect fill="none" height="44" opacity=".5" paint-order="stroke fill markers" ry="3" stop-color="#000000" stroke="#913bb5" stroke-dasharray="0.2, 0.2" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.1" width="56" x="4" y="10"/>
+<circle cx="32" cy="32" fill="none" id="path4298" opacity=".4" paint-order="stroke fill markers" r="22" stop-color="#000000" stroke="#bf4231" stroke-dasharray="0.2, 0.2" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.1"/>
+<rect fill="none" height="52" paint-order="stroke fill markers" ry="3" stop-color="#000000" stroke="#913bb5" stroke-dasharray="0.2, 0.2" stroke-dashoffset="0" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.1" width="52" x="6" y="6"/>
+</g></g>
 </svg>

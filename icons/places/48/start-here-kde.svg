@@ -1,0 +1,58 @@
+<svg height="48" version="1.1" width="48" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs id="primary-definitions">
+<style id="current-color-scheme" type="text/css">
+      .ColorScheme-Text         { color: #232629; }
+      .ColorScheme-Background   { color: #eff0f1; }
+      .ColorScheme-Highlight    { color: #7ec9f0; }
+      .ColorScheme-PositiveText { color: #27ae60; }
+      .ColorScheme-NeutralText  { color: #f67400; }
+      .ColorScheme-NegativeText { color: #da4453; }
+      .ColorScheme-ActiveText   { color: #3daee9; }
+      .ColorScheme-Complement   { color: #ffffff; }
+      .ColorScheme-Contrast     { color: #000000; }
+    </style>
+<style id="extended-color-scheme" type="text/css">
+      .ExScheme-Black     { color:#3e3e3e; }
+      .ExScheme-White     { color:#fcfcfc; }
+      .ExScheme-Grey-1    { color:#cfd5d5; }
+      .ExScheme-Grey-2    { color:#909c9c; }
+      .ExScheme-Grey-3    { color:#536161; }
+      .ExScheme-Red-1     { color:#ffafa5; }
+      .ExScheme-Red-2     { color:#bf4231; }
+      .ExScheme-Red-3     { color:#4d2f2b; }
+      .ExScheme-Green-1   { color:#abf9c7; }
+      .ExScheme-Green-2   { color:#3bb566; }
+      .ExScheme-Green-3   { color:#377d50; }
+      .ExScheme-Blue-1    { color:#abdaf9; }
+      .ExScheme-Blue-2    { color:#3daefd; }
+      .ExScheme-Blue-3    { color:#2b3c4d; }
+      .ExScheme-Yellow-1  { color:#faffa5; }
+      .ExScheme-Yellow-2  { color:#cac726; }
+      .ExScheme-Yellow-3  { color:#4b4d2b; }
+      .ExScheme-Orange-1  { color:#ffdaa5; }
+      .ExScheme-Orange-2  { color:#ff9701; }
+      .ExScheme-Orange-3  { color:#4d372b; }
+      .ExScheme-Brown-1   { color:#e9d6bb; }
+      .ExScheme-Brown-2   { color:#997657; }
+      .ExScheme-Brown-3   { color:#433a35; }
+      .ExScheme-Purple-1  { color:#e2abf9; }
+      .ExScheme-Purple-2  { color:#b401ff; }
+      .ExScheme-Purple-3  { color:#432b4d; }
+      .ExScheme-Cyan-1    { color:#b2f2e6; }
+      .ExScheme-Cyan-2    { color:#31bfa6; }
+      .ExScheme-Cyan-3    { color:#2b4d47; }
+      .ExScheme-Magenta-1 { color:#f8a6d8; }
+      .ExScheme-Magenta-2 { color:#f00091; }
+      .ExScheme-Magenta-3 { color:#770048; }
+    </style>
+<linearGradient id="uUg">
+<stop offset="0"/>
+<stop offset="1" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="uUh">
+<stop offset="0" stop-color="#fff"/>
+<stop offset="1" stop-color="#fff" stop-opacity="0"/>
+</linearGradient>
+</defs>
+<g id="content" transform="translate(0,0)"><path class="ColorScheme-Text" d="M 30,6 25.5,10.5 33,18 25.5,25.5 30,30 42,18 Z" fill="currentColor"/><path class="ColorScheme-NeutralText" d="m 15,6 a 3,3 0 0 0 -3,3 3,3 0 0 0 3,3 3,3 0 0 0 3,-3 3,3 0 0 0 -3,-3 z" fill="currentColor"/><path class="ColorScheme-PositiveText" d="M 9.75,19.5 A 3.75,3.75 0 0 0 6,23.25 3.75,3.75 0 0 0 9.75,27 3.75,3.75 0 0 0 13.5,23.25 3.75,3.75 0 0 0 9.75,19.5 Z" fill="currentColor"/><path class="ColorScheme-ActiveText" d="M 19.5,33 A 4.5,4.5 0 0 0 15,37.5 4.5,4.5 0 0 0 19.5,42 4.5,4.5 0 0 0 24,37.5 4.5,4.5 0 0 0 19.5,33 Z" fill="currentColor"/><path class="ColorScheme-Contrast" d="M 15 6 A 3 3 0 0 0 12 9 A 3 3 0 0 0 15 12 A 3 3 0 0 0 18 9 A 3 3 0 0 0 15 6 z M 15 7 A 1 1 0 0 1 16 8 A 1 1 0 0 1 15 9 A 1 1 0 0 1 14 8 A 1 1 0 0 1 15 7 z M 9.75 19.5 A 3.75 3.75 0 0 0 6 23.25 A 3.75 3.75 0 0 0 9.75 27 A 3.75 3.75 0 0 0 13.5 23.25 A 3.75 3.75 0 0 0 9.75 19.5 z M 9.75 20.5 A 1.75 1.75 0 0 1 11.5 22.25 A 1.75 1.75 0 0 1 9.75 24 A 1.75 1.75 0 0 1 8 22.25 A 1.75 1.75 0 0 1 9.75 20.5 z M 19.5 33 A 4.5 4.5 0 0 0 15 37.5 A 4.5 4.5 0 0 0 19.5 42 A 4.5 4.5 0 0 0 24 37.5 A 4.5 4.5 0 0 0 19.5 33 z M 19.5 34 A 2.5 2.5 0 0 1 22 36.5 A 2.5 2.5 0 0 1 19.5 39 A 2.5 2.5 0 0 1 17 36.5 A 2.5 2.5 0 0 1 19.5 34 z " fill="currentColor" opacity=".05"/><path class="ColorScheme-Contrast" d="M 15 6 A 3 3 0 0 0 12 9 A 3 3 0 0 0 15 12 A 3 3 0 0 0 18 9 A 3 3 0 0 0 15 6 z M 15 6.5 A 2 2 0 0 1 17 8.5 A 2 2 0 0 1 15 10.5 A 2 2 0 0 1 13 8.5 A 2 2 0 0 1 15 6.5 z M 9.75 19.5 A 3.75 3.75 0 0 0 6 23.25 A 3.75 3.75 0 0 0 9.75 27 A 3.75 3.75 0 0 0 13.5 23.25 A 3.75 3.75 0 0 0 9.75 19.5 z M 9.75 19.96 A 2.8 2.8 0 0 1 12.54 22.75 A 2.8 2.8 0 0 1 9.75 25.54 A 2.8 2.8 0 0 1 6.96 22.75 A 2.8 2.8 0 0 1 9.75 19.96 z M 19.5 33 A 4.5 4.5 0 0 0 15 37.5 A 4.5 4.5 0 0 0 19.5 42 A 4.5 4.5 0 0 0 24 37.5 A 4.5 4.5 0 0 0 19.5 33 z M 19.5 33.5 A 3.5 3.5 0 0 1 23 37 A 3.5 3.5 0 0 1 19.5 40.5 A 3.5 3.5 0 0 1 16 37 A 3.5 3.5 0 0 1 19.5 33.5 z " fill="currentColor" opacity=".1"/><path class="ColorScheme-Contrast" d="M 15 6 A 3 3 0 0 0 12 9 A 3 3 0 0 0 15 12 A 3 3 0 0 0 18 9 A 3 3 0 0 0 15 6 z M 15 6.25 A 2.5 2.5 0 0 1 17.5 8.75 A 2.5 2.5 0 0 1 15 11.25 A 2.5 2.5 0 0 1 12.5 8.75 A 2.5 2.5 0 0 1 15 6.25 z M 9.75 19.5 A 3.75 3.75 0 0 0 6 23.25 A 3.75 3.75 0 0 0 9.75 27 A 3.75 3.75 0 0 0 13.5 23.25 A 3.75 3.75 0 0 0 9.75 19.5 z M 9.75 19.75 A 3.25 3.25 0 0 1 13 23 A 3.25 3.25 0 0 1 9.75 26.25 A 3.25 3.25 0 0 1 6.5 23 A 3.25 3.25 0 0 1 9.75 19.75 z M 19.5 33 A 4.5 4.5 0 0 0 15 37.5 A 4.5 4.5 0 0 0 19.5 42 A 4.5 4.5 0 0 0 24 37.5 A 4.5 4.5 0 0 0 19.5 33 z M 19.5 33.25 A 4 4 0 0 1 23.5 37.25 A 4 4 0 0 1 19.5 41.25 A 4 4 0 0 1 15.5 37.25 A 4 4 0 0 1 19.5 33.25 z " fill="currentColor" opacity=".2"/></g>
+</svg>

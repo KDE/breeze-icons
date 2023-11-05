@@ -1,35 +1,72 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <defs id="defs3051">
-    <style type="text/css" id="current-color-scheme">
-      .ColorScheme-Text {
-        color:#232629;
-      }
-      .ColorScheme-Highlight {
-        color:#3daee9;
-      }
-      </style>
-  </defs>
- <path 
-     style="fill:currentColor" 
-     d="M 4 6 L 4 11 L 4 20 L 3 20 L 3 21 L 3 21 C 3 21 3 21 3 21 L 3 57 L 3 58 L 4 58 L 60 58 L 61 58 L 61 57 L 61 21 L 61 21 L 61 16 L 60 16 L 60 11 C 60 11 60 11 60 11 L 60 11 L 60 10 L 32 10 L 28 6 L 4 6 z "
-     class="ColorScheme-Highlight"
-     />
- <path 
-     style="fill-opacity:0.33"
-     d="M 4 6 L 4 11 L 4 20 L 22 20 L 26 16 L 60 16 L 60 11 C 60 11 60 11 60 11 L 60 11 L 60 10 L 32 10 L 28 6 L 4 6 z "
-     />
- <path 
-     style="fill:#ffffff;fill-opacity:0.2"
-     d="M 28 6 L 31 11 L 33 11 L 60 11 L 60 10 L 33 10 L 32 10 L 28 6 z M 26 16 L 22 20 L 3 20 L 3 21 L 23 21 L 26 16 z "
-     />
- <path 
-     style="fill-opacity:0.2;fill-rule:evenodd"
-     d="M 26 16 L 20 19 L 4 19 L 4 20 L 22 20 L 26 16 z M 3 57 L 3 58 L 4 58 L 60 58 L 61 58 L 61 57 L 60 57 L 4 57 L 3 57 z "
-     class="ColorScheme-Text"
-     />
- <path 
-     style="fill:currentColor;fill-opacity:0.6;stroke:none"  
-     d="M 23 27 L 23 28 L 23 46 L 23 47 L 35 47 L 41 41 L 41 27 L 23 27 z M 24 28 L 40 28 L 40 41 L 35 41 L 35 46 L 24 46 L 24 28 z "
-     class="ColorScheme-Text"
-     />
+<svg height="64" version="1.1" width="64" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs id="primary-definitions">
+<style id="current-color-scheme" type="text/css">
+      .ColorScheme-Text         { color: #232629; }
+      .ColorScheme-Background   { color: #eff0f1; }
+      .ColorScheme-Highlight    { color: #7ec9f0; }
+      .ColorScheme-PositiveText { color: #27ae60; }
+      .ColorScheme-NeutralText  { color: #f67400; }
+      .ColorScheme-NegativeText { color: #da4453; }
+      .ColorScheme-ActiveText   { color: #3daee9; }
+      .ColorScheme-Complement   { color: #ffffff; }
+      .ColorScheme-Contrast     { color: #000000; }
+    </style>
+<style id="extended-color-scheme" type="text/css">
+      .ExScheme-Black     { color:#3e3e3e; }
+      .ExScheme-White     { color:#fcfcfc; }
+      .ExScheme-Grey-1    { color:#cfd5d5; }
+      .ExScheme-Grey-2    { color:#909c9c; }
+      .ExScheme-Grey-3    { color:#536161; }
+      .ExScheme-Red-1     { color:#ffafa5; }
+      .ExScheme-Red-2     { color:#bf4231; }
+      .ExScheme-Red-3     { color:#4d2f2b; }
+      .ExScheme-Green-1   { color:#abf9c7; }
+      .ExScheme-Green-2   { color:#3bb566; }
+      .ExScheme-Green-3   { color:#377d50; }
+      .ExScheme-Blue-1    { color:#abdaf9; }
+      .ExScheme-Blue-2    { color:#3daefd; }
+      .ExScheme-Blue-3    { color:#2b3c4d; }
+      .ExScheme-Yellow-1  { color:#faffa5; }
+      .ExScheme-Yellow-2  { color:#cac726; }
+      .ExScheme-Yellow-3  { color:#4b4d2b; }
+      .ExScheme-Orange-1  { color:#ffdaa5; }
+      .ExScheme-Orange-2  { color:#ff9701; }
+      .ExScheme-Orange-3  { color:#4d372b; }
+      .ExScheme-Brown-1   { color:#e9d6bb; }
+      .ExScheme-Brown-2   { color:#997657; }
+      .ExScheme-Brown-3   { color:#433a35; }
+      .ExScheme-Purple-1  { color:#e2abf9; }
+      .ExScheme-Purple-2  { color:#b401ff; }
+      .ExScheme-Purple-3  { color:#432b4d; }
+      .ExScheme-Cyan-1    { color:#b2f2e6; }
+      .ExScheme-Cyan-2    { color:#31bfa6; }
+      .ExScheme-Cyan-3    { color:#2b4d47; }
+      .ExScheme-Magenta-1 { color:#f8a6d8; }
+      .ExScheme-Magenta-2 { color:#f00091; }
+      .ExScheme-Magenta-3 { color:#770048; }
+    </style>
+<linearGradient id="ukE">
+<stop offset="0"/>
+<stop offset="1" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="ukF">
+<stop offset="0" stop-color="#fff"/>
+<stop offset="1" stop-color="#fff" stop-opacity="0"/>
+</linearGradient>
+<style id="ukG" type="text/css">
+        .force-display-for-editing { display: inline !important; }
+    </style><style class="remove-if__show-crease" type="text/css">
+        .enable-if__show-crease { display: none; }
+    </style><style class="remove-if__color-sync-mimes-places" type="text/css">
+        .enable-if__color-sync-mimes-places { display: none; }
+    </style><radialGradient cx=".5" cy="0" id="ukH" r="1" xlink:href="#ukF"/><linearGradient id="ukI" xlink:href="#ukE" y1="1" y2=".5"/><style class="ColorScheme-Background" fill="currentColor" opacity=".6" type="text/css">
+   .ColorScheme-Text           { color:#eff0f1; }
+      .ColorScheme-Background     { color:#31363b; }
+      .ColorScheme-Highlight      { color:#3daefd; }
+      .ColorScheme-ViewBackground { color:#fcfcfc; }
+      .ColorScheme-PositiveText   { color:#27ae60; }
+      .ColorScheme-NeutralText    { color:#f67400; }
+      .ColorScheme-NegativeText   { color:#da4453; }
+  </style><path d="M 10,8 C 8.34,8 7,9.34 7,11 v 7 c -1.66,0 -3,1.34 -3,3 v 32 c 0,1.66 1.34,3 3,3 h 50 c 1.66,0 3,-1.34 3,-3 V 26 21 19 c 0,-1.66 -1.34,-3 -3,-3 v -3 c 0,-1.66 -1.34,-3 -3,-3 H 28 C 24,10 24,8 21,8 Z" id="ukJ"></path><path d="M 10,8 C 8.34,8 7,9.34 7,11 v 7 h 13 c 4,0 4,-2 7,-2 h 30 v -3 c 0,-1.66 -1.34,-3 -3,-3 H 28 C 24,10 24,8 21,8 Z" id="ukK"></path></defs>
+<g id="content" transform="translate(0,0)"><use class="sync-color enable-if__color-sync-mimes-places force-display-for-editing ColorScheme-ActiveText" fill="currentColor" href="#ukJ"></use><use class="primary-color remove-if__color-sync-mimes-places ColorScheme-ActiveText" fill="currentColor" href="#ukJ"></use><use class="ColorScheme-Contrast" fill="currentColor" href="#ukJ" opacity=".1"></use><g id="decal" transform="translate(16,21)"><path class="ColorScheme-Background" d="M 6.24 3 C 5.8 3 5.47 3.35 5.47 3.77 L 5.47 29.23 C 5.47 29.65 5.8 30 6.24 30 L 26.05 30 C 26.47 30 26.8 29.65 26.8 29.23 L 26.8 9.5 L 26.74 9.4 L 20.4 3 L 6.24 3 z M 6.24 3.5 L 20.06 3.5 L 20.06 8.1 C 20.06 9.03 20.83 9.8 21.8 9.8 L 26.3 9.8 L 26.3 29.23 C 26.3 29.4 26.2 29.5 26.05 29.5 L 6.24 29.5 C 6.1 29.5 5.97 29.4 5.97 29.23 L 5.97 3.77 C 5.97 3.6 6.1 3.5 6.24 3.5 z M 8.25 5.93 C 7.77 5.93 7.4 6.3 7.4 6.8 C 7.4 7.26 7.77 7.65 8.25 7.65 L 14.73 7.65 C 15.2 7.65 15.6 7.26 15.6 6.8 C 15.6 6.3 15.2 5.93 14.73 5.93 L 8.25 5.93 z M 8.25 9.4 C 7.77 9.4 7.4 9.8 7.4 10.25 C 7.4 10.73 7.77 11.1 8.25 11.1 L 17.34 11.1 C 17.8 11.1 18.2 10.73 18.2 10.25 C 18.2 9.8 17.8 9.4 17.34 9.4 L 8.25 9.4 z M 8.34 12.85 C 7.8 12.85 7.4 13.3 7.4 13.8 L 7.4 18.5 C 7.4 18.93 7.8 19.36 8.34 19.36 L 16.8 19.36 C 17.35 19.36 17.8 18.93 17.8 18.5 L 17.8 13.8 C 17.8 13.3 17.35 12.85 16.8 12.85 L 8.34 12.85 z M 19.7 13.5 C 19.3 13.5 18.96 13.85 18.96 14.24 L 18.96 14.5 C 18.96 14.9 19.3 15.25 19.7 15.25 L 24.53 15.25 C 24.9 15.25 25.25 14.9 25.25 14.5 L 25.25 14.24 C 25.25 13.85 24.9 13.5 24.53 13.5 L 19.7 13.5 z M 8.34 13.7 L 8.9 13.7 C 8.64 13.84 8.44 14.04 8.44 14.34 C 8.44 14.76 8.8 15.1 9.2 15.1 C 9.65 15.1 10 14.76 10 14.34 C 10 14.04 9.8 13.84 9.57 13.7 L 16.8 13.7 C 16.9 13.7 16.93 13.74 16.93 13.8 L 16.93 17.46 L 14.5 15.04 L 14.5 15.04 C 14.3 14.86 14.06 14.76 13.8 14.76 C 13.57 14.76 13.33 14.86 13.14 15.04 L 11.97 16.2 L 11.4 15.63 C 11.2 15.44 10.97 15.35 10.7 15.35 C 10.5 15.35 10.24 15.45 10.05 15.6 L 10.05 15.63 L 8.23 17.45 L 8.23 13.8 C 8.23 13.74 8.3 13.7 8.34 13.7 z M 19.7 17.1 C 19.3 17.1 18.96 17.44 18.96 17.83 L 18.96 18.1 C 18.96 18.5 19.3 18.83 19.7 18.83 L 23.57 18.83 C 23.97 18.83 24.3 18.5 24.3 18.1 L 24.3 17.83 C 24.3 17.44 23.97 17.1 23.57 17.1 L 19.7 17.1 z M 8.25 21.1 C 7.77 21.1 7.4 21.5 7.4 21.96 C 7.4 22.43 7.77 22.8 8.25 22.8 L 21.87 22.8 C 22.34 22.8 22.73 22.43 22.73 21.96 C 22.73 21.5 22.34 21.1 21.87 21.1 L 8.25 21.1 z M 8 24.56 C 7.67 24.56 7.4 24.84 7.4 25.2 L 7.4 25.65 C 7.4 26 7.67 26.3 8 26.3 L 16.57 26.3 C 16.9 26.3 17.2 26 17.2 25.65 L 17.2 25.2 C 17.2 24.84 16.9 24.56 16.57 24.56 L 8 24.56 z M 18.46 24.56 C 18.1 24.56 17.8 24.84 17.8 25.2 L 17.8 25.65 C 17.8 26 18.1 26.3 18.46 26.3 L 23.77 26.3 C 24.1 26.3 24.4 26 24.4 25.65 L 24.4 25.2 C 24.4 24.84 24.1 24.56 23.77 24.56 L 18.46 24.56 z " fill="currentColor" opacity=".6"/><path class="ColorScheme-Background" d="m 6.24,3 c -.4,0 -.77,.34 -.77,.76 V 29.23 C 5.47,29.65 5.8,30 6.24,30 H 26.05 c .4,0 .77,-.35 .77,-.77 V 9.5 l -.07,-.07 -6.33,-6.4 z m 0,.5 H 20.06 v 4.6 c 0,.95 .77,1.7 1.7,1.7 h 4.54 V 29.23 c 0,.15 -.1,.27 -.27,.27 H 6.24 c -.15,0 -.27,-.1 -.27,-.27 V 3.76 c 0,-.15 .1,-.27 .27,-.27 z m 14.3,.36 5.4,5.45 h -4.15 c -.7,0 -1.2,-.54 -1.2,-1.2 z M 8.25,5.93 c -.47,0 -.86,.4 -.86,.86 0,.47 .4,.86 .86,.86 h 6.5 c .47,0 .86,-.4 .86,-.86 0,-.47 -.4,-.86 -.86,-.86 z m 0,.5 h 6.5 c .2,0 .37,.16 .37,.37 0,.2 -.16,.37 -.37,.37 H 8.25 c -.2,0 -.37,-.16 -.37,-.37 0,-.2 .16,-.37 .37,-.37 z m 0,2.96 c -.47,0 -.86,.4 -.86,.86 0,.47 .4,.86 .86,.86 h 9.1 c .47,0 .86,-.4 .86,-.86 0,-.47 -.4,-.86 -.86,-.86 z m 0,.5 h 9.1 c .2,0 .37,.16 .37,.37 0,.2 -.16,.37 -.37,.37 H 8.25 c -.2,0 -.37,-.16 -.37,-.37 0,-.2 .16,-.37 .37,-.37 z m .1,2.96 c -.53,0 -.96,.43 -.96,.96 v 4.7 c 0,.53 .43,.96 .96,.96 h 8.5 c .53,0 .96,-.43 .96,-.96 v -4.7 c 0,-.53 -.43,-.96 -.96,-.96 z m 11.34,.67 c -.4,0 -.7,.33 -.7,.7 v .3 c 0,.4 .33,.7 .7,.7 h 4.84 c .4,0 .7,-.33 .7,-.7 v -.3 c 0,-.4 -.33,-.7 -.7,-.7 z M 8.34,13.7 H 9.1 c -.3,.1 -.63,.3 -.63,.63 0,.43 .35,.8 .8,.8 .43,0 .8,-.35 .8,-.8 0,-.35 -.3,-.54 -.63,-.63 h 7.45 c .06,0 .1,.04 .1,.1 v 3.65 l -2.43,-2.4 c -.2,-.2 -.43,-.3 -.7,-.3 -.24,-2e-5 -.5,.1 -.67,.3 l -1.17,1.16 -.57,-.6 c -.2,-.2 -.43,-.3 -.7,-.3 -.24,0 -.5,.1 -.67,.3 l -0,0 -1.8,1.8 v -3.64 c 0,-.06 .04,-.1 .1,-.1 z m 11.34,.3 h 4.84 c .13,0 .2,.1 .2,.23 v .3 c 0,.13 -.1,.23 -.2,.23 h -4.84 c -.13,0 -.2,-.1 -.2,-.23 v -.3 c 0,-.13 .1,-.23 .2,-.23 z m -10.46,.04 c .16,0 .3,.1 .3,.3 0,.16 -.1,.3 -.3,.3 -.16,0 -.3,-.1 -.3,-.3 0,-.16 .1,-.3 .3,-.3 z m 4.6,1.2 c .1,1.1e-5 .23,.04 .3,.14 l 3.1,3.06 c -.04,.2 -.2,.4 -.4,.4 h -6.8 l 3.5,-3.46 c .1,-.1 .2,-.14 .3,-.14 z m -3.1,.6 c .1,-5.28e-4 .23,.04 .3,.13 l .3,.3 -2.6,2.6 H 8.34 c -.23,0 -.37,-.2 -.4,-.4 l 2.46,-2.47 c .1,-.1 .2,-.14 .33,-.14 z m 8.95,1.26 c -.4,0 -.7,.33 -.7,.7 v .3 c 0,.4 .33,.7 .7,.7 h 3.9 c .4,0 .7,-.33 .7,-.7 v -.3 c 0,-.4 -.33,-.7 -.7,-.7 z m 0,.5 h 3.9 c .13,0 .23,.1 .23,.2 v .3 c 0,.13 -.1,.23 -.23,.23 h -3.9 c -.13,0 -.2,-.1 -.2,-.23 v -.3 c 0,-.13 .1,-.2 .2,-.2 z M 8.25,21.1 c -.47,0 -.86,.4 -.86,.86 0,.47 .4,.86 .86,.86 H 21.87 c .47,0 .86,-.4 .86,-.86 0,-.47 -.4,-.86 -.86,-.86 z m 0,.5 H 21.87 c .2,0 .37,.16 .37,.37 0,.2 -.16,.37 -.37,.37 H 8.25 c -.2,0 -.37,-.16 -.37,-.37 0,-.2 .16,-.37 .37,-.37 z m -.23,2.96 c -.35,0 -.63,.3 -.63,.63 v .46 c 0,.35 .3,.63 .63,.63 h 8.55 c .35,0 .63,-.3 .63,-.63 v -.46 c 0,-.35 -.3,-.63 -.63,-.63 z m 10.44,0 c -.35,0 -.64,.3 -.64,.63 v .46 c 0,.35 .3,.63 .64,.63 h 5.3 c .35,0 .63,-.3 .63,-.63 v -.46 c 0,-.35 -.3,-.63 -.63,-.63 z M 8,25.05 h 8.55 c .1,0 .14,.06 .14,.14 v .46 c 0,.1 -.06,.14 -.14,.14 H 8 c -.1,0 -.14,-.06 -.14,-.14 v -.46 c 0,-.1 .06,-.14 .14,-.14 z m 10.44,0 h 5.3 c .1,0 .14,.06 .14,.14 v .46 c 0,.1 -.06,.14 -.14,.14 h -5.3 c -.1,0 -.14,-.06 -.14,-.14 v -.46 c 0,-.1 .06,-.14 .14,-.14 z" fill="currentColor" opacity=".6"/></g><use href="#ukK" opacity=".4"></use><use fill="url(#ukI)" href="#ukK" opacity=".1"></use><path d="m 26,16 c -2,0 -4,2 -6,2 H 6 c -1.11,0 -2,.9 -2,2 v 34 c 0,1.1 .9,2 2,2 h 52 c 1.1,0 2,-.9 2,-2 V 18 c 0,-1.1 -.9,-2 -2,-2 z" fill="url(#ukH)" opacity=".2"/><path class="ColorScheme-Contrast" d="m 4,52 v 1 c 0,1.66 1.34,3 3,3 h 50 c 1.66,0 3,-1.34 3,-3 v -1 c 0,1.66 -1.34,3 -3,3 H 7 C 5.34,55 4,53.66 4,52 Z" fill="currentColor" opacity=".1"/><path class="ColorScheme-Contrast" d="M 4,52.5 V 53 c 0,1.66 1.34,3 3,3 h 50 c 1.66,0 3,-1.34 3,-3 v -0.5 c 0,1.66 -1.34,3 -3,3 H 7 c -1.66,0 -3,-1.34 -3,-3 z" fill="currentColor" opacity=".2"/><path d="m 27,16 c -3,0 -3,2 -7,2 H 7 c -1.66,0 -3,1.34 -3,3 v 1 c 0,-1.66 1.34,-3 3,-3 h 13 c 4,0 4,-2 7,-2 h 30 c 1.66,0 3,1.34 3,3 v -1 c 0,-1.66 -1.34,-3 -3,-3 z" fill="#fff" opacity=".1"/><path d="m 27,16 c -3,0 -3,2 -7,2 H 7 c -1.66,0 -3,1.34 -3,3 v 0.5 c 0,-1.66 1.34,-3 3,-3 h 13 c 4,0 4,-2 7,-2 h 30 c 1.66,0 3,1.34 3,3 V 19 c 0,-1.66 -1.34,-3 -3,-3 z" fill="#fff" opacity=".2"/><path d="m 27,15 c -3,0 -3,2 -7,2 H 7 v 1 h 13 c 4,0 4,-2 7,-2 h 30 v -1 z" opacity=".1"/><path d="m 27,15.5 c -3,0 -3,2 -7,2 H 7 V 18 h 13 c 4,0 4,-2 7,-2 h 30 v -0.5 z" opacity=".2"/></g>
 </svg>
