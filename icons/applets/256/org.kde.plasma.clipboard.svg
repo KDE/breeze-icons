@@ -11,20 +11,15 @@
   <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1" objecttolerance="10" gridtolerance="10" guidetolerance="10" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-width="1920" inkscape:window-height="1050" id="namedview8" showgrid="false" inkscape:zoom="1.84375" inkscape:cx="18.048297" inkscape:cy="115.21664" inkscape:window-x="0" inkscape:window-y="30" inkscape:window-maximized="1" inkscape:current-layer="svg2"/>
   <defs id="defs4">
     <style id="current-color-scheme" type="text/css">
-      .ColorScheme-Text {
-        color:#4d4d4d;
-      }
+
       .ColorScheme-Background {
         color:#eff0f1;
       }
       .ColorScheme-Highlight {
         color:#3daee9;
       }
-      .ColorScheme-ViewText {
-        color:#31363b;
-      }
-      .ColorScheme-ViewBackground {
-        color:#fcfcfc;
+      .ColorScheme-Text {
+        color:#4d4d4d;
       }
       .ColorScheme-ViewHover {
         color:#93cee9;
@@ -40,9 +35,6 @@
       }
       .ColorScheme-ButtonHover {
         color:#93cee9;
-      }
-      .ColorScheme-ButtonFocus{
-        color:#3daee9;
       }
       </style>
     <linearGradient gradientUnits="userSpaceOnUse" y2="3" x2="32" y1="61" x1="32" id="linearGradient4306-2" xlink:href="#linearGradient4300-7" inkscape:collect="always" gradientTransform="matrix(0.49999977,0,0,0.48275841,384.57144,516.34974)"/>

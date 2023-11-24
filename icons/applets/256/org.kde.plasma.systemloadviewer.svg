@@ -49,20 +49,14 @@
     <style
        id="current-color-scheme"
        type="text/css">
-      .ColorScheme-Text {
-        color:#4d4d4d;
-      }
       .ColorScheme-Background {
         color:#eff0f1;
       }
       .ColorScheme-Highlight {
         color:#3daee9;
       }
-      .ColorScheme-ViewText {
-        color:#31363b;
-      }
-      .ColorScheme-ViewBackground {
-        color:#fcfcfc;
+      .ColorScheme-Text {
+        color:#4d4d4d;
       }
       .ColorScheme-ViewHover {
         color:#93cee9;
@@ -78,9 +72,6 @@
       }
       .ColorScheme-ButtonHover {
         color:#93cee9;
-      }
-      .ColorScheme-ButtonFocus{
-        color:#3daee9;
       }
       </style>
   </defs>

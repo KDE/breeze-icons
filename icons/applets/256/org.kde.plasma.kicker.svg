@@ -50,20 +50,14 @@
     <style
        id="current-color-scheme"
        type="text/css">
-      .ColorScheme-Text {
-        color:#4d4d4d;
-      }
       .ColorScheme-Background {
         color:#eff0f1;
       }
       .ColorScheme-Highlight {
         color:#3daee9;
       }
-      .ColorScheme-ViewText {
-        color:#31363b;
-      }
-      .ColorScheme-ViewBackground {
-        color:#fcfcfc;
+      .ColorScheme-Text {
+        color:#4d4d4d;
       }
       .ColorScheme-ViewHover {
         color:#93cee9;
@@ -79,9 +73,6 @@
       }
       .ColorScheme-ButtonHover {
         color:#93cee9;
-      }
-      .ColorScheme-ButtonFocus{
-        color:#3daee9;
       }
       </style>
     <linearGradient
@@ -441,7 +432,7 @@
      rx="0"
      ry="0" />
   <rect
-     class="ColorScheme-ViewBackground"
+     class="ColorScheme-Background"
      style="fill:currentColor;fill-opacity:1.0;stroke:none"
      id="rect5114-3-4"
      width="176"
@@ -755,7 +746,7 @@
        width="5"
        id="rect4318-8"
        style="color:#fcfcfc;display:inline;overflow:visible;visibility:visible;opacity:1;fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate"
-       class="ColorScheme-ViewBackground" />
+       class="ColorScheme-Background" />
     <rect
        y="524.79797"
        x="420.57144"
