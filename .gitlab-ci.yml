@@ -7,3 +7,23 @@ include:
       - /gitlab-templates/linux-qt6.yml
       - /gitlab-templates/freebsd-qt6.yml
       - /gitlab-templates/windows-qt6.yml
+
+webfonts:
+  image: invent-registry.kde.org/sysadmin/ci-images/staticweb:latest
+  tags:
+    - Linux
+  stage: build
+  before_script:
+    - git config --global --add safe.directory $CI_PROJECT_DIR
+    - git clone https://invent.kde.org/sysadmin/ci-utilities.git
+    - git clone https://invent.kde.org/sysadmin/ci-notary-service.git
+  script:
+    - cd webfont/
+    - yarn install
+    - yarn run grunt
+    - cd ../
+    - python3 -u ci-notary-service/publishwebsite.py --config ci-utilities/signing/publishwebsite.ini dist/
+  artifacts:
+    expire_in: 2 days
+    paths:
+      - webfont/dist/
