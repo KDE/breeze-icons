@@ -22,7 +22,7 @@ webfonts:
     - yarn install
     - yarn run grunt
     - cd ../
-    - python3 -u ci-notary-service/publishwebsite.py --config ci-utilities/signing/publishwebsite.ini dist/
+    - python3 -u ci-notary-service/publishwebsite.py --config ci-utilities/signing/publishwebsite.ini webfont/dist/
   artifacts:
     expire_in: 2 days
     paths:
