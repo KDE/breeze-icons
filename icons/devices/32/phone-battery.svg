@@ -1,0 +1,40 @@
+<svg id="svg2" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+    <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
+        color:#31363b;
+      }
+      .ColorScheme-Background {
+        color:#eff0f1;
+      }
+      .ColorScheme-Highlight {
+        color:#3daee9;
+      }
+      .ColorScheme-ViewText {
+        color:#31363b;
+      }
+      .ColorScheme-ViewBackground {
+        color:#fcfcfc;
+      }
+      .ColorScheme-ViewHover {
+        color:#93cee9;
+      }
+      .ColorScheme-ViewFocus{
+        color:#3daee9;
+      }
+      .ColorScheme-ButtonText {
+        color:#31363b;
+      }
+      .ColorScheme-ButtonBackground {
+        color:#eff0f1;
+      }
+      .ColorScheme-ButtonHover {
+        color:#93cee9;
+      }
+      .ColorScheme-ButtonFocus{
+        color:#3daee9;
+      }</style>
+    <g id="phone-battery" transform="translate(-321 -529.36)">
+        <rect id="rect1" x="321" y="529.36" width="32" height="32" fill="none"/>
+        <path id="path1" class="ColorScheme-Text" d="m337.45 539.13-3.5612 7.1224h2.2257v5.3418l4.0063-7.1224h-2.6709z" fill="currentColor"/>
+        <path id="path2" class="ColorScheme-Text" d="m331.83 532.29c-1.1737 0-2.1348 0.96106-2.1348 2.1348v21.875c0 1.1737 0.96108 2.1367 2.1348 2.1367h10.338c1.1737 0 2.1367-0.96302 2.1367-2.1367v-21.875c0-1.1737-0.96301-2.1348-2.1367-2.1348zm0 1.0742h10.338c0.59755 0 1.0625 0.463 1.0625 1.0606v21.875c0 0.59754-0.46495 1.0625-1.0625 1.0625h-10.338c-0.59753 0-1.0605-0.46496-1.0605-1.0625v-21.875c0-0.59755 0.46301-1.0606 1.0605-1.0606zm1.08418 1.20219c-0.39601 5e-3 -0.71374 0.32859-0.71093 0.72461 3e-3 0.39601 0.32469 0.71549 0.72071 0.71484 0.39601-2e-3 0.71635-0.32274 0.71679-0.71875v-0.01c-5e-3 -0.39678-0.32978-0.71483-0.72657-0.71093zm1.74772 20.94301c-0.15964 1e-5 -0.28905 0.12943-0.28906 0.28907 1e-5 0.15964 0.12942 0.28905 0.28906 0.28906h4.793c0.15964-1e-5 0.28905-0.12942 0.28906-0.28906-1e-5 -0.15964-0.12942-0.28906-0.28906-0.28907z" fill="currentColor"/>
+    </g>
+</svg>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="smartphonedisconnected.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="18.274291"
+     inkscape:cx="-1.6690114"
+     inkscape:cy="7.5789534"
+     inkscape:window-width="1920"
+     inkscape:window-height="1006"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <defs
+     id="defs3051">
+    <style
+       type="text/css"
+       id="current-color-scheme">&#10;      .ColorScheme-Text {&#10;        color:#232629;&#10;      }&#10;      </style>
+  </defs>
+  <g
+     id="g1"
+     transform="translate(9.8686547,10.749431)">
+    <path
+       style="fill:#3daee9;fill-opacity:1;stroke:none;stroke-width:0.922534;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       id="path5"
+       sodipodi:type="arc"
+       sodipodi:cx="-3.1839957"
+       sodipodi:cy="-6.2600956"
+       sodipodi:rx="0.43201423"
+       sodipodi:ry="0.43201423"
+       sodipodi:start="0"
+       sodipodi:end="6.2698771"
+       sodipodi:open="true"
+       sodipodi:arc-type="arc"
+       d="m -2.7519815,-6.2600956 a 0.43201423,0.43201423 0 0 1 -0.4305769,0.4320118 0.43201423,0.43201423 0 0 1 -0.433442,-0.4291372 0.43201423,0.43201423 0 0 1 0.4276927,-0.4348673 0.43201423,0.43201423 0 0 1 0.4362879,0.4262435" />
+    <rect
+       style="fill:none;fill-opacity:0.256338;stroke:#3daee9;stroke-width:0.668001;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect5"
+       width="5.5946836"
+       height="9.8331366"
+       x="-4.6659966"
+       y="-7.6659994"
+       ry="1.2184585" />
+    <path
+       style="fill:none;stroke:#3daee9;stroke-width:0.647263;stroke-linecap:round;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+       d="m -3.0885893,0.60291514 c 2.44297327,0 2.44297327,0 2.44297327,0"
+       id="path6" />
+  </g>
+</svg>

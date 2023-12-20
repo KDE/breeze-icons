@@ -1,40 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   width="16"
-   height="16"
-   version="1.1"
-   id="svg6"
-   sodipodi:docname="16-16-phone-battery.svg"
-   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs10" />
-  <sodipodi:namedview
-     id="namedview8"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     showgrid="false"
-     inkscape:zoom="48.3125"
-     inkscape:cx="6.8926261"
-     inkscape:cy="7.9896507"
-     inkscape:window-width="1920"
-     inkscape:window-height="1011"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg6" />
-  <style
-     type="text/css"
-     id="current-color-scheme">
-      .ColorScheme-Text {
+<svg id="svg2" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+    <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
         color:#31363b;
       }
       .ColorScheme-Background {
@@ -66,25 +31,11 @@
       }
       .ColorScheme-ButtonFocus{
         color:#3daee9;
-      }
-      </style>
-  <g
-     id="16-16-phone-battery"
-     transform="translate(-303,-537.36218)">
-    <rect
-       style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:0.10079;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-       id="rect4168"
-       width="16"
-       height="16"
-       x="303"
-       y="537.36218" />
-    <path
-       style="opacity:1;fill:currentColor;fill-opacity:1;stroke:none"
-       d="m -14,42 v 12 h 8 V 42 Z m 3,1 h 2 v 1 h -2 z m -2,2 h 6 v 7 h -3 -3 z m 3,6 1,-3 h -1 v -2 l -1,3 h 1 z"
-       transform="translate(321,497.36218)"
-       id="path4201"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccccccccccccccccccc"
-       class="ColorScheme-Text" />
-  </g>
+      }</style>
+    <g id="16-16-phone-battery" transform="translate(-303 -537.36)">
+        <rect id="rect1" x="303" y="537.36" width="16" height="16" fill="none"/>
+        <style id="style1" type="text/css"/>
+        <path id="path1" class="ColorScheme-Text" d="m311 547.63 1-3h-1v-2l-1 3h1z" fill="currentColor"/>
+        <path id="path2" class="ColorScheme-Text" d="m309.21 539.41c-0.96855 0-1.7598 0.79122-1.7598 1.7598v8.3867c0 0.96855 0.79122 1.7598 1.7598 1.7598h3.582c0.96855 0 1.7598-0.79122 1.7598-1.7598v-8.3867c0-0.96855-0.79122-1.7598-1.7598-1.7598zm0 0.75781h3.582c0.56208 0 1.002 0.43988 1.002 1.002v8.3867c0 0.56208-0.43988 1.002-1.002 1.002h-3.582c-0.56208 0-1.002-0.43988-1.002-1.002v-8.3867c0-0.56208 0.43988-1.002 1.002-1.002zm0.29492 0.72656a0.4898 0.4898 0 0 0-0.48438 0.49219 0.4898 0.4898 0 0 0 0.49023 0.48633 0.4898 0.4898 0 0 0 0.48828-0.49023v-6e-3a0.4898 0.4898 0 0 0-0.49414-0.48242zm0.11328 7.9023a0.36692 0.36692 0 0 0-0.36719 0.36719 0.36692 0.36692 0 0 0 0.36719 0.36719h2.7695a0.36692 0.36692 0 0 0 0.36719-0.36719 0.36692 0.36692 0 0 0-0.36719-0.36719z" fill="currentColor"/>
+    </g>
 </svg>
