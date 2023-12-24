@@ -1,41 +1,11 @@
-<svg id="svg2" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-    <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
-        color:#31363b;
-      }
-      .ColorScheme-Background {
-        color:#eff0f1;
-      }
-      .ColorScheme-Highlight {
-        color:#3daee9;
-      }
-      .ColorScheme-ViewText {
-        color:#31363b;
-      }
-      .ColorScheme-ViewBackground {
-        color:#fcfcfc;
-      }
-      .ColorScheme-ViewHover {
-        color:#93cee9;
-      }
-      .ColorScheme-ViewFocus{
-        color:#3daee9;
-      }
-      .ColorScheme-ButtonText {
-        color:#31363b;
-      }
-      .ColorScheme-ButtonBackground {
-        color:#eff0f1;
-      }
-      .ColorScheme-ButtonHover {
-        color:#93cee9;
-      }
-      .ColorScheme-ButtonFocus{
-        color:#3daee9;
-      }</style>
-    <g id="16-16-phone-battery" transform="translate(-303 -537.36)">
-        <rect id="rect1" x="303" y="537.36" width="16" height="16" fill="none"/>
-        <style id="style1" type="text/css"/>
-        <path id="path1" class="ColorScheme-Text" d="m311 547.63 1-3h-1v-2l-1 3h1z" fill="currentColor"/>
-        <path id="path2" class="ColorScheme-Text" d="m309.21 539.41c-0.96855 0-1.7598 0.79122-1.7598 1.7598v8.3867c0 0.96855 0.79122 1.7598 1.7598 1.7598h3.582c0.96855 0 1.7598-0.79122 1.7598-1.7598v-8.3867c0-0.96855-0.79122-1.7598-1.7598-1.7598zm0 0.75781h3.582c0.56208 0 1.002 0.43988 1.002 1.002v8.3867c0 0.56208-0.43988 1.002-1.002 1.002h-3.582c-0.56208 0-1.002-0.43988-1.002-1.002v-8.3867c0-0.56208 0.43988-1.002 1.002-1.002zm0.29492 0.72656a0.4898 0.4898 0 0 0-0.48438 0.49219 0.4898 0.4898 0 0 0 0.49023 0.48633 0.4898 0.4898 0 0 0 0.48828-0.49023v-6e-3a0.4898 0.4898 0 0 0-0.49414-0.48242zm0.11328 7.9023a0.36692 0.36692 0 0 0-0.36719 0.36719 0.36692 0.36692 0 0 0 0.36719 0.36719h2.7695a0.36692 0.36692 0 0 0 0.36719-0.36719 0.36692 0.36692 0 0 0-0.36719-0.36719z" fill="currentColor"/>
+<svg version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
+          color:#232629;
+        }</style>
+    </defs>
+    <g fill="currentColor">
+        <path id="smartphone" class="ColorScheme-Text" d="m6 2c-0.96855 0-2 1.0314-2 2v8c0 0.96855 1.0314 2 2 2h4c0.96855 0 2-1.0314 2-2v-8c0-0.96855-1.0314-2-2-2h-4zm0 1h4c0.56208 0 1 0.43788 1 1v8c0 0.56208-0.43788 1-1 1h-4c-0.56208 0-1-0.43788-1-1v-8c0-0.56208 0.43788-1 1-1zm0.5 1a0.5 0.5 0 0 0-0.5 0.5 0.5 0.5 0 0 0 0.5 0.5 0.5 0.5 0 0 0 0.5-0.5 0.5 0.5 0 0 0-0.5-0.5zm0 7c-0.277 0-0.5 0.223-0.5 0.5s0.223 0.5 0.5 0.5h3c0.277 0 0.5-0.223 0.5-0.5s-0.223-0.5-0.5-0.5h-3z" fill="currentColor"/>
+        <path id="lightningBolt" class="ColorScheme-Text" d="m8 5-2 3.5h2v2.5l2-3.5h-2z" fill="currentColor"/>
     </g>
 </svg>
