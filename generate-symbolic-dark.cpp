@@ -135,6 +135,9 @@ int main(int argc, char **argv)
 
             // Skip any icons that don't have the stylesheet
             if (!inputData.contains("current-color-scheme")) {
+                if (inputFilePath.contains(u"symbolic"_s)) {
+                    qDebug() << "Symbolic icon is missing \"current-color-scheme\" stylesheet:" << inputFilePath;
+                }
                 continue;
             }
 
