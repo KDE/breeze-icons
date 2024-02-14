@@ -35,9 +35,9 @@ void failListContent(const QList<QString> &list, const QString &header)
     if (list.empty()) {
         return;
     }
-    QString message = ("\n" + _T_LIST_INDENT + header);
+    QString message = (QStringLiteral("\n") + _T_LIST_INDENT + header);
     for (const auto& path : list) {
-        message += (_T_LIST_INDENT2 + "- " + path + "\n");
+        message += (_T_LIST_INDENT2 + QStringLiteral("- ") + path + QStringLiteral("\n"));
     }
     QFAIL(qPrintable(message));
 }
@@ -47,9 +47,9 @@ void failSymlinkList(const QList<QFileInfo> &list, const QString &header)
     if (list.empty()) {
         return;
     }
-    QString message = ("\n" + _T_LIST_INDENT + header);
+    QString message = (QStringLiteral("\n") + _T_LIST_INDENT + header);
     for (const auto& info : list) {
-        message += (_T_LIST_INDENT2 + info.filePath() + " => " + info.symLinkTarget() + "\n");
+        message += (_T_LIST_INDENT2 + info.filePath() + QStringLiteral(" => ") + info.symLinkTarget() + QStringLiteral("\n"));
     }
     QFAIL(qPrintable(message));
 }

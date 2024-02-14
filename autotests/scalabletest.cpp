@@ -137,7 +137,7 @@ public:
         while (it.hasNext()) {
             it.next();
             auto suffix = it.fileInfo().suffix();
-            if (suffix != "svg" && suffix != "svgz" && suffix != "png") {
+            if (suffix != QLatin1String("svg") && suffix != QLatin1String("svgz") && suffix != QLatin1String("png")) {
                 continue; // Probably not an icon.
             }
             icons << it.fileInfo();
@@ -170,7 +170,7 @@ private Q_SLOTS:
             QHash<KIconLoaderDummy::Context, QList<std::shared_ptr<Dir>>> contextHash;
             QHash<KIconLoaderDummy::Context, QString> contextStringHash;
 
-            QSettings config(themeDir + "/index.theme", QSettings::IniFormat);
+            QSettings config(themeDir + QStringLiteral("/index.theme"), QSettings::IniFormat);
             auto keys = config.allKeys();
 
             config.beginGroup("Icon Theme");
@@ -181,9 +181,9 @@ private Q_SLOTS:
             QVERIFY(!directoryPaths.isEmpty());
             for (auto directoryPath : directoryPaths) {
                 config.beginGroup(directoryPath);
-                QVERIFY2(keys.contains(directoryPath + "/Size"),
+                QVERIFY2(keys.contains(directoryPath + QStringLiteral("/Size")),
                          QStringLiteral("The theme %1 has an entry 'Directories' which specifies '%2' as directory, but it has no associated entry '%2/Size'")
-                             .arg(themeDir + "/index.theme", directoryPath)
+                             .arg(themeDir + QStringLiteral("/index.theme"), directoryPath)
                              .toLatin1()
                              .constData());
                 auto dir = std::make_shared<Dir>(config, themeDir);
@@ -198,7 +198,7 @@ private Q_SLOTS:
             if (checkInherits && inherits.contains(QStringLiteral("breeze"))) {
                 QString inheritedDir = PROJECT_SOURCE_DIR + QStringLiteral("/icons");
 
-                QSettings inheritedConfig(inheritedDir + "/index.theme", QSettings::IniFormat);
+                QSettings inheritedConfig(inheritedDir + QStringLiteral("/index.theme"), QSettings::IniFormat);
                 auto inheritedKeys = inheritedConfig.allKeys();
 
                 inheritedConfig.beginGroup("Icon Theme");
@@ -210,9 +210,9 @@ private Q_SLOTS:
                 for (const auto& path : inheritedPaths) {
                     inheritedConfig.beginGroup(path);
                     QVERIFY2(
-                        inheritedKeys.contains(path + "/Size"),
+                        inheritedKeys.contains(path + QStringLiteral("/Size")),
                         QStringLiteral("The theme %1 has an entry 'Directories' which specifies '%2' as directory, but it has no associated entry '%2/Size'")
-                            .arg(inheritedDir + "/index.theme", path)
+                            .arg(inheritedDir + QStringLiteral("/index.theme"), path)
                             .toLatin1()
                             .constData());
                     auto dir = std::make_shared<Dir>(inheritedConfig, inheritedDir);
@@ -233,7 +233,7 @@ private Q_SLOTS:
                 }
                 // FIXME: go through qenum to stringify the bugger
                 // Gets rid of the stupid second hash
-                auto contextId = QString(QLatin1String(dir) + ":" + contextStringHash[key]).toLatin1();
+                auto contextId = QString(dir + QStringLiteral(":") + contextStringHash[key]).toLatin1();
                 QTest::newRow(contextId.constData()) << key << contextHash[key];
             }
         }

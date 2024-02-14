@@ -54,8 +54,8 @@ class DupeTest : public QObject
     {
         QString line;
         while (proc.canReadLine() || proc.waitForReadyRead()) {
-            line = proc.readLine();
-            failListContent(splitOnUnescapedSpace(line.simplified()), "The following files are duplicates but not links:\n");
+            line = QString::fromUtf8(proc.readLine());
+            failListContent(splitOnUnescapedSpace(line.simplified()), QStringLiteral("The following files are duplicates but not links:\n"));
         }
     }
 

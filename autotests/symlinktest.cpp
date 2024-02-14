@@ -32,7 +32,7 @@ private Q_SLOTS:
     void initTestCase()
     {
         // Go up one level from the bin dir
-        m_buildDir = QDir(QCoreApplication::applicationDirPath() + "/..").canonicalPath();
+        m_buildDir = QDir(QCoreApplication::applicationDirPath() + QStringLiteral("/..")).canonicalPath();
     }
     // Invalid symlinks shouldn't happen.
     void test_broken()
