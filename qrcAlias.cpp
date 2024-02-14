@@ -24,17 +24,17 @@
 #include <QRegularExpression>
 #include <QString>
 
-QString link(const QString &path, const QString &fileName)
+static QString link(const QString &path, const QString &fileName)
 {
     QFile in(path + QLatin1Char('/') + fileName);
     if (!in.open(QIODevice::ReadOnly)) {
-        qDebug() << "failed to read" << path << fileName << in.fileName();
+        qWarning() << "failed to read" << path << fileName << in.fileName();
         return QString();
     }
 
     QString firstLine = QString::fromLocal8Bit(in.readLine());
     if (firstLine.isEmpty()) {
-        qDebug() << in.fileName() << "line could not be read...";
+        qWarning() << in.fileName() << "line could not be read...";
         return QString();
     }
     QRegularExpression fNameReg(QStringLiteral("(.*\\.(?:svg|png|gif|ico))$"));
@@ -53,18 +53,18 @@ QString link(const QString &path, const QString &fileName)
     return path + QLatin1Char('/') + match.captured(1);
 }
 
-int parseFile(const QString &infile, const QString &outfile)
+static int parseFile(const QString &infile, const QString &outfile)
 {
     QFile in(infile);
     QFile out(outfile);
     QRegularExpression imageReg(QStringLiteral("<file>(.*\\.(?:svg|png|gif|ico))</file>"));
 
     if (!in.open(QIODevice::ReadOnly)) {
-        qDebug() << "Failed to open" << infile;
+        qWarning() << "Failed to open" << infile;
         return -1;
     }
     if (!out.open(QIODevice::WriteOnly)) {
-        qDebug() << "Failed to create" << outfile;
+        qWarning() << "Failed to create" << outfile;
         return -2;
     }
 
