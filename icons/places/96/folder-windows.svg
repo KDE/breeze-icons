@@ -14,7 +14,8 @@
 
   <!-- folder bg -->
   <path
-    fill="#3daee9"
+    style="fill:currentColor"
+    class="ColorScheme-Highlight"
     d="m6 9v21h-1v57h86v-63h-1v-9h-42l-6-6z" />
 
   <!-- folder fg -->
