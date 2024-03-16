@@ -10,29 +10,8 @@
       .ColorScheme-Highlight{
         color:#3DAEE6;
       }
-      .ColorScheme-ViewText {
-        color:#7B7C7E;
-      }
-      .ColorScheme-ViewBackground{
-        color:#FCFCFC;
-      }
-      .ColorScheme-ViewHover {
-        color:#3DAEE6;
-      }
-      .ColorScheme-ViewFocus{
-        color:#1E92FF;
-      }
       .ColorScheme-ButtonText {
         color:#7B7C7E;
-      }
-      .ColorScheme-ButtonBackground{
-        color:#EFF0F1;
-      }
-      .ColorScheme-ButtonHover {
-        color:#3DAEE6;
-      }
-      .ColorScheme-ButtonFocus{
-        color:#1E92FF;
       }
 </style>
     <g id="22-22-video-display-brightness" transform="matrix(0.75000099,0,0,0.75000099,-289.42897,-387.59902) translate(-4.54574e-06,-1.413e-05)">

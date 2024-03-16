@@ -59,20 +59,8 @@
       .ColorScheme-Text {
         color:#4d4d4d;
       }
-      .ColorScheme-ViewHover {
-        color:#93cee9;
-      }
-      .ColorScheme-ViewFocus{
-        color:#3daee9;
-      }
       .ColorScheme-ButtonText {
         color:#31363b;
-      }
-      .ColorScheme-ButtonBackground {
-        color:#eff0f1;
-      }
-      .ColorScheme-ButtonHover {
-        color:#93cee9;
       }
       </style>
     <radialGradient

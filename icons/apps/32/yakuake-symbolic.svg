@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" width="32" height="32">
-    <style type="text/css" id="current-color-scheme">.ColorScheme-Background {color:#181818; } .ColorScheme-ButtonBackground { color:#343434; } .ColorScheme-Highlight { color:#1a73e8; } .ColorScheme-Text { color:#232629; } .ColorScheme-ViewBackground { color:#242424; } .ColorScheme-NegativeText { color:#ff4747; }</style>
+    <style type="text/css" id="current-color-scheme">.ColorScheme-Background {color:#181818; } .ColorScheme-Text { color:#232629; } .ColorScheme-NegativeText { color:#ff4747; }</style>
     <g id="yakuake">
     <rect id="rect11" width="32" height="32" opacity=".001"/>
     <path id="rect43" class="ColorScheme-Text" d="m4.1016 8.3691v0.046875h23.797v-0.046875h-23.797zm23.797 0.046875v16.566h-23.797v-16.566h-0.93555v17.5h25.668v-17.5h-0.93555zm-11.061 4.0469-3.5 3.5 1.2383 1.2383 3.5-3.5-1.2383-1.2383z" fill-opacity=".3" style="fill:currentColor"/>

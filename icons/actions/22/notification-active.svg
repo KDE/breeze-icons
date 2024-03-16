@@ -4,9 +4,6 @@
         .ColorScheme-Text {
             color:#232629;
         }
-        .ColorScheme-ButtonFocus {
-            color:#3daee9;
-        }
         .ColorScheme-NegativeText {
             color:#da4453;
         }

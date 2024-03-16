@@ -9,30 +9,10 @@
       .ColorScheme-Highlight {
         color:#3daee9;
       }
-      .ColorScheme-ViewText {
-        color:#31363b;
-      }
-      .ColorScheme-ViewBackground {
-        color:#fcfcfc;
-      }
-      .ColorScheme-ViewHover {
-        color:#93cee9;
-      }
-      .ColorScheme-ViewFocus{
-        color:#3daee9;
-      }
       .ColorScheme-ButtonText {
         color:#31363b;
       }
-      .ColorScheme-ButtonBackground {
-        color:#eff0f1;
-      }
-      .ColorScheme-ButtonHover {
-        color:#93cee9;
-      }
-      .ColorScheme-ButtonFocus{
-        color:#3daee9;
-      }</style>
+    </style>
     <g id="input-keyboard-brightness" transform="translate(-364,-460.36237) translate(-38,-96)">
         <rect x="402" y="556.36237" width="32" height="32" ry="0" fill="none"/>
         <path class="ColorScheme-Text" transform="translate(364,460.36237)" d="m44 100v20l10 4 10-4v-10h-1v7h-18v-16h12v-1zm9.40625 4-4.40625 10h1.300781l1.322266-3h4.722656l1.349609 3h1.304688l-4.5-10zm0.552734 1.69531 1.9375 4.30469h-3.833984zm-8.958984 12.30469h18v1h-18z" fill="currentColor"/>

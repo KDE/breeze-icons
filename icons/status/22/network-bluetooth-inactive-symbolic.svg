@@ -6,12 +6,6 @@
         .ColorScheme-Background {
             color:#eff0f1;
         }
-        .ColorScheme-ViewBackground {
-            color:#fcfcfc;
-        }
-        .ColorScheme-ButtonFocus {
-            color:#3daee9;
-        }
         .ColorScheme-PositiveText {
             color:#27ae60;
         }

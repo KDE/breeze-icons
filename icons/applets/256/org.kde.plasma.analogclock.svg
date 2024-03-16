@@ -29,23 +29,8 @@
    .ColorScheme-Text {
      color:#31363b;
    }
-   .ColorScheme-ViewBackground {
-     color:#fcfcfc;
-   }
-   .ColorScheme-ViewHover {
-     color:#93cee9;
-   }
-   .ColorScheme-ViewFocus{
-     color:#3daee9;
-   }
    .ColorScheme-ButtonText {
      color:#31363b;
-   }
-   .ColorScheme-ButtonBackground {
-     color:#eff0f1;
-   }
-   .ColorScheme-ButtonHover {
-     color:#93cee9;
    }
    .ColorScheme-Highlight{
      color:#3daee9;
