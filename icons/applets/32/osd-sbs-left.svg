@@ -38,6 +38,6 @@
     <g style="fill:none" id="32-32-osd-sbs-left">
       <rect id="rect4196-6" height="32" width="32" x="0" y="0" style="fill:none"/>
       <path style="color:#7b7c7e;fill:currentColor;fill-opacity:1;stroke:none" d="m 114,41 0,14 10,0 0,-1 -9,0 0,-12 9,0 0,-1 -10,0 z m 11,0 0,14 17,0 0,-14 -17,0 z m 1,1 15,0 0,12 -15,0 0,-12 z" transform="translate(-112,-32.00004)" id="path4200-0" inkscape:connector-curvature="0" class="ColorScheme-Text"/>
-      <path style="color:#3daee6;fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none" d="m 119,44 0,8 5,0 0,-1 -4,0 0,-4 4,0 0,-3 -5,0 z m 8,0 0,3 4,0 0,4 -4,0 0,1 5,0 0,-8 -5,0 z m 1,1 1,0 0,1 -1,0 0,-1 z m 2,0 1,0 0,1 -1,0 0,-1 z" transform="translate(-112,-32.00004)" id="path4204-6" inkscape:connector-curvature="0" class="ColorScheme-ButtonFocus"/>
+      <path style="fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none" d="m 119,44 0,8 5,0 0,-1 -4,0 0,-4 4,0 0,-3 -5,0 z m 8,0 0,3 4,0 0,4 -4,0 0,1 5,0 0,-8 -5,0 z m 1,1 1,0 0,1 -1,0 0,-1 z m 2,0 1,0 0,1 -1,0 0,-1 z" transform="translate(-112,-32.00004)" id="path4204-6" inkscape:connector-curvature="0" class="ColorScheme-Highlight"/>
     </g>
 </svg>
