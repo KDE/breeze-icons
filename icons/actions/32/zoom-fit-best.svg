@@ -1,14 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <defs id="defs3051">
+<svg id="svg6" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+    <defs id="defs3051">
     <style type="text/css" id="current-color-scheme">
-      .ColorScheme-Text {
-        color:#232629;
-      }
-      </style>
-  </defs>
- <path 
-    style="fill:currentColor;fill-opacity:1;stroke:none" 
-	d="M 4,4 4,9 5,9 5,5 9,5 9,4 Z m 12,0 -3,3 6,0 z m 7,0 0,1 4,0 0,4 1,0 0,-5 z M 9,9 9,23 23,23 23,9 Z M 8,8 24,8 24,24 8,24 Z m -1,5 -3,3 3,3 z m 18,0 0,6 3,-3 z m -21,10 0,5 5,0 0,-1 -4,0 0,-4 z m 23,0 0,4 -4,0 0,1 5,0 0,-5 z m -14,2 3,3 3,-3 z"
-	class="ColorScheme-Text"
-    />  
+        .ColorScheme-Text {            color:#232629;        }
+    </style>
+    </defs>
+    <path id="path14232" d="m16 4a12 12 0 0 0-12 12 12 12 0 0 0 12 12 12 12 0 0 0 7.337891-2.541016l4.101562 4.101563a1.5 1.5 0 0 0 2.121094 0 1.5 1.5 0 0 0 0-2.121094l-4.101563-4.101562a12 12 0 0 0 2.541016-7.337891 12 12 0 0 0-12-12zm0 2a10 10 0 0 1 10 10 10 10 0 0 1-10 10 10 10 0 0 1-10-10 10 10 0 0 1 10-10zm-6 4v12h2 8 2v-12h-2-8-2zm2 2h8v8h-8v-8z" class="ColorScheme-Text" fill="currentColor" stroke-linecap="round" style="-inkscape-stroke:none;paint-order:markers stroke fill"/>
 </svg>
