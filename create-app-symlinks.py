@@ -60,6 +60,7 @@ aliases = {
     "kbreakout": ["org.kde.kbreakout"],
     "kbruch": ["org.kde.kbruch"],
     "kcachegrind": ["org.kde.kcachegrind"],
+    "kcolorchooser": ["org.kde.kcolorchooser"],
     "kdenlive": ["org.kde.kdenlive"],
     "kdevelop": ["org.kde.kdevelop"],
     "kdiamond": ["org.kde.kdiamond"],
