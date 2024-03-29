@@ -97,6 +97,7 @@ aliases = {
     "kuiviewer": ["org.kde.kuiviewer"],
     "kwrite": ["org.kde.kwrite"],
     "kxstitch": ["org.kde.kxstitch"],
+    "kwalletmanager": ["org.kde.kwalletmanager5"],
     "labplot": ["org.kde.labplot2"],
     "leocad": ["org.leocad.LeoCAD"],
     "libreoffice-base": ["org.libreoffice.LibreOffice.base"],
