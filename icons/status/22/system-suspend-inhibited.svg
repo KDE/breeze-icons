@@ -1,13 +1,23 @@
-<svg id="svg7" version="1.1" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
-    <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 22 22">
+  <defs>
+  <style type="text/css" id="current-color-scheme">
+        ColorScheme-Text {
             color:#232629;
         }
         .ColorScheme-NegativeText {
             color:#da4453;
-        }</style>
-    <g id="g1" fill="currentColor">
-        <path id="path7" class="ColorScheme-NegativeText" transform="matrix(.70710678 -.70710678 .70710678 .70710678 0 0)" d="m-0.50000006 4.7426407 1-1e-7v21.627417h-1z" fill="currentColor"/>
-        <path id="path2" class="ColorScheme-Text" d="m11 5.6666667v0.8888888h2.038222l-1.777778 1.7777778-0.260444 0.2604445v0.6284443h3.555556v-0.8888888h-2.038223l1.777778-1.7777778 0.260445-0.2604444v-0.6284444h-0.628445zm4.444444-2.6666667v0.8888889h2.038223l-1.777778 1.7777778-0.260445 0.2604444v0.6284444h3.555556v-0.8888888h-2.038222l1.777778-1.7777778 0.260444-0.2604445v-0.6284444h-0.628444z" stroke-width=".888889" fill="currentColor"/>
-    </g>
-    <path id="path1" class="ColorScheme-Text" d="m5.9999063 11c-1.1079654 0-1.9999375 0.891722-1.9999375 2.000187v1.999438h-0.9999688v4.000375h5.9998126v-4.000375h-0.9999685v-1.999438c0-1.108465-0.8919727-2.000187-1.9999378-2.000187m0 0.500234c0.830974 0 1.4999531 0.779976 1.4999531 1.749696v1.749695h-2.9999062v-1.749695c0-0.96972 0.6689791-1.749696 1.4999531-1.749696" fill="currentColor"/>
+        }
+        ColorScheme-Background {
+            color:#eff0f1;
+        }
+    </style>
+    <clipPath id="a">
+      <path style="fill:currentColor" d="M0 0h22v22H0z" class="ColorScheme-Background"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#a)">
+    <path style="stroke:currentColor" d="m2 2 18 18" class="ColorScheme-NegativeText" />
+    <path style="fill:currentColor" fill-rule="evenodd" d="M18 16.586V11h-2.333V6.5C15.667 4.007 13.585 2 11 2 8.908 2 7.146 3.314 6.55 5.136l1.039 1.038C7.945 4.424 9.333 3.125 11 3.125c1.939 0 3.5 1.756 3.5 3.938V11h-2.086l1 1h2.69l-.728.83-.53.603zM11.586 13l1.23 1.23-1.263 1.44-.728.83h4.261L18 19.414V20H4v-9h2.333V7.748L7.5 8.914V11h2.086l1.343 1.343V13zm2.5 2.5h-1.053l.492-.561zm-4.74 0H6v-1h5.796l-.875.857L8.225 18h3.346v1H5.775l.875-.857z" clip-rule="evenodd" class="ColorScheme-Text" />
+  </g>
+  
 </svg>
