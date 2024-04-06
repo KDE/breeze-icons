@@ -20,6 +20,7 @@ webfonts:
   script:
     - cd webfont/
     - yarn install
+    - alias python=python3
     - yarn run grunt
     - cd ../
     - python3 -u ci-notary-service/publishwebsite.py --config ci-utilities/signing/publishwebsite.ini webfont/dist/
