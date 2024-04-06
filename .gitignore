@@ -5,6 +5,7 @@
 *thumbs.db
 dist
 node_modules
+/.vscode/
 CMakeLists.txt.user*
 .cmake/
 /.clang-format
