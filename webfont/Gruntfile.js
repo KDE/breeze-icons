@@ -12,7 +12,8 @@ module.exports = function(grunt) {
                             engine: 'fontforge',
                             stylesheet: 'css',
                             types:  'woff2,ttf,svg',
-                            optimize: false
+                            optimize: false,
+                            ligatures: true
                         }
                 }
         }
