@@ -18,7 +18,8 @@
         }
     </style>
 	<defs
-     id="defs1" />
+     id="defs1"
+       class="ColorScheme-Text" />
 	<g
      id="g19"
      transform="matrix(0.62499999,0,0,0.61320689,7.1250006,1.1603794)"
@@ -56,20 +57,62 @@
 		<path
        style="fill:none;fill-opacity:1;stroke:currentColor;stroke-width:1.61531;stroke-dasharray:none;stroke-opacity:1"
        d="M 11,2.9999999 V 5 Z"
-       id="path8" />
+       id="path8"
+       class="ColorScheme-Text" />
 	</g>
 	<g
-     style="fill:none;stroke-width:5.22203437;stroke:currentColor;stroke-opacity:1;stroke-dasharray:none"
-     id="g20"
-     transform="matrix(0.19153926,0,0,0.19145325,1.5087403,2.321792)">
+     id="g18-7"
+     transform="matrix(0.5,0,0,0.5,-14.500001,9.5000008)"
+     style="stroke:currentColor;stroke-width:2;stroke-opacity:1">
 		<path
-       d="m 46.942039,74.061261 c -7.600836,5.560289 -18.193618,4.822587 -25.000587,-2.212906 -6.265456,-6.4758 -7.368536,-16.266784 -3.30924,-23.909867 -4.982749,3.645041 -8.235521,9.649199 -8.235521,16.438657 0,11.115043 8.717838,20.125558 19.471848,20.125558 7.357535,0 13.76202,-4.217714 17.0735,-10.441442 z"
-       style="clip-rule:evenodd;fill-rule:evenodd;stroke:currentColor;stroke-width:5.22203437;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-       id="path1-4" />
+       style="stroke:currentColor;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       d="m 43.000003,4.9999998 v -2"
+       id="path10-6"
+       class="ColorScheme-Text" />
+		<path
+       style="stroke:currentColor;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       d="m 37.000002,11 h -2"
+       id="path10-9-5"
+       class="ColorScheme-Text" />
+		<path
+       style="stroke:currentColor;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       d="m 51.000002,10.999997 h -2"
+       id="path10-9-4-6"
+       class="ColorScheme-Text" />
+		<path
+       style="stroke:currentColor;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       d="m 43.000002,18.999999 v -2"
+       id="path10-2-9"
+       class="ColorScheme-Text" />
+		<path
+       style="stroke:currentColor;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       d="M 48.707109,16.707106 47.292895,15.292892"
+       id="path10-7-6-6-9-3-2-3"
+       class="ColorScheme-Text" />
+		<path
+       style="stroke:currentColor;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       d="M 38.707109,6.7071067 37.292895,5.2928927"
+       id="path10-7-6-6-9-3-2-6-7"
+       class="ColorScheme-Text" />
+		<path
+       style="stroke:currentColor;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       d="m 47.292895,6.7071067 1.414214,-1.414214"
+       id="path10-7-6-6-9-3-2-6-3-4"
+       class="ColorScheme-Text" />
+		<path
+       style="stroke:currentColor;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       d="m 37.292895,16.707107 1.414214,-1.414214"
+       id="path10-7-6-6-9-3-2-6-3-1-5"
+       class="ColorScheme-Text" />
+		<path
+       style="fill:none;stroke:currentColor;stroke-width:2;stroke-dasharray:none;stroke-opacity:1"
+       d="m 43.000003,14.500001 c 1.932996,0 3.5,-1.567004 3.5,-3.500001 0,-1.9329976 -1.567004,-3.5000018 -3.5,-3.5000018 -1.932996,0 -3.5,1.5670042 -3.5,3.5000018 0,1.932997 1.567004,3.500001 3.5,3.500001 z"
+       id="path1-2-2"
+       class="ColorScheme-Text" />
 	</g>
 	<path
-     style="fill:none;stroke:currentColor;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
-     d="M 8.9999958,12.999999 2.4142077,19.585786"
-     id="path20" 
-       class="ColorScheme-NegativeText"/>
+     style="fill:none;stroke:currentColor;stroke-width:0.999994;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+     d="M 10.292901,11.707103 3.7071025,18.292909"
+     id="path19"
+      class="ColorScheme-NegativeText" />
 </svg>
