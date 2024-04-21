@@ -66,7 +66,7 @@ add_feature_info("Icon generation" ${WITH_ICON_GENERATION} "for 24x24 and symbol
 
 option(BINARY_ICONS_RESOURCE "Install Qt binary resource files containing breeze icons (breeze-icons.rcc, breeze-icons-dark.rcc)" OFF)
 option(SKIP_INSTALL_ICONS "Skip installing the icons files" OFF)
-option(ICONS_LIBRARY "Install a library including the breeze & breeze dark icons as resources & functions to use them." OFF)
+option(ICONS_LIBRARY "Install a library including the breeze & breeze dark icons as resources & functions to use them. This is intended for self contained deployments and should generally not be enabled for systems that have the concept of icon themes like Linux distributions/*BSD" OFF)
 
 if(BINARY_ICONS_RESOURCE OR ICONS_LIBRARY)
     find_package(Qt6 NO_MODULE REQUIRED Core)
