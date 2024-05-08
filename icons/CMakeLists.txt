@@ -1,4 +1,4 @@
-if(BINARY_ICONS_RESOURCE OR ICONS_LIBRARY)
+if(ICONS_LIBRARY)
     generate_binary_resource(icons binary_resource)
 endif()
 
@@ -53,7 +53,3 @@ if(NOT SKIP_INSTALL_ICONS)
 endif()
 
 gtk_update_icon_cache(${BREEZE_INSTALL_DIR})
-
-if(BINARY_ICONS_RESOURCE)
-    install(FILES ${binary_resource} DESTINATION ${BREEZE_INSTALL_DIR})
-endif()

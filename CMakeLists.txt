@@ -64,11 +64,10 @@ add_feature_info("Icon generation" ${WITH_ICON_GENERATION} "for 24x24 and symbol
    This feature requires Python 3 and the lxml Python 3 module."
 ) # The exact amount of indentation used in the line(s) above is intentional
 
-option(BINARY_ICONS_RESOURCE "Install Qt binary resource files containing breeze icons (breeze-icons.rcc, breeze-icons-dark.rcc)" OFF)
 option(SKIP_INSTALL_ICONS "Skip installing the icons files" OFF)
 option(ICONS_LIBRARY "Install a library including the breeze & breeze dark icons as resources & functions to use them. This is intended for self contained deployments and should generally not be enabled for systems that have the concept of icon themes like Linux distributions/*BSD" OFF)
 
-if(BINARY_ICONS_RESOURCE OR ICONS_LIBRARY)
+if(ICONS_LIBRARY)
     find_package(Qt6 NO_MODULE REQUIRED Core)
     add_executable(qrcAlias qrcAlias.cpp)
     target_link_libraries(qrcAlias PUBLIC Qt6::Core)
