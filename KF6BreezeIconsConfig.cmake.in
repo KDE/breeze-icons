@@ -1,7 +1,5 @@
 @PACKAGE_INIT@
 
-if(@ICONS_LIBRARY@)
-    include(CMakeFindDependencyMacro)
-    find_dependency(Qt6Gui "@REQUIRED_QT_VERSION@")
-    include("${CMAKE_CURRENT_LIST_DIR}/KF6BreezeIconsTargets.cmake")
-endif()
+include(CMakeFindDependencyMacro)
+find_dependency(Qt6Gui "@REQUIRED_QT_VERSION@")
+include("${CMAKE_CURRENT_LIST_DIR}/KF6BreezeIconsTargets.cmake")

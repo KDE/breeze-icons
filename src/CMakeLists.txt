@@ -1,8 +1,21 @@
 # helper functions to ensure we load the icon theme
 set(kbreezeicons_SRCS breezeicons.cpp)
 
+# generate resource file for all breeze icons
+set(ICON_SRC_DIR ${CMAKE_SOURCE_DIR}/icons)
+set(RESOURCES_WORKING_DIR ${CMAKE_CURRENT_BINARY_DIR}/res)
+set(RESOURCE_FILE ${RESOURCES_WORKING_DIR}/breeze-icons.qrc)
+
+# we only will use the normal icons, we do recoloring later
+add_custom_command(OUTPUT ${RESOURCE_FILE}
+    COMMAND ${CMAKE_COMMAND} -E make_directory ${RESOURCES_WORKING_DIR}
+    COMMAND ${CMAKE_COMMAND} -E copy_directory ${ICON_SRC_DIR} ${RESOURCES_WORKING_DIR}
+    COMMAND qrcAlias -i ${ICON_SRC_DIR} -o ${RESOURCE_FILE}
+    DEPENDS qrcAlias
+)
+
 qt_add_big_resources(kbreezeicons_resource_SRCS
-    ${CMAKE_BINARY_DIR}/icons/res/breeze-icons.qrc
+    ${RESOURCE_FILE}
     OPTIONS --root /icons/breeze
 )
 

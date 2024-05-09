@@ -1,7 +1,3 @@
-if(ICONS_LIBRARY)
-    generate_binary_resource(icons binary_resource)
-endif()
-
 ########### install files ###############
 
 FILE(GLOB possible_icon_dirs RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} ${CMAKE_CURRENT_SOURCE_DIR}/*)
