@@ -26,6 +26,14 @@
 #include <QRegularExpression>
 #include <QString>
 
+/**
+ * Given a dir and a file inside, resolve the pseudo symlinks we get from Git on Windows.
+ * Does some consistency checks, will die if they fail.
+ *
+ * @param path directory that contains the given file
+ * @param fileName file name of the dir to check if it is a pseudo link
+ * @return target of the link or empty string if no link
+ */
 static QString link(const QString &path, const QString &fileName)
 {
     QFile in(path + QLatin1Char('/') + fileName);
@@ -54,7 +62,15 @@ static QString link(const QString &path, const QString &fileName)
     return path + QLatin1Char('/') + match.captured(1);
 }
 
-static int parseFile(const QStringList &indirs, const QString &outfile)
+/**
+ * Generates for the given directories a resource file with the full icon theme.
+ * Does some consistency checks, will die if they fail.
+ *
+ * @param indirs directories that contains the icons of the theme, the first is the versioned stuff,
+ *               the remainings contain generated icons
+ * @param outfile QRC file to generate
+ */
+static void generateQRCAndCheckInputs(const QStringList &indirs, const QString &outfile)
 {
     QFile out(outfile);
     if (!out.open(QIODevice::WriteOnly)) {
@@ -104,7 +120,6 @@ static int parseFile(const QStringList &indirs, const QString &outfile)
 
     out.write("</qresource>\n");
     out.write("</RCC>\n");
-    return 0;
 }
 
 int main(int argc, char *argv[])
@@ -112,7 +127,6 @@ int main(int argc, char *argv[])
     QCoreApplication app(argc, argv);
 
     QCommandLineParser parser;
-
     QCommandLineOption outOption(QStringList() << QLatin1String("o") << QLatin1String("outfile"), QStringLiteral("Output qrc file"), QStringLiteral("outfile"));
     parser.setApplicationDescription(QLatin1String("Create a resource file from the given input directories handling symlinks and pseudo symlink files."));
     parser.addHelpOption();
@@ -120,5 +134,7 @@ int main(int argc, char *argv[])
     parser.addOption(outOption);
     parser.process(app);
 
-    return parseFile(parser.positionalArguments(), parser.value(outOption));
+    // do the generation and checks, will die on errors
+    generateQRCAndCheckInputs(parser.positionalArguments(), parser.value(outOption));
+    return 0;
 }
