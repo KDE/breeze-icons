@@ -1,3 +1,7 @@
+# qrc generator
+add_executable(qrcAlias qrcAlias.cpp)
+target_link_libraries(qrcAlias PUBLIC Qt6::Core)
+
 # helper functions to ensure we load the icon theme
 set(kbreezeicons_SRCS breezeicons.cpp)
 

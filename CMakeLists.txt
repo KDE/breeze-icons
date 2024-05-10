@@ -28,9 +28,10 @@ include(ECMSetupVersion)
 
 # Dependencies
 set(REQUIRED_QT_VERSION 6.5.0)
+find_package(Qt6 ${REQUIRED_QT_VERSION} NO_MODULE REQUIRED COMPONENTS Core Gui)
 
 # Find Python 3
-find_package (Python 3 COMPONENTS Interpreter)
+find_package(Python 3 COMPONENTS Interpreter)
 
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 
@@ -55,7 +56,6 @@ else()
 endif()
 
 if(WITH_ICON_GENERATION)
-    find_package(Qt6 NO_MODULE REQUIRED Core Gui)
     add_executable(generate-symbolic-dark generate-symbolic-dark.cpp)
     target_link_libraries(generate-symbolic-dark PUBLIC Qt6::Core)
 endif()
@@ -71,10 +71,6 @@ option(SKIP_INSTALL_ICONS "Skip installing the icons files" OFF)
 # pure compatibility option for e.g. Kexi, not used in general and wastes disk space
 # FIXME: remove after e.g. Kexi is ported
 option(BINARY_ICONS_RESOURCE "Install Qt binary resource file containing breeze icons (breeze-icons.rcc), should only be used if needed for compatibility" OFF)
-
-find_package(Qt6 NO_MODULE REQUIRED Core)
-add_executable(qrcAlias qrcAlias.cpp)
-target_link_libraries(qrcAlias PUBLIC Qt6::Core)
 
 if(NOT WIN32 AND NOT CMAKE_CROSSCOMPILING)
     # validate
@@ -93,11 +89,6 @@ if(NOT WIN32 AND NOT CMAKE_CROSSCOMPILING)
         )
     endif()
 endif()
-
-
-add_subdirectory(autotests)
-add_subdirectory(icons)
-add_subdirectory(icons-dark)
 
 set(CMAKECONFIG_INSTALL_DIR "${KDE_INSTALL_CMAKEPACKAGEDIR}/KF6BreezeIcons")
 
@@ -121,8 +112,6 @@ ecm_setup_version(PROJECT
   PACKAGE_VERSION_FILE "${CMAKE_CURRENT_BINARY_DIR}/KF6BreezeIconsConfigVersion.cmake"
   SOVERSION 6)
 
-find_package(Qt6Gui ${REQUIRED_QT_VERSION} REQUIRED NO_MODULE)
-
 install(EXPORT KF6BreezeIconsTargets
   DESTINATION "${CMAKECONFIG_INSTALL_DIR}"
   FILE KF6BreezeIconsTargets.cmake
@@ -132,6 +121,9 @@ install(EXPORT KF6BreezeIconsTargets
 install(FILES ${CMAKE_CURRENT_BINARY_DIR}/breezeicons_version.h
   DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF}/BreezeIcons COMPONENT Devel)
 
+add_subdirectory(autotests)
+add_subdirectory(icons)
+add_subdirectory(icons-dark)
 add_subdirectory(src)
 
 include(ECMFeatureSummary)
