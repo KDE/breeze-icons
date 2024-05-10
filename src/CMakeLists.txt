@@ -5,14 +5,23 @@ set(kbreezeicons_SRCS breezeicons.cpp)
 set(ICON_SRC_DIR ${CMAKE_SOURCE_DIR}/icons)
 set(RESOURCES_WORKING_DIR ${CMAKE_CURRENT_BINARY_DIR}/res)
 set(RESOURCE_FILE ${RESOURCES_WORKING_DIR}/breeze-icons.qrc)
+set(RESOURCE_FILE_BINARY ${CMAKE_CURRENT_BINARY_DIR}/breeze-icons.rcc)
 
 # we only will use the normal icons, we do recoloring later
+get_target_property(QT_RCC_EXECUTABLE Qt6::rcc LOCATION)
 add_custom_command(OUTPUT ${RESOURCE_FILE}
     COMMAND ${CMAKE_COMMAND} -E make_directory ${RESOURCES_WORKING_DIR}
     COMMAND ${CMAKE_COMMAND} -E copy_directory ${ICON_SRC_DIR} ${RESOURCES_WORKING_DIR}
     COMMAND qrcAlias -i ${ICON_SRC_DIR} -o ${RESOURCE_FILE}
+    COMMAND ${QT_RCC_EXECUTABLE} --binary -o ${RESOURCE_FILE_BINARY} ${RESOURCE_FILE}
     DEPENDS qrcAlias
 )
+
+# install as compatibility resource file if really requested
+# FIXME: remove after e.g. Kexi is ported
+if(BINARY_ICONS_RESOURCE)
+    install(FILES ${RESOURCE_FILE_BINARY} DESTINATION ${KDE_INSTALL_FULL_ICONDIR}/breeze)
+endif()
 
 qt_add_big_resources(kbreezeicons_resource_SRCS
     ${RESOURCE_FILE}
