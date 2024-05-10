@@ -26,6 +26,12 @@ if(WITH_ICON_GENERATION)
                 ${CMAKE_CURRENT_SOURCE_DIR}
                 ${ICON_GEN_DIR}
     )
+else()
+    # create the target dir, we need it for resource creation
+    add_custom_target(breeze-generate-24px-versions ALL
+        COMMENT "Generating 24px icons placeholder"
+        COMMAND ${CMAKE_COMMAND} -E make_directory ${ICON_GEN_DIR}
+    )
 endif()
 
 if(NOT WIN32)
