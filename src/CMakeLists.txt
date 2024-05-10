@@ -11,10 +11,9 @@ set(RESOURCE_FILE ${CMAKE_CURRENT_BINARY_DIR}/breeze-icons.qrc)
 set(RESOURCE_FILE_BINARY ${CMAKE_CURRENT_BINARY_DIR}/breeze-icons.rcc)
 
 # we only will use the normal icons, we do recoloring later
-get_target_property(QT_RCC_EXECUTABLE Qt6::rcc LOCATION)
 add_custom_command(OUTPUT ${RESOURCE_FILE}
     COMMAND qrcAlias -i ${ICON_SRC_DIR} -o ${RESOURCE_FILE}
-    COMMAND ${QT_RCC_EXECUTABLE} --binary -o ${RESOURCE_FILE_BINARY} ${RESOURCE_FILE}
+    COMMAND Qt6::rcc --binary -o ${RESOURCE_FILE_BINARY} ${RESOURCE_FILE}
     DEPENDS qrcAlias
 )
 
