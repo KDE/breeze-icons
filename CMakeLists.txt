@@ -34,9 +34,7 @@ find_package (Python 3 COMPONENTS Interpreter)
 
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 
-# FIXME: This is a temporary solution to unbreak KDE's Windows CI.
-# Remove "NOT WIN32" when icon generation works on Windows.
-if(Python_FOUND AND NOT WIN32)
+if(Python_FOUND)
     # Find lxml Python 3 module
     exec_program(${Python_EXECUTABLE}
         ARGS "-c \"import lxml; from lxml import etree; print(lxml.get_include())\""
