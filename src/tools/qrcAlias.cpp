@@ -12,10 +12,32 @@
 #include <QDirIterator>
 #include <QFile>
 #include <QFileInfo>
+#include <QHash>
 #include <QRegularExpression>
 #include <QSet>
 #include <QString>
 #include <QXmlStreamReader>
+
+/**
+ * Check if this file is a duplicate of an other on, dies then.
+ * @param fileName file to check
+ */
+static void checkForDuplicates(const QString &fileName)
+{
+    // get full content for dupe checking
+    QFile in(fileName);
+    if (!in.open(QIODevice::ReadOnly)) {
+        qFatal() << "failed to open" << in.fileName() << "for XML validation";
+    }
+    const auto fullContent = in.readAll();
+
+    // see if we did have this content already and die
+    static QHash<QByteArray, QString> contentToFileName;
+    if (const auto it = contentToFileName.find(fullContent); it != contentToFileName.end()) {
+        qFatal() << "file" << fileName << "is a duplicate of file" << it.value();
+    }
+    contentToFileName.insert(fullContent, fileName);
+}
 
 /**
  * Validate the XML, dies on errors.
@@ -23,13 +45,6 @@
  */
 static void validateXml(const QString &fileName)
 {
-    // do checks just once, if we encounter this multiple times because of aliasing
-    static QSet<QString> seenFiles;
-    if (seenFiles.contains(fileName)) {
-        return;
-    }
-    seenFiles.insert(fileName);
-
     // read once and bail out on errors
     QFile in(fileName);
     if (!in.open(QIODevice::ReadOnly)) {
@@ -96,6 +111,9 @@ static void generateQRCAndCheckInputs(const QStringList &indirs, const QString &
     out.write("<!DOCTYPE RCC><RCC version=\"1.0\">\n");
     out.write("<qresource>\n");
 
+    // loop over the inputs, remember if we do look at generated stuff for checks
+    bool generatedIcons = false;
+    QSet<QString> checkedFiles;
     for (const auto &indir : indirs) {
         // go to input dir to have proper relative paths
         if (!QDir::setCurrent(indir)) {
@@ -127,14 +145,27 @@ static void generateQRCAndCheckInputs(const QStringList &indirs, const QString &
                 fullPath = QFileInfo(aliasLink).absoluteFilePath();
             }
 
-            // validate it as XML if it is an SVG
-            if (fullPath.endsWith(QLatin1String(".svg"))) {
+            // do some checks for SVGs
+            // do checks just once, if we encounter this multiple times because of aliasing
+            if (fullPath.endsWith(QLatin1String(".svg")) && !checkedFiles.contains(fullPath)) {
+                // fill our guard
+                checkedFiles.insert(fullPath);
+
+                // validate it as XML if it is an SVG
                 validateXml(fullPath);
+
+                // do duplicate check for non-generated icons
+                if (!generatedIcons) {
+                    checkForDuplicates(fullPath);
+                }
             }
 
             // write the one alias to file entry
             out.write(QStringLiteral("    <file alias=\"%1\">%2</file>\n").arg(file, fullPath).toUtf8());
         }
+
+        // starting with the second directory we look at generated icons
+        generatedIcons = true;
     }
 
     out.write("</qresource>\n");

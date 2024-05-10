@@ -12,10 +12,6 @@ if(BUILD_TESTING)
         TEST_NAME "newline"
         LINK_LIBRARIES Qt6::Test
     )
-    ecm_add_test(dupetest.cpp
-        TEST_NAME "dupe"
-        LINK_LIBRARIES Qt6::Test
-    )
     ecm_add_test(scalabletest.cpp
         TEST_NAME "scalable"
         LINK_LIBRARIES Qt6::Test
