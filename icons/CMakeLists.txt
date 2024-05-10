@@ -17,13 +17,14 @@ if(NOT WIN32)
     )
 endif()
 
+set(ICON_GEN_DIR ${CMAKE_BINARY_DIR}/breeze-icons)
 if(WITH_ICON_GENERATION)
     # Auto-generate 24px monochrome icons from 22px versions
     add_custom_target(breeze-generate-24px-versions ALL
         COMMENT "Generating 24px icons"
         COMMAND ${Python_EXECUTABLE} ${CMAKE_SOURCE_DIR}/generate-24px-versions.py
                 ${CMAKE_CURRENT_SOURCE_DIR}
-                ${CMAKE_CURRENT_BINARY_DIR}/generated
+                ${ICON_GEN_DIR}
     )
 endif()
 
@@ -44,7 +45,7 @@ if(NOT SKIP_INSTALL_ICONS)
         install(DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/aliases/ DESTINATION ${BREEZE_INSTALL_DIR})
     endif()
     if(WITH_ICON_GENERATION)
-        install(DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/generated/ DESTINATION ${BREEZE_INSTALL_DIR})
+        install(DIRECTORY ${ICON_GEN_DIR}/ DESTINATION ${BREEZE_INSTALL_DIR})
     endif()
 endif()
 
