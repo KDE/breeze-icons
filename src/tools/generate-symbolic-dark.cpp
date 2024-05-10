@@ -36,8 +36,7 @@ QString convertStylesheet(QString stylesheet)
     // class, color
     QMap<QString, QString> classColorMap;
     // TODO: Support color values other than hexadecimal, maybe properties other than "color"
-    QRE regex(u"\\.ColorScheme-(\\S+){color:(#[0-9a-fA-F]+);}"_s,
-              patternOptions);
+    QRE regex(u"\\.ColorScheme-(\\S+){color:(#[0-9a-fA-F]+);}"_s, patternOptions);
     auto matchIt = regex.globalMatch(stylesheet);
     while (matchIt.hasNext()) {
         auto match = matchIt.next();
@@ -117,11 +116,8 @@ int main(int argc, char **argv)
             const auto inputFilePath = inputFileInfo.absoluteFilePath();
 
             // Skip non-files, symlinks, non-svgs and existing breeze dark icons
-            if (!inputFileInfo.isFile() || inputFileInfo.isSymLink()
-                || !inputFilePath.endsWith(".svg"_L1)
-                || QFileInfo::exists(QString{inputFilePath}.replace("/icons/"_L1,
-                                                                    "/icons-dark/"_L1))
-            ) {
+            if (!inputFileInfo.isFile() || inputFileInfo.isSymLink() || !inputFilePath.endsWith(".svg"_L1)
+                || QFileInfo::exists(QString{inputFilePath}.replace("/icons/"_L1, "/icons-dark/"_L1))) {
                 continue;
             }
 
@@ -160,9 +156,7 @@ int main(int argc, char **argv)
             while (!reader.atEnd() && !reader.hasError() && !writer.hasError()) {
                 reader.readNext();
                 writer.writeCurrentToken(reader);
-                if (!reader.isStartElement() || reader.qualifiedName() != "style"_L1
-                    || reader.attributes().value("id"_L1) != "current-color-scheme"_L1
-                ) {
+                if (!reader.isStartElement() || reader.qualifiedName() != "style"_L1 || reader.attributes().value("id"_L1) != "current-color-scheme"_L1) {
                     continue;
                 }
                 reader.readNext();
