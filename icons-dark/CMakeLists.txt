@@ -33,12 +33,6 @@ else()
     )
 endif()
 
-if(NOT WIN32)
-    if (TARGET breeze-validate-svg AND WITH_ICON_GENERATION)
-        add_dependencies(breeze-validate-svg breeze-generate-24px-versions-dark)
-    endif()
-endif()
-
 if(NOT SKIP_INSTALL_ICONS)
     install(DIRECTORY ${breeze_icon_dark_dirs} DESTINATION ${BREEZE_INSTALL_DIR})
     file(GLOB_RECURSE icon_files RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} "${CMAKE_CURRENT_SOURCE_DIR}/*.svg")

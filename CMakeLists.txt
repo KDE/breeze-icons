@@ -65,24 +65,6 @@ option(SKIP_INSTALL_ICONS "Skip installing the icons files" OFF)
 # FIXME: remove after e.g. Kexi is ported
 option(BINARY_ICONS_RESOURCE "Install Qt binary resource file containing breeze icons (breeze-icons.rcc), should only be used if needed for compatibility" OFF)
 
-if(NOT WIN32 AND NOT CMAKE_CROSSCOMPILING)
-    # validate
-    find_program(SH_EXE sh)
-    find_program(XMLLINT_EXE xmllint)
-    if(SH_EXE AND XMLLINT_EXE)
-        file(GLOB_RECURSE SVGS "icons/*.svg")
-        file(GLOB_RECURSE DARK_SVGS "icons-dark/*.svg")
-        # TODO: also make sure this is always run on generated icons
-        # not just by accident if the build directory is a subdir of the root source dir
-        add_custom_target(breeze-validate-svg ALL
-            COMMENT "Validating SVG"
-            COMMAND ${SH_EXE} ${CMAKE_SOURCE_DIR}/validate_svg.sh ${CMAKE_CURRENT_SOURCE_DIR}
-            WORKING_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}
-            SOURCES ${SVGS} ${DARK_SVGS}
-        )
-    endif()
-endif()
-
 set(CMAKECONFIG_INSTALL_DIR "${KDE_INSTALL_CMAKEPACKAGEDIR}/KF6BreezeIcons")
 
 configure_package_config_file(

@@ -34,12 +34,6 @@ else()
     )
 endif()
 
-if(NOT WIN32)
-    if (TARGET breeze-validate-svg AND WITH_ICON_GENERATION)
-        add_dependencies(breeze-validate-svg breeze-generate-24px-versions)
-    endif()
-endif()
-
 if(NOT SKIP_INSTALL_ICONS)
     install(DIRECTORY ${breeze_icon_dirs} DESTINATION ${BREEZE_INSTALL_DIR})
     # collect all our icons we need to install, will be used by dark icon set as fallback icons if not there, too
