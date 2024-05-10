@@ -3,15 +3,12 @@ set(kbreezeicons_SRCS breezeicons.cpp)
 
 # generate resource file for all breeze icons
 set(ICON_SRC_DIR ${CMAKE_SOURCE_DIR}/icons)
-set(RESOURCES_WORKING_DIR ${CMAKE_CURRENT_BINARY_DIR}/res)
-set(RESOURCE_FILE ${RESOURCES_WORKING_DIR}/breeze-icons.qrc)
+set(RESOURCE_FILE ${CMAKE_CURRENT_BINARY_DIR}/breeze-icons.qrc)
 set(RESOURCE_FILE_BINARY ${CMAKE_CURRENT_BINARY_DIR}/breeze-icons.rcc)
 
 # we only will use the normal icons, we do recoloring later
 get_target_property(QT_RCC_EXECUTABLE Qt6::rcc LOCATION)
 add_custom_command(OUTPUT ${RESOURCE_FILE}
-    COMMAND ${CMAKE_COMMAND} -E make_directory ${RESOURCES_WORKING_DIR}
-    COMMAND ${CMAKE_COMMAND} -E copy_directory ${ICON_SRC_DIR} ${RESOURCES_WORKING_DIR}
     COMMAND qrcAlias -i ${ICON_SRC_DIR} -o ${RESOURCE_FILE}
     COMMAND ${QT_RCC_EXECUTABLE} --binary -o ${RESOURCE_FILE_BINARY} ${RESOURCE_FILE}
     DEPENDS qrcAlias
