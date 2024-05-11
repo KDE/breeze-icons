@@ -44,7 +44,7 @@ def strip_split(s: str):
     re.split() RegEx: match comma with [0,inf) whitespace characters after it OR [1,inf) whitespace characters.
     """
     # Ignore warnings about invalid escape sequences, this works fine.
-    return re.split(",\s*|\s+", s.strip())
+    return re.split(r",\s*|\s+", s.strip())
 
 
 def get_renderable_elements(root: etree.Element):
