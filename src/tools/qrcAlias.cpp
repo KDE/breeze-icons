@@ -121,7 +121,8 @@ static void generateQRCAndCheckInputs(const QStringList &indirs, const QString &
         }
 
         // we look at all interesting files in the indir and create a qrc with resolved symlinks
-        QDirIterator it(QStringLiteral("."), {QStringLiteral("*.theme"), QStringLiteral("*.svg")}, QDir::Files, QDirIterator::Subdirectories);
+        // we need QDir::System to get broken links for checking
+        QDirIterator it(QStringLiteral("."), {QStringLiteral("*.theme"), QStringLiteral("*.svg")}, QDir::Files | QDir::System, QDirIterator::Subdirectories);
         while (it.hasNext()) {
             // ensure nice path without ./ and Co.
             const auto file = QDir::current().relativeFilePath(it.next());
@@ -133,10 +134,24 @@ static void generateQRCAndCheckInputs(const QStringList &indirs, const QString &
 
             // real symlink resolving for Unices, the rcc compiler ignores such files in -project mode
             if (fileInfo.isSymLink()) {
+                // check if link is ok, otherwise that is bad
                 const auto linkPath = fileInfo.canonicalFilePath();
                 if (linkPath.isEmpty()) {
                     qFatal() << "Broken symlink" << file << "in input directory" << indir;
                 }
+
+                // check that we don't link external stuff
+                bool externalLink = true;
+                for (const auto &dir : indirs) {
+                    if (linkPath.startsWith(QFileInfo(dir).canonicalFilePath())) {
+                        externalLink = false;
+                        break;
+                    }
+                }
+                if (externalLink) {
+                    qFatal() << "Bad symlink" << file << "in input directory" << indir << "to external file" << linkPath;
+                }
+
                 fullPath = QFileInfo(linkPath).absoluteFilePath();
             }
 
