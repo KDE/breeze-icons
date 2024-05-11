@@ -4,10 +4,6 @@ if(BUILD_TESTING)
     find_package(Qt6 ${REQUIRED_QT_VERSION} CONFIG REQUIRED Core Test)
 
     configure_file(testdata.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/testdata.h)
-    ecm_add_test(newlinetest.cpp
-        TEST_NAME "newline"
-        LINK_LIBRARIES Qt6::Test
-    )
     ecm_add_test(scalabletest.cpp
         TEST_NAME "scalable"
         LINK_LIBRARIES Qt6::Test

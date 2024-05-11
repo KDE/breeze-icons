@@ -128,6 +128,13 @@ static void generateQRCAndCheckInputs(const QStringList &indirs, const QString &
             const auto file = QDir::current().relativeFilePath(it.next());
             const QFileInfo fileInfo(file);
 
+            // icons name shall not contain any kind of space
+            for (const auto &c : file) {
+                if (c.isSpace()) {
+                    qFatal() << "Invalid file" << file << "with spaces in the name in input directory" << indir;
+                }
+            }
+
             // per default we write the relative name as alias and the full path to pack in
             // allows to generate the resource out of source, will already resolve normal symlinks
             auto fullPath = fileInfo.canonicalFilePath();
