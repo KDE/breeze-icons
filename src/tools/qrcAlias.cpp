@@ -153,19 +153,13 @@ static void generateQRCAndCheckInputs(const QStringList &indirs, const QString &
 
             // more checks for links
             if (isLink) {
+                // empty canonical path means not found
                 if (fullPath.isEmpty()) {
                     qFatal() << "Broken symlink" << file << "in input directory" << indir;
                 }
 
                 // check that we don't link external stuff
-                bool externalLink = true;
-                for (const auto &dir : indirs) {
-                    if (fullPath.startsWith(QFileInfo(dir).canonicalFilePath())) {
-                        externalLink = false;
-                        break;
-                    }
-                }
-                if (externalLink) {
+                if (!fullPath.startsWith(QFileInfo(indir).canonicalFilePath())) {
                     qFatal() << "Bad symlink" << file << "in input directory" << indir << "to external file" << fullPath;
                 }
             }
