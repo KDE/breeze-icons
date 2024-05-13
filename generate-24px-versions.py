@@ -81,88 +81,113 @@ def make_dir(input_dir, output_dir, path):
 
 
 def make_file(input_dir, output_dir, path):
+    # only handle files
+    if os.path.islink(path):
+        return
+
     # Filter out files
     if not (path.endswith('.svg') and '/22/' in path):
         return
 
     file_destination = path.replace(input_dir, output_dir, 1).replace('/22/', '/24/')
 
-    # Regenerate symlinks or edit SVGs
-    if os.path.islink(path):
-        symlink_source = os.readlink(path).replace('/22/', '/24/')
-        if os.path.islink(file_destination):
-            os.remove(file_destination)
-        if not os.path.exists(file_destination):
-            os.symlink(symlink_source, file_destination)
+    # edit SVGs
+    etree.set_default_parser(etree.XMLParser(remove_blank_text=True))
+    tree = etree.parse(path)
+    root = tree.getroot()
+
+    viewBox_is_none = root.get('viewBox') is None
+    width_is_none = root.get('width') is None
+    height_is_none = root.get('height') is None
+
+    """
+    NOTE:
+    - Using strip and split because the amount of whitespace and usage of commas can vary.
+    - Checking against real values because string values can have leading zeros.
+    - Replacing "px" with nothing so that values can be converted to real numbers and because px is the default unit type
+        - If another unit type is used in the <svg> element, this script will fail, but icons shouldn't use other unit types anyway
+    """
+
+    # This is used to prevent SVGs with non-square or incorrect but valid viewBoxes from being converted to 24x24.
+    # If viewBox is None, but the SVG still has width and height, the SVG is still fine.
+    viewBox_matched_or_none = viewBox_is_none
+    if not viewBox_is_none:
+        viewBox_matched_or_none = (
+            list(map(float, strip_split(root.get('viewBox').strip('px'))))
+            == [0.0, 0.0, 22.0, 22.0]
+        )
+
+    # This is used to prevent SVGs that aren't square or are missing only height or only width from being converted to 24x24.
+    # If width and height are None, but the SVG still has a viewBox, the SVG is still fine.
+    width_height_matched_or_none = width_is_none and height_is_none
+    if not (width_is_none or height_is_none):
+        width_height_matched_or_none = (
+            float(root.get('width').strip('px').strip()) == 22.0 and
+            float(root.get('height').strip('px').strip()) == 22.0
+        )
+
+    if (width_height_matched_or_none and viewBox_matched_or_none
+            and not (viewBox_is_none and (width_is_none or height_is_none))):
+        # Resize to 24x24
+        root.set('viewBox', "0 0 24 24")
+        root.set('width', "24")
+        root.set('height', "24")
+        # Put content in a group that moves content down 1px, right 1px
+        group = etree.Element('g', attrib={'transform': "translate(1,1)"})
+        group.extend(get_renderable_elements(root))
+        root.append(group)
+
+        # print(file_destination)
+        tree.write(file_destination, method="xml", pretty_print=True, exclusive=True)
     else:
-        etree.set_default_parser(etree.XMLParser(remove_blank_text=True))
-        tree = etree.parse(path)
-        root = tree.getroot()
-
-        viewBox_is_none = root.get('viewBox') is None
-        width_is_none = root.get('width') is None
-        height_is_none = root.get('height') is None
-
-        """
-        NOTE:
-        - Using strip and split because the amount of whitespace and usage of commas can vary.
-        - Checking against real values because string values can have leading zeros.
-        - Replacing "px" with nothing so that values can be converted to real numbers and because px is the default unit type
-            - If another unit type is used in the <svg> element, this script will fail, but icons shouldn't use other unit types anyway
-        """
-
-        # This is used to prevent SVGs with non-square or incorrect but valid viewBoxes from being converted to 24x24.
-        # If viewBox is None, but the SVG still has width and height, the SVG is still fine.
-        viewBox_matched_or_none = viewBox_is_none
-        if not viewBox_is_none:
-            viewBox_matched_or_none = (
-                list(map(float, strip_split(root.get('viewBox').strip('px'))))
-                == [0.0, 0.0, 22.0, 22.0]
-            )
-
-        # This is used to prevent SVGs that aren't square or are missing only height or only width from being converted to 24x24.
-        # If width and height are None, but the SVG still has a viewBox, the SVG is still fine.
-        width_height_matched_or_none = width_is_none and height_is_none
-        if not (width_is_none or height_is_none):
-            width_height_matched_or_none = (
-                float(root.get('width').strip('px').strip()) == 22.0 and
-                float(root.get('height').strip('px').strip()) == 22.0
-            )
-
-        if (width_height_matched_or_none and viewBox_matched_or_none
-                and not (viewBox_is_none and (width_is_none or height_is_none))):
-            # Resize to 24x24
-            root.set('viewBox', "0 0 24 24")
-            root.set('width', "24")
-            root.set('height', "24")
-            # Put content in a group that moves content down 1px, right 1px
-            group = etree.Element('g', attrib={'transform': "translate(1,1)"})
-            group.extend(get_renderable_elements(root))
-            root.append(group)
-
-            # print(file_destination)
-            tree.write(file_destination, method="xml", pretty_print=True, exclusive=True)
+        skipped_message = " SKIPPED: "
+        if not viewBox_matched_or_none:
+            skipped_message += "not square or incorrect viewBox\nviewBox=\"" + root.get('viewBox') + "\""
+        elif not width_height_matched_or_none:
+            skipped_message += "not square or incorrect width and height\nwidth=\"" + root.get('width') + "height=\"" + root.get('height') + "\""
+        elif viewBox_is_none and (width_is_none or height_is_none):
+            skipped_message += "viewBox and width/height are missing"
         else:
-            skipped_message = " SKIPPED: "
-            if not viewBox_matched_or_none:
-                skipped_message += "not square or incorrect viewBox\nviewBox=\"" + root.get('viewBox') + "\""
-            elif not width_height_matched_or_none:
-                skipped_message += "not square or incorrect width and height\nwidth=\"" + root.get('width') + "height=\"" + root.get('height') + "\""
-            elif viewBox_is_none and (width_is_none or height_is_none):
-                skipped_message += "viewBox and width/height are missing"
-            else:
-                skipped_message += "You shouldn't be seeing this. Please fix " + os.path.basename(sys.argv[0])
+            skipped_message += "You shouldn't be seeing this. Please fix " + os.path.basename(sys.argv[0])
 
-            print(path.lstrip(input_dir) + skipped_message)
+        print(path.lstrip(input_dir) + skipped_message)
+
+
+def make_file_link(input_dir, output_dir, path):
+    # only handle links
+    if not os.path.islink(path):
+        return
+
+    # Filter out files
+    if not (path.endswith('.svg') and '/22/' in path):
+        return
+
+    file_destination = path.replace(input_dir, output_dir, 1).replace('/22/', '/24/')
+
+    # Regenerate symlinks or edit SVGs, don't create dead links for icons we failed to generate
+    symlink_source = os.readlink(path).replace('/22/', '/24/')
+    if not os.path.exists(symlink_source):
+        return
+    if os.path.islink(file_destination):
+        os.remove(file_destination)
+    if not os.path.exists(file_destination):
+        os.symlink(symlink_source, file_destination)
 
 
 def main(input_dirs, output_dir):
+    # first pass: create dirs and files
     for input_dir in input_dirs:
         for dirpath, dirnames, filenames in os.walk(input_dir):
             for d in dirnames:
                 make_dir(input_dir, output_dir, os.path.join(dirpath, d))
             for f in filenames:
                 make_file(input_dir, output_dir, os.path.join(dirpath, f))
+
+    # second pass: create links, that avoids dead links
+    for input_dir in input_dirs:
+        for dirpath, dirnames, filenames in os.walk(input_dir):
+            for f in filenames:
+                make_file_link(input_dir, output_dir, os.path.join(dirpath, f))
 
 # END defs
 
