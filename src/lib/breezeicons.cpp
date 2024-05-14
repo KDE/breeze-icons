@@ -15,8 +15,10 @@ namespace BreezeIcons
 
 void initIcons()
 {
-    // ensure we fallback to breeze
-    QIcon::setFallbackThemeName(QStringLiteral("breeze"));
+    // ensure we fallback to breeze, if no user fallback is set
+    if (QIcon::fallbackThemeName().isEmpty()) {
+        QIcon::setFallbackThemeName(QStringLiteral("breeze"));
+    }
 }
 
 }
