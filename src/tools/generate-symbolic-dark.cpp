@@ -36,7 +36,7 @@ QString convertStylesheet(QString stylesheet)
     // class, color
     QMap<QString, QString> classColorMap;
     // TODO: Support color values other than hexadecimal, maybe properties other than "color"
-    QRE regex(u"\\.ColorScheme-(\\S+){color:(#[0-9a-fA-F]+);}"_s, patternOptions);
+    QRE regex(u"\\.ColorScheme-(\\S+?){color:(#[0-9a-fA-F]+);}"_s, patternOptions);
     auto matchIt = regex.globalMatch(stylesheet);
     while (matchIt.hasNext()) {
         auto match = matchIt.next();
