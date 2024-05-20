@@ -19,9 +19,8 @@ namespace BreezeIcons
 {
 
 /**
- * Ensures the Breeze icon theme is available inside the :/icons resource folder
- * and sets it up as QIcon fallback theme if no other fallback theme
- * is already set.
+ * Sets up the Breeze icons and sets the fallback icon theme used by Qt
+ * to the Breeze icons.
  *
  * @since 6.0
  */
