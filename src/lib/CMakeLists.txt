@@ -1,6 +1,9 @@
 # helper functions to ensure we load the icon theme
 set(kbreezeicons_SRCS breezeicons.cpp)
 
+# avoid dependency cycle with add resource
+set(CMAKE_AUTOMOC OFF)
+
 # generate resource file for all breeze icons
 set(RESOURCE_FILE ${CMAKE_CURRENT_BINARY_DIR}/breeze-icons.qrc)
 set(RESOURCE_FILE_BINARY ${CMAKE_CURRENT_BINARY_DIR}/breeze-icons.rcc)
@@ -21,7 +24,8 @@ if(BINARY_ICONS_RESOURCE)
     install(FILES ${RESOURCE_FILE_BINARY} DESTINATION ${KDE_INSTALL_FULL_ICONDIR}/breeze)
 endif()
 
-qt_add_big_resources(kbreezeicons_resource_SRCS
+# use normal resource adding, big resource variant has issue with LTO
+qt_add_resources(kbreezeicons_resource_SRCS
     ${RESOURCE_FILE}
     OPTIONS --root /icons/breeze
 )
