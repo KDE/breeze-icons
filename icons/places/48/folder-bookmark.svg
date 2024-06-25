@@ -4,7 +4,7 @@
       .ColorScheme-Text {
         color:#31363b;
       }
-      .ColorScheme-Highlight {
+      .ColorScheme-Accent {
         color:#3daee9;
       }
       </style>
@@ -12,7 +12,7 @@
   <path
      style="fill:currentColor;fill-opacity:1;stroke:none" 
      d="M 5,6 V 16 H 4 V 42 H 44 V 13 H 43 V 9 H 24 L 21,6 Z"
-     class="ColorScheme-Highlight"
+     class="ColorScheme-Accent"
      />
   <path
      style="fill-opacity:0.33;fill-rule:evenodd"

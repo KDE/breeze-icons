@@ -23,7 +23,7 @@
    .ColorScheme-Background {
      color:#eff0f1;
    }
-   .ColorScheme-Highlight {
+   .ColorScheme-Accent {
      color:#3daee9;
    }
    .ColorScheme-Text {
@@ -32,7 +32,7 @@
    .ColorScheme-ButtonText {
      color:#31363b;
    }
-   .ColorScheme-Highlight{
+   .ColorScheme-Accent{
      color:#3daee9;
    }
   </style>
@@ -48,13 +48,13 @@
       d="m1012.69 766.92c2.747 0 4.948.723 6.601 2.168 1.667 1.432 2.5 3.392 2.5 5.879 0 1.693-.436 3.288-1.309 4.785-.872 1.484-2.213 3.197-4.02 5.137l-8.262 8.809h13.03v3.01h-16.445v-3.691l9.394-10.684c1.276-1.458 2.233-2.728 2.871-3.809.651-1.094.977-2.174.977-3.242 0-1.667-.475-2.936-1.426-3.809-.951-.872-2.285-1.309-4-1.309-2.552 0-4.642.82-6.269 2.461l-1.133-3.066c1.914-1.758 4.414-2.637 7.5-2.637m-14.88 1.23h3.496v28.555h-3.496v-25.293c-1.601 1.068-3.197 1.96-4.785 2.676v-3.066c1.25-.547 2.845-1.504 4.785-2.871"
       fill="#232629" filter="url(#1)" fill-opacity=".443"/>
   <path
-      d="m1012.69 765.72c2.747 0 4.948.723 6.601 2.168 1.667 1.432 2.5 3.392 2.5 5.879 0 1.693-.436 3.288-1.309 4.785-.872 1.484-2.213 3.197-4.02 5.137l-8.262 8.809h13.03v3.01h-16.445v-3.691l9.394-10.684c1.276-1.458 2.233-2.728 2.871-3.809.651-1.094.977-2.174.977-3.242 0-1.667-.475-2.936-1.426-3.809-.951-.872-2.285-1.309-4-1.309-2.552 0-4.642.82-6.269 2.461l-1.133-3.066c1.914-1.758 4.414-2.637 7.5-2.637m-14.88 1.23h3.496v28.555h-3.496v-25.293c-1.601 1.068-3.197 1.96-4.785 2.676v-3.066c1.25-.547 2.845-1.504 4.785-2.871" style="fill:currentColor" class="ColorScheme-Highlight"/>
+      d="m1012.69 765.72c2.747 0 4.948.723 6.601 2.168 1.667 1.432 2.5 3.392 2.5 5.879 0 1.693-.436 3.288-1.309 4.785-.872 1.484-2.213 3.197-4.02 5.137l-8.262 8.809h13.03v3.01h-16.445v-3.691l9.394-10.684c1.276-1.458 2.233-2.728 2.871-3.809.651-1.094.977-2.174.977-3.242 0-1.667-.475-2.936-1.426-3.809-.951-.872-2.285-1.309-4-1.309-2.552 0-4.642.82-6.269 2.461l-1.133-3.066c1.914-1.758 4.414-2.637 7.5-2.637m-14.88 1.23h3.496v28.555h-3.496v-25.293c-1.601 1.068-3.197 1.96-4.785 2.676v-3.066c1.25-.547 2.845-1.504 4.785-2.871" style="fill:currentColor" class="ColorScheme-Accent"/>
   <path fill="#212121" filter="url(#2)" fill-opacity=".413" d="m917.02 853.51h20v2.709h-20z"/>
-  <path style="fill:currentColor" class="ColorScheme-Highlight" d="m916.91 852.3h20v2.709h-20z"/>
+  <path style="fill:currentColor" class="ColorScheme-Accent" d="m916.91 852.3h20v2.709h-20z"/>
   <path fill="#1c1c1c" filter="url(#2)" fill-opacity=".361" d="m1078.12 853.51h20v2.709h-20z"/>
-  <path style="fill:currentColor" class="ColorScheme-Highlight" d="m1078.11 852.3h20v2.709h-20z"/>
+  <path style="fill:currentColor" class="ColorScheme-Accent" d="m1078.11 852.3h20v2.709h-20z"/>
   <path transform="matrix(0 1-1 0-315.26 577.14)" fill="#2a2a2a" filter="url(#3)" fill-opacity=".524" d="m349.03-1323.93h20v2.71h-20z"/>
-  <path transform="matrix(0 1-1 0 0 0)" style="fill:currentColor" class="ColorScheme-Highlight" d="m924.95-1008.76h20v2.71h-20z"/>
+  <path transform="matrix(0 1-1 0 0 0)" style="fill:currentColor" class="ColorScheme-Accent" d="m924.95-1008.76h20v2.71h-20z"/>
   <circle r="96.61" cy="853.36" cx="1007" stroke-opacity=".677" fill="none" stroke="#70767a"/>
   <g style="fill:currentColor" class="ColorScheme-Text">
    <path d="m1079.34 810.5l4.03-2.325 1.354 2.346-4.03 2.325zm-149.43 86.28l4.03-2.325 1.355 2.346-4.03 2.325z"/>

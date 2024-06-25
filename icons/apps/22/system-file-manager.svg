@@ -111,7 +111,7 @@
     </linearGradient>
     <style
        id="current-color-scheme"
-       type="text/css">      .ColorScheme-Highlight {
+       type="text/css">      .ColorScheme-Accent {
         color:#3593e6;
       }</style>
     <linearGradient
@@ -200,7 +200,7 @@
            id="rect4180"
            d="m 1,1042.3622 20,0.501 v -8.501 H 11 l -1.588488,-2.0013 H 1 Z"
            sodipodi:nodetypes="ccccccc"
-           class="ColorScheme-Highlight" />
+           class="ColorScheme-Accent" />
         <path
            inkscape:connector-curvature="0"
            style="opacity:0.35;fill:url(#linearGradient21328);fill-opacity:1"
@@ -222,7 +222,7 @@
            d="m 9,1038.3622 -2,1 H 1 l -0.0895868,1.0011 -5e-7,9.5003 c 0,0.2699 0.244354,0.4954 0.4919395,0.4954 l 19.0105828,0.01 c 0.255387,0.01 0.500065,-0.1978 0.500065,-0.5 L 21,1038.3622 Z"
            id="rect4113"
            sodipodi:nodetypes="cccccscccc"
-           class="ColorScheme-Highlight" />
+           class="ColorScheme-Accent" />
         <path
            style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:0.85;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:url(#linearGradient8603);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
            d="m 2.9121094,1036.3622 c -0.5057292,0 -0.9121094,0.446 -0.9121094,1 v 1 c 0,-0.554 0.4063802,-1 0.9121094,-1 H 19 c 0.505729,0 0.912109,0.446 0.912109,1 v -1 c 0,-0.554 -0.40638,-1 -0.912109,-1 z"

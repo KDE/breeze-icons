@@ -118,7 +118,7 @@
     </linearGradient>
     <style
        id="current-color-scheme"
-       type="text/css">      .ColorScheme-Highlight {
+       type="text/css">      .ColorScheme-Accent {
         color:#3593e6;
       }
 </style>
@@ -157,7 +157,7 @@
      style="fill:currentColor"
      d="M 4,26 H 44 V 9 H 24 L 21,6 H 4 Z"
      id="path34"
-     class="ColorScheme-Highlight" />
+     class="ColorScheme-Accent" />
   <path
      style="opacity:0.35;fill:url(#linearGradient20243);fill-opacity:1"
      d="M 4,26 H 43.999999 V 9 H 24 L 21,6 H 4 Z"
@@ -175,7 +175,7 @@
      style="fill:currentColor"
      d="m 20,19 -3,2 H 4 v 1 l -1e-6,18.9982 c 0,0.5398 0.4886447,0.9906 0.9837517,0.9907 L 43,42 c 0.510707,0.016 1,-0.3955 1,-1 V 19 Z"
      id="path38"
-     class="ColorScheme-Highlight" />
+     class="ColorScheme-Accent" />
   <path
      style="opacity:0.099;fill:url(#linearGradient4399);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m 4,22 h 14 l 2,-3 24,10e-5 0.17398,22.3079 H 23.406566 Z"
@@ -203,10 +203,10 @@
      style="opacity:0.1;fill:url(#linearGradient5977);fill-opacity:1"
      d="m 20,19 -3,2 H 4 v 1 l -1e-6,18.9982 c 0,0.5398 0.488645,0.9906 0.983752,0.9907 L 43,42 c 0.510707,0.016 1,-0.3955 1,-1 V 19 Z"
      id="path1096"
-     class="ColorScheme-Highlight" />
+     class="ColorScheme-Accent" />
   <path
      style="opacity:0.3;fill:url(#linearGradient12348);fill-opacity:1"
      d="m 20,19 -3,2 H 3.9999997 v 1 l -1e-6,18.9982 c 0,0.5398 0.488645,0.9906 0.983752,0.9907 L 43,42 c 0.510707,0.016 1,-0.3955 1,-1 V 19 Z"
      id="path9452"
-     class="ColorScheme-Highlight" />
+     class="ColorScheme-Accent" />
 </svg>

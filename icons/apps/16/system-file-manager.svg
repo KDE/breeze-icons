@@ -89,7 +89,7 @@
     </linearGradient>
     <style
        id="style1102"
-       type="text/css">      .ColorScheme-Highlight {
+       type="text/css">      .ColorScheme-Accent {
         color:#3593e6;
       }</style>
     <style
@@ -178,7 +178,7 @@
        id="rect4180"
        d="M 0.0713497,1044.991 16,1045.3622 l 0,-7 -7,0 -1,-2 -8,0 z"
        sodipodi:nodetypes="ccccccc"
-       class="ColorScheme-Highlight" />
+       class="ColorScheme-Accent" />
     <path
        inkscape:connector-curvature="0"
        style="opacity:0.35;fill:url(#linearGradient29516);fill-opacity:1"
@@ -200,7 +200,7 @@
        d="M 0,1042.3622 -3.0178375e-7,1043.399 -7e-7,1051.3739 c 0,0.5051 0.50711147,0.986 1.0056359,0.986 l 13.9910928,0 c 0.504737,0.01 1.023268,-0.4589 1.023268,-0.9785 L 16,1042.3622 Z"
        id="rect4113"
        sodipodi:nodetypes="cccscccc"
-       class="ColorScheme-Highlight" />
+       class="ColorScheme-Accent" />
     <path
        inkscape:connector-curvature="0"
        style="color:#3593e6;opacity:0.2;fill:url(#linearGradient1104);fill-opacity:1"

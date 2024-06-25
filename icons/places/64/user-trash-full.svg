@@ -4,7 +4,7 @@
       .ColorScheme-Text {
         color:#31363b;
       }
-      .ColorScheme-Highlight {
+      .ColorScheme-Accent {
         color:#3daee9;
       }
       </style>

@@ -4,7 +4,7 @@
       .ColorScheme-Text {
         color:#232629;
       }
-      .ColorScheme-Highlight {
+      .ColorScheme-Accent {
         color:#3daee9;
       }
       </style>
@@ -17,6 +17,6 @@
   <path
     style="fill:currentColor;fill-opacity:1;stroke:none" 
     d="M 4.5 3 A 1.4999959 1.5 0 0 0 3 4.5 A 1.4999959 1.5 0 0 0 4.5 6 A 1.4999959 1.5 0 0 0 6 4.5 A 1.4999959 1.5 0 0 0 4.5 3 z M 17.5 3 A 1.4999959 1.5 0 0 0 16 4.5 A 1.4999959 1.5 0 0 0 17.5 6 A 1.4999959 1.5 0 0 0 19 4.5 A 1.4999959 1.5 0 0 0 17.5 3 z M 11 10 A 1.4999959 1.5 0 0 0 9.5 11.5 A 1.4999959 1.5 0 0 0 11 13 A 1.4999959 1.5 0 0 0 12.5 11.5 A 1.4999959 1.5 0 0 0 11 10 z M 11 16 A 1.4999959 1.5 0 0 0 9.5 17.5 A 1.4999959 1.5 0 0 0 11 19 A 1.4999959 1.5 0 0 0 12.5 17.5 A 1.4999959 1.5 0 0 0 11 16 z "
-	class="ColorScheme-Highlight"
+	class="ColorScheme-Accent"
      id="path10" />
 </svg>

@@ -121,7 +121,7 @@
     </linearGradient>
     <style
        id="current-color-scheme"
-       type="text/css">      .ColorScheme-Highlight {
+       type="text/css">      .ColorScheme-Accent {
         color:#3593e6;
       }</style>
     <linearGradient
@@ -206,7 +206,7 @@
        id="rect4180"
        d="m 1,1037.3622 30,0 0,-13 -15.000009,-10e-5 L 14,1022.3622 l -13,0 z"
        sodipodi:nodetypes="ccccccc"
-       class="ColorScheme-Highlight" />
+       class="ColorScheme-Accent" />
     <path
        inkscape:connector-curvature="0"
        style="opacity:0.35;fill:url(#linearGradient12639);fill-opacity:1"
@@ -228,7 +228,7 @@
        d="m 13,1031.3622 -2,1 -10,0 0,1 0.022321,15.992 c -0.011161,0.5272 0.4820034,1.0291 0.9683341,1.0287 L 30,1050.3622 c 0.541364,-2e-4 1,-0.4631 1,-1 l 0,-18 z"
        id="rect4113"
        sodipodi:nodetypes="cccccscccc"
-       class="ColorScheme-Highlight" />
+       class="ColorScheme-Accent" />
     <path
        style="opacity:0.099;fill:url(#linearGradient4399);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 1.000001,1033.3622 h 11 l 1,-2 h 18 v 18 h -14 z"
@@ -245,7 +245,7 @@
        style="color:#3593e6;opacity:0.1;fill:url(#linearGradient5977);fill-opacity:1"
        d="m 81.180798,1065.0906 -3,2 h -13 v 1 l -10e-7,18.9982 c 0,0.5398 0.488645,0.9906 0.983752,0.9907 l 38.016251,0.011 c 0.5107,0.016 1,-0.3955 1,-1 v -22 z"
        id="path1096"
-       class="ColorScheme-Highlight" />
+       class="ColorScheme-Accent" />
     <path
        inkscape:connector-curvature="0"
        style="color:#3593e6;opacity:0.3;fill:url(#linearGradient985);fill-opacity:1"

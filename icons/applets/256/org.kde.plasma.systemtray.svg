@@ -7,7 +7,7 @@
       .ColorScheme-Background {
         color:#eff0f1;
       }
-      .ColorScheme-Highlight {
+      .ColorScheme-Accent {
         color:#3daee9;
       }
       .ColorScheme-Text {
@@ -43,7 +43,7 @@
      style="fill:currentColor;fill-opacity:1;stroke:none" 
      d="m 178.49115,75.45685 c -8.83656,0 -16,7.163444 -16,16 0,8.83655 7.16344,16 16,16 8.83656,0 16,-7.16345 16,-16 0,-8.836556 -7.16344,-16 -16,-16 z m 0,2 c 7.73198,0 14,6.268014 14,14 0,7.731986 -6.26802,14 -14,14 -7.73198,0 -14,-6.268014 -14,-14 0,-7.731986 6.26802,-14 14,-14 z m 4,14 c -3.3137,0 -6,2.686292 -6,6 0,3.31371 2.6863,6 6,6 3.3137,0 6,-2.68629 6,-6 0,-3.313708 -2.6863,-6 -6,-6 z"
      id="path3787"
-     class="ColorScheme-Highlight"/>
+     class="ColorScheme-Accent"/>
   <path
      inkscape:connector-curvature="0"
      style="opacity:1;fill:#43be80;fill-opacity:1;stroke:none"

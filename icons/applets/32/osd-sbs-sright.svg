@@ -7,7 +7,7 @@
       .ColorScheme-Background{
         color:#EFF0F1;
       }
-      .ColorScheme-Highlight{
+      .ColorScheme-Accent{
         color:#3DAEE6;
       }
       .ColorScheme-ButtonText {
@@ -17,6 +17,6 @@
     <g style="fill:none" id="32-32-osd-sbs-sright">
       <rect id="rect4203" height="32" width="32" x="0" y="0" style="fill:none"/>
       <path style="color:#7b7c7e;fill:currentColor;fill-opacity:1;stroke:none" d="m 114,41 0,14 17,0 0,-14 -17,0 z m 18,0 0,1 9,0 0,12 -9,0 0,1 10,0 0,-14 -10,0 z m -17,1 15,0 0,12 -15,0 0,-12 z" transform="translate(-112,-32.00004)" id="path4207" inkscape:connector-curvature="0" class="ColorScheme-Text"/>
-      <path style="fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none" d="m 124,44 0,8 5,0 0,-1 -4,0 0,-4 4,0 0,-3 -5,0 z m 8,0 0,3 4,0 0,4 -4,0 0,1 5,0 0,-8 -5,0 z m 1,1 1,0 0,1 -1,0 0,-1 z m 2,0 1,0 0,1 -1,0 0,-1 z" transform="translate(-112,-32.00004)" id="path4213" inkscape:connector-curvature="0" class="ColorScheme-Highlight"/>
+      <path style="fill:currentColor;fill-opacity:1;fill-rule:evenodd;stroke:none" d="m 124,44 0,8 5,0 0,-1 -4,0 0,-4 4,0 0,-3 -5,0 z m 8,0 0,3 4,0 0,4 -4,0 0,1 5,0 0,-8 -5,0 z m 1,1 1,0 0,1 -1,0 0,-1 z m 2,0 1,0 0,1 -1,0 0,-1 z" transform="translate(-112,-32.00004)" id="path4213" inkscape:connector-curvature="0" class="ColorScheme-Accent"/>
     </g>
 </svg>

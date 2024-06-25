@@ -2,10 +2,10 @@
     <style
         type="text/css"
         id="current-color-scheme">
-        .ColorScheme-Highlight {
+        .ColorScheme-Accent {
             color:#3daee9;
         }
     </style>
-    <rect style="fill:currentColor;fill-opacity:1;stroke:none" class="ColorScheme-Highlight" height="8" rx="1" width="8"/>
+    <rect style="fill:currentColor;fill-opacity:1;stroke:none" class="ColorScheme-Accent" height="8" rx="1" width="8"/>
     <path d="M3 1h2v2H3zm0 3v4h2V4z" fill="#fff"/>
 </svg>

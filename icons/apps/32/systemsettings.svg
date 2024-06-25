@@ -14,7 +14,7 @@
      id="defs42">
     <style
        id="current-color-scheme"
-       type="text/css">      .ColorScheme-Highlight {
+       type="text/css">      .ColorScheme-Accent {
         color:#3593e6;
       }</style>
   </defs>
@@ -95,7 +95,7 @@
     <path
        d="M36 19c-1.352-.02-1.352 2.02 0 2h6v-2z"
        id="path18"
-       class="ColorScheme-Highlight"
+       class="ColorScheme-Accent"
        style="fill:currentColor" />
     <circle
        cx="42"
@@ -115,7 +115,7 @@
     <path
        d="M36 11c-1.352-.02-1.352 2.02 0 2h16v-2z"
        id="path26"
-       class="ColorScheme-Highlight"
+       class="ColorScheme-Accent"
        style="fill:currentColor" />
     <circle
        cx="52"

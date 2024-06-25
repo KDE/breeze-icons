@@ -52,7 +52,7 @@
       .ColorScheme-Background {
         color:#eff0f1;
       }
-      .ColorScheme-Highlight {
+      .ColorScheme-Accent {
         color:#3daee9;
       }
       .ColorScheme-Text {
@@ -104,7 +104,7 @@
      style="color:#3daee9;fill:currentColor;fill-opacity:1;stroke:none"
      transform="matrix(0,-1,1,0,0,0)"
      rx="3"
-     class="ColorScheme-Highlight" />
+     class="ColorScheme-Accent" />
   <rect
      style="color:#4d4d4d;opacity:0.3;fill:currentColor;fill-opacity:1;stroke:none"
      id="rect6597-4"
@@ -126,5 +126,5 @@
      style="color:#3daee9;fill:currentColor;fill-opacity:1;stroke:none"
      transform="matrix(0,-1,1,0,0,0)"
      rx="3"
-     class="ColorScheme-Highlight" />
+     class="ColorScheme-Accent" />
 </svg>

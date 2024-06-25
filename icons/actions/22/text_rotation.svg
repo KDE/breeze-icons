@@ -4,7 +4,7 @@
       .ColorScheme-Text {
         color:#232629;
       }
-      .ColorScheme-Highlight {
+      .ColorScheme-Accent {
         color:#3daee9;
       }
       </style>
@@ -17,6 +17,6 @@
  <path 
      style="fill:currentColor;fill-opacity:1;stroke:none" 
 	d="M 10 3 L 10 19 L 11 19 L 11 16.580078 L 20.359375 18.685547 L 20.591797 17.658203 L 11 15.5 L 11 3 L 10 3 z "
-       class="ColorScheme-Highlight"
+       class="ColorScheme-Accent"
      />
 </svg>

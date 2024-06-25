@@ -53,7 +53,7 @@
       .ColorScheme-Background {
         color:#eff0f1;
       }
-      .ColorScheme-Highlight {
+      .ColorScheme-Accent {
         color:#3daee9;
       }
       .ColorScheme-Text {
@@ -1108,7 +1108,7 @@
      height="2"
      x="138.16205"
      y="99.999924"
-     class="ColorScheme-Highlight" />
+     class="ColorScheme-Accent" />
   <rect
      style="fill:currentColor;fill-opacity:0.5;stroke:none"
      id="rect5531-6-0-5-3"

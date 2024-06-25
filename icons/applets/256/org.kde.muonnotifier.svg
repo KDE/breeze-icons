@@ -53,7 +53,7 @@
       .ColorScheme-Background {
         color:#eff0f1;
       }
-      .ColorScheme-Highlight {
+      .ColorScheme-Accent {
         color:#3daee9;
       }
       .ColorScheme-Text {
@@ -498,7 +498,7 @@
      rx="1.9684334"
      ry="1.9684334" />
   <rect
-     class="ColorScheme-Highlight"
+     class="ColorScheme-Accent"
      y="89.427818"
      x="51.755486"
      height="13.894692"
@@ -534,7 +534,7 @@
      id="rect6331-2"
      style="color:#eff0f1;fill:currentColor;fill-opacity:1;stroke:#3daee9;stroke-width:1.15789855;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   <rect
-     class="ColorScheme-Highlight"
+     class="ColorScheme-Accent"
      style="color:#3daee9;fill:currentColor;fill-opacity:1;stroke:none"
      id="rect6333-5"
      width="13.894782"
@@ -1001,7 +1001,7 @@
      rx="1.9684334"
      ry="1.9684334" />
   <rect
-     class="ColorScheme-Highlight"
+     class="ColorScheme-Accent"
      y="62.427883"
      x="25.47353"
      height="13.894692"
@@ -1047,7 +1047,7 @@
      rx="1.9684334"
      ry="1.9684334" />
   <rect
-     class="ColorScheme-Highlight"
+     class="ColorScheme-Accent"
      y="149.42783"
      x="51.755486"
      height="13.894692"
@@ -1073,7 +1073,7 @@
      rx="1.9684334"
      ry="1.9684334" />
   <rect
-     class="ColorScheme-Highlight"
+     class="ColorScheme-Accent"
      y="179.42783"
      x="51.755486"
      height="13.894692"

@@ -6,7 +6,7 @@
       .ColorScheme-Text {
         color:#232629;
       }
-      .ColorScheme-Highlight {
+      .ColorScheme-Accent {
         color:#3daee9;
       }
     </style>
@@ -15,7 +15,7 @@
   <!-- folder bg -->
   <path
     style="fill:currentColor"
-    class="ColorScheme-Highlight"
+    class="ColorScheme-Accent"
     d="m6 9v21h-1v57h86v-63h-1v-9h-42l-6-6z" />
 
   <!-- folder fg -->

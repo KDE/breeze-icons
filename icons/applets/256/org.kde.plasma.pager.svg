@@ -52,7 +52,7 @@
       .ColorScheme-Background {
         color:#eff0f1;
       }
-      .ColorScheme-Highlight {
+      .ColorScheme-Accent {
         color:#3daee9;
       }
       .ColorScheme-Text {
@@ -84,12 +84,12 @@
      ry="0" />
   <path
      style="fill:currentColor;fill-opacity:1;stroke:none" 
-     class="ColorScheme-Highlight"
+     class="ColorScheme-Accent"
      d="m 140,99 0,58 92,0 0,-58 -92,0 z m 1,1 90,0 0,56 -90,0 0,-56 z"
      id="rect5492-1" />
   <rect
      style="fill:currentColor;fill-opacity:0.4;stroke:none" 
-     class="ColorScheme-Highlight"
+     class="ColorScheme-Accent"
      id="rect5512"
      width="35"
      height="25.999987"
@@ -97,7 +97,7 @@
      y="103.00002" />
   <rect
      style="fill:currentColor;fill-opacity:0.4;stroke:none" 
-     class="ColorScheme-Highlight"
+     class="ColorScheme-Accent"
      id="rect5514"
      width="35"
      height="42.00005"
@@ -105,7 +105,7 @@
      y="111.00002" />
   <rect
      style="fill:currentColor;fill-opacity:0.4;stroke:none" 
-     class="ColorScheme-Highlight"
+     class="ColorScheme-Accent"
      id="rect5516"
      width="17"
      height="21.000029"

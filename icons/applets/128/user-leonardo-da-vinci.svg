@@ -4,7 +4,7 @@
       .ColorScheme-Text {
         color:#4d4d4d;
       }
-      .ColorScheme-Highlight {
+      .ColorScheme-Accent {
         color:#3daee9;
       }
       </style>
@@ -48,7 +48,7 @@
   </defs>
   <path
      style="color:#3daee9;fill:currentColor;fill-opacity:1;stroke:none"
-     class="ColorScheme-Highlight"
+     class="ColorScheme-Accent"
      d="M 0,0 0,128 128,128 128,0 0,0 Z"
      id="rect5879" />
   <path

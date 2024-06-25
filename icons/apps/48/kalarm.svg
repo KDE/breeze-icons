@@ -2,7 +2,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" version="1.1" height="48" viewBox="0 0 48 48" id="svg2">
  <defs id="defs5455">
   <style id="current-color-scheme" type="text/css">
-   .ColorScheme-Text { color:#31363b; } .ColorScheme-Background { color:#eff0f1; } .ColorScheme-Highlight { color:#3daee9; }
+   .ColorScheme-Text { color:#31363b; } .ColorScheme-Background { color:#eff0f1; } .ColorScheme-Accent { color:#3daee9; }
   </style>
   <linearGradient xlink:href="#a" id="linearGradient4280" x1="407.571" y1="538.798" x2="407.571" y2="503.798" gradientUnits="userSpaceOnUse" gradientTransform="translate(-384.57143,-499.798)"/>
   <linearGradient gradientUnits="userSpaceOnUse" x2="0" y2="503.8" y1="543.8" id="a" gradientTransform="translate(-66.100265,-5.9003051)">

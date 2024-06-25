@@ -4,7 +4,7 @@
       .ColorScheme-Text {
         color:#232629;
       }
-      .ColorScheme-Highlight {
+      .ColorScheme-Accent {
         color:#3daee9;
       }
       </style>
@@ -17,6 +17,6 @@
  <path 
      style="fill:currentColor;fill-opacity:1;stroke:none" 
      d="M 18.009766 12 L 18.009766 13 L 17.009766 13 C 15.629056 12.99999 14.509766 14.11928 14.509766 15.5 C 14.509766 16.32843 13.838196 17 13.009766 17 L 10.978516 17 L 10.978516 18 L 13.009766 18 C 14.390476 18.00001 15.509766 16.88072 15.509766 15.5 C 15.509766 14.67157 16.181336 14 17.009766 14 L 18.009766 14 L 18.009766 15 L 20.009766 13.5 L 18.009766 12 z "
-     class="ColorScheme-Highlight"
+     class="ColorScheme-Accent"
      />
 </svg>

@@ -190,7 +190,7 @@
        gradientTransform="translate(58.00001)" />
     <style
        id="current-color-scheme"
-       type="text/css">      .ColorScheme-Highlight {
+       type="text/css">      .ColorScheme-Accent {
         color:#3593e6;
       }</style>
   </defs>
@@ -215,7 +215,7 @@
        style="fill:currentColor"
        id="path76317"
        d="m 388.57143,489.79812 v 5 22 c 0,0.55373 0.446,1 1,1 h 54 c 0.55399,0 1,-0.44627 1,-1 v -21.99023 c 0,-0.003 -0.002,-0.006 -0.002,-0.01 h 0.002 v -1 h -28 l -4,-4 h -24 z"
-       class="ColorScheme-Highlight" />
+       class="ColorScheme-Accent" />
     <path
        inkscape:connector-curvature="0"
        style="opacity:0.35;fill:url(#linearGradient82548);fill-opacity:1"
@@ -249,7 +249,7 @@
        style="fill:currentColor"
        d="m 410.57144,507.79802 -4,4 h -19 v 1 h 0.002 c -5e-5,0.004 -0.002,0.008 -0.002,0.0117 v 26.98828 1 c 0,0.554 0.44599,1 1,1 h 56 c 0.55401,0 1,-0.446 1,-1 v -1 -26.98828 -0.0117 -5 z"
        id="path889"
-       class="ColorScheme-Highlight" />
+       class="ColorScheme-Accent" />
     <path
        style="opacity:0.1;fill:url(#linearGradient921);fill-opacity:1"
        d="m 410.57144,507.79802 -4,4 h -19 v 1 h 0.002 c -5e-5,0.004 -0.002,0.008 -0.002,0.0117 v 26.98828 1 c 0,0.554 0.44599,1 1,1 h 56 c 0.55401,0 1,-0.446 1,-1 v -1 -26.98828 -0.0117 -5 z"

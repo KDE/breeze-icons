@@ -52,7 +52,7 @@
       .ColorScheme-Background {
         color:#eff0f1;
       }
-      .ColorScheme-Highlight {
+      .ColorScheme-Accent {
         color:#3daee9;
       }
       .ColorScheme-Text {
@@ -78,7 +78,7 @@
      id="rect6956"
      style="fill:currentColor;fill-opacity:1;stroke:none" 
      d="m 24,47.000019 208,0 0,1 -208,0 z"
-     class="ColorScheme-Highlight" />
+     class="ColorScheme-Accent" />
   <path
      inkscape:connector-curvature="0"
      id="path4491"

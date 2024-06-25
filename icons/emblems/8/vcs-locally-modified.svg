@@ -51,13 +51,13 @@
   <style
      type="text/css"
      id="current-color-scheme">
-        .ColorScheme-Highlight {
+        .ColorScheme-Accent {
             color:#3daee9;
         }
     </style>
   <circle
      style="fill:currentColor;fill-opacity:1;stroke:none"
-     class="ColorScheme-Highlight"
+     class="ColorScheme-Accent"
      cx="4"
      cy="4"
      r="4"

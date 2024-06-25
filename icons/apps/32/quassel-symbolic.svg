@@ -7,7 +7,7 @@
       .ColorScheme-Background{
         color:#EFF0F1;
       }
-      .ColorScheme-Highlight{
+      .ColorScheme-Accent{
         color:#3DAEE6;
       }
       .ColorScheme-ButtonText {
