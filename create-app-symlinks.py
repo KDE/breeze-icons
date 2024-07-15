@@ -37,6 +37,7 @@ aliases = {
     "filezilla": ["org.filezillaproject.Filezilla"],
     "fontforge": ["org.fontforge.FontForge"],
     "gimp": ["org.gimp.GIMP"],
+    "git-cola": ["com.github.git_cola.git-cola"],
     "goodvibes": ["io.gitlab.Goodvibes"],
     "gpodder": ["org.gpodder.gpodder"],
     "granatier": ["org.kde.granatier"],
