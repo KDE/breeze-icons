@@ -29,6 +29,7 @@ aliases = {
     "cantor": ["org.kde.cantor"],
     "claws-mail": ["org.claws_mail.Claws-Mail"],
     "converseen": ["net.fasterland.converseen"],
+    "crow-translate": ["org.kde.CrowTranslate.svg"],
     "darktable": ["org.darktable.Darktable"],
     "diffuse": ["io.github.mightycreak.Diffuse"],
     "digikam": ["org.kde.digikam"],
