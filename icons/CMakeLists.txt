@@ -10,7 +10,7 @@ ENDFOREACH()
 
 set(BREEZE_INSTALL_DIR ${KDE_INSTALL_FULL_ICONDIR}/breeze)
 
-if(NOT WIN32)
+if(NOT WIN32 AND NOT SKIP_INSTALL_ICONS)
     add_custom_target(create-app-symlinks ALL
         COMMENT "Creating icon symlinks for app aliases"
         COMMAND ${Python_EXECUTABLE} ${CMAKE_SOURCE_DIR}/create-app-symlinks.py ${CMAKE_CURRENT_SOURCE_DIR} ${CMAKE_CURRENT_BINARY_DIR}/aliases/
