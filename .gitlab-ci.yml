@@ -7,6 +7,7 @@ include:
       - /gitlab-templates/linux-qt6.yml
       - /gitlab-templates/freebsd-qt6.yml
       - /gitlab-templates/windows-qt6.yml
+      - /gitlab-templates/alpine-qt6.yml
 
 webfonts:
   image: invent-registry.kde.org/sysadmin/ci-images/staticweb:latest
