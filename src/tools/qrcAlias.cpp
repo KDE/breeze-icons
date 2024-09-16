@@ -1,9 +1,9 @@
 /*
- * SPDX-FileCopyrightText: 2016 Kåre Särs <kare.sars@iki.fi>
- * SPDX-FileCopyrightText: 2024 Christoph Cullmann <cullmann@kde.org>
- *
- * SPDX-License-Identifier: LGPL-2.0-or-later
- */
+    SPDX-FileCopyrightText: 2016 Kåre Särs <kare.sars@iki.fi>
+    SPDX-FileCopyrightText: 2024 Christoph Cullmann <cullmann@kde.org>
+
+    SPDX-License-Identifier: LGPL-2.0-or-later
+*/
 
 #include <QCommandLineParser>
 #include <QCoreApplication>
