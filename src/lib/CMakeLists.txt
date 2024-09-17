@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: none
+# SPDX-License-Identifier: BSD-2-Clause
+
 # helper functions to ensure we load the icon theme
 set(kbreezeicons_SRCS breezeicons.cpp)
 

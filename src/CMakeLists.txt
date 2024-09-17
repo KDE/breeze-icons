@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: none
+# SPDX-License-Identifier: BSD-2-Clause
+
 # tools to help to check and generate icons and resource files
 add_subdirectory(tools)
 
