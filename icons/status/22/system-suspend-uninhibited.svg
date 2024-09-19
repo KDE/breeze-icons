@@ -1,19 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 22 22">
-  <defs>
-  <style type="text/css" id="current-color-scheme">
-        ColorScheme-Text {
-            color:#232629;
-        }
-        ColorScheme-Background {
-            color:#eff0f1;
-        }
-    </style>
-    <clipPath id="a">
-      <path style="fill:currentColor"  d="M0 0h22v22H0z" class="ColorScheme-Background"/>
-    </clipPath>
-  </defs>
-  <g clip-path="url(#a)">
-    <path style="fill:currentColor" fill-rule="evenodd" d="M6.333 6.5C6.333 4.007 8.415 2 11 2s4.667 2.007 4.667 4.5V11H18v9H4v-9h2.333zm8.167.563c0-2.182-1.561-3.938-3.5-3.938S7.5 4.881 7.5 7.063V11h7zM10.929 13h2.967l-2.343 2.67-.728.83H16v-1h-2.967l2.343-2.67.728-.83h-5.175zM6 15.5h3.347L6.65 18.143 5.775 19h5.796v-1H8.225l2.696-2.643.875-.857H6z" clip-rule="evenodd" class="ColorScheme-Text"/>
-  </g>
-  
+<svg fill="none" version="1.1" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <style id="current-color-scheme" type="text/css">
+          .ColorScheme-Text { color: #232629; }
+        </style>
+    </defs>
+    <path class="ColorScheme-Text" d="M11 3a4 4 0 0 1 4 4v4h2v8H5v-8h2V7a4 4 0 0 1 4-4m3 4v4H8V7a3 3 0 0 1 6 0m.802 5.198a.675.675 0 0 1 0 .954l-.154.116-2.362 1.769H15V16h-3.325a.675.675 0 0 1-.477-1.152l.154-.116 2.362-1.77H11V12h3.325a.67.67 0 0 1 .477.198m-4 2a.675.675 0 0 1 0 .954l-.154.116-2.362 1.77H11V18H7.675a.675.675 0 0 1-.477-1.152l.154-.116 2.362-1.769H7V14h3.325a.67.67 0 0 1 .477.198" clip-rule="evenodd" fill-rule="evenodd" style="fill:currentColor"/>
 </svg>
