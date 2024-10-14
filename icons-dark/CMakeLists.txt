@@ -43,7 +43,11 @@ if(NOT SKIP_INSTALL_ICONS)
         endif()
     endforeach()
 
+    file(COPY_FILE index.theme.in index.theme)
+    file(READ ../commonthemeinfo.theme.in COMMON_THEME_INFO)
+    file(APPEND index.theme ${COMMON_THEME_INFO})
     install(FILES index.theme DESTINATION ${BREEZE_INSTALL_DIR})
+
     if(NOT WIN32)
         install(DIRECTORY ${CMAKE_BINARY_DIR}/icons/aliases/ DESTINATION ${BREEZE_INSTALL_DIR})
     endif()

@@ -40,7 +40,11 @@ if(NOT SKIP_INSTALL_ICONS)
     file(GLOB_RECURSE icon_files RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} "${CMAKE_CURRENT_SOURCE_DIR}/*.svg")
     set(BREEZE_LIGHT_ICONS ${icon_files} PARENT_SCOPE)
 
+    file(COPY_FILE index.theme.in index.theme)
+    file(READ ../commonthemeinfo.theme.in COMMON_THEME_INFO)
+    file(APPEND index.theme ${COMMON_THEME_INFO})
     install(FILES index.theme DESTINATION ${BREEZE_INSTALL_DIR})
+
     if(NOT WIN32)
         install(DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/aliases/ DESTINATION ${BREEZE_INSTALL_DIR})
     endif()
