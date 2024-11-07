@@ -2,7 +2,7 @@
 
 if ! command -v svgo >/dev/null
 then
-    echo "Please install svgo: npm install svgo"
+    echo "Please install svgo: npm install -g svgo"
     exit 1
 fi
 # regarding convertStyleToAttrs, see: https://github.com/svg/svgo/issues/489
