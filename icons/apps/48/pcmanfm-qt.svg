@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48" height="48" fill="none" inkscape:export-filename="pcmanfm-qt-192.png" inkscape:export-xdpi="384" inkscape:export-ydpi="384" inkscape:version="1.4 (e7c3feb100, 2024-10-09)" sodipodi:docname="pcmanfm-qt.svg" version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <title>pcmanfm-qt Breeze Icon</title>
+ <sodipodi:namedview bordercolor="#000000" borderopacity="0.14509804" inkscape:antialias-rendering="true" inkscape:current-layer="svg25" inkscape:cx="22.45064" inkscape:cy="20.638679" inkscape:deskcolor="#d0d2d3" inkscape:pagecheckerboard="0" inkscape:pageopacity="0.0" inkscape:showpageshadow="false" inkscape:window-height="1028" inkscape:window-maximized="1" inkscape:window-width="1833" inkscape:window-x="87" inkscape:window-y="0" inkscape:zoom="11.313709" pagecolor="#d0d2d3" showborder="true" showgrid="false" showguides="false">
+  <inkscape:grid color="#000000" opacity="0" dotted="false" empcolor="#000000" empopacity="0.12156863" empspacing="1" enabled="true" originx="24" originy="24" spacingx="1" spacingy="1" units="px" visible="false"/>
+ </sodipodi:namedview>
+ <g fill="#ac967c">
+  <path d="m11 4c-1.108 0-2 0.892-2 2v1h30v-1c0-1.108-0.892-2-2-2h-26z"/>
+  <path d="m9.9688 4.2852-5 2.998 0.011719 0.0039063c0.29936-0.17822 0.64444-0.28711 1.0195-0.28711h4.5625l-0.59375-2.7148z" stroke-linecap="round" stroke-miterlimit="110" stroke-width="1.333" style="paint-order:markers fill stroke"/>
+  <path d="m38.031 4.2852-0.59375 2.7148h4.5625c0.37509 0 0.72018 0.10889 1.0195 0.28711l0.011719-0.0039063-5-2.998z" stroke-linecap="round" stroke-miterlimit="110" stroke-width="1.333" style="paint-order:markers fill stroke"/>
+ </g>
+ <path d="m11 4c-0.37867 0-0.73002 0.10572-1.0312 0.28711v-0.00195l-5 2.998 0.011719 0.00391c0.29935-0.17823 0.64444-0.28712 1.0195-0.28712h36c0.37509 0 0.72018 0.10889 1.0195 0.28711l0.01172-0.00391-5-2.998v0.00195c-0.30092-0.18085-0.65318-0.2871-1.0313-0.2871z" fill="#fff3db" fill-opacity=".14"/>
+ <rect x="4" y="7" width="40" height="37" rx="2" ry="2" fill="#ac967c"/>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:title>pcmanfm-qt Breeze Icon</dc:title>
+    <dc:date>2024-11-15</dc:date>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Alberto Salvia Novella (es20490446e)</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:publisher>
+     <cc:Agent>
+      <dc:title>KDE</dc:title>
+     </cc:Agent>
+    </dc:publisher>
+    <dc:contributor>
+     <cc:Agent>
+      <dc:title>Edited: Andy Betts (shape correction and alignment). Assisted: Alejandro Salvia Novella (coloring), Nate Graham (technical requirements), snmbala (lighting).</dc:title>
+     </cc:Agent>
+    </dc:contributor>
+    <dc:description>Files and folders solve any problem</dc:description>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title>CC-BY-SA-4.0, LGPL-3.0-or-later</dc:title>
+     </cc:Agent>
+    </dc:rights>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+ <g stroke-linecap="round" stroke-miterlimit="110">
+  <rect x="9.9998" y="28" width="30" height="12" rx="1" ry="1" fill="#000" fill-opacity=".40392" stroke-width="1.4139" style="paint-order:markers fill stroke"/>
+  <rect x="8.9998" y="27" width="30" height="12" rx="1" ry="1" fill="#f8e0c5" stroke-width="1.4139" style="paint-order:markers fill stroke"/>
+  <path d="m17.175 34.881 3.825 4.1194h18l-8.1739-7.8796-2.8261 1.8796z" fill="#000" fill-opacity=".17" stroke-width="1.333" style="paint-order:markers fill stroke" sodipodi:nodetypes="cccccc"/>
+  <rect x="9.9998" y="13" width="30" height="12" rx="1" ry="1" fill="#000" fill-opacity=".40392" stroke-width="1.4139" style="paint-order:markers fill stroke"/>
+  <rect x="8.9998" y="12" width="30" height="12" rx="1" ry="1" fill="#f8e0c5" stroke-width="1.4139" style="paint-order:markers fill stroke"/>
+  <path d="m17.175 19.881 3.825 4.1194h18l-8.1741-7.8796-2.8261 1.8796z" fill="#000" fill-opacity=".17" stroke-width="1.333" style="paint-order:markers fill stroke" sodipodi:nodetypes="cccccc"/>
+ </g>
+ <g transform="translate(0,1)" fill="#404040">
+  <rect x="17" y="31" width="14" height="3" rx=".5" ry=".5" style="paint-order:markers fill stroke"/>
+  <rect x="17" y="30" width="2" height="4" rx=".5" ry=".5" style="paint-order:markers fill stroke"/>
+  <rect x="29" y="30" width="2" height="4" ry=".5" style="paint-order:markers fill stroke"/>
+ </g>
+ <g transform="translate(0,-14)" fill="#404040">
+  <rect x="17" y="31" width="14" height="3" rx=".5" ry=".5" style="paint-order:markers fill stroke"/>
+  <rect x="17" y="30" width="2" height="4" rx=".5" ry=".5" style="paint-order:markers fill stroke"/>
+  <rect x="29" y="30" width="2" height="4" rx=".5" ry=".5" style="paint-order:markers fill stroke"/>
+ </g>
+ <path d="m42 44c1.108 0 2-0.892 2-2v-33c0-0.56598-0.23397-1.0743-0.60938-1.4375l-1.0195 0.94336c0.38436 0.35556 0.62891 0.86528 0.62891 1.4395v31.109c0 1.0772-0.84779 1.9453-1.9004 1.9453h-34.199c-0.49155 0-0.93474-0.19435-1.2715-0.50586l-1.0195 0.94336c0.3595 0.34778 0.84861 0.5625 1.3906 0.5625z" fill="#000" fill-opacity=".4"/>
+ <path d="m6 7c-1.108 0-2 0.892-2 2v33c0 0.56598 0.23397 1.0743 0.60938 1.4375l1.0195-0.94336c-0.38436-0.35556-0.62891-0.86528-0.62891-1.4395v-31.109c0-1.0772 0.84779-1.9453 1.9004-1.9453h34.199c0.49155 0 0.93474 0.19435 1.2715 0.50586l1.0195-0.94336c-0.3595-0.34778-0.84861-0.5625-1.3906-0.5625z" fill="#fff3db" fill-opacity=".39818"/>
+ <g fill="#000" fill-opacity=".4">
+  <rect x="40" y="40" width="2" height="2" rx=".5" ry=".5" style="paint-order:markers fill stroke"/>
+  <rect x="6" y="40" width="2" height="2" ry=".5" style="paint-order:markers fill stroke"/>
+  <rect x="6" y="9" width="2" height="2" rx=".5" ry=".5" style="paint-order:markers fill stroke"/>
+  <rect x="40" y="9" width="2" height="2" rx=".5" ry=".5" style="paint-order:markers fill stroke"/>
+ </g>
+</svg>
