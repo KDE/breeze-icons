@@ -117,6 +117,7 @@ static void generateQRCAndCheckInputs(const QStringList &indirs, const QString &
     // loop over the inputs, remember if we do look at generated stuff for checks
     bool generatedIcons = false;
     QSet<QString> checkedFiles;
+    bool themeFileFound = false;
     for (const auto &indir : indirs) {
         // go to input dir to have proper relative paths
         if (!QDir::setCurrent(indir)) {
@@ -180,6 +181,8 @@ static void generateQRCAndCheckInputs(const QStringList &indirs, const QString &
                 if (!generatedIcons) {
                     checkForDuplicates(fullPath);
                 }
+            } else if (fullPath.endsWith(QLatin1String(".theme"))) {
+                themeFileFound = true;
             }
 
             // write the one alias to file entry
@@ -188,6 +191,11 @@ static void generateQRCAndCheckInputs(const QStringList &indirs, const QString &
 
         // starting with the second directory we look at generated icons
         generatedIcons = true;
+    }
+
+    if (!themeFileFound) {
+        // without any theme file the icon theme will not work at runtime
+        qFatal() << "No theme file found!";
     }
 
     out.write("</qresource>\n");
