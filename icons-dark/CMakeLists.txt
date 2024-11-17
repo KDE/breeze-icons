@@ -33,6 +33,12 @@ else()
     )
 endif()
 
+# index.theme is used by the lib (via qrc/rcc)
+# and gets installed in the condition below
+file(COPY_FILE index.theme.in index.theme)
+file(READ ../commonthemeinfo.theme.in COMMON_THEME_INFO)
+file(APPEND index.theme ${COMMON_THEME_INFO})
+
 if(NOT SKIP_INSTALL_ICONS)
     install(DIRECTORY ${breeze_icon_dark_dirs} DESTINATION ${BREEZE_INSTALL_DIR})
     file(GLOB_RECURSE icon_files RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} "${CMAKE_CURRENT_SOURCE_DIR}/*.svg")
@@ -43,9 +49,6 @@ if(NOT SKIP_INSTALL_ICONS)
         endif()
     endforeach()
 
-    file(COPY_FILE index.theme.in index.theme)
-    file(READ ../commonthemeinfo.theme.in COMMON_THEME_INFO)
-    file(APPEND index.theme ${COMMON_THEME_INFO})
     install(FILES index.theme DESTINATION ${BREEZE_INSTALL_DIR})
 
     if(NOT WIN32)

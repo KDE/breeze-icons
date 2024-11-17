@@ -34,15 +34,18 @@ else()
     )
 endif()
 
+# index.theme is used by the lib (via qrc/rcc)
+# and gets installed in the condition below
+file(COPY_FILE index.theme.in index.theme)
+file(READ ../commonthemeinfo.theme.in COMMON_THEME_INFO)
+file(APPEND index.theme ${COMMON_THEME_INFO})
+
 if(NOT SKIP_INSTALL_ICONS)
     install(DIRECTORY ${breeze_icon_dirs} DESTINATION ${BREEZE_INSTALL_DIR})
     # collect all our icons we need to install, will be used by dark icon set as fallback icons if not there, too
     file(GLOB_RECURSE icon_files RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} "${CMAKE_CURRENT_SOURCE_DIR}/*.svg")
     set(BREEZE_LIGHT_ICONS ${icon_files} PARENT_SCOPE)
 
-    file(COPY_FILE index.theme.in index.theme)
-    file(READ ../commonthemeinfo.theme.in COMMON_THEME_INFO)
-    file(APPEND index.theme ${COMMON_THEME_INFO})
     install(FILES index.theme DESTINATION ${BREEZE_INSTALL_DIR})
 
     if(NOT WIN32)
