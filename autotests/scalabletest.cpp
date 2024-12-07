@@ -20,6 +20,7 @@
 */
 
 #include <QDirIterator>
+#include <QFileInfo>
 #include <QObject>
 #include <QTest>
 
@@ -164,13 +165,19 @@ class ScalableTest : public QObject
 private Q_SLOTS:
     void test_scalable_data(bool checkInherits=true)
     {
+        bool hasData = false;
         for (auto dir : ICON_DIRS) {
             QString themeDir = PROJECT_SOURCE_DIR + QStringLiteral("/") + dir;
+            QString themeFile = themeDir + QStringLiteral("/index.theme");
+            if (!QFileInfo::exists(themeFile)) {
+                qWarning() << themeFile << "does not exist, skipping collecting the data from it";
+                continue;
+            }
 
             QHash<KIconLoaderDummy::Context, QList<std::shared_ptr<Dir>>> contextHash;
             QHash<KIconLoaderDummy::Context, QString> contextStringHash;
 
-            QSettings config(themeDir + QStringLiteral("/index.theme"), QSettings::IniFormat);
+            QSettings config(themeFile, QSettings::IniFormat);
             auto keys = config.allKeys();
 
             config.beginGroup("Icon Theme");
@@ -235,7 +242,11 @@ private Q_SLOTS:
                 // Gets rid of the stupid second hash
                 auto contextId = QString(dir + QStringLiteral(":") + contextStringHash[key]).toLatin1();
                 QTest::newRow(contextId.constData()) << key << contextHash[key];
+                hasData = true;
             }
+        }
+        if (!hasData) {
+            QSKIP("no available index.theme files");
         }
     }
 
