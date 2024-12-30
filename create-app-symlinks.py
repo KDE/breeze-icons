@@ -30,6 +30,7 @@ aliases = {
     "claws-mail": ["org.claws_mail.Claws-Mail"],
     "converseen": ["net.fasterland.converseen"],
     "crow-translate": ["org.kde.CrowTranslate.svg"],
+    "cuttlefish": ["org.kde.iconexplorer"],
     "darktable": ["org.darktable.Darktable"],
     "diffuse": ["io.github.mightycreak.Diffuse"],
     "digikam": ["org.kde.digikam"],
