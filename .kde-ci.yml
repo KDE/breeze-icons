@@ -1,8 +1,8 @@
 Dependencies:
-- 'on': ['Linux', 'FreeBSD', 'Windows', 'macOS']
-  'require':
+ - 'on': ['Linux', 'FreeBSD', 'Windows', 'macOS']
+   'require':
     'frameworks/extra-cmake-modules': '@same'
 
 Options:
-  test-before-installing: True
-  require-passing-tests-on: [ 'Linux', 'FreeBSD', 'Windows' ]
+ test-before-installing: True
+ require-passing-tests-on: ['Linux', 'FreeBSD', 'Windows']
