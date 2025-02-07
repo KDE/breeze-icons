@@ -15,7 +15,7 @@ add_custom_command(OUTPUT ${RESOURCE_FILE}
     COMMAND qrcAlias -o ${RESOURCE_FILE}.dark.dummy ${CMAKE_SOURCE_DIR}/icons-dark ${CMAKE_BINARY_DIR}/breeze-icons-dark # used for checking only
     COMMAND Qt6::rcc --binary -o ${RESOURCE_FILE_BINARY} ${RESOURCE_FILE} # FIXME: remove after e.g. Kexi is ported
     DEPENDS qrcAlias breeze-generate-24px-versions breeze-generate-24px-versions-dark # ensure we run after the generation steps
-    USES_TERMINAL
+    # USES_TERMINAL
 )
 
 # install as compatibility resource file if really requested
