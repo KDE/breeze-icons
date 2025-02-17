@@ -19,6 +19,8 @@
 #include <QString>
 #include <QXmlStreamReader>
 
+#include <iostream>
+
 /**
  * Check if this file is a duplicate of an other on, dies then.
  * @param fileName file to check
@@ -218,6 +220,8 @@ int main(int argc, char *argv[])
     parser.addVersionOption();
     parser.addOption(outOption);
     parser.process(app);
+    std::cout << "HELLO cout" << std::endl;
+    std::cerr << "HELLO cerr" << std::endl;
 
     // do the generation and checks, will die on errors
     generateQRCAndCheckInputs(parser.positionalArguments(), parser.value(outOption));
