@@ -27,15 +27,15 @@ static void checkForDuplicates(const QString &fileName)
     // get full content for dupe checking
     QFile in(fileName);
     if (!in.open(QIODevice::ReadOnly)) {
-        qFatal() << "failed to open" << in.fileName() << "for XML validation";
+        qFatal() << "failed to open" << in.fileName() << "for duplication checking";
     }
 
     // simplify content to catch files that just have spacing diffs
     // that should not matter for SVGs
-    const auto fullContent = QString::fromUtf8(in.readAll()).simplified();
+    const auto fullContent = in.readAll().simplified();
 
     // see if we did have this content already and die
-    static QHash<QString, QString> contentToFileName;
+    static QHash<QByteArray, QString> contentToFileName;
     if (const auto it = contentToFileName.find(fullContent); it != contentToFileName.end()) {
         qFatal() << "file" << fileName << "is a duplicate of file" << it.value();
     }
