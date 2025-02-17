@@ -7,6 +7,7 @@
 
 #include <QCommandLineParser>
 #include <QCoreApplication>
+#include <QCryptographicHash>
 #include <QDebug>
 #include <QDir>
 #include <QDirIterator>
@@ -33,13 +34,17 @@ static void checkForDuplicates(const QString &fileName)
     // simplify content to catch files that just have spacing diffs
     // that should not matter for SVGs
     const auto fullContent = in.readAll().simplified();
+    QCryptographicHash hasher{QCryptographicHash::Sha256};
+
+    hasher.addData(fullContent);
+    auto hash = hasher.result();
 
     // see if we did have this content already and die
     static QHash<QByteArray, QString> contentToFileName;
-    if (const auto it = contentToFileName.find(fullContent); it != contentToFileName.end()) {
+    if (const auto it = contentToFileName.find(hash); it != contentToFileName.end()) {
         qFatal() << "file" << fileName << "is a duplicate of file" << it.value();
     }
-    contentToFileName.insert(fullContent, fileName);
+    contentToFileName.insert(hash, fileName);
 }
 
 /**
