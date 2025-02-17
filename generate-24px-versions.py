@@ -175,19 +175,22 @@ def make_file_link(input_dir, output_dir, path):
 
 
 def main(input_dirs, output_dir):
+    # WARNING: we exclusively deal with posix style separators in the make_* functions so always make sure to convert
+    # to posix separated paths. Otherwise we may get windows separators and our logic fails silently.
+
     # first pass: create dirs and files
     for input_dir in input_dirs:
         for dirpath, dirnames, filenames in os.walk(input_dir):
             for d in dirnames:
-                make_dir(input_dir, output_dir, os.path.join(dirpath, d))
+                make_dir(input_dir, output_dir, Path(os.path.join(dirpath, d)).as_posix())
             for f in filenames:
-                make_file(input_dir, output_dir, os.path.join(dirpath, f))
+                make_file(input_dir, output_dir, Path(os.path.join(dirpath, f)).as_posix())
 
     # second pass: create links, that avoids dead links
     for input_dir in input_dirs:
         for dirpath, dirnames, filenames in os.walk(input_dir):
             for f in filenames:
-                make_file_link(input_dir, output_dir, os.path.join(dirpath, f))
+                make_file_link(input_dir, output_dir, Path(os.path.join(dirpath, f)).as_posix())
 
 # END defs
 
@@ -211,4 +214,11 @@ if __name__ == '__main__':
         print("Output is not a folder")
         sys.exit(1)
 
-    sys.exit(main(input_dirs, output_dir))
+    ret = main(input_dirs, output_dir)
+
+    # Check that something was created
+    if not output_path.is_dir():
+        print("Output appears to not have been created")
+        sys.exit(1)
+
+    sys.exit(ret)
