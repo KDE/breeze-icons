@@ -53,6 +53,36 @@ else()
     set(WITH_ICON_GENERATION OFF)
 endif()
 
+if(WIN32 AND WITH_ICON_GENERATION)
+    # On windows things are a bit complicated because symlinks are often disabled or don't work.
+    # Make sure that symlinks work at all under the current user (i.e. dev mode is on)
+    set(SYMLINK_TEST ${CMAKE_CURRENT_BINARY_DIR}/__symlink_up)
+    if(EXISTS ${SYMLINK_TEST})
+        file(REMOVE ${SYMLINK_TEST})
+    endif()
+    execute_process(COMMAND ${CMAKE_COMMAND} -E create_symlink ${CMAKE_CURRENT_BINARY_DIR} ${SYMLINK_TEST}
+        WORKING_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}
+        ECHO_ERROR_VARIABLE
+        RESULTS_VARIABLE SYMLINK_RESULT)
+    if(NOT SYMLINK_RESULT EQUAL 0)
+        message(FATAL_ERROR "WITH_ICON_GENERATION is enabled but windows is not capable of creating symbolic links."
+            "You need to enable developer mode in the developer section of the Windows settings.")
+    endif()
+    # Make sure that git has symlinks enabled
+    if(EXISTS ${CMAKE_SOURCE_DIR}/.git)
+        find_package(Git REQUIRED)
+        execute_process(COMMAND ${GIT_EXECUTABLE} config --get --bool core.symlinks
+            WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}
+            OUTPUT_VARIABLE GIT_SYMLINKS
+            OUTPUT_STRIP_TRAILING_WHITESPACE
+            COMMAND_ERROR_IS_FATAL ANY)
+        if(NOT GIT_SYMLINKS STREQUAL "true")
+            message(FATAL_ERROR "WITH_ICON_GENERATION is enabled but ${CMAKE_SOURCE_DIR} is not configured to support symbolic links."
+                "Use `git config core.symlinks true` to enable them and `git reset --hard HEAD` to apply the change.")
+        endif()
+    endif()
+endif()
+
 add_feature_info("Icon generation" ${WITH_ICON_GENERATION} "for 24x24 and symbolic dark icons.
    This feature requires Python 3 and the lxml Python 3 module."
 ) # The exact amount of indentation used in the line(s) above is intentional
