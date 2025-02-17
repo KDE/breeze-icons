@@ -22,6 +22,7 @@ if(WITH_ICON_GENERATION)
     # Auto-generate 24px monochrome icons from 22px versions
     add_custom_target(breeze-generate-24px-versions ALL
         COMMENT "Generating 24px icons"
+        COMMAND ${CMAKE_COMMAND} -E make_directory ${ICON_GEN_DIR}
         COMMAND ${Python_EXECUTABLE} ${CMAKE_SOURCE_DIR}/generate-24px-versions.py
                 ${CMAKE_CURRENT_SOURCE_DIR}
                 ${ICON_GEN_DIR}
