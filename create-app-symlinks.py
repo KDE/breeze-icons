@@ -48,7 +48,6 @@ aliases = {
     "haguichi": ["com.github.ztefn.haguichi"],
     "handbrake": ["fr.handbrake.ghb"],
     "homebank": ["fr.free.Homebank"],
-    "inkscape": ["org.inkscape.Inkscape"],
     "jdownloader": ["org.jdownloader.JDownloader"],
     "joplin": ["net.cozic.joplin_desktop"],
     "juk": ["org.kde.juk"],
