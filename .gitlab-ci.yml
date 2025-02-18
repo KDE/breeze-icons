@@ -1,6 +1,9 @@
 # SPDX-FileCopyrightText: 2020 Volker Krause <vkrause@kde.org>
 # SPDX-License-Identifier: CC0-1.0
 
+variables:
+  QT_WIN_DEBUG_CONSOLE: attach
+
 include:
   - project: sysadmin/ci-utilities
     file:
