@@ -1,0 +1,22 @@
+<svg version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient id="a" x2="0" y1="392.36" y2="365.36" gradientTransform="translate(309.57,152.44)" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#fff" stop-opacity="0" offset="0"/>
+            <stop stop-color="#fff" stop-opacity=".2" offset="1"/>
+        </linearGradient>
+        <linearGradient id="b" x1="47" x2="54" y1="17" y2="24" gradientTransform="translate(-27,-8)" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#060606" offset="0"/>
+            <stop stop-opacity="0" offset="1"/>
+        </linearGradient>
+        <path id="c" d="m389.57 545.8v-28h15l7 7v21h-14z"/>
+    </defs>
+    <g shape-rendering="auto">
+        <use transform="translate(-384.57,-515.8)" width="100%" height="100%" color="#000000" color-rendering="auto" fill="#2a6288" image-rendering="auto" text-rendering="auto" xlink:href="#c"/>
+        <rect transform="scale(1,-1)" x="5.0000072" y="-2.9999878" width="15" height="1" color="#000000" color-rendering="auto" fill="#fff" image-rendering="auto" opacity=".5"/>
+        <rect transform="scale(1,-1)" x="5.0000072" y="-29.999989" width="22" height="1" color="#000000" color-rendering="auto" image-rendering="auto" opacity=".25"/>
+        <path d="m27 9-7-7v7z" color="#000000" color-rendering="auto" fill="#fff" fill-rule="evenodd" image-rendering="auto" opacity=".5"/>
+    </g>
+    <path d="m20 9 7 7v-7z" fill="url(#b)" fill-rule="evenodd" opacity=".1"/>
+    <path d="m14.271484 10 0.94336 1.230469 0.630859 0.822265 0.009768 9.947266h0.615232v-9.949219l0.628906-0.820312 0.94336-1.230469h-1.886719zm0 2.769531v0.615235h0.94336v-0.615235zm3.783203 0.615235c-0.15432 0.0092-0.3207 0.15862-0.320312 0.324219l-0.0059 4.890624c0 0.220814 0.296043 0.412428 0.464844 0.28125l3.179687-2.453125c0.169904-0.129557 0.169515-0.434321 0-0.564453l-3.173828-2.435547c-0.04237-0.0325-0.09307-0.04599-0.144532-0.04297zm-4.726562 0.615234v0.615234h1.886719v-0.615234zm-1.570312 1.230469v0.615234h3.457031v-0.615234zm-1.257813 1.230468v0.617188h4.714844v-0.617188zm1.257813 1.232422v0.615235h3.457031v-0.615235zm1.570312 1.230469v0.615234h1.886719v-0.615234z" fill="#fff" opacity=".75" stroke-width=".433596"/>
+    <use transform="translate(-384.57,-515.8)" width="100%" height="100%" fill="url(#a)" xlink:href="#c"/>
+</svg>
