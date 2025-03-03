@@ -127,7 +127,6 @@ aliases = {
     "scribus": ["net.scribus.Scribus"],
     "skanlite": ["org.kde.skanlite"],
     "skrooge": ["org.kde.skrooge"],
-    "smartgit": ["com.syntevo.SmartGit"],
     "smplayer": ["info.smplayer.SMPlayer"],
     "steam": ["com.valvesoftware.Steam"],
     "sublime-merge": ["com.sublimemerge.App"],
