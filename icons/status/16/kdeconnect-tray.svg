@@ -4,7 +4,7 @@
    version="1.1"
    id="svg1"
    sodipodi:docname="kdeconnect-tray.svg"
-   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -19,12 +19,12 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="40.106213"
-     inkscape:cx="1.5708289"
-     inkscape:cy="10.434792"
-     inkscape:window-width="3840"
-     inkscape:window-height="2054"
-     inkscape:window-x="-11"
-     inkscape:window-y="-11"
+     inkscape:cx="1.5832958"
+     inkscape:cy="10.384925"
+     inkscape:window-width="3440"
+     inkscape:window-height="1371"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg1" />
   <defs
@@ -52,7 +52,7 @@
        style="opacity:0.01;fill:#000000;fill-opacity:1;stroke:none" />
     <path
        sodipodi:nodetypes="cccccccccc"
-       style="color:#31363b;fill:#000000;fill-opacity:1;stroke:none"
+       style="fill:currentColor;fill-opacity:1;stroke:none"
        d="M 4.1249442,2.7499644 V 19.249957 H 17.87499 V 2.7499644 Z M 5.4999597,4.1250967 H 16.499955 V 17.875143 H 5.4999597 Z"
        transform="translate(789.4657,1781.6821)"
        id="path3130-7"
@@ -60,7 +60,7 @@
        inkscape:connector-curvature="0" />
   </g>
   <path
-     style="color:#31363b;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.01521"
+     style="fill:currentColor;fill-opacity:1;stroke:none"
      d="m 4.9995095,4 v 8 H 10.99951 l 9.81e-4,-7.997254 z m 2.259694,1.653644 v 1.935238 l 1.39591,-1.903514 1.142109,0.253802 -1.459361,1.903514 1.459361,1.998689 -1.142109,0.348979 -1.39591,-2.062141 V 10 l -1.078658,0.158627 V 5.748819 Z"
      id="path3005-8-5"
      class="ColorScheme-Text"
