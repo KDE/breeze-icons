@@ -161,11 +161,13 @@ def make_file_link(input_dir, output_dir, path):
     # Filter out files
     if not (path.endswith('.svg') and '/22/' in path):
         return
-
+    
+    link_name = os.path.basename(path)
+    target_name = os.path.basename(os.path.realpath(path))
     file_destination = path.replace(input_dir, output_dir, 1).replace('/22/', '/24/')
 
     # Regenerate symlinks or edit SVGs, don't create dead links for icons we failed to generate
-    symlink_source = os.readlink(path).replace('/22/', '/24/')
+    symlink_source = file_destination.replace(link_name, target_name)
     if not os.path.exists(symlink_source):
         return
     if os.path.islink(file_destination):
