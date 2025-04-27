@@ -145,8 +145,8 @@ static void generateQRCAndCheckInputs(const QStringList &indirs, const QString &
 
     // loop over the inputs, remember if we do look at generated stuff for checks
     bool generatedIcons = false;
-    QSet<QString> checkedFiles;
-    bool themeFileFound = false;
+    QSet<QString> checkedFiles, filesInResource;
+    bool themeFileFound = false, icons24Seen = false;
     for (const auto &indir : indirs) {
         // go to input dir to have proper relative paths
         if (!QDir::setCurrent(indir)) {
@@ -188,7 +188,10 @@ static void generateQRCAndCheckInputs(const QStringList &indirs, const QString &
             if (isLink) {
                 // empty canonical path means not found
                 if (fullPath.isEmpty()) {
-                    qFatal() << "Broken symlink" << file << "in input directory" << indir;
+                    // qFatal() << "Broken symlink" << file << "in input directory" << indir;
+                    // ATM we allow that as otherwise the generation misses links
+                    // see https://invent.kde.org/frameworks/breeze-icons/-/merge_requests/467
+                    continue;
                 }
 
                 // check that we don't link external stuff
@@ -216,19 +219,43 @@ static void generateQRCAndCheckInputs(const QStringList &indirs, const QString &
 
             // write the one alias to file entry
             out.write(QStringLiteral("    <file alias=\"%1\">%2</file>\n").arg(file, fullPath).toUtf8());
+            printf("%s\n", qPrintable(file));
+
+            // remember for checks below
+            filesInResource.insert(file);
+            if (!icons24Seen) {
+                icons24Seen = file.contains(QLatin1String("/24/"));
+            }
         }
 
         // starting with the second directory we look at generated icons
         generatedIcons = true;
     }
 
+    out.write("</qresource>\n");
+    out.write("</RCC>\n");
+
     if (!themeFileFound) {
         // without any theme file the icon theme will not work at runtime
         qFatal() << "No theme file found!";
     }
 
-    out.write("</qresource>\n");
-    out.write("</RCC>\n");
+    // ensure we have some icons that we know must exist
+    for (const QString &knownIcon : {QStringLiteral("devices/16/input-keyboard.svg"), QStringLiteral("emblems/22/emblem-symbolic-link.svg")}) {
+        if (!filesInResource.contains(knownIcon)) {
+            qFatal() << "Icon" << knownIcon << "missing!";
+        }
+    }
+
+    // ensure some 24 links are there, if any 24 stuff got generated
+    // see https://invent.kde.org/frameworks/breeze-icons/-/merge_requests/467
+    if (icons24Seen) {
+        for (const QString &knownIcon : {QStringLiteral("actions/24/list-remove-symbolic.svg")}) {
+            if (!filesInResource.contains(knownIcon)) {
+                qFatal() << "Generated 24px icon link" << knownIcon << "missing!";
+            }
+        }
+    }
 }
 
 int main(int argc, char *argv[])

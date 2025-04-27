@@ -115,9 +115,24 @@ int main(int argc, char **argv)
             auto inputFileInfo = dirIt.nextFileInfo();
             const auto inputFilePath = inputFileInfo.absoluteFilePath();
 
-            // Skip non-files, symlinks, non-svgs and existing breeze dark icons
-            if (!inputFileInfo.isFile() || inputFileInfo.isSymLink() || !inputFilePath.endsWith(".svg"_L1)
+            // Skip non-files, non-svgs and existing breeze dark icons
+            if (!inputFileInfo.isFile() || !inputFilePath.endsWith(".svg"_L1)
                 || QFileInfo::exists(QString{inputFilePath}.replace("/icons/"_L1, "/icons-dark/"_L1))) {
+                continue;
+            }
+
+            // create dir, might be needed for symlink
+            QDir outputDir = outputDirInfo.absoluteFilePath();
+            const auto outputFilePath = outputDir.absoluteFilePath(QString{inputFilePath}.remove(QRE(u".*/icons/"_s)));
+            QFileInfo outputFileInfo(outputFilePath);
+            outputDir = outputFileInfo.dir();
+            if (!outputDir.exists()) {
+                QDir::root().mkpath(outputDir.absolutePath());
+            }
+
+            // keep symlinks
+            if (inputFileInfo.isSymLink()) {
+                QFile::link(inputFileInfo.absoluteDir().relativeFilePath(inputFileInfo.symLinkTarget()), outputFilePath);
                 continue;
             }
 
@@ -134,13 +149,6 @@ int main(int argc, char **argv)
                 continue;
             }
 
-            QDir outputDir = outputDirInfo.absoluteFilePath();
-            const auto outputFilePath = outputDir.absoluteFilePath(QString{inputFilePath}.remove(QRE(u".*/icons/"_s)));
-            QFileInfo outputFileInfo(outputFilePath);
-            outputDir = outputFileInfo.dir();
-            if (!outputDir.exists()) {
-                QDir::root().mkpath(outputDir.absolutePath());
-            }
             QFile outputFile(outputFilePath);
             if (!outputFile.open(QIODevice::WriteOnly)) {
                 unwrittenFiles.append("\""_L1 + outputFile.fileName() + "\": "_L1 + outputFile.errorString());

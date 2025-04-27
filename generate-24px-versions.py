@@ -166,8 +166,6 @@ def make_file_link(input_dir, output_dir, path):
 
     # Regenerate symlinks or edit SVGs, don't create dead links for icons we failed to generate
     symlink_source = os.readlink(path).replace('/22/', '/24/')
-    if not os.path.exists(symlink_source):
-        return
     if os.path.islink(file_destination):
         os.remove(file_destination)
     if not os.path.exists(file_destination):
