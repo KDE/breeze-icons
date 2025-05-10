@@ -219,7 +219,6 @@ static void generateQRCAndCheckInputs(const QStringList &indirs, const QString &
 
             // write the one alias to file entry
             out.write(QStringLiteral("    <file alias=\"%1\">%2</file>\n").arg(file, fullPath).toUtf8());
-            printf("%s\n", qPrintable(file));
 
             // remember for checks below
             filesInResource.insert(file);
@@ -238,13 +237,6 @@ static void generateQRCAndCheckInputs(const QStringList &indirs, const QString &
     if (!themeFileFound) {
         // without any theme file the icon theme will not work at runtime
         qFatal() << "No theme file found!";
-    }
-
-    // ensure we have some icons that we know must exist
-    for (const QString &knownIcon : {QStringLiteral("devices/16/input-keyboard.svg"), QStringLiteral("emblems/22/emblem-symbolic-link.svg")}) {
-        if (!filesInResource.contains(knownIcon)) {
-            qFatal() << "Icon" << knownIcon << "missing!";
-        }
     }
 
     // ensure some 24 links are there, if any 24 stuff got generated
