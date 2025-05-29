@@ -13,6 +13,5 @@
   <use transform="translate(4 5.5)" href="#hail"/>
   <use transform="translate(12,5.5)" href="#hail"/>
   <use transform="translate(20,5.5)" href="#hail"/>
-  <rect id="rect3" width="48" height="48" fill="none"/>
  </g>
 </svg>

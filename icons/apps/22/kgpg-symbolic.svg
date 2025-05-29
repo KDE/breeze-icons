@@ -7,6 +7,5 @@
       </style>
     <g id="kgpg">
     <path id="path1" d="M 11,3 C 8.784,3 7,4.784 7,7 l 0,3 -2,0 0,2 0,7 1,0 10,0 1,0 0,-9 -1,0 -1,0 0,-3 C 15,4.784 13.216,3 11,3 Z m 0,1 c 1.662,0 3,1.561 3,3.5 L 14,10 8,10 8,7.5 C 8,5.561 9.338,4 11,4 Z m -5,7 10,0 0,7 -10,0 z" style="fill:currentColor;fill-opacity:1;stroke:none" class="ColorScheme-Text"/>
-    <rect y="0" x="0" height="22" width="22" id="rect1" style="fill:none;stroke:none"/>
   </g>
 </svg>

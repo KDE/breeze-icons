@@ -7,6 +7,5 @@
   <path id="cloud" d="m27 31 h 5 a 7 7 0 0 0 0.95 -13.92 a 9 9 0 0 0 -8.95-8.08 a 9 9 0 0 0 -8.36 12.31 a 5 5 0 1 0 -1.63 9.69h2 z" fill="none" stroke="currentColor" stroke-width="2"/>
   <path id="rainwss" d="m12 42 5-7" stroke="currentColor" stroke-width="2"/>
   <use transform="translate(16)" href="#rainwss"/>
-  <rect width="48" height="48" fill="none" stroke="none"/>
  </g>
 </svg>

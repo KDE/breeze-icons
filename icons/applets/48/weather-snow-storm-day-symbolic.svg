@@ -20,6 +20,5 @@
   <use id="use9" transform="translate(4,5.5)" href="#snowflake1"/>
   <use id="use10" transform="translate(18,5.5)" href="#snowflake1"/>
   <use id="use11" transform="translate(26,5.5)" href="#snowflake1"/>
-  <rect id="rect4" width="48" height="48" fill="none"/>
  </g>
 </svg>

@@ -16,6 +16,5 @@
   <path id="wind1" class="ColorScheme-Text" d="m18 32 h11 a3 3 0 1 0 -3 -3" stroke="currentColor" stroke-width="2" fill="none"/>
   <path id="wind2" class="ColorScheme-Text" d="m15 35 h22 a3 3 0 1 0 -3 -3" stroke="currentColor" stroke-width="2" fill="none"/>
   <path id="wind3" class="ColorScheme-Text" d="m17 38 h12 a3 3 0 1 1 -3 3"  stroke="currentColor" stroke-width="2" fill="none"/>
-  <rect width="48" height="48" fill="none"/>
  </g>
 </svg>

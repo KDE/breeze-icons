@@ -8,6 +8,5 @@
   <path id="rainwsd" d="m14 40 5-7" stroke="currentColor" stroke-width="2"/>
   <use transform="translate(18)" href="#rainwsd"/>
   <path id="cloud" d="m31 30 h 5 a 7 7 0 0 0 0.95 -13.92 a 9 9 0 0 0 -8.95-8.08 a 9 9 0 0 0 -8.36 12.31 a 5 5 0 1 0 -1.63 9.69h2 " fill="none" stroke="currentColor" stroke-width="2"/>
-  <rect width="48" height="48" fill="none"/>
  </g>
 </svg>

@@ -23,6 +23,5 @@
    <use transform="rotate(108,20,20)" href="#sunfrd"/>
    <use transform="rotate(-36,20,20)" href="#sunfrd"/>
   </g>
-  <rect width="48" height="48" fill="none"/>
  </g>
 </svg>

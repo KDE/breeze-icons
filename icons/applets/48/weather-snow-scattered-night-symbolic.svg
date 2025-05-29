@@ -10,6 +10,5 @@
   <use id="use8" transform="translate(-8,5.5)" href="#snowflake1"/>
   <use id="use9" transform="translate(8,5.5)" href="#snowflake1"/>
   <path id="moon" d="m14 21.5a14 14 0 0 1 2-17 12 12 0 0 0-2.5 23" fill="none" stroke="currentColor" stroke-width="2"/>
-  <rect id="rect3" width="48" height="48" fill="none"/>
  </g>
 </svg>

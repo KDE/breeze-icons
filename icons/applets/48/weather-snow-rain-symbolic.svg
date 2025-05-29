@@ -11,7 +11,5 @@
   <use transform="translate(12,5.5)" href="#snowflake1"/>
   <path id="rainwsd" d="m16 42 5-7" stroke="currentColor" stroke-width="2"/>
   <use transform="translate(16)" href="#rainwsd"/>
-
-  <rect width="48" height="48" fill="none"/>
  </g>
 </svg>

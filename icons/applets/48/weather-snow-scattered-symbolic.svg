@@ -9,6 +9,5 @@
   <use id="use6" transform="translate(16)" href="#snowflake1"/>
   <use id="use8" transform="translate(-8,5.5)" href="#snowflake1"/>
   <use id="use9" transform="translate(8,5.5)" href="#snowflake1"/>
-  <rect width="48" height="48" fill="none"/>
  </g>
 </svg>

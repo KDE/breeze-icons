@@ -16,6 +16,5 @@
    <use transform="rotate(108,20,20)" href="#path8"/>
    <use transform="rotate(-36,20,20)" href="#path8"/>
   <path id="path5" d="m12.9 25.6 a9 9 0 0 1 8.3 -14.52" stroke="currentColor" stroke-width="2" fill="none" />
-  <rect width="48" height="48" fill="none"/>
  </g>
 </svg>

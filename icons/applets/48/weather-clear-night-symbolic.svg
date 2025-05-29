@@ -7,6 +7,5 @@
  </style>
  <g id="weather-clear-night-symbolic">
   <path class="ColorScheme-Text" d="m36 33 a13 13 0 0 1 -14 -24  a15 15 1 1 0 14 24 z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="miter"/>
-  <rect width="48" height="48" fill="none"/>
  </g>
 </svg>
