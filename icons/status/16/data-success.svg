@@ -1,0 +1,9 @@
+<svg version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+    <style type="text/css" id="current-color-scheme">
+        .ColorScheme-PositiveText {
+            color:#27ae60;
+        }
+    </style>
+    <rect class="ColorScheme-PositiveText" x="2" y="2" width="12" height="12" rx="2" fill="currentColor"/>
+    <path d="m13.59375 2.7890625-7.09375 6.8300781-2.1523438-2.2617187-1.3476562 1.4375 3.5 3.6523441 7.5-7.5000004v-0.9472656c0-0.4555302-0.151683-0.8754031-0.40625-1.2109375z" fill="#fff"/>
+</svg>
