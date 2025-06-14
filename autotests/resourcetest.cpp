@@ -52,14 +52,14 @@ private Q_SLOTS:
 
         // check some icons we know shall be there
         // check no stuff that might not be generated in some config or that is a symlink
-        compareFileResourceWithFilesystem(QStringLiteral("actions/16/arrow-left.svg"));
+        compareFileResourceWithFilesystem(QStringLiteral("actions/16/go-previous.svg"));
         compareFileResourceWithFilesystem(QStringLiteral("actions/16/table.svg"));
         compareFileResourceWithFilesystem(QStringLiteral("actions/22/edit-paste.svg"));
         compareFileResourceWithFilesystem(QStringLiteral("actions/22/tab-new.svg"));
         compareFileResourceWithFilesystem(QStringLiteral("actions/32/document-edit.svg"));
         compareFileResourceWithFilesystem(QStringLiteral("actions/32/zoom.svg"));
         compareFileResourceWithFilesystem(QStringLiteral("mimetypes/64/application-json.svg"));
-        compareFileResourceWithFilesystem(QStringLiteral("places/64/favorites.svg"));
+        compareFileResourceWithFilesystem(QStringLiteral("places/64/folder-favorites.svg"));
     }
 };
 
