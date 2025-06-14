@@ -24,8 +24,9 @@ if(BINARY_ICONS_RESOURCE)
     install(FILES ${RESOURCE_FILE_BINARY} DESTINATION ${KDE_INSTALL_FULL_ICONDIR}/breeze)
 endif()
 
-# use normal resource adding, big resource variant has issue with LTO
-qt_add_resources(kbreezeicons_resource_SRCS
+# use big resource variant, else we OOM on 32 bit machines
+# this has issues with LTO, we have a unit test that tells if stuff got lost in the DLL
+qt_add_big_resources(kbreezeicons_resource_SRCS
     ${RESOURCE_FILE}
     OPTIONS --root /icons/breeze
 )
