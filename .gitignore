@@ -6,6 +6,7 @@
 dist
 node_modules
 /.vscode/
+/.kateproject.*
 CMakeLists.txt.user*
 .cmake/
 /.clang-format
