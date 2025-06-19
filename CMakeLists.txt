@@ -35,6 +35,17 @@ find_package(Python 3 COMPONENTS Interpreter)
 
 set(CMAKE_POSITION_INDEPENDENT_CODE ON)
 
+# We need this for KDE-BUG 499674. qt_add_resources has issues with 32-bit
+# systems, while qt_add_big_resources has issues with LTO. We use qt_add_big_resources
+# and disable LTO.
+check_cxx_compiler_flag(-fno-lto COMPILER_SUPPORTS_NO_LTO)
+check_cxx_compiler_flag(/GL- COMPILER_SUPPORTS_NO_GL)
+if(COMPILER_SUPPORTS_NO_LTO)
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fno-lto")
+elseif(COMPILER_SUPPORTS_NO_GL)
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /GL-")
+endif()
+
 if(Python_FOUND)
     # Find lxml Python 3 module
     exec_program(${Python_EXECUTABLE}
