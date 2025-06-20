@@ -45,6 +45,7 @@ if(COMPILER_SUPPORTS_NO_LTO)
 elseif(COMPILER_SUPPORTS_NO_GL)
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} /GL-")
 endif()
+set(CMAKE_INTERPROCEDURAL_OPTIMIZATION OFF)
 
 if(Python_FOUND)
     # Find lxml Python 3 module
