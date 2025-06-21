@@ -84,6 +84,7 @@ aliases = {
     "kontact": ["org.kde.kontact"],
     "konversation": ["org.kde.konversation"],
     "kopete": ["org.kde.kopete"],
+    "kpat": ["org.kde.kpat"],
     "kphotoalbum": ["org.kde.kphotoalbum"],
     "krdc": ["org.kde.krdc"],
     "krename": ["org.kde.krename"],
