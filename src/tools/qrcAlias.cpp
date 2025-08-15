@@ -103,7 +103,7 @@ static QString resolveWindowsGitLink(const QString &path, const QString &fileNam
 {
     QFile in(path + QLatin1Char('/') + fileName);
     if (!in.open(QIODevice::ReadOnly)) {
-        qFatal() << "failed to open" << path << fileName << in.fileName();
+        qFatal() << "resolveWindowsGitLink: failed to open" << in.fileName() << "to check for Windows Git symlink";
     }
 
     QString firstLine = QString::fromLocal8Bit(in.readLine());
