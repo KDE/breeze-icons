@@ -137,16 +137,10 @@ static QString resolveWindowsGitLink(const QString &path, const QString &fileNam
  */
 static void generateQRCAndCheckInputs(const QStringList &indirs, const QString &outfile)
 {
-    QFile out(outfile);
-    if (!out.open(QIODevice::WriteOnly)) {
-        qFatal() << "Failed to create" << outfile;
-    }
-    out.write("<!DOCTYPE RCC><RCC version=\"1.0\">\n");
-    out.write("<qresource>\n");
-
     // loop over the inputs, remember if we do look at generated stuff for checks
     bool generatedIcons = false;
     QSet<QString> checkedFiles, filesInResource;
+    QList<QString> lines;
     bool themeFileFound = false, icons24Seen = false;
     for (const auto &indir : indirs) {
         // go to input dir to have proper relative paths
@@ -156,7 +150,7 @@ static void generateQRCAndCheckInputs(const QStringList &indirs, const QString &
 
         // we look at all interesting files in the indir and create a qrc with resolved symlinks
         // we need QDir::System to get broken links for checking
-        QDirIterator it(QStringLiteral("."), {QStringLiteral("*.theme"), QStringLiteral("*.svg")}, QDir::Files | QDir::System, QDirIterator::Subdirectories);
+	QDirIterator it(QStringLiteral("."), {QStringLiteral("*.theme"), QStringLiteral("*.svg")}, QDir::Files | QDir::System, QDirIterator::Subdirectories);
         while (it.hasNext()) {
             // ensure nice path without ./ and Co.
             const auto file = QDir::current().relativeFilePath(it.next());
@@ -220,8 +214,7 @@ static void generateQRCAndCheckInputs(const QStringList &indirs, const QString &
                 themeFileFound = true;
             }
 
-            // write the one alias to file entry
-            out.write(QStringLiteral("    <file alias=\"%1\">%2</file>\n").arg(file, fullPath).toUtf8());
+            lines.append(QStringLiteral("    <file alias=\"%1\">%2</file>\n").arg(file, fullPath));
 
             // remember for checks below
             filesInResource.insert(file);
@@ -232,6 +225,19 @@ static void generateQRCAndCheckInputs(const QStringList &indirs, const QString &
 
         // starting with the second directory we look at generated icons
         generatedIcons = true;
+    }
+
+    // Write the resource file
+    QFile out(outfile);
+    if (!out.open(QIODevice::WriteOnly)) {
+        qFatal() << "Failed to create" << outfile;
+    }
+    out.write("<!DOCTYPE RCC><RCC version=\"1.0\">\n");
+    out.write("<qresource>\n");
+
+    std::sort(lines.begin(), lines.end());
+    for (const auto &line : lines) {
+        out.write(line.toUtf8());
     }
 
     out.write("</qresource>\n");
