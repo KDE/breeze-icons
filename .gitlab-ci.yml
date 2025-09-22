@@ -25,7 +25,7 @@ webfonts:
   script:
     - cd webfont/
     - yarn install
-    - yarn run grunt
+    - yarn run grunt --verbose
     - cd ../
     - python3 -u ci-notary-service/publishwebsite.py --config ci-utilities/signing/publishwebsite.ini webfont/dist/
   artifacts:
