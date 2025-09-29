@@ -115,9 +115,8 @@ int main(int argc, char **argv)
             auto inputFileInfo = dirIt.nextFileInfo();
             const auto inputFilePath = inputFileInfo.absoluteFilePath();
 
-            // Skip non-files, non-svgs and existing breeze dark icons
-            if (!inputFileInfo.isFile() || !inputFilePath.endsWith(".svg"_L1)
-                || QFileInfo::exists(QString{inputFilePath}.replace("/icons/"_L1, "/icons-dark/"_L1))) {
+            // Skip non-files and non-svgs
+            if (!inputFileInfo.isFile() || !inputFilePath.endsWith(".svg"_L1)) {
                 continue;
             }
 

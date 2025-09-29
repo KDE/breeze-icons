@@ -109,8 +109,16 @@ install(FILES ${CMAKE_CURRENT_BINARY_DIR}/breezeicons_version.h
   DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF}/BreezeIcons COMPONENT Devel)
 
 add_subdirectory(autotests)
+
+# declare both install dirs, icons will install fallback icons to dark, too!
+set(BREEZE_INSTALL_DIR ${KDE_INSTALL_FULL_ICONDIR}/breeze)
+set(BREEZE_DARK_INSTALL_DIR ${KDE_INSTALL_FULL_ICONDIR}/breeze-dark)
+
+# generate and install both variants
+# order is important, icons-dark will install files over stuff from icons
 add_subdirectory(icons)
 add_subdirectory(icons-dark)
+
 add_subdirectory(src)
 
 include(ECMFeatureSummary)
