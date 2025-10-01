@@ -1,2 +1,3 @@
 #define PROJECT_SOURCE_DIR QStringLiteral("${PROJECT_SOURCE_DIR}")
-#define ICON_DIRS QStringList{ QStringLiteral("icons"), QStringLiteral("icons-dark") }
+#define PROJECT_BINARY_DIR QStringLiteral("${CMAKE_BINARY_DIR}/breeze")
+#define ICON_DIRS QStringList{ QStringLiteral("icons") }

@@ -17,13 +17,13 @@ class ResourceTest : public QObject
 {
     Q_OBJECT
 
-    void compareFileResourceWithFilesystem(const QString &name)
+    void compareFileResourceWithFilesystem(const QString &name, bool generated = false)
     {
         // resource location
         const QString qrcLocation(QStringLiteral(":/icons/breeze/%1").arg(name));
 
         // file system location
-        const QString fsLocation(PROJECT_SOURCE_DIR + QStringLiteral("/icons/%1").arg(name));
+        const QString fsLocation((generated ? PROJECT_BINARY_DIR : PROJECT_SOURCE_DIR) + QStringLiteral("/icons/%1").arg(name));
 
         // read full data of both, must work
         QFile qrcFile(qrcLocation);
@@ -48,7 +48,7 @@ private Q_SLOTS:
         BreezeIcons::initIcons();
 
         // we want to have the proper theme file
-        compareFileResourceWithFilesystem(QStringLiteral("index.theme"));
+        compareFileResourceWithFilesystem(QStringLiteral("index.theme"), true);
 
         // check some icons we know shall be there
         // check no stuff that might not be generated in some config or that is a symlink
