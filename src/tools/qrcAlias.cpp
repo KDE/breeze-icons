@@ -138,7 +138,8 @@ static QString resolveWindowsGitLink(const QString &path, const QString &fileNam
 static void generateQRCAndCheckInputs(const QStringList &indirs, const QString &outfile)
 {
     // loop over the inputs, remember if we do look at generated stuff for checks
-    bool generatedIcons = false;
+    // if we get just one dir, that is a generated one
+    bool generatedIcons = indirs.size() == 1;
     QSet<QString> checkedFiles, filesInResource;
     QList<QString> lines;
     bool themeFileFound = false, icons24Seen = false;
@@ -223,7 +224,7 @@ static void generateQRCAndCheckInputs(const QStringList &indirs, const QString &
             }
         }
 
-        // starting with the second directory we look at generated icons
+        // starting with the second directory we look at generated icons, in all cases
         generatedIcons = true;
     }
 
