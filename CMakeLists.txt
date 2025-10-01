@@ -114,6 +114,12 @@ add_subdirectory(autotests)
 set(BREEZE_INSTALL_DIR ${KDE_INSTALL_FULL_ICONDIR}/breeze)
 set(BREEZE_DARK_INSTALL_DIR ${KDE_INSTALL_FULL_ICONDIR}/breeze-dark)
 
+# set and create the generation directories, we always need them
+set(ICON_GEN_DIR ${CMAKE_BINARY_DIR}/breeze/icons)
+set(ICON_DARK_GEN_DIR ${CMAKE_BINARY_DIR}/breeze/icons-dark)
+file(MAKE_DIRECTORY ${ICON_GEN_DIR})
+file(MAKE_DIRECTORY ${ICON_DARK_GEN_DIR})
+
 # generate and install both variants
 add_subdirectory(icons)
 

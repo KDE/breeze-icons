@@ -15,14 +15,19 @@ if(NOT WIN32 AND NOT SKIP_INSTALL_ICONS)
     )
 endif()
 
-set(ICON_GEN_DIR ${CMAKE_BINARY_DIR}/breeze/icons)
-set(ICON_DARK_GEN_DIR ${CMAKE_BINARY_DIR}/breeze/icons-dark)
+# generate the two theme indices
+file(COPY_FILE breeze.theme.in ${ICON_GEN_DIR}/index.theme)
+file(READ commonthemeinfo.theme.in COMMON_THEME_INFO)
+file(APPEND ${ICON_GEN_DIR}/index.theme ${COMMON_THEME_INFO})
+file(COPY_FILE breeze-dark.theme.in ${ICON_DARK_GEN_DIR}/index.theme)
+file(READ commonthemeinfo.theme.in COMMON_THEME_INFO)
+file(APPEND ${ICON_DARK_GEN_DIR}/index.theme ${COMMON_THEME_INFO})
+
+# generate stuff if wanted
 if(WITH_ICON_GENERATION)
     # Auto-generate 24px monochrome icons from 22px versions
     add_custom_target(breeze-generate-24px-versions ALL
         COMMENT "Generating 24px icons"
-        COMMAND ${CMAKE_COMMAND} -E make_directory ${ICON_GEN_DIR}
-        COMMAND ${CMAKE_COMMAND} -E make_directory ${ICON_DARK_GEN_DIR}
         COMMAND ${Python_EXECUTABLE} ${CMAKE_SOURCE_DIR}/generate-24px-versions.py
                 ${CMAKE_CURRENT_SOURCE_DIR}
                 ${ICON_GEN_DIR}
@@ -32,18 +37,8 @@ else()
     # create the target dir, we need it for resource creation
     add_custom_target(breeze-generate-24px-versions ALL
         COMMENT "Generating 24px icons placeholder"
-        COMMAND ${CMAKE_COMMAND} -E make_directory ${ICON_GEN_DIR}
-        COMMAND ${CMAKE_COMMAND} -E make_directory ${ICON_DARK_GEN_DIR}
     )
 endif()
-
-# generate the two theme indices
-file(COPY_FILE breeze.theme.in ${ICON_GEN_DIR}/index.theme)
-file(READ commonthemeinfo.theme.in COMMON_THEME_INFO)
-file(APPEND ${ICON_GEN_DIR}/index.theme ${COMMON_THEME_INFO})
-file(COPY_FILE breeze-dark.theme.in ${ICON_DARK_GEN_DIR}/index.theme)
-file(READ commonthemeinfo.theme.in COMMON_THEME_INFO)
-file(APPEND ${ICON_DARK_GEN_DIR}/index.theme ${COMMON_THEME_INFO})
 
 if(NOT SKIP_INSTALL_ICONS)
     # install the instantiated theme indices

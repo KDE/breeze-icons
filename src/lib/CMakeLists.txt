@@ -11,8 +11,8 @@ set(RESOURCE_FILE_BINARY ${CMAKE_CURRENT_BINARY_DIR}/breeze-icons.rcc)
 # we only will use the normal icons, we do recoloring later
 # we run the tool over the dark ones just to do all checks on them, too
 add_custom_command(OUTPUT ${RESOURCE_FILE}
-    COMMAND qrcAlias -o ${RESOURCE_FILE} ${CMAKE_SOURCE_DIR}/icons ${CMAKE_BINARY_DIR}/breeze/icons # used for the resource
-    COMMAND qrcAlias -o ${RESOURCE_FILE}.dark.dummy ${CMAKE_SOURCE_DIR}/icons-dark ${CMAKE_BINARY_DIR}/breeze/icons-dark # used for checking only
+    COMMAND qrcAlias -o ${RESOURCE_FILE} ${CMAKE_SOURCE_DIR}/icons ${ICON_GEN_DIR} # used for the resource
+    COMMAND qrcAlias -o ${RESOURCE_FILE}.dark.dummy ${ICON_DARK_GEN_DIR} # used for checking only
     COMMAND Qt6::rcc --binary -o ${RESOURCE_FILE_BINARY} ${RESOURCE_FILE} # FIXME: remove after e.g. Kexi is ported
     DEPENDS qrcAlias breeze-generate-24px-versions # ensure we run after the generation steps
     USES_TERMINAL
