@@ -115,10 +115,9 @@ set(BREEZE_INSTALL_DIR ${KDE_INSTALL_FULL_ICONDIR}/breeze)
 set(BREEZE_DARK_INSTALL_DIR ${KDE_INSTALL_FULL_ICONDIR}/breeze-dark)
 
 # generate and install both variants
-# order is important, icons-dark will install files over stuff from icons
 add_subdirectory(icons)
-add_subdirectory(icons-dark)
 
+# build the icon library and tools
 add_subdirectory(src)
 
 include(ECMFeatureSummary)

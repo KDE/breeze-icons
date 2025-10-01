@@ -37,14 +37,18 @@ else()
     )
 endif()
 
-# index.theme is used by the lib (via qrc/rcc)
-# and gets installed in the condition below
-file(COPY_FILE index.theme.in index.theme)
-file(READ ../commonthemeinfo.theme.in COMMON_THEME_INFO)
-file(APPEND index.theme ${COMMON_THEME_INFO})
+# generate the two theme indices
+file(COPY_FILE breeze.theme.in ${ICON_GEN_DIR}/index.theme)
+file(READ commonthemeinfo.theme.in COMMON_THEME_INFO)
+file(APPEND ${ICON_GEN_DIR}/index.theme ${COMMON_THEME_INFO})
+file(COPY_FILE breeze-dark.theme.in ${ICON_DARK_GEN_DIR}/index.theme)
+file(READ commonthemeinfo.theme.in COMMON_THEME_INFO)
+file(APPEND ${ICON_DARK_GEN_DIR}/index.theme ${COMMON_THEME_INFO})
 
 if(NOT SKIP_INSTALL_ICONS)
-    install(FILES index.theme DESTINATION ${BREEZE_INSTALL_DIR})
+    # install the instantiated theme indices
+    install(FILES ${ICON_GEN_DIR}/index.theme DESTINATION ${BREEZE_INSTALL_DIR})
+    install(FILES ${ICON_DARK_GEN_DIR}/index.theme DESTINATION ${BREEZE_DARK_INSTALL_DIR})
 
     # we install icons as breeze and as fallback for breeze-dark
     # breeze-dark will overwrite some installed files with generated color patched ones
@@ -64,6 +68,8 @@ if(NOT SKIP_INSTALL_ICONS)
         install(DIRECTORY ${ICON_DARK_GEN_DIR}/ DESTINATION ${BREEZE_DARK_INSTALL_DIR})
     endif()
 
+    # update the icon caches
     gtk_update_icon_cache(${BREEZE_INSTALL_DIR})
+    gtk_update_icon_cache(${BREEZE_DARK_INSTALL_DIR})
 endif()
 
