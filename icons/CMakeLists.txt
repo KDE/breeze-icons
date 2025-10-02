@@ -8,13 +8,6 @@ FOREACH(possible_icon_dir ${possible_icon_dirs})
     ENDIF()
 ENDFOREACH()
 
-if(NOT WIN32 AND NOT SKIP_INSTALL_ICONS)
-    add_custom_target(create-app-symlinks ALL
-        COMMENT "Creating icon symlinks for app aliases"
-        COMMAND ${Python_EXECUTABLE} ${CMAKE_SOURCE_DIR}/create-app-symlinks.py ${CMAKE_CURRENT_SOURCE_DIR} ${CMAKE_CURRENT_BINARY_DIR}/aliases/
-    )
-endif()
-
 # generate the two theme indices
 file(COPY_FILE breeze.theme.in ${ICON_GEN_DIR}/index.theme)
 file(READ commonthemeinfo.theme.in COMMON_THEME_INFO)
@@ -51,10 +44,6 @@ if(NOT SKIP_INSTALL_ICONS)
     install(DIRECTORY ${breeze_icon_dirs} DESTINATION ${BREEZE_INSTALL_DIR})
     install(DIRECTORY ${breeze_icon_dirs} DESTINATION ${BREEZE_DARK_INSTALL_DIR})
 
-    if(NOT WIN32)
-        install(DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/aliases/ DESTINATION ${BREEZE_INSTALL_DIR})
-        install(DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/aliases/ DESTINATION ${BREEZE_DARK_INSTALL_DIR})
-    endif()
     if(WITH_ICON_GENERATION)
         install(DIRECTORY ${ICON_GEN_DIR}/ DESTINATION ${BREEZE_INSTALL_DIR})
         install(DIRECTORY ${ICON_GEN_DIR}/ DESTINATION ${BREEZE_DARK_INSTALL_DIR})
