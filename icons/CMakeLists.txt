@@ -39,7 +39,7 @@ file(APPEND ${ICON_DARK_GEN_DIR}/index.theme ${COMMON_THEME_INFO})
 if(WITH_ICON_GENERATION)
     # generate 24px & dark icons + do checking and create the resource
     add_custom_command(OUTPUT ${RESOURCE_FILE}
-        COMMENT "Generating 24px & dark icons and resources"
+        COMMENT "Generating 24px & symbolic dark icons and resources"
         COMMAND ${Python_EXECUTABLE} ${CMAKE_SOURCE_DIR}/tools/generate-24px-versions.py ${CMAKE_CURRENT_SOURCE_DIR} ${ICON_GEN_DIR}
         COMMAND $<TARGET_FILE:generate-symbolic-dark> ${CMAKE_SOURCE_DIR}/icons ${ICON_GEN_DIR} ${ICON_DARK_GEN_DIR}
         COMMAND $<TARGET_FILE:qrcAlias> -o ${RESOURCE_FILE} ${CMAKE_SOURCE_DIR}/icons ${ICON_GEN_DIR} # used for the resource
@@ -49,9 +49,9 @@ if(WITH_ICON_GENERATION)
         USES_TERMINAL
     )
 else()
-    # only do checking and create the resource
+    # generate dark icons + do checking and create the resource
     add_custom_command(OUTPUT ${RESOURCE_FILE}
-        COMMENT "Generating resources"
+        COMMENT "Generating symbolic dark icons and resources"
         COMMAND $<TARGET_FILE:generate-symbolic-dark> ${CMAKE_SOURCE_DIR}/icons ${ICON_GEN_DIR} ${ICON_DARK_GEN_DIR}
         COMMAND $<TARGET_FILE:qrcAlias> -o ${RESOURCE_FILE} ${CMAKE_SOURCE_DIR}/icons ${ICON_GEN_DIR} # used for the resource
         COMMAND $<TARGET_FILE:qrcAlias> -o ${RESOURCE_FILE}.dark.dummy ${ICON_DARK_GEN_DIR} # used for checking only
