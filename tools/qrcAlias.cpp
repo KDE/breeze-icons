@@ -151,7 +151,7 @@ static void generateQRCAndCheckInputs(const QStringList &indirs, const QString &
 
         // we look at all interesting files in the indir and create a qrc with resolved symlinks
         // we need QDir::System to get broken links for checking
-	QDirIterator it(QStringLiteral("."), {QStringLiteral("*.theme"), QStringLiteral("*.svg")}, QDir::Files | QDir::System, QDirIterator::Subdirectories);
+        QDirIterator it(QStringLiteral("."), {QStringLiteral("*.theme"), QStringLiteral("*.svg")}, QDir::Files | QDir::System, QDirIterator::Subdirectories);
         while (it.hasNext()) {
             // ensure nice path without ./ and Co.
             const auto file = QDir::current().relativeFilePath(it.next());

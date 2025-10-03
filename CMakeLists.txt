@@ -108,23 +108,14 @@ install(EXPORT KF6BreezeIconsTargets
 install(FILES ${CMAKE_CURRENT_BINARY_DIR}/breezeicons_version.h
   DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF}/BreezeIcons COMPONENT Devel)
 
-add_subdirectory(autotests)
-
-# declare both install dirs, icons will install fallback icons to dark, too!
-set(BREEZE_INSTALL_DIR ${KDE_INSTALL_FULL_ICONDIR}/breeze)
-set(BREEZE_DARK_INSTALL_DIR ${KDE_INSTALL_FULL_ICONDIR}/breeze-dark)
-
-# set and create the generation directories, we always need them
-set(ICON_GEN_DIR ${CMAKE_BINARY_DIR}/breeze/icons)
-set(ICON_DARK_GEN_DIR ${CMAKE_BINARY_DIR}/breeze/icons-dark)
-file(MAKE_DIRECTORY ${ICON_GEN_DIR})
-file(MAKE_DIRECTORY ${ICON_DARK_GEN_DIR})
+# tools to generate icons and resources
+add_subdirectory(tools)
 
 # generate and install both variants
 add_subdirectory(icons)
 
-# build the icon library and tools
-add_subdirectory(src)
+# unit tests
+add_subdirectory(autotests)
 
 include(ECMFeatureSummary)
 ecm_feature_summary(WHAT ALL FATAL_ON_MISSING_REQUIRED_PACKAGES INCLUDE_QUIET_PACKAGES)
