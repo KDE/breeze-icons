@@ -17,6 +17,3 @@ xmlerrors
 .idea
 /cmake-build*
 .cache
-#index.theme is currently generated in the source dir
-icons/index.theme
-icons-dark/index.theme
