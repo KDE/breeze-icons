@@ -47,27 +47,12 @@ elseif(COMPILER_SUPPORTS_NO_GL)
 endif()
 set(CMAKE_INTERPROCEDURAL_OPTIMIZATION OFF)
 
-if(Python_FOUND)
-    # Find lxml Python 3 module
-    exec_program(${Python_EXECUTABLE}
-        ARGS "-c \"import lxml; from lxml import etree; print(lxml.get_include())\""
-        RETURN_VALUE LXML_NOT_FOUND # Returns 0 or false if successful
-    )
-
-    # Generating icons is not required, but strongly recommended in most cases
-    if(LXML_NOT_FOUND)
-        message(WARNING "lxml or lxml.etree not found; icon generation disabled")
-        set(WITH_ICON_GENERATION OFF)
-    else()
-        option(WITH_ICON_GENERATION "Icon generation" ON)
-    endif()
-else()
-    set(WITH_ICON_GENERATION OFF)
+# 24x24 generation (requires python)
+option(WITH_ICON_GENERATION "24x24 icon generation" ON)
+add_feature_info("Icon generation" ${WITH_ICON_GENERATION} "for 24x24 icons, this feature requires Python 3 and the lxml Python 3 module.")
+if(WITH_ICON_GENERATION)
+    find_package(Python 3 COMPONENTS Interpreter REQUIRED)
 endif()
-
-add_feature_info("Icon generation" ${WITH_ICON_GENERATION} "for 24x24 and symbolic dark icons.
-   This feature requires Python 3 and the lxml Python 3 module."
-) # The exact amount of indentation used in the line(s) above is intentional
 
 # don't install the individual icons
 # useful if you only want to link with the generated icon library
