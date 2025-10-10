@@ -45,7 +45,7 @@ if(WITH_ICON_GENERATION)
         COMMAND $<TARGET_FILE:qrcAlias> -o ${RESOURCE_FILE} ${CMAKE_SOURCE_DIR}/icons ${ICON_GEN_DIR} # used for the resource
         COMMAND $<TARGET_FILE:qrcAlias> -o ${RESOURCE_FILE}.dark.dummy ${ICON_DARK_GEN_DIR} # used for checking only
         COMMAND Qt6::rcc --binary -o ${RESOURCE_FILE_BINARY} ${RESOURCE_FILE} # FIXME: remove after e.g. Kexi is ported
-        DEPENDS ${icon_svgs} ${ICON_GEN_DIR}/index.theme ${ICON_DARK_GEN_DIR}/index.theme
+        DEPENDS ${icon_svgs} commonthemeinfo.theme.in breeze.theme.in breeze-dark.theme.in
         USES_TERMINAL
     )
 else()
@@ -56,7 +56,7 @@ else()
         COMMAND $<TARGET_FILE:qrcAlias> -o ${RESOURCE_FILE} ${CMAKE_SOURCE_DIR}/icons ${ICON_GEN_DIR} # used for the resource
         COMMAND $<TARGET_FILE:qrcAlias> -o ${RESOURCE_FILE}.dark.dummy ${ICON_DARK_GEN_DIR} # used for checking only
         COMMAND Qt6::rcc --binary -o ${RESOURCE_FILE_BINARY} ${RESOURCE_FILE} # FIXME: remove after e.g. Kexi is ported
-        DEPENDS ${icon_svgs} ${ICON_GEN_DIR}/index.theme ${ICON_DARK_GEN_DIR}/index.theme
+        DEPENDS ${icon_svgs} commonthemeinfo.theme.in breeze.theme.in breeze-dark.theme.in
         USES_TERMINAL
     )
 endif()
