@@ -184,8 +184,8 @@ static void generateQRCAndCheckInputs(const QStringList &indirs, const QString &
 
             // more checks for links
             if (isLink) {
-                // empty canonical path means not found
-                if (fullPath.isEmpty()) {
+                // empty canonical path means not found, on Windows the path will be resolved
+                if (fullPath.isEmpty() || !QFileInfo::exists(fullPath)) {
                     // qFatal() << "Broken symlink" << file << "in input directory" << indir;
                     // ATM we allow that as otherwise the generation misses links
                     // see https://invent.kde.org/frameworks/breeze-icons/-/merge_requests/467
