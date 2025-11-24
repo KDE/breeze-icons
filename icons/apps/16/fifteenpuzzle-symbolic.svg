@@ -1,0 +1,18 @@
+<svg width="16" height="16" version="1.1" viewBox="0 0 16 16.000001" xmlns="http://www.w3.org/2000/svg">
+    <style type="text/css" id="current-color-scheme">
+        .ColorScheme-Text {
+        color:#232629;
+        }
+    </style>
+    <g transform="translate(-23)" class="ColorScheme-Text" fill="currentColor" stroke-linecap="square">
+        <path d="m25 2v12h12v-12zm1 1h10v10h-10z" stop-color="#000000"/>
+        <path d="m27 3.9999995h2v1.9999998h-2z"/>
+        <path d="m30 3.9999995h2v1.9999998h-2z"/>
+        <path d="m32.980778 3.9999995h2.038445v1.9999999h-2.038445z"/>
+        <path d="m27 6.9999995h2v1.9999998h-2z"/>
+        <path d="m30 6.9999995h2v1.9999998h-2z"/>
+        <path d="m32.980778 7.999999h2.038445v1.9999999h-2.038445z"/>
+        <path d="m27 9.999999h2v2h-2z"/>
+        <path d="m30 9.999999h2v2h-2z"/>
+    </g>
+</svg>
