@@ -81,10 +81,10 @@ if(NOT SKIP_INSTALL_ICONS)
     if(WITH_ICON_GENERATION)
         install(DIRECTORY ${ICON_GEN_DIR}/ DESTINATION ${BREEZE_INSTALL_DIR})
         install(DIRECTORY ${ICON_GEN_DIR}/ DESTINATION ${BREEZE_DARK_INSTALL_DIR})
-
-        # generated dark icons are installed on-top
-        install(DIRECTORY ${ICON_DARK_GEN_DIR}/ DESTINATION ${BREEZE_DARK_INSTALL_DIR})
     endif()
+
+    # generated dark icons are installed on-top
+    install(DIRECTORY ${ICON_DARK_GEN_DIR}/ DESTINATION ${BREEZE_DARK_INSTALL_DIR})
 
     # update the icon caches
     gtk_update_icon_cache(${BREEZE_INSTALL_DIR})
