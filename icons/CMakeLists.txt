@@ -91,57 +91,61 @@ if(NOT SKIP_INSTALL_ICONS)
     gtk_update_icon_cache(${BREEZE_DARK_INSTALL_DIR})
 endif()
 
-# helper functions to ensure we load the icon theme
-set(kbreezeicons_SRCS breezeicons.cpp)
+if (WITH_ICONS_LIBRARY)
+    # helper functions to ensure we load the icon theme
+    set(kbreezeicons_SRCS breezeicons.cpp)
 
-# use big resource variant, else we OOM on 32 bit machines
-# this has issues with LTO, we have a unit test that tells if stuff got lost in the DLL
-qt_add_big_resources(kbreezeicons_resource_SRCS
-    ${RESOURCE_FILE}
-    OPTIONS --root /icons/breeze
-)
+    # use big resource variant, else we OOM on 32 bit machines
+    # this has issues with LTO, we have a unit test that tells if stuff got lost in the DLL
+    qt_add_big_resources(kbreezeicons_resource_SRCS
+        ${RESOURCE_FILE}
+        OPTIONS --root /icons/breeze
+    )
 
-add_library(KF6BreezeIcons ${kbreezeicons_resource_SRCS} ${kbreezeicons_SRCS})
-add_library(KF6::BreezeIcons ALIAS KF6BreezeIcons)
 
-set_target_properties(KF6BreezeIcons
-    PROPERTIES
-        VERSION ${BREEZEICONS_VERSION}
-        SOVERSION ${BREEZEICONS_SOVERSION}
-        EXPORT_NAME BreezeIcons
-)
+    add_library(KF6BreezeIcons ${kbreezeicons_resource_SRCS} ${kbreezeicons_SRCS})
+    add_library(KF6::BreezeIcons ALIAS KF6BreezeIcons)
 
-generate_export_header(KF6BreezeIcons BASE_NAME BreezeIcons)
+    set_target_properties(KF6BreezeIcons
+        PROPERTIES
+            VERSION ${BREEZEICONS_VERSION}
+            SOVERSION ${BREEZEICONS_SOVERSION}
+            EXPORT_NAME BreezeIcons
+    )
 
-target_include_directories(KF6BreezeIcons
-    INTERFACE
-        "$<INSTALL_INTERFACE:${KDE_INSTALL_INCLUDEDIR_KF}/BreezeIcons>"
-)
+    generate_export_header(KF6BreezeIcons BASE_NAME BreezeIcons)
 
-target_link_libraries(KF6BreezeIcons
-    PUBLIC
-        Qt6::Gui
-)
+    target_include_directories(KF6BreezeIcons
+        INTERFACE
+            "$<INSTALL_INTERFACE:${KDE_INSTALL_INCLUDEDIR_KF}/BreezeIcons>"
+    )
 
-ecm_generate_headers(KF6BreezeIcons_CamelCase_HEADERS
-    HEADER_NAMES
-        BreezeIcons
+    target_link_libraries(KF6BreezeIcons
+        PUBLIC
+            Qt6::Gui
+    )
 
-    REQUIRED_HEADERS
-        KF6BreezeIcons_HEADERS
-)
+    ecm_generate_headers(KF6BreezeIcons_CamelCase_HEADERS
+        HEADER_NAMES
+            BreezeIcons
 
-install(TARGETS KF6BreezeIcons EXPORT KF6BreezeIconsTargets ${KF_INSTALL_TARGETS_DEFAULT_ARGS})
+        REQUIRED_HEADERS
+            KF6BreezeIcons_HEADERS
+    )
 
-install(FILES
-    ${CMAKE_CURRENT_BINARY_DIR}/breezeicons_export.h
-    ${KF6BreezeIcons_HEADERS}
-    DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF}/BreezeIcons
-    COMPONENT Devel
-)
+    install(TARGETS KF6BreezeIcons EXPORT KF6BreezeIconsTargets ${KF_INSTALL_TARGETS_DEFAULT_ARGS})
 
-install(FILES
-    ${KF6BreezeIcons_CamelCase_HEADERS}
-    DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF}/BreezeIcons
-    COMPONENT Devel
-)
+    install(FILES
+        ${CMAKE_CURRENT_BINARY_DIR}/breezeicons_export.h
+        ${KF6BreezeIcons_HEADERS}
+        DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF}/BreezeIcons
+        COMPONENT Devel
+    )
+
+    install(FILES
+        ${KF6BreezeIcons_CamelCase_HEADERS}
+        DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF}/BreezeIcons
+        COMPONENT Devel
+    )
+
+endif()

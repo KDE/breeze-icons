@@ -62,36 +62,40 @@ option(SKIP_INSTALL_ICONS "Skip installing the icons files" OFF)
 # FIXME: remove after e.g. Kexi is ported
 option(BINARY_ICONS_RESOURCE "Install Qt binary resource file containing breeze icons (breeze-icons.rcc), should only be used if needed for compatibility" OFF)
 
-set(CMAKECONFIG_INSTALL_DIR "${KDE_INSTALL_CMAKEPACKAGEDIR}/KF6BreezeIcons")
+option(WITH_ICONS_LIBRARY "Build the Breeze icons library" ON)
 
-configure_package_config_file(
-  "${CMAKE_CURRENT_SOURCE_DIR}/KF6BreezeIconsConfig.cmake.in"
-  "${CMAKE_CURRENT_BINARY_DIR}/KF6BreezeIconsConfig.cmake"
-  INSTALL_DESTINATION  ${CMAKECONFIG_INSTALL_DIR}
-  PATH_VARS  CMAKE_INSTALL_PREFIX
-)
+if(WITH_ICONS_LIBRARY)
+    set(CMAKECONFIG_INSTALL_DIR "${KDE_INSTALL_CMAKEPACKAGEDIR}/KF6BreezeIcons")
 
-install(FILES
-  "${CMAKE_CURRENT_BINARY_DIR}/KF6BreezeIconsConfig.cmake"
-  "${CMAKE_CURRENT_BINARY_DIR}/KF6BreezeIconsConfigVersion.cmake"
-  DESTINATION "${CMAKECONFIG_INSTALL_DIR}"
-  COMPONENT Devel
-)
+    configure_package_config_file(
+      "${CMAKE_CURRENT_SOURCE_DIR}/KF6BreezeIconsConfig.cmake.in"
+      "${CMAKE_CURRENT_BINARY_DIR}/KF6BreezeIconsConfig.cmake"
+      INSTALL_DESTINATION  ${CMAKECONFIG_INSTALL_DIR}
+      PATH_VARS  CMAKE_INSTALL_PREFIX
+    )
 
-ecm_setup_version(PROJECT
-  VARIABLE_PREFIX BREEZEICONS
-  VERSION_HEADER ${CMAKE_CURRENT_BINARY_DIR}/breezeicons_version.h
-  PACKAGE_VERSION_FILE "${CMAKE_CURRENT_BINARY_DIR}/KF6BreezeIconsConfigVersion.cmake"
-  SOVERSION 6)
+    install(FILES
+      "${CMAKE_CURRENT_BINARY_DIR}/KF6BreezeIconsConfig.cmake"
+      "${CMAKE_CURRENT_BINARY_DIR}/KF6BreezeIconsConfigVersion.cmake"
+      DESTINATION "${CMAKECONFIG_INSTALL_DIR}"
+      COMPONENT Devel
+    )
 
-install(EXPORT KF6BreezeIconsTargets
-  DESTINATION "${CMAKECONFIG_INSTALL_DIR}"
-  FILE KF6BreezeIconsTargets.cmake
-  NAMESPACE KF6::
-)
+    ecm_setup_version(PROJECT
+      VARIABLE_PREFIX BREEZEICONS
+      VERSION_HEADER ${CMAKE_CURRENT_BINARY_DIR}/breezeicons_version.h
+      PACKAGE_VERSION_FILE "${CMAKE_CURRENT_BINARY_DIR}/KF6BreezeIconsConfigVersion.cmake"
+      SOVERSION 6)
 
-install(FILES ${CMAKE_CURRENT_BINARY_DIR}/breezeicons_version.h
-  DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF}/BreezeIcons COMPONENT Devel)
+    install(EXPORT KF6BreezeIconsTargets
+      DESTINATION "${CMAKECONFIG_INSTALL_DIR}"
+      FILE KF6BreezeIconsTargets.cmake
+      NAMESPACE KF6::
+    )
+
+    install(FILES ${CMAKE_CURRENT_BINARY_DIR}/breezeicons_version.h
+      DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF}/BreezeIcons COMPONENT Devel)
+endif()
 
 # tools to generate icons and resources
 add_subdirectory(tools)
