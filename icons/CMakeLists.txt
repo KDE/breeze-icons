@@ -43,7 +43,7 @@ if(WITH_ICON_GENERATION)
         COMMAND ${Python_EXECUTABLE} ${CMAKE_SOURCE_DIR}/tools/generate-24px-versions.py ${CMAKE_CURRENT_SOURCE_DIR} ${ICON_GEN_DIR}
         COMMAND $<TARGET_FILE:generate-symbolic-dark> ${CMAKE_SOURCE_DIR}/icons ${ICON_GEN_DIR} ${ICON_DARK_GEN_DIR}
         COMMAND $<TARGET_FILE:qrcAlias> -o ${RESOURCE_FILE} ${CMAKE_SOURCE_DIR}/icons ${ICON_GEN_DIR} # used for the resource
-        COMMAND $<TARGET_FILE:qrcAlias> -o ${RESOURCE_FILE}.dark.dummy ${ICON_DARK_GEN_DIR} # used for checking only
+        COMMAND $<TARGET_FILE:qrcAlias> -o ${RESOURCE_FILE}.dark.dummy ${CMAKE_SOURCE_DIR}/icons ${ICON_GEN_DIR} ${ICON_DARK_GEN_DIR} # used for checking only
         COMMAND Qt6::rcc --binary -o ${RESOURCE_FILE_BINARY} ${RESOURCE_FILE} # FIXME: remove after e.g. Kexi is ported
         DEPENDS ${icon_svgs} commonthemeinfo.theme.in breeze.theme.in breeze-dark.theme.in
         USES_TERMINAL
@@ -54,7 +54,7 @@ else()
         COMMENT "Generating symbolic dark icons and resources"
         COMMAND $<TARGET_FILE:generate-symbolic-dark> ${CMAKE_SOURCE_DIR}/icons ${ICON_GEN_DIR} ${ICON_DARK_GEN_DIR}
         COMMAND $<TARGET_FILE:qrcAlias> -o ${RESOURCE_FILE} ${CMAKE_SOURCE_DIR}/icons ${ICON_GEN_DIR} # used for the resource
-        COMMAND $<TARGET_FILE:qrcAlias> -o ${RESOURCE_FILE}.dark.dummy ${ICON_DARK_GEN_DIR} # used for checking only
+        COMMAND $<TARGET_FILE:qrcAlias> -o ${RESOURCE_FILE}.dark.dummy ${CMAKE_SOURCE_DIR}/icons ${ICON_GEN_DIR} ${ICON_DARK_GEN_DIR} # used for checking only
         COMMAND Qt6::rcc --binary -o ${RESOURCE_FILE_BINARY} ${RESOURCE_FILE} # FIXME: remove after e.g. Kexi is ported
         DEPENDS ${icon_svgs} commonthemeinfo.theme.in breeze.theme.in breeze-dark.theme.in
         USES_TERMINAL
