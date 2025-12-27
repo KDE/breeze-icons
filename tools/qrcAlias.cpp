@@ -92,39 +92,84 @@ static void validateXml(const QString &fileName)
 }
 
 /**
- * Given a dir and a file inside, resolve the pseudo symlinks we get from Git on Windows.
+ * Given directories and a file, resolve real links & pseudo symlinks we get from Git on Windows.
  * Does some consistency checks, will die if they fail.
  *
- * @param path directory that contains the given file
- * @param fileName file name of the dir to check if it is a pseudo link
- * @param fileWeDidReadLinkFrom file name of the file we got the link from
+ * @param indirs directories that might contain link targets
+ * @param indir input directory the current file we handle is inside
+ * @param fileName full file name of the file to resolve, if some link
  * @return target of the link or empty string if no link
  */
-static QString resolveWindowsGitLink(const QString &path, const QString &fileName, const QString &fileWeDidReadLinkFrom)
+static QString resolveLink(const QStringList &indirs, const QString &indir, const QString &fileName)
 {
-    QFile in(path + QLatin1Char('/') + fileName);
-    if (!in.open(QIODevice::ReadOnly)) {
-        qFatal() << "resolveWindowsGitLink: failed to open" << in.fileName() << "to check for Windows Git symlink seen at" << fileWeDidReadLinkFrom;
+    // real link or lnk?
+    bool isLink = false;
+    QString symlinkTarget;
+    if (QFileInfo fi(fileName); fi.isSymLink() || fi.isSymbolicLink() || fi.isShortcut()) {
+        // this will return the absolute path (even if non-existing)
+        symlinkTarget = fi.symLinkTarget();
+        isLink = true;
     }
 
-    QString firstLine = QString::fromLocal8Bit(in.readLine());
-    if (firstLine.isEmpty()) {
-        return QString();
-    }
-    QRegularExpression fNameReg(QStringLiteral("(.*\\.(?:svg|png|gif|ico))$"));
-    QRegularExpressionMatch match = fNameReg.match(firstLine);
-    if (!match.hasMatch()) {
-        return QString();
+    // windows pseudo git link?
+    else {
+        QFile in(fileName);
+        if (!in.open(QIODevice::ReadOnly)) {
+            qFatal() << "resolveLink: failed to open" << fileName << "to check for Windows Git symlink.";
+        }
+
+        const QString firstLine = QString::fromUtf8(in.readLine());
+        if (firstLine.isEmpty()) {
+            return QString();
+        }
+        QRegularExpression fNameReg(QStringLiteral("(.*\\.svg)$"));
+        QRegularExpressionMatch match = fNameReg.match(firstLine);
+        if (!match.hasMatch()) {
+            return QString();
+        }
+
+        // construct absolute link target, like we would get from symLinkTarget()
+        symlinkTarget = QFileInfo(fi.path() + QLatin1Char('/') + match.captured(1)).absoluteFilePath();
+        isLink = true;
     }
 
-    QFileInfo linkInfo(path + QLatin1Char('/') + match.captured(1));
-    QString aliasLink = resolveWindowsGitLink(linkInfo.path(), linkInfo.fileName(), in.fileName());
-    if (!aliasLink.isEmpty()) {
-        // qDebug() <<  fileName << "=" << match.captured(1) << "=" << aliasLink;
+    // no link? nothing to do
+    if (!isLink)
+        return QString();
+
+    // if we failed to get any target, bad
+    if (symlinkTarget.isEmpty()) {
+        qFatal() << "Invalid link" << fileName << "with empty target found!";
+    }
+
+    // make link relative to current input dir
+    const auto relativeLink = QDir(indir).relativeFilePath(symlinkTarget);
+
+    // search if seen in any input directories
+    QString foundTarget, usedInDir;
+    QStringList triedTargets;
+    for (const auto &dir : indirs) {
+        const auto targetFile = QDir(dir).absoluteFilePath(relativeLink);
+        triedTargets << targetFile;
+        if (QFile::exists(targetFile)) {
+            foundTarget = targetFile;
+            usedInDir = dir;
+            break;
+        }
+    }
+
+    // we failed to find the target of the link
+    if (foundTarget.isEmpty()) {
+        qFatal() << "Invalid link" << fileName << "with non-existing target" << relativeLink << "found, tried the targets" << triedTargets;
+    }
+
+    // recurse if needed
+    if (const QString aliasLink = resolveLink(indirs, usedInDir, foundTarget); !aliasLink.isEmpty()) {
         return aliasLink;
     }
 
-    return path + QLatin1Char('/') + match.captured(1);
+    // else just return the current target
+    return foundTarget;
 }
 
 /**
@@ -165,37 +210,14 @@ static void generateQRCAndCheckInputs(const QStringList &indirs, const QString &
             }
 
             // per default we write the relative name as alias and the full path to pack in
-            // allows to generate the resource out of source, will already resolve normal symlinks
-            auto fullPath = fileInfo.canonicalFilePath();
+            // allows to generate the resource out of source
+            auto fullPath = fileInfo.absoluteFilePath();
 
             // real symlink resolving for Unices, the rcc compiler ignores such files in -project mode
-            bool isLink = false;
-            if (fileInfo.isSymLink()) {
-                isLink = true;
-            }
-
-            // pseudo link files generated by Git on Windows
-            else if (const auto aliasLink =
-                         resolveWindowsGitLink(fileInfo.path(), fileInfo.fileName(), QStringLiteral("<recursive file listing for qrc creation>"));
-                     !aliasLink.isEmpty()) {
-                fullPath = QFileInfo(aliasLink).canonicalFilePath();
-                isLink = true;
-            }
-
-            // more checks for links
-            if (isLink) {
-                // empty canonical path means not found
-                if (fullPath.isEmpty()) {
-                    // qFatal() << "Broken symlink" << file << "in input directory" << indir;
-                    // ATM we allow that as otherwise the generation misses links
-                    // see https://invent.kde.org/frameworks/breeze-icons/-/merge_requests/467
-                    continue;
-                }
-
-                // check that we don't link external stuff
-                if (!fullPath.startsWith(QFileInfo(indir).canonicalFilePath())) {
-                    qFatal() << "Bad symlink" << file << "in input directory" << indir << "to external file" << fullPath;
-                }
+            // we need to look them up in all input dirs
+            // handles pseudo link files generated by Git on Windows, too
+            if (const auto aliasLink = resolveLink(indirs, indir, fullPath); !aliasLink.isEmpty()) {
+                fullPath = aliasLink;
             }
 
             // do some checks for SVGs
