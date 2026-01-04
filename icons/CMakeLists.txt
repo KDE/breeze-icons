@@ -7,7 +7,6 @@ set(BREEZE_DARK_INSTALL_DIR ${KDE_INSTALL_FULL_ICONDIR}/breeze-dark)
 
 # generate resource file for all breeze icons
 set(RESOURCE_FILE ${CMAKE_CURRENT_BINARY_DIR}/breeze-icons.qrc)
-set(RESOURCE_FILE_BINARY ${CMAKE_CURRENT_BINARY_DIR}/breeze-icons.rcc)
 
 # set and create the generation directories, we always need them
 set(ICON_GEN_DIR ${CMAKE_BINARY_DIR}/breeze/icons)
@@ -44,7 +43,6 @@ if(WITH_ICON_GENERATION)
         COMMAND $<TARGET_FILE:generate-symbolic-dark> ${CMAKE_SOURCE_DIR}/icons ${ICON_GEN_DIR} ${ICON_DARK_GEN_DIR}
         COMMAND $<TARGET_FILE:qrcAlias> -o ${RESOURCE_FILE} ${CMAKE_SOURCE_DIR}/icons ${ICON_GEN_DIR} # used for the resource
         COMMAND $<TARGET_FILE:qrcAlias> -o ${RESOURCE_FILE}.dark.dummy ${CMAKE_SOURCE_DIR}/icons ${ICON_GEN_DIR} ${ICON_DARK_GEN_DIR} # used for checking only
-        COMMAND Qt6::rcc --binary -o ${RESOURCE_FILE_BINARY} ${RESOURCE_FILE} # FIXME: remove after e.g. Kexi is ported
         DEPENDS ${icon_svgs} commonthemeinfo.theme.in breeze.theme.in breeze-dark.theme.in
         USES_TERMINAL
     )
@@ -55,16 +53,9 @@ else()
         COMMAND $<TARGET_FILE:generate-symbolic-dark> ${CMAKE_SOURCE_DIR}/icons ${ICON_GEN_DIR} ${ICON_DARK_GEN_DIR}
         COMMAND $<TARGET_FILE:qrcAlias> -o ${RESOURCE_FILE} ${CMAKE_SOURCE_DIR}/icons ${ICON_GEN_DIR} # used for the resource
         COMMAND $<TARGET_FILE:qrcAlias> -o ${RESOURCE_FILE}.dark.dummy ${CMAKE_SOURCE_DIR}/icons ${ICON_GEN_DIR} ${ICON_DARK_GEN_DIR} # used for checking only
-        COMMAND Qt6::rcc --binary -o ${RESOURCE_FILE_BINARY} ${RESOURCE_FILE} # FIXME: remove after e.g. Kexi is ported
         DEPENDS ${icon_svgs} commonthemeinfo.theme.in breeze.theme.in breeze-dark.theme.in
         USES_TERMINAL
     )
-endif()
-
-# install as compatibility resource file if really requested
-# FIXME: remove after e.g. Kexi is ported
-if(BINARY_ICONS_RESOURCE)
-    install(FILES ${RESOURCE_FILE_BINARY} DESTINATION ${BREEZE_INSTALL_DIR})
 endif()
 
 if(NOT SKIP_INSTALL_ICONS)

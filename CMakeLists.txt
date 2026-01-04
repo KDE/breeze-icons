@@ -58,12 +58,8 @@ endif()
 # useful if you only want to link with the generated icon library
 option(SKIP_INSTALL_ICONS "Skip installing the icons files" OFF)
 
-# pure compatibility option for e.g. Kexi, not used in general and wastes disk space
-# FIXME: remove after e.g. Kexi is ported
-option(BINARY_ICONS_RESOURCE "Install Qt binary resource file containing breeze icons (breeze-icons.rcc), should only be used if needed for compatibility" OFF)
-
+# build the library that contains all icons as resources
 option(WITH_ICONS_LIBRARY "Build the Breeze icons library" ON)
-
 if(WITH_ICONS_LIBRARY)
     set(CMAKECONFIG_INSTALL_DIR "${KDE_INSTALL_CMAKEPACKAGEDIR}/KF6BreezeIcons")
 
