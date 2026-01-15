@@ -69,10 +69,11 @@
          x="789.4657"
          y="1781.6821"
          id="rect2996-6"
-         style="opacity:0.01;fill:#000000;fill-opacity:1;stroke:none" />
+         class="ColorScheme-Text"
+         style="opacity:0.01;fill:currentColor;fill-opacity:1;stroke:none" />
       <path
          sodipodi:nodetypes="cccccccccc"
-         style="color:#31363b;fill:#000000;fill-opacity:1;stroke:none"
+         style="fill:currentColor;fill-opacity:1;stroke:none"
          d="M 4.1249442,2.7499644 V 19.249957 H 17.87499 V 2.7499644 Z M 5.4999597,4.1250967 H 16.499955 V 17.875143 H 5.4999597 Z"
          transform="translate(789.4657,1781.6821)"
          id="path3130-7"
@@ -80,7 +81,7 @@
          inkscape:connector-curvature="0" />
     </g>
     <path
-       style="color:#31363b;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.01521"
+       style="fill:currentColor;fill-opacity:1;stroke:none;stroke-width:1.01521"
        d="m 5.3504541,3.771363 v 8 h 6.0000009 l 9.8e-4,-7.997254 z m 2.259694,1.653644 V 7.360245 L 9.0060581,5.456731 10.148167,5.710533 8.6888061,7.614047 10.148167,9.612736 9.0060581,9.961715 7.6101481,7.899574 V 9.771363 L 6.5314901,9.92999 V 5.520182 Z"
        id="path3005-8-5"
        class="ColorScheme-Text"

@@ -48,8 +48,9 @@
       }
       </style>
   <rect
-     style="opacity:0.01;fill:#000000;fill-opacity:1;stroke:none"
+     style="opacity:0.01;fill:currentColor;fill-opacity:1;stroke:none"
      id="rect7689"
+     class="ColorScheme-Text"
      y="9.6727037"
      x="-26.681759"
      ry="0"
@@ -62,9 +63,9 @@
      class="ColorScheme-Text"
      id="path3005"
      d="M 4.9999998,3.0000002 V 19 H 17 V 3.0000002 Z m 1,1 H 16 V 18 H 5.9999998 Z"
-     style="color:#31363b;fill:#000000;fill-opacity:1;stroke:none" />
+     style="fill:currentColor;fill-opacity:1;stroke:none" />
   <path
-     style="color:#31363b;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.28676"
+     style="fill:currentColor;fill-opacity:1;stroke:none;stroke-width:1.28676"
      d="M 6.9999999,5.0000002 V 17 L 15,16.998 V 5.0000002 Z m 3.1201151,3.0561426 v 2.4528942 l 1.769301,-2.4126842 1.447611,0.321691 -1.849724,2.4126842 1.849724,2.533317 -1.447611,0.442327 -1.769301,-2.613741 v 2.372473 L 8.7529279,13.766162 V 8.1767758 Z"
      id="path3005-8-5-3"
      class="ColorScheme-Text"
