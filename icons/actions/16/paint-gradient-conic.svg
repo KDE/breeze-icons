@@ -1,0 +1,37 @@
+<svg version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style
+       type="text/css"
+       id="current-color-scheme">
+      .ColorScheme-Text {
+        color:#232629;
+      }
+    </style>
+  </defs>
+  <g fill="currentColor" class="ColorScheme-Text">
+    <path d="m8 2v6l1.6074-6z" opacity=".2"/>
+    <path d="m9.6074 2-1.6074 6 3.4648-6z" opacity=".22"/>
+    <path d="m11.465 2-3.4648 6 6-6z" opacity=".24"/>
+    <path d="m14 4.5352-6 3.4648 6-6z" opacity=".26"/>
+    <path d="m14 6.3926-6 1.6074 6-3.4648z" opacity=".28"/>
+    <path d="m14 6.3926-6 1.6074h6z" opacity=".3"/>
+    <path d="m14 8h-6l6 1.6074z" opacity=".33"/>
+    <path d="m14 9.6074-6-1.6074 6 3.4648z" opacity=".35"/>
+    <path d="m14 11.465-6-3.4648 6 6z" opacity=".38"/>
+    <path d="m11.465 14-3.4648-6 6 6z" opacity=".41"/>
+    <path d="m9.6074 14-1.6074-6 3.4648 6z" opacity=".44"/>
+    <path d="m8 14v-6l1.6074 6z" opacity=".46"/>
+    <path d="m6.3926 14 1.6074-6v6z" opacity=".48"/>
+    <path d="m6.3926 14 1.6074-6-3.4648 6z" opacity=".5"/>
+    <path d="m4.5352 14 3.4648-6-6 6z" opacity=".52"/>
+    <path d="m2 11.465 6-3.4648-6 6z" opacity=".54"/>
+    <path d="m2 9.6074 6-1.6074-6 3.4648z" opacity=".56"/>
+    <path d="m2 8h6l-6 1.6074z" opacity=".58"/>
+    <path d="m2 6.3926 6 1.6074h-6z" opacity=".6"/>
+    <path d="m2 6.3926 6 1.6074-6-3.4648z" opacity=".62"/>
+    <path d="m2 4.5352 6 3.4648-6-6z" opacity=".64"/>
+    <path d="m4.5352 2 3.4648 6-6-6z" opacity=".66"/>
+    <path d="m6.3926 2 1.6074 6-3.4648-6z" opacity=".68"/>
+    <path d="m6.3926 2 1.6074 6v-6z" opacity=".7"/>
+  </g>
+</svg>
