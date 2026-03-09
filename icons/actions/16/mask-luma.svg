@@ -1,0 +1,14 @@
+<svg width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
+        color:#232629;
+      }</style>
+  </defs>
+  <g class="ColorScheme-Text" fill="currentColor">
+    <path d="m2 2v12h12v-12zm1 1h10v10h-10z"/>
+    <path d="m8 2a6 6 0 0 1-6 6v-6z"/>
+    <path d="m7.3548 6.6473-0.70954 0.70544 2.4602 2.4404 0.70955-0.70544z"/>
+    <path d="m5.0827 8.385-0.93055 0.36766 1.2957 3.2139 0.93056-0.36766z"/>
+    <path d="m8.3809 5.0844 0.36766-0.93055 3.2139 1.2957-0.36766 0.93056z"/>
+  </g>
+</svg>
