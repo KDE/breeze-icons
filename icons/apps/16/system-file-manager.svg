@@ -88,13 +88,12 @@
          id="stop39398" />
     </linearGradient>
     <style
-       id="style1102"
-       type="text/css">      .ColorScheme-Accent {
-        color:#3593e6;
-      }</style>
-    <style
        id="current-color-scheme"
-       type="text/css" />
+       type="text/css">
+      .ColorScheme-Accent {
+        color:#3593e6;
+      }
+    </style>
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient919"

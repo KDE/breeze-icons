@@ -76,11 +76,8 @@
         }
         .ColorScheme-Text {
             color:#232629;
-        }</style>
-    <style type="text/css">.ColorScheme-NegativeText {
-            color:#da4453;
-        }</style>
-    <style type="text/css">.ColorScheme-NegativeText {
+        }
+        .ColorScheme-NegativeText {
             color:#da4453;
         }</style>
     <g transform="translate(39,39)">

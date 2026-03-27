@@ -15,9 +15,6 @@
         <style id="current-color-scheme" type="text/css">.ColorScheme-Text {
         color:#232629;
       }</style>
-        <style id="current-color-scheme-3" type="text/css">.ColorScheme-Text {
-        color:#232629;
-      }</style>
         <linearGradient id="linearGradient4564" x1="5" x2="29" y1="17" y2="17" gradientTransform="matrix(.25 0 0 .88235294 2.75 12)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4562"/>
         <linearGradient id="linearGradient4191-7" x1="13.428571" x2="59.857143" y1="20.857141" y2="71" gradientTransform="matrix(1.0000026,0,0,1.0000026,5.5713487,-13.006117)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient4227"/>
         <linearGradient id="linearGradient4728" x1="20" x2="15" y1="10" gradientUnits="userSpaceOnUse">
@@ -47,12 +44,6 @@
             <stop id="stop1196" stop-opacity=".2" offset="0"/>
             <stop id="stop1198" stop-opacity="0" offset="1"/>
         </linearGradient>
-        <style id="current-color-scheme-37" type="text/css">.ColorScheme-Text {
-        color:#232629;
-      }</style>
-        <style id="current-color-scheme-3-5" type="text/css">.ColorScheme-Text {
-        color:#232629;
-      }</style>
     </defs>
     <g id="g1674" transform="matrix(1.8571477,0,0,1.8571477,2.2856254,2.2796362)">
         <path id="path83-6" d="m3.615423 27.849354h-0.5384601v0.53846h-0.5384601v0.53846h-0.5384602l-4.26e-5 1.073726h28l-3e-5 -1.073726h-0.538461v-0.53846h-0.53846v-0.53846h-0.53846v-0.53846h-24.769166z" fill="url(#linearGradient4564-0)"/>

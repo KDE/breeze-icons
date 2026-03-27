@@ -134,20 +134,6 @@
          stop-color="#fdbc4b"
          offset="1" />
     </linearGradient>
-    <style
-       type="text/css"
-       id="current-color-scheme-2">
-      .ColorScheme-Text {
-        color:#4d4d4d;
-      }
-      </style>
-    <style
-       type="text/css"
-       id="current-color-scheme-6">
-      .ColorScheme-Text {
-        color:#4d4d4d;
-      }
-      </style>
   </defs>
   <path
      style="fill:url(#b);stroke-width:2;stroke-linejoin:bevel"
