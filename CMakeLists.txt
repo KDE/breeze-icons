@@ -71,7 +71,6 @@ if(WITH_ICONS_LIBRARY)
       "${CMAKE_CURRENT_SOURCE_DIR}/KF6BreezeIconsConfig.cmake.in"
       "${CMAKE_CURRENT_BINARY_DIR}/KF6BreezeIconsConfig.cmake"
       INSTALL_DESTINATION  ${CMAKECONFIG_INSTALL_DIR}
-      PATH_VARS  CMAKE_INSTALL_PREFIX
     )
 
     install(FILES
