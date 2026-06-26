@@ -1,0 +1,14 @@
+<svg version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient2" x1="32" x2="32" y1="11" y2="61" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#fff" stop-opacity=".2" offset="0"/>
+   <stop stop-color="#fff" stop-opacity="0" offset="1"/>
+  </linearGradient>
+ </defs>
+ <rect x="7" y="11" width="50" height="50" fill="#2f80ed"/>
+  <rect x="7" y="60" width="50" height="1" opacity=".25" />
+  <rect x="7" y="11" width="50" height="1" fill="#fff" opacity=".5" />
+  <path d="m22 39c-2.98896 7.5e-4 -5.84891 1.21778-7.92188 3.37109l-2.7246-2.72461c-0.0942-0.0974-0.2239-0.15234-0.35938-0.15234-0.4494 9e-5 -0.67059 0.54683-0.34766 0.85937l2.76954 2.76954c-1.5635 1.95111-2.41564 4.37667-2.41602 6.87695v7h22v-7c-4e-3 -2.4983-0.85795-4.92089-2.42188-6.86914l2.77735-2.77735c0.32293-0.31254 0.10175-0.85928-0.34766-0.85937-0.13548 0-0.26516 0.055-0.35937 0.15234l-2.73242 2.73242c-2.07022-2.15473-4.92794-3.37452-7.91602-3.3789zm0 1c5.52285 0 10 4.47715 10 10v6h-20v-6c0-5.52285 4.47715-10 10-10zm-4.5 5c-0.82843 0-1.5 0.67157-1.5 1.5s0.67157 1.5 1.5 1.5 1.5-0.67157 1.5-1.5-0.67157-1.5-1.5-1.5zm9 0c-0.82843 0-1.5 0.67157-1.5 1.5s0.67157 1.5 1.5 1.5 1.5-0.67157 1.5-1.5-0.67157-1.5-1.5-1.5z" fill="#fff" opacity=".75" />
+ <rect x="7" y="11" width="50" height="50" fill="url(#linearGradient2)" />
+ <path d="m40 12v2h2v-2h-2zm2 2v2h2v-2h-2zm0 2h-2v2h2v-2zm0 2v2h2v-2h-2zm0 2h-2v2h2v-2zm0 2v2h2v-2h-2zm0 2h-2v2h2v-2zm-2 3v4h1v4h2v-4h1v-4h-4zm1 1h2v2h-2v-2z" fill="#fff" opacity=".75"/>
+</svg>
