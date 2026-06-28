@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <defs id="defs3051">
+    <style id="current-color-scheme" type="text/css">
+      .ColorScheme-Text{color:#232629}.ColorScheme-Accent{color:#3daee9}
+    </style>
+  </defs>
+  <path d="M 6 9 L 6 30 L 5 30 L 5 87 L 91 87 L 91 24 L 90 24 L 90 15 L 48 15 L 42 9 L 6 9 z" class="ColorScheme-Accent" style="fill:currentColor"/>
+  <path d="M 6 9 L 6 30 L 33 30 L 39 24 L 90 24 L 90 15 L 48 15 L 42 9 L 6 9 z" style="fill-opacity:0.33"/>
+  <path d="M 42 9 L 47 16 L 90 16 L 90 15 L 48 15 L 42 9 z M 39 24 L 33 30 L 5 30 L 5 31 L 34 31 L 39 24 z" style="fill:#ffffff;fill-opacity:0.2"/>
+  <path d="M 39 24 L 32 29 L 6 29 L 6 30 L 33 30 L 39 24 z M 5 86 L 5 87 L 91 87 L 91 86 L 5 86 z" class="ColorScheme-Text" style="fill-opacity:0.2;fill-rule:evenodd"/>
+  <path d="M 24 31 l 1.2 1.2 l 2.4 -2.6 l 0.9 0.9 l -3.3 3.5 l -2.1 -2.1 Z M 30 31.5 h7 v1.4 h-7 Z M 24 36 l 1.2 1.2 l 2.4 -2.6 l 0.9 0.9 l -3.3 3.5 l -2.1 -2.1 Z M 30 36.5 h7 v1.4 h-7 Z M 24 41 l 1.2 1.2 l 2.4 -2.6 l 0.9 0.9 l -3.3 3.5 l -2.1 -2.1 Z M 30 41.5 h5 v1.4 h-5 Z" class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.6;fill-rule:evenodd" transform="scale(1.5)"/>
+  <path d="M -1.2 -1.2 L 5.2 -1.2 L 5.2 10.3 L 2 15.4 L -1.2 10.3 Z" class="ColorScheme-Accent" style="fill:currentColor;fill-opacity:1" transform="rotate(35 -41.36 117.648)scale(1.5)"/>
+  <path d="M 0 0 L 4 0 L 4 10 L 2 13.5 L 0 10 Z M 0 7.5 L 4 7.5 L 4 8.5 L 0 8.5 Z" class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.6" transform="rotate(35 -41.36 117.648)scale(1.5)"/>
+</svg>

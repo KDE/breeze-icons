@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs id="defs3051">
+    <style id="current-color-scheme" type="text/css">
+      .ColorScheme-Text{color:#31363b}.ColorScheme-Accent{color:#3daee9}
+    </style>
+  </defs>
+  <path d="M 2 3 L 2 10 L 1 10 L 1 29 L 12 29 L 13 29 L 31 29 L 31 8 L 30 8 L 30 5 L 16 5 L 14 3 L 2 3 z" class="ColorScheme-Accent" style="fill:currentColor;fill-opacity:1;stroke:none"/>
+  <path d="m 2,3 0,7 9,0 L 13,8 30,8 30,5 16,5 14,3 2,3 Z" style="fill-opacity:0.33;fill-rule:evenodd"/>
+  <path d="M 14 3 L 15 6 L 30 6 L 30 5 L 16 5 L 14 3 z M 13 8 L 11 10 L 1 10 L 1 11 L 12 11 L 13 8 z" style="fill:#ffffff;fill-opacity:0.2;fill-rule:evenodd"/>
+  <path d="M 13 8 L 11 9 L 2 9 L 2 10 L 11 10 L 13 8 z M 1 28 L 1 29 L 31 29 L 31 28 L 1 28 z" class="ColorScheme-Text" style="fill-opacity:0.2;fill-rule:evenodd"/>
+  <path d="M 24 31 l 1.2 1.2 l 2.4 -2.6 l 0.9 0.9 l -3.3 3.5 l -2.1 -2.1 Z M 30 31.5 h7 v1.4 h-7 Z M 24 36 l 1.2 1.2 l 2.4 -2.6 l 0.9 0.9 l -3.3 3.5 l -2.1 -2.1 Z M 30 36.5 h7 v1.4 h-7 Z M 24 41 l 1.2 1.2 l 2.4 -2.6 l 0.9 0.9 l -3.3 3.5 l -2.1 -2.1 Z M 30 41.5 h5 v1.4 h-5 Z" class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.6;fill-rule:evenodd" transform="scale(.5)"/>
+  <path d="M -1.2 -1.2 L 5.2 -1.2 L 5.2 10.3 L 2 15.4 L -1.2 10.3 Z" class="ColorScheme-Accent" style="fill:currentColor;fill-opacity:1" transform="rotate(35 -13.787 39.216)scale(.5)"/>
+  <path d="M 0 0 L 4 0 L 4 10 L 2 13.5 L 0 10 Z M 0 7.5 L 4 7.5 L 4 8.5 L 0 8.5 Z" class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.6" transform="rotate(35 -13.787 39.216)scale(.5)"/>
+</svg>
