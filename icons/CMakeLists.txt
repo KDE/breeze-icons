@@ -118,7 +118,12 @@ if (WITH_ICONS_LIBRARY)
             EXPORT_NAME BreezeIcons
     )
 
-    generate_export_header(KF6BreezeIcons BASE_NAME BreezeIcons)
+    ecm_generate_export_header(KF6BreezeIcons
+        BASE_NAME BreezeIcons
+        GROUP_BASE_NAME KF
+        VERSION ${KF_VERSION}
+        USE_VERSION_HEADER
+    )
 
     target_include_directories(KF6BreezeIcons
         INTERFACE

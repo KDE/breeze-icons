@@ -64,6 +64,7 @@ option(BINARY_ICONS_RESOURCE "Install Qt binary resource file containing breeze 
 option(WITH_ICONS_LIBRARY "Build the Breeze icons library" ON)
 
 if(WITH_ICONS_LIBRARY)
+    set(version_header "${CMAKE_CURRENT_BINARY_DIR}/icons/breezeicons_version.h")
     set(CMAKECONFIG_INSTALL_DIR "${KDE_INSTALL_CMAKEPACKAGEDIR}/KF6BreezeIcons")
 
     configure_package_config_file(
@@ -81,7 +82,7 @@ if(WITH_ICONS_LIBRARY)
 
     ecm_setup_version(PROJECT
       VARIABLE_PREFIX BREEZEICONS
-      VERSION_HEADER ${CMAKE_CURRENT_BINARY_DIR}/breezeicons_version.h
+      VERSION_HEADER ${version_header}
       PACKAGE_VERSION_FILE "${CMAKE_CURRENT_BINARY_DIR}/KF6BreezeIconsConfigVersion.cmake"
       SOVERSION 6)
 
@@ -91,7 +92,7 @@ if(WITH_ICONS_LIBRARY)
       NAMESPACE KF6::
     )
 
-    install(FILES ${CMAKE_CURRENT_BINARY_DIR}/breezeicons_version.h
+    install(FILES ${version_header}
       DESTINATION ${KDE_INSTALL_INCLUDEDIR_KF}/BreezeIcons COMPONENT Devel)
 endif()
 
