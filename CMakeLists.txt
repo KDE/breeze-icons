@@ -24,6 +24,7 @@ include(GtkUpdateIconCache)
 include(ECMGenerateExportHeader)
 include(ECMGenerateHeaders)
 include(ECMSetupVersion)
+include(ECMInstalledLibraryCheck)
 
 # Dependencies
 set(REQUIRED_QT_VERSION 6.9.0)
