@@ -158,4 +158,16 @@ if (WITH_ICONS_LIBRARY)
         COMPONENT Devel
     )
 
+    ecm_add_installed_library_check(KF6BreezeIcons
+        PACKAGE_NAME "KF6BreezeIcons"
+        PACKAGE_TARGET_NAMESPACE "KF6::"
+    )
+
+    ecm_installed_library_check_include_strings(KF6BreezeIcons
+        HEADERS ${KF6BreezeIcons_CamelCase_HEADERS}
+    )
+
+    ecm_installed_library_check_version_preprocessor_macros(KF6BreezeIcons
+        PREFIX BREEZEICONS
+    )
 endif()
