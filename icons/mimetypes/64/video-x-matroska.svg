@@ -6,7 +6,7 @@
   </linearGradient>
   <path id="b" d="m369 312.36v44h58v-44h-18.455z"/>
  </defs>
- <g transform="translate(-366-295.36)">
+ <g transform="translate(-366 -302.36)">
   <use fill="#4154ba" xlink:href="#b"/>
   <rect width="58" x="369" y="355.36" fill="#2e3132" height="1" fill-opacity=".294"/>
   <g fill="#ffffff">
