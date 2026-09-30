@@ -10,7 +10,7 @@
   </linearGradient>
   <path color-rendering="auto" color-interpolation-filters="linearRGB" shape-rendering="auto" image-rendering="auto" text-rendering="auto" id="c" color-interpolation="sRGB" color="#000000" d="m386.57 545.8v-25h21l7 7v18h-7z"/>
  </defs>
- <g transform="translate(-384.57-515.8)">
+ <g transform="translate(-384.57 -517.8)">
   <use fill="#c4bb1b" xlink:href="#c"/>
   <g fill-rule="evenodd">
    <path opacity=".5" fill="#ffffff" d="m414.57 527.8l-7-7v7z"/>

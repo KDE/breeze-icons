@@ -5,7 +5,7 @@
             <stop stop-color="#fff" stop-opacity=".2" offset="1"/>
         </linearGradient>
     </defs>
-    <g transform="translate(-384.57143 -515.798)">
+    <g transform="translate(-384.57143 -517.798)">
         <rect x="388.57144" y="521.79797" width="23.999989" height="23.999989" color="#000000" color-rendering="auto" fill="#59786a" image-rendering="auto" shape-rendering="auto" solid-color="#000000" isolation="auto" mix-blend-mode="normal"/>
         <rect x="388.57144" y="544.79797" width="24.00001" height=".999974" color="#000000" color-rendering="auto" image-rendering="auto" opacity=".25" shape-rendering="auto" solid-color="#000000" isolation="auto" mix-blend-mode="normal"/>
         <g fill="#fff">

@@ -5,7 +5,7 @@
    <stop offset="1" stop-color="#ffffff" stop-opacity=".2"/>
   </linearGradient>
  </defs>
- <g color-rendering="auto" color-interpolation-filters="linearRGB" shape-rendering="auto" image-rendering="auto" text-rendering="auto" color-interpolation="sRGB" color="#000000" transform="translate(-384.57-515.8)">
+ <g color-rendering="auto" color-interpolation-filters="linearRGB" shape-rendering="auto" image-rendering="auto" text-rendering="auto" color-interpolation="sRGB" color="#000000" transform="translate(-384.57 -518.8)">
   <path fill="#4154ba" d="m414.57 545.8h-28v-22h28v7z"/>
   <rect x="386.57" y="544.8" fill-opacity=".294" width="28" fill="#2e3132" height="1"/>
   <g fill="#ffffff">
