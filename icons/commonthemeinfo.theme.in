@@ -637,27 +637,21 @@ MinSize=16
 [mimetypes/22]
 Size=22
 Context=MimeTypes
-Type=Scalable
-MinSize=22
-MaxSize=24
+Type=Fixed
 
 #22x22@2x - Fixed size - For small file type icons >!!!ONLY!!!< - DO_NOT_USE_ANYWHERE_ELSE - Monochrome
 [mimetypes/22@2x]
 Size=22
 Scale=2
 Context=MimeTypes
-Type=Scalable
-MinSize=22
-MaxSize=24
+Type=Fixed
 
 #22x22@3x - Fixed size - For small file type icons >!!!ONLY!!!< - DO_NOT_USE_ANYWHERE_ELSE - Monochrome
 [mimetypes/22@3x]
 Size=22
 Scale=3
 Context=MimeTypes
-Type=Scalable
-MinSize=22
-MaxSize=24
+Type=Fixed
 
 #24x24 - Fixed size - For small file type icons >!!!ONLY!!!< - DO_NOT_USE_ANYWHERE_ELSE - Monochrome
 [mimetypes/24]
