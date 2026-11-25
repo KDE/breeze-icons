@@ -161,6 +161,7 @@ if (WITH_ICONS_LIBRARY)
     ecm_add_installed_library_check(KF6BreezeIcons
         PACKAGE_NAME "KF6BreezeIcons"
         PACKAGE_TARGET_NAMESPACE "KF6::"
+        QT_STRICT_MODE_LEVEL 6.12
     )
 
     ecm_installed_library_check_include_strings(KF6BreezeIcons
